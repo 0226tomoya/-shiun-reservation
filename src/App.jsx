@@ -282,7 +282,7 @@ function CustomerPage({ slots, setSlots }) {
 
 export default function App() {
   const [slots, setSlots] = useState(generateSlots());
-  const [page, setPage] = useState("customer");
+  const isAdmin = window.location.pathname === '/admin';
 
   const adminCancel = (slotId, bookingId) => {
     setSlots(prev => prev.map(s => s.id === slotId
@@ -290,20 +290,9 @@ export default function App() {
       : s));
   };
 
-  return (
-    <div>
-      <div style={{ display: "flex", justifyContent: "center", gap: 0, background: "#e8e8de", borderBottom: "1px solid #d0d0c8" }}>
-        {[["customer", "お客様画面"], ["admin", "管理者画面"]].map(([key, label]) => (
-          <button key={key} onClick={() => setPage(key)} style={{
-            padding: "10px 28px", border: "none", background: "transparent", cursor: "pointer",
-            fontSize: 12, fontWeight: 600, letterSpacing: 1,
-            color: page === key ? INK : MUTED,
-            borderBottom: page === key ? `2px solid ${INK}` : "2px solid transparent",
-          }}>{label}</button>
-        ))}
-      </div>
-      {page === "customer" && <CustomerPage slots={slots} setSlots={setSlots} />}
-      {page === "admin" && <AdminPage slots={slots} onCancel={adminCancel} />}
-    </div>
-  );
+  if (isAdmin) {
+    return <AdminPage slots={slots} onCancel={adminCancel} />;
+  }
+
+  return <CustomerPage slots={slots} setSlots={setSlots} />;
 }
