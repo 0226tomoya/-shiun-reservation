@@ -59,6 +59,29 @@ function Row({ label, value, highlight }) {
   );
 }
 
+function AdminLogin({ onLogin }) {
+  const [pw, setPw] = useState("");
+  const [err, setErr] = useState(false);
+  const submit = () => {
+    if (pw === "20260220") { onLogin(); }
+    else { setErr(true); setPw(""); }
+  };
+  return (
+    <div style={{ fontFamily: "'Helvetica Neue', Arial, sans-serif", maxWidth: 480, margin: "0 auto", minHeight: "100vh", background: "#f5f5f0", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ background: "#fff", border: `1px solid ${BORDER}`, borderRadius: 16, padding: 40, width: "100%", maxWidth: 320 }}>
+        <div style={{ fontSize: 10, color: MUTED, letterSpacing: 3, marginBottom: 8 }}>ADMIN</div>
+        <div style={{ fontSize: 20, fontWeight: 800, marginBottom: 24 }}>管理者ログイン</div>
+        <Label>パスワード</Label>
+        <input type="password" value={pw} onChange={e => { setPw(e.target.value); setErr(false); }}
+          onKeyDown={e => e.key === "Enter" && submit()}
+          placeholder="••••••••" style={inputStyle} />
+        {err && <div style={{ color: "#c0392b", fontSize: 13, marginBottom: 12 }}>パスワードが違います</div>}
+        <button onClick={submit} style={primaryBtn}>ログイン</button>
+      </div>
+    </div>
+  );
+}
+
 function AdminPage({ slots, onCancel }) {
   const total = slots.reduce((a, s) => a + s.bookings.filter(b => !b.cancelled).length, 0);
   const cancelled = slots.reduce((a, s) => a + s.bookings.filter(b => b.cancelled).length, 0);
@@ -282,6 +305,7 @@ function CustomerPage({ slots, setSlots }) {
 
 export default function App() {
   const [slots, setSlots] = useState(generateSlots());
+  const [adminAuth, setAdminAuth] = useState(false);
   const isAdmin = window.location.pathname === '/admin';
 
   const adminCancel = (slotId, bookingId) => {
@@ -291,6 +315,7 @@ export default function App() {
   };
 
   if (isAdmin) {
+    if (!adminAuth) return <AdminLogin onLogin={() => setAdminAuth(true)} />;
     return <AdminPage slots={slots} onCancel={adminCancel} />;
   }
 
