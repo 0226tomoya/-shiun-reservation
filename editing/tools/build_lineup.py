@@ -311,7 +311,7 @@ def set_rule_position(el, r, ctx):
         set_transform(el, f'{ED_X[k % 4]} {ED_Y}', '0.6 0.6')
 
 
-SUBTITLE_SIZE = None  # --subtitle-size で上書き（A19=32、A18/A23=35）
+SUBTITLE_SIZE = None  # --subtitle-size で上書き（標準は型どおり 32。旧設定の動画と比べるときだけ 35）
 
 
 def cmd_restyle(tpl_path, src, out, proj_name='本編'):
