@@ -1,0 +1,505 @@
+{
+  "_about": "shiun ラインナップ動画（A19 = 26 Fall 2nd を正解）の編集仕様。座標は FCP の値そのまま。title_position は Basic/Custom タイトルの「位置」パラメータ（px、画面中央原点、x右+ / y上+、1920x1080）。transform_position はビデオインスペクタの位置（単位 = 画面の高さの1% = 10.8px）。最終位置 = title_position + transform_position*10.8。",
+  "timeline": {
+    "format": "1080p 59.94 (FFVideoFormat1080p5994)",
+    "main_camera": "4K 29.97 単カメ（A19）/ 全身+バスト 2カメ（A23）をマルチカムで編集、音声はピンマイク（調整済み）を angle 指定",
+    "main_cut_median_sec": 1.23,
+    "main_cut_p25_p75_sec": [
+      0.77,
+      1.94
+    ],
+    "overlay_share_of_runtime": 0.57,
+    "overlay_shot_median_sec": 5.3,
+    "overlay_shot_p25_p75_sec": [
+      3.4,
+      9.4
+    ]
+  },
+  "framing_A19": {
+    "_method": "メインカメラの上 lane 1 に調整レイヤー（共有用_Titles/Adjustment Layer）を敷き、変形の拡大と位置でパンチインする。同じ枠を商品区間（約90秒）ごとに維持し、区間ごとに Tight と Mid/Wide を切り替える",
+    "wide": {
+      "scale": 1.05,
+      "position": [
+        -0.056,
+        -2.537
+      ],
+      "use": "ラック全体+わむう全身。商品を手に取る・ラックを指す説明"
+    },
+    "mid": {
+      "scale": 1.21,
+      "position": [
+        9.444,
+        1.852
+      ],
+      "use": "膝上。通常のトーク"
+    },
+    "tight": {
+      "scale": 1.82,
+      "position": [
+        17.037,
+        -24.716
+      ],
+      "use": "上半身。熱量が上がる語り・コレクション紹介。x を 23.98 / 35 / 59.93 に振って構図を変える"
+    },
+    "op_tight": {
+      "scale": 1.92,
+      "position": [
+        -7.463,
+        -29.472
+      ],
+      "use": "OP の名前カード〜冒頭トーク"
+    },
+    "talent_position": "わむうは画面の右 1/3（x ≒ 60〜72%）。左 1/3 にラック（商品を掛ける）を置き、左上の商品名テロップがわむうに被らない構図"
+  },
+  "colors": {
+    "white": "#FFFFFF",
+    "olive_text": {
+      "fcp": "0.326729 0.347422 0.291619 1",
+      "hex": "#53594A",
+      "use": "サイズ比較画面の文字（身長体重・サイズ記号・商品名・表）"
+    },
+    "note_dark": {
+      "fcp": "0.0780316 0.0780316 0.0780316 1",
+      "hex": "#141414",
+      "use": "A19 の注意書き（A23 は olive）"
+    },
+    "subtitle_stroke": "0 0 0 0.15（黒15%、strokeWidth -2）"
+  },
+  "fonts": {
+    "latin_display": "Masqualero Bold（調整 = 1 1.4 で縦に 140% 伸ばす）",
+    "jp_subtitle": "Klee Medium（強調は Klee Demibold 45）",
+    "spec_table": "Hiragino Mincho ProN W3 20"
+  },
+  "titles": {
+    "name_card": {
+      "effect": "Build In:Out/Custom",
+      "title_position": [
+        -860.842,
+        -375.007
+      ],
+      "align": "left",
+      "runs": [
+        [
+          "WAMU",
+          70
+        ],
+        [
+          "\\n",
+          50
+        ],
+        [
+          "/Fashion YouTuber\\n/shiun Director",
+          40
+        ]
+      ],
+      "lineSpacing": -15,
+      "scale_xy": [
+        1,
+        1.4
+      ],
+      "duration_sec": 4.7,
+      "where": "OP 0秒、左下"
+    },
+    "collection_label": {
+      "effect": "Basic Title",
+      "title_position": [
+        -956.953,
+        485.985
+      ],
+      "transform_scale": 0.9,
+      "font": "Masqualero 40 白",
+      "text": "shiun 26 Fall 2nd Collection\\nSeptember 26th Sat. 10pm - Release",
+      "where": "OP・ED のトーク中、左上角"
+    },
+    "collection_center": {
+      "effect": "Basic Title",
+      "title_position": [
+        -0.26,
+        2.1
+      ],
+      "transform_scale": 0.9,
+      "align": "center",
+      "where": "商品切替アイキャッチの中央"
+    },
+    "product_label": {
+      "effect": "Basic Title",
+      "title_position": [
+        -849.551,
+        443.956
+      ],
+      "transform_position": [
+        -0.944,
+        0
+      ],
+      "font": "Masqualero 35（商品名）+ 18（Color/Size）。価格入り版は 35 / 20 / ¥ 35 + - tax in 20",
+      "lines": [
+        "商品名（英字大文字）",
+        "Color : BLACK | Size : XS, S, M",
+        "（価格入り版のみ）¥ 15,400 - tax in"
+      ],
+      "where": "トーク中ずっと左上。メインのカットごとに貼り直す（平均 10.7 秒/本）"
+    },
+    "product_label_stack2": {
+      "upper": {
+        "transform_position": [
+          -9.111,
+          5
+        ],
+        "transform_scale": 0.9
+      },
+      "lower": {
+        "transform_position": [
+          -9.111,
+          -3.626
+        ],
+        "transform_scale": 0.9
+      },
+      "where": "セットアップ等 2 商品同時紹介時の左上 2 段"
+    },
+    "product_center_on_split": {
+      "effect": "Basic Title",
+      "title_position": [
+        -0.0825,
+        43.05
+      ],
+      "transform_position_left": [
+        -44.444,
+        0
+      ],
+      "transform_position_right": [
+        44.444,
+        0
+      ],
+      "font": "Masqualero 45 / 25 中央揃え 行間 5",
+      "duration_sec": 4.2,
+      "where": "商品紹介イン（左右分割写真の各中央）"
+    },
+    "product_center_single": {
+      "title_position": [
+        -0.775,
+        8.575
+      ],
+      "align": "center",
+      "font": "Masqualero 45/25",
+      "duration_sec": 4.6
+    },
+    "section_label": {
+      "effect": "Basic Title",
+      "title_position_left_aligned": [
+        701.169,
+        -480.924
+      ],
+      "title_position_right_aligned": [
+        874.699,
+        -480.924
+      ],
+      "transform_position": [
+        -1.343,
+        84.722
+      ],
+      "font": "Masqualero 45 白",
+      "words": [
+        "Material",
+        "Design",
+        "Silhouette",
+        "Detail",
+        "Wash",
+        "Color"
+      ],
+      "where": "B-roll 中の右上",
+      "duration_sec": "9〜30（B-roll ブロック全体）"
+    },
+    "subtitle": {
+      "effect": "Basic Title",
+      "title_position": [
+        0,
+        -483.734
+      ],
+      "font": "Klee Medium 32（A23 は 35）白",
+      "kerning": 1.6,
+      "stroke": "黒15% / -2",
+      "align": "center",
+      "lineSpacing": -5,
+      "filters": [
+        "MP_テロップパック/フェードイン（無効化して配置）",
+        "MP_テロップパック/フェードアウト（無効化して配置）"
+      ],
+      "median_chars": 33,
+      "median_duration_sec": 9.3,
+      "where": "主に B-roll 上の下中央。1 行（長い時は 2 行）"
+    },
+    "emphasis": {
+      "font": "Klee Demibold 45 白 中央",
+      "where": "A23 の決め台詞・オチ（例: ※冗談です、ぜひご検討ください）"
+    },
+    "closing_line": {
+      "text": "数には限りがございますので、ぜひお早めにご検討ください",
+      "style": "subtitle",
+      "where": "各商品区間の最後"
+    }
+  },
+  "size_comparison": {
+    "duration_per_person_sec": 9.6,
+    "people": [
+      "158cm 55kg",
+      "165cm 50kg",
+      "164cm 58kg",
+      "167cm 50kg",
+      "170cm 54kg"
+    ],
+    "background": "特殊アイキャッチ・背景等/2サイズ.png（全画面）",
+    "model_clips": {
+      "left": {
+        "position": [
+          -5.4,
+          4.7
+        ],
+        "scale": 1.15,
+        "crop": true
+      },
+      "right": {
+        "position": [
+          52.3,
+          4.0
+        ],
+        "scale": 1.13
+      },
+      "filters": [
+        "基本3D 回転 -3 / 調整 1 1.02",
+        "センサー Blur Amount 0.5 Radius 300 Center 0.515 1.019（顔ぼかし）"
+      ]
+    },
+    "height_label": {
+      "effect": "Custom",
+      "title_position": [
+        -865.344,
+        431.58
+      ],
+      "font": "Masqualero 70（A19 は 50 も混在） olive"
+    },
+    "size_letters": {
+      "effect": "Custom",
+      "positions": [
+        [
+          -292.8,
+          404.6
+        ],
+        [
+          312.5,
+          406.5
+        ]
+      ],
+      "transform_position": [
+        -2.266,
+        2.407
+      ],
+      "font": "Masqualero 50 olive"
+    },
+    "spec_table": {
+      "compound": "身長別比較 クリップ（サイズスペック線 = 単色ジェネレーターを幅 0.001 に潰した罫線）",
+      "transform_position_upper": [
+        -11.383,
+        -27.148
+      ],
+      "transform_position_lower": [
+        -11.383,
+        18.982
+      ],
+      "transform_scale": 0.8,
+      "font": "Hiragino Mincho ProN W3 20 olive"
+    },
+    "product_name_small": {
+      "effect": "Custom",
+      "title_position": [
+        -952,
+        -366.194
+      ],
+      "transform_scale": 0.6,
+      "transform_positions": [
+        [
+          -22.278,
+          22.155
+        ],
+        [
+          -22.278,
+          -19.759
+        ]
+      ],
+      "font": "Masqualero 35 olive"
+    },
+    "note": {
+      "text": "色味はshiunオンラインストアの画像をご参照ください",
+      "title_position": [
+        860.006,
+        -514.532
+      ],
+      "font": "Klee Medium 20",
+      "align": "right"
+    }
+  },
+  "broll": {
+    "tilt_3d": {
+      "filter": "基本3D",
+      "params": {
+        "回転": "-3 0 0",
+        "調整": "1 1.02"
+      },
+      "use": "置き撮り（E1_*）と一部の手持ち。わずかに傾けて動きを出す"
+    },
+    "photo_zoom": {
+      "filter": "MP_テロップパック/02_モーション/拡大",
+      "params": {
+        "速度": 0.02,
+        "コントラスト": 0.8
+      },
+      "scale_range": [
+        2.7,
+        5.2
+      ],
+      "use": "SNS用高画質の商品写真を大きく寄せて素材感を見せる"
+    },
+    "split_two_up": {
+      "left": {
+        "position": [
+          -41.9,
+          -6.4
+        ],
+        "scale": 1.23
+      },
+      "right": {
+        "position": [
+          39.9,
+          0
+        ],
+        "scale": 1.06
+      },
+      "crop": "左右とも半分にクロップ"
+    },
+    "punch_in_adjustment": "B-roll の上に調整レイヤーを置き、拡大 1.07〜1.55 で寄る（素材自体は触らない）",
+    "folders": [
+      "EC動画/手持ち",
+      "EC動画/置き",
+      "SNS用高画質/<番号>.<商品名>",
+      "LOOK選定後",
+      "わむうスナップ",
+      "重ねて使う系",
+      "特殊アイキャッチ・背景等"
+    ]
+  },
+  "film_look_teaser": {
+    "layer_a": [
+      "色補正 露出（ハイライト）0.675",
+      "プリズム Amount 3",
+      "ブルーム Amount 0.0931",
+      "クロップあり"
+    ],
+    "layer_b": [
+      "プロジェクタ",
+      "ビネット",
+      "ノイズを追加"
+    ],
+    "use": "OP ティーザーと商品切替アイキャッチ（1.9 秒）。ルック写真を拡大 2.07〜2.7 で敷き、上に 2 枚の調整レイヤー"
+  },
+  "audio": {
+    "bgm": {
+      "track": "ES_See You in My Dreams - William Claeson（Epidemic Sound）をループ",
+      "level_db": -17,
+      "boost_db_when_no_talk": 8
+    },
+    "se": {
+      "file": "SE/決定ボタンを押す32.mp3",
+      "where": "商品切替アイキャッチ・ED ラインナップの頭"
+    },
+    "voice": "ピンマイク音声（調整済み）を multicam の音声 angle に。必要箇所のみ +7〜12dB"
+  },
+  "structure_A19": [
+    {
+      "t": "0:00",
+      "block": "OP 名前カード + 冒頭トーク（op_tight）"
+    },
+    {
+      "t": "0:05",
+      "block": "ティーザー（フィルムルック写真/動画 1.5〜2 秒刻み、中央に shiun / 26 Fall 2nd Collection）"
+    },
+    {
+      "t": "0:10",
+      "block": "左上コレクションラベル + B-roll 2 秒刻みモンタージュ"
+    },
+    {
+      "t": "0:28",
+      "block": "コレクションテーマ字幕"
+    },
+    {
+      "t": "0:49",
+      "block": "ルック写真 左右 2 枚並べ 2.8 秒刻み"
+    },
+    {
+      "t": "1:26",
+      "block": "B-roll 2.4 秒刻み（BGM +8dB）"
+    },
+    {
+      "t": "1:49",
+      "block": "カウントダウン ○ DAYS LEFT（14.5 秒）"
+    },
+    {
+      "t": "2:03",
+      "block": "商品1〜2（セットアップ）: 分割写真イン → トーク（左上 2 段ラベル）→ Material / Design / Silhouette / Detail の B-roll ブロック"
+    },
+    {
+      "t": "10:19",
+      "block": "身長別比較 1（5 人 × 9.6 秒）"
+    },
+    {
+      "t": "11:08",
+      "block": "アイキャッチ → 商品3"
+    },
+    {
+      "t": "14:56",
+      "block": "身長別比較 2"
+    },
+    {
+      "t": "15:45",
+      "block": "アイキャッチ → 商品4"
+    },
+    {
+      "t": "18:48",
+      "block": "身長別比較 3"
+    },
+    {
+      "t": "19:38",
+      "block": "商品5（小物）"
+    },
+    {
+      "t": "21:15",
+      "block": "商品6（靴）"
+    },
+    {
+      "t": "25:12",
+      "block": "ED: ラインナップ一覧 → 発売日.png → 締め字幕 → エンディング動画 8.5 秒"
+    }
+  ],
+  "color": {
+    "method": "メインカメラ上 lane 1 の調整レイヤーに『カラー調整』（A19 で 189 回使われている同一プリセット）。B-roll ごとに lane 4〜5 の調整レイヤーで個別補正",
+    "reference_stats": "reference/A19_look.json",
+    "measured_A19": {
+      "wall_rgb": [
+        172,
+        170,
+        160
+      ],
+      "highlight_cap_rgb": [
+        228,
+        227,
+        218
+      ],
+      "black_rgb": [
+        4,
+        4,
+        2
+      ],
+      "lab_b_mean": 4.4,
+      "chroma_mean": 5.2,
+      "character": "暖色寄りのグレー、低彩度、ハイライトは 228 付近で頭打ち（白飛びさせない）、黒は締める"
+    }
+  }
+}
