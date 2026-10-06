@@ -16,6 +16,7 @@ scenes.json: [{"id": "S01", "label": "名前カード", "t0": 0.0, "t1": 4.7}, .
 import copy
 import json
 import sys
+import unicodedata
 from fractions import Fraction
 import xml.etree.ElementTree as ET
 
@@ -69,7 +70,8 @@ def main():
     root = tree.getroot()
     resources = root.find('resources')
     res = {e.get('id'): e for e in resources}
-    project = [p for p in root.iter('project') if p.get('name') == proj_name][0]
+    norm = lambda x: unicodedata.normalize('NFC', x or '')
+    project = [p for p in root.iter('project') if norm(p.get('name')) == norm(proj_name)][0]
     seq = project.find('sequence')
     items = collect_connected(project)
     scenes = json.load(open(scenes_path, encoding='utf-8'))

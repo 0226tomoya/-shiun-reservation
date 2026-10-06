@@ -140,7 +140,9 @@ def walk(e, abs_start, local_start, path, lane, expand_refs=True, win=None):
                     walk(c2, a0, st, path + [e.get('name')], 'in:' + (lane or '0'), win=(v0, v1))
 
 
-proj = [p for p in root.iter('project') if p.get('name') == proj_name][0]
+import unicodedata
+norm = lambda x: unicodedata.normalize('NFC', x or '')
+proj = [p for p in root.iter('project') if norm(p.get('name')) == norm(proj_name)][0]
 spine = proj.find('sequence/spine')
 for e in spine:
     walk(e, Fraction(0), Fraction(0), [], None)
