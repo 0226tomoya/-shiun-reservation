@@ -1,0 +1,19 @@
+{
+  "_about": "A24 shiun 26 Winter 1st ラインナップの組み立て計画。（仮）の項目は確定情報が届いたら差し替える。",
+  "project": "本編",
+  "donor": {"fcpxml": "../sources/A19_本編.fcpxml", "project": "本編"},
+  "templates": "../components/role_templates_A19.fcpxml",
+  "collection": "shiun 26 Winter 1st Collection",
+  "release_line": "October 24th Sat. 10pm - Release（仮）",
+  "countdown": true,
+  "label_delay": 6,
+  "framing": {"op": "op_tight", "products": ["tight", "mid"], "ed": "mid"},
+  "products": [
+    {"chapter": "1.ローファー", "name": "LOAFER（仮）", "color": "要確認", "sizes": "要確認"},
+    {"chapter": "2.カーコート", "name": "CAR COAT（仮）", "color": "要確認", "sizes": "XS, S, M"},
+    {"chapter": "3.Vネックニット", "name": "V NECK KNIT（仮）", "color": "要確認", "sizes": "XS, S, M"},
+    {"chapter": "4.ニットポロ", "name": "KNIT POLO（仮）", "color": "要確認", "sizes": "XS, S, M"},
+    {"chapter": "5.スラックス", "name": "SLACKS（仮）", "color": "要確認", "sizes": "XS, S, M"},
+    {"chapter": "6.ベルト", "name": "BELT（仮）", "color": "要確認", "sizes": "要確認"}
+  ]
+}
