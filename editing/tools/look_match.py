@@ -7,7 +7,8 @@
   reference  画像/動画から基準ルックの統計を作る
       python3 look_match.py reference OUT.json INPUT... [--storyboard]
   lut        素材のサンプルから基準ルックに合わせる LUT を作る
-      python3 look_match.py lut REF.json OUT.cube INPUT... [--strength 0.8] [--size 33]
+      python3 look_match.py lut REF.json OUT.cube INPUT... [--strength 0.8] [--size 33] [--mode anchors|histogram]
+      anchors（既定）は黒点・白壁・白点に合わせるので、服の色など映っている内容の影響を受けにくい
   apply      LUT を画像に当ててプレビューを作る（左: 元 / 右: 適用後）
       python3 look_match.py apply LUT.cube IN_IMAGE OUT_IMAGE
   stats      画像/動画の統計を基準と比べて表示する
@@ -114,6 +115,19 @@ def stats(frames):
         out['bands'].append({'L': [lo, hi], 'a_mean': float(sub[:, 1].mean()), 'b_mean': float(sub[:, 2].mean()),
                              'a_std': float(sub[:, 1].std()), 'b_std': float(sub[:, 2].std()), 'share': float(m.mean())})
     out['chroma_mean'] = float(np.hypot(lab[:, 1], lab[:, 2]).mean())
+    # 内容に左右されにくい基準点: 黒点・白点と、明るく色の薄い面（白壁・グレー背景）の色
+    neutral = []
+    for f in fr:
+        h, w, _ = f.shape
+        reg = rgb_to_lab(f[int(h * 0.03):int(h * 0.3), int(w * 0.25):int(w * 0.75)]).reshape(-1, 3)
+        m = (reg[:, 0] > 55) & (reg[:, 0] < 92) & (np.hypot(reg[:, 1], reg[:, 2]) < 12)
+        if m.mean() > 0.3:
+            neutral.append(reg[m])
+    out['anchors'] = {'black_L': float(np.percentile(L, 1)), 'white_L': float(np.percentile(L, 99.5))}
+    if neutral:
+        nz = np.concatenate(neutral)
+        out['anchors'].update({'wall_L': float(nz[:, 0].mean()), 'wall_a': float(nz[:, 1].mean()),
+                               'wall_b': float(nz[:, 2].mean()), 'wall_frames': len(neutral)})
     return out
 
 
@@ -143,6 +157,27 @@ def build_transform(src, ref, strength):
         fade = np.clip(np.minimum(L2 / 6, (100 - L2) / 6), 0, 1)
         a2, b2 = a2 * fade, b2 * fade
         out = np.stack([L2, a2, b2], -1)
+        return lab + (out - lab) * strength
+
+    return f
+
+
+def build_anchor_transform(src, ref, strength):
+    """黒点・白壁・白点の 3 点で明るさを、白壁の色でホワイトバランスを合わせる（内容の影響を受けにくい）。"""
+    sa, ra = src.get('anchors', {}), ref.get('anchors', {})
+    if 'wall_L' not in sa or 'wall_L' not in ra:
+        raise SystemExit('白壁（明るい無彩色の面）が見つからないため anchors モードを使えません。--mode histogram を使ってください')
+    xs = [0, sa['black_L'], sa['wall_L'], sa['white_L'], 100]
+    ys = [0, ra['black_L'], ra['wall_L'], ra['white_L'], 100]
+    xs = np.maximum.accumulate(np.array(xs) + np.arange(5) * 1e-6)
+    da, db = ra['wall_a'] - sa['wall_a'], ra['wall_b'] - sa['wall_b']
+
+    def f(lab):
+        L, a, b = lab[..., 0], lab[..., 1], lab[..., 2]
+        L2 = np.interp(L, xs, ys)
+        # 色の補正は中間〜明部に効かせ、黒と白の端では弱める
+        w = np.clip(np.minimum(L2 / 25, (100 - L2) / 8), 0, 1)
+        out = np.stack([L2, a + da * w, b + db * w], -1)
         return lab + (out - lab) * strength
 
     return f
@@ -188,9 +223,11 @@ def apply_cube(img, size, lut):
 
 def summary(s):
     q = s['L_quantiles']
+    an = s.get('anchors', {})
+    wall = f"  白壁 L{an['wall_L']:.1f} a{an['wall_a']:.2f} b{an['wall_b']:.2f}" if 'wall_L' in an else ''
     return (f"L p5/25/50/75/95 = {q[5]:.1f}/{q[25]:.1f}/{q[50]:.1f}/{q[75]:.1f}/{q[95]:.1f}  "
             f"a,b(中間調) = {s['bands'][2]['a_mean']:.2f},{s['bands'][2]['b_mean']:.2f}  "
-            f"a,b(ハイライト) = {s['bands'][3]['a_mean']:.2f},{s['bands'][3]['b_mean']:.2f}  彩度 = {s['chroma_mean']:.2f}")
+            f"a,b(ハイライト) = {s['bands'][3]['a_mean']:.2f},{s['bands'][3]['b_mean']:.2f}  彩度 = {s['chroma_mean']:.2f}" + wall)
 
 
 def main():
@@ -199,6 +236,8 @@ def main():
     p = sp.add_parser('reference'); p.add_argument('out'); p.add_argument('inputs', nargs='+'); p.add_argument('--storyboard', action='store_true')
     p = sp.add_parser('lut'); p.add_argument('ref'); p.add_argument('out'); p.add_argument('inputs', nargs='+')
     p.add_argument('--strength', type=float, default=0.8); p.add_argument('--size', type=int, default=33); p.add_argument('--storyboard', action='store_true')
+    p.add_argument('--mode', choices=['anchors', 'histogram'], default='anchors',
+                   help='anchors: 黒点・白壁・白点に合わせる（既定、内容の影響を受けにくい） / histogram: 明るさの分布全体を合わせる')
     p = sp.add_parser('apply'); p.add_argument('cube'); p.add_argument('inp'); p.add_argument('out')
     p = sp.add_parser('stats'); p.add_argument('ref'); p.add_argument('inputs', nargs='+'); p.add_argument('--storyboard', action='store_true')
     a = ap.parse_args()
@@ -211,7 +250,11 @@ def main():
         ref = json.load(open(a.ref))
         src = stats(load_frames(a.inputs, a.storyboard))
         print('素材 :', summary(src)); print('基準 :', summary(ref))
-        write_cube(a.out, build_transform(src, ref, a.strength), a.size, os.path.splitext(os.path.basename(a.out))[0])
+        fn = build_anchor_transform(src, ref, a.strength) if a.mode == 'anchors' else build_transform(src, ref, a.strength)
+        if a.mode == 'anchors':
+            sa, ra = src['anchors'], ref['anchors']
+            print(f"白壁 : 素材 L{sa['wall_L']:.1f} a{sa['wall_a']:.2f} b{sa['wall_b']:.2f} → 基準 L{ra['wall_L']:.1f} a{ra['wall_a']:.2f} b{ra['wall_b']:.2f}")
+        write_cube(a.out, fn, a.size, os.path.splitext(os.path.basename(a.out))[0])
         print('->', a.out)
     elif a.cmd == 'apply':
         size, lut = read_cube(a.cube)

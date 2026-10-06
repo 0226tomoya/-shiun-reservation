@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.14">
+  <resources>
+    <format id="r37" name="FFVideoFormat1080p5994" frameDuration="1001/60000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <effect id="r40" name="基本タイトル" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti" />
+    <effect id="r381" name="カスタム" uid=".../Titles.localized/Build In:Out.localized/Custom.localized/Custom.moti" />
+    <effect id="r445" name="新規テンプレート" uid="~/Titles.localized/自己カテゴリ/テストテーマ/新規テンプレート/新規テンプレート.moti" src="file:///Users/modantaimusu/Library/Containers/com.apple.FinalCut/Data/Movies/Motion%20Templates.localized/Titles.localized/%E8%87%AA%E5%B7%B1%E3%82%AB%E3%83%86%E3%82%B3%E3%82%99%E3%83%AA/%E3%83%86%E3%82%B9%E3%83%88%E3%83%86%E3%83%BC%E3%83%9E/%E6%96%B0%E8%A6%8F%E3%83%86%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%83%88/%E6%96%B0%E8%A6%8F%E3%83%86%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%83%88.moti" />
+  </resources>
+  <library>
+    <event name="shiun 型">
+      <project name="型_テロップ">
+        <sequence format="r37" duration="190s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <gap name="型" offset="0s" start="0s" duration="190/1s">
+              <title ref="r40" lane="1" offset="0s" name="collection_center:any" start="217669452/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.2925 11.3751" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3340146330/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3340146330/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts11">shiun </text-style>
+                  <text-style ref="ts12">
+</text-style>
+                  <text-style ref="ts11">26 Fall 2nd Collection</text-style>
+                </text>
+                <text-style-def id="ts11">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts12">
+                  <text-style font="Masqualero" fontSize="42" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+              </title>
+              <title ref="r40" lane="1" offset="10s" name="collection_label:any" start="292599307/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-956.953 485.985" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339648324/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339648324/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts13">shiun 26 Fall 2nd Collection
+</text-style>
+                  <text-style ref="ts14">September 26th Sat. 10pm - Release</text-style>
+                </text>
+                <text-style-def id="ts13">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts14">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <adjust-transform scale="0.9 0.9" />
+              </title>
+              <title ref="r40" lane="1" offset="20s" name="collection_label_center:any" start="298352054/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.26 426.365" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339648324/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339648324/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts1006">shiun 26 Fall 2nd Collection
+</text-style>
+                  <text-style ref="ts1007">September 26th Sat. 10pm - Release</text-style>
+                </text>
+                <text-style-def id="ts1006">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts1007">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <adjust-transform scale="0.9 0.9" />
+              </title>
+              <title ref="r40" lane="1" offset="30s" name="ed_product_name:any" start="216250034/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
+                <text>
+                  <text-style ref="ts1023">SLIDE BUCKLE MESH BELT
+</text-style>
+                  <text-style ref="ts1024">Color : BLACK | Size : Free
+</text-style>
+                  <text-style ref="ts1025">¥ 9,900</text-style>
+                  <text-style ref="ts1024"> - tax in</text-style>
+                </text>
+                <text-style-def id="ts1023">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="5" />
+                </text-style-def>
+                <text-style-def id="ts1024">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <text-style-def id="ts1025">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <adjust-transform position="-27.7778 -35.4815" scale="0.6 0.6" />
+              </title>
+              <title ref="r40" lane="1" offset="40s" name="emphasis:any" start="216172957/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="2.5 -18.5" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts871">この度再販いたしま</text-style>
+                  <text-style ref="ts872">す</text-style>
+                </text>
+                <text-style-def id="ts871">
+                  <text-style font="Klee" fontSize="50" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" kerning="2.5" alignment="center" lineSpacing="-5">
+                    <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
+                      <param name="motionTextTracking" key="tracking" value="2.5" />
+                    </param>
+                  </text-style>
+                </text-style-def>
+                <text-style-def id="ts872">
+                  <text-style font="Klee" fontSize="50" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <filter-video ref="r383" name="フェードアウト" />
+                <filter-video ref="r384" name="フェードイン" />
+              </title>
+              <title ref="r381" lane="1" offset="50s" name="name_card:any" start="215997782/60000s" duration="9s">
+                <param name="位置" key="9999/10199/10201/1/100/101" value="-860.842 -375.007" />
+                <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
+                <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/10199/10201/2/354/1002961760/404" value="-15" />
+                <param name="配置" key="9999/10199/10201/2/354/3339647458/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/10199/10201/2/354/3339647458/404" value="-15" />
+                <param name="配置" key="9999/10199/10201/2/354/3339647459/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/10199/10201/2/354/3339647459/404" value="-15" />
+                <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
+                <text>
+                  <text-style ref="ts8">WAMU</text-style>
+                  <text-style ref="ts9">
+</text-style>
+                  <text-style ref="ts10">/Fashion YouTuber
+/shiun Director</text-style>
+                </text>
+                <text-style-def id="ts10">
+                  <text-style font="Masqualero" fontSize="40" fontColor="0.999995 1 1 1" bold="1" lineSpacing="-15" />
+                </text-style-def>
+                <text-style-def id="ts8">
+                  <text-style font="Masqualero" fontSize="70" fontColor="0.999995 1 1 1" bold="1" lineSpacing="-15" />
+                </text-style-def>
+                <text-style-def id="ts9">
+                  <text-style font="Masqualero" fontSize="50" fontColor="0.999995 1 1 1" bold="1" lineSpacing="-15" />
+                </text-style-def>
+              </title>
+              <title ref="r40" lane="1" offset="60s" name="product_center:plain" start="216205990/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-480 1.57505" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339660513/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts37">COTTON FLANNEL JACKET
+</text-style>
+                  <text-style ref="ts38">Color : BLACK | Size : XS, S, M</text-style>
+                </text>
+                <text-style-def id="ts37">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts38">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+              </title>
+              <title ref="r40" lane="1" offset="70s" name="product_center:price" start="216205990/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
+                <text>
+                  <text-style ref="ts326">COTTON FLANNEL JACKET
+</text-style>
+                  <text-style ref="ts327">Color : BLACK | Size : XS, S, M
+</text-style>
+                  <text-style ref="ts328">¥ 15,400</text-style>
+                  <text-style ref="ts327"> - tax in</text-style>
+                </text>
+                <text-style-def id="ts326">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="5" />
+                </text-style-def>
+                <text-style-def id="ts327">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <text-style-def id="ts328">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <adjust-transform position="-44.4444 0" />
+              </title>
+              <title ref="r40" lane="1" offset="80s" name="product_label:plain" start="432413982/120000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-849.551 443.956" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="0 (左揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <text>
+                  <text-style ref="ts469">FAUX SUEDE FLIGHT BLOUSON</text-style>
+                  <text-style ref="ts470">
+</text-style>
+                  <text-style ref="ts471">Color : BLACK | Size : XS, S, M</text-style>
+                </text>
+                <text-style-def id="ts469">
+                  <text-style font="Masqualero" fontSize="35" fontColor="1 1 1 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts470">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts471">
+                  <text-style font="Masqualero" fontSize="18" fontColor="1 1 1 1" bold="1" />
+                </text-style-def>
+                <adjust-transform position="-0.944444 0" />
+              </title>
+              <title ref="r40" lane="1" offset="90s" name="product_label:price" start="461735274/120000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-849.993 443.956" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="0 (左揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3341122438/401" value="0 (左揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <text>
+                  <text-style ref="ts546">FAUX SUEDE FLIGHT BLOUSON</text-style>
+                  <text-style ref="ts547">
+</text-style>
+                  <text-style ref="ts548">Color : BLACK | Size : XS, S, M</text-style>
+                  <text-style ref="ts549">
+</text-style>
+                  <text-style ref="ts546">¥ 16,500</text-style>
+                  <text-style ref="ts548"> - tax in</text-style>
+                </text>
+                <text-style-def id="ts546">
+                  <text-style font="Masqualero" fontSize="35" fontColor="0.999995 1 1 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts547">
+                  <text-style font="Masqualero" fontSize="45" fontColor="0.999995 1 1 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts548">
+                  <text-style font="Masqualero" fontSize="18" fontColor="0.999995 1 1 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts549">
+                  <text-style font="Masqualero" fontSize="25" fontColor="0.999995 1 1 1" bold="1" />
+                </text-style-def>
+                <adjust-transform position="-0.944444 0" />
+              </title>
+              <title ref="r40" lane="1" offset="100s" name="product_label_bottom:any" start="116249133/30000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-864.034 -401.338" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339660513/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3341122438/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3341122438/404" value="-3" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
+                <text>
+                  <text-style ref="ts554">FAUX SUEDE ZIP BLOUSON</text-style>
+                  <text-style ref="ts555">
+</text-style>
+                  <text-style ref="ts556">Color : BLACK | Size : XS, S, M</text-style>
+                  <text-style ref="ts557">
+</text-style>
+                  <text-style ref="ts554">¥ 14,300</text-style>
+                  <text-style ref="ts558"> - tax in</text-style>
+                </text>
+                <text-style-def id="ts554">
+                  <text-style font="Masqualero" fontSize="35" fontColor="1 1 1 1" bold="1" lineSpacing="-3" />
+                </text-style-def>
+                <text-style-def id="ts555">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" lineSpacing="-3" />
+                </text-style-def>
+                <text-style-def id="ts556">
+                  <text-style font="Masqualero" fontSize="18" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts557">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts558">
+                  <text-style font="Masqualero" fontSize="18" fontColor="1 1 1 1" bold="1" lineSpacing="-3" />
+                </text-style-def>
+              </title>
+              <title ref="r40" lane="1" offset="110s" name="section_label:any" start="88974886/24000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="874.091 -480.924" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="2 (右揃え)" />
+                <text>
+                  <text-style ref="ts215">Design</text-style>
+                </text>
+                <text-style-def id="ts215">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="right" />
+                </text-style-def>
+                <adjust-transform position="-1.34295 84.7222" />
+              </title>
+              <title ref="r381" lane="1" offset="120s" name="size_height_label:any" start="432035604/120000s" duration="9s">
+                <param name="位置" key="9999/10199/10201/1/100/101" value="-865.344 405.287" />
+                <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
+                <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="0 (左揃え)" />
+                <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
+                <text>
+                  <text-style ref="ts574">158cm 55kg</text-style>
+                </text>
+                <text-style-def id="ts574">
+                  <text-style font="Masqualero" fontSize="70" fontColor="0.326729 0.347422 0.291619 1" bold="1" />
+                </text-style-def>
+              </title>
+              <title ref="r381" lane="1" offset="130s" name="size_letter:any" start="430866436/120000s" duration="9s">
+                <param name="位置" key="9999/10199/10201/1/100/101" value="-290.868 404.759" />
+                <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
+                <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="0 (左揃え)" />
+                <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
+                <text>
+                  <text-style ref="ts417">S</text-style>
+                </text>
+                <text-style-def id="ts417">
+                  <text-style font="Masqualero" fontSize="50" fontColor="0.329855 0.347017 0.290697 1" bold="1" />
+                </text-style-def>
+                <adjust-transform position="-2.26635 2.40741" />
+              </title>
+              <title ref="r40" lane="1" offset="140s" name="size_note:any" start="449801352/120000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="860.006 -514.532" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="2 (右揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts397">色味はshiunオンラインストアの画像をご参照くださ</text-style>
+                  <text-style ref="ts398">い</text-style>
+                </text>
+                <text-style-def id="ts397">
+                  <text-style font="Klee" fontSize="20" fontFace="Medium" fontColor="0.0780316 0.0780316 0.0780316 1" kerning="1" alignment="right" lineSpacing="-5">
+                    <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
+                      <param name="motionTextTracking" key="tracking" value="1" />
+                    </param>
+                  </text-style>
+                </text-style-def>
+                <text-style-def id="ts398">
+                  <text-style font="Klee" fontSize="20" fontFace="Medium" fontColor="0.0780316 0.0780316 0.0780316 1" alignment="right" lineSpacing="-5" />
+                </text-style-def>
+                <filter-video ref="r383" name="フェードアウト" enabled="0" />
+                <filter-video ref="r384" name="フェードイン" enabled="0" />
+              </title>
+              <title ref="r381" lane="1" offset="150s" name="size_product_name:any" start="230320090/60000s" duration="9s" role="video.video-1">
+                <param name="位置" key="9999/10199/10201/1/100/101" value="-952 -366.194" />
+                <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
+                <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/10199/10201/2/354/1002961760/404" value="-5" />
+                <param name="配置" key="9999/10199/10201/2/354/3336892512/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/10199/10201/2/354/3336892512/404" value="-5" />
+                <param name="配置" key="9999/10199/10201/2/354/3336903817/401" value="0 (左揃え)" />
+                <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
+                <text>
+                  <text-style ref="ts772">COTTON L/S TEE</text-style>
+                  <text-style ref="ts773">
+</text-style>
+                  <text-style ref="ts774">Color : WHITE, BLACK | Size : XS, S, M
+</text-style>
+                  <text-style ref="ts775">¥ 5,940</text-style>
+                  <text-style ref="ts776"> </text-style>
+                  <text-style ref="ts777">- tax in</text-style>
+                </text>
+                <text-style-def id="ts772">
+                  <text-style font="Masqualero" fontSize="33" fontColor="0.326729 0.347422 0.291619 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts773">
+                  <text-style font="Masqualero" fontSize="49.6" fontColor="0.326729 0.347422 0.291619 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts774">
+                  <text-style font="Masqualero" fontSize="20" fontColor="0.326729 0.347422 0.291619 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="ts775">
+                  <text-style font="Masqualero" fontSize="35" fontColor="0.326729 0.347422 0.291619 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts776">
+                  <text-style font="Masqualero" fontSize="31" fontColor="0.326729 0.347422 0.291619 1" bold="1" />
+                </text-style-def>
+                <text-style-def id="ts777">
+                  <text-style font="Masqualero" fontSize="20" fontColor="0.326729 0.347422 0.291619 1" bold="1" />
+                </text-style-def>
+                <adjust-transform scale="0.9 0.9" />
+              </title>
+              <title ref="r445" lane="1" offset="160s" name="size_spec_header:kitake" start="419951532/120000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-862.005 123.953" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3336908778/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3336908778/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3336908779/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3336908779/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3336908780/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3336908780/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="64" />
+                <text>
+                  <text-style ref="ts584">着丈
+身幅
+肩幅
+袖丈</text-style>
+                </text>
+                <text-style-def id="ts584">
+                  <text-style font="Hiragino Mincho ProN" fontSize="20" fontFace="W3" fontColor="0.32672 0.3473 0.295676 1" lineSpacing="64" />
+                </text-style-def>
+                <adjust-transform position="0 0.990741" />
+              </title>
+              <title ref="r40" lane="1" offset="170s" name="size_spec_value:any" start="425699274/120000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-455.389 227.353" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339670375/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339670375/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339670376/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339670376/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339670377/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339670377/404" value="65" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339670378/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339670378/404" value="64" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="52" />
+                <text>
+                  <text-style ref="ts575">M
+</text-style>
+                  <text-style ref="ts576">60.5cm
+61cm
+</text-style>
+                  <text-style ref="ts577">50.5cm
+</text-style>
+                  <text-style ref="ts576">59cm</text-style>
+                </text>
+                <text-style-def id="ts575">
+                  <text-style font="Hiragino Mincho ProN" fontSize="20" fontFace="W3" fontColor="0.326433 0.346631 0.296371 1" lineSpacing="52" />
+                </text-style-def>
+                <text-style-def id="ts576">
+                  <text-style font="Hiragino Mincho ProN" fontSize="20" fontFace="W3" fontColor="0.326433 0.346631 0.296371 1" lineSpacing="64" />
+                </text-style-def>
+                <text-style-def id="ts577">
+                  <text-style font="Hiragino Mincho ProN" fontSize="20" fontFace="W3" fontColor="0.326433 0.346631 0.296371 1" lineSpacing="65" />
+                </text-style-def>
+                <adjust-transform position="-9.77792 -0.953704" />
+              </title>
+              <title ref="r40" lane="1" offset="180s" name="subtitle:one" start="216173958/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="1 -483.734" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="ts66">オフでも着れる程よくラフなコットンネル生地で製</text-style>
+                  <text-style ref="ts67">作</text-style>
+                </text>
+                <text-style-def id="ts66">
+                  <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" kerning="1.6" alignment="center" lineSpacing="-5">
+                    <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
+                      <param name="motionTextTracking" key="tracking" value="1.6" />
+                    </param>
+                  </text-style>
+                </text-style-def>
+                <text-style-def id="ts67">
+                  <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <filter-video ref="r383" name="フェードアウト" enabled="0" />
+                <filter-video ref="r384" name="フェードイン" enabled="0" />
+              </title>
+            </gap>
+          </spine>
+        </sequence>
+      </project>
+    </event>
+  </library>
+</fcpxml>
