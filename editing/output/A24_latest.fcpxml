@@ -44824,7 +44824,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="d1_r1" lane="3" name="01" start="3600s" duration="3s" offset="586004097/146830s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="586004097/146830s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="d1_r1625" lane="3" name="16" start="3600s" duration="3s" offset="586004097/146830s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="d1_r1" lane="4" name="01" start="3600s" duration="3s" offset="586004097/146830s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="586004097/146830s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -61956,7 +61959,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="r13" lane="3" name="01" start="3600s" duration="3s" offset="223159243/71804s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="223159243/71804s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="r311" lane="3" name="20" start="3600s" duration="3s" offset="223159243/71804s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r13" lane="4" name="01" start="3600s" duration="3s" offset="223159243/71804s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="223159243/71804s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -71761,7 +71767,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="r7" lane="3" name="01" start="3600s" duration="3s" offset="283961126/195487s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="283961126/195487s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="r300" lane="3" name="18" start="3600s" duration="3s" offset="283961126/195487s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r7" lane="4" name="01" start="3600s" duration="3s" offset="283961126/195487s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="283961126/195487s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -80061,7 +80070,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="r14" lane="3" name="01" start="3600s" duration="3s" offset="137724629/194653s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="137724629/194653s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="r289" lane="3" name="18" start="3600s" duration="3s" offset="137724629/194653s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r14" lane="4" name="01" start="3600s" duration="3s" offset="137724629/194653s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="137724629/194653s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -91323,7 +91335,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="r16" lane="3" name="01" start="3600s" duration="3s" offset="142574129/66400s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="142574129/66400s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="r312" lane="3" name="21" start="3600s" duration="3s" offset="142574129/66400s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r16" lane="4" name="01" start="3600s" duration="3s" offset="142574129/66400s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="142574129/66400s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101369,7 +101384,10 @@
                 </text-style-def>
                 <adjust-transform position="-0.944444 0" />
               </title>
-              <video ref="r12" lane="3" name="01" start="3600s" duration="3s" offset="286025159/60000s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="286025159/60000s" name="product_center:price" start="216205990/60000s" duration="3s">
+              <video ref="r237" lane="3" name="14" start="3600s" duration="3s" offset="286025159/60000s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r12" lane="4" name="01" start="3600s" duration="3s" offset="286025159/60000s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="286025159/60000s" name="product_center:price" start="216205990/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101577,7 +101595,7 @@
                 </text-style-def>
                 <adjust-transform scale="0.9 0.9" />
               </title>
-              <video ref="r70" lane="10" name="04" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="62.5093 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="14" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
+              <video ref="r10" lane="10" name="01" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="44.4444 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="14" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101586,11 +101604,11 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
                 <text>
-                  <text-style ref="sim174_ts1023">FLAT-FRONT STRAIGHT TROUSERS
+                  <text-style ref="sim174_ts1023">C/W KANOKO POLO
 </text-style>
-                  <text-style ref="sim174_ts1024">Color : HEATHER CHARCOAL | Size : XS, S, M
+                  <text-style ref="sim174_ts1024">Color : CHARCOAL | Size : XS, S, M
 </text-style>
-                  <text-style ref="sim174_ts1025">¥ 11,000
+                  <text-style ref="sim174_ts1025">¥ 7,700
 </text-style>
                   <text-style ref="sim174_ts1024"> - tax in</text-style>
                 </text>
@@ -101603,9 +101621,9 @@
                 <text-style-def id="sim174_ts1025">
                   <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                 </text-style-def>
-                <adjust-transform position="62.5093 -24.8971" scale="0.6 0.6" />
+                <adjust-transform position="44.4444 -24.8971" scale="0.6 0.6" />
               </title>
-              <video ref="r10" lane="11" name="01" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="23.0556 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="15" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
+              <video ref="r38" lane="11" name="02" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="0 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="15" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101614,11 +101632,11 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
                 <text>
-                  <text-style ref="sim175_ts1023">C/W KANOKO POLO
+                  <text-style ref="sim175_ts1023">WOOL BLEND V-NECK KNIT
 </text-style>
-                  <text-style ref="sim175_ts1024">Color : CHARCOAL | Size : XS, S, M
+                  <text-style ref="sim175_ts1024">Color : CHARCOAL, SAND TAUPE | Size : XS, S, M
 </text-style>
-                  <text-style ref="sim175_ts1025">¥ 7,700
+                  <text-style ref="sim175_ts1025">¥ 8,800
 </text-style>
                   <text-style ref="sim175_ts1024"> - tax in</text-style>
                 </text>
@@ -101631,9 +101649,9 @@
                 <text-style-def id="sim175_ts1025">
                   <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                 </text-style-def>
-                <adjust-transform position="23.0556 -24.8971" scale="0.6 0.6" />
+                <adjust-transform position="0 -24.8971" scale="0.6 0.6" />
               </title>
-              <video ref="r38" lane="12" name="02" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="-16.3889 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="16" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
+              <video ref="r44" lane="12" name="03" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="-44.4444 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="16" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101642,11 +101660,11 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
                 <text>
-                  <text-style ref="sim176_ts1023">WOOL BLEND V-NECK KNIT
+                  <text-style ref="sim176_ts1023">SOFT GRAIN CAR COAT
 </text-style>
-                  <text-style ref="sim176_ts1024">Color : CHARCOAL, SAND TAUPE | Size : XS, S, M
+                  <text-style ref="sim176_ts1024">Color : BLACK | Size : XS, S, M
 </text-style>
-                  <text-style ref="sim176_ts1025">¥ 8,800
+                  <text-style ref="sim176_ts1025">¥ 16,500
 </text-style>
                   <text-style ref="sim176_ts1024"> - tax in</text-style>
                 </text>
@@ -101659,35 +101677,7 @@
                 <text-style-def id="sim176_ts1025">
                   <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                 </text-style-def>
-                <adjust-transform position="-16.3889 -24.8971" scale="0.6 0.6" />
-              </title>
-              <video ref="r44" lane="13" name="03" start="3600s" duration="17/5s" offset="321544163/60000s"><adjust-transform position="-60.1944 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="17" offset="321544163/60000s" name="ed_product_name:any" start="216250034/60000s" duration="17/5s">
-                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
-                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
-                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
-                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
-                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
-                <text>
-                  <text-style ref="sim177_ts1023">SOFT GRAIN CAR COAT
-</text-style>
-                  <text-style ref="sim177_ts1024">Color : BLACK | Size : XS, S, M
-</text-style>
-                  <text-style ref="sim177_ts1025">¥ 16,500
-</text-style>
-                  <text-style ref="sim177_ts1024"> - tax in</text-style>
-                </text>
-                <text-style-def id="sim177_ts1023">
-                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="5" />
-                </text-style-def>
-                <text-style-def id="sim177_ts1024">
-                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
-                </text-style-def>
-                <text-style-def id="sim177_ts1025">
-                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
-                </text-style-def>
-                <adjust-transform position="-60.1944 -24.8971" scale="0.6 0.6" />
+                <adjust-transform position="-44.4444 -24.8971" scale="0.6 0.6" />
               </title>
               <chapter-marker start="321508187/60000s" duration="1001/60000s" value="ED" posterOffset="11/60s" />
                         </mc-clip>
@@ -101763,7 +101753,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                            <video ref="r85" lane="10" name="05" start="3600s" duration="3s" offset="321808223/60000s"><adjust-transform position="0 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="14" offset="321808223/60000s" name="ed_product_name:any" start="216250034/60000s" duration="3s">
+                            <video ref="r85" lane="10" name="05" start="3600s" duration="3s" offset="321808223/60000s"><adjust-transform position="27.7778 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="14" offset="321808223/60000s" name="ed_product_name:any" start="216250034/60000s" duration="3s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -101772,11 +101762,39 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
                 <text>
-                  <text-style ref="sim178_ts1023">SLIDE BUCKLE MESH BELT
+                  <text-style ref="sim177_ts1023">SLIDE BUCKLE MESH BELT
 </text-style>
-                  <text-style ref="sim178_ts1024">Color : BRICK BROWN | Size : Free
+                  <text-style ref="sim177_ts1024">Color : BRICK BROWN | Size : Free
 </text-style>
-                  <text-style ref="sim178_ts1025">¥ 9,900
+                  <text-style ref="sim177_ts1025">¥ 9,900
+</text-style>
+                  <text-style ref="sim177_ts1024"> - tax in</text-style>
+                </text>
+                <text-style-def id="sim177_ts1023">
+                  <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="5" />
+                </text-style-def>
+                <text-style-def id="sim177_ts1024">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <text-style-def id="sim177_ts1025">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
+                </text-style-def>
+                <adjust-transform position="27.7778 -24.8971" scale="0.6 0.6" />
+              </title>
+              <video ref="r70" lane="11" name="04" start="3600s" duration="3s" offset="321808223/60000s"><adjust-transform position="-27.7778 2" scale="0.42 0.42" /></video><title ref="rsim1" lane="15" offset="321808223/60000s" name="ed_product_name:any" start="216250034/60000s" duration="3s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-0.0825 43.0501" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="5" />
+                <text>
+                  <text-style ref="sim178_ts1023">FLAT-FRONT STRAIGHT TROUSERS
+</text-style>
+                  <text-style ref="sim178_ts1024">Color : HEATHER CHARCOAL | Size : XS, S, M
+</text-style>
+                  <text-style ref="sim178_ts1025">¥ 11,000
 </text-style>
                   <text-style ref="sim178_ts1024"> - tax in</text-style>
                 </text>
@@ -101789,7 +101807,7 @@
                 <text-style-def id="sim178_ts1025">
                   <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                 </text-style-def>
-                <adjust-transform position="0 -24.8971" scale="0.6 0.6" />
+                <adjust-transform position="-27.7778 -24.8971" scale="0.6 0.6" />
               </title>
               </mc-clip>
                         <mc-clip ref="r339" offset="18367349/10000s" name="A24_shiun26Winter1st ラインナップ動画" start="321875554/60000s" duration="242242/60000s">
@@ -101827,7 +101845,24 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                            </mc-clip>
+                            <video ref="r971" lane="3" name="DSCF3837" start="3600s" duration="39/10s" offset="1288061/240s"><adjust-transform position="0 0" scale="2.2 2.2" /><filter-video ref="a19_r456" name="ガウス">
+                                    <param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.2" />
+                                </filter-video>
+                                </video><video ref="r970" lane="4" name="DSCF3836" start="3600s" duration="39/10s" offset="1288061/240s"><adjust-transform position="0 0" scale="1.05 1.05" /></video><title ref="rsim1" lane="5" offset="1288061/240s" name="release_date_center:any" start="108101994/30000s" duration="39/10s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.55293 -19.3104" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1.05 1.6092" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-7" />
+                <text>
+                  <text-style ref="sim179_ts941">2026.10.24 sat 10pm - Release（要確認）</text-style>
+                </text>
+                <text-style-def id="sim179_ts941">
+                  <text-style font="Masqualero" fontSize="41.2" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-7" />
+                </text-style-def>
+                <adjust-transform scale="0.94 0.94" />
+              </title>
+              </mc-clip>
                         <mc-clip ref="r339" offset="3451448/1875s" name="A24_shiun26Winter1st ラインナップ動画" start="322149828/60000s" duration="237237/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -101863,7 +101898,28 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                            </mc-clip>
+                            <title ref="rsim1" lane="2" offset="53713547/10000s" name="collection_label:any" start="292599307/60000s" duration="1785971/60000s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-956.953 485.985" />
+                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/3339648324/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/3339648324/404" value="-5" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="0 (左揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="sim180_ts13">shiun 26 Winter 1st Collection
+</text-style>
+                  <text-style ref="sim180_ts14">October 24th Sat. 10pm - Release（要確認）</text-style>
+                </text>
+                <text-style-def id="sim180_ts13">
+                  <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <text-style-def id="sim180_ts14">
+                  <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" lineSpacing="-5" />
+                </text-style-def>
+                <adjust-transform scale="0.9 0.9" />
+              </title>
+              </mc-clip>
                         <mc-clip ref="r339" offset="110683573/60000s" name="A24_shiun26Winter1st ラインナップ動画" start="322423101/60000s" duration="29029/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -102330,7 +102386,29 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                            </mc-clip>
+                            <title ref="rsim1" lane="7" offset="10139977/1875s" name="subtitle:one" start="216173958/60000s" duration="9s">
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="1 -483.734" />
+                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
+                <text>
+                  <text-style ref="sim181_ts66">shiunオンラインストアにて、スタッフ一同お待ちしております（定型・要確認）</text-style>
+                  <text-style ref="sim181_ts67" />
+                </text>
+                <text-style-def id="sim181_ts66">
+                  <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" kerning="1.6" alignment="center" lineSpacing="-5">
+                    <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
+                      <param name="motionTextTracking" key="tracking" value="1.6" />
+                    </param>
+                  </text-style>
+                </text-style-def>
+                <text-style-def id="sim181_ts67">
+                  <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.15" strokeWidth="-2" alignment="center" lineSpacing="-5" />
+                </text-style-def>
+                <filter-video ref="r383" name="フェードアウト" enabled="0" />
+                <filter-video ref="r384" name="フェードイン" enabled="0" />
+              </title>
+            </mc-clip>
                         <mc-clip ref="r339" offset="111782671/60000s" name="A24_shiun26Winter1st ラインナップ動画" start="324566242/60000s" duration="59059/60000s">
                             <adjust-volume>
                                 <param name="amount">

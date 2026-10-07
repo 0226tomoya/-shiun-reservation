@@ -92,6 +92,7 @@ def main():
     project = [p for p in root.iter('project') if norm(p.get('name')) == norm(plan.get('project', '本編'))][0]
     spine = project.find('sequence/spine')
     tpl = Templates(os.path.join(base, plan['templates']))
+    tpl2 = Templates(os.path.join(base, plan['templates_extra'])) if plan.get('templates_extra') else None
     donor = Donor(os.path.join(base, plan['donor']['fcpxml']), 'a19_', resources)
     # 既に取り込み済みのリソースは再度入れない
     for k in list(doc_res):
@@ -216,7 +217,11 @@ def main():
         for n, line in enumerate(lines):
             r = ET.SubElement(t, 'text-style')
             r.text = line + ('\n' if n < len(lines) - 1 else '')
-        return apply_template(tpl.get(role, variant), fake, tpl.res, doc_res, resources, role, ctx or {})
+        t_main = tpl.get(role, variant)
+        if t_main is None and tpl2 is not None:
+            # A19 にない型（発売日の中央表示など）は A18 から
+            return apply_template(tpl2.get(role, variant), fake, tpl2.res, doc_res, resources, role, ctx or {})
+        return apply_template(t_main, fake, tpl.res, doc_res, resources, role, ctx or {})
 
     # ---- 区間（チャプター）----
     chapters = []
@@ -369,7 +374,9 @@ def main():
             tp = t1 - Fraction(7)
             if subs and last_sub_end is not None and Fraction(last_sub_end + 1).limit_denominator(1000) < tp:
                 tp = Fraction(last_sub_end + 1).limit_denominator(1000)
-            attach(still(ec[0], Fraction(3), LANE['photo_bg'], '0 0', '1.05 1.05'), tp)
+            # 全面をぼかした写真で覆い（左上の商品名ラベルを隠す。A18 の型）、中央に写真
+            attach(still((photos or ec)[-1], Fraction(3), LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
+            attach(still(ec[0], Fraction(3), LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
             attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                          LANE['center'], Fraction(3)), tp)
             stats['price'] += 1
@@ -425,7 +432,9 @@ def main():
         if looks:
             attach(still(looks[len(looks) // 2], Fraction(64, 10), 2, '0 23.3333', '2.68 2.68', [blur_f]), te)
         attach(title('collection_label_center', 'any', [plan['collection'], plan['release_line']], LANE['center'], Fraction(64, 10)), te)
-        pages = [cut[:4], cut[4:]]
+        # 色名が長いと 4 列では商品名が横で重なるので、5 商品以上は 3 列（3＋残り）にする
+        per = 3 if len(cut) >= 5 or any(len(f"Color : {p['color']} | Size : {p['sizes']}") > 34 for p in cut) else 4
+        pages = [cut[:per], cut[per:]]
         xs = {4: [62.5093, 23.0556, -16.3889, -60.1944], 3: [44.4444, 0, -44.4444], 2: [27.7778, -27.7778], 1: [0]}
         tp = te
         for page in pages:
@@ -442,6 +451,19 @@ def main():
                 attach(nm, tp)
             tp += d
             stats['ed'] += 1
+        # 一覧の後: LOOK 写真＋中央の発売日（A18 の型、3.9 秒）→ 締めのトーク中は左上にコレクション名（A19 の型）
+        t_rel = tp
+        if looks and plan.get('release_date'):
+            attach(still(looks[2 * len(looks) // 3 + 1], Fraction(39, 10), LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), t_rel)
+            attach(still(looks[2 * len(looks) // 3], Fraction(39, 10), LANE['photo_fg'], '0 0', '1.05 1.05'), t_rel)
+            attach(title('release_date_center', 'any', [plan['release_date']], LANE['center'], Fraction(39, 10)), t_rel)
+            t_rel += Fraction(39, 10)
+        ed_end = total - Fraction(85, 10)  # エンディング動画の前まで
+        if ed_end - t_rel > 3:
+            attach(title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, ed_end - t_rel), t_rel)
+        for n, line in enumerate(reversed(plan.get('closing_lines', []))):
+            dur = Fraction(max(4, min(10, len(line) // 4)))
+            attach(title('subtitle', 'one', [line], LANE['subtitle'], dur), ed_end - dur - 1 - n * (dur + 1))
         if se_src is not None:
             x = donor.element(se_src)
             x.set('lane', '-1')
