@@ -23,7 +23,8 @@ from fcpxml_util import append_anchor  # noqa: E402
 
 VARIANTS = {  # 同じ区間の中で約 40 秒ごとに少しずらす（A19 の寄りは x 17 / 24 / 35、中は 9.4 / 4.4）
     'tight': ['17.037 -24.7161', '23.9815 -24.7161', '35 -24.7161'],
-    'mid': ['9.44444 1.85185', '4.35185 0.925926'],
+    # 中の区間は、中と引きを交互に（A19 の配分: 寄り 56% / 中 21% / 引き 23%）
+    'mid': [('9.44444 1.85185', '1.21 1.21'), ('-0.0555556 -2.53704', '1.05 1.05'), ('4.35185 0.925926', '1.21 1.21'), ('-0.0555556 -2.53704', '1.05 1.05')],
 }
 FRAMING = {  # A19（4K 単カメ・立ち）の構図プリセット
     'op_tight': ('-7.46296 -29.4719', '1.92 1.92'),
@@ -184,6 +185,8 @@ def main():
         if sec['framing'] in VARIANTS and 'product' in sec:
             v = VARIANTS[sec['framing']]
             p = v[int((off - sec['t0']) // 40) % len(v)]
+            if isinstance(p, tuple):
+                p, sc = p
         set_transform(g, p, sc)
         append_anchor(e, g)
         log['adjustment'] += 1
@@ -211,23 +214,12 @@ def main():
                                T(host.get('start')) + (s['t0'] - T(host.get('offset'))) if T(host.get('offset')) < s['t0'] else T(host.get('start')),
                                Fraction(46, 10)))
 
-    # ---- 4. BGM（先頭のカットにつなぐ）----
-    if bgm_src is not None:
-        b = donor.element(bgm_src)
-        b.set('lane', '-1')
-        b.set('offset', first.get('start') or '0s')
-        b.set('duration', S(total))
-        for kf in list(b):
-            if kf.tag == 'adjust-volume':
-                b.remove(kf)
-        append_anchor(first, b)
-
     # ---- 5. スパインへの挿入（アイキャッチ・カウントダウン・エンディング）----
     new_items = []
     inserts = []
     for s in sections:
-        if 'product' in s and eyecatch_src is not None:
-            inserts.append((s['t0'], 'eyecatch'))
+        if ('product' in s or s['chapter'] == 'ED') and eyecatch_src is not None:
+            inserts.append((s['t0'], 'eyecatch'))  # 各商品の頭と ED の頭（A19 と同じ）
     if plan.get('countdown') and countdown_src is not None:
         first_prod = next(s for s in sections if 'product' in s)
         inserts.append((first_prod['t0'] - Fraction(1, 1000), 'countdown'))
@@ -259,6 +251,54 @@ def main():
         spine.append(e)
         cur += T(e.get('duration'))
     seq.set('duration', S(cur))
+
+    # ---- 4. BGM: カウントダウンの間は止め、その後から続きを流す。ED の一覧で +8dB（A19 の型）----
+    if bgm_src is not None:
+        absol = {}
+        acc = Fraction(0)
+        for e in new_items:
+            absol[id(e)] = acc
+            acc += T(e.get('duration'))
+        cd = next((e for e in new_items if norm(e.get('name')) == '7'), None)
+        cd_t0 = absol[id(cd)] if cd is not None else None
+        cd_t1 = cd_t0 + T(cd.get('duration')) if cd is not None else None
+        ed_t = next((t for t, v in chapters if v == 'ED'), None)
+
+        def bgm(host, local_off, start, dur, keys=()):
+            b = donor.element(bgm_src)
+            b.set('lane', '-1')
+            b.set('offset', S(local_off))
+            b.set('start', S(start))
+            b.set('duration', S(dur))
+            for kf in list(b):
+                if kf.tag == 'adjust-volume':
+                    b.remove(kf)
+            av = ET.Element('adjust-volume')
+            prm = ET.SubElement(av, 'param', name='amount')
+            ET.SubElement(prm, 'fadeOut', type='easeIn', duration=S(Fraction(1425, 1000)))
+            if keys:
+                ka = ET.SubElement(prm, 'keyframeAnimation')
+                for t, v in keys:
+                    ET.SubElement(ka, 'keyframe', time=S(t), value=v)
+            b.insert(0, av)
+            append_anchor(host, b)
+
+        first_host = next(e for e in new_items if e.tag == 'mc-clip')
+        if cd is None:
+            bgm(first_host, T(first_host.get('start')), Fraction(0), cur)
+        else:
+            bgm(first_host, T(first_host.get('start')), Fraction(0), cd_t0)
+            after = new_items[new_items.index(cd) + 1]
+            seg_start = cd_t0  # 曲の続きから
+            keys = []
+            if ed_t is not None:
+                # ED（チャプター）は挿入前の時刻なので、挿入分を足して絶対時刻にする
+                # ED チャプターは挿入前の時刻なので、ED より前に挿入した要素（カウントダウン・アイキャッチ）の長さを足す
+                ed_abs = min((absol[id(e)] + T(m.get('start')) - T(e.get('start')) for e in new_items
+                              for m in e.findall('chapter-marker') if m.get('value') == 'ED'), default=ed_t) + 1  # 一覧は ED の 1 秒後
+                local = lambda t: seg_start + (t - cd_t1)
+                keys = [(local(ed_abs - Fraction(13, 10)), '0dB'), (local(ed_abs), '8dB'), (local(ed_abs + Fraction(128, 10)), '8dB'), (local(ed_abs + Fraction(141, 10)), '0dB')]
+            bgm(after, T(after.get('start') or '0s'), seg_start, cur - cd_t1, keys)
 
     with open(out, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')
