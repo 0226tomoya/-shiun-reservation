@@ -102,6 +102,11 @@ def conformity(titles):
         if r in (None, 'empty', 'other', 'adjustment_main', 'adjustment_other'):
             continue
         st = [i['styles'][x['ref']] for t in i['texts'] for x in t['runs'] if x['text'].strip()]
+        # 型の中での使い分け（セクションラベルの語、価格の有無）は別グループで比べる
+        if r == 'section_label':
+            r = (r, text(i).strip())
+        elif r == 'product_center':
+            r = (r, '¥' in text(i))
         groups[r].append(json.dumps([st[:1], i.get('params', {}).get('調整')], sort_keys=True))
     if not groups:
         return 0.0

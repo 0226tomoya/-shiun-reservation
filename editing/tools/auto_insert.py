@@ -469,6 +469,44 @@ def main():
             x.set('lane', '-1')
             attach(x, te)
 
+    # ---- 商品名ラベルをつなぐ ----
+    # assemble_lineup はカットごとにラベルを付けるので、A19 と同じく「トークが続く間は 1 本、B-roll の頭で区切る」にまとめる
+    def abs_time(host, el):
+        return T(host.get('offset')) + T(el.get('offset')) - T(host.get('start'))
+
+    labels, cuts = [], set()
+    for off, du, e in hosts:
+        for ch in list(e):
+            if ch.tag == 'title' and ch.get('lane') == '2' and '| Size :' in ''.join(ch.itertext()):
+                labels.append((abs_time(e, ch), T(ch.get('duration')), e, ch))
+            elif ch.tag in ('video', 'asset-clip', 'clip', 'ref-clip') and int(ch.get('lane') or 0) >= 3:
+                cuts.add(abs_time(e, ch))
+    labels.sort(key=lambda x: x[0])
+    groups = []
+    for t0, du, e, ch in labels:
+        key = ''.join(ch.itertext())
+        if groups and groups[-1]['key'] == key and abs(groups[-1]['t1'] - t0) < Fraction(1, 100):
+            groups[-1]['t1'] = t0 + du
+        else:
+            groups.append({'key': key, 't0': t0, 't1': t0 + du, 'el': copy.deepcopy(ch)})
+        e.remove(ch)
+    n_before = len(labels)
+    n_copy = 0
+    for g in groups:
+        pts = [g['t0']] + sorted(c for c in cuts if g['t0'] + 2 < c < g['t1'] - 2) + [g['t1']]
+        for a, b in zip(pts, pts[1:]):
+            x = copy.deepcopy(g['el'])
+            x.set('duration', S(Fraction(b - a).limit_denominator(60000)))
+            n_copy += 1
+            k = n_copy  # 書式 ID を複製ごとに一意にする
+            for tsd in x.findall('text-style-def'):
+                tsd.set('id', f"{tsd.get('id')}_l{k}")
+            for ts in x.iter('text-style'):
+                if ts.get('ref'):
+                    ts.set('ref', f"{ts.get('ref')}_l{k}")
+            attach(x, a)
+    stats['labels'] = f'{n_before}→{sum(1 for _ in project.iter("title") if _.get("lane") == "2" and "| Size :" in "".join(_.itertext()))}'
+
     with open(out, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')
         f.write(ET.tostring(root, encoding='utf-8'))

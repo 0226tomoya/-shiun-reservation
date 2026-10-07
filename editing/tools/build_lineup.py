@@ -227,6 +227,11 @@ def apply_template(tpl_el, actual_el, tpl_res, doc_res, doc_resources_el, r, ctx
         run.text = src[k] if k < len(src) else ''
     if len(src) > len(dst) and dst:
         dst[-1].text = (dst[-1].text or '') + ''.join(src[len(dst):])
+    # 型に改行だけのランがある場合、差し込んだ行末の改行と重なって空行にならないようにする
+    runs = list(new.iter('text-style'))
+    for a, b in zip(runs, runs[1:]):
+        if (a.text or '').endswith('\n') and (b.text or '').startswith('\n'):
+            a.text = a.text[:-1]
     # 子要素（マーカー・キーワード）は actual のものを残す
     for ch in list(new):
         if ch.tag in ('marker', 'chapter-marker', 'keyword'):
@@ -300,6 +305,10 @@ def set_rule_position(el, r, ctx):
         word = ''.join(x.text or '' for x in slots(el)).strip()
         set_param(el, '位置', SECTION_X.get(word, '874.091 -480.924'))
         set_transform(el, '-1.34295 84.7222')
+        if not SECTION_X.get(word, '874').startswith('874'):
+            # A19 の Material / Color / Wash は中央揃えで x を詰めて、右端を他のラベルに揃えている
+            for ts in el.iter('text-style'):
+                ts.attrib.pop('alignment', None)
     elif r == 'subtitle':
         lines = ''.join(x.text or '' for x in slots(el)).count('\n') + 1
         set_param(el, '位置', '1 -483.734' if lines == 1 else '0 -440')
