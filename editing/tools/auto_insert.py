@@ -30,26 +30,39 @@ from fcpxml_util import append_anchor  # noqa: E402
 LANE = {'photo_bg': 3, 'photo_fg': 4, 'center': 5, 'section': 6, 'subtitle': 7, 'ed_name': 8}
 
 
-def split_script(text, maxlen=34):
-    """台本を字幕の長さに分ける（句点で区切り、長い文は読点で分ける）。"""
+def split_script(text, maxlen=40, minlen=14):
+    """台本を字幕に分ける（A19 の型: 1 文 = 1 枚、約 33 文字。40 文字を超える文は読点で 2 行にする）。"""
     out = []
-    for sent in re.split(r'(?<=。)', text.replace(' ', '').replace('　', '')):
+    for sent in re.split(r'(?<=。)', text.replace(' ', '').replace('\u3000', '')):
         sent = sent.strip().rstrip('。')
         if not sent:
             continue
         if len(sent) <= maxlen:
             out.append(sent)
             continue
+        # 読点で区切り、短すぎる断片は隣とつなぐ
+        chunks = [c for c in re.split(r'(?<=、)', sent) if c]
         parts, cur = [], ''
-        for chunk in re.split(r'(?<=、)', sent):
-            if cur and len(cur) + len(chunk) > maxlen:
-                parts.append(cur.rstrip('、'))
-                cur = chunk
+        for c in chunks:
+            if cur and len(cur) + len(c) > maxlen and len(cur) >= minlen:
+                parts.append(cur)
+                cur = c
             else:
-                cur += chunk
+                cur += c
         if cur:
-            parts.append(cur.rstrip('、'))
-        out.extend(parts)
+            if parts and len(cur) < minlen:
+                parts[-1] += cur
+            else:
+                parts.append(cur)
+        for p in parts:
+            p = p.rstrip('、')
+            if len(p) > maxlen:
+                # 2 行にする（真ん中に近い読点で改行）
+                cands = [m.end() for m in re.finditer('、', p)]
+                if cands:
+                    k = min(cands, key=lambda x: abs(x - len(p) / 2))
+                    p = p[:k] + '\n' + p[k:]
+            out.append(p)
     return out
 
 
@@ -213,10 +226,43 @@ def main():
         w0, w1 = t0 + 8, t1 - 9
         if subs and w1 > w0:
             need = sum(max(4.0, min(10.0, len(x) / 3.6)) for _, x in subs)
-            gap = max(0.0, (float(w1 - w0) - need) / (len(subs) + 1))
-            t = float(w0) + gap
+            # 字幕は 3 本ずつのかたまりで続けて出し（間 1.2 秒、A19 の字幕間の空き中央値 3.4 秒に近づける）、
+            # かたまりとかたまりの間はトークを見せる
+            K, inner = 3, 1.2
+            nclu = (len(subs) + K - 1) // K
+            inner_total = inner * (len(subs) - nclu)
+            outer = max(0.0, (float(w1 - w0) - need - inner_total) / (nclu + 1))
+            gaps_after = [(inner if (k + 1) % K else outer) for k in range(len(subs))]
+            gap = outer
+            t = float(w0) + outer
             pi = 0
+            used = {}
             block = None
+
+            def fill_gap(g0, glen, k):
+                """トークだけが続く空き（14 秒以上）に、25 秒ごとに Silhouette / Detail ブロックを入れる。"""
+                if glen < 14 or not ec:
+                    return
+                nb = max(1, int(glen // 25))
+                seg = glen / nb
+                for bi in range(nb):
+                    gs = g0 + bi * seg + max(2.0, (seg - 10) / 2)
+                    gl = min(10.0, seg - 4)
+                    lbl = title('section_label', 'any', ['Silhouette' if bi % 2 == 0 else 'Detail'], LANE['section'], Fraction(gl).limit_denominator(1000))
+                    attach(lbl, gs)
+                    stats['section'] += 1
+                    for j in range(2):
+                        src_list = videos if (videos and j == 1) else ec
+                        # 掲載用の 01 は紹介インと価格表示で使うので、ここでは 02 以降から選ぶ
+                        cand = src_list[1:] if (src_list is ec and len(src_list) > 2) else src_list
+                        pick = cand[(k + 1 + bi + j) % len(cand)]
+                        el = (clip(pick, Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], filters=[tilt_f, grade_f])
+                              if src_list is videos else
+                              still(pick, Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], '0 0', '1.05 1.05'))
+                        attach(el, gs + j * gl / 2)
+                        stats['broll'] += 1
+
+            fill_gap(float(w0), outer, -1)  # 最初の字幕の前
             for k, (sec, text) in enumerate(subs):
                 d = max(4.0, min(10.0, len(text) / 3.6))
                 attach(title('subtitle', 'one', [text], LANE['subtitle'], Fraction(d).limit_denominator(1000)), t)
@@ -229,10 +275,13 @@ def main():
                         # 置き撮りの EC 動画は基本3D で少し傾ける（A19 の型）
                         attach(clip(videos[(pi // 2) % len(videos)], dj, LANE['photo_bg'], filters=[tilt_f, grade_f]), t + j * d / n)
                     else:
-                        # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）から順に使う
+                        # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）を優先し、
+                        # 使用回数の少ないものから選ぶ（使い回しを減らす）
                         half = max(1, len(photos) // 2)
-                        pool = photos[:half] if sec in ('Design', 'Silhouette') else (photos[half:] or photos)
-                        ph = pool[pi % len(pool)]
+                        pref = photos[:half] if sec in ('Design', 'Silhouette') else (photos[half:] or photos)
+                        pool = pref + [x for x in photos + ec if x not in pref]
+                        ph = min(pool, key=lambda x: (used.get(x.get('id'), 0), pool.index(x)))
+                        used[ph.get('id')] = used.get(ph.get('id'), 0) + 1
                         zoom = '2.7 2.7' if sec in ('Design', 'Silhouette') else '4 4'
                         attach(still(ph, dj, LANE['photo_bg'], f'{(pi % 3 - 1) * 6} {(pi % 2) * 8}', zoom, [zoom_f]), t + j * d / n)
                     pi += 1
@@ -243,21 +292,13 @@ def main():
                 stats['section'] += 1
                 block = [sec, t, lbl, t + d]
                 block[3] = t + d
+                gap = gaps_after[k]
                 t += d + gap
                 # 字幕と字幕の間が 14 秒以上空くときは、掲載用の写真で Silhouette ブロックを入れる
-                if gap >= 14 and ec and k < len(subs) - 1:
-                    gs = t - gap + 2
-                    gl = min(10.0, gap - 4)
-                    lbl = title('section_label', 'any', ['Silhouette'], LANE['section'], Fraction(gl).limit_denominator(1000))
-                    attach(lbl, gs)
-                    stats['section'] += 1
-                    for j in range(2):
-                        src_list = videos if (videos and j == 1) else ec
-                        el = (clip(src_list[(k + j) % len(src_list)], Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], filters=[tilt_f, grade_f])
-                              if src_list is videos else
-                              still(src_list[(k + j) % len(src_list)], Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], '0 0', 'half' if False else '1.05 1.05'))
-                        attach(el, gs + j * gl / 2)
-                        stats['broll'] += 1
+                if k < len(subs) - 1:
+                    fill_gap(t - gap, gap, k)
+                else:
+                    fill_gap(t - gap, float(w1) - (t - gap), k)  # 最後の字幕の後〜価格表示まで
                     if block:
                         block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
                     block = None
