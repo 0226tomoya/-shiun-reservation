@@ -21,6 +21,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_lineup import Templates, apply_template, set_param, set_transform  # noqa: E402
 from fcpxml_util import append_anchor  # noqa: E402
 
+VARIANTS = {  # 同じ区間の中で約 40 秒ごとに少しずらす（A19 の寄りは x 17 / 24 / 35、中は 9.4 / 4.4）
+    'tight': ['17.037 -24.7161', '23.9815 -24.7161', '35 -24.7161'],
+    'mid': ['9.44444 1.85185', '4.35185 0.925926'],
+}
 FRAMING = {  # A19（4K 単カメ・立ち）の構図プリセット
     'op_tight': ('-7.46296 -29.4719', '1.92 1.92'),
     'tight': ('17.037 -24.7161', '1.82 1.82'),
@@ -177,6 +181,9 @@ def main():
         g.set('offset', S(st))
         g.set('duration', S(du))
         p, sc = FRAMING[sec['framing']]
+        if sec['framing'] in VARIANTS and 'product' in sec:
+            v = VARIANTS[sec['framing']]
+            p = v[int((off - sec['t0']) // 40) % len(v)]
         set_transform(g, p, sc)
         append_anchor(e, g)
         log['adjustment'] += 1

@@ -310,6 +310,26 @@ def main():
             k += 1
             stats['op'] += 1
 
+    # ---- OP: ティーザー（名前カードの後、4.9 秒）。LOOK 写真＋フィルムルックの調整レイヤー 2 枚＋中央のコレクション名 ----
+    look_a = donor.find_in_project(proj19, lambda e: e.tag == 'title' and any(norm(f.get('name')) == 'プリズム' for f in e.findall('filter-video')))
+    # プロジェクタ＋ビネット＋ノイズの調整レイヤーはアイキャッチの複合クリップの中にある
+    look_b = next((e for e in donor.root.iter('title') if any(norm(f.get('name')) == 'プロジェクタ' for f in e.findall('filter-video'))), None)
+    if op and look_a is not None and look_b is not None:
+        tt = Fraction(47, 10)
+        looks = folder(op['photos'])
+        if looks:
+            attach(still(looks[len(looks) // 3], Fraction(49, 10), LANE['photo_bg'], '0 27.963', '2.7 2.7'), tt)
+        for ln, src_el in ((LANE['photo_fg'], look_a), (LANE['center'], look_b)):
+            x = donor.element(src_el)
+            for ch in list(x):
+                if ch.tag in ('marker', 'chapter-marker', 'keyword') or ch.get('lane') is not None:
+                    x.remove(ch)
+            x.set('lane', str(ln))
+            x.set('duration', S(Fraction(49, 10)))
+            attach(x, tt)
+        attach(title('collection_center', 'any', ['shiun ', plan['collection'].replace('shiun ', '')], LANE['section'], Fraction(49, 10)), tt)
+        stats['op'] += 1
+
     # ---- ED: 一覧 ----
     ed = next((s for s in sections if s['chapter'] == 'ED'), None)
     cut = [p for p in plan['products'] if p.get('cutout') and p['cutout'] in assets]
