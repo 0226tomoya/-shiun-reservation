@@ -30,6 +30,20 @@ from fcpxml_util import append_anchor  # noqa: E402
 LANE = {'photo_bg': 3, 'photo_fg': 4, 'center': 5, 'section': 6, 'subtitle': 7, 'ed_name': 8}
 
 
+LABEL_RULES = [  # 字幕の語 → セクションラベル（A18/A19/A23 で、素材系の語は 37/37 が Material、丈・身幅系は Silhouette が最多）
+    ('Material', r'素材|生地|糸|編み|織|合皮|ウール|コットン|ポリエステル|リネン|レーヨン|牛革|ナイロン|ゲージ'),
+    ('Silhouette', r'シルエット|丈|身幅|肩幅|落ち感|ストレート|フレア|脚|ワイド|テーパード|股上|股下'),
+    ('Detail', r'ボタン|衿|襟|リブ|ポケット|天巾|天幅|サドル|ステッチ|ソール|コバ|踵|ゴム|バックル|ファスナー|ジップ'),
+]
+
+
+def label_for(text, default):
+    for name, pat in LABEL_RULES:
+        if re.search(pat, text):
+            return name
+    return default
+
+
 def split_script(text, maxlen=40, minlen=14):
     """台本を字幕に分ける（A19 の型: 1 文 = 1 枚、約 33 文字。40 文字を超える文は読点で 2 行にする）。"""
     out = []
@@ -287,7 +301,8 @@ def main():
                     pi += 1
                     stats['broll'] += 1
                 # セクションラベル: B-roll の上にだけ出す（字幕 1 本ぶんの B-roll ブロックごと。A19 の型）
-                lbl = title('section_label', 'any', [sec], LANE['section'], Fraction(d).limit_denominator(1000))
+                # 語は字幕の内容で決める（素材の話は Material、丈・身幅は Silhouette、ボタン・衿などは Detail）
+                lbl = title('section_label', 'any', [label_for(text, sec)], LANE['section'], Fraction(d).limit_denominator(1000))
                 attach(lbl, t)
                 stats['section'] += 1
                 block = [sec, t, lbl, t + d]
