@@ -195,9 +195,13 @@ def main():
             append_anchor(e, make_title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, st, du))
             log['collection_label'] += 1
         # 商品区間: 紹介インの後は左上に商品名ラベル
-        if 'product' in sec and off >= sec['t0'] + Fraction(str(plan.get('label_delay', 6))):
+        ls = sec['t0'] + Fraction(str(plan.get('label_delay', 6))) if 'product' in sec else None
+        if ls is not None and off + du > ls:
+            # 紹介インが終わった瞬間から出す（カットの途中からでも。A18/A19 は 0.0 秒後）
             pr = sec['product']
-            append_anchor(e, make_title('product_label', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 2, st, du))
+            a0 = max(off, ls)
+            append_anchor(e, make_title('product_label', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 2,
+                                        st + (a0 - off), off + du - a0))
             log['product_label'] += 1
 
     # ---- 2. OP の名前カード ----

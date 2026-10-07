@@ -178,6 +178,26 @@ def main():
                 el.append(donor.element(f))
         return el
 
+    punch_src = donor.find_in_project(proj19, lambda e: e.tag == 'title' and norm(e.get('name')) == 'Adjustment Layer'
+                                      and e.get('lane') not in (None, '1') and e.find('adjust-transform') is not None
+                                      and e.find('filter-video') is not None)
+    punch_n = [0]
+
+    def punch(t, dur, lane):
+        """B-roll（動画）の上に調整レイヤーを置いて寄る（A19 は拡大 1.07〜1.55 を 84 か所）。"""
+        if punch_src is None:
+            return
+        x = donor.element(punch_src)
+        for ch in list(x):
+            if ch.tag in ('marker', 'chapter-marker', 'keyword') or ch.get('lane') is not None:
+                x.remove(ch)
+        sc = ['1.21 1.21', '1.29 1.29', '1.15 1.15', '1.55 1.55'][punch_n[0] % 4]
+        punch_n[0] += 1
+        set_transform(x, f'{(punch_n[0] % 3 - 1) * 3} {(punch_n[0] % 2) * 3}', sc)
+        x.set('lane', str(lane))
+        x.set('duration', S(Fraction(dur).limit_denominator(1000)))
+        attach(x, t)
+
     def clip(asset, dur, lane, start_in=1, filters=()):
         st = T(asset.get('start')) + start_in
         el = ET.Element('asset-clip', ref=asset.get('id'), lane=str(lane), name=asset.get('name'), start=S(st), duration=S(dur))
@@ -234,6 +254,7 @@ def main():
             attach(still(photos[min(5, len(photos) - 1)], Fraction(46, 10), LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), t0)
             stats['intro'] += 1
         # 2) 字幕と B-roll
+        last_sub_end = None
         subs = [('Design', x) for x in split_script(pr.get('design', ''))] + [('Material', x) for x in split_script(pr.get('material', ''))]
         if pr.get('lines'):
             subs = [(a, b) for a, b in pr['lines']]
@@ -274,12 +295,16 @@ def main():
                               if src_list is videos else
                               still(pick, Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], '0 0', '1.05 1.05'))
                         attach(el, gs + j * gl / 2)
+                        if src_list is videos:
+                            punch(gs + j * gl / 2, gl / 2, LANE['photo_fg'])
                         stats['broll'] += 1
 
             fill_gap(float(w0), outer, -1)  # 最初の字幕の前
+            last_sub_end = None
             for k, (sec, text) in enumerate(subs):
                 d = max(4.0, min(10.0, len(text) / 3.6))
                 attach(title('subtitle', 'one', [text], LANE['subtitle'], Fraction(d).limit_denominator(1000)), t)
+                last_sub_end = t + d
                 stats['subtitle'] += 1
                 # 字幕の下の B-roll（約 5 秒ずつ）
                 n = max(1, round(d / 5))
@@ -288,6 +313,7 @@ def main():
                     if videos and pi % 2 == 1:
                         # 置き撮りの EC 動画は基本3D で少し傾ける（A19 の型）
                         attach(clip(videos[(pi // 2) % len(videos)], dj, LANE['photo_bg'], filters=[tilt_f, grade_f]), t + j * d / n)
+                        punch(t + j * d / n, dj, LANE['photo_fg'])
                     else:
                         # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）を優先し、
                         # 使用回数の少ないものから選ぶ（使い回しを減らす）
@@ -313,7 +339,7 @@ def main():
                 if k < len(subs) - 1:
                     fill_gap(t - gap, gap, k)
                 else:
-                    fill_gap(t - gap, float(w1) - (t - gap), k)  # 最後の字幕の後〜価格表示まで
+                    fill_gap(t - gap + 5, float(w1) - (t - gap + 5), k)  # 価格表示（最後の字幕の 1 秒後から 3 秒）の後〜区間の終わり
                     if block:
                         block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
                     block = None
@@ -339,7 +365,10 @@ def main():
                     stats['section'] += 1
         # 4) 価格ありの中央商品名（区間の最後）
         if pr.get('price') and ec:
+            # 価格は台本どおり素材の説明の直後（最後の字幕の 1 秒後）。A19 も価格に触れた時点で出している
             tp = t1 - Fraction(7)
+            if subs and last_sub_end is not None and Fraction(last_sub_end + 1).limit_denominator(1000) < tp:
+                tp = Fraction(last_sub_end + 1).limit_denominator(1000)
             attach(still(ec[0], Fraction(3), LANE['photo_bg'], '0 0', '1.05 1.05'), tp)
             attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                          LANE['center'], Fraction(3)), tp)
@@ -361,6 +390,7 @@ def main():
                 t += 2.8
             elif vids:
                 attach(clip(vids[vi % len(vids)], Fraction(24, 10), LANE['photo_bg'], filters=[tilt_f, grade_f]), t)
+                punch(t, Fraction(24, 10), LANE['photo_fg'])
                 vi += 1
                 t += 2.4
             k += 1
