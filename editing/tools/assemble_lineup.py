@@ -19,6 +19,7 @@ from fractions import Fraction
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_lineup import Templates, apply_template, set_param, set_transform  # noqa: E402
+from fcpxml_util import append_anchor  # noqa: E402
 
 FRAMING = {  # A19（4K 単カメ・立ち）の構図プリセット
     'op_tight': ('-7.46296 -29.4719', '1.92 1.92'),
@@ -177,21 +178,21 @@ def main():
         g.set('duration', S(du))
         p, sc = FRAMING[sec['framing']]
         set_transform(g, p, sc)
-        e.append(g)
+        append_anchor(e, g)
         log['adjustment'] += 1
         # OP: コレクション名（名前カードの後〜OP の終わり）
         if sec['chapter'] == 'OP' and off >= Fraction(47, 10):
-            e.append(make_title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, st, du))
+            append_anchor(e, make_title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, st, du))
             log['collection_label'] += 1
         # 商品区間: 紹介インの後は左上に商品名ラベル
         if 'product' in sec and off >= sec['t0'] + Fraction(str(plan.get('label_delay', 6))):
             pr = sec['product']
-            e.append(make_title('product_label', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 2, st, du))
+            append_anchor(e, make_title('product_label', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 2, st, du))
             log['product_label'] += 1
 
     # ---- 2. OP の名前カード ----
     first = next(e for e in items if e.tag == 'mc-clip')
-    first.append(make_title('name_card', 'any', ['WAMU', '/Fashion YouTuber\n/shiun Director'], 2, T(first.get('start')), Fraction(47, 10)))
+    append_anchor(first, make_title('name_card', 'any', ['WAMU', '/Fashion YouTuber\n/shiun Director'], 2, T(first.get('start')), Fraction(47, 10)))
 
     # ---- 3. 中央商品名（各商品区間の頭 4.6 秒）----
     for s in sections:
@@ -199,7 +200,7 @@ def main():
             continue
         host = next(e for e in items if e.tag == 'mc-clip' and T(e.get('offset')) >= s['t0'])
         pr = s['product']
-        host.append(make_title('product_center', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 3,
+        append_anchor(host, make_title('product_center', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 5,
                                T(host.get('start')) + (s['t0'] - T(host.get('offset'))) if T(host.get('offset')) < s['t0'] else T(host.get('start')),
                                Fraction(46, 10)))
 
@@ -212,7 +213,7 @@ def main():
         for kf in list(b):
             if kf.tag == 'adjust-volume':
                 b.remove(kf)
-        first.append(b)
+        append_anchor(first, b)
 
     # ---- 5. スパインへの挿入（アイキャッチ・カウントダウン・エンディング）----
     new_items = []
