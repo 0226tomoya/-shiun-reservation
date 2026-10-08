@@ -176,6 +176,13 @@ td.k{white-space:nowrap;width:130px}.k-字幕{color:var(--sub)}.k-インサー�
                      f'<td class="k k-{escape(e[2])}">{escape(e[2])}</td><td>{escape(e[3])}</td></tr>')
         h.append('</table></div>')
     h.append('</main></body></html>')
+    # スマホの確認ページ用に、チャプターと #番号の一覧も JSON で書き出す（番号は上の表と同じ）
+    jl = []
+    for (a, name), (b, _) in zip(bounds, bounds[1:]):
+        for e in [e for e in ev if a <= e[0] < b]:
+            jl.append({'n': len(jl) + 1, 't0': round(e[0], 2), 't1': round(e[1], 2), 'kind': e[2], 'text': e[3][:160], 'chapter': name})
+    json.dump({'version': ver, 'total': round(total, 2), 'chapters': [{'t0': round(a, 2), 't1': round(b, 2), 'name': nm} for (a, nm), (b, _) in zip(bounds, bounds[1:])],
+               'events': jl}, open(os.path.splitext(out)[0] + '_events.json', 'w', encoding='utf-8'), ensure_ascii=False)
     with open(out, 'w', encoding='utf-8') as f:
         f.write(''.join(h))
     print('events', n, '->', out, f'{os.path.getsize(out) / 1e6:.1f}MB')
