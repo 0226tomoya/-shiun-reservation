@@ -120,11 +120,14 @@ def main():
     cam = np.array([r['motion'] for r in rows])
     cam_flag = cam > max(6.0, np.percentile(cam, 95) if n else 6.0)
 
+    # 人が映っていない（フレームアウト・壁や地面だけ）: 人が映る素材（h/）では NG
+    noperson = np.array([r['pose'] is None for r in rows]) if sub == 'h' else np.zeros(n, bool)
     res = {
         'fps': fps, 'frames': n, 'dur': round(n / fps, 2), 'face_ratio': round(float(np.mean([r['face'] for r in rows])) if n else 0, 2),
-        'ng': {'talk_gum': merge(talk, fps), 'hair': merge(hair, fps), 'pocket': merge(pocket, fps)},
+        'ng': {'talk_gum': merge(talk, fps), 'hair': merge(hair, fps), 'pocket': merge(pocket, fps),
+               'no_person': merge(noperson, fps, pad=0.25)},
         'check': {'clothes': merge(clothes, fps), 'camera': merge(cam_flag, fps, pad=0.25)},
-        'series': {'jaw': [None if np.isnan(x) else round(float(x), 3) for x in jaw], 'wrist_speed': [round(float(x), 3) for x in speed],
+        'series': {'person': [r['pose'] is not None for r in rows], 'jaw': [None if np.isnan(x) else round(float(x), 3) for x in jaw], 'wrist_speed': [round(float(x), 3) for x in speed],
                    'motion': [round(float(x), 2) for x in cam]},
     }
     bad = np.zeros(n, bool)
