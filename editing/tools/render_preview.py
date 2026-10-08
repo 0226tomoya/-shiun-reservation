@@ -8,6 +8,7 @@
 """
 import glob
 import json
+import unicodedata
 import os
 import subprocess
 import sys
@@ -116,7 +117,8 @@ def overlay_frame(items, t):
            and role(i) not in ('adjustment_main', 'adjustment_other') and not str(i['lane']).startswith('in')]
     act.sort(key=lambda i: int(i['lane']) if str(i['lane']).lstrip('-').isdigit() else 0)
     # 画面全体を覆う動画のインサート（土台に差し替え済み）より下のレーンは、FCP でも隠れるので描かない
-    vlanes = [int(i['lane']) for i in act if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and vid_proxy(i)]
+    vlanes = [int(i['lane']) for i in act if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and vid_proxy(i)
+              and not (i.get('path') and i['path'][0] == 'Adjustment Layer')]
     floor = max(vlanes) if vlanes else -99
     act = [i for i in act if not (str(i['lane']).lstrip('-').isdigit() and int(i['lane']) < floor)]
     for i in act:
@@ -124,6 +126,9 @@ def overlay_frame(items, t):
             pf.draw_title(im, i)
         elif i['tag'] in ('asset-clip', 'clip') and vid_proxy(i):
             continue
+        elif any(k in unicodedata.normalize('NFC', (i['name'] or '') + '/' + '/'.join(i.get('path') or [])) for k in ('サイズスペック線',)) \
+                or unicodedata.normalize('NFC', i['name'] or '') == 'カスタム':
+            continue  # 身長別比較の枠・線（Mac のダウンロードにある部品で、手元にない）
         elif local_file(i.get('src')):
             draw_image(im, i, local_file(i.get('src')))
         else:
@@ -186,6 +191,41 @@ def main():
                     st_src = float(st + tau - o)
                     src = next(((ps, pp) for ps, pe, pp in proxies.get(name, []) if ps <= st_src and st_src + float(t - s) <= pe + 0.05), None)
                     break
+        sz = [c for c in e if c.tag == 'asset-clip' and (c.get('lane') or '').isdigit()] if e.tag == 'title' else []
+        if src is None and sz and MEDIA['vid']:
+            # 身長別比較のブロック: 2 本の動画を FCP の位置・拡大・切り取りどおりに並べる（下: lane 1、上: lane 2）
+            ins, fcx, last = [], [f'color=c=black:s={W}x{H}:r={fps}:d={float(t - s) + 1:.3f}[bg]'], 'bg'
+            for c in sorted(sz, key=lambda c: int(c.get('lane'))):
+                pp_ = os.path.join(MEDIA['vid'], c.get('name'), 'proxy.mp4')
+                if not os.path.exists(pp_):
+                    continue
+                ss_ = T(c.get('start') or '0s') + (s - off) + (T(e.get('start')) - T(c.get('offset')))
+                ins += ['-ss', f'{float(ss_):.4f}', '-i', pp_]
+                k_ = len(ins) // 4 - 1
+                tr_ = c.find('adjust-transform')
+                x_, y_ = (float(v) for v in ((tr_.get('position') if tr_ is not None else None) or '0 0').split())
+                sc_ = float(((tr_.get('scale') if tr_ is not None else None) or '1 1').split()[0])
+                cr_ = c.find('adjust-crop/trim-rect')
+                # 切り取り（trim-rect）の値は位置と同じく画面の高さの %
+                L_, R_, Tp_, B_ = (float(cr_.get(k, 0)) * H / 100 if cr_ is not None else 0 for k in ('left', 'right', 'top', 'bottom'))
+                sw_, sh_ = int(round(W * sc_ / 2) * 2), int(round(H * sc_ / 2) * 2)
+                cw_, ch_ = int(sw_ - (L_ + R_) * sc_) // 2 * 2, int(sh_ - (Tp_ + B_) * sc_) // 2 * 2
+                cx0, cy0 = int(L_ * sc_), int(Tp_ * sc_)
+                ox = int(W / 2 + x_ * H / 100 - sw_ / 2 + cx0)
+                oy = int(H / 2 - y_ * H / 100 - sh_ / 2 + cy0)
+                # ガウス（FCP の Amount 0〜1）: 0.5 で顔が判別できない強さ（確認動画の近似）
+                g_ = next((f_ for f_ in c.findall('filter-video') if f_.get('name') == 'ガウス'), None)
+                amt = float(next((q.get('value') for q in g_.findall('param') if q.get('name') == 'Amount'), '0.2')) if g_ is not None else 0
+                blur_ = f',gblur=sigma={max(1.0, amt * 40 * sc_):.1f}' if g_ is not None else ''
+                fcx.append(f'[{k_}:v]fps={fps},scale={sw_}:{sh_}{blur_},crop={cw_}:{ch_}:{cx0}:{cy0}[v{k_}]')
+                fcx.append(f'[{last}][v{k_}]overlay={ox}:{oy}:eof_action=pass[o{k_}]')
+                last = f'o{k_}'
+            if os.environ.get('RP_DEBUG'):
+                print('合成:', ';'.join(fcx), file=sys.stderr)
+            ff(ins + ['-filter_complex', ';'.join(fcx), '-map', f'[{last}]', '-frames:v', str(n), '-an',
+                '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-g', '1', '-pix_fmt', 'yuv420p', seg])
+            segs.append(seg)
+            continue
         if src is None and e.tag == 'asset-clip':
             # スパインに直接置いた素材（カウントダウンなど）: 手元に取り込んだファイルがあればそのまま描く
             import unicodedata as _ud0
@@ -250,7 +290,8 @@ def main():
             a_start[_ud.normalize('NFC', _up.unquote(r_.find('media-rep').get('src')))] = T(r_.get('start') or '0s')
     evs = []
     for i in items:
-        if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and int(i['lane']) >= 3 and vid_proxy(i):
+        if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and int(i['lane']) >= 3 and vid_proxy(i) \
+                and not (i.get('path') and i['path'][0] == 'Adjustment Layer'):  # 身長別比較のブロックの中の動画は土台側で合成済み
             t0_, t1_ = round(Fraction(i['t0']) / FD) * FD, round(Fraction(i['t1']) / FD) * FD
             if t1_ <= a0 or t0_ >= a1:
                 continue

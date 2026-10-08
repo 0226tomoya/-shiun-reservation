@@ -67,8 +67,9 @@ def main():
     off_grid = [(a, el) for a, b, el, _ in items if not on_grid(a) or not on_grid(b)]
 
     # 2. インサート（レーン 3 以上の映像）。音だけのもの（レーン負）は除く
-    ins = sorted([(a, b, el) for a, b, el, _ in items
-                  if el.tag in VIDEO and int(el.get('lane')) >= 3], key=lambda x: x[0])
+    # 身長別比較のブロック（スパインに置いた調整レイヤーの中）の動画・テロップはインサート・字幕ではない
+    ins = sorted([(a, b, el) for a, b, el, h in items
+                  if el.tag in VIDEO and int(el.get('lane')) >= 3 and h.tag != 'title'], key=lambda x: x[0])
     # かたまりにまとめる（重なり・接しているもの）
     blocks = []
     for a, b, el in ins:
@@ -100,7 +101,7 @@ def main():
                 if used_end > src_end:
                     short.append((a, norm(el.get('name')), float(used_end - src_end)))
     # 5. 字幕
-    subs = [(a, b, el) for a, b, el, _ in items if el.tag == 'title' and el.get('lane') == '7']
+    subs = [(a, b, el) for a, b, el, h in items if el.tag == 'title' and el.get('lane') == '7' and h.tag != 'title']
     sub_off = [(a, b) for a, b, _ in subs if a not in cuts or b not in cuts]
 
     print(f'シーケンス {1 / fd:.2f}fps・長さ {mmss(total)}・メインの編集点 {len(cuts)} か所')

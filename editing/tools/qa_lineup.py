@@ -44,11 +44,23 @@ def main():
                 ov += 1
     if ov:
         issues.append((3, f'同じレーンで重なっている接続クリップが {ov} 組（FCP がレーンをずらす）'))
+    # 1b) 他の回の素材（A19・A23 などの LOOK 写真や動画）が残っていないか（流用部品の中も含む）
+    other = collections.Counter()
+    for i in [x for x in json.load(open(sys.argv[1])) if x['enabled'] != '0']:
+        src_ = unicodedata.normalize('NFC', urllib.parse.unquote(str(i.get('src') or '')))
+        if src_ and any(w in src_ for w in ('A19 shiun', 'A23 shiun', 'A18 shiun', 'T7 Shield', '/わ/A19')) and i['tag'] in ('video', 'asset-clip', 'clip'):
+            other[src_.rsplit('/', 1)[-1]] += 1
+    if other:
+        issues.append((3, f'他の回の素材が使われている: {len(other)} 点（例: {other.most_common(3)}）'))
     # 2) 使い回し
     use = collections.Counter()
     for i in it:
         if i['tag'] in ('video', 'asset-clip', 'clip') and i['lane'] not in (None, '-1'):
             src = unicodedata.normalize('NFC', urllib.parse.unquote(str((i.get('asset') or {}).get('src') or i['name'])))
+            if i.get('path') and i['path'][0] == 'Adjustment Layer':
+                continue  # 身長別比較のブロックの動画（同じ動画を顔のブラー用に重ねる・パンツで使い回すのは型どおり）
+            if '特殊アイキャッチ・背景等' in src:
+                continue  # 枠・背景などの部品（身長別比較の 2サイズ.png など）は毎回同じものを使う型
             use[src] += 1
     heavy = [(k.split('/')[-2] + '/' + k.split('/')[-1], v) for k, v in use.items() if v >= 4]
     if heavy:

@@ -26,7 +26,65 @@ def font(path, size):
         return ImageFont.load_default()
 
 
+def draw_title_runs(im, i):
+    """ランごとの大きさ・行間で描く（身長別比較の表など、行ごとに行間を変えて揃えているテロップ用）。
+    FCP の実測に合わせて: 位置は 1 行目、行の送り = 1.5 × 文字の大きさ + 行間（改行を含むランの書式）。"""
+    (px, py), sc = pos(i), tr(i)[1]
+    (tx, ty) = tr(i)[0]
+    x = W / 2 + px * sc + tx * 10.8
+    y = H / 2 - (py * sc + ty * 10.8)
+    stretch = float((i.get('params', {}).get('調整') or '1 1').split()[1])
+    styles = i.get('styles', {})
+    lines = [[]]  # [(文字, 書式)]
+    breaks = []  # 改行の書式
+    for t_ in i.get('texts', []):
+        for r in t_['runs']:
+            st = styles.get(r['ref'], {})
+            parts = r['text'].split('\n')
+            for k, p in enumerate(parts):
+                if p:
+                    lines[-1].append((p, st))
+                if k < len(parts) - 1:
+                    breaks.append(st)
+                    lines.append([])
+    while lines and not lines[-1]:
+        lines.pop()
+    layer = Image.new('RGBA', im.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    st0 = first_style(i)
+    al = st0.get('alignment') or ('center' if '中央' in str(i.get('params', {}).get('配置', '')) else
+                                  'right' if '右' in str(i.get('params', {}).get('配置', '')) else 'left')
+    cy = y
+    for k, segs in enumerate(lines):
+        fonts = []
+        for s_, st in segs:
+            size = float(st.get('fontSize') or 30) * sc
+            is_jp = st.get('font') in ('Klee', 'Hiragino Mincho ProN') or any(ord(ch) > 0x3000 for ch in s_)
+            fonts.append((s_, font(SANS if is_jp else SERIF, size * (0.95 if is_jp else 0.8)), st, size, is_jp))
+        w = sum(d.textlength(s_, font=f) for s_, f, *_ in fonts)
+        lx = {'center': x - w / 2, 'right': x - w}.get(al, x)
+        hmax = max([f_[3] for f_ in fonts] or [20 * sc])
+        for s_, f, st, size, is_jp in fonts:
+            col = tuple(int(float(c) * 255) for c in (st.get('fontColor') or '1 1 1 1').split()[:3])
+            sw = d.textlength(s_, font=f)
+            tmp = Image.new('RGBA', (int(sw) + 4, int(hmax * 1.4) + 4), (0, 0, 0, 0))
+            ImageDraw.Draw(tmp).text((2, int(hmax - size)), s_, font=f, fill=col + (255,), stroke_width=1 if is_jp else 0, stroke_fill=(0, 0, 0, 60))
+            tmp = tmp.resize((tmp.width, max(1, int(tmp.height * stretch))))
+            layer.alpha_composite(tmp, (int(lx), int(cy - hmax * stretch / 2)))
+            lx += sw
+        if k < len(breaks):
+            # 行の送り = 0.75 ×（この行の最大の大きさ + 次の行の最大の大きさ）+ 行間。改行のランの大きさもこの行に含める
+            b = breaks[k]
+            cur_ = max([float(st.get('fontSize') or 20) for _, st in segs] + [float(b.get('fontSize') or 20)])
+            nxt_ = max([float(st.get('fontSize') or 20) for _, st in lines[k + 1]] or [cur_]) if k + 1 < len(lines) else cur_
+            cy += (0.75 * (cur_ + nxt_) + float(b.get('lineSpacing') or 0)) * sc
+    im.alpha_composite(layer)
+
+
 def draw_title(im, i):
+    if i.get('texts'):
+        # 実データで確かめた描き方（ランごとの大きさ・行間、位置は 1 行目が基準）
+        return draw_title_runs(im, i)
     st = first_style(i)
     (px, py), sc = pos(i), tr(i)[1]
     (tx, ty) = tr(i)[0]

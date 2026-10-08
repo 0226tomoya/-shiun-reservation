@@ -952,6 +952,16 @@ def main():
             elif _re.search(r'\w+ \d+(st|nd|rd|th) \w+\.? \d+(am|pm) - Release', t_):
                 ts.text = _re.sub(r'\w+ \d+(st|nd|rd|th) \w+\.? \d+(am|pm) - Release', plan['release_line'], t_)
                 fixed += 1
+        # アイキャッチの背景写真も A19 の LOOK（別の回）なので、A24 の LOOK 写真に差し替える（同じ 4160x6240 なので拡大・位置はそのまま）
+        if plan.get('eyecatch_photo') and plan['eyecatch_photo'] in assets:
+            for v_el in m.iter('video'):
+                ra = next((r for r in resources if r.get('id') == v_el.get('ref')), None)
+                mr_ = ra.find('media-rep') if ra is not None and ra.tag == 'asset' else None
+                if mr_ is not None and 'ルック選定後' in unicodedata.normalize('NFC', urllib.parse.unquote(mr_.get('src') or '')):
+                    na = assets[plan['eyecatch_photo']]
+                    v_el.set('ref', na.get('id'))
+                    v_el.set('name', na.get('name'))
+                    fixed += 1
         for t_el in m.iter('title'):
             if _re.search(r'shiun\s.*Collection', t_el.get('name') or ''):
                 t_el.set('name', _re.sub(r'shiun\s.*Collection', plan['collection'], t_el.get('name')))

@@ -10,7 +10,7 @@
   - 商品名ラベル: 同時に 2 本あれば上段/下段（変形 -9.111,5 / -9.111,-3.626、拡大 0.9）、1 本なら変形 -0.944,0
   - 中央商品名: 同時に 2 本あれば変形 ±44.444、価格ありは位置 -0.0825,43.05、なしは -0.775,8.575
   - セクションラベル: 単語ごとの x（Material 701.169 / Color 754.496 / Wash 760.77 / Silhouette 874.699 / Design・Detail 874.091）
-  - 字幕: 1 行は位置 1,-483.734、2 行は 0,-440
+  - 字幕: 1 行は位置 1,-483.734、2 行は 1,-440.734（1 行の送り 43px 上。位置は 1 行目が基準）
   - ED 一覧の商品名: 横 4 列 x = 62.509 / 23.056 / -16.389 / -60.194、y = -35.556、拡大 0.6
 """
 import copy
@@ -232,6 +232,25 @@ def apply_template(tpl_el, actual_el, tpl_res, doc_res, doc_resources_el, r, ctx
     for a, b in zip(runs, runs[1:]):
         if (a.text or '').endswith('\n') and (b.text or '').startswith('\n'):
             a.text = a.text[:-1]
+    # 字幕・強調の文字間隔（kerning）は、改行と最後の 1 文字以外に付ける（A19・A23 の実データの形。FCP の字間の持ち方）
+    if r in ('subtitle', 'emphasis'):
+        tx_ = new.find('text')
+        defs_ = {d.get('id'): d.find('text-style') for d in new.findall('text-style-def')}
+        rs_ = tx_.findall('text-style') if tx_ is not None else []
+        kref = next((x.get('ref') for x in rs_ if defs_.get(x.get('ref')) is not None and defs_[x.get('ref')].get('kerning')), None)
+        uref = next((x.get('ref') for x in rs_ if defs_.get(x.get('ref')) is not None and not defs_[x.get('ref')].get('kerning')), None)
+        if kref and uref:
+            full = ''.join(x.text or '' for x in rs_).strip('\n')
+            for x in rs_:
+                tx_.remove(x)
+            lines_ = full.split('\n')
+            for k_, ln_ in enumerate(lines_):
+                last = k_ == len(lines_) - 1
+                body, tail = (ln_[:-1], ln_[-1:]) if last else (ln_, '\n')
+                if body:
+                    ET.SubElement(tx_, 'text-style', ref=kref).text = body
+                if tail:
+                    ET.SubElement(tx_, 'text-style', ref=uref).text = tail
     # 子要素（マーカー・キーワード）は actual のものを残す
     for ch in list(new):
         if ch.tag in ('marker', 'chapter-marker', 'keyword'):
@@ -310,10 +329,12 @@ def set_rule_position(el, r, ctx):
             # A19 の Material / Color / Wash は中央揃えで x を詰めて、右端を他のラベルに揃えている
             for ts in el.iter('text-style'):
                 ts.attrib.pop('alignment', None)
+            set_param(el, '配置', '0 (左揃え)')
     elif r == 'subtitle':
         lines = ''.join(x.text or '' for x in slots(el)).count('\n') + 1
-        # A19・A23 とも 1 行・2 行どちらも 1, -483.734（2 行で位置を変えた例はない）
-        set_param(el, '位置', '1 -483.734')
+        # 1 行は 1, -483.734。2 行は 1 行の送り（1.5 × 32 − 5 = 43px）だけ上げて、下の行を 1 行の字幕と同じ高さに
+        # （A19 の 2 行: -439.99 / -442.42 / -438.32 / -441.98、平均 -440.7。位置は 1 行目が基準）
+        set_param(el, '位置', '1 -483.734' if lines == 1 else '1 -440.734')
     elif r == 'size_letter':
         # 小さいサイズを左、大きいサイズを右
         set_param(el, '位置', '-292.796 404.571' if k == 0 else '312.47 406.474')
