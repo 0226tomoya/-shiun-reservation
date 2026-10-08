@@ -147,8 +147,39 @@ def main():
         if e.tag == 'mc-clip':
             hosts.append((T(e.get('offset')), T(e.get('duration')), e))
 
+    # ---- フレームの格子と編集点 ----
+    seq_fmt = doc_res[project.find('sequence').get('format')]
+    FD = T(seq_fmt.get('frameDuration'))  # 本編は 59.94p（1001/60000 秒）
+
+    def snapf(t):
+        """いちばん近いフレームの頭に揃える（A19 はすべての要素がフレームの格子に乗っている）。"""
+        return round(Fraction(t) / FD) * FD
+
+    CUTS = sorted({x for off, du, _ in hosts for x in (off, off + du)})
+
+    def near_cut(t, lo, hi):
+        """[lo, hi] の中で t にいちばん近いメインの編集点。なければ None。"""
+        import bisect
+        i = bisect.bisect_left(CUTS, Fraction(lo))
+        best = None
+        while i < len(CUTS) and CUTS[i] <= hi:
+            if best is None or abs(CUTS[i] - Fraction(t)) < abs(best - Fraction(t)):
+                best = CUTS[i]
+            i += 1
+        return best
+
+    def end_on_cut(t, d, tol=Fraction(6, 10)):
+        """t から約 d 秒の長さを、終わりが編集点に来るように決める（±tol に編集点がなければフレームに揃えた d）。"""
+        t, d = Fraction(t), Fraction(d)
+        e = near_cut(t + d, t + d - tol, t + d + tol) or near_cut(t + d, t + d - 2 * tol, t + d + 2 * tol)
+        return (e if e is not None else snapf(t + d)) - t
+
     def attach(el, t):
-        t = Fraction(t).limit_denominator(60000)
+        # 頭と終わりをフレームの格子に揃える
+        t = snapf(t)
+        if el.get('duration'):
+            end = snapf(t + T(el.get('duration')))
+            el.set('duration', S(max(FD, end - t)))
         for off, du, e in hosts:
             if off <= t < off + du:
                 el.set('offset', S(T(e.get('start')) + (t - off)))
@@ -254,132 +285,150 @@ def main():
             ec = folder(pr['ec'])
             videos = []
         # 1) 商品紹介イン（4.6 秒）: 左 掲載用 01、右 SNS 写真をぼかし
+        # 紹介インの長さは 4.6 秒前後で、終わりを編集点に（商品名ラベルの出だしと同じ規則。assemble_lineup.intro_end）
+        di = end_on_cut(t0, Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
         if ec and photos:
-            attach(still(ec[0], Fraction(46, 10), LANE['photo_fg'], '-44.4444 0', 'half'), t0)
-            attach(still(photos[min(5, len(photos) - 1)], Fraction(46, 10), LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), t0)
+            attach(still(ec[0], di, LANE['photo_fg'], '-44.4444 0', 'half'), t0)
+            attach(still(photos[min(5, len(photos) - 1)], di, LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), t0)
             stats['intro'] += 1
-        # 2) 字幕と B-roll
+        # 2) 字幕と B-roll（A19 の組み方）
+        # - 字幕 3 本のかたまりごとに、続いた 1 つのインサート（中央値 16 秒）を敷く。トークの間は 15 秒前後空ける
+        # - インサートの頭・終わり・中の切り替わりは、メインの編集点に揃える（話の途中で切れない）
+        # - 1 カットは 4.8 秒前後（3〜7 秒の範囲で一番近い編集点）
         last_sub_end = None
         subs = [('Design', x) for x in split_script(pr.get('design', ''))] + [('Material', x) for x in split_script(pr.get('material', ''))]
         if pr.get('lines'):
             subs = [(a, b) for a, b in pr['lines']]
         w0, w1 = t0 + 8, t1 - 9
+        used = {}
+        pi = [0]
+
+        def pieces(a, b):
+            """[a, b] を、編集点で 4.8 秒前後のカットに分ける。"""
+            out, s0 = [], a
+            while b - s0 > Fraction(7):
+                c = (near_cut(s0 + Fraction(48, 10), s0 + 3, min(s0 + 7, b - 3))
+                     or near_cut(s0 + Fraction(48, 10), s0 + 2, min(s0 + 9, b - Fraction(15, 10))))
+                if c is None:
+                    c = snapf(s0 + Fraction(48, 10))
+                out.append((s0, c))
+                s0 = c
+            out.append((s0, b))
+            return out
+
+        def pick_video(dur):
+            for _ in range(len(videos)):
+                v = videos[(pi[0] // 2) % len(videos)]
+                pi[0] += 1
+                if T(v.get('duration')) >= dur + Fraction(1, 2):
+                    return v, (1 if T(v.get('duration')) >= dur + 1 else Fraction(1, 4))
+            return None, 0
+
+        def lay(a, b, sec):
+            """インサートのかたまり [a, b] を敷く。"""
+            for pa, pb in pieces(a, b):
+                d = pb - pa
+                v, st_in = pick_video(d) if (videos and pi[0] % 2 == 1) else (None, 0)
+                if v is not None:
+                    # 置き撮りの EC 動画は基本3D で少し傾け、上に寄りの調整レイヤー（A19 の型）
+                    attach(clip(v, d, LANE['photo_bg'], start_in=st_in, filters=[tilt_f, grade_f]), pa)
+                    punch(pa, d, LANE['photo_fg'])
+                else:
+                    if videos and pi[0] % 2 == 1:
+                        pi[0] += 1
+                    # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）を優先し、使用回数の少ないものから
+                    half = max(1, len(photos) // 2)
+                    pref = photos[:half] if sec in ('Design', 'Silhouette', None) else (photos[half:] or photos)
+                    pool = pref + [x for x in photos + ec if x not in pref]
+                    ph = min(pool, key=lambda x: (used.get(x.get('id'), 0), pool.index(x)))
+                    used[ph.get('id')] = used.get(ph.get('id'), 0) + 1
+                    zoom = '2.7 2.7' if sec in ('Design', 'Silhouette', None) else '4 4'
+                    attach(still(ph, d, LANE['photo_bg'], f'{(pi[0] % 3 - 1) * 6} {(pi[0] % 2) * 8}', zoom, [zoom_f]), pa)
+                    pi[0] += 1
+                stats['broll'] += 1
+
+        def fill_talk(g0, g1):
+            """トークだけが続く所に、字幕なしのインサート（約 14 秒）を「トーク約 15 秒 ↔ インサート」の間隔で入れる。
+            前後は 8 秒以上トークを見せる（A19 はトークの間が中央値 15.5 秒、インサートのかたまりが中央値 16.4 秒）。"""
+            if g1 - g0 < 26 or not ec:
+                return
+            n = max(1, round((g1 - g0 - 15) / 29))
+            while n > 1 and (g1 - g0 - 15 * (n + 1)) / n < 8:
+                n -= 1
+            L = min(Fraction(16), (g1 - g0 - 15 * (n + 1)) / n) if n > 1 else min(Fraction(16), (g1 - g0) - 16)
+            talk = (g1 - g0 - n * L) / (n + 1)
+            for k in range(n):
+                s_ = g0 + talk * (k + 1) + L * k
+                a = near_cut(s_, s_ - 2, s_ + 2) or snapf(s_)
+                b = near_cut(a + L, a + L - 2, a + L + 2) or snapf(a + L)
+                if b - a >= 6:
+                    lay(a, b, None)
+
         if subs and w1 > w0:
-            need = sum(max(4.0, min(10.0, len(x) / 3.6)) for _, x in subs)
-            # 字幕は 3 本ずつのかたまりで続けて出し（間 1.2 秒、A19 の字幕間の空き中央値 3.4 秒に近づける）、
-            # かたまりとかたまりの間はトークを見せる
-            K, inner = 3, 1.2
-            nclu = (len(subs) + K - 1) // K
-            inner_total = inner * (len(subs) - nclu)
-            outer = max(0.0, (float(w1 - w0) - need - inner_total) / (nclu + 1))
-            gaps_after = [(inner if (k + 1) % K else outer) for k in range(len(subs))]
-            gap = outer
-            t = float(w0) + outer
-            pi = 0
-            used = {}
+            durs = [Fraction(max(4.0, min(10.0, len(x) / 3.6))).limit_denominator(100) for _, x in subs]
+            K = 3
+            clusters = [list(range(k, min(k + K, len(subs)))) for k in range(0, len(subs), K)]
+            need = sum(durs) + Fraction(18, 10) * len(subs)  # 字幕の間（編集点 1 つ分）と、編集点に揃える分
+            outer = max(Fraction(3), (w1 - w0 - need) / (len(clusters) + 1))
+            t = w0 + outer
+            prev_end = w0
             block = None
-
-            def fill_gap(g0, glen, k):
-                """トークだけが続く空き（14 秒以上）に、20 秒ごとに写真・動画のブロックを入れる。
-                字幕のない B-roll にはラベルを付けない（A19 もラベルは字幕のある話題の頭だけ。全体で 23 本）。"""
-                if glen < 14 or not ec:
-                    return
-                nb = max(1, int(glen // 20))
-                seg = glen / nb
-                for bi in range(nb):
-                    gs = g0 + bi * seg + max(2.0, (seg - 10) / 2)
-                    gl = min(10.0, seg - 4)
-                    for j in range(2):
-                        src_list = videos if (videos and j == 1) else ec
-                        # 掲載用の 01 は紹介インと価格表示で使うので、ここでは 02 以降から選ぶ
-                        cand = src_list[1:] if (src_list is ec and len(src_list) > 2) else src_list
-                        pick = cand[(k + 1 + bi + j) % len(cand)]
-                        el = (clip(pick, Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], filters=[tilt_f, grade_f])
-                              if src_list is videos else
-                              still(pick, Fraction(gl / 2).limit_denominator(1000), LANE['photo_bg'], '0 0', '1.05 1.05'))
-                        attach(el, gs + j * gl / 2)
-                        if src_list is videos:
-                            punch(gs + j * gl / 2, gl / 2, LANE['photo_fg'])
-                        stats['broll'] += 1
-
-            fill_gap(float(w0), outer, -1)  # 最初の字幕の前
-            last_sub_end = None
-            for k, (sec, text) in enumerate(subs):
-                d = max(4.0, min(10.0, len(text) / 3.6))
-                attach(title('subtitle', 'one', [text], LANE['subtitle'], Fraction(d).limit_denominator(1000)), t)
-                last_sub_end = t + d
-                stats['subtitle'] += 1
-                # 字幕の下の B-roll（約 5 秒ずつ）
-                n = max(1, round(d / 5))
-                for j in range(n):
-                    dj = Fraction(d / n).limit_denominator(1000)
-                    if videos and pi % 2 == 1:
-                        # 置き撮りの EC 動画は基本3D で少し傾ける（A19 の型）
-                        attach(clip(videos[(pi // 2) % len(videos)], dj, LANE['photo_bg'], filters=[tilt_f, grade_f]), t + j * d / n)
-                        punch(t + j * d / n, dj, LANE['photo_fg'])
+            for ci, cl in enumerate(clusters):
+                a = near_cut(t, t - 2, t + 2) or near_cut(t, t - 5, t + 5) or snapf(t)
+                cur = a
+                for k in cl:
+                    sec, text = subs[k]
+                    end = (near_cut(cur + durs[k], cur + durs[k] - Fraction(1, 2), cur + durs[k] + Fraction(25, 10))
+                           or near_cut(cur + durs[k], cur + durs[k] - Fraction(15, 10), cur + durs[k] + 4)
+                           or snapf(cur + durs[k]))
+                    attach(title('subtitle', 'one', [text], LANE['subtitle'], end - cur), cur)
+                    stats['subtitle'] += 1
+                    last_sub_end = end
+                    # セクションラベル: 同じ語が続く間は 1 本（最長 30 秒）。字幕の間（インサートは続く）も通す
+                    word = label_for(text, sec)
+                    if block and block[0] == word and end - block[1] <= 30 and cur - block[3] <= 3:
+                        block[3] = end
                     else:
-                        # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）を優先し、
-                        # 使用回数の少ないものから選ぶ（使い回しを減らす）
-                        half = max(1, len(photos) // 2)
-                        pref = photos[:half] if sec in ('Design', 'Silhouette') else (photos[half:] or photos)
-                        pool = pref + [x for x in photos + ec if x not in pref]
-                        ph = min(pool, key=lambda x: (used.get(x.get('id'), 0), pool.index(x)))
-                        used[ph.get('id')] = used.get(ph.get('id'), 0) + 1
-                        zoom = '2.7 2.7' if sec in ('Design', 'Silhouette') else '4 4'
-                        attach(still(ph, dj, LANE['photo_bg'], f'{(pi % 3 - 1) * 6} {(pi % 2) * 8}', zoom, [zoom_f]), t + j * d / n)
-                    pi += 1
-                    stats['broll'] += 1
-                # セクションラベル: B-roll の上にだけ出す（字幕 1 本ぶんの B-roll ブロックごと。A19 の型）
-                # 語は字幕の内容で決める（素材の話は Material、丈・身幅は Silhouette、ボタン・衿などは Detail）
-                # 同じ語が 1.5 秒以内に続くときは 1 本につなぐ（最長 30 秒。A19 は中央値 11 秒・最長 30 秒）
-                word = label_for(text, sec)
-                if block and block[0] == word and t - block[3] <= 1.5 and t + d - block[1] <= 30:
-                    block[3] = t + d
-                else:
-                    if block:
-                        block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
-                    lbl = title('section_label', 'any', [word], LANE['section'], Fraction(d).limit_denominator(1000))
-                    attach(lbl, t)
-                    stats['section'] += 1
-                    block = [word, t, lbl, t + d]
-                gap = gaps_after[k]
-                t += d + gap
-                # 字幕と字幕の間が 14 秒以上空くときは、掲載用の写真で Silhouette ブロックを入れる
-                if k < len(subs) - 1:
-                    fill_gap(t - gap, gap, k)
-                else:
-                    fill_gap(t - gap + 5, float(w1) - (t - gap + 5), k)  # 価格表示（最後の字幕の 1 秒後から 3 秒）の後〜区間の終わり
-                    if block:
-                        block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
-                    block = None
+                        if block:
+                            block[2].set('duration', S(block[3] - block[1]))
+                        lbl = title('section_label', 'any', [word], LANE['section'], end - cur)
+                        attach(lbl, cur)
+                        stats['section'] += 1
+                        block = [word, cur, lbl, end]
+                    if k != cl[-1]:
+                        nxt = near_cut(end + 1, end + Fraction(1, 2), end + 3) or near_cut(end + 1, end, end + 5) or end
+                        block[3] = nxt if block[0] == word else block[3]
+                        cur = nxt
+                b = last_sub_end
+                lay(a, b, subs[cl[0]][0])
+                fill_talk(prev_end, a)
+                prev_end = b
+                t = b + outer
             if block:
-                block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
-        # 3) 字幕のない時間に Silhouette ブロック（掲載用の写真）を足す
-        covered = sum(max(4.0, min(10.0, len(x) / 3.6)) for _, x in subs) + 4.6
-        target = coverage * float(t1 - t0)
-        if ec and covered < target:
-            blocks = int((target - covered) // 10)
-            span0, span1 = float(t0) + 8, float(t1) - 9
-            if not subs and blocks:
-                step = (span1 - span0) / blocks
-                for b in range(blocks):
-                    tb = span0 + b * step + max(0, step - 10) / 2
-                    for j in range(2):
-                        src_list = ec if b % 2 == 0 else photos
-                        attach(still(src_list[(2 * b + j) % len(src_list)], Fraction(5), LANE['photo_bg'],
-                                     '0 0', '1.05 1.05' if b % 2 == 0 else '3.2 3.2', [zoom_f] if b % 2 else []), tb + 5 * j)
-                        stats['broll'] += 1
+                block[2].set('duration', S(block[3] - block[1]))
+            # 価格表示（最後の字幕の後）の後〜区間の終わりのトーク
+            fill_talk(prev_end + 6, w1)
+        # 3) 字幕のない商品（台本なし）: トークの所々に字幕なしのインサート
+        elif ec:
+            span = w1 - w0
+            nb = max(1, int(span // 32))
+            for b_ in range(nb):
+                g0 = w0 + span * b_ / nb
+                fill_talk(g0, g0 + span / nb)
         # 4) 価格ありの中央商品名（区間の最後）
         if pr.get('price') and ec:
             # 価格は台本どおり素材の説明の直後（最後の字幕の 1 秒後）。A19 も価格に触れた時点で出している
-            tp = t1 - Fraction(7)
-            if subs and last_sub_end is not None and Fraction(last_sub_end + 1).limit_denominator(1000) < tp:
-                tp = Fraction(last_sub_end + 1).limit_denominator(1000)
+            tp = near_cut(t1 - 7, t1 - 9, t1 - 5) or snapf(t1 - Fraction(7))
+            if subs and last_sub_end is not None and last_sub_end + 1 < tp:
+                # インサートのかたまりの終わり（編集点）からそのまま続けて出す（間にトークが一瞬見えないように）
+                tp = last_sub_end
+            pe = near_cut(tp + 3, tp + Fraction(25, 10), tp + 4) or near_cut(tp + 3, tp + 2, tp + 5) or snapf(tp + 3)
+            pd = pe - tp
             # 全面をぼかした写真で覆い（左上の商品名ラベルを隠す。A18 の型）、中央に写真
-            attach(still((photos or ec)[-1], Fraction(3), LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
-            attach(still(ec[0], Fraction(3), LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
+            attach(still((photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
+            attach(still(ec[0], pd, LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
             attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
-                         LANE['center'], Fraction(3)), tp)
+                         LANE['center'], pd), tp)
             stats['price'] += 1
 
     # ---- OP: LOOK 写真の 2 枚並べと LOOK 動画 ----
@@ -387,20 +436,28 @@ def main():
     if op:
         looks = folder(op['photos'])
         vids = [a for a in folder(op['videos']) if float(T(a.get('duration'))) >= 4]
-        t, k, vi = float(op['t0']), 0, 0
+        # 頭・切り替わり・終わりはメインの編集点に揃える
+        t = near_cut(op['t0'], op['t0'] - 1, op['t0'] + 1) or snapf(op['t0'])
+        t_end = near_cut(op['t1'], op['t1'] - 2, op['t1'] + 1) or snapf(op['t1'])
+        k, vi = 0, 0
         step = max(1, len(looks) // 24)
-        while t < float(op['t1']) - 2.8:
+        while t < t_end - 2:
+            d0 = Fraction(28, 10) if k % 2 == 0 else Fraction(24, 10)
+            e = near_cut(t + d0, t + d0 - Fraction(8, 10), t + d0 + Fraction(8, 10)) or near_cut(t + d0, t + Fraction(16, 10), t + d0 + 2)
+            d = (e - t) if e is not None else snapf(t + d0) - t
+            if t_end - (t + d) < 2:
+                d = t_end - t  # 最後のカットは OP の終わりまで伸ばす（短い切れ端を作らない）
             if k % 2 == 0 and looks:
                 a = looks[(k // 2 * step) % len(looks)]
                 b = looks[(k // 2 * step + 1) % len(looks)]
-                attach(still(a, Fraction(28, 10), LANE['photo_bg'], '-44.4444 0', 'half'), t)
-                attach(still(b, Fraction(28, 10), LANE['photo_fg'], '44.4444 0', 'half'), t)
-                t += 2.8
+                attach(still(a, d, LANE['photo_bg'], '-44.4444 0', 'half'), t)
+                attach(still(b, d, LANE['photo_fg'], '44.4444 0', 'half'), t)
             elif vids:
-                attach(clip(vids[vi % len(vids)], Fraction(24, 10), LANE['photo_bg'], filters=[tilt_f, grade_f]), t)
-                punch(t, Fraction(24, 10), LANE['photo_fg'])
+                attach(clip(vids[vi % len(vids)], d, LANE['photo_bg'], start_in=0 if T(vids[vi % len(vids)].get('duration')) < d + 1 else 1,
+                            filters=[tilt_f, grade_f]), t)
+                punch(t, d, LANE['photo_fg'])
                 vi += 1
-                t += 2.4
+            t += d
             k += 1
             stats['op'] += 1
 
@@ -409,39 +466,46 @@ def main():
     # プロジェクタ＋ビネット＋ノイズの調整レイヤーはアイキャッチの複合クリップの中にある
     look_b = next((e for e in donor.root.iter('title') if any(norm(f.get('name')) == 'プロジェクタ' for f in e.findall('filter-video'))), None)
     if op and look_a is not None and look_b is not None:
-        tt = Fraction(47, 10)
+        tt = near_cut(Fraction(47, 10), Fraction(4), Fraction(54, 10)) or snapf(Fraction(47, 10))  # 名前カードの終わり（assemble_lineup と同じ規則）
+        dt = end_on_cut(tt, Fraction(49, 10), Fraction(8, 10))
         looks = folder(op['photos'])
         if looks:
-            attach(still(looks[len(looks) // 3], Fraction(49, 10), LANE['photo_bg'], '0 27.963', '2.7 2.7'), tt)
+            attach(still(looks[len(looks) // 3], dt, LANE['photo_bg'], '0 27.963', '2.7 2.7'), tt)
         for ln, src_el in ((LANE['photo_fg'], look_a), (LANE['center'], look_b)):
             x = donor.element(src_el)
             for ch in list(x):
                 if ch.tag in ('marker', 'chapter-marker', 'keyword') or ch.get('lane') is not None:
                     x.remove(ch)
             x.set('lane', str(ln))
-            x.set('duration', S(Fraction(49, 10)))
+            x.set('duration', S(dt))
             attach(x, tt)
-        attach(title('collection_center', 'any', ['shiun ', plan['collection'].replace('shiun ', '')], LANE['section'], Fraction(49, 10)), tt)
+        attach(title('collection_center', 'any', ['shiun ', plan['collection'].replace('shiun ', '')], LANE['section'], dt), tt)
         stats['op'] += 1
 
     # ---- ED: 一覧 ----
     ed = next((s for s in sections if s['chapter'] == 'ED'), None)
     cut = [p for p in plan['products'] if p.get('cutout') and p['cutout'] in assets]
     if ed and cut:
-        te = ed['t0'] + Fraction(1)
+        te = near_cut(ed['t0'] + 1, ed['t0'] + Fraction(1, 2), ed['t0'] + 3) or near_cut(ed['t0'] + 1, ed['t0'], ed['t0'] + 5) or snapf(ed['t0'] + 1)
         looks = folder(op['photos']) if op else []
-        if looks:
-            attach(still(looks[len(looks) // 2], Fraction(64, 10), 2, '0 23.3333', '2.68 2.68', [blur_f]), te)
-        attach(title('collection_label_center', 'any', [plan['collection'], plan['release_line']], LANE['center'], Fraction(64, 10)), te)
+        # 一覧のページの長さ（3.4 秒・3.0 秒前後で、終わりを編集点に）を先に決める
+        page_d, tq = [], te
+        for d0 in (Fraction(34, 10), Fraction(30, 10)):
+            page_d.append(end_on_cut(tq, d0))
+            tq += page_d[-1]
         # 色名が長いと 4 列では商品名が横で重なるので、5 商品以上は 3 列（3＋残り）にする
         per = 3 if len(cut) >= 5 or any(len(f"Color : {p['color']} | Size : {p['sizes']}") > 34 for p in cut) else 4
         pages = [cut[:per], cut[per:]]
+        dl = sum(page_d[:2 if pages[1] else 1])
+        if looks:
+            attach(still(looks[len(looks) // 2], dl, 2, '0 23.3333', '2.68 2.68', [blur_f]), te)
+        attach(title('collection_label_center', 'any', [plan['collection'], plan['release_line']], LANE['center'], dl), te)
         xs = {4: [62.5093, 23.0556, -16.3889, -60.1944], 3: [44.4444, 0, -44.4444], 2: [27.7778, -27.7778], 1: [0]}
         tp = te
         for page in pages:
             if not page:
                 continue
-            d = Fraction(34, 10) if page is pages[0] else Fraction(30, 10)
+            d = page_d[0] if page is pages[0] else page_d[1]
             for n, p in enumerate(reversed(page)):
                 x = xs[len(page)][n]
                 attach(still(assets[p['cutout']], d, LANE['ed_name'] + 2 + n, f'{x} 2', '0.42 0.42'), tp)
@@ -455,16 +519,20 @@ def main():
         # 一覧の後: LOOK 写真＋中央の発売日（A18 の型、3.9 秒）→ 締めのトーク中は左上にコレクション名（A19 の型）
         t_rel = tp
         if looks and plan.get('release_date'):
-            attach(still(looks[2 * len(looks) // 3 + 1], Fraction(39, 10), LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), t_rel)
-            attach(still(looks[2 * len(looks) // 3], Fraction(39, 10), LANE['photo_fg'], '0 0', '1.05 1.05'), t_rel)
-            attach(title('release_date_center', 'any', [plan['release_date']], LANE['center'], Fraction(39, 10)), t_rel)
-            t_rel += Fraction(39, 10)
-        ed_end = total - Fraction(85, 10)  # エンディング動画の前まで
+            dr = end_on_cut(t_rel, Fraction(39, 10))
+            attach(still(looks[2 * len(looks) // 3 + 1], dr, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), t_rel)
+            attach(still(looks[2 * len(looks) // 3], dr, LANE['photo_fg'], '0 0', '1.05 1.05'), t_rel)
+            attach(title('release_date_center', 'any', [plan['release_date']], LANE['center'], dr), t_rel)
+            t_rel += dr
+        # エンディング動画（スパインの最後の挿入）の頭まで
+        ending = [e for e in spine if e.tag != 'mc-clip' and e.get('offset') is not None and 'エンディング' in norm(e.get('name'))]
+        ed_end = T(ending[-1].get('offset')) if ending else snapf(total - Fraction(85, 10))
         if ed_end - t_rel > 3:
             attach(title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, ed_end - t_rel), t_rel)
         for n, line in enumerate(reversed(plan.get('closing_lines', []))):
             dur = Fraction(max(4, min(10, len(line) // 4)))
-            attach(title('subtitle', 'one', [line], LANE['subtitle'], dur), ed_end - dur - 1 - n * (dur + 1))
+            ts = near_cut(ed_end - dur - 1 - n * (dur + 1), ed_end - dur - 3 - n * (dur + 1), ed_end - dur - n * (dur + 1)) or snapf(ed_end - dur - 1 - n * (dur + 1))
+            attach(title('subtitle', 'one', [line], LANE['subtitle'], end_on_cut(ts, dur, Fraction(1)), ), ts)
         if se_src is not None:
             x = donor.element(se_src)
             x.set('lane', '-1')

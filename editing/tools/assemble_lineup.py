@@ -157,6 +157,26 @@ def main():
     def section_at(t):
         return next(s for s in sections if s['t0'] <= t < s['t1'] or s is sections[-1])
 
+    # ---- フレームの格子と編集点（auto_insert と同じ規則で、紹介インの終わり・名前カードの終わりを決める）----
+    FD = T(doc_res[seq.get('format')].get('frameDuration'))
+    CUTS = sorted({x for e in items if e.tag == 'mc-clip' for x in (T(e.get('offset')), T(e.get('offset')) + T(e.get('duration')))})
+
+    def snapf(t):
+        return round(Fraction(t) / FD) * FD
+
+    def near_cut(t, tol):
+        # tol の中になければ 2 倍まで広げて探す（auto_insert.end_on_cut と同じ規則）
+        for w in (tol, 2 * tol):
+            c = min((x for x in CUTS if abs(x - t) <= w), key=lambda x: abs(x - t), default=None)
+            if c is not None:
+                return c
+        return snapf(t)
+
+    name_end = near_cut(Fraction(47, 10), Fraction(7, 10))
+
+    def intro_end(sec):
+        return near_cut(sec['t0'] + Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
+
     # ---- テロップ生成のヘルパー ----
     def make_title(role, variant, texts, lane, offset, duration, ctx=None, start=None):
         tp = tpl.get(role, variant)
@@ -191,11 +211,11 @@ def main():
         append_anchor(e, g)
         log['adjustment'] += 1
         # OP: コレクション名（名前カードの後〜OP の終わり）
-        if sec['chapter'] == 'OP' and off >= Fraction(47, 10):
+        if sec['chapter'] == 'OP' and off >= name_end:
             append_anchor(e, make_title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, st, du))
             log['collection_label'] += 1
         # 商品区間: 紹介インの後は左上に商品名ラベル
-        ls = sec['t0'] + Fraction(str(plan.get('label_delay', 6))) if 'product' in sec else None
+        ls = intro_end(sec) if 'product' in sec else None
         if ls is not None and off + du > ls:
             # 紹介インが終わった瞬間から出す（カットの途中からでも。A18/A19 は 0.0 秒後）
             pr = sec['product']
@@ -206,7 +226,7 @@ def main():
 
     # ---- 2. OP の名前カード ----
     first = next(e for e in items if e.tag == 'mc-clip')
-    append_anchor(first, make_title('name_card', 'any', ['WAMU', '/Fashion YouTuber\n/shiun Director'], 2, T(first.get('start')), Fraction(47, 10)))
+    append_anchor(first, make_title('name_card', 'any', ['WAMU', '/Fashion YouTuber\n/shiun Director'], 2, T(first.get('start')), name_end))
 
     # ---- 3. 中央商品名（各商品区間の頭 4.6 秒）----
     for s in sections:
@@ -216,7 +236,7 @@ def main():
         pr = s['product']
         append_anchor(host, make_title('product_center', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 5,
                                T(host.get('start')) + (s['t0'] - T(host.get('offset'))) if T(host.get('offset')) < s['t0'] else T(host.get('start')),
-                               Fraction(46, 10)))
+                               intro_end(s) - s['t0']))
 
     # ---- 5. スパインへの挿入（アイキャッチ・カウントダウン・エンディング）----
     new_items = []
