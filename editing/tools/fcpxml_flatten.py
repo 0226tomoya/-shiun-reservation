@@ -83,6 +83,11 @@ def details(e):
         d['filters'] = fl
     if e.tag in ('video', 'asset-clip', 'audio'):
         d['asset'] = effect_name(e.get('ref'))
+        d['start_attr'] = e.get('start')
+        a_ = res.get(e.get('ref'))
+        if a_ is not None and a_.find('media-rep') is not None:
+            import unicodedata, urllib.parse
+            d['src'] = unicodedata.normalize('NFC', urllib.parse.unquote(a_.find('media-rep').get('src')))
     if e.tag in ('title', 'video') and res.get(e.get('ref')) is not None and res[e.get('ref')].tag == 'effect':
         d['effect'] = effect_name(e.get('ref'))
     if e.tag == 'mc-clip':

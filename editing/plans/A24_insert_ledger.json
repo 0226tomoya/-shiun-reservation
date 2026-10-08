@@ -1,5 +1,5 @@
 {
- "_about": "A24 インサート台帳（EC 動画を一覧シートで目視して分類）。product=商品区間、view=full/mid/close、parts=映っている部位。NG 区間は m2/vid/<clip>/motion.json（自動判定）",
+ "_about": "A24 インサート台帳（EC 動画を一覧シートで目視して分類）。product=商品区間、view=full/mid/close、parts=映っている部位。NG 区間は m2/vid/<clip>/motion.json（自動判定）。manual_ng は自動判定から漏れた NG（目視）",
  "clips": {
   "E1_20260903_6403": {
    "product": "4.ニットポロ",
@@ -427,6 +427,616 @@
     "hem"
    ],
    "color": "CHARCOAL"
+  },
+  "E1_20260903_6450": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "cuff",
+    "sleeve"
+   ],
+   "color": "CHARCOAL"
+  },
+  "E1_20260903_6451": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "texture",
+    "material"
+   ],
+   "color": "CHARCOAL"
+  },
+  "E1_20260903_6452": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "texture",
+    "material"
+   ],
+   "color": "CHARCOAL"
+  },
+  "E1_20260903_6453": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "neckline",
+    "neck",
+    "design"
+   ],
+   "color": "CHARCOAL"
+  },
+  "E1_20260903_6455": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "straight"
+   ],
+   "color": null
+  },
+  "E1_20260903_6456": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "straight"
+   ],
+   "color": null
+  },
+  "E1_20260903_6457": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "straight"
+   ],
+   "color": null
+  },
+  "E1_20260903_6458": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "side"
+   ],
+   "color": null
+  },
+  "E1_20260903_6459": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "side"
+   ],
+   "color": null
+  },
+  "E1_20260903_6460": {
+   "product": "5.スラックス",
+   "view": "mid",
+   "parts": [
+    "silhouette",
+    "leg",
+    "side"
+   ],
+   "color": null
+  },
+  "E1_20260903_6462": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "waist",
+    "front",
+    "no_tuck",
+    "crease"
+   ],
+   "color": null
+  },
+  "E1_20260903_6463": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "drape",
+    "leg",
+    "straight",
+    "hem"
+   ],
+   "color": null
+  },
+  "E1_20260903_6464": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "waist",
+    "front",
+    "no_tuck"
+   ],
+   "color": null
+  },
+  "E1_20260903_6465": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "back",
+    "waist",
+    "pocket",
+    "leg"
+   ],
+   "color": null
+  },
+  "E1_20260903_6466": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "waist",
+    "front"
+   ],
+   "color": null
+  },
+  "E1_20260903_6467": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "texture",
+    "material",
+    "crease"
+   ],
+   "color": null
+  },
+  "E1_20260903_6468": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "texture",
+    "material",
+    "hem"
+   ],
+   "color": null
+  },
+  "E1_20260903_6469": {
+   "product": "5.スラックス",
+   "view": "close",
+   "parts": [
+    "back",
+    "pocket"
+   ],
+   "color": null
+  },
+  "E1_20260903_6470": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling"
+   ],
+   "color": "SAND TAUPE",
+   "note": "ブルゾン（A24 以外）＋サンドトープのニットの着こなし（目視で訂正）"
+  },
+  "E1_20260903_6471": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling"
+   ],
+   "color": "SAND TAUPE",
+   "note": "ブルゾン（A24 以外）＋サンドトープのニットの着こなし（目視で訂正）"
+  },
+  "E1_20260903_6472": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling"
+   ],
+   "color": "SAND TAUPE",
+   "note": "ブルゾン（A24 以外）＋サンドトープのニットの着こなし（目視で訂正）"
+  },
+  "E1_20260903_6473": {
+   "product": "3.Vネックニット",
+   "view": "full",
+   "parts": [
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6474": {
+   "product": "3.Vネックニット",
+   "view": "full",
+   "parts": [
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6475": {
+   "product": "3.Vネックニット",
+   "view": "mid",
+   "parts": [
+    "front",
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6476": {
+   "product": "3.Vネックニット",
+   "view": "mid",
+   "parts": [
+    "front",
+    "side",
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6477": {
+   "product": "3.Vネックニット",
+   "view": "mid",
+   "parts": [
+    "back",
+    "side",
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6478": {
+   "product": "3.Vネックニット",
+   "view": "mid",
+   "parts": [
+    "side",
+    "body_width",
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6479": {
+   "product": "3.Vネックニット",
+   "view": "mid",
+   "parts": [
+    "back",
+    "silhouette"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6480": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "shoulder",
+    "saddle_shoulder",
+    "neckline"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6481": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "shoulder",
+    "texture",
+    "material"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6482": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "hem",
+    "length"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6483": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "hem",
+    "length",
+    "body_width"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6484": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "texture",
+    "material"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6485": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "cuff",
+    "sleeve"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6486": {
+   "product": "3.Vネックニット",
+   "view": "close",
+   "parts": [
+    "neckline",
+    "neck",
+    "design"
+   ],
+   "color": "SAND TAUPE"
+  },
+  "E1_20260903_6487": {
+   "product": "5.スラックス",
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling"
+   ],
+   "color": null
+  },
+  "E1_20260903_6488": {
+   "product": "2.カーコート",
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling"
+   ],
+   "color": null
+  },
+  "E1_20260903_6489": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "styling",
+    "waist",
+    "belt_end"
+   ],
+   "color": null
+  },
+  "E1_20260903_6490": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "buckle",
+    "front",
+    "waist"
+   ],
+   "color": null
+  },
+  "E1_20260903_6491": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "buckle",
+    "plate"
+   ],
+   "color": null
+  },
+  "E1_20260903_6492": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "belt_end",
+    "mesh",
+    "length"
+   ],
+   "color": null
+  },
+  "E1_20260903_6493": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "buckle",
+    "plate",
+    "mesh"
+   ],
+   "color": null
+  },
+  "E1_20260903_6494": {
+   "product": "6.ベルト",
+   "view": "close",
+   "parts": [
+    "mesh",
+    "texture",
+    "buckle"
+   ],
+   "color": null
+  },
+  "20260903_Y5828": {
+   "product": "4.ニットポロ",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5829": {
+   "product": "4.ニットポロ",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5830": {
+   "product": "4.ニットポロ",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5831": {
+   "product": "4.ニットポロ",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5832": {
+   "product": "2.カーコート",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5833": {
+   "product": "2.カーコート",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5834": {
+   "product": "2.カーコート",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5835": {
+   "product": "3.Vネックニット",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5836": {
+   "product": "3.Vネックニット",
+   "also": [],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5837": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5838": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null,
+   "manual_ng": [
+    [
+     140,
+     158
+    ]
+   ]
+  },
+  "20260903_Y5839": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5840": {
+   "product": "3.Vネックニット",
+   "also": [
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5841": {
+   "product": "4.ニットポロ",
+   "also": [
+    "6.ベルト",
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
+  },
+  "20260903_Y5842": {
+   "product": "4.ニットポロ",
+   "also": [
+    "6.ベルト",
+    "5.スラックス"
+   ],
+   "view": "full",
+   "parts": [
+    "silhouette",
+    "styling",
+    "full"
+   ],
+   "color": null
   }
  },
  "photos": {

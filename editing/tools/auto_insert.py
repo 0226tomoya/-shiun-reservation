@@ -278,6 +278,56 @@ def main():
     pp = {p['chapter']: p for p in plan['products']}
     stats = {'subtitle': 0, 'broll': 0, 'section': 0, 'price': 0, 'intro': 0, 'op': 0, 'ed': 0}
 
+    # ---- インサート台帳（素材ごとの商品・寄り引き・部位）と動きの判定（使える区間）----
+    LEDGER = json.load(open(os.path.join(base, plan['insert_ledger']), encoding='utf-8')) if plan.get('insert_ledger') else {'clips': {}, 'photos': {}}
+    MOTION = json.load(open(os.path.join(base, plan['insert_motion']), encoding='utf-8'))['clips'] if plan.get('insert_motion') else {}
+    clip_asset = {}
+    for k_, a_ in assets.items():
+        nm_ = k_.rsplit('/', 1)[-1].rsplit('.', 1)[0]
+        if nm_ in LEDGER['clips']:
+            clip_asset[nm_] = a_
+    clip_used = {}   # 素材名 → 使った区間（同じ素材でも違う場面なら使い回してよい）
+    clip_count = {}
+    mix = {'video': 0, 'photo': 0}
+    # 字幕の言葉 → 映っていてほしい部位
+    KW = [(r'襟|衿|首|顔周り|顔まわり', {'collar', 'neck', 'neckline'}), (r'Vネック|ネック', {'neckline', 'neck'}),
+          (r'ボタン|前立て', {'button', 'front'}), (r'袖口|袖', {'cuff', 'sleeve'}), (r'肩|サドルショルダー', {'shoulder', 'saddle_shoulder'}),
+          (r'裾|着丈|丈|丸いカット|カッティング', {'hem', 'length'}), (r'身幅|脇|シルエット|ストン|ストレート|フレア|脚|バランス', {'silhouette', 'body_width', 'leg', 'straight'}),
+          (r'ポケット', {'pocket'}), (r'後ろ|背', {'back'}), (r'ウエスト|タック|センタープレス', {'waist', 'front', 'no_tuck', 'crease'}),
+          (r'素材|生地|糸|編み|天竺|鹿の子|合皮|レザー|牛革|ポリ|リネン|ウール|コットン|杢|質感|ドレープ|柔らか|チクチク|光沢', {'texture', 'material', 'drape', 'shine'}),
+          (r'ソール|靴裏|厚底|えぐ|コバ', {'sole', 'outsole', 'bottom', 'sole_edge'}), (r'ヒール', {'heel'}), (r'サドル|ステッチ', {'saddle', 'stitch'}),
+          (r'履き口|内側|ゴム', {'opening', 'inside', 'waist', 'back'}), (r'バックル|プレート|ゴールド', {'buckle', 'plate'}),
+          (r'メッシュ|編み込|イントレチャート|表面も裏面', {'mesh', 'texture'}), (r'垂ら|長め|留め', {'belt_end', 'length'}),
+          (r'着こなし|コーデ|スタイリング|合わせ', {'styling'})]
+
+    def want_parts(text):
+        import re as _re2
+        out = set()
+        for pat, parts in KW:
+            if text and _re2.search(pat, text):
+                out |= parts
+        return out
+
+    def find_usable(name, d):
+        """素材 name の使える区間から、長さ d を、使った区間と NG の近く（余裕 0.75 秒）を避けて探す。"""
+        m = MOTION.get(name)
+        if not m:
+            return None
+        bad = [(a - Fraction(3, 4), b + Fraction(3, 4)) for v in m['ng'].values() for a, b in v]
+        bad += [(Fraction(str(a)) - 1, Fraction(str(b)) + 1) for a, b in LEDGER['clips'].get(name, {}).get('manual_ng', [])]
+        bad += [(a - 1, b + 1) for a, b in clip_used.get(name, [])]
+        for a, b in m['usable']:
+            st_ = Fraction(str(a)) + Fraction(1, 2)
+            while st_ + d <= Fraction(str(b)) - Fraction(1, 2):
+                hit = [y for x, y in bad if x < st_ + d and st_ < y]
+                if not hit:
+                    return st_
+                nxt_ = Fraction(max(hit))
+                if nxt_ <= st_:
+                    break
+                st_ = nxt_
+        return None
+
     # ---- 発話に合わせた字幕（plan の subtitles がある場合）----
     # 字幕ファイルの seg（文字起こしの行番号）から、最初の単語の頭〜最後の単語の終わりを時刻にする
     SUBS, SPEC = [], None
@@ -371,25 +421,61 @@ def main():
                     return v, (1 if T(v.get('duration')) >= dur + 1 else Fraction(1, 4))
             return None, 0
 
-        def lay(a, b, sec, forced=()):
-            """インサートのかたまり [a, b] を敷く。forced（字幕の頭・終わり）では必ず切り替える（A19・A23 は 100%）。"""
+        ch_key = pr['chapter']
+        ec_cands = [n_ for n_, c_ in LEDGER['clips'].items() if (c_['product'] == ch_key or ch_key in c_.get('also', [])) and n_ in clip_asset]
+        ph_parts = {}
+        for ph_ in photos:
+            key_ = f"{ch_key}/{unicodedata.normalize('NFC', ph_.get('name') or '')}"
+            ph_parts[ph_.get('id')] = set(LEDGER.get('photos', {}).get(key_, {}).get('parts', []))
+
+        def pick_insert(d, text, label):
+            """話の内容（字幕の言葉）と台帳の部位・寄り引きで、EC 動画の使える区間か写真を選ぶ。"""
+            want = want_parts(text)
+            view_pref = {'Silhouette': {'full', 'mid'}, 'Detail': {'close'}, 'Material': {'close'}, 'Design': {'mid', 'close'}, None: {'full', 'mid'}}.get(label, {'mid'})
+            best = None
+            for n_ in ec_cands:
+                c_ = LEDGER['clips'][n_]
+                st_ = find_usable(n_, d)
+                if st_ is None:
+                    continue
+                sc_ = 3 * len(want & set(c_['parts'])) + (2 if c_['view'] in view_pref else 0) - 1.5 * clip_count.get(n_, 0)
+                if c_['product'] != ch_key:
+                    sc_ -= 1
+                tot = mix['video'] + mix['photo']
+                if tot and mix['video'] / tot < 0.45:
+                    sc_ += 1
+                if best is None or sc_ > best[0]:
+                    best = (sc_, 'video', n_, st_)
+            for ph_ in photos:
+                parts_ = ph_parts.get(ph_.get('id'), set())
+                sc_ = 3 * len(want & parts_) + (1 if not want and label in ('Design', 'Silhouette', None) else 0) - 1.5 * used.get(ph_.get('id'), 0) - 0.5
+                if best is None or sc_ > best[0]:
+                    best = (sc_, 'photo', ph_, None)
+            return best
+
+        def lay(a, b, sec, forced=(), cues=()):
+            """インサートのかたまり [a, b] を敷く。forced（字幕の頭・終わり）では必ず切り替える（A19・A23 は 100%）。
+            cues（字幕の時刻・文・ラベル）から、そのカットで話している部位に合う素材を選ぶ。"""
             pts = [a] + sorted({f for f in forced if a < f < b}) + [b]
             segs = [pc for x, y in zip(pts, pts[1:]) for pc in pieces(x, y)]
             for pa, pb in segs:
                 d = pb - pa
-                v, st_in = pick_video(d) if (videos and pi[0] % 2 == 1) else (None, 0)
-                if v is not None:
-                    # 置き撮りの EC 動画は基本3D で少し傾け、上に寄りの調整レイヤー（A19 の型）
-                    attach(clip(v, d, LANE['photo_bg'], start_in=st_in, filters=[tilt_f, grade_f]), pa)
+                mid_ = (pa + pb) / 2
+                cue = next((c_ for c_ in cues if c_[0] <= mid_ < c_[1]), None)
+                text_, label_ = (cue[2], cue[3]) if cue else ('', sec)
+                pick = pick_insert(d, text_, label_)
+                if pick is not None and pick[1] == 'video':
+                    _, _, n_, st_in = pick
+                    clip_used.setdefault(n_, []).append((st_in, st_in + d))
+                    clip_count[n_] = clip_count.get(n_, 0) + 1
+                    mix['video'] += 1
+                    # EC 動画: カラー調整、置き撮り・手持ちの一部は基本3D で少し傾ける（A19 は 31%）。上に寄りの調整レイヤー
+                    fx_ = [grade_f] + ([tilt_f] if mix['video'] % 3 == 0 else [])
+                    attach(clip(clip_asset[n_], d, LANE['photo_bg'], start_in=st_in, filters=fx_), pa)
                     punch(pa, d, LANE['photo_fg'])
                 else:
-                    if videos and pi[0] % 2 == 1:
-                        pi[0] += 1
-                    # Design / Silhouette は前半の写真（全体）、Material / Detail は後半の写真（寄り）を優先し、使用回数の少ないものから
-                    half = max(1, len(photos) // 2)
-                    pref = photos[:half] if sec in ('Design', 'Silhouette', None) else (photos[half:] or photos)
-                    pool = pref + [x for x in photos + ec if x not in pref]
-                    ph = min(pool, key=lambda x: (used.get(x.get('id'), 0), pool.index(x)))
+                    mix['photo'] += 1
+                    ph = pick[2] if pick is not None else photos[0]
                     used[ph.get('id')] = used.get(ph.get('id'), 0) + 1
                     sc = '2.68 2.68' if sec in ('Design', 'Silhouette', None) else '3.4 3.4'
                     style = PHOTO_STYLE[ph_n[0] % len(PHOTO_STYLE)]
@@ -495,7 +581,8 @@ def main():
                 if b - a < 2:
                     continue
                 lay(a, b, bl[0]['label'] if bl[0]['label'] in ('Design', 'Silhouette', 'Material', 'Detail') else 'Detail',
-                    forced=[x['t0'] for x in bl] + [x['t1'] for x in bl])
+                    forced=[x['t0'] for x in bl] + [x['t1'] for x in bl],
+                    cues=[(x['t0'], x['t1'], x['text'], x['label']) for x in bl])
                 laid.append((a, b))
                 # セクションラベル: 同じ語が続く間は 1 本（最長 30 秒）、かたまりの中だけ
                 k = 0

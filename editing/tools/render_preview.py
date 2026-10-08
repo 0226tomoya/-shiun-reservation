@@ -39,15 +39,93 @@ def probe_dur(p):
                                 capture_output=True, text=True).stdout)
 
 
+MEDIA = {'map': [], 'vid': None}
+_img_cache = {}
+
+
+def local_file(src):
+    """XML の素材パスを、手元に取り込んだファイルに置き換える（--media の map: [部分文字列, 手元のフォルダ]）。"""
+    if not src:
+        return None
+    for sub, d in MEDIA['map']:
+        if sub in src:
+            rel = src.split(sub, 1)[1]
+            for cand in (rel, os.path.splitext(rel)[0] + '.jpg', os.path.splitext(rel)[0] + '.JPG', os.path.splitext(rel)[0] + '.png'):
+                p = os.path.join(d, cand)
+                if os.path.exists(p):
+                    return p
+    return None
+
+
+def vid_proxy(i):
+    """EC 動画・LOOK 動画のプロキシ（--media の vid/<素材名>/proxy.mp4）。"""
+    if not MEDIA['vid'] or not i.get('src'):
+        return None
+    name = os.path.splitext(os.path.basename(i['src']))[0]
+    p = os.path.join(MEDIA['vid'], name, 'proxy.mp4')
+    return p if os.path.exists(p) else None
+
+
+def mid_value(v, default):
+    if isinstance(v, dict):  # キーフレーム（パン）は真ん中の値で近似
+        ks = v.get('keyframes') or []
+        if ks:
+            a, b = ks[0][1].split(), ks[-1][1].split()
+            return ' '.join(str((float(x) + float(y)) / 2) for x, y in zip(a, b))
+        return v.get('value') or default
+    return v or default
+
+
+def draw_image(im, i, path):
+    """FCP の置き方で画像を描く: 画面に収まる大きさ（アスペクト維持）→ 拡大 → 位置（1 単位 = 画面の高さの 1%）。"""
+    from PIL import ImageFilter
+    tr = i.get('adjust-transform') or {}
+    sc = float(str(mid_value(tr.get('scale'), '1 1')).split()[0])
+    x, y = (float(v) for v in str(mid_value(tr.get('position'), '0 0')).split()[:2])
+    blur = any(f['name'] == 'ガウス' for f in i.get('filters', []))
+    key = (path, round(sc, 3), blur)
+    if key not in _img_cache:
+        src = Image.open(path)
+        src.draft('RGB', (2400, 2400))
+        src = src.convert('RGBA')
+        fit = min(pf.W / src.width, pf.H / src.height)
+        w, h = max(1, int(src.width * fit * sc)), max(1, int(src.height * fit * sc))
+        src = src.resize((w, h))
+        if blur:
+            src = src.filter(ImageFilter.GaussianBlur(28))
+        _img_cache[key] = src
+    img = _img_cache[key]
+    cx, cy = pf.W / 2 + x * 10.8, pf.H / 2 - y * 10.8
+    im.alpha_composite(img, (int(cx - img.width / 2), int(cy - img.height / 2))) if (
+        cx - img.width / 2 >= 0 and cy - img.height / 2 >= 0 and cx + img.width / 2 <= pf.W and cy + img.height / 2 <= pf.H) else \
+        _paste_clip(im, img, int(cx - img.width / 2), int(cy - img.height / 2))
+
+
+def _paste_clip(im, img, x0, y0):
+    L, T_ = max(0, x0), max(0, y0)
+    R, B = min(pf.W, x0 + img.width), min(pf.H, y0 + img.height)
+    if R <= L or B <= T_:
+        return
+    im.alpha_composite(img.crop((L - x0, T_ - y0, R - x0, B - y0)), (L, T_))
+
+
 def overlay_frame(items, t):
-    """メインカメラ以外（テロップ・インサート・挿入素材）を透明の上に描く。"""
+    """メインカメラ以外（テロップ・インサート・挿入素材）を透明の上に描く。動画のインサートは土台側で入れるので描かない。"""
     im = Image.new('RGBA', (pf.W, pf.H), (0, 0, 0, 0))
     act = [i for i in items if i['t0'] <= t < i['t1'] and i['tag'] != 'mc-clip' and i['lane'] not in (None, '-1')
            and role(i) not in ('adjustment_main', 'adjustment_other') and not str(i['lane']).startswith('in')]
     act.sort(key=lambda i: int(i['lane']) if str(i['lane']).lstrip('-').isdigit() else 0)
+    # 画面全体を覆う動画のインサート（土台に差し替え済み）より下のレーンは、FCP でも隠れるので描かない
+    vlanes = [int(i['lane']) for i in act if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and vid_proxy(i)]
+    floor = max(vlanes) if vlanes else -99
+    act = [i for i in act if not (str(i['lane']).lstrip('-').isdigit() and int(i['lane']) < floor)]
     for i in act:
         if i['tag'] == 'title':
             pf.draw_title(im, i)
+        elif i['tag'] in ('asset-clip', 'clip') and vid_proxy(i):
+            continue
+        elif local_file(i.get('src')):
+            draw_image(im, i, local_file(i.get('src')))
         else:
             pf.draw_media(im, i, (i['name'] or '')[:30] + ('（ぼかし）' if any(f['name'] == 'ガウス' for f in i.get('filters', [])) else ''))
     return im.resize((W, H))
@@ -56,6 +134,8 @@ def overlay_frame(items, t):
 def main():
     edit, flat, pdir, audio, out = sys.argv[1:6]
     opt = dict(zip(sys.argv[6::2], sys.argv[7::2]))
+    if opt.get('--media'):
+        MEDIA.update(json.load(open(opt['--media'], encoding='utf-8')))
     lut = opt.get('--lut')
     root = ET.parse(edit).getroot()
     res = {e.get('id'): e for e in root.find('resources')}
@@ -147,6 +227,45 @@ def main():
 
     # テロップ・インサートの層（表示が変わる瞬間ごとに 1 枚）
     items = [i for i in json.load(open(flat)) if i['enabled'] != '0' and len(i['path']) <= 1]
+
+    # EC 動画・LOOK 動画（画面全体を覆うインサート）の区間は、土台をその動画のプロキシに差し替える
+    import unicodedata as _ud
+    import urllib.parse as _up
+    a_start = {}
+    for r_ in res.values():
+        if r_.tag == 'asset' and r_.find('media-rep') is not None:
+            a_start[_ud.normalize('NFC', _up.unquote(r_.find('media-rep').get('src')))] = T(r_.get('start') or '0s')
+    evs = []
+    for i in items:
+        if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and int(i['lane']) >= 3 and vid_proxy(i):
+            t0_, t1_ = round(Fraction(i['t0']) / FD) * FD, round(Fraction(i['t1']) / FD) * FD
+            if t1_ <= a0 or t0_ >= a1:
+                continue
+            off_in = T(i.get('start_attr') or '0s') - a_start.get(i.get('src'), 0)
+            evs.append((max(t0_, a0), min(t1_, a1), int(i['lane']), vid_proxy(i), off_in + (max(t0_, a0) - t0_)))
+    if evs:
+        pts = sorted({a0, a1} | {x for e_ in evs for x in e_[:2]})
+        parts = []
+        for k, (s_, t_) in enumerate(zip(pts, pts[1:])):
+            cov = [e_ for e_ in evs if e_[0] <= s_ and t_ <= e_[1]]
+            n_ = int(round((t_ - s_) / FD))
+            if n_ <= 0:
+                continue
+            if cov:
+                e_ = max(cov, key=lambda x: x[2])
+                p_ = os.path.join(tmp, f'ev{k:05d}.mp4')
+                ff(['-ss', f'{float(e_[4] + (s_ - e_[0])):.4f}', '-i', e_[3], '-frames:v', str(n_), '-vf', f'fps={fps}', '-an',
+                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-g', '1', '-pix_fmt', 'yuv420p', p_])
+                parts.append(f"file '{p_}'\n")
+            else:
+                parts.append(f"file '{base}'\ninpoint {float(s_ - a0):.6f}\noutpoint {float(t_ - a0):.6f}\n")
+        lst2 = os.path.join(tmp, 'base2.txt')
+        open(lst2, 'w').write(''.join(parts))
+        base2 = os.path.join(tmp, 'base2.mp4')
+        ff(['-f', 'concat', '-safe', '0', '-i', lst2, '-vf', f'fps={fps}', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
+            '-g', '1', '-pix_fmt', 'yuv420p', base2])
+        base = base2
+        print('EC/LOOK 動画の差し替え', len(evs), '本', flush=True)
     vis = [i for i in items if i['tag'] != 'mc-clip' and i['lane'] not in (None, '-1') and role(i) not in ('adjustment_main', 'adjustment_other')
            and not str(i['lane']).startswith('in')]
     f0, f1 = float(a0), float(a1)
