@@ -195,13 +195,15 @@ def main():
         if src is None and sz and MEDIA['vid']:
             # 身長別比較のブロック: 2 本の動画を FCP の位置・拡大・切り取りどおりに並べる（下: lane 1、上: lane 2）
             ins, fcx, last = [], [f'color=c=black:s={W}x{H}:r={fps}:d={float(t - s) + 1:.3f}[bg]'], 'bg'
+            n_in = 0
             for c in sorted(sz, key=lambda c: int(c.get('lane'))):
                 pp_ = os.path.join(MEDIA['vid'], c.get('name'), 'proxy.mp4')
                 if not os.path.exists(pp_):
                     continue
                 ss_ = T(c.get('start') or '0s') + (s - off) + (T(e.get('start')) - T(c.get('offset')))
                 ins += ['-ss', f'{float(ss_):.4f}', '-i', pp_]
-                k_ = len(ins) // 4 - 1
+                k_ = n_in
+                n_in += 1
                 tr_ = c.find('adjust-transform')
                 x_, y_ = (float(v) for v in ((tr_.get('position') if tr_ is not None else None) or '0 0').split())
                 sc_ = float(((tr_.get('scale') if tr_ is not None else None) or '1 1').split()[0])
@@ -213,12 +215,36 @@ def main():
                 cx0, cy0 = int(L_ * sc_), int(Tp_ * sc_)
                 ox = int(W / 2 + x_ * H / 100 - sw_ / 2 + cx0)
                 oy = int(H / 2 - y_ * H / 100 - sh_ / 2 + cy0)
-                # ガウス（FCP の Amount 0〜1）: 0.5 で顔が判別できない強さ（確認動画の近似）
+                # ガウス（FCP の Amount 0〜1）の近似
                 g_ = next((f_ for f_ in c.findall('filter-video') if f_.get('name') == 'ガウス'), None)
                 amt = float(next((q.get('value') for q in g_.findall('param') if q.get('name') == 'Amount'), '0.2')) if g_ is not None else 0
                 blur_ = f',gblur=sigma={max(1.0, amt * 40 * sc_):.1f}' if g_ is not None else ''
-                fcx.append(f'[{k_}:v]fps={fps},scale={sw_}:{sh_}{blur_},crop={cw_}:{ch_}:{cx0}:{cy0}[v{k_}]')
-                fcx.append(f'[{last}][v{k_}]overlay={ox}:{oy}:eof_action=pass[o{k_}]')
+                # シェイプマスク（楕円・減衰）: 入力サイズの画素、中心原点・上が＋。調整 = 入力サイズの半分に対する半径
+                m_ = next((f_ for f_ in c.findall('filter-video') if f_.get('name') == 'シェイプマスク'), None)
+                if m_ is not None:
+                    from PIL import Image as _Im, ImageDraw as _Dr, ImageFilter as _Fl
+                    pv = {q.get('name'): q.get('value') for q in m_.iter('param')}
+                    IW, IH = (float(v) for v in pv.get('入力サイズ', '1920 1080').split())
+                    px_, py_ = (float(v) for v in pv.get('位置', '0 0').split())
+                    sx_, sy_ = (float(v) for v in pv.get('調整', '1 1').split())
+                    fe_ = float(pv.get('減衰', '0')) / IH * sh_
+                    mcx, mcy = (0.5 + px_ / IW) * sw_, (0.5 - py_ / IH) * sh_
+                    rx_, ry_ = sx_ / 2 * sw_, sy_ / 2 * sh_
+                    mk = _Im.new('L', (sw_, sh_), 0)
+                    _Dr.Draw(mk).ellipse((mcx - rx_, mcy - ry_, mcx + rx_, mcy + ry_), fill=255)
+                    if fe_ > 0:
+                        mk = mk.filter(_Fl.GaussianBlur(fe_ / 2.5))
+                    mp_ = os.path.join(tmp, f'mask{k}_{k_}.png')
+                    mk.save(mp_)
+                    ins += ['-loop', '1', '-i', mp_]
+                    mi_ = n_in
+                    n_in += 1
+                    fcx.append(f'[{k_}:v]fps={fps},scale={sw_}:{sh_}{blur_},format=rgba[b{k_}]')
+                    fcx.append(f'[{mi_}:v]format=gray,scale={sw_}:{sh_}[m{k_}]')
+                    fcx.append(f'[b{k_}][m{k_}]alphamerge,crop={cw_}:{ch_}:{cx0}:{cy0}[v{k_}]')
+                else:
+                    fcx.append(f'[{k_}:v]fps={fps},scale={sw_}:{sh_}{blur_},crop={cw_}:{ch_}:{cx0}:{cy0}[v{k_}]')
+                fcx.append(f'[{last}][v{k_}]overlay={ox}:{oy}:eof_action=pass:shortest=0[o{k_}]')
                 last = f'o{k_}'
             if os.environ.get('RP_DEBUG'):
                 print('合成:', ';'.join(fcx), file=sys.stderr)

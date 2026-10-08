@@ -126,12 +126,16 @@ def body_box(clip_dir, t0, dur, models):
             cols = np.where(band.sum(axis=0) >= 2)[0]
             cxs.append((max(0, cxp - w // 4) + (cols[0] + cols[-1]) / 2) / w)
             nose_y, sh_y = L[0].y, (L[11].y + L[12].y) / 2
-            sw = abs(L[11].x - L[12].x)
-            hx = L[0].x
-            heads.append((rows[0] / h, nose_y + 0.8 * (sh_y - nose_y), hx - max(0.6 * sw, 0.035), hx + max(0.6 * sw, 0.035)))
+            mouth_y = (L[9].y + L[10].y) / 2
+            chin = mouth_y + 1.1 * max(0.0, mouth_y - nose_y)          # 顎先
+            neck = sh_y - 0.1 * (sh_y - nose_y)                         # 首の根元（肩の線の少し上）
+            ear_w = abs(L[7].x - L[8].x) if min(L[7].visibility, L[8].visibility) > 0.3 else 0
+            half = max(ear_w * 0.75, 0.6 * abs(L[11].x - L[12].x) / 2, 0.022)  # 頭の横幅の半分（耳＋髪）
+            heads.append({'top': rows[0] / h, 'chin': chin, 'neck': max(neck, chin + 0.01), 'x0': L[0].x - half, 'x1': L[0].x + half})
     if not tops:
         return None
-    head = (min(x[0] for x in heads) - 0.01, max(x[1] for x in heads) + 0.005, min(x[2] for x in heads) - 0.01, max(x[3] for x in heads) + 0.01)
+    head = {'top': min(x['top'] for x in heads), 'chin': max(x['chin'] for x in heads), 'neck': max(x['neck'] for x in heads),
+            'x0': min(x['x0'] for x in heads), 'x1': max(x['x1'] for x in heads)}
     return float(min(tops)), float(max(feet)), float(np.median(cxs)), head
 
 
@@ -388,6 +392,11 @@ def main():
                 # 顔のブラー（plan の blur_face の人）: 同じ動画を真上に重ね、首から上だけ切り取ってガウス（A23 の青柳さんと同じ 0.5）
                 if person['who'] in sc.get('blur_face', []):
                     gid = next((r.get('id') for r in resources if r.tag == 'effect' and 'Gaussian' in (r.get('uid') or '')), None)
+                    mask_id = next((r.get('id') for r in resources if r.tag == 'effect' and r.get('uid') == 'FFSuperEllipseMask'), None)
+                    if mask_id is None:
+                        mask_id = 'sc_mask'
+                        ET.SubElement(resources, 'effect', id=mask_id, name='シェイプマスク', uid='FFSuperEllipseMask')
+                        ids.add(mask_id)
                     for c in x:
                         if c.get('lane') is not None and c.get('lane').lstrip('-').isdigit() and int(c.get('lane')) >= 2:
                             c.set('lane', str(int(c.get('lane')) + (1 if c.get('lane') == '2' else 2)))
@@ -395,24 +404,33 @@ def main():
                         if lane_old not in boxes:
                             continue
                         c, name, bx = boxes[lane_old]
-                        hy0, hy1, hx0, hx1 = bx[3]
+                        hd = bx[3]
                         dup = copy.deepcopy(c)
                         dup.set('lane', lane_new)
                         for k in list(dup):
                             if k.tag in ('adjust-crop', 'adjust-volume', 'filter-video', 'marker', 'chapter-marker', 'keyword'):
                                 dup.remove(k)
-                        crop = ET.Element('adjust-crop', mode='trim')
-                        ET.SubElement(crop, 'trim-rect', left=f'{max(0.0, hx0) * 1920 / 10.8:.4f}', right=f'{max(0.0, 1 - hx1) * 1920 / 10.8:.4f}',
-                                      top=f'{max(0.0, hy0) * 100:.4f}', bottom=f'{max(0.0, 1 - hy1) * 100:.4f}')
-                        kids = list(dup)
-                        pos_ = next((n for n, k in enumerate(kids) if k.tag == 'adjust-transform'), 0)
-                        dup.insert(pos_, crop)
                         ET.SubElement(dup, 'adjust-volume', amount='-96dB')
                         for k in c.findall('filter-video'):
                             dup.append(copy.deepcopy(k))
+                        # 楕円: 頭頂〜顎の下を覆い、下の減衰（グラデーション）が顎の下〜首の根元で消える。左右も減衰で端をぼかす
+                        # 座標（A23 の値から確認）: 入力サイズの画素、中心が原点・上が＋。調整 = 入力サイズの半分に対する半径の割合
+                        IW, IH = 3840, 2160
+                        fe = max(0.02, (hd['neck'] - hd['chin'])) * IH            # 減衰（px）= 顎の下〜首の根元
+                        y_top, y_bot = hd['top'] - 0.03, hd['chin'] + (hd['neck'] - hd['chin']) * 0.35
+                        cx_, cy_ = (hd['x0'] + hd['x1']) / 2, (y_top + y_bot) / 2
+                        rx = (hd['x1'] - hd['x0']) / 2 * IW + fe * 0.5
+                        ry = (y_bot - y_top) / 2 * IH
+                        mk = ET.SubElement(dup, 'filter-video', ref=mask_id, name='シェイプマスク')
+                        ET.SubElement(mk, 'param', name='湾曲', key='159', value='1')
+                        ET.SubElement(mk, 'param', name='減衰', key='158', value=f'{fe:.1f}')
+                        ET.SubElement(mk, 'param', name='入力サイズ', key='205', value=f'{IW} {IH}')
+                        tf = ET.SubElement(mk, 'param', name='トランスフォーム', key='200')
+                        ET.SubElement(tf, 'param', name='位置', key='201', value=f'{(cx_ - 0.5) * IW:.3f} {(0.5 - cy_) * IH:.3f}')
+                        ET.SubElement(tf, 'param', name='調整', key='203', value=f'{rx / (IW / 2):.7f} {ry / (IH / 2):.7f}')
                         if gid:
                             g = ET.SubElement(dup, 'filter-video', ref=gid, name='ガウス')
-                            ET.SubElement(g, 'param', name='Amount', key='9999/986883370/100/986883376/2/100', value='0.5')
+                            ET.SubElement(g, 'param', name='Amount', key='9999/986883370/100/986883376/2/100', value=str(sc.get('blur_amount', 0.3)))
                         idx = list(x).index(c)
                         x.insert(idx + 1, dup)
                     blurred.append(person['who'])

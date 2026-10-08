@@ -17178,7 +17178,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_3" name="20261007_Y9879" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <effect id="sc_mask" name="シェイプマスク" uid="FFSuperEllipseMask" /><asset id="sc_3" name="20261007_Y9879" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/S/20261007_Y9879.MP4">
                 </media-rep>
             <metadata>
@@ -49159,7 +49159,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_1" lane="2" offset="481655174/120000s" name="20261007_Y9887" start="1001/1000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="79.1586" right="73.7829" top="13.8148" bottom="69.6271" /></adjust-crop><adjust-transform position="51.1655 3.7722" scale="1.127 1.127" />
+                                <adjust-transform position="51.1655 3.7722" scale="1.127 1.127" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -49186,7 +49186,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="109.3" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="59.783 654.518" /><param name="調整" key="203" value="0.0947841 0.1576685" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <asset-clip ref="sc_2" lane="3" offset="481655174/120000s" name="20261007_Y9883" start="21021/2000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
@@ -49223,7 +49223,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_2" lane="4" offset="481655174/120000s" name="20261007_Y9883" start="21021/2000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="76.5925" right="73.5274" top="12.7037" bottom="69.8872" /></adjust-crop><adjust-transform position="-5.0096 2.52" scale="1.127 1.127" />
+                                <adjust-transform position="-5.0096 2.52" scale="1.127 1.127" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -49250,7 +49250,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="96.1" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="10.554 664.774" /><param name="調整" key="203" value="0.1228473 0.1703945" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <video ref="a19_r439" lane="5" offset="481655174/120000s" name="2サイズ" start="430842844/120000s" duration="1129128/120000s">
                                 <keyword start="3600s" duration="10s" value="レッド" />
                             </video>
@@ -58395,7 +58395,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_9" lane="2" offset="240807567/60000s" name="20261007_Y9889" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="75.6808" right="74.8560" top="12.3333" bottom="69.5876" /></adjust-crop><adjust-transform position="52.891 2.6893" scale="1.111 1.111" />
+                                <adjust-transform position="52.891 2.6893" scale="1.111 1.111" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -58422,7 +58422,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="43.2" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="9.277 653.566" /><param name="調整" key="203" value="0.0899382 0.1881795" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <asset-clip ref="sc_10" lane="3" offset="240807567/60000s" name="20261007_Y9885" start="1001/500s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
@@ -58459,7 +58459,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_10" lane="4" offset="240807567/60000s" name="20261007_Y9885" start="1001/500s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="74.0351" right="75.4021" top="11.9630" bottom="70.1900" /></adjust-crop><adjust-transform position="-3.539 2.2778" scale="1.111 1.111" />
+                                <adjust-transform position="-3.539 2.2778" scale="1.111 1.111" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -58486,7 +58486,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="109.4" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="-23.420 680.971" /><param name="調整" key="203" value="0.1183249 0.1702121" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <video ref="a19_r439" lane="5" offset="240807567/60000s" name="2サイズ" start="215401402/60000s" duration="1145144/120000s">
                                 <keyword start="3600s" duration="10s" value="レッド" />
                             </video>
@@ -65696,7 +65696,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_17" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="72.2710" right="77.3078" top="12.3333" bottom="70.7966" /></adjust-crop><adjust-transform position="53.8566 3.3493" scale="1.093 1.093" />
+                                <adjust-transform position="53.8566 3.3493" scale="1.093 1.093" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -65723,7 +65723,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="110.6" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="-69.051 683.582" /><param name="調整" key="203" value="0.1216001 0.1603867" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <asset-clip ref="sc_18" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
@@ -65760,7 +65760,7 @@
                                 </asset-clip>
                             <asset-clip ref="sc_18" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="70.8377" right="76.6466" top="11.2222" bottom="70.8899" /></adjust-crop><adjust-transform position="-1.7571 2.1348" scale="1.093 1.093" />
+                                <adjust-transform position="-1.7571 2.1348" scale="1.093 1.093" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
                                     <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAtIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
                                     <param name="制御の範囲" key="19" value="0 (SDR)" />
@@ -65787,7 +65787,7 @@
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                                <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                                <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="100.8" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="-52.384 693.371" /><param name="調整" key="203" value="0.1290457 0.1735452" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <video ref="a19_r439" lane="5" offset="240807567/60000s" name="2サイズ" start="215401402/60000s" duration="1145144/120000s">
                                 <keyword start="3600s" duration="10s" value="レッド" />
                             </video>
@@ -75685,7 +75685,7 @@
                             </asset-clip>
                             <asset-clip ref="sc_17" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="76.8525" right="75.3004" top="11.0370" bottom="70.4965" /></adjust-crop><adjust-transform position="53.0987 2.8815" scale="1.068 1.068" />
+                                <adjust-transform position="53.0987 2.8815" scale="1.068 1.068" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a23_r173" name="基本3D">
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
@@ -75711,7 +75711,7 @@
                                     <param name="シャドウの暖かみ" key="14" value="0" />
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
-                            <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                            <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="104.5" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="8.759 692.748" /><param name="調整" key="203" value="0.1040608 0.1778263" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <asset-clip ref="sc_18" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
@@ -75727,12 +75727,12 @@
                             </asset-clip>
                             <asset-clip ref="sc_18" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
-                                <adjust-crop mode="trim"><trim-rect left="73.4147" right="78.5210" top="9.9259" bottom="71.2375" /></adjust-crop><adjust-transform position="-0.5465 1.6948" scale="1.068 1.068" />
+                                <adjust-transform position="-0.5465 1.6948" scale="1.068 1.068" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a23_r173" name="基本3D">
                                     <param name="調整" key="9999/10003/10007/1/100/105" value="1 1.02" />
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
-                            <filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.5" /></filter-video></asset-clip>
+                            <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="110.3" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="-55.961 713.913" /><param name="調整" key="203" value="0.0993649 0.1804505" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
                             <video ref="a23_r205" lane="5" offset="481615134/120000s" name="2サイズ" start="436660656/120000s" duration="564564/60000s">
                                 <keyword start="3600s" duration="10s" value="レッド" />
                             </video>
