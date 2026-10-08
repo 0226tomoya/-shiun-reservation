@@ -270,6 +270,35 @@ def main():
     pp = {p['chapter']: p for p in plan['products']}
     stats = {'subtitle': 0, 'broll': 0, 'section': 0, 'price': 0, 'intro': 0, 'op': 0, 'ed': 0}
 
+    # ---- 発話に合わせた字幕（plan の subtitles がある場合）----
+    # 字幕ファイルの seg（文字起こしの行番号）から、最初の単語の頭〜最後の単語の終わりを時刻にする
+    SUBS, SPEC = [], None
+    if plan.get('subtitles'):
+        SPEC = json.load(open(os.path.join(base, plan['subtitles']), encoding='utf-8'))
+        tr = json.load(open(os.path.join(base, plan['transcript']), encoding='utf-8'))
+
+        def seg_t(k, end=False):
+            x = tr[k - 1]
+            if x.get('words'):
+                return Fraction(str(x['words'][-1]['end'] if end else x['words'][0]['start']))
+            return Fraction(str(x['end'] if end else x['start']))
+        for x in SPEC['subs']:
+            st, en = seg_t(x['seg'][0]), seg_t(x['seg'][1], True)
+            # 頭は 0.25 秒以内に編集点があればそこへ、終わりは言い終わりの少し後の編集点へ（なければフレームに揃える）
+            a = near_cut(st, st - Fraction(1, 4), st + Fraction(1, 4)) or snapf(st)
+            b = near_cut(en + Fraction(1, 5), en, en + Fraction(6, 10)) or snapf(en + Fraction(15, 100))
+            SUBS.append({'t0': a, 't1': max(b, a + 1), 'text': x['text'], 'label': x.get('label'), 'face': x.get('face', False)})
+        SUBS.sort(key=lambda x: x['t0'])
+        for k, x in enumerate(SUBS):
+            # 読む時間（1 秒 6 文字以内）が足りなければ、言い終わりから最大 1.5 秒まで残す
+            need = Fraction(len(x['text'].replace('\n', '')), 6)
+            if x['t1'] - x['t0'] < need:
+                want = min(x['t0'] + need, x['t1'] + Fraction(3, 2))
+                x['t1'] = near_cut(want, want, want + Fraction(1, 2)) or snapf(want)
+            if k + 1 < len(SUBS) and x['t1'] > SUBS[k + 1]['t0']:
+                x['t1'] = SUBS[k + 1]['t0']
+        seg_time = {k: seg_t(int(v)) for k, v in SPEC.get('price_at', {}).items()}
+
     for s in sections:
         pr = pp.get(s['chapter'])
         if not pr or ('photos' not in pr and 'donor_assets' not in pr):
@@ -350,20 +379,101 @@ def main():
         def fill_talk(g0, g1):
             """トークだけが続く所に、字幕なしのインサート（約 14 秒）を「トーク約 15 秒 ↔ インサート」の間隔で入れる。
             前後は 8 秒以上トークを見せる（A19 はトークの間が中央値 15.5 秒、インサートのかたまりが中央値 16.4 秒）。"""
-            if g1 - g0 < 26 or not ec:
+            if g1 - g0 < 20 or not ec:
                 return
             n = max(1, round((g1 - g0 - 15) / 29))
             while n > 1 and (g1 - g0 - 15 * (n + 1)) / n < 8:
                 n -= 1
-            L = min(Fraction(16), (g1 - g0 - 15 * (n + 1)) / n) if n > 1 else min(Fraction(16), (g1 - g0) - 16)
+            L = min(Fraction(16), (g1 - g0 - 15 * (n + 1)) / n) if n > 1 else min(Fraction(16), (g1 - g0) - 10)
             talk = (g1 - g0 - n * L) / (n + 1)
             for k in range(n):
                 s_ = g0 + talk * (k + 1) + L * k
-                a = near_cut(s_, s_ - 2, s_ + 2) or snapf(s_)
-                b = near_cut(a + L, a + L - 2, a + L + 2) or snapf(a + L)
+                a = near_cut(s_, s_ - 2, s_ + 2) or near_cut(s_, s_ - 4, s_ + 4) or snapf(s_)
+                b = near_cut(a + L, a + L - 2, a + L + 2) or near_cut(a + L, a + L - 4, min(g1, a + L + 4)) or snapf(a + L)
                 if b - a >= 6:
                     lay(a, b, None)
 
+        if SUBS:
+            # ---- 発話どおりの字幕と、説明（ラベル付き）の字幕の下だけのインサート ----
+            ins_end = t0 + di
+            mine = [x for x in SUBS if t0 <= x['t0'] < t1]
+            tp = None
+            if pr.get('price') and ec and pr['chapter'] in seg_time:
+                ps = seg_time[pr['chapter']]
+                tp = near_cut(ps, ps - Fraction(1, 2), ps + 1) or near_cut(ps, ps - 2, ps + 2) or snapf(ps)
+            # 字幕（紹介インと価格の中央表示に重なる所は、表示が終わってから出す）
+            centers = [(t0, ins_end)] + ([(tp, tp + 3)] if tp is not None else [])
+            for x in mine:
+                for ca, cb in centers:
+                    if x['t0'] < cb and ca < x['t1']:
+                        x['t0'] = max(x['t0'], cb) if x['t0'] >= ca else x['t0']
+                        x['t1'] = min(x['t1'], ca) if x['t0'] < ca else x['t1']
+            mine = [x for x in mine if x['t1'] - x['t0'] >= Fraction(3, 2)]
+            for x in mine:
+                lines = x['text'].split('\n')
+                attach(title('subtitle', 'one', ['\n'.join(lines)], LANE['subtitle'], x['t1'] - x['t0']), x['t0'])
+                stats['subtitle'] += 1
+            # インサートのかたまり: ラベル付きの字幕が 6 秒以内で続く所
+            blocks, cur = [], []
+            for x in [x for x in mine if x['label']]:
+                if cur and x['t0'] - cur[-1]['t1'] > 6:
+                    blocks.append(cur)
+                    cur = []
+                cur.append(x)
+            if cur:
+                blocks.append(cur)
+            busy = [(t0, ins_end)] + [(x['t0'], x['t1']) for x in mine if x['face']]  # 気持ちを伝える発言は顔を見せる
+            if tp is not None:
+                busy.append((tp, tp + 4))
+            laid = []
+            for bl in blocks:
+                a = bl[0]['t0']
+                ca = [c for c in CUTS if a - 3 <= c <= a]
+                a = max(ca) if ca else (near_cut(a, a - 5, a + 1) or a)  # 字幕の直前の編集点から入る
+                a = max(a, ins_end)
+                b = bl[-1]['t1']
+                cb = [c for c in CUTS if b <= c <= b + 3]
+                b = min(cb) if cb else (near_cut(b, b - 1, b + 5) or b)  # 言い終わりの直後の編集点で抜ける
+                for bs, be in busy:  # 価格・重要な発言・紹介インに重ねない（その頭の編集点で抜ける）
+                    if a < bs < b:
+                        b = min(b, bs)
+                if b - a < 2:
+                    continue
+                lay(a, b, bl[0]['label'] if bl[0]['label'] in ('Design', 'Silhouette', 'Material', 'Detail') else 'Detail')
+                laid.append((a, b))
+                # セクションラベル: 同じ語が続く間は 1 本（最長 30 秒）、かたまりの中だけ
+                k = 0
+                while k < len(bl):
+                    j = k
+                    while j + 1 < len(bl) and bl[j + 1]['label'] == bl[k]['label'] and bl[j + 1]['t1'] - bl[k]['t0'] <= 30:
+                        j += 1
+                    la = max(a, bl[k]['t0']) if k else a
+                    lb = min(b, bl[j + 1]['t0'] if j + 1 < len(bl) else b)
+                    if lb - la >= 1:
+                        attach(title('section_label', 'any', [bl[k]['label']], LANE['section'], lb - la), la)
+                        stats['section'] += 1
+                    k = j + 1
+                last_sub_end = b
+            # トークだけが長く続く所（重要な発言・価格・紹介インを避ける）に字幕なしのインサート
+            occ = sorted(laid + busy)
+            g0 = ins_end + 6
+            for a_, b_ in occ:
+                if a_ > g0:
+                    fill_talk(g0, min(a_, w1 + 9) - 2)
+                g0 = max(g0, b_ + 2)
+            if t1 - 4 > g0:
+                fill_talk(g0, t1 - 4)
+            # 価格: 話した瞬間に出す（全面をぼかした写真＋中央に写真＋価格ありの中央商品名）
+            if tp is not None:
+                pe = (near_cut(tp + 3, tp + Fraction(25, 10), tp + 4) or near_cut(tp + 3, tp + 2, tp + 6)
+                      or min([c for c in CUTS if tp + 3 <= c <= tp + 10], default=None) or snapf(tp + 3))
+                pd = pe - tp
+                attach(still((photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
+                attach(still(ec[0], pd, LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
+                attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
+                             LANE['center'], pd), tp)
+                stats['price'] += 1
+            continue
         if subs and w1 > w0:
             durs = [Fraction(max(4.0, min(10.0, len(x) / 3.6))).limit_denominator(100) for _, x in subs]
             K = 3
@@ -430,6 +540,13 @@ def main():
             attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                          LANE['center'], pd), tp)
             stats['price'] += 1
+
+    # ---- 商品区間の外（OP・ED）の字幕 ----
+    prod_ranges = [(s_['t0'], s_['t1']) for s_ in sections if pp.get(s_['chapter'])]
+    for x in SUBS:
+        if not any(a <= x['t0'] < b for a, b in prod_ranges):
+            attach(title('subtitle', 'one', [x['text']], LANE['subtitle'], x['t1'] - x['t0']), x['t0'])
+            stats['subtitle'] += 1
 
     # ---- OP: LOOK 写真の 2 枚並べと LOOK 動画 ----
     op = plan.get('op_look')
@@ -518,6 +635,11 @@ def main():
             stats['ed'] += 1
         # 一覧の後: LOOK 写真＋中央の発売日（A18 の型、3.9 秒）→ 締めのトーク中は左上にコレクション名（A19 の型）
         t_rel = tp
+        if SPEC and SPEC.get('release_at'):
+            # 発売日は話した瞬間に中央に出す（一覧の後なら）
+            rt = seg_t(int(SPEC['release_at']))
+            rt = near_cut(rt, rt - Fraction(1, 2), rt + 1) or snapf(rt)
+            t_rel = max(t_rel, rt)
         if looks and plan.get('release_date'):
             dr = end_on_cut(t_rel, Fraction(39, 10))
             attach(still(looks[2 * len(looks) // 3 + 1], dr, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), t_rel)
@@ -529,7 +651,7 @@ def main():
         ed_end = T(ending[-1].get('offset')) if ending else snapf(total - Fraction(85, 10))
         if ed_end - t_rel > 3:
             attach(title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, ed_end - t_rel), t_rel)
-        for n, line in enumerate(reversed(plan.get('closing_lines', []))):
+        for n, line in enumerate(reversed([] if SUBS else plan.get('closing_lines', []))):
             dur = Fraction(max(4, min(10, len(line) // 4)))
             ts = near_cut(ed_end - dur - 1 - n * (dur + 1), ed_end - dur - 3 - n * (dur + 1), ed_end - dur - n * (dur + 1)) or snapf(ed_end - dur - 1 - n * (dur + 1))
             attach(title('subtitle', 'one', [line], LANE['subtitle'], end_on_cut(ts, dur, Fraction(1)), ), ts)

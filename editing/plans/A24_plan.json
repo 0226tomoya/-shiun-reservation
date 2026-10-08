@@ -7,7 +7,7 @@
   },
   "templates": "../components/role_templates_A19.fcpxml",
   "collection": "shiun 26 Winter 1st Collection",
-  "release_line": "October 24th Sat. 10pm - Release（要確認）",
+  "release_line": "October 31st Sat. 10pm - Release",
   "countdown": true,
   "label_delay": 4.6,
   "framing": {
@@ -32,7 +32,7 @@
       "color": "BLACK",
       "sizes": "37, 39, 41, 43",
       "price": "¥ 14,300",
-      "_note": "商品情報・字幕・素材は A23 本編（公開版から外したローファー区間）から流用。要確認。",
+      "_note": "商品名・価格・サイズは本編の発言で確認済み（カウレザーローファー・14,300円・37/39/41/43）。写真・EC 素材は A23 から流用",
       "donor_assets": {
         "fcpxml": "../sources/A23_本編.fcpxml",
         "photos": "SNS用高画質/5.COW LEATHER LOAFER/",
@@ -152,7 +152,7 @@
     }
   ],
   "templates_extra": "../components/role_templates_A18.fcpxml",
-  "release_date": "2026.10.24 sat 10pm - Release（要確認）",
+  "release_date": "2026.10.31 sat 10pm - Release",
   "closing_lines": [
     "shiunオンラインストアにて、スタッフ一同お待ちしております（定型・要確認）"
   ],
@@ -160,5 +160,7 @@
     "カウントダウン: 後日共有（今は A19 のカウントダウンを仮で入れている）",
     "身長別比較: 後日共有（入れる場所は素材が届いてから決める）"
   ],
-  "subject": "A24_subject.json"
+  "subject": "A24_subject.json",
+  "subtitles": "A24_subtitles.json",
+  "transcript": "A24_transcript.json"
 }
