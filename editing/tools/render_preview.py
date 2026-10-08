@@ -186,6 +186,19 @@ def main():
                     st_src = float(st + tau - o)
                     src = next(((ps, pp) for ps, pe, pp in proxies.get(name, []) if ps <= st_src and st_src + float(t - s) <= pe + 0.05), None)
                     break
+        if src is None and e.tag == 'asset-clip':
+            # スパインに直接置いた素材（カウントダウンなど）: 手元に取り込んだファイルがあればそのまま描く
+            import unicodedata as _ud0
+            import urllib.parse as _up0
+            a_ = res.get(e.get('ref'))
+            mr_ = a_.find('media-rep') if a_ is not None else None
+            lf_ = local_file(_ud0.normalize('NFC', _up0.unquote(mr_.get('src')))) if mr_ is not None else None
+            if lf_:
+                ss_ = T(e.get('start') or '0s') - T(a_.get('start') or '0s') + (s - off)
+                ff(['-ss', f'{float(ss_):.4f}', '-i', lf_, '-frames:v', str(n), '-vf', f'scale={W}:{H},fps={fps}', '-an',
+                    '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-g', '1', '-pix_fmt', 'yuv420p', seg])
+                segs.append(seg)
+                continue
         if src is not None:
             ps, pp = src
             # 調整レイヤー（lane 1）の構図: 位置は画面の高さの 1%（540p で 5.4px）、拡大は中心から

@@ -8,7 +8,10 @@
   "templates": "../components/role_templates_A19.fcpxml",
   "collection": "shiun 26FW Winter 1st Collection",
   "release_line": "October 31st Sat. 10pm - Release",
-  "countdown": true,
+  "countdown": {
+    "path": "カウントダウン/7.mp4",
+    "_note": "ユーザー共有の A24 カウントダウン（shiun / 26 Winter 1st Collection / 2026.10.31 sat 10pm - Release / 7 DAYS LEFT）。編集済みなので切らずに 14.5 秒まるごと使う。A19 と同じく最初の商品の前"
+  },
   "label_delay": 4.6,
   "framing": {
     "op": "op_tight",
@@ -309,7 +312,6 @@
     "shiunオンラインストアにて、スタッフ一同お待ちしております（定型・要確認）"
   ],
   "pending": [
-    "カウントダウン: 後日共有（今は A19 のカウントダウンを仮で入れている）",
     "身長別比較: 後日共有（入れる場所は素材が届いてから決める）"
   ],
   "subject": "A24_subject.json",

@@ -111,6 +111,23 @@ def main():
             if r:
                 assets[r] = a
 
+    # カウントダウン: A19 のもの（仮）を、A24 の素材フォルダのカウントダウンに差し替える（切らずにまるごと使う）
+    if isinstance(plan.get('countdown'), dict) and plan['countdown'].get('path'):
+        like = next(a for a in assets.values() if a.find('media-rep') is not None)
+        nsrc = unicodedata.normalize('NFC', urllib.parse.unquote(like.find('media-rep').get('src')))
+        prefix = nsrc[:nsrc.index(plan['asset_root']) + len(plan['asset_root'])]
+        for a in resources:
+            mr = a.find('media-rep') if a.tag == 'asset' else None
+            if mr is not None and a.get('name') == '7' and 'カウントダウン' in unicodedata.normalize('NFC', urllib.parse.unquote(mr.get('src'))):
+                mr.set('src', urllib.parse.quote(unicodedata.normalize('NFD', prefix + plan['countdown']['path']), safe='/:'))
+                for k in ('sig',):
+                    mr.attrib.pop(k, None)
+                for b in mr.findall('bookmark'):
+                    mr.remove(b)
+                a.attrib.pop('uid', None)
+                if plan['countdown'].get('duration'):
+                    a.set('duration', plan['countdown']['duration'])
+
     # 粗編集の XML に未登録の静止画（後から共有された素材）を、同じ素材フォルダのパスで登録する
     if plan.get('register_stills'):
         like = next(a for a in assets.values() if a.find('media-rep') is not None)
