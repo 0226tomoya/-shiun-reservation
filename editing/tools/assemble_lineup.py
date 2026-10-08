@@ -34,6 +34,60 @@ FRAMING = {  # A19（4K 単カメ・立ち）の構図プリセット
 }
 
 
+# A19 の構図プリセットは、A24 の引きの画（鼻 0.49, 0.25・胴の長さ＝画面の高さの 0.20）に当てたときの仕上がりを目標にする
+REF = (0.49, 0.25, 0.20)
+
+
+def adaptive_framing(mcs, subject, preset_of, chapter_of):
+    """カットごとに測った人の位置から、プリセットと同じ仕上がり（鼻の位置・胴の大きさ）になる拡大・位置を逆算する。
+    同じ構図・同じ素材が続くまとまりは値を揃える（ちらつかせない）。拡大は 1 倍以上、画面の外が見えない範囲に収める。"""
+    import statistics
+    if len(subject) != len(mcs):
+        print('subject: カット数が合わないので構図はプリセットのまま', len(subject), len(mcs))
+        return {}
+
+    def geo(r):
+        L = r.get('lm')
+        if not L or min(L['ls'][2], L['rs'][2], L['lh'][2], L['rh'][2]) < 0.5:
+            return None
+        torso = (L['lh'][1] + L['rh'][1]) / 2 - (L['ls'][1] + L['rs'][1]) / 2
+        return (L['nose'][0], L['nose'][1], torso) if 0.05 < torso < 1.5 else None
+
+    blocks, cur, key0 = [], [], None
+    for e, r in zip(mcs, subject):
+        key = (chapter_of(e), preset_of(e), r.get('src'))
+        if key != key0 and cur:
+            blocks.append((key0, cur))
+            cur = []
+        cur.append((e, r))
+        key0 = key
+    if cur:
+        blocks.append((key0, cur))
+    by_src = {}
+    for e, r in zip(mcs, subject):
+        g_ = geo(r)
+        if g_:
+            by_src.setdefault(r.get('src'), []).append(g_)
+    out = {}
+    for (ch, (p, sc), src), members in blocks:
+        gs = [g_ for g_ in (geo(r) for _, r in members) if g_] or by_src.get(src) or []
+        if not gs:
+            continue
+        x, y, torso = (statistics.median(v[i] for v in gs) for i in range(3))
+        s0 = float(sc.split()[0])
+        px0, py0 = (float(v) for v in p.split())
+        xt = 0.5 + (REF[0] - 0.5) * s0 + px0 * 10.8 / 1920
+        yt = 0.5 + (REF[1] - 0.5) * s0 - py0 * 0.01
+        s = max(1.0, REF[2] * s0 / torso)
+        px = (xt - 0.5 - (x - 0.5) * s) / (10.8 / 1920)
+        py = (0.5 + (y - 0.5) * s - yt) / 0.01
+        lim_x, lim_y = (s - 1) / 2 * 1920 / 10.8, (s - 1) / 2 * 100
+        px, py = max(-lim_x, min(lim_x, px)), max(-lim_y, min(lim_y, py))
+        for e, _ in members:
+            out[id(e)] = (f'{px:.4f} {py:.4f}', f'{s:.4f} {s:.4f}')
+    return out
+
+
 def T(s):
     s = (s or '0s').rstrip('s')
     return Fraction(s) if s else Fraction(0)
@@ -191,6 +245,21 @@ def main():
         return new
 
     # ---- 1. メインカメラの各カット ----
+    def preset_for(off, sec):
+        p, sc = FRAMING[sec['framing']]
+        if sec['framing'] in VARIANTS and 'product' in sec:
+            v = VARIANTS[sec['framing']]
+            p = v[int((off - sec['t0']) // 40) % len(v)]
+            if isinstance(p, tuple):
+                p, sc = p
+        return p, sc
+
+    mcs = [e for e in items if e.tag == 'mc-clip']
+    adaptive = {}
+    if plan.get('subject'):
+        adaptive = adaptive_framing(mcs, json.load(open(os.path.join(base, plan['subject']))),
+                                    lambda e: preset_for(T(e.get('offset')), section_at(T(e.get('offset')))),
+                                    lambda e: section_at(T(e.get('offset')))['chapter'])
     log = {'adjustment': 0, 'product_label': 0, 'collection_label': 0}
     for e in items:
         if e.tag != 'mc-clip':
@@ -201,12 +270,7 @@ def main():
         g.set('lane', '1')
         g.set('offset', S(st))
         g.set('duration', S(du))
-        p, sc = FRAMING[sec['framing']]
-        if sec['framing'] in VARIANTS and 'product' in sec:
-            v = VARIANTS[sec['framing']]
-            p = v[int((off - sec['t0']) // 40) % len(v)]
-            if isinstance(p, tuple):
-                p, sc = p
+        p, sc = adaptive.get(id(e)) or preset_for(off, sec)
         set_transform(g, p, sc)
         append_anchor(e, g)
         log['adjustment'] += 1
