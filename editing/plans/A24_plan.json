@@ -32,12 +32,7 @@
       "color": "BLACK",
       "sizes": "37, 39, 41, 43",
       "price": "¥ 14,300",
-      "_note": "商品名・価格・サイズは本編の発言で確認済み（カウレザーローファー・14,300円・37/39/41/43）。写真・EC 素材は A23 から流用。インサートはユーザー指定のローファーの写真 16 枚（A23 の SNS用高画質/5.COW LEATHER LOAFER と同じファイル）のみ。A23 の EC 動画は使わない（E1_20260714_49 指定では別商品の動画まで含んでいたため）",
-      "donor_assets": {
-        "fcpxml": "../sources/A23_本編.fcpxml",
-        "photos": "SNS用高画質/5.COW LEATHER LOAFER/",
-        "ec": "掲載用/5.COW LEATHER LOAFER/"
-      },
+      "_note": "商品名・価格・サイズは本編の発言で確認済み（カウレザーローファー・14,300円・37/39/41/43）。写真はユーザーが共有した A24 の完パケ（SNS用高画質・掲載用の 6.COW LEATHER LOAFER）。粗編集の XML に未登録なので register_stills で登録する。ED は掲載用 01（A23 と同じ使い方）。EC 動画は使わない",
       "lines": [
         [
           "Design",
@@ -90,9 +85,11 @@
       ],
       "ed": {
         "page": 2,
-        "snap_donor": "ec",
+        "snap": "完パケ/掲載用/6.COW LEATHER LOAFER/01.png",
         "side": "right"
-      }
+      },
+      "photos": "完パケ/SNS用高画質/6.COW LEATHER LOAFER",
+      "ec": "完パケ/掲載用/6.COW LEATHER LOAFER"
     },
     {
       "chapter": "2.カーコート",
@@ -321,5 +318,162 @@
   "_ed_about": "ED の一覧（A19 の型）: 1 ページ目は服の切り抜きを 4 列（動画の順に左から。2 色は 2 枚重ね）、2 ページ目はベルト（SNS 用スナップ）を左・靴（EC 掲載サイズのスナップ）を右に 0.55 倍。切り抜きの割り当ては中身を目視で確認（01 ポロ / 02 ニット SAND TAUPE / 03 ニット CHARCOAL / 04 スラックス / 05 カーコート）",
   "insert_ledger": "A24_insert_ledger.json",
   "insert_motion": "A24_insert_motion.json",
-  "ec_video_root": "26fall3rd/"
+  "ec_video_root": "26fall3rd/",
+  "register_stills": [
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/01(サイドの床映らないようにしてください).png",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/02.png",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/03.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/04.png",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/05.jpg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/06.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/07.jpg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/08.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/09.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/10.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/11.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/12.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/13.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/14.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/15.jpg",
+      "w": 4000,
+      "h": 6000
+    },
+    {
+      "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/16.jpg",
+      "w": 6000,
+      "h": 4000
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/01.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/02.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/03.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/04.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/05.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/06.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/07.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/08.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/09.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/10.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/11.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/12.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/13.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/14.png",
+      "w": 750,
+      "h": 900
+    },
+    {
+      "path": "完パケ/掲載用/6.COW LEATHER LOAFER/15.png",
+      "w": 750,
+      "h": 900
+    }
+  ]
 }

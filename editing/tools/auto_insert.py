@@ -111,6 +111,39 @@ def main():
             if r:
                 assets[r] = a
 
+    # 粗編集の XML に未登録の静止画（後から共有された素材）を、同じ素材フォルダのパスで登録する
+    if plan.get('register_stills'):
+        like = next(a for a in assets.values() if a.find('media-rep') is not None)
+        src0 = urllib.parse.unquote(like.find('media-rep').get('src'))
+        nsrc = unicodedata.normalize('NFC', src0)
+        prefix = nsrc[:nsrc.index(plan['asset_root']) + len(plan['asset_root'])]
+        ids = {e.get('id') for e in resources}
+        n_new = 0
+        for st_ in plan['register_stills']:
+            r_ = unicodedata.normalize('NFC', st_['path'])
+            if r_ in assets:
+                continue
+            fk = f"{st_['w']}x{st_['h']}"
+            fe = next((e for e in resources if e.tag == 'format' and e.get('name') == 'FFVideoFormatRateUndefined'
+                       and e.get('width') == str(st_['w']) and e.get('height') == str(st_['h'])), None)
+            if fe is None:
+                fid = f'rs_f{fk}'
+                fe = ET.Element('format', id=fid, name='FFVideoFormatRateUndefined', width=str(st_['w']), height=str(st_['h']), colorSpace='1-13-1')
+                resources.insert(0, fe)
+                ids.add(fid)
+            k_ = 1
+            while f'rs_{k_}' in ids:
+                k_ += 1
+            aid = f'rs_{k_}'
+            ids.add(aid)
+            name_ = r_.rsplit('/', 1)[1].rsplit('.', 1)[0]
+            a_ = ET.SubElement(resources, 'asset', id=aid, name=name_, start='0s', duration='0s', hasVideo='1', format=fe.get('id'), videoSources='1')
+            url = urllib.parse.quote(unicodedata.normalize('NFD', prefix + r_), safe='/:')
+            ET.SubElement(a_, 'media-rep', kind='original-media', src=url)
+            assets[r_] = a_
+            n_new += 1
+        print('未登録の静止画を登録:', n_new, file=sys.stderr)
+
     def folder(f):
         return [assets[k] for k in sorted(assets) if k.rsplit('/', 1)[0] == f]
 
