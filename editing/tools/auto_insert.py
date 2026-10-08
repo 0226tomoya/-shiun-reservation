@@ -543,13 +543,20 @@ def main():
     def abs_time(host, el):
         return T(host.get('offset')) + T(el.get('offset')) - T(host.get('start'))
 
-    labels, cuts = [], set()
+    labels, ivs = [], []
     for off, du, e in hosts:
         for ch in list(e):
-            if ch.tag == 'title' and ch.get('lane') == '2' and '| Size :' in ''.join(ch.itertext()):
+            # 商品名ラベルと OP の左上のコレクション名（どちらもカットごとに付けている）
+            if ch.tag == 'title' and ch.get('lane') == '2' and ('| Size :' in ''.join(ch.itertext()) or plan['collection'] in ''.join(ch.itertext())):
                 labels.append((abs_time(e, ch), T(ch.get('duration')), e, ch))
             elif ch.tag in ('video', 'asset-clip', 'clip', 'ref-clip') and int(ch.get('lane') or 0) >= 3:
-                cuts.add(abs_time(e, ch))
+                ivs.append((abs_time(e, ch), abs_time(e, ch) + T(ch.get('duration'))))
+    # 区切るのはインサートのかたまり（続いているインサート）の頭だけ
+    cuts, end_ = set(), None
+    for a, b in sorted(ivs):
+        if end_ is None or a > end_:
+            cuts.add(a)
+        end_ = b if end_ is None else max(end_, b)
     labels.sort(key=lambda x: x[0])
     groups = []
     for t0, du, e, ch in labels:
@@ -574,7 +581,7 @@ def main():
                 if ts.get('ref'):
                     ts.set('ref', f"{ts.get('ref')}_l{k}")
             attach(x, a)
-    stats['labels'] = f'{n_before}→{sum(1 for _ in project.iter("title") if _.get("lane") == "2" and "| Size :" in "".join(_.itertext()))}'
+    stats['labels'] = f'{n_before}→{n_copy}'
 
     with open(out, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')
