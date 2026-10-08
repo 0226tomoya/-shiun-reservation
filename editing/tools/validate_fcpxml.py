@@ -28,8 +28,47 @@ def validate(path):
     return errs
 
 
+def check_refs(path):
+    """参照（ref・format）が、正しい種類のリソースを指しているか。FCP は種類が違うと読み込みを拒否する
+    （例: filter-video の ref が asset を指している → 「見つかったリソースは無効です」）。重複 ID も見る。"""
+    import xml.etree.ElementTree as ET
+    root = ET.parse(path).getroot()
+    rs = list(root.find('resources'))
+    errs = []
+    seen = {}
+    for e in rs:
+        if e.get('id') in seen:
+            errs.append(f"重複したリソース ID {e.get('id')}")
+        seen[e.get('id')] = e
+    want = {'filter-video': {'effect'}, 'filter-audio': {'effect'}, 'title': {'effect'}, 'generator': {'effect'},
+            'asset-clip': {'asset'}, 'video': {'asset', 'effect'}, 'audio': {'asset'}, 'ref-clip': {'media'},
+            'mc-clip': {'media'}, 'sync-source': None, 'mc-source': None}
+    for el in root.iter():
+        ref = el.get('ref')
+        if ref and want.get(el.tag) is not None:
+            tg = seen[ref].tag if ref in seen else None
+            if tg not in want[el.tag]:
+                errs.append(f"{el.tag}（{el.get('name')}）の ref={ref} が {tg or '存在しないリソース'} を指している")
+        fm = el.get('format')
+        if fm and el.tag not in ('fcpxml',) and (fm not in seen or seen[fm].tag != 'format'):
+            errs.append(f"{el.tag}（{el.get('name')}）の format={fm} が format でない")
+    ids = set()
+    for d in root.iter('text-style-def'):
+        if d.get('id') in ids:
+            errs.append(f"重複した text-style-def ID {d.get('id')}")
+        ids.add(d.get('id'))
+    return errs
+
+
 if __name__ == '__main__':
     errs = validate(sys.argv[1])
+    from collections import Counter as _C
+    rerrs = check_refs(sys.argv[1])
+    if rerrs:
+        print(f'参照の誤り {len(rerrs)} 件（FCP で読み込めない）')
+        for k, v in _C(rerrs).most_common(10):
+            print(f'  ×{v} {k}')
+        sys.exit(1)
     if not errs:
         print('OK（v1.14 で増えた要素以外のエラーなし）')
     else:

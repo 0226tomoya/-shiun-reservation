@@ -202,17 +202,23 @@ def apply_template(tpl_el, actual_el, tpl_res, doc_res, doc_resources_el, r, ctx
         elif k in new.attrib and k != 'enabled':
             del new.attrib[k]
     new.set('name', actual_el.get('name') or new.get('name'))
-    # エフェクト参照を文書側の ID に合わせる
-    tdef = tpl_res[tpl_el.get('ref')]
-    match = next((e for e in doc_res.values() if e.tag == 'effect' and e.get('uid') == tdef.get('uid')), None)
-    if match is None:
-        nid = f'rsim{next(_uid)}'
-        d = copy.deepcopy(tdef)
-        d.set('id', nid)
-        doc_resources_el.append(d)
-        doc_res[nid] = d
-        match = d
-    new.set('ref', match.get('id'))
+    # エフェクト参照を文書側の ID に合わせる（テロップ本体だけでなく、中のフィルタ（フェードイン・アウトなど）も。
+    # 型の文書の ID のまま残すと、A24 側では同じ番号の別の素材を指してしまい FCP が読み込めない）
+    def doc_effect(old):
+        tdef = tpl_res[old]
+        m = next((e for e in doc_res.values() if e.tag == tdef.tag and e.get('uid') and e.get('uid') == tdef.get('uid')), None)
+        if m is None:
+            nid = f'rsim{next(_uid)}'
+            d = copy.deepcopy(tdef)
+            d.set('id', nid)
+            doc_resources_el.append(d)
+            doc_res[nid] = d
+            m = d
+        return m.get('id')
+    new.set('ref', doc_effect(tpl_el.get('ref')))
+    for x in new.iter():
+        if x is not new and x.get('ref') and x.get('ref') in tpl_res and tpl_res[x.get('ref')].tag == 'effect':
+            x.set('ref', doc_effect(x.get('ref')))
     # text-style-def の ID を一意にする
     pref = f'sim{next(_uid)}_'
     for tsd in new.findall('text-style-def'):
