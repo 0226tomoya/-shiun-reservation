@@ -289,7 +289,8 @@ def set_rule_position(el, r, ctx):
             set_param(el, '位置', '-849.551 443.956')
             set_transform(el, '-9.11111 5' if k == 0 else '-9.11111 -3.6263', '0.9 0.9')
         else:
-            set_param(el, '位置', '-849.551 443.956')
+            # 1 商品: 価格なしは -849.551、価格あり（P13）は -849.993（A19 9 本・A23 11 本とも）
+            set_param(el, '位置', '-849.993 443.956' if has_price(el) else '-849.551 443.956')
             set_transform(el, '-0.944444 0')
     elif r == 'product_center':
         price = has_price(el)
@@ -311,7 +312,8 @@ def set_rule_position(el, r, ctx):
                 ts.attrib.pop('alignment', None)
     elif r == 'subtitle':
         lines = ''.join(x.text or '' for x in slots(el)).count('\n') + 1
-        set_param(el, '位置', '1 -483.734' if lines == 1 else '0 -440')
+        # A19・A23 とも 1 行・2 行どちらも 1, -483.734（2 行で位置を変えた例はない）
+        set_param(el, '位置', '1 -483.734')
     elif r == 'size_letter':
         # 小さいサイズを左、大きいサイズを右
         set_param(el, '位置', '-292.796 404.571' if k == 0 else '312.47 406.474')

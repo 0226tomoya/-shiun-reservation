@@ -105,7 +105,7 @@ def conformity(titles):
         # 型の中での使い分け（セクションラベルの語、価格の有無）は別グループで比べる
         if r == 'section_label':
             r = (r, text(i).strip())
-        elif r == 'product_center':
+        elif r in ('product_center', 'product_label'):
             r = (r, '¥' in text(i))
         groups[r].append(json.dumps([st[:1], i.get('params', {}).get('調整')], sort_keys=True))
     if not groups:

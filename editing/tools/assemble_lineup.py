@@ -228,8 +228,13 @@ def main():
 
     name_end = near_cut(Fraction(47, 10), Fraction(7, 10))
 
+    def intro_start(sec):
+        """A19 は区間の頭（アイキャッチの後）1.4〜2.3 秒、左上のコレクション名でトークを見せてから紹介インに入る。"""
+        c = [x for x in CUTS if sec['t0'] + Fraction(14, 10) <= x <= sec['t0'] + Fraction(26, 10)]
+        return min(c) if c else sec['t0']
+
     def intro_end(sec):
-        return near_cut(sec['t0'] + Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
+        return near_cut(intro_start(sec) + Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
 
     # ---- テロップ生成のヘルパー ----
     def make_title(role, variant, texts, lane, offset, duration, ctx=None, start=None):
@@ -238,7 +243,8 @@ def main():
         t = ET.SubElement(fake, 'text')
         for n, line in enumerate(texts):
             r = ET.SubElement(t, 'text-style')
-            r.text = line + ('\n' if n < len(texts) - 1 and not line.endswith('\n') else '')
+            nxt = texts[n + 1] if n < len(texts) - 1 else None
+            r.text = line + ('\n' if nxt is not None and not nxt.startswith(' - ') and not line.endswith('\n') else '')
         new = apply_template(tp, fake, tpl.res, doc_res, resources, role, ctx or {})
         if start is not None:
             new.set('start', S(start))
@@ -274,8 +280,8 @@ def main():
         set_transform(g, p, sc)
         append_anchor(e, g)
         log['adjustment'] += 1
-        # OP: コレクション名（名前カードの後〜OP の終わり）
-        if sec['chapter'] == 'OP' and off >= name_end:
+        # OP: コレクション名（名前カードの後〜OP の終わり）。商品区間の頭（紹介インの前）にも出す（A19）
+        if (sec['chapter'] == 'OP' and off >= name_end) or ('product' in sec and off < intro_start(sec)):
             append_anchor(e, make_title('collection_label', 'any', [plan['collection'], plan['release_line']], 2, st, du))
             log['collection_label'] += 1
         # 商品区間: 紹介インの後は左上に商品名ラベル
@@ -296,11 +302,11 @@ def main():
     for s in sections:
         if 'product' not in s:
             continue
-        host = next(e for e in items if e.tag == 'mc-clip' and T(e.get('offset')) >= s['t0'])
+        i0 = intro_start(s)
+        host = next(e for e in items if e.tag == 'mc-clip' and T(e.get('offset')) <= i0 < T(e.get('offset')) + T(e.get('duration')))
         pr = s['product']
         append_anchor(host, make_title('product_center', 'plain', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}"], 5,
-                               T(host.get('start')) + (s['t0'] - T(host.get('offset'))) if T(host.get('offset')) < s['t0'] else T(host.get('start')),
-                               intro_end(s) - s['t0']))
+                               T(host.get('start')) + (i0 - T(host.get('offset'))), intro_end(s) - i0))
 
     # ---- 5. スパインへの挿入（アイキャッチ・カウントダウン・エンディング）----
     new_items = []

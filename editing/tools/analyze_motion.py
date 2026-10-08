@@ -28,7 +28,8 @@ def load(models):
         base_options=mpt.BaseOptions(model_asset_path=os.path.join(models, 'face_landmarker.task')),
         output_face_blendshapes=True, num_faces=1, min_face_detection_confidence=0.4))
     pose = vision.PoseLandmarker.create_from_options(vision.PoseLandmarkerOptions(
-        base_options=mpt.BaseOptions(model_asset_path=os.path.join(models, 'pose_landmarker_full.task')), num_poses=1))
+        base_options=mpt.BaseOptions(model_asset_path=os.path.join(models, 'pose_landmarker_full.task')), num_poses=3,
+        min_pose_detection_confidence=0.6))
     return face, pose
 
 
@@ -64,6 +65,7 @@ def main():
             r['mouth'] = bs.get('mouthClose', 0.0)
             r['face'] = True
         pr = pose.detect(mi)
+        r['people'] = len(pr.pose_landmarks or [])
         if pr.pose_landmarks:
             L = pr.pose_landmarks[0]
             pt = lambda i: (L[i].x, L[i].y, L[i].visibility)  # noqa: E731
@@ -122,10 +124,12 @@ def main():
 
     # 人が映っていない（フレームアウト・壁や地面だけ）: 人が映る素材（h/）では NG
     noperson = np.array([r['pose'] is None for r in rows]) if sub == 'h' else np.zeros(n, bool)
+    # スタッフの映り込み（人が 2 人以上）: 人が映る素材で NG
+    others = np.array([r.get('people', 0) >= 2 for r in rows]) if sub == 'h' else np.zeros(n, bool)
     res = {
         'fps': fps, 'frames': n, 'dur': round(n / fps, 2), 'face_ratio': round(float(np.mean([r['face'] for r in rows])) if n else 0, 2),
         'ng': {'talk_gum': merge(talk, fps), 'hair': merge(hair, fps), 'pocket': merge(pocket, fps),
-               'no_person': merge(noperson, fps, pad=0.25)},
+               'no_person': merge(noperson, fps, pad=0.25), 'staff': merge(others, fps, pad=0.5)},
         'check': {'clothes': merge(clothes, fps), 'camera': merge(cam_flag, fps, pad=0.25)},
         'series': {'person': [r['pose'] is not None for r in rows], 'jaw': [None if np.isnan(x) else round(float(x), 3) for x in jaw], 'wrist_speed': [round(float(x), 3) for x in speed],
                    'motion': [round(float(x), 2) for x in cam]},

@@ -140,6 +140,12 @@ def main():
     se_src = donor.find_in_project(proj19, lambda e: e.tag == 'asset-clip' and '決定ボタン' in norm(e.get('name')))
     # B-roll（動画）用のカラー調整: A19 で B-roll のクリップに直接当てているもの
     grade_f = donor.find_in_project(proj19, lambda e: e.tag == 'filter-video' and norm(e.get('name')) == 'カラー調整')
+    # 写真（SNS 用高画質など）に直接当てているカラー調整（A19 の写真の 56% に付いている）
+    photo_grade_f = next((f for v in donor.root.iter('video') if v.get('lane') for f in v.findall('filter-video')
+                          if norm(f.get('name')) == 'カラー調整'), grade_f)
+    ph_n = [0]
+    # 写真の扱い（A19: 動かさず＋カラー調整 / そのまま / 縦にゆっくりパン / 拡大 の割合に合わせて順に回す）
+    PHOTO_STYLE = ['grade', 'plain', 'grade', 'pan', 'grade', 'plain', 'zoom', 'grade', 'plain', 'grade']
 
     # ---- 時刻 → ホストのカット ----
     hosts = []
@@ -247,7 +253,9 @@ def main():
         t = ET.SubElement(fake, 'text')
         for n, line in enumerate(lines):
             r = ET.SubElement(t, 'text-style')
-            r.text = line + ('\n' if n < len(lines) - 1 else '')
+            # 「¥ 14,300」と「 - tax in」は同じ行（A19: 金額は大きい文字、- tax in は小さい文字で並べる）
+            nxt = lines[n + 1] if n < len(lines) - 1 else None
+            r.text = line + ('\n' if nxt is not None and not nxt.startswith(' - ') else '')
         t_main = tpl.get(role, variant)
         if t_main is None and tpl2 is not None:
             # A19 にない型（発売日の中央表示など）は A18 から
@@ -273,6 +281,7 @@ def main():
     # ---- 発話に合わせた字幕（plan の subtitles がある場合）----
     # 字幕ファイルの seg（文字起こしの行番号）から、最初の単語の頭〜最後の単語の終わりを時刻にする
     SUBS, SPEC = [], None
+    price_after = {}  # 商品名 → (価格の中央表示の終わり, 区間の終わり)。この間の左上ラベルは価格あり（P13）
     if plan.get('subtitles'):
         SPEC = json.load(open(os.path.join(base, plan['subtitles']), encoding='utf-8'))
         tr = json.load(open(os.path.join(base, plan['transcript']), encoding='utf-8'))
@@ -287,7 +296,8 @@ def main():
             # 頭は 0.25 秒以内に編集点があればそこへ、終わりは言い終わりの少し後の編集点へ（なければフレームに揃える）
             a = near_cut(st, st - Fraction(1, 4), st + Fraction(1, 4)) or snapf(st)
             b = near_cut(en + Fraction(1, 5), en, en + Fraction(6, 10)) or snapf(en + Fraction(15, 100))
-            SUBS.append({'t0': a, 't1': max(b, a + 1), 'text': x['text'], 'label': x.get('label'), 'face': x.get('face', False)})
+            SUBS.append({'t0': a, 't1': max(b, a + 1), 'text': x['text'], 'label': x.get('label'), 'face': x.get('face', False) or x.get('style') == 'emphasis',
+                         'style': x.get('style')})
         SUBS.sort(key=lambda x: x['t0'])
         for k, x in enumerate(SUBS):
             # 読む時間（1 秒 6 文字以内）が足りなければ、言い終わりから最大 1.5 秒まで残す
@@ -315,10 +325,18 @@ def main():
             videos = []
         # 1) 商品紹介イン（4.6 秒）: 左 掲載用 01、右 SNS 写真をぼかし
         # 紹介インの長さは 4.6 秒前後で、終わりを編集点に（商品名ラベルの出だしと同じ規則。assemble_lineup.intro_end）
-        di = end_on_cut(t0, Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
+        # 紹介インは assemble_lineup が置いた中央商品名（価格なし）と同じ時刻に（A19: 区間の頭 1.4〜2.3 秒はトーク）
+        i0, di = t0, end_on_cut(t0, Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
+        for off_, du_, e_ in hosts:
+            if not (t0 - 1 <= off_ < t1):
+                continue
+            for ch in e_:
+                if ch.tag == 'title' and ch.get('lane') == '5' and pr['name'] in ''.join(ch.itertext()) and '¥' not in ''.join(ch.itertext()):
+                    i0 = off_ + T(ch.get('offset')) - T(e_.get('start'))
+                    di = T(ch.get('duration'))
         if ec and photos:
-            attach(still(ec[0], di, LANE['photo_fg'], '-44.4444 0', 'half'), t0)
-            attach(still(photos[min(5, len(photos) - 1)], di, LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), t0)
+            attach(still(ec[0], di, LANE['photo_fg'], '-44.4444 0', 'half'), i0)
+            attach(still(photos[min(5, len(photos) - 1)], di, LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), i0)
             stats['intro'] += 1
         # 2) 字幕と B-roll（A19 の組み方）
         # - 字幕 3 本のかたまりごとに、続いた 1 つのインサート（中央値 16 秒）を敷く。トークの間は 15 秒前後空ける
@@ -353,9 +371,11 @@ def main():
                     return v, (1 if T(v.get('duration')) >= dur + 1 else Fraction(1, 4))
             return None, 0
 
-        def lay(a, b, sec):
-            """インサートのかたまり [a, b] を敷く。"""
-            for pa, pb in pieces(a, b):
+        def lay(a, b, sec, forced=()):
+            """インサートのかたまり [a, b] を敷く。forced（字幕の頭・終わり）では必ず切り替える（A19・A23 は 100%）。"""
+            pts = [a] + sorted({f for f in forced if a < f < b}) + [b]
+            segs = [pc for x, y in zip(pts, pts[1:]) for pc in pieces(x, y)]
+            for pa, pb in segs:
                 d = pb - pa
                 v, st_in = pick_video(d) if (videos and pi[0] % 2 == 1) else (None, 0)
                 if v is not None:
@@ -371,8 +391,23 @@ def main():
                     pool = pref + [x for x in photos + ec if x not in pref]
                     ph = min(pool, key=lambda x: (used.get(x.get('id'), 0), pool.index(x)))
                     used[ph.get('id')] = used.get(ph.get('id'), 0) + 1
-                    zoom = '2.7 2.7' if sec in ('Design', 'Silhouette', None) else '4 4'
-                    attach(still(ph, d, LANE['photo_bg'], f'{(pi[0] % 3 - 1) * 6} {(pi[0] % 2) * 8}', zoom, [zoom_f]), pa)
+                    sc = '2.68 2.68' if sec in ('Design', 'Silhouette', None) else '3.4 3.4'
+                    style = PHOTO_STYLE[ph_n[0] % len(PHOTO_STYLE)]
+                    ph_n[0] += 1
+                    y = (pi[0] % 3 - 1) * 8
+                    fx = {'grade': [photo_grade_f], 'plain': [], 'pan': [photo_grade_f], 'zoom': [photo_grade_f, zoom_f]}[style]
+                    el = still(ph, d, LANE['photo_bg'], f'0 {y}', sc, fx)
+                    if style == 'pan':
+                        # 位置にキーフレームを打って縦にゆっくり動かす（A19: 毎秒 4〜10 単位）
+                        tr = el.find('adjust-transform')
+                        tr.attrib.pop('position', None)
+                        prm = ET.SubElement(tr, 'param', name='position')
+                        ka = ET.SubElement(prm, 'keyframeAnimation')
+                        span = min(Fraction(30), Fraction(6) * d)
+                        st_ = T(el.get('start'))
+                        ET.SubElement(ka, 'keyframe', time=S(st_), value=f'0 {float(span / 2):.4f}', curve='linear')
+                        ET.SubElement(ka, 'keyframe', time=S(st_ + d), value=f'0 {float(-span / 2):.4f}', curve='linear')
+                    attach(el, pa)
                     pi[0] += 1
                 stats['broll'] += 1
 
@@ -395,7 +430,7 @@ def main():
 
         if SUBS:
             # ---- 発話どおりの字幕と、説明（ラベル付き）の字幕の下だけのインサート ----
-            ins_end = t0 + di
+            ins_end = i0 + di
             mine = [x for x in SUBS if t0 <= x['t0'] < t1]
             tp = None
             if pr.get('price') and ec and pr['chapter'] in seg_time:
@@ -409,13 +444,33 @@ def main():
                         x['t0'] = max(x['t0'], cb) if x['t0'] >= ca else x['t0']
                         x['t1'] = min(x['t1'], ca) if x['t0'] < ca else x['t1']
             mine = [x for x in mine if x['t1'] - x['t0'] >= Fraction(3, 2)]
+            # 説明の字幕（インサートが付く）は頭と終わりを編集点に寄せ、インサートの切り替わりと一致させる（A19・A23 は 100%）
+            for k, x in enumerate(mine):
+                if x['face']:
+                    continue
+                ca = [c for c in CUTS if x['t0'] - Fraction(12, 10) <= c <= x['t0'] + Fraction(3, 10)]
+                if ca:
+                    x['t0'] = min(ca, key=lambda c: (c > x['t0'], abs(c - x['t0'])))
+                cb = [c for c in CUTS if x['t1'] - Fraction(5, 10) <= c <= x['t1'] + Fraction(15, 10)]
+                if cb:
+                    x['t1'] = min(cb, key=lambda c: (c < x['t1'], abs(c - x['t1'])))
+            for k in range(len(mine) - 1):
+                if mine[k]['t1'] > mine[k + 1]['t0']:
+                    mine[k]['t1'] = mine[k + 1]['t0']
+            mine = [x for x in mine if x['t1'] - x['t0'] >= 1]
             for x in mine:
-                lines = x['text'].split('\n')
-                attach(title('subtitle', 'one', ['\n'.join(lines)], LANE['subtitle'], x['t1'] - x['t0']), x['t0'])
+                if x['style'] == 'emphasis':
+                    # 中央の強調（P08）: 決め台詞・ニュース。読む時間を確保（1 秒 6 文字）
+                    d_ = max(x['t1'] - x['t0'], Fraction(len(x['text'].replace('\n', '')), 6))
+                    attach(title('emphasis', 'any', [x['text']], LANE['center'], d_), x['t0'])
+                    stats.setdefault('emphasis', 0)
+                    stats['emphasis'] += 1
+                    continue
+                attach(title('subtitle', 'one', [x['text']], LANE['subtitle'], x['t1'] - x['t0']), x['t0'])
                 stats['subtitle'] += 1
             # インサートのかたまり: ラベル付きの字幕が 6 秒以内で続く所
             blocks, cur = [], []
-            for x in [x for x in mine if x['label']]:
+            for x in [x for x in mine if not x['face']]:
                 if cur and x['t0'] - cur[-1]['t1'] > 6:
                     blocks.append(cur)
                     cur = []
@@ -439,7 +494,8 @@ def main():
                         b = min(b, bs)
                 if b - a < 2:
                     continue
-                lay(a, b, bl[0]['label'] if bl[0]['label'] in ('Design', 'Silhouette', 'Material', 'Detail') else 'Detail')
+                lay(a, b, bl[0]['label'] if bl[0]['label'] in ('Design', 'Silhouette', 'Material', 'Detail') else 'Detail',
+                    forced=[x['t0'] for x in bl] + [x['t1'] for x in bl])
                 laid.append((a, b))
                 # セクションラベル: 同じ語が続く間は 1 本（最長 30 秒）、かたまりの中だけ
                 k = 0
@@ -449,7 +505,7 @@ def main():
                         j += 1
                     la = max(a, bl[k]['t0']) if k else a
                     lb = min(b, bl[j + 1]['t0'] if j + 1 < len(bl) else b)
-                    if lb - la >= 1:
+                    if lb - la >= 1 and bl[k]['label']:
                         attach(title('section_label', 'any', [bl[k]['label']], LANE['section'], lb - la), la)
                         stats['section'] += 1
                     k = j + 1
@@ -473,6 +529,7 @@ def main():
                 attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                              LANE['center'], pd), tp)
                 stats['price'] += 1
+                price_after[pr['name']] = (tp + pd, t1, pr)
             continue
         if subs and w1 > w0:
             durs = [Fraction(max(4.0, min(10.0, len(x) / 3.6))).limit_denominator(100) for _, x in subs]
@@ -558,12 +615,18 @@ def main():
         t_end = near_cut(op['t1'], op['t1'] - 2, op['t1'] + 1) or snapf(op['t1'])
         k, vi = 0, 0
         step = max(1, len(looks) // 24)
+        # OP の字幕の頭・終わりでは必ず切り替える（A19: 字幕の頭で写真が切り替わる）
+        op_forced = sorted({x[k_] for x in SUBS for k_ in ('t0', 't1') if t < x['t0'] < t_end})
         while t < t_end - 2:
             d0 = Fraction(28, 10) if k % 2 == 0 else Fraction(24, 10)
             e = near_cut(t + d0, t + d0 - Fraction(8, 10), t + d0 + Fraction(8, 10)) or near_cut(t + d0, t + Fraction(16, 10), t + d0 + 2)
             d = (e - t) if e is not None else snapf(t + d0) - t
             if t_end - (t + d) < 2:
                 d = t_end - t  # 最後のカットは OP の終わりまで伸ばす（短い切れ端を作らない）
+            # 字幕の境目が次の 1 カット分（＋1 秒）の中にあれば、そこで切り替える
+            fpt = [f for f in op_forced if t + 1 <= f <= t + d + 1]
+            if fpt:
+                d = fpt[0] - t
             if k % 2 == 0 and looks:
                 a = looks[(k // 2 * step) % len(looks)]
                 b = looks[(k // 2 * step + 1) % len(looks)]
@@ -599,40 +662,65 @@ def main():
         attach(title('collection_center', 'any', ['shiun ', plan['collection'].replace('shiun ', '')], LANE['section'], dt), tt)
         stats['op'] += 1
 
-    # ---- ED: 一覧 ----
-    ed = next((s for s in sections if s['chapter'] == 'ED'), None)
-    cut = [p for p in plan['products'] if p.get('cutout') and p['cutout'] in assets]
-    if ed and cut:
+    # ---- ED: 一覧（A19 の型）----
+    # 1 ページ目: 服の切り抜きを 4 列（動画の順に左から。2 色の商品は 2 枚を少しずらして重ねる）。商品名は x 62.5 / 23.1 / -16.4 / -60.2、y -35.6、0.6 倍
+    # 2 ページ目: ベルト（SNS 用スナップ）を左、靴（EC 掲載サイズのスナップ）を右に 0.55 倍。商品名は x ±27.8、y -35.5
+    ed = next((s_ for s_ in sections if s_['chapter'] == 'ED'), None)
+    page1 = [p for p in plan['products'] if p.get('ed', {}).get('page') == 1 and all(c in assets for c in p['ed']['cutouts'])]
+    page2 = [p for p in plan['products'] if p.get('ed', {}).get('page') == 2]
+    if ed and page1:
         te = near_cut(ed['t0'] + 1, ed['t0'] + Fraction(1, 2), ed['t0'] + 3) or near_cut(ed['t0'] + 1, ed['t0'], ed['t0'] + 5) or snapf(ed['t0'] + 1)
         looks = folder(op['photos']) if op else []
-        # 一覧のページの長さ（3.4 秒・3.0 秒前後で、終わりを編集点に）を先に決める
-        page_d, tq = [], te
-        for d0 in (Fraction(34, 10), Fraction(30, 10)):
-            page_d.append(end_on_cut(tq, d0))
-            tq += page_d[-1]
-        # 色名が長いと 4 列では商品名が横で重なるので、5 商品以上は 3 列（3＋残り）にする
-        per = 3 if len(cut) >= 5 or any(len(f"Color : {p['color']} | Size : {p['sizes']}") > 34 for p in cut) else 4
-        pages = [cut[:per], cut[per:]]
-        dl = sum(page_d[:2 if pages[1] else 1])
+        d1 = end_on_cut(te, Fraction(344, 100))
+        d2 = end_on_cut(te + d1, Fraction(297, 100)) if page2 else 0
+        dl = d1 + d2
         if looks:
-            attach(still(looks[len(looks) // 2], dl, 2, '0 23.3333', '2.68 2.68', [blur_f]), te)
+            attach(still(looks[len(looks) // 2], dl, 2, '0 23.3333', '2.68 2.68', [blur_f, photo_grade_f]), te)
         attach(title('collection_label_center', 'any', [plan['collection'], plan['release_line']], LANE['center'], dl), te)
-        xs = {4: [62.5093, 23.0556, -16.3889, -60.1944], 3: [44.4444, 0, -44.4444], 2: [27.7778, -27.7778], 1: [0]}
-        tp = te
-        for page in pages:
-            if not page:
-                continue
-            d = page_d[0] if page is pages[0] else page_d[1]
-            for n, p in enumerate(reversed(page)):
-                x = xs[len(page)][n]
-                attach(still(assets[p['cutout']], d, LANE['ed_name'] + 2 + n, f'{x} 2', '0.42 0.42'), tp)
-                nm = title('ed_product_name', 'any', [p['name'], f"Color : {p['color']} | Size : {p['sizes']}", p.get('price', ''), ' - tax in'],
-                           LANE['ed_name'] + 6 + n, d, {'group_size': len(page), 'index': n})
-                # 画像の下端に合わせる（A18 と同じ y -24.9。列の x はページの商品数で決める）
-                set_transform(nm, f'{x} -24.8971', '0.6 0.6')
-                attach(nm, tp)
-            tp += d
+
+        def ed_name(p, d, lane, x, y):
+            nm = title('ed_product_name', 'any', [p['name'], f"Color : {p['color']} | Size : {p['sizes']}", p.get('price', ''), ' - tax in'], lane, d)
+            set_transform(nm, f'{x} {y}', '0.6 0.6')
+            return nm
+
+        name_x = [-60.1944, -16.3889, 23.0556, 62.5093]
+        lane = LANE['ed_name']
+        for n, p in enumerate(page1[:4]):
+            x = name_x[n]
+            cs = p['ed']['cutouts']
+            scs = p['ed'].get('scales', [0.72] * len(cs))
+            if len(cs) >= 2:
+                # 2 色: 右（後ろ・小さめ）と左（前・大きめ）。A19 の L/S TEE と同じずらし方（-3.9 / +5.0、縦 +3.8 / -2.1）
+                attach(still(assets[cs[0]], d1, lane, f'{x + 5.0:.4f} 1', f'{scs[0] * 0.94:.3f} {scs[0] * 0.94:.3f}'), te)
+                lane += 1
+                attach(still(assets[cs[1]], d1, lane, f'{x - 3.9:.4f} 6.8', f'{scs[1] * 1.06:.3f} {scs[1] * 1.06:.3f}'), te)
+                lane += 1
+            else:
+                el = still(assets[cs[0]], d1, lane, f'{x - 2:.4f} 3', f'{scs[0]:.3f} {scs[0]:.3f}')
+                if p['ed'].get('rotation'):
+                    el.find('adjust-transform').set('rotation', str(p['ed']['rotation']))
+                attach(el, te)
+                lane += 1
+            attach(ed_name(p, d1, lane, x, -35.5556), te)
+            lane += 1
+        stats['ed'] += 1
+        if page2:
+            t2 = te + d1
+            for p in page2:
+                x = -27.7778 if p['ed'].get('side') == 'left' else 27.7778
+                if p['ed'].get('snap') and p['ed']['snap'] in assets:
+                    img = assets[p['ed']['snap']]
+                elif p['ed'].get('snap_donor') and p.get('donor_assets'):
+                    img = (donor_assets(p['donor_assets'], p['ed']['snap_donor']) or [None])[0]
+                else:
+                    img = None
+                if img is not None:
+                    attach(still(img, d2, lane, f'{x} 0.462963', '0.55 0.55'), t2)
+                    lane += 1
+                attach(ed_name(p, d2, lane, x, -35.4815), t2)
+                lane += 1
             stats['ed'] += 1
+        tp = te + dl
         # 一覧の後: LOOK 写真＋中央の発売日（A18 の型、3.9 秒）→ 締めのトーク中は左上にコレクション名（A19 の型）
         t_rel = tp
         if SPEC and SPEC.get('release_at'):
@@ -679,6 +767,8 @@ def main():
         if end_ is None or a > end_:
             cuts.add(a)
         end_ = b if end_ is None else max(end_, b)
+    for a_, b_, _ in price_after.values():
+        cuts.add(a_)
     labels.sort(key=lambda x: x[0])
     groups = []
     for t0, du, e, ch in labels:
@@ -694,6 +784,11 @@ def main():
         pts = [g['t0']] + sorted(c for c in cuts if g['t0'] + 2 < c < g['t1'] - 2) + [g['t1']]
         for a, b in zip(pts, pts[1:]):
             x = copy.deepcopy(g['el'])
+            # 価格を話した後（価格の中央表示が終わってから区間の終わりまで）は、価格ありのラベル（P13。A19・A23 と同じ）
+            for nm, (pa_, pb_, pr_) in price_after.items():
+                if nm in g['key'] and pa_ <= a < pb_ and '| Size :' in g['key']:
+                    x = title('product_label', 'price', [pr_['name'], f"Color : {pr_['color']} | Size : {pr_['sizes']}",
+                                                         pr_['price'], ' - tax in'], 2, b - a)
             x.set('duration', S(Fraction(b - a).limit_denominator(60000)))
             n_copy += 1
             k = n_copy  # 書式 ID を複製ごとに一意にする
