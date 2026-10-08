@@ -60,9 +60,10 @@ def local_file(src):
 
 def vid_proxy(i):
     """EC 動画・LOOK 動画のプロキシ（--media の vid/<素材名>/proxy.mp4）。"""
-    if not MEDIA['vid'] or not i.get('src'):
+    src = i.get('src') or (i.get('asset') or {}).get('src')  # 手ブレ補正つきの clip は中の video の素材
+    if not MEDIA['vid'] or not src:
         return None
-    name = os.path.splitext(os.path.basename(i['src']))[0]
+    name = os.path.splitext(os.path.basename(src))[0]
     p = os.path.join(MEDIA['vid'], name, 'proxy.mp4')
     return p if os.path.exists(p) else None
 
@@ -314,15 +315,48 @@ def main():
     for r_ in res.values():
         if r_.tag == 'asset' and r_.find('media-rep') is not None:
             a_start[_ud.normalize('NFC', _up.unquote(r_.find('media-rep').get('src')))] = T(r_.get('start') or '0s')
+    # 手ブレ補正つきの clip（clip>video）: 素材の頭からの時刻と速度（timeMap）を XML から読む
+    clipinfo = {}
+    for e_ in seq.find('spine'):
+        if e_.get('offset') is None:
+            continue
+        for c_ in e_:
+            v_ = c_.find('video') if c_.tag == 'clip' else None
+            if v_ is None or c_.get('offset') is None:
+                continue
+            a_ = res.get(v_.get('ref'))
+            if a_ is None or a_.find('media-rep') is None:
+                continue
+            t0c = T(e_.get('offset')) + T(c_.get('offset')) - T(e_.get('start') or '0s')
+            A_ = T(a_.get('start') or '0s')
+            cs_ = T(c_.get('start') or '0s')
+            tm_ = c_.find('timeMap')
+            if tm_ is not None:
+                (ta, va), (tb, vb) = [(T(x.get('time')), T(x.get('value'))) for x in tm_.findall('timept')][:2]
+                sp_ = (vb - va) / (tb - ta)
+                med = va + (cs_ - ta) * sp_
+            else:
+                sp_ = Fraction(1)
+                med = T(v_.get('start') or '0s') + (cs_ - T(v_.get('offset') or '0s'))
+            src_ = _ud.normalize('NFC', _up.unquote(a_.find('media-rep').get('src')))
+            clipinfo[(c_.get('name'), round(float(t0c), 2))] = (src_, med - A_, sp_)
     evs = []
     for i in items:
+        if i['tag'] == 'clip' and not i.get('src'):
+            ci_ = clipinfo.get((i.get('name'), round(float(i['t0']), 2)))
+            if ci_:
+                i = dict(i, src=ci_[0], _clip=ci_)
         if i['tag'] in ('asset-clip', 'clip') and str(i['lane']).isdigit() and int(i['lane']) >= 3 and vid_proxy(i) \
                 and not (i.get('path') and i['path'][0] == 'Adjustment Layer'):  # 身長別比較のブロックの中の動画は土台側で合成済み
             t0_, t1_ = round(Fraction(i['t0']) / FD) * FD, round(Fraction(i['t1']) / FD) * FD
             if t1_ <= a0 or t0_ >= a1:
                 continue
+            if i.get('_clip'):
+                sp_ = i['_clip'][2]
+                evs.append((max(t0_, a0), min(t1_, a1), int(i['lane']), vid_proxy(i), i['_clip'][1] + (max(t0_, a0) - t0_) * sp_, sp_))
+                continue
             off_in = T(i.get('start_attr') or '0s') - a_start.get(i.get('src'), 0)
-            evs.append((max(t0_, a0), min(t1_, a1), int(i['lane']), vid_proxy(i), off_in + (max(t0_, a0) - t0_)))
+            evs.append((max(t0_, a0), min(t1_, a1), int(i['lane']), vid_proxy(i), off_in + (max(t0_, a0) - t0_), Fraction(1)))
     if evs:
         pts = sorted({a0, a1} | {x for e_ in evs for x in e_[:2]})
         parts = []
@@ -334,7 +368,8 @@ def main():
             if cov:
                 e_ = max(cov, key=lambda x: x[2])
                 p_ = os.path.join(tmp, f'ev{k:05d}.mp4')
-                ff(['-ss', f'{float(e_[4] + (s_ - e_[0])):.4f}', '-i', e_[3], '-frames:v', str(n_), '-vf', f'fps={fps}', '-an',
+                ff(['-ss', f'{float(e_[4] + (s_ - e_[0]) * e_[5]):.4f}', '-i', e_[3], '-frames:v', str(n_),
+                    '-vf', (f'setpts={float(1 / e_[5]):.4f}*PTS,' if e_[5] != 1 else '') + f'fps={fps}', '-an',
                     '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-g', '1', '-pix_fmt', 'yuv420p', p_])
                 parts.append(f"file '{p_}'\n")
             else:

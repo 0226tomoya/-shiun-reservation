@@ -314,9 +314,9 @@
   "pending": [
     "身長別比較: タッキー（170cm 54kg）の素材は後日共有。枠だけ置いて動画は空けてある"
   ],
-  "subject": "A24_subject.json",
+  "subject": "A24_subject_cut.json",
   "subtitles": "A24_subtitles.json",
-  "transcript": "A24_transcript.json",
+  "transcript": "A24_transcript_cut.json",
   "_ed_about": "ED の一覧（A19 の型）: 1 ページ目は服の切り抜きを 4 列（動画の順に左から。2 色は 2 枚重ね）、2 ページ目はベルト（SNS 用スナップ）を左・靴（EC 掲載サイズのスナップ）を右に 0.55 倍。切り抜きの割り当ては中身を目視で確認（01 ポロ / 02 ニット SAND TAUPE / 03 ニット CHARCOAL / 04 スラックス / 05 カーコート）",
   "insert_ledger": "A24_insert_ledger.json",
   "insert_motion": "A24_insert_motion.json",
@@ -643,5 +643,348 @@
     "blur_amount": 0.3
   },
   "eyecatch_photo": "26winter1st/LOOK写真/DSCF3370.JPG",
-  "_eyecatch_about": "アイキャッチの背景は A19 では A19 の LOOK 写真（下半分を 2.07 倍）。A24 は LOOK 写真 DSCF3370（黒スラックス＋ローファー、レンガとタイル）に差し替え"
+  "_eyecatch_about": "アイキャッチの背景は A19 では A19 の LOOK 写真（下半分を 2.07 倍）。A24 は LOOK 写真 DSCF3370（黒スラックス＋ローファー、レンガとタイル）に差し替え",
+  "edits": {
+    "_about": "ユーザーの「丸ごとカット」（修正 16・18・24・26）。v1（組み立て後・確認動画）の時刻。apply_cuts.py が粗編集から切り取る",
+    "cuts": [
+      [
+        45.01,
+        50.23
+      ],
+      [
+        58.41,
+        60.16
+      ],
+      [
+        128.26,
+        135.22
+      ],
+      [
+        156.04,
+        159.11
+      ]
+    ],
+    "v1_offsets": [
+      [
+        72.0,
+        16.43312
+      ]
+    ],
+    "_v1_offsets_about": "v1 はカウントダウン（14.5145 秒）と最初の商品のアイキャッチ（1.9186 秒）が 72 秒の後ろに入っているので、それより後ろは粗編集より 16.4331 秒長い"
+  },
+  "op_ref": [
+    0.4985,
+    0.1912,
+    0.3458
+  ],
+  "_op_ref_about": "修正 1: 冒頭の挨拶の画角は参考画像（plans/fix_refs/01_op_greeting.webp）が正解。姿勢推定で測った鼻 x 0.4985・y 0.1912、胴の長さ 0.3458（画面の高さに対して）",
+  "framing_overrides": [
+    {
+      "t0": 13.0,
+      "t1": 16.6,
+      "mode": "item",
+      "_note": "修正 3: 「今年の顔と言ってもいいようなカーコートですね」の間だけ商品紹介の画角"
+    },
+    {
+      "t0": 41.1,
+      "t1": 45.01,
+      "mode": "full",
+      "_note": "修正 15: 「もう 2026 年といったこのスタイリングですよね」は全身の画角"
+    }
+  ],
+  "no_eyecatch_after_countdown": true,
+  "fill_talk": false,
+  "overrides": {
+    "_note": "修正 1〜30（plans/A24_fixes_v23.md）。時刻はカット後（v24）の時刻",
+    "clear": [
+      {
+        "t0": 4.0,
+        "t1": 65.1,
+        "keep_at": [
+          4.14
+        ]
+      }
+    ],
+    "remove": [
+      {
+        "name": "emphasis:any",
+        "at": 87.17
+      },
+      {
+        "name": "product_label:plain",
+        "at": 87.17
+      },
+      {
+        "name": "01(",
+        "at": 104.5
+      },
+      {
+        "name": "02",
+        "at": 109.74
+      },
+      {
+        "name": "03",
+        "at": 115.97
+      },
+      {
+        "name": "subtitle:one",
+        "at": 189.64
+      },
+      {
+        "name": "15",
+        "at": 189.64
+      },
+      {
+        "name": "05",
+        "at": 194.46
+      }
+    ],
+    "move": [
+      {
+        "at": 81.41,
+        "lanes": [
+          3,
+          4,
+          5
+        ],
+        "t0": 101.71,
+        "t1": 104.5,
+        "swap": {
+          "3": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/14.jpg"
+        }
+      }
+    ],
+    "retime": [
+      {
+        "name": "collection_label:any",
+        "at": 79.61,
+        "t1": 101.71
+      }
+    ],
+    "videos": [
+      {
+        "t0": 4.14,
+        "t1": 6.14,
+        "src": "DSCF3646",
+        "in": 0.6,
+        "speed": 0.5,
+        "adj": false
+      },
+      {
+        "t0": 6.14,
+        "t1": 8.26,
+        "src": "DSCF4045",
+        "in": 7.2,
+        "speed": 0.5,
+        "adj": false
+      },
+      {
+        "t0": 8.26,
+        "t1": 9.46,
+        "src": "DSCF3923",
+        "in": 15.2,
+        "speed": 0.5,
+        "adj": false
+      },
+      {
+        "t0": 16.58,
+        "t1": 19.07,
+        "src": "E1_20260903_6431",
+        "in": 1.0,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 19.07,
+        "t1": 20.89,
+        "src": "E1_20260903_6446",
+        "in": 1.4,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 20.89,
+        "t1": 22.82,
+        "src": "E1_20260903_6443",
+        "in": 1.0,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 22.82,
+        "t1": 25.54,
+        "src": "E1_20260903_6447",
+        "in": 0.7,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 25.54,
+        "t1": 27.74,
+        "src": "E1_20260903_6487",
+        "in": 1.3,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 27.74,
+        "t1": 30.53,
+        "src": "E1_20260903_6458",
+        "in": 1.8,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 33.87,
+        "t1": 36.89,
+        "src": "E1_20260903_6463",
+        "in": 18.6,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 45.01,
+        "t1": 46.45,
+        "src": "DSCF4109",
+        "in": 1.4,
+        "speed": 0.6,
+        "adj": false
+      },
+      {
+        "t0": 46.45,
+        "t1": 48.78,
+        "src": "DSCF4105",
+        "in": 5.1,
+        "speed": 0.6,
+        "adj": false
+      },
+      {
+        "t0": 149.42,
+        "t1": 151.88,
+        "src": "E1_20260903_6465",
+        "in": 33.8,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 151.88,
+        "t1": 154.14,
+        "src": "E1_20260903_6459",
+        "in": 0.5,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 154.14,
+        "t1": 156.6,
+        "src": "E1_20260903_6455",
+        "in": 14.4,
+        "speed": 1,
+        "adj": true
+      },
+      {
+        "t0": 156.6,
+        "t1": 159.24,
+        "src": "E1_20260903_6456",
+        "in": 11.3,
+        "speed": 1,
+        "adj": true
+      }
+    ],
+    "pairs": [
+      {
+        "t0": 48.78,
+        "t1": 53.19,
+        "left": "DSCF3211",
+        "right": "DSCF3308"
+      },
+      {
+        "t0": 53.19,
+        "t1": 57.29,
+        "left": "DSCF3711",
+        "right": "DSCF3731"
+      },
+      {
+        "t0": 57.29,
+        "t1": 61.29,
+        "left": "DSCF3912",
+        "right": "DSCF3359"
+      },
+      {
+        "t0": 189.64,
+        "t1": 194.46,
+        "left": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/11.jpg",
+        "right": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/12.jpg"
+      }
+    ],
+    "stills": [
+      {
+        "t0": 133.21,
+        "t1": 137.45,
+        "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/15.jpg",
+        "like": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/15.jpg"
+      },
+      {
+        "t0": 137.45,
+        "t1": 139.07,
+        "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/05.jpg",
+        "like": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/05.jpg"
+      },
+      {
+        "t0": 194.46,
+        "t1": 197.9,
+        "path": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/10.jpg",
+        "like": "完パケ/SNS用高画質/6.COW LEATHER LOAFER/15.jpg"
+      }
+    ],
+    "screens": [
+      {
+        "t0": 104.5,
+        "t1": 111.85,
+        "path": "公式サイト/shiun-store_351.png",
+        "w": 750,
+        "h": 900,
+        "label": [
+          "GRAIN CHELSEA BOOTS",
+          "Color : BLACK | Size : 37, 39, 41, 43"
+        ]
+      },
+      {
+        "t0": 111.85,
+        "t1": 112.81,
+        "path": "公式サイト/shiun-store_367.png",
+        "w": 750,
+        "h": 900,
+        "label": [
+          "LEATHER SQUARE MULE",
+          "Color : BLACK | Size : 37, 39, 41, 43"
+        ]
+      },
+      {
+        "t0": 112.81,
+        "t1": 113.81,
+        "path": "公式サイト/shiun-store_296.png",
+        "w": 750,
+        "h": 900,
+        "label": [
+          "BLACK SUEDE MOCCASIN",
+          "Color : BLACK | Size : XXS, XS, S, M"
+        ]
+      },
+      {
+        "t0": 113.81,
+        "t1": 119.36,
+        "path": "公式サイト/shiun-store_336.png",
+        "w": 750,
+        "h": 900,
+        "label": [
+          "COW LEATHER U-TIP DERBY",
+          "Color : D.BROWN | Size : 37, 39, 41, 43"
+        ]
+      }
+    ],
+    "no_stroke": true,
+    "stabilize_all": true,
+    "merge_adjust": true
+  }
 }

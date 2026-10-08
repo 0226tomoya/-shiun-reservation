@@ -266,6 +266,66 @@ def main():
         adaptive = adaptive_framing(mcs, json.load(open(os.path.join(base, plan['subject']))),
                                     lambda e: preset_for(T(e.get('offset')), section_at(T(e.get('offset')))),
                                     lambda e: section_at(T(e.get('offset')))['chapter'])
+    # 画角の指定（ユーザーの修正）: OP は参考画像の構図（plan.op_ref: 鼻の x・y、胴の長さ）、
+    # framing_overrides の区間は item（商品紹介の画角 = 商品区間の中のプリセット）か full（全身 = 拡大なし）
+    def framing_mode(off, du, sec):
+        mid_ = float(off + du / 2)
+        for o in plan.get('framing_overrides', []):
+            if o['t0'] <= mid_ < o['t1']:
+                return o['mode']
+        if sec['chapter'] == 'OP' and plan.get('op_ref'):
+            return 'op'
+        return None
+
+    mode_framing = {}
+    if plan.get('subject'):
+        import statistics as _st
+        subj_ = json.load(open(os.path.join(base, plan['subject'])))
+        groups_, cur_, key_ = [], [], None
+        for e_, r_ in zip(mcs, subj_):
+            off_, du_ = T(e_.get('offset')), T(e_.get('duration'))
+            m_ = framing_mode(off_, du_, section_at(off_))
+            k_ = (m_, r_.get('src'))
+            if k_ != key_ and cur_:
+                groups_.append((key_, cur_))
+                cur_ = []
+            cur_.append((e_, r_))
+            key_ = k_
+        if cur_:
+            groups_.append((key_, cur_))
+        for (m_, src_), mem_ in groups_:
+            if not m_:
+                continue
+            if m_ == 'full':
+                for e_, _ in mem_:
+                    mode_framing[(m_, id(e_))] = ('0 0', '1 1')
+                continue
+            gs_ = []
+            for _, r_ in mem_:
+                L_ = r_.get('lm')
+                if L_ and min(L_['ls'][2], L_['rs'][2], L_['lh'][2], L_['rh'][2]) >= 0.5:
+                    tor_ = (L_['lh'][1] + L_['rh'][1]) / 2 - (L_['ls'][1] + L_['rs'][1]) / 2
+                    if 0.05 < tor_ < 1.5:
+                        gs_.append((L_['nose'][0], L_['nose'][1], tor_))
+            if not gs_:
+                continue
+            x_, y_, tor_ = (_st.median(v[i] for v in gs_) for i in range(3))
+            if m_ == 'op':
+                xt_, yt_, tt_ = plan['op_ref']
+            else:  # item: 商品区間の中の画角（プリセット mid の 1 つ目）を、A24 の引きの画に当てた仕上がり
+                p0_, s0_ = FRAMING['mid']
+                s0_ = float(s0_.split()[0])
+                px0_, py0_ = (float(v) for v in p0_.split())
+                xt_ = 0.5 + (REF[0] - 0.5) * s0_ + px0_ * 10.8 / 1920
+                yt_ = 0.5 + (REF[1] - 0.5) * s0_ - py0_ * 0.01
+                tt_ = REF[2] * s0_
+            s_ = max(1.0, tt_ / tor_)
+            px_ = (xt_ - 0.5 - (x_ - 0.5) * s_) / (10.8 / 1920)
+            py_ = (0.5 + (y_ - 0.5) * s_ - yt_) / 0.01
+            lx_, ly_ = (s_ - 1) / 2 * 1920 / 10.8, (s_ - 1) / 2 * 100
+            px_, py_ = max(-lx_, min(lx_, px_)), max(-ly_, min(ly_, py_))
+            for e_, _ in mem_:
+                mode_framing[(m_, id(e_))] = (f'{px_:.4f} {py_:.4f}', f'{s_:.4f} {s_:.4f}')
     log = {'adjustment': 0, 'product_label': 0, 'collection_label': 0}
     for e in items:
         if e.tag != 'mc-clip':
@@ -277,6 +337,9 @@ def main():
         g.set('offset', S(st))
         g.set('duration', S(du))
         p, sc = adaptive.get(id(e)) or preset_for(off, sec)
+        mode = framing_mode(off, du, sec)
+        if mode:
+            p, sc = mode_framing.get((mode, id(e))) or (p, sc)
         set_transform(g, p, sc)
         append_anchor(e, g)
         log['adjustment'] += 1
@@ -311,8 +374,11 @@ def main():
     # ---- 5. スパインへの挿入（アイキャッチ・カウントダウン・エンディング）----
     new_items = []
     inserts = []
+    first_prod_ = next((s for s in sections if 'product' in s), None)
     for s in sections:
         if ('product' in s or s['chapter'] == 'ED') and eyecatch_src is not None:
+            if plan.get('no_eyecatch_after_countdown') and s is first_prod_:
+                continue  # カウントダウンの後はそのまま本編（A19 と同じ。修正 20）
             inserts.append((s['t0'], 'eyecatch'))  # 各商品の頭と ED の頭（A19 と同じ）
     if plan.get('countdown') and countdown_src is not None:
         first_prod = next(s for s in sections if 'product' in s)

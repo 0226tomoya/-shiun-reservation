@@ -137,7 +137,10 @@ def cmd_templates(src, proj_name, out):
     nres = ET.SubElement(new_root, 'resources')
     used = set()
     for el in chosen.values():
-        used.add(el.get('ref'))
+        # テロップ本体のエフェクトと、中のフィルタ（フェードイン・アウトなど）のエフェクトも型ファイルに入れる
+        for x in el.iter():
+            if x.get('ref') and x.get('ref') in res and res[x.get('ref')].tag == 'effect':
+                used.add(x.get('ref'))
     fmt = project.find('sequence').get('format')
     used.add(fmt)
     for e in root.find('resources'):
@@ -209,6 +212,8 @@ def apply_template(tpl_el, actual_el, tpl_res, doc_res, doc_resources_el, r, ctx
         m = next((e for e in doc_res.values() if e.tag == tdef.tag and e.get('uid') and e.get('uid') == tdef.get('uid')), None)
         if m is None:
             nid = f'rsim{next(_uid)}'
+            while nid in doc_res:  # 前の工程（別のプロセス）で付けた番号と重ねない
+                nid = f'rsim{next(_uid)}'
             d = copy.deepcopy(tdef)
             d.set('id', nid)
             doc_resources_el.append(d)

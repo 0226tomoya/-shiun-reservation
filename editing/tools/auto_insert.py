@@ -392,7 +392,13 @@ def main():
                 return Fraction(str(x['words'][-1]['end'] if end else x['words'][0]['start']))
             return Fraction(str(x['end'] if end else x['start']))
         for x in SPEC['subs']:
-            st, en = seg_t(x['seg'][0]), seg_t(x['seg'][1], True)
+            # カットで消えた行（removed）にかかる字幕は付けない
+            ks = range(x['seg'][0], x['seg'][1] + 1)
+            if all(tr[k - 1].get('removed') for k in ks):
+                continue
+            k0 = next(k for k in ks if not tr[k - 1].get('removed'))
+            k1 = next(k for k in reversed(ks) if not tr[k - 1].get('removed'))
+            st, en = seg_t(k0), seg_t(k1, True)
             # 頭は 0.25 秒以内に編集点があればそこへ、終わりは言い終わりの少し後の編集点へ（なければフレームに揃える）
             a = near_cut(st, st - Fraction(1, 4), st + Fraction(1, 4)) or snapf(st)
             b = near_cut(en + Fraction(1, 5), en, en + Fraction(6, 10)) or snapf(en + Fraction(15, 100))
@@ -550,7 +556,7 @@ def main():
         def fill_talk(g0, g1):
             """トークだけが続く所に、字幕なしのインサート（約 14 秒）を「トーク約 15 秒 ↔ インサート」の間隔で入れる。
             前後は 8 秒以上トークを見せる（A19 はトークの間が中央値 15.5 秒、インサートのかたまりが中央値 16.4 秒）。"""
-            if g1 - g0 < 20 or not ec:
+            if g1 - g0 < 20 or not ec or plan.get('fill_talk') is False:
                 return
             n = max(1, round((g1 - g0 - 15) / 29))
             while n > 1 and (g1 - g0 - 15 * (n + 1)) / n < 8:
