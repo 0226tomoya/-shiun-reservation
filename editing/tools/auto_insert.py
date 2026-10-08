@@ -280,17 +280,15 @@ def main():
             block = None
 
             def fill_gap(g0, glen, k):
-                """トークだけが続く空き（14 秒以上）に、25 秒ごとに Silhouette / Detail ブロックを入れる。"""
+                """トークだけが続く空き（14 秒以上）に、20 秒ごとに写真・動画のブロックを入れる。
+                字幕のない B-roll にはラベルを付けない（A19 もラベルは字幕のある話題の頭だけ。全体で 23 本）。"""
                 if glen < 14 or not ec:
                     return
-                nb = max(1, int(glen // 25))
+                nb = max(1, int(glen // 20))
                 seg = glen / nb
                 for bi in range(nb):
                     gs = g0 + bi * seg + max(2.0, (seg - 10) / 2)
                     gl = min(10.0, seg - 4)
-                    lbl = title('section_label', 'any', ['Silhouette' if bi % 2 == 0 else 'Detail'], LANE['section'], Fraction(gl).limit_denominator(1000))
-                    attach(lbl, gs)
-                    stats['section'] += 1
                     for j in range(2):
                         src_list = videos if (videos and j == 1) else ec
                         # 掲載用の 01 は紹介インと価格表示で使うので、ここでは 02 以降から選ぶ
@@ -333,11 +331,17 @@ def main():
                     stats['broll'] += 1
                 # セクションラベル: B-roll の上にだけ出す（字幕 1 本ぶんの B-roll ブロックごと。A19 の型）
                 # 語は字幕の内容で決める（素材の話は Material、丈・身幅は Silhouette、ボタン・衿などは Detail）
-                lbl = title('section_label', 'any', [label_for(text, sec)], LANE['section'], Fraction(d).limit_denominator(1000))
-                attach(lbl, t)
-                stats['section'] += 1
-                block = [sec, t, lbl, t + d]
-                block[3] = t + d
+                # 同じ語が 1.5 秒以内に続くときは 1 本につなぐ（最長 30 秒。A19 は中央値 11 秒・最長 30 秒）
+                word = label_for(text, sec)
+                if block and block[0] == word and t - block[3] <= 1.5 and t + d - block[1] <= 30:
+                    block[3] = t + d
+                else:
+                    if block:
+                        block[2].set('duration', S(Fraction(block[3] - block[1]).limit_denominator(1000)))
+                    lbl = title('section_label', 'any', [word], LANE['section'], Fraction(d).limit_denominator(1000))
+                    attach(lbl, t)
+                    stats['section'] += 1
+                    block = [word, t, lbl, t + d]
                 gap = gaps_after[k]
                 t += d + gap
                 # 字幕と字幕の間が 14 秒以上空くときは、掲載用の写真で Silhouette ブロックを入れる
@@ -360,14 +364,11 @@ def main():
                 step = (span1 - span0) / blocks
                 for b in range(blocks):
                     tb = span0 + b * step + max(0, step - 10) / 2
-                    lbl = title('section_label', 'any', ['Silhouette' if b % 2 == 0 else 'Detail'], LANE['section'], Fraction(10))
-                    attach(lbl, tb)
                     for j in range(2):
                         src_list = ec if b % 2 == 0 else photos
                         attach(still(src_list[(2 * b + j) % len(src_list)], Fraction(5), LANE['photo_bg'],
                                      '0 0', '1.05 1.05' if b % 2 == 0 else '3.2 3.2', [zoom_f] if b % 2 else []), tb + 5 * j)
                         stats['broll'] += 1
-                    stats['section'] += 1
         # 4) 価格ありの中央商品名（区間の最後）
         if pr.get('price') and ec:
             # 価格は台本どおり素材の説明の直後（最後の字幕の 1 秒後）。A19 も価格に触れた時点で出している
