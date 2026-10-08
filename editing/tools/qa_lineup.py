@@ -3,6 +3,7 @@
     python3 qa_lineup.py FLAT.json
 
 チェック:
+  - 流用した部品（アイキャッチ等）の中も含め、コレクション名・発売日の表記が 1 種類か
   - 同じレーンで重なっている接続クリップ（FCP が勝手にレーンをずらし、見え方が変わる）
   - 同じ写真・動画の使い回し（1 区間で 3 回以上）
   - 字幕の読む速さ（1 秒あたり 6 文字を超える）、字幕同士の重なり
@@ -23,6 +24,13 @@ from roles import role, text  # noqa: E402
 def main():
     it = [i for i in json.load(open(sys.argv[1])) if i['enabled'] != '0' and len(i['path']) <= 1]
     issues = []
+    # 0) 流用した部品の中も含め、コレクション名・発売日の表記が 1 種類か（別の回の文字が残っていないか）
+    import re
+    allt = [i for i in json.load(open(sys.argv[1])) if i['enabled'] != '0' and i['tag'] == 'title']
+    cols = collections.Counter(m.group(0) for i in allt for m in [re.search(r'shiun\s+\S+.*?Collection', ' '.join(text(i).split()))] if m)
+    rels = collections.Counter(m.group(0) for i in allt for m in [re.search(r'\w+ \d+(st|nd|rd|th) \w+\.? \d+(am|pm) - Release', text(i))] if m)
+    if len(cols) > 1 or len(rels) > 1:
+        issues.append((3, f'コレクション名・発売日の表記が複数ある（別の回の文字が残っている可能性）: {dict(cols)} {dict(rels)}'))
     # 1) 同じレーンの重なり
     by_lane = collections.defaultdict(list)
     for i in it:

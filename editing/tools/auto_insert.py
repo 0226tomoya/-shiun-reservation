@@ -800,6 +800,26 @@ def main():
             attach(x, a)
     stats['labels'] = f'{n_before}→{n_copy}'
 
+    # ---- 流用した部品（アイキャッチなどの複合クリップ）の中の文字を A24 のものに ----
+    # A19 のアイキャッチの中には A19 のコレクション名と発売日のテロップが入っている（そのままだと別の回の情報が出る）
+    import re as _re
+    fixed = 0
+    for m in resources:
+        if m.tag != 'media' or not (m.get('id') or '').startswith(('a19_', 'd1_', 'd2_')):
+            continue
+        for ts in m.iter('text-style'):
+            t_ = ts.text or ''
+            if _re.search(r'shiun\s.*Collection', t_):
+                ts.text = _re.sub(r'shiun\s.*Collection', plan['collection'], t_)
+                fixed += 1
+            elif _re.search(r'\w+ \d+(st|nd|rd|th) \w+\.? \d+(am|pm) - Release', t_):
+                ts.text = _re.sub(r'\w+ \d+(st|nd|rd|th) \w+\.? \d+(am|pm) - Release', plan['release_line'], t_)
+                fixed += 1
+        for t_el in m.iter('title'):
+            if _re.search(r'shiun\s.*Collection', t_el.get('name') or ''):
+                t_el.set('name', _re.sub(r'shiun\s.*Collection', plan['collection'], t_el.get('name')))
+    stats['donor_text_fixed'] = fixed
+
     with open(out, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')
         f.write(ET.tostring(root, encoding='utf-8'))
