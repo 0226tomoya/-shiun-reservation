@@ -16,6 +16,7 @@ plan.overrides（時刻はすべてこの工程に入る編集データの時刻
   pairs:   [{t0, t1, left, right}]       写真の左右 2 分割（修正 7: 左の画像を上のレイヤーにして、画面の中央でクロップ）
   screens: [{t0, t1, path, w, h, label: [行1, 行2]}]
            公式サイトのスクリーンショット（A19 21:25 の型: 左に置く）と左下の商品名ラベル（product_label_bottom）
+  rename_map: FILE.json                 素材の名前の変更（{旧パス: 新パス}、plan.asset_root の下の相対パスの末尾で照合）
   no_stroke: true                       すべてのテロップの縁取り（strokeColor・strokeWidth）と影を外す（修正 30）
   stabilize_all: true                   残っている EC・LOOK 動画（asset-clip）も手ブレ補正つきの clip に包む
   merge_adjust: true                    本編の調整レイヤー（lane 1）を A19 の切り方にまとめる
@@ -315,6 +316,33 @@ def main():
             ET.SubElement(tx, 'text-style').text = ln_ + ('\n' if k < len(lines) - 1 else '')
         attach(apply_template(tpl.get('product_label_bottom', 'any'), fake, tpl.res, doc_res, resources, 'product_label_bottom', {}), t0)
         bump('公式サイトの画面')
+
+    # ---- 5b) 素材の名前の変更（ユーザーがファイル名を変えた分。中身は同じ＝サイズで対応を確認済み）----
+    if ov.get('rename_map'):
+        rmap = json.load(open(os.path.join(base, ov['rename_map']), encoding='utf-8'))
+        rmap = {unicodedata.normalize('NFC', k): unicodedata.normalize('NFC', v) for k, v in rmap.items()}
+        renamed = {}
+        for a in resources:
+            m = a.find('media-rep') if a.tag == 'asset' else None
+            if m is None:
+                continue
+            src_ = unicodedata.normalize('NFC', urllib.parse.unquote(m.get('src')))
+            hit = next((k for k in rmap if src_.endswith('/' + k)), None)
+            if hit is None:
+                continue
+            nsrc = src_[:-len(hit)] + rmap[hit]
+            m.set('src', urllib.parse.quote(unicodedata.normalize('NFD', nsrc), safe='/:'))
+            bm = m.find('bookmark')
+            if bm is not None:
+                m.remove(bm)  # 古いファイルを指すブックマークは外す（FCP がパスで探し直す）
+            old_name = a.get('name')
+            a.set('name', rmap[hit].rsplit('/', 1)[1].rsplit('.', 1)[0])
+            renamed[a.get('id')] = (old_name, a.get('name'))
+            bump('名前を変えた素材')
+        for e in root.iter():
+            if e.get('ref') in renamed and e.get('name') == renamed[e.get('ref')][0]:
+                e.set('name', renamed[e.get('ref')][1])
+                bump('名前を変えたクリップ')
 
     # ---- 6) テロップの縁取り・影を外す（修正 30）----
     if ov.get('no_stroke'):
