@@ -113,8 +113,23 @@ def main():
 
     cuts = sorted((to_rough(a), to_rough(b)) for a, b in ed['cuts'])
     items = list(spine)
+    # 素材の時刻で指定したカット（タイムラインの時刻のずれに影響されない）: 粗編集でその素材を含むカットを探して粗編集の時刻に直す
+    for sa, sb in ed.get('src_cuts', []):
+        sa, sb = Fraction(str(sa)), Fraction(str(sb))
+        hit = [e for e in items if e.tag == 'mc-clip' and T(e.get('start')) <= sa < T(e.get('start')) + T(e.get('duration'))]
+        if len(hit) != 1:
+            raise SystemExit(f'素材の時刻 {float(sa)} を含むカットが {len(hit)} 本（1 本でないと決められない）')
+        e = hit[0]
+        o, st, du = T(e.get('offset')), T(e.get('start')), T(e.get('duration'))
+        ra = o + (sa - st)
+        rb = o + (min(sb, st + du) - st)
+        cuts.append((round(ra / fd) * fd, round(rb / fd) * fd))
+    cuts.sort()
     if mic:
         cuts = [fit_to_voice(a, b, items, mic, fd) for a, b in cuts]
+    for a, b in cuts:
+        if b <= a:
+            raise SystemExit(f'カットの頭と終わりが逆: {float(a):.3f} → {float(b):.3f}（指定の時刻を確かめる）')
     mc_index = []  # spine の各要素が subject の何番目か（mc-clip だけ）
     k = 0
     for e in items:
