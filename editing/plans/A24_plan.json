@@ -670,7 +670,8 @@
         16.43312
       ]
     ],
-    "_v1_offsets_about": "v1 はカウントダウン（14.5145 秒）と最初の商品のアイキャッチ（1.9186 秒）が 72 秒の後ろに入っているので、それより後ろは粗編集より 16.4331 秒長い"
+    "_v1_offsets_about": "v1 はカウントダウン（14.5145 秒）と最初の商品のアイキャッチ（1.9186 秒）が 72 秒の後ろに入っているので、それより後ろは粗編集より 16.4331 秒長い",
+    "_cuts_audio_about": "カットの端は apply_cuts.py --mic で音声に合わせて決める（前の終わり＝言い終わり＋0.10 秒、次の頭＝言い始めの 0.08 秒前。粗編集のカットの頭はそのまま）"
   },
   "op_ref": [
     0.4985,
@@ -986,6 +987,8 @@
     "no_stroke": true,
     "stabilize_all": true,
     "merge_adjust": true,
-    "rename_map": "A24_sns_rename.json"
+    "rename_map": "A24_sns_rename.json",
+    "base_v1": "A24_overrides_base_v1.fcpxml",
+    "snap_subtitles": true
   }
 }

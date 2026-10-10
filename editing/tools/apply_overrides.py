@@ -37,6 +37,7 @@ from build_lineup import Templates, apply_template  # noqa: E402
 from fcpxml_util import append_anchor  # noqa: E402
 
 FD = Fraction(1001, 60000)
+TOL = Fraction(1, 5)  # 時刻で要素を選ぶときの許容（秒）
 VIDEO_TAGS = ('video', 'asset-clip', 'clip', 'ref-clip', 'mc-clip', 'sync-clip')
 RATE = {'1001/60000s': '59.94', '1001/30000s': '29.97', '1000/24000s': '24', '1001/24000s': '23.98', '100/2500s': '25'}
 
@@ -113,6 +114,41 @@ def main():
     SP = spans()
     CUTS = sorted({o for o, _, _, _ in SP} | {o + d for o, d, _, _ in SP})
 
+    # ---- 修正を書いたときのタイムライン（base_v1）の時刻 → 今のタイムラインの時刻 ----
+    # 前の工程（カットの端の直しなど）で時刻がずれても、同じ素材の同じ瞬間に当たるように、素材の時刻を通して写す
+    if ov.get('base_v1'):
+        broot = ET.parse(os.path.join(base, ov['base_v1'])).getroot()
+        bp = [p for p in broot.iter('project') if p.get('name') == '本編'][0]
+        BSP = [(T(e.get('offset')), T(e.get('duration')), T(e.get('start')), e.get('ref') or e.get('name')) for e in bp.find('sequence/spine')]
+        CUR = [(o, d, st, e.get('ref') or e.get('name')) for o, d, st, e in SP]
+
+        def remap(t):
+            t = F(t)
+            for o, d, st, ref in BSP:
+                if o <= t < o + d or (t == o + d and (o, d) == BSP[-1][:2]):
+                    src_ = st + (t - o)
+                    cand = [(co + (src_ - cs)) for co, cd, cs, cr in CUR if cr == ref and cs - FD <= src_ <= cs + cd + FD]
+                    if cand:
+                        return min(cand, key=lambda x: abs(x - t))
+                    # その瞬間が切られて無くなった: 一番近い残っている所（同じ素材の前後）へ
+                    near = [(min(abs(src_ - cs), abs(src_ - cs - cd)), co + (min(max(src_, cs), cs + cd) - cs)) for co, cd, cs, cr in CUR if cr == ref]
+                    return min(near)[1] if near else t
+            return t
+
+        def walk(o_):
+            if isinstance(o_, dict):
+                for k_, v_ in o_.items():
+                    if k_ in ('t0', 't1', 'at') and isinstance(v_, (int, float)):
+                        o_[k_] = float(remap(v_))
+                    elif k_ == 'keep_at':
+                        o_[k_] = [float(remap(x)) for x in v_]
+                    else:
+                        walk(v_)
+            elif isinstance(o_, list):
+                for x in o_:
+                    walk(x)
+        walk(ov)
+
     def snap(t, win=Fraction(3, 10)):
         t = F(t)
         c = min(CUTS, key=lambda c: abs(c - t))
@@ -154,10 +190,12 @@ def main():
 
     def find(name, at):
         at = F(at)
-        hit = [(p, c, a) for p, c, a in children() if (c.get('name') or '').startswith(name) and abs(a - at) <= Fraction(1, 20)]
+        # 前の工程の小さな時刻のずれ（編集点の直しなど）を吸収: ±0.2 秒以内で一番近いもの
+        hit = [(p, c, a) for p, c, a in children() if (c.get('name') or '').startswith(name) and abs(a - at) <= TOL]
         if not hit:
-            raise SystemExit(f'見つからない: {name} @ {at}')
-        return hit
+            raise SystemExit(f'見つからない: {name} @ {float(at):.2f}')
+        best = min(abs(a - at) for p, c, a in hit)
+        return [h for h in hit if abs(h[2] - at) - best < Fraction(1, 100)]
 
     # ---- 型（調整レイヤー・EC のフィルタ）----
     tpl = Templates(os.path.join(base, plan['templates']))
@@ -179,7 +217,7 @@ def main():
         for p, c, a in children():
             if not (t0 <= a < t1):
                 continue
-            if c.tag in VIDEO_TAGS and lane(c) >= 3 or is_adj(c) and lane(c) >= 4 and not any(abs(a - k) < Fraction(1, 20) for k in keep):
+            if c.tag in VIDEO_TAGS and lane(c) >= 3 or is_adj(c) and lane(c) >= 4 and not any(abs(a - k) < TOL for k in keep):
                 detach(p, c)
                 bump('外した差し込み')
 
@@ -187,7 +225,7 @@ def main():
     saved = {}
     for i, mv in enumerate(ov.get('move', [])):
         at = F(mv['at'])
-        saved[i] = [(p, c, a) for p, c, a in children() if abs(a - at) < Fraction(1, 20) and str(lane(c)) in map(str, mv['lanes'])]
+        saved[i] = [(p, c, a) for p, c, a in children() if abs(a - at) < TOL and str(lane(c)) in map(str, mv['lanes'])]
     like_el = {}
     for st_ in ov.get('stills', []):
         k = st_.get('like')
@@ -385,6 +423,30 @@ def main():
             p.remove(c)
             p.insert(idx, cl)
             bump('手ブレ補正を付けた動画')
+
+    # ---- 7b) 字幕の頭と終わりを本編の編集点に合わせる（A19・A23 は 100%）----
+    if ov.get('snap_subtitles'):
+        SP2 = spans()
+        cuts2 = sorted({o for o, _, _, e in SP2} | {o + d for o, d, _, e in SP2})
+        subs = sorted([(a, p, c) for p, c, a in children() if (c.get('name') or '').startswith('subtitle')], key=lambda x: x[0])
+        prev_end = Fraction(0)
+        for k, (a, p, c) in enumerate(subs):
+            b_ = a + T(c.get('duration'))
+            nxt = subs[k + 1][0] if k + 1 < len(subs) else Fraction(10 ** 6)
+            if a not in cuts2:
+                cand = [x for x in cuts2 if abs(x - a) <= Fraction(12, 10) and x >= prev_end]
+                if cand:
+                    a = min(cand, key=lambda x: (x > a, abs(x - a)))   # 前の編集点を優先（言い始めより少し前から出す）
+            if b_ not in cuts2:
+                cand = [x for x in cuts2 if abs(x - b_) <= Fraction(15, 10) and x <= nxt and x - a >= 1]
+                if cand:
+                    b_ = min(cand, key=lambda x: (x < b_, abs(x - b_)))  # 後ろの編集点を優先（言い終わりまで残す）
+            if (a, b_) != (subs[k][0], subs[k][0] + T(c.get('duration'))):
+                p.remove(c)
+                c.set('duration', S(b_ - a))
+                attach(c, a)
+                bump('編集点に合わせた字幕')
+            prev_end = b_
 
     # ---- 8) 本編の調整レイヤー（lane 1）をまとめる ----
     if ov.get('merge_adjust'):

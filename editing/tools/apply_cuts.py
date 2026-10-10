@@ -28,8 +28,70 @@ def S(f):
     return f'{f.numerator}/{f.denominator}s' if f.denominator != 1 else f'{f.numerator}s'
 
 
+def voice_map(mic):
+    import subprocess
+    import numpy as np
+    sr, hop = 16000, 160
+    raw = subprocess.run(['ffmpeg', '-loglevel', 'error', '-i', mic, '-ac', '1', '-ar', str(sr), '-f', 's16le', '-'], capture_output=True).stdout
+    a = np.frombuffer(raw, dtype=np.int16).astype(np.float32) / 32768
+    n = len(a) // hop
+    db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, -1) ** 2).mean(1)) + 1e-9)
+    return db > np.percentile(db, 10) + 14
+
+
+_VM = {}
+
+
+def fit_to_voice(a, b, items, mic, fd):
+    """カットの端を声に合わせる（粗編集の切り方: 前の終わりは言い終わりの約 0.1 秒後、次の頭は言い始めの少し前）。
+    a, b は粗編集の時刻。マルチカムの start はピンマイク音声の時刻と同じ。"""
+    if mic not in _VM:
+        _VM[mic] = voice_map(mic)
+    vm = _VM[mic]
+    H = Fraction(1, 100)
+
+    def voiced(t):
+        i = int(t / H)
+        return 0 <= i < len(vm) and bool(vm[i])
+
+    def src(t):
+        for e in items:
+            off, du = T(e.get('offset')), T(e.get('duration'))
+            if e.tag == 'mc-clip' and off <= t < off + du:
+                return e, T(e.get('start')) + (t - off), off
+        return None, None, None
+    # 前の終わり: そこから前に戻って、6 回（60ms）以上続く無音の直前の声の終わりを探す
+    e, sa, off = src(a - fd)
+    if e is not None:
+        sa = sa + fd
+        k = sa
+        while k > sa - 2 and voiced(k - H):  # 次の発言の頭が入っていたら、その頭まで戻す
+            k -= H
+        while k > sa - 2 and not voiced(k - H):
+            k -= H
+        end_voice = k
+        if end_voice > T(e.get('start')):
+            na = a - (sa - min(sa, end_voice + Fraction(1, 10)))
+            a = round(na / fd) * fd
+        else:
+            # 言い終わりがこのカットより前（前のカットの中）: このカットの頭から切る（前のカットの終わりは粗編集のまま）
+            a = off
+    # 次の頭: 粗編集のカットの頭ちょうどならそのまま、そうでなければ言い始めの 0.08 秒前
+    e, sb, off = src(b)
+    if e is not None and abs(b - off) > fd:
+        k = sb
+        while k < sb + 2 and not voiced(k):
+            k += H
+        while k > sb - Fraction(1, 2) and voiced(k - H):
+            k -= H
+        nb = b + (k - Fraction(8, 100) - sb)
+        b = max(round(nb / fd) * fd, off)
+    return a, b
+
+
 def main():
     rough, plan_path, out, subj_in, subj_out = sys.argv[1:6]
+    mic = sys.argv[sys.argv.index('--mic') + 1] if '--mic' in sys.argv else None
     plan = json.load(open(plan_path, encoding='utf-8'))
     ed = plan['edits']
     tree = ET.parse(rough)
@@ -51,6 +113,8 @@ def main():
 
     cuts = sorted((to_rough(a), to_rough(b)) for a, b in ed['cuts'])
     items = list(spine)
+    if mic:
+        cuts = [fit_to_voice(a, b, items, mic, fd) for a, b in cuts]
     mc_index = []  # spine の各要素が subject の何番目か（mc-clip だけ）
     k = 0
     for e in items:
