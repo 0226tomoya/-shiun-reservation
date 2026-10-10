@@ -14,5 +14,6 @@ python3 -I tools/apply_overrides.py "$W/b_b.fcpxml" plans/A24_plan.json "$W/b_c.
 python3 -I tools/validate_fcpxml.py "$W/b_c.fcpxml" | tail -1
 python3 -I tools/audit_cuts.py "$W/b_c.fcpxml" "$MIC" "$W/b_cuts.json"
 python3 -I tools/audit_inserts.py "$W/b_c.fcpxml" plans/A24_transcript_cut.json --v1 output/A24_v1.fcpxml
+python3 -I tools/audit_telop_text.py "$W/b_c.fcpxml" || { echo "テロップの文字に問題あり（ローマ字の打ち残しなど）"; exit 1; }
 python3 -I tools/qa_timing.py "$W/b_c.fcpxml" 本編 | sed -n 2,8p
 cp "$W/b_c.fcpxml" output/A24_latest.fcpxml

@@ -67,3 +67,5 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 映りのいいものを選ぶ。枚数は自由だが、同じ画角は 3 枚以内（ピントの鋭いものを、グループの前・中・後から 1 枚ずつ）
 - ブレ・人やスタッフの写り込み・床やスタンドの見切れは外す
 - 色味は SNS 用高画質の完成画像（例: ローファー 02）に合わせる。合わないものは寄せる（tools/snap_grade.py: 背景の明るさと色の偏りを参考に、黒を締める）
+
+30. 書き出し・XML を渡す前に `shiun-export-check` を通す。Slack #わむう_sns 1 年分（2025-10〜2026-10）の修正・ほめ言葉は `editing/knowledge/編集ルール集_わむうsns_1年分.md` にまとめた（原文は `editing/knowledge/slack_wamu_sns/`）。新しい修正が来たら同じ形で追記する。
