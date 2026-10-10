@@ -107,9 +107,10 @@ def main():
     db, outp = sys.argv[1:3]
     c = sqlite3.connect(db)
     typ = {pk: (t, ident) for pk, t, ident in c.execute('select Z_PK, ZTYPE, ZIDENTIFIER from ZCOLLECTION')}
-    parent = {}
+    parent, parents = {}, {}
     for par, ch in c.execute('select Z_3PARENTCOLLECTIONS, Z_3CHILDCOLLECTIONS from Z_3CHILDCOLLECTIONS'):
         parent.setdefault(ch, par)
+        parents.setdefault(ch, []).append(par)
     md_cache = {}
 
     def md(pk):
@@ -137,6 +138,41 @@ def main():
             g = up(pk, ('FFAnchoredGeneratorComponent',))
             if g:
                 xform[g] = {k: v for k, v in md(pk).items() if not isinstance(v, (bytes, dict, list))}
+    # タイムライン上の時刻: スパインの要素は 頭からの累計、つないだ要素は anchorPair（自分の時刻, 親の時刻）でたどる
+    name = {pk: n for pk, n in c.execute('select Z_PK, ZNAME from ZCOLLECTION')}
+    kids = {}
+    for par, ch in c.execute('select Z_3PARENTCOLLECTIONS, Z_3CHILDCOLLECTIONS from Z_3CHILDCOLLECTIONS'):
+        kids.setdefault(par, []).append(ch)
+    by_ident = {v[1]: k for k, v in typ.items() if v[1]}
+    spine = {}
+    proj = [k for k, v in typ.items() if v[0] == 'FFAnchoredCollection' and md(k).get('isProject') in (True, 'True')]
+    if proj:
+        ci = [k for k in kids.get(proj[0], []) if name[k] == 'containedItems']
+        t = 0.0
+        for ident in (md(ci[0]).get('$order') or []) if ci else []:
+            k = by_ident.get(ident)
+            cr = pair(md(k).get('clippedRange')) if k else []
+            if len(cr) < 2:
+                continue
+            spine[k] = (t, cr[0])
+            t += cr[1]
+
+    def tl(k, local, depth=0):
+        if k in spine:
+            o, s0 = spine[k]
+            return o + local - s0
+        # 1 つの要素が複数の集合に入ることがある（persistedAnchoredObject など）。つないだ先は anchoredItems
+        ps = [q for q in parents.get(k, []) if name.get(q) == 'anchoredItems']
+        if depth > 8 or not ps:
+            return None
+        p = ps[0]
+        a = pair(md(k).get('anchorPair'))
+        h = parent.get(p)
+        if len(a) < 2 or h is None:
+            return None
+        th = tl(h, a[1], depth + 1)  # anchorPair = {(自分の時刻),(親の時刻)}
+        return None if th is None else th + local - a[0]
+
     res = []
     for pk, (t, _) in typ.items():
         if t != 'FFMotionEffectValue':
@@ -163,6 +199,7 @@ def main():
                 'lane': gm.get('anchoredLane'),
                 'anchor': pair(gm.get('anchorPair')),
                 'dur': cr[1] if len(cr) > 1 else None,
+                'start': (lambda v: round(v, 4) if v is not None else None)(tl(gen, cr[0]) if gen and cr else None),
                 'key': m.get('key'),
                 'xform': xform.get(gen),
             })
