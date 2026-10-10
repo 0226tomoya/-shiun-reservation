@@ -29085,7 +29085,7 @@
                                 </filter-video>
                             </title>
                             <title ref="rsim1" lane="7" offset="115958843/30000s" name="subtitle:one" start="216173958/60000s" duration="1232231/60000s">
-                <param name="位置" key="9999/999166631/999166633/1/100/101" value="1 -483.734" />
+                <param name="位置" key="9999/999166631/999166633/1/100/101" value="1 -440.734" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
@@ -34644,7 +34644,8 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
                 <text>
-                  <text-style ref="sim40_ts66">肩の位置が落ちていない、まっすぐストンと落ちる袖。袖を5mmほど長めにして縦のシルエットを強</text-style><text-style ref="sim40_ts67">調</text-style></text>
+                  <text-style ref="sim40_ts66">肩の位置が落ちていない、まっすぐストンと落ちる袖。</text-style><text-style ref="sim40_ts67">
+</text-style><text-style ref="sim40_ts66">袖を5mmほど長めにして縦のシルエットを強</text-style><text-style ref="sim40_ts67">調</text-style></text>
                 <text-style-def id="sim40_ts66">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" kerning="1.6" alignment="center" lineSpacing="-5">
                     <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">

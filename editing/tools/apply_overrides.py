@@ -19,6 +19,8 @@ plan.overrides（時刻はすべてこの工程に入る編集データの時刻
   rename_map: FILE.json                 素材の名前の変更（{旧パス: 新パス}、plan.asset_root の下の相対パスの末尾で照合）
   no_stroke: true                       すべてのテロップの縁取り（strokeColor・strokeWidth）と影を外す（修正 30）
   stabilize_all: true                   残っている EC・LOOK 動画（asset-clip）も手ブレ補正つきの clip に包む
+  subtitle_layout: true                 字幕の行の決まり（過去のラインナップ 5 本の完成データ）: 1 行は全角 45 文字まで、
+                                        超える字幕は真ん中に近い読点（なければ句点・真ん中）で 2 行に。2 行の字幕は位置 y を -440 に上げる
   merge_adjust: true                    本編の調整レイヤー（lane 1）を A19 の切り方にまとめる
                                         （中身が同じで続いているものは 1 本に。差し込み・字幕・ラベルの切り替わりでは切る）
 """
@@ -447,6 +449,48 @@ def main():
                 attach(c, a)
                 bump('編集点に合わせた字幕')
             prev_end = b_
+
+    # ---- 7c) 字幕の行（A10・A21・A21・A18・A19 の完成データ: 1 行 380 枚は全角 45 文字以内で y≈-484、
+    #          2 行 55 枚は y≈-436〜-442。2 行を 1 行の位置に置いた例は 0）----
+    if ov.get('subtitle_layout'):
+        def wid(t):
+            return sum(1 if unicodedata.east_asian_width(ch) in 'WFA' else 0.5 for ch in t)
+        for p, c, a in children():
+            if not (c.get('name') or '').startswith('subtitle'):
+                continue
+            runs = [ts for tx in c.findall('text') for ts in tx.findall('text-style')]
+            full = ''.join(ts.text or '' for ts in runs)
+            if '\n' not in full and wid(full) > 45:
+                mid = len(full) / 2
+                cands = [i + 1 for i, ch in enumerate(full) if ch in '、。・' and 0 < i + 1 < len(full)]
+                k = min(cands, key=lambda x: abs(x - mid)) if cands else int(mid)
+                if max(wid(full[:k]), wid(full[k:])) > 45 or not cands:
+                    k = min(range(1, len(full)), key=lambda x: abs(wid(full[:x]) - wid(full) / 2))
+                # A19 と同じ形: 改行は字間なしの書式（最後の 1 文字と同じ）の独立した run にする
+                plain = runs[-1].get('ref')
+                pos = 0
+                for ts in runs:
+                    t_ = ts.text or ''
+                    if pos <= k <= pos + len(t_):
+                        par = next(x for x in c.findall('text') if ts in list(x))
+                        i = list(par).index(ts)
+                        ts.text = t_[:k - pos]
+                        nl = ET.Element('text-style', ref=plain)
+                        nl.text = '\n'
+                        rest = ET.Element('text-style', ref=ts.get('ref'))
+                        rest.text = t_[k - pos:]
+                        par.insert(i + 1, nl)
+                        if rest.text:
+                            par.insert(i + 2, rest)
+                        break
+                    pos += len(t_)
+                full = ''.join(ts.text or '' for ts in runs)
+                bump('2 行にした字幕')
+            if '\n' in full.strip('\n'):
+                for prm in c.findall('param'):
+                    if prm.get('name') == '位置' and prm.get('value') != '1 -440.734':
+                        prm.set('value', '1 -440.734')
+                        bump('2 行の位置に上げた字幕')
 
     # ---- 8) 本編の調整レイヤー（lane 1）をまとめる ----
     if ov.get('merge_adjust'):
