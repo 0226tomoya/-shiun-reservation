@@ -1,0 +1,215 @@
+{
+ "id": "my19nMrHhkY",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    170,
+    150
+   ],
+   "colors": [
+    "#7e0116",
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    55,
+    355,
+    690,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    745,
+    388,
+    480,
+    92
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    910,
+    355,
+    315,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    40,
+    482,
+    1200,
+    238
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "2024",
+   "x": 11.0,
+   "y": -9.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 68.0,
+   "color": "#7e0116",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    0,
+    155,
+    58,
+    "#7e0116",
+    35
+   ],
+   "scale_x": 0.882
+  },
+  {
+   "type": "text",
+   "text": "春夏",
+   "x": 5.5,
+   "y": 47.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 88.4,
+   "color": "#7e0116",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    58,
+    155,
+    88,
+    "#7e0116",
+    35
+   ],
+   "scale_x": 0.87
+  },
+  {
+   "type": "text",
+   "text": "ムジラボ新作",
+   "x": 72.0,
+   "y": 351.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 105.5,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "m": [
+    60,
+    355,
+    690,
+    125,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.112,
+   "tgt": [
+    73,
+    366,
+    749,
+    466
+   ]
+  },
+  {
+   "type": "text",
+   "text": "セットアップ",
+   "x": 752.5,
+   "y": 356.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 99.8,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "scale_x": 0.83,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    757,
+    368,
+    1197,
+    464
+   ]
+  },
+  {
+   "type": "text",
+   "text": "最高",
+   "x": 42.0,
+   "y": 455.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 240.0,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "m": [
+    45,
+    485,
+    470,
+    232,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.007
+  },
+  {
+   "type": "text",
+   "text": "でした。",
+   "x": 520.5,
+   "y": 444.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 246.7,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "m": [
+    518,
+    485,
+    715,
+    232,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.921
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "id": "X0vvVoA9LZw",
+ "erase": [
+  {
+   "rect": [
+    8,
+    463,
+    249,
+    249
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1080,
+    5,
+    185,
+    712
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    710,
+    150
+   ],
+   "colors": [
+    "#ffffff",
+    "#8a8a8a"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    0,
+    150,
+    710,
+    270
+   ],
+   "colors": [
+    "#ffffff",
+    "#8a8a8a"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_square_x0vv.png",
+   "x": 8,
+   "y": 463,
+   "w": 249,
+   "h": 249
+  },
+  {
+   "type": "rect",
+   "x": 1087,
+   "y": 10,
+   "w": 170,
+   "h": 168,
+   "fill": "#fdfbfe",
+   "border": [
+    3,
+    "#800019"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 1087,
+   "y": 189,
+   "w": 170,
+   "h": 167,
+   "fill": "#fdfbfe",
+   "border": [
+    3,
+    "#800019"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 1087,
+   "y": 364,
+   "w": 170,
+   "h": 168,
+   "fill": "#fdfbfe",
+   "border": [
+    3,
+    "#800019"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 1087,
+   "y": 543,
+   "w": 170,
+   "h": 168,
+   "fill": "#fdfbfe",
+   "border": [
+    3,
+    "#800019"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "全",
+   "x": 1173.0,
+   "y": 87.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 154.7,
+   "color": "#800019",
+   "m": [
+    1095,
+    20,
+    155,
+    150,
+    "#800019",
+    40
+   ],
+   "scale_x": 0.994
+  },
+  {
+   "type": "text",
+   "text": "部",
+   "x": 1173.0,
+   "y": 263.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 157.8,
+   "color": "#800019",
+   "m": [
+    1095,
+    198,
+    155,
+    150,
+    "#800019",
+    40
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "紹",
+   "x": 1175.5,
+   "y": 439.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 156.8,
+   "color": "#800019",
+   "m": [
+    1095,
+    373,
+    155,
+    150,
+    "#800019",
+    40
+   ],
+   "scale_x": 0.999
+  },
+  {
+   "type": "text",
+   "text": "介",
+   "x": 1173.0,
+   "y": 620.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 153.7,
+   "color": "#800019",
+   "m": [
+    1095,
+    552,
+    155,
+    150,
+    "#800019",
+    40
+   ],
+   "scale_x": 1.007
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "無印良品"
+    },
+    {
+     "text": "の",
+     "size_em": 0.8
+    }
+   ],
+   "x": 23.0,
+   "y": -5.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 144.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    0,
+    710,
+    150,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.961
+  },
+  {
+   "type": "text",
+   "text": "革財布",
+   "x": 0.5,
+   "y": 149.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 242.6,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    160,
+    710,
+    260,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.961
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "id": "RUaXx_z8jQE",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    8,
+    385,
+    850,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    8,
+    522,
+    1270,
+    198
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    1075,
+    5,
+    200,
+    430
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 70
+  },
+  {
+   "rect": [
+    835,
+    70,
+    265,
+    140
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 50
+  }
+ ],
+ "layers": [
+  {
+   "type": "line",
+   "x1": 1085,
+   "y1": 115,
+   "x2": 1050,
+   "y2": 101,
+   "width": 24,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "x1": 1052,
+   "y1": 102,
+   "x2": 1005,
+   "y2": 95,
+   "width": 24,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "x1": 1007,
+   "y1": 95,
+   "x2": 960,
+   "y2": 101,
+   "width": 25,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "x1": 962,
+   "y1": 101,
+   "x2": 925,
+   "y2": 115,
+   "width": 26,
+   "color": "#111111"
+  },
+  {
+   "type": "text",
+   "text": "▲",
+   "x": 890,
+   "y": 155,
+   "anchor": "cc",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 135,
+   "color": "#111111",
+   "rotate": -130
+  },
+  {
+   "type": "text",
+   "text": "大流行",
+   "x": 1064.9,
+   "y": 6.5,
+   "vertical": true,
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "size": 143.6,
+   "color": "#111111",
+   "m": [
+    1075,
+    5,
+    200,
+    430,
+    "#111111",
+    40
+   ],
+   "scale_x": 1.336
+  },
+  {
+   "type": "text",
+   "text": "低身長男性って",
+   "x": 13.5,
+   "y": 371.9,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 130.9,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "m": [
+    10,
+    385,
+    850,
+    135,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.954
+  },
+  {
+   "type": "text",
+   "text": "ベスト似合うの?",
+   "x": 14.0,
+   "y": 499.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 198.8,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "m": [
+    10,
+    525,
+    1265,
+    190,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.895
+  }
+ ]
+}

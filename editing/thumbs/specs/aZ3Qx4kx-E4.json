@@ -1,0 +1,300 @@
+{
+ "id": "aZ3Qx4kx-E4",
+ "erase": [
+  {
+   "rect": [
+    17,
+    434,
+    266,
+    270
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    220,
+    410
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    465,
+    0,
+    125,
+    430
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    790,
+    5,
+    485,
+    95
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    290,
+    445,
+    990,
+    260
+   ],
+   "colors": [
+    "#f3d79a",
+    "#fff6d0",
+    "#e8bf6a",
+    "#a8732a",
+    "#2a1a08"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_az3q.png",
+   "x": 17,
+   "y": 434,
+   "w": 266,
+   "h": 270
+  },
+  {
+   "type": "text",
+   "text": "激",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#111111",
+   "palt": true,
+   "anchor": "cc",
+   "x": 107.0,
+   "y": 96.0,
+   "size": 182.3,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    8,
+    12,
+    208,
+    202
+   ],
+   "scale_x": 1.053
+  },
+  {
+   "type": "text",
+   "text": "安",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#111111",
+   "palt": true,
+   "anchor": "cc",
+   "x": 111.0,
+   "y": 291.5,
+   "size": 187.1,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    12,
+    207,
+    208,
+    398
+   ],
+   "scale_x": 1.077
+  },
+  {
+   "type": "text",
+   "text": "買いです",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#111111",
+   "palt": true,
+   "anchor": "cc",
+   "x": 527.5,
+   "y": 214.0,
+   "size": 103.0,
+   "vertical": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    476,
+    10,
+    580,
+    422
+   ],
+   "scale_x": 0.819
+  },
+  {
+   "type": "text",
+   "text": "低身長男性必見!!",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#111111",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1037.0,
+   "y": 50.0,
+   "size": 68.2,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    796,
+    14,
+    1272,
+    94
+   ],
+   "scale_x": 0.884
+  },
+  {
+   "type": "text",
+   "text": "夏",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 415.0,
+   "y": 556.5,
+   "size": 259.7,
+   "fill": "linear-gradient(180deg,#f0c860 0%,#fff1b0 30%,#fffbe0 45%,#f0c050 65%,#c08a20 85%,#8a5a18 100%)",
+   "strokes": [
+    [
+     4,
+     "#2a1a08"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    298,
+    452,
+    532,
+    698
+   ],
+   "scale_x": 0.894
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 648.0,
+   "y": 556.0,
+   "size": 256.4,
+   "fill": "linear-gradient(180deg,#f0c860 0%,#fff1b0 30%,#fffbe0 45%,#f0c050 65%,#c08a20 85%,#8a5a18 100%)",
+   "strokes": [
+    [
+     4,
+     "#2a1a08"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    538,
+    452,
+    762,
+    698
+   ],
+   "scale_x": 0.852
+  },
+  {
+   "type": "text",
+   "text": "新",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 892.5,
+   "y": 559.0,
+   "size": 250.0,
+   "fill": "linear-gradient(180deg,#f0c860 0%,#fff1b0 30%,#fffbe0 45%,#f0c050 65%,#c08a20 85%,#8a5a18 100%)",
+   "strokes": [
+    [
+     4,
+     "#2a1a08"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    772,
+    452,
+    1012,
+    698
+   ],
+   "scale_x": 0.948
+  },
+  {
+   "type": "text",
+   "text": "作",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1146.5,
+   "y": 562.0,
+   "size": 250.1,
+   "fill": "linear-gradient(180deg,#f0c860 0%,#fff1b0 30%,#fffbe0 45%,#f0c050 65%,#c08a20 85%,#8a5a18 100%)",
+   "strokes": [
+    [
+     4,
+     "#2a1a08"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "_all": 1,
+   "_t": [
+    1018,
+    452,
+    1272,
+    698
+   ],
+   "scale_x": 1.012
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "id": "WbDvTOdLsBs",
+ "erase": [
+  {
+   "rect": [
+    14,
+    307,
+    170,
+    170
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1095,
+    305,
+    185,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    968,
+    197,
+    296,
+    80
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    10,
+    15,
+    1265,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    5,
+    500,
+    1272,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_wbdv.png",
+   "x": 14,
+   "y": 307,
+   "w": 170,
+   "h": 170
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/ug_black_wbdv.png",
+   "x": 1095,
+   "y": 305,
+   "w": 185,
+   "h": 157
+  },
+  {
+   "type": "rect",
+   "x": 968,
+   "y": 197,
+   "w": 296,
+   "h": 80,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "3/14発売",
+   "x": 975.0,
+   "y": 200.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 69.166,
+   "color": "#111111",
+   "line": 1.0,
+   "box": [
+    970,
+    199,
+    292,
+    76
+   ],
+   "tol": 40,
+   "scale_x": 0.956,
+   "skew": 1,
+   "fit_iou": 0.644
+  },
+  {
+   "type": "text",
+   "text": "GUから新ライン登場",
+   "x": 5.5,
+   "y": -10.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 173.603,
+   "color": "#ffffff",
+   "scale_x": 0.77,
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "line": 1.0,
+   "box": [
+    10,
+    15,
+    1265,
+    165
+   ],
+   "tol": 14,
+   "spacing": -0.004,
+   "skew": 2,
+   "rotate": 0.15,
+   "fit_iou": 0.591
+  },
+  {
+   "type": "text",
+   "text": "全アイテム紹介",
+   "x": -1.5,
+   "y": 480.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 224.9,
+   "color": "#ffffff",
+   "scale_x": 0.82,
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "line": 1.0,
+   "box": [
+    5,
+    500,
+    1272,
+    215
+   ],
+   "tol": 14,
+   "spacing": -0.002,
+   "skew": 0.9,
+   "fit_iou": 0.63
+  }
+ ]
+}

@@ -5,8 +5,8 @@
    "rect": [
     0,
     0,
-    330,
-    112
+    315,
+    110
    ],
    "colors": [
     "#000000"
@@ -23,7 +23,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 16
+   "tol": 13
   },
   {
    "rect": [
@@ -35,7 +35,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 16
+   "tol": 13
   },
   {
    "rect": [
@@ -91,11 +91,11 @@
   {
    "type": "text",
    "text": "ファッション初心者",
-   "x": 9,
-   "y": 2,
+   "x": 13.3,
+   "y": 1.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 46,
+   "size": 46.0,
    "color": "#000000",
    "palt": true,
    "skew": -8,
@@ -106,16 +106,23 @@
     54,
     "#000000",
     45
+   ],
+   "scale_x": 0.807,
+   "tgt": [
+    12,
+    7,
+    312,
+    51
    ]
   },
   {
    "type": "text",
    "text": "〜中級者向け",
-   "x": 9,
-   "y": 56,
+   "x": 11.5,
+   "y": 54.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 46,
+   "size": 48.1,
    "color": "#000000",
    "palt": true,
    "skew": -8,
@@ -126,16 +133,22 @@
     58,
     "#000000",
     45
+   ],
+   "scale_x": 0.844,
+   "tgt": [
+    9,
+    60,
+    250,
+    106
    ]
   },
   {
    "type": "text",
-   "text": "2024年",
-   "x": 432,
-   "y": 360,
+   "x": 431.0,
+   "y": 349.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 100,
+   "size": 88.5,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 14px rgba(0,0,0,.6)",
@@ -146,6 +159,23 @@
     105,
     "#ffffff",
     16
+   ],
+   "scale_x": 1.364,
+   "tgt": [
+    432,
+    360,
+    853,
+    445
+   ],
+   "runs": [
+    {
+     "text": "2024",
+     "font": "Montserrat",
+     "weight": 800
+    },
+    {
+     "text": "年"
+    }
    ]
   },
   {
@@ -162,11 +192,11 @@
      "text": "夏服"
     }
    ],
-   "x": 10,
-   "y": 462,
+   "x": 13.9,
+   "y": 431.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 270,
+   "size": 256.4,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
@@ -177,16 +207,17 @@
     265,
     "#ffffff",
     16
-   ]
+   ],
+   "scale_x": 1.025
   },
   {
    "type": "text",
-   "text": "?",
-   "x": 78,
-   "y": 186,
+   "text": "？",
+   "x": -13.0,
+   "y": 155.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 200,
+   "size": 212.8,
    "color": "#ffffff",
    "rotate": -4,
    "tgt": [
@@ -201,16 +232,17 @@
     1,
     1,
     "#ffffff"
-   ]
+   ],
+   "scale_x": 1.307
   },
   {
    "type": "text",
-   "text": "?",
-   "x": 372,
-   "y": 81,
+   "text": "？",
+   "x": 318.0,
+   "y": 39.0,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 150,
+   "size": 154.7,
    "color": "#ffffff",
    "rotate": 8,
    "tgt": [
@@ -225,16 +257,17 @@
     1,
     1,
     "#ffffff"
-   ]
+   ],
+   "scale_x": 1.304
   },
   {
    "type": "text",
-   "text": "?",
-   "x": 828,
-   "y": 105,
+   "text": "？",
+   "x": 746.5,
+   "y": 83.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 170,
+   "size": 184.0,
    "color": "#ffffff",
    "rotate": -6,
    "tgt": [
@@ -249,16 +282,17 @@
     1,
     1,
     "#ffffff"
-   ]
+   ],
+   "scale_x": 1.309
   },
   {
    "type": "text",
-   "text": "?",
-   "x": 1152,
-   "y": 65,
+   "text": "？",
+   "x": 1093.5,
+   "y": 16.0,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 170,
+   "size": 181.5,
    "color": "#ffffff",
    "rotate": 8,
    "tgt": [
@@ -273,7 +307,8 @@
     1,
     1,
     "#ffffff"
-   ]
+   ],
+   "scale_x": 1.219
   }
  ]
 }

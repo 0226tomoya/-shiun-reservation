@@ -1,0 +1,234 @@
+{
+ "id": "L-RPQSwVdyk",
+ "erase": [
+  {
+   "rect": [
+    10,
+    8,
+    224,
+    224
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    241,
+    8,
+    219,
+    220
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    860,
+    5,
+    420,
+    235
+   ],
+   "colors": [
+    "#ffffff",
+    "#3a3a3a",
+    "#9a9472"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    250,
+    312,
+    800,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    15,
+    385,
+    1265,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    0,
+    540,
+    1280,
+    180
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_lrpq.png",
+   "x": 10,
+   "y": 8,
+   "w": 224,
+   "h": 224
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_lrpq.png",
+   "x": 241,
+   "y": 8,
+   "w": 219,
+   "h": 220
+  },
+  {
+   "type": "text",
+   "text": "21",
+   "x": 879.0,
+   "y": -30.0,
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 281.1,
+   "color": "rgba(60,60,55,0.8)",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    880,
+    25,
+    1150,
+    225
+   ],
+   "scale_x": 1.072
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1148.0,
+   "y": 79.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 133.3,
+   "color": "rgba(50,45,30,0.85)",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    1150,
+    100,
+    1268,
+    222
+   ],
+   "scale_x": 0.913
+  },
+  {
+   "type": "text",
+   "text": "＼ユニクロ・ジーユーユーザー必見!!／",
+   "x": 248.5,
+   "y": 305.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 58.3,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "m": [
+    250,
+    312,
+    800,
+    62,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.806
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "プチプラブランド"
+    },
+    {
+     "text": "で",
+     "size_em": 0.85
+    }
+   ],
+   "x": 45.0,
+   "y": 381.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 140.4,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "m": [
+    15,
+    385,
+    1265,
+    150,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 1.043
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "ハズレ"
+    },
+    {
+     "text": "を",
+     "size_em": 0.7
+    },
+    {
+     "text": "引"
+    },
+    {
+     "text": "かない",
+     "size_em": 0.85
+    },
+    {
+     "text": "方法"
+    }
+   ],
+   "x": 10.0,
+   "y": 536.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 143.3,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "tgt": [
+    12,
+    552,
+    1259,
+    692
+   ],
+   "scale_x": 0.965
+  },
+  {
+   "type": "line",
+   "x1": 12,
+   "y1": 707,
+   "x2": 987,
+   "y2": 707,
+   "width": 4,
+   "color": "#ffffff"
+  }
+ ]
+}

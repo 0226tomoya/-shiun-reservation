@@ -1,0 +1,216 @@
+{
+ "id": "Df9CmIZ8EFA",
+ "erase": [
+  {
+   "rect": [
+    934,
+    17,
+    333,
+    333
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    27,
+    24,
+    276,
+    276
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    747,
+    31,
+    170,
+    170
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    326,
+    49,
+    200,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    348,
+    213,
+    210,
+    150
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    737,
+    239,
+    160,
+    160
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    53,
+    332,
+    259,
+    122
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    17,
+    639,
+    1246,
+    58
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    10,
+    455,
+    1265,
+    180
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/el_white_df9c.png",
+   "x": 934,
+   "y": 17,
+   "w": 333,
+   "h": 333
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/wym_white_df9c.png",
+   "x": 27,
+   "y": 24,
+   "w": 276,
+   "h": 276
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/confect_white_df9c.png",
+   "x": 747,
+   "y": 31,
+   "w": 170,
+   "h": 170
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/cos_white_df9c.png",
+   "x": 326,
+   "y": 49,
+   "w": 200,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/batoner_white_df9c.png",
+   "x": 348,
+   "y": 213,
+   "w": 210,
+   "h": 150
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/haruta_white_df9c.png",
+   "x": 737,
+   "y": 239,
+   "w": 160,
+   "h": 160
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/blurhms_white_df9c.png",
+   "x": 53,
+   "y": 332,
+   "w": 259,
+   "h": 122
+  },
+  {
+   "type": "rect",
+   "x": 17,
+   "y": 639,
+   "w": 1246,
+   "h": 58,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "x": 53.0,
+   "y": 642.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 49.37,
+   "color": "#333333",
+   "spacing": 0.06,
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "ブランドディレクター"
+    },
+    {
+     "text": "が",
+     "size_em": 0.75
+    },
+    {
+     "text": "オススメ"
+    },
+    {
+     "text": "する",
+     "size_em": 0.75
+    },
+    {
+     "text": "ブランド20選"
+    }
+   ],
+   "box": [
+    20,
+    640,
+    1240,
+    55
+   ],
+   "tol": 50,
+   "scale_x": 0.99,
+   "skew": -5.1,
+   "fit_iou": 0.511
+  },
+  {
+   "type": "text",
+   "text": "コスパUNIQLO級",
+   "x": -9.5,
+   "y": 449.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 161.15,
+   "color": "#ffffff",
+   "scale_x": 0.982,
+   "line": 1.0,
+   "box": [
+    10,
+    455,
+    1265,
+    180
+   ],
+   "tol": 14,
+   "skew": -0.3,
+   "fit_iou": 0.673
+  }
+ ]
+}

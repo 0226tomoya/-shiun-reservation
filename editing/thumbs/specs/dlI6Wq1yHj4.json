@@ -1,0 +1,234 @@
+{
+"id": "dlI6Wq1yHj4",
+"erase": [
+{
+"rect": [
+10,
+4,
+222,
+226
+],
+"full": true
+},
+{
+"rect": [
+252,
+4,
+220,
+232
+],
+"full": true
+},
+{
+"rect": [
+492,
+4,
+222,
+224
+],
+"full": true
+},
+{
+"rect": [
+730,
+22,
+545,
+212
+],
+"colors": [
+"#fcedaa"
+],
+"tol": 25
+},
+{
+"rect": [
+0,
+470,
+1280,
+250
+],
+"colors": [
+"#ffffff"
+],
+"tol": 10
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/uniqlo_red_dli6.png",
+"x": 10,
+"y": 4,
+"w": 222,
+"h": 226
+},
+{
+"type": "image",
+"src": "assets/logos/gu_blue_dli6.png",
+"x": 252,
+"y": 4,
+"w": 220,
+"h": 232
+},
+{
+"type": "image",
+"src": "assets/logos/muji_maroon_dli6.png",
+"x": 492,
+"y": 4,
+"w": 222,
+"h": 224
+},
+{
+"type": "text",
+"text": "プチプラ肌着8種",
+"x": 997.0,
+"y": 60.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 77.2,
+"tb": [
+738,
+1258,
+26,
+100
+],
+"color": "#fcedaa",
+"strokes": [
+[
+6,
+"#050505"
+]
+],
+"palt": true,
+"scale_x": 0.919
+},
+{
+"type": "text",
+"text": "徹底比較‼",
+"x": 1002.5,
+"y": 156.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 133.8,
+"tb": [
+736,
+1263,
+96,
+230
+],
+"color": "#fcedaa",
+"strokes": [
+[
+6,
+"#050505"
+]
+],
+"palt": true,
+"scale_x": 0.851
+},
+{
+"type": "text",
+"text": "神",
+"x": 102.5,
+"y": 580.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 234.0,
+"tb": [
+2,
+196,
+480,
+716
+],
+"color": "#ffffff",
+"shadow": "0 0 10px rgba(0,0,0,.4)",
+"palt": true,
+"scale_x": 0.851
+},
+{
+"type": "text",
+"text": "イン",
+"x": 347.0,
+"y": 581.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 216.4,
+"tb": [
+193,
+502,
+486,
+709
+],
+"color": "#ffffff",
+"shadow": "0 0 10px rgba(0,0,0,.4)",
+"palt": true,
+"scale_x": 0.784
+},
+{
+"type": "text",
+"text": "ナ",
+"x": 575.5,
+"y": 590.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 250.2,
+"tb": [
+500,
+659,
+488,
+716
+],
+"color": "#ffffff",
+"shadow": "0 0 10px rgba(0,0,0,.4)",
+"palt": true,
+"scale_x": 0.715
+},
+{
+"type": "text",
+"text": "ー",
+"x": 736.0,
+"y": 583.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 240.0,
+"tb": [
+659,
+814,
+570,
+622
+],
+"color": "#ffffff",
+"shadow": "0 0 10px rgba(0,0,0,.4)",
+"palt": true,
+"scale_x": 0.739,
+"nosize": 1
+},
+{
+"type": "text",
+"text": "決定‼",
+"x": 1048.5,
+"y": 579.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 229.6,
+"tb": [
+811,
+1275,
+480,
+716
+],
+"color": "#ffffff",
+"shadow": "0 0 10px rgba(0,0,0,.4)",
+"palt": true,
+"scale_x": 0.769
+}
+],
+"grow": 13
+}

@@ -1,0 +1,334 @@
+{
+"id": "OvZsUCoeZUQ",
+"erase": [
+{
+"rect": [
+8,
+8,
+240,
+246
+],
+"full": true
+},
+{
+"rect": [
+300,
+14,
+590,
+112
+],
+"full": true
+},
+{
+"rect": [
+1015,
+24,
+262,
+72
+],
+"full": true
+},
+{
+"rect": [
+1130,
+118,
+130,
+390
+],
+"colors": [
+"#ffffff",
+"#111111"
+],
+"tol": 20
+},
+{
+"rect": [
+0,
+400,
+1070,
+135
+],
+"colors": [
+"#8a0c18",
+"#730915"
+],
+"tol": 30
+},
+{
+"rect": [
+0,
+525,
+1275,
+195
+],
+"colors": [
+"#8a0c18",
+"#730915"
+],
+"tol": 30
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/muji_maroon_ovzs.png",
+"x": 8,
+"y": 8,
+"w": 240,
+"h": 246
+},
+{
+"type": "image",
+"src": "assets/logos/mujilabo_black_ovzs.png",
+"x": 300,
+"y": 14,
+"w": 590,
+"h": 112
+},
+{
+"type": "image",
+"src": "assets/logos/idee_black_ovzs.png",
+"x": 1015,
+"y": 24,
+"w": 262,
+"h": 72
+},
+{
+"type": "text",
+"text": "@展示会",
+"x": 1193.5,
+"y": 307.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 95.5,
+"tb": [
+1135,
+1253,
+123,
+503
+],
+"vertical": true,
+"color": "#ffffff",
+"strokes": [
+[
+5,
+"#111111"
+]
+],
+"tbs": true,
+"scale_x": 1.071
+},
+{
+"type": "text",
+"text": "無印良品",
+"x": 240.0,
+"y": 462.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 129.1,
+"tb": [
+8,
+469,
+408,
+531
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 0.908
+},
+{
+"type": "text",
+"text": "2024秋冬",
+"x": 771.5,
+"y": 461.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 128.1,
+"tb": [
+481,
+1063,
+408,
+531
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 1.03
+},
+{
+"type": "text",
+"text": "新作",
+"x": 177.5,
+"y": 613.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 170.9,
+"tb": [
+15,
+340,
+543,
+707
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 0.955
+},
+{
+"type": "text",
+"text": "が",
+"x": 400.0,
+"y": 634.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 119.9,
+"tb": [
+340,
+464,
+578,
+696
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 1.053
+},
+{
+"type": "text",
+"text": "最",
+"x": 541.5,
+"y": 615.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 169.2,
+"tb": [
+461,
+625,
+546,
+706
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 1.041
+},
+{
+"type": "text",
+"text": "高",
+"x": 705.5,
+"y": 615.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 165.7,
+"tb": [
+627,
+783,
+542,
+707
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 1.029
+},
+{
+"type": "text",
+"text": "すぎた",
+"x": 1028.0,
+"y": 610.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 189.0,
+"tb": [
+791,
+1264,
+528,
+709
+],
+"color": "#8a0c18",
+"strokes": [
+[
+3,
+"#8a0c18"
+],
+[
+6,
+"#ffffff"
+]
+],
+"shadow": "0 0 8px rgba(0,0,0,.35)",
+"palt": true,
+"scale_x": 0.927
+}
+],
+"grow": 13
+}

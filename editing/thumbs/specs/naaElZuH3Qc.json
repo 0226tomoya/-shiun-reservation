@@ -1,0 +1,11 @@
+{"id":"naaElZuH3Qc","grow":13,
+"erase":[{"rect":[7,5,199,89],"full":true},
+{"rect":[640,25,640,150],"colors":["#ffffff"],"tol":18},
+{"rect":[50,390,580,85],"colors":["#c8a868","#000000"],"tol":40},
+{"rect":[0,475,1280,245],"colors":["#dcbc80","#c8a060","#f0dca8"],"tol":35}],
+"layers":[
+{"type":"image","src":"assets/logos/uniqlo_pair_red_cut_naae.png","x":7,"y":5,"w":199,"h":89},
+{"type":"text","text":"2/23発売!!","x":650,"y":20,"font":"NotoSansJP","weight":900,"size":140,"color":"#ffffff","palt":true,"shadow":"0 0 12px rgba(0,0,0,.6)","m":[640,25,630,150,"#ffffff",12]},
+{"type":"text","text":"UNIQLO:C 24SS","x":60,"y":395,"font":"LibreBaskerville","weight":400,"size":70,"fill":"linear-gradient(180deg,#a88850,#e8d0a0 50%,#a88850)","strokes":[[3,"#2a2010"]],"m":[50,392,575,80,"#c0a060",45]},
+{"type":"text","text":"絶対買いTOP3","x":15,"y":480,"font":"NotoSansJP","weight":900,"size":230,"fill":"linear-gradient(180deg,#c8a058 0%,#e8cc90 35%,#f6e6b8 55%,#d8b470 75%,#b8904c 100%)","palt":true,"shadow":"0 0 14px rgba(0,0,0,.7)","m":[5,478,1270,240,"#dcbc80",30]}
+]}

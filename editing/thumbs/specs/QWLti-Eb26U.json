@@ -1,0 +1,283 @@
+{
+ "id": "QWLti-Eb26U",
+ "erase": [
+  {
+   "rect": [
+    5,
+    8,
+    125,
+    55
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    935,
+    10,
+    345,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    75,
+    425,
+    490
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    830,
+    75,
+    435,
+    490
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    570,
+    1280,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "front": [
+  [
+   [
+    445,
+    95
+   ],
+   [
+    530,
+    55
+   ],
+   [
+    620,
+    40
+   ],
+   [
+    705,
+    60
+   ],
+   [
+    725,
+    110
+   ],
+   [
+    805,
+    185
+   ],
+   [
+    850,
+    300
+   ],
+   [
+    860,
+    570
+   ],
+   [
+    430,
+    570
+   ],
+   [
+    425,
+    300
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 9.5,
+   "y": 7.5,
+   "font": "PlayfairDisplay",
+   "weight": 900,
+   "size": 52.56,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    5,
+    8,
+    125,
+    55
+   ],
+   "tol": 25,
+   "scale_x": 0.79,
+   "fit_iou": 0.61
+  },
+  {
+   "type": "text",
+   "text": "25Spring 2nd Collection",
+   "x": 944.0,
+   "y": 11.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 50.16,
+   "scale_x": 0.588,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    935,
+    10,
+    345,
+    62
+   ],
+   "tol": 25,
+   "skew": 3,
+   "rotate": 0.35,
+   "fit_iou": 0.492
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.945,
+   "text": "名",
+   "x": 19.5,
+   "y": 47.5,
+   "size": 497.88,
+   "box": [
+    20,
+    75,
+    425,
+    490
+   ],
+   "rotate": 1.5,
+   "skew": -0.3,
+   "fit_iou": 0.697
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.919,
+   "text": "作",
+   "x": 799.0,
+   "y": 46.0,
+   "size": 506.0,
+   "box": [
+    830,
+    75,
+    435,
+    490
+   ],
+   "rotate": 0.3,
+   "fit_iou": 0.791
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.843,
+   "text": "低身長",
+   "x": 14.0,
+   "y": 575.5,
+   "size": 132.649,
+   "box": [
+    1,
+    575,
+    335,
+    140
+   ],
+   "spacing": -0.034,
+   "rotate": -1.5,
+   "fit_iou": 0.24
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.66,
+   "text": "のための",
+   "x": 335.0,
+   "y": 607.5,
+   "size": 95.006,
+   "box": [
+    338,
+    575,
+    242,
+    140
+   ],
+   "spacing": -0.026,
+   "rotate": -0.65,
+   "skew": -0.3,
+   "fit_iou": 0.225
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.839,
+   "text": "至高",
+   "x": 583.0,
+   "y": 577.0,
+   "size": 119.598,
+   "box": [
+    587,
+    575,
+    192,
+    140
+   ],
+   "fit_iou": 0.201
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "line": 1.0,
+   "tol": 14,
+   "scale_x": 0.827,
+   "text": "のシャツ",
+   "x": 778.0,
+   "y": 554.5,
+   "size": 158.11,
+   "box": [
+    782,
+    575,
+    494,
+    140
+   ],
+   "spacing": -0.002,
+   "skew": -0.6,
+   "fit_iou": 0.206
+  }
+ ]
+}

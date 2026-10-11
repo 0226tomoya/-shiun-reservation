@@ -1,0 +1,143 @@
+{
+ "id": "w_Pdnt5SLgE",
+ "erase": [
+  {
+   "rect": [
+    138,
+    187,
+    429,
+    428
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    545,
+    330,
+    735,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    3,
+    505,
+    1275,
+    210
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    1165,
+    15,
+    110,
+    370
+   ],
+   "colors": [
+    "#333333"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_bag_wpdn.png",
+   "x": 138,
+   "y": 187,
+   "w": 429,
+   "h": 428
+  },
+  {
+   "type": "text",
+   "text": "新作レビュー",
+   "x": 552.5,
+   "y": 340.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 135.3,
+   "color": "#ffffff",
+   "scale_x": 0.892,
+   "strokes": [
+    [
+     3,
+     "#3a3a3a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    545,
+    330,
+    735,
+    165
+   ],
+   "fit_color": "#ffffff",
+   "tol": 15
+  },
+  {
+   "type": "text",
+   "x": 9.5,
+   "y": 499.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 193.91,
+   "color": "#ffffff",
+   "scale_x": 0.88,
+   "strokes": [
+    [
+     3,
+     "#3a3a3a"
+    ]
+   ],
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "絶対買い"
+    },
+    {
+     "text": "は",
+     "size_em": 0.75
+    },
+    {
+     "text": "コレ‼"
+    }
+   ],
+   "box": [
+    3,
+    505,
+    1275,
+    210
+   ],
+   "fit_color": "#ffffff",
+   "tol": 15
+  },
+  {
+   "type": "text",
+   "text": "全部当たり‼",
+   "x": 1185,
+   "y": 20,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 44,
+   "color": "#333333",
+   "vertical": true,
+   "rotate": -8,
+   "line": 1.0,
+   "box": [
+    1165,
+    15,
+    110,
+    370
+   ],
+   "tol": 45
+  }
+ ]
+}

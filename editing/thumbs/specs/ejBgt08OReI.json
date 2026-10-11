@@ -1,0 +1,186 @@
+{
+ "id": "ejBgt08OReI",
+ "erase": [
+  {
+   "rect": [
+    618,
+    172,
+    604,
+    114
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    728,
+    292,
+    175,
+    174
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    944,
+    292,
+    173,
+    174
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    10,
+    345,
+    240
+   ],
+   "colors": [
+    "#e00012",
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    425,
+    15,
+    845,
+    120
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    0,
+    465,
+    1280,
+    255
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/jwanderson_black_ejbg.png",
+   "x": 618,
+   "y": 172,
+   "w": 604,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_ejbg.png",
+   "x": 728,
+   "y": 292,
+   "w": 175,
+   "h": 174
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_ejbg.png",
+   "x": 944,
+   "y": 292,
+   "w": 173,
+   "h": 174
+  },
+  {
+   "type": "line",
+   "x1": 30,
+   "y1": 240,
+   "x2": 320,
+   "y2": 95,
+   "width": 9,
+   "color": "#e00012"
+  },
+  {
+   "type": "text",
+   "text": "本日発売!!",
+   "x": 163,
+   "y": 125,
+   "anchor": "cc",
+   "rotate": -35,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 80,
+   "color": "#e00012",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "マストバイ"
+    },
+    {
+     "text": "は",
+     "size_em": 0.75
+    },
+    {
+     "text": "コレだぁぁぁぁっ!!"
+    }
+   ],
+   "x": 845,
+   "y": 75,
+   "anchor": "cc",
+   "rotate": -5,
+   "skew": -8,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 86,
+   "color": "#111111",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "絶対買い!!",
+   "x": 10.0,
+   "y": 447.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 244.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    13,
+    478,
+    1210,
+    712
+   ],
+   "scale_x": 1.045
+  }
+ ]
+}
