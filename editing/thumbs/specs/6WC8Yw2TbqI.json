@@ -104,12 +104,8 @@
   },
   {
    "type": "text",
-   "text": "特化店舗",
-   "x": 908,
-   "y": 608,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 87.4,
    "color": "#ffffff",
    "scale_x": 0.776,
    "palt": true,
@@ -118,7 +114,73 @@
      6,
      "#000000"
     ]
-   ]
+   ],
+   "text": "特",
+   "x": 908,
+   "y": 656.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.776,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "化",
+   "x": 975.8,
+   "y": 656.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.776,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "店",
+   "x": 1043.7,
+   "y": 656.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.776,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "舗",
+   "x": 1111.5,
+   "y": 656.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
   },
   {
    "type": "text",
