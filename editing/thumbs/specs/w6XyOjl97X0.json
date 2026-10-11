@@ -1,0 +1,177 @@
+{
+ "id": "w6XyOjl97X0",
+ "grow": 15,
+ "erase": [
+  {
+   "rect": [
+    16,
+    16,
+    186,
+    186
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1040,
+    0,
+    210,
+    720
+   ],
+   "colors": [
+    "#fee618"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    872,
+    0,
+    148,
+    600
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    732,
+    72,
+    132,
+    648
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    50,
+    210,
+    110,
+    505
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_square.png",
+   "x": 18,
+   "y": 18,
+   "w": 183,
+   "h": 183
+  },
+  {
+   "type": "text",
+   "text": "絶対買い",
+   "x": 1145,
+   "y": 2,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 187,
+   "spacing": -0.02,
+   "color": "#fee618",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 14,
+   "box": [
+    1040,
+    0,
+    210,
+    720
+   ],
+   "no_init": true
+  },
+  {
+   "type": "text",
+   "text": "大人が選ぶ",
+   "x": 945,
+   "y": 0,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 128,
+   "spacing": -0.07,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 14,
+   "box": [
+    872,
+    0,
+    148,
+    600
+   ],
+   "no_init": true
+  },
+  {
+   "type": "text",
+   "text": "セットアップ",
+   "x": 797,
+   "y": 70,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 115,
+   "spacing": -0.05,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 14,
+   "box": [
+    732,
+    72,
+    132,
+    648
+   ],
+   "no_init": true
+  },
+  {
+   "type": "text",
+   "text": "低身長男性必見",
+   "x": 106,
+   "y": 220,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Zen Kurenaido",
+   "weight": 400,
+   "size": 72,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 14,
+   "box": [
+    50,
+    210,
+    110,
+    505
+   ],
+   "no_init": true
+  }
+ ]
+}

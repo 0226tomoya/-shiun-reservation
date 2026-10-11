@@ -1,0 +1,128 @@
+{
+ "id": "G53IGy3r06E",
+ "erase": [
+  {
+   "rect": [
+    10,
+    18,
+    117,
+    50
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    924,
+    20,
+    348,
+    57
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    295,
+    445,
+    690,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    515,
+    1272,
+    205
+   ],
+   "by": "layers"
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_g53i.png",
+   "x": 10,
+   "y": 18,
+   "w": 117,
+   "h": 50
+  },
+  {
+   "type": "text",
+   "text": "25 Autumn 1st Collection",
+   "x": 928.5,
+   "y": 11.5,
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 59.322,
+   "scale_x": 0.47,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    924,
+    20,
+    348,
+    57
+   ],
+   "fit_iou": 0.426
+  },
+  {
+   "type": "text",
+   "text": "過去最高のラインナップ",
+   "x": 301.5,
+   "y": 443.5,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 68.704,
+   "spacing": 0.042,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    295,
+    445,
+    690,
+    70
+   ],
+   "scale_x": 0.865,
+   "fit_iou": 0.592
+  },
+  {
+   "type": "text",
+   "text": "低身長のための秋服",
+   "x": -14.5,
+   "y": 489.5,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 205.196,
+   "spacing": -0.038,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    5,
+    512,
+    1272,
+    208
+   ],
+   "tol": 14,
+   "scale_x": 0.927,
+   "fit_iou": 0.248
+  }
+ ]
+}

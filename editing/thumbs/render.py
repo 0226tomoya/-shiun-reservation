@@ -23,6 +23,7 @@
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
   "hollow": true で中を塗らない縁だけの文字（strokes の 1 つ目の太さ・色が線）
   erase の要素 {"rect":[..],"by":"layers"} は、色ではなく描いた文字の形で消す（白文字の範囲の白い服を守る。ただし形がずれると元の文字が残る）
+  "palt": true でかなの詰め（プロポーショナル）。runs の各要素に spacing（em）・dy（上下のずらし px）も書ける
   （runs の各要素は size_em で行の size に対する倍率も書ける）
 "front": [[[x,y],...], ...]   # 文字より前にある人物などの多角形。中は元の画素をそのまま上に戻す
 背景 = 元のサムネから erase の範囲と描いたレイヤーの範囲を消して埋めたもの（cv2.inpaint）。人物・写真は元のまま。
@@ -94,6 +95,7 @@ def text_html(L, i):
     base = (f"font-family:{fam(L.get('font', 'Noto Sans JP'))},'Noto Sans CJK JP';font-weight:{L.get('weight', 900)};"
             f"font-size:{size}px;line-height:{L.get('line', 1.1)};letter-spacing:{L.get('spacing', 0)}em;"
             f"white-space:pre;text-align:{L.get('align', 'left')};"
+            + ("font-feature-settings:'palt' 1;" if L.get('palt') else '')
             + ("font-style:italic;" if L.get('italic') else '')
             + ("writing-mode:vertical-rl;text-orientation:upright;" if L.get('vertical') else ''))
 
@@ -110,6 +112,10 @@ def text_html(L, i):
                     st += f"font-family:{fam(r['font'])};"
                 if r.get('weight'):
                     st += f"font-weight:{r['weight']};"
+                if r.get('spacing') is not None:
+                    st += f"letter-spacing:{r['spacing']}em;"
+                if r.get('dy'):
+                    st += f"position:relative;top:{r['dy']}px;"
                 if color_css is None:
                     if r.get('fill') or (L.get('fill') and not r.get('color')):
                         r = dict(r, fill=r.get('fill') or L.get('fill'))

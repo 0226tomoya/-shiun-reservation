@@ -37,3 +37,5 @@
 - マシンの負荷が非常に高いので **fit.py は使わない**。代わりに `THUMB_ORIG=…/yt/thumbs python3 measure.py ID x y w h '#色' [tol]` で
   元の文字の外接矩形と横のかたまりを測り、size（≒文字の高さ×1.15 前後。フォントで違う）・x・y・scale_x を自分で決める。
 - 採点は `bash run.sh ID`（fit なし）。1 枚につき render 2〜3 回、4 分まで。
+
+- 新機能: レイヤーに "palt": true（かなの詰め。わむうの見出しはほぼ全部これ）、runs ごとの spacing・dy。
