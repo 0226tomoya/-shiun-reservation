@@ -1,0 +1,227 @@
+{
+ "id": "X-5y-kY77Cc",
+ "erase": [
+  {
+   "rect": [
+    958,
+    23,
+    315,
+    142
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    25,
+    565,
+    129,
+    129
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    187,
+    565,
+    129,
+    129
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    370,
+    545,
+    495,
+    75
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    370,
+    630,
+    497,
+    75
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    15,
+    212,
+    1000,
+    92
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    12,
+    300,
+    1048,
+    180
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_x5y.png",
+   "x": 958,
+   "y": 23,
+   "w": 315,
+   "h": 142
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_x5y.png",
+   "x": 25,
+   "y": 565,
+   "w": 129,
+   "h": 129
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_x5y.png",
+   "x": 187,
+   "y": 565,
+   "w": 129,
+   "h": 129
+  },
+  {
+   "type": "rect",
+   "x": 381,
+   "y": 548,
+   "w": 474,
+   "h": 68,
+   "fill": "#fcfcfc",
+   "skew": -10
+  },
+  {
+   "type": "rect",
+   "x": 381,
+   "y": 633,
+   "w": 476,
+   "h": 68,
+   "fill": "#fcfcfc",
+   "skew": -10
+  },
+  {
+   "type": "text",
+   "text": "先行発売  7月18日",
+   "x": 399.5,
+   "y": 547.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 57.36,
+   "skew": -14.7,
+   "color": "#484848",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    380,
+    552,
+    480,
+    60
+   ],
+   "tol": 35,
+   "scale_x": 0.936,
+   "spacing": -0.002,
+   "fit_iou": 0.442
+  },
+  {
+   "type": "text",
+   "text": "全商品発売  9月5日",
+   "x": 400.0,
+   "y": 628.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 62.741,
+   "skew": -9,
+   "color": "#484848",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    380,
+    636,
+    480,
+    62
+   ],
+   "tol": 35,
+   "scale_x": 0.844,
+   "spacing": -0.018,
+   "fit_iou": 0.634
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO:C 2025年秋冬",
+   "x": 27.0,
+   "y": 212.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 85.65,
+   "skew": -9,
+   "spacing": -0.02,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    15,
+    212,
+    1000,
+    92
+   ],
+   "tol": 16,
+   "scale_x": 1.12,
+   "fit_iou": 0.573
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "発売前レビ"
+    },
+    {
+     "text": "ュ",
+     "size_em": 0.75
+    },
+    {
+     "text": "ー"
+    }
+   ],
+   "x": 37.0,
+   "y": 297.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 198.496,
+   "skew": -6.4,
+   "spacing": -0.036,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    12,
+    300,
+    1048,
+    180
+   ],
+   "tol": 20,
+   "scale_x": 0.828,
+   "fit_iou": 0.505
+  }
+ ]
+}

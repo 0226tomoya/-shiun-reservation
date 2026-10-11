@@ -1,0 +1,112 @@
+{
+ "id": "u4dE0MYdHxQ",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    760,
+    98
+   ],
+   "colors": [
+    "#fffbd0",
+    "#f3cc30",
+    "#000000",
+    "#d8b358"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1150,
+    5,
+    125,
+    500
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    505,
+    1280,
+    215
+   ],
+   "colors": [
+    "#fffbd0",
+    "#f3cc30",
+    "#000000",
+    "#d8b358",
+    "#fdf3b8"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "ユニクロU秋冬新作",
+   "x": 4,
+   "y": -8,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 86,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 1153,
+   "y": 8,
+   "w": 119,
+   "h": 494,
+   "fill": "#000000"
+  },
+  {
+   "type": "text",
+   "text": "本日発売",
+   "x": 1212,
+   "y": 15,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 104,
+   "color": "#ffffff",
+   "vertical": true,
+   "spacing": 0.19
+  },
+  {
+   "type": "text",
+   "x": 4,
+   "y": 488,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 200,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "runs": [
+    {
+     "text": "絶対買いは",
+     "spacing": -0.06
+    },
+    {
+     "text": "●●",
+     "spacing": -0.06
+    }
+   ]
+  }
+ ]
+}

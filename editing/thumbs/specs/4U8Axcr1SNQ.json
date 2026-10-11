@@ -1,0 +1,144 @@
+{
+ "id": "4U8Axcr1SNQ",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    262,
+    15,
+    155,
+    655
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    70,
+    20,
+    220,
+    685
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    1165,
+    12,
+    100,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1075,
+    648,
+    205,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "過去最高"
+    },
+    {
+     "text": "の",
+     "size_em": 0.62
+    },
+    {
+     "text": "秋"
+    },
+    {
+     "text": "が",
+     "size_em": 0.62
+    }
+   ],
+   "x": 358,
+   "y": 22,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 104,
+   "color": "#ffffff",
+   "vertical": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "始まる。",
+   "x": 180,
+   "y": 25,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 205,
+   "color": "#ffffff",
+   "vertical": true,
+   "spacing": 0.035,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 1216,
+   "y": 10,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 700,
+   "size": 30,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "24Fall Collection",
+   "x": 1160,
+   "y": 648,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 700,
+   "size": 34,
+   "color": "#ffffff",
+   "scale_x": 0.85
+  },
+  {
+   "type": "text",
+   "text": "2024.09.14 sat. 22:00 - Release",
+   "x": 1160,
+   "y": 682,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 400,
+   "size": 13,
+   "color": "#ffffff"
+  }
+ ]
+}

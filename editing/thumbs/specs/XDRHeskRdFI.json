@@ -1,0 +1,193 @@
+{
+ "id": "XDRHeskRdFI",
+ "erase": [
+  {
+   "rect": [
+    0,
+    460,
+    1280,
+    58
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    8,
+    205,
+    415,
+    128
+   ],
+   "colors": [
+    "#fce40c",
+    "#000000"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    422,
+    205,
+    850,
+    128
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    360,
+    1270,
+    100
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    460,
+    1270,
+    58
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    860,
+    90,
+    415,
+    125
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 460,
+   "w": 1280,
+   "h": 58,
+   "fill": "#050505"
+  },
+  {
+   "type": "text",
+   "x": 428.5,
+   "y": 196.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 117.17,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "低身長",
+     "color": "#fce40c"
+    },
+    {
+     "text": "だけど",
+     "size_em": 0.55
+    },
+    {
+     "text": "カッコいい"
+    }
+   ],
+   "box": [
+    8,
+    205,
+    1265,
+    128
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.735,
+   "skew": -1.3,
+   "spacing": 0.002,
+   "rotate": -0.15,
+   "fit_iou": 0.294
+  },
+  {
+   "type": "text",
+   "x": 47.5,
+   "y": 379.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 144.52,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "お洒落な",
+     "size_em": 0.72
+    },
+    {
+     "text": "芸能人5選"
+    }
+   ],
+   "box": [
+    5,
+    360,
+    1270,
+    155
+   ],
+   "tol": 20,
+   "scale_x": 1.246,
+   "spacing": 0.02,
+   "skew": -3,
+   "fit_iou": 0.274
+  },
+  {
+   "type": "text",
+   "text": "この人も実は低身長⁉",
+   "x": 884.0,
+   "y": 175.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 51.247,
+   "color": "#111111",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "rotate": -9.85,
+   "line": 1.0,
+   "box": [
+    860,
+    90,
+    415,
+    125
+   ],
+   "fit_color": "#111111",
+   "tol": 35,
+   "scale_x": 0.87,
+   "spacing": -0.228,
+   "skew": 3,
+   "fit_iou": 0.3
+  }
+ ]
+}

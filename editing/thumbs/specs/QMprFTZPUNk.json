@@ -1,0 +1,222 @@
+{
+ "id": "QMprFTZPUNk",
+ "erase": [
+  {
+   "rect": [
+    10,
+    8,
+    108,
+    470
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    450,
+    108,
+    155,
+    228
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    752,
+    108,
+    155,
+    228
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1049,
+    108,
+    155,
+    228
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    95,
+    462,
+    1020,
+    122
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    5,
+    585,
+    1275,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 17,
+   "y": 15,
+   "w": 95,
+   "h": 457,
+   "border": [
+    3,
+    "#ffffff"
+   ],
+   "radius": 18
+  },
+  {
+   "type": "text",
+   "text": "低身長男性必見",
+   "x": 64.0,
+   "y": 242.3,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 60.3,
+   "color": "#ffffff",
+   "vertical": true,
+   "m": [
+    26,
+    24,
+    78,
+    440,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.909
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 529.0,
+   "y": 217.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 276.7,
+   "color": "#1e1e1e",
+   "m": [
+    450,
+    108,
+    155,
+    228,
+    "#1e1e1e",
+    40
+   ],
+   "scale_x": 1.039
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 831.0,
+   "y": 217.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 276.7,
+   "color": "#1e1e1e",
+   "m": [
+    752,
+    108,
+    155,
+    228,
+    "#1e1e1e",
+    40
+   ],
+   "scale_x": 1.039
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 1128.0,
+   "y": 217.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 276.7,
+   "color": "#1e1e1e",
+   "m": [
+    1049,
+    108,
+    155,
+    228,
+    "#1e1e1e",
+    40
+   ],
+   "scale_x": 1.039
+  },
+  {
+   "type": "text",
+   "text": "春に向けて買うべき",
+   "x": 629.5,
+   "y": 517.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 115.4,
+   "color": "#ffffff",
+   "tgt": [
+    139,
+    468,
+    1108,
+    578
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.948
+  },
+  {
+   "type": "text",
+   "text": "ファッションアイテム10選",
+   "x": 633.0,
+   "y": 639.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 117.5,
+   "color": "#ffffff",
+   "tgt": [
+    15,
+    592,
+    1263,
+    702
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.887
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+"id": "V6zuRH7FnSE",
+"erase": [
+{
+"rect": [
+12,
+9,
+262,
+245
+],
+"full": true
+},
+{
+"rect": [
+530,
+55,
+300,
+160
+],
+"colors": [
+"#353535"
+],
+"tol": 30
+},
+{
+"rect": [
+1035,
+0,
+245,
+310
+],
+"colors": [
+"#f4ef19",
+"#111111",
+"#ffffff"
+],
+"tol": 25
+},
+{
+"rect": [
+0,
+345,
+1280,
+375
+],
+"colors": [
+"#c89a40",
+"#ffffff",
+"#e6c27a",
+"#8a5e22"
+],
+"tol": 25
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/gu_blue_v6zu.png",
+"x": 12,
+"y": 9,
+"w": 262,
+"h": 245
+},
+{
+"type": "text",
+"text": "超絶お洒落美容師",
+"x": 677.0,
+"y": 73.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 700,
+"size": 36.3,
+"tb": [
+561,
+799,
+58,
+92
+],
+"color": "#353535",
+"scale_x": 0.8
+},
+{
+"type": "text",
+"text": "",
+"x": 680.5,
+"y": 126.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 56.3,
+"tb": [
+536,
+824,
+101,
+154
+],
+"runs": [
+{
+"text": "ナミカズ"
+},
+{
+"text": "さん",
+"size_em": 0.55
+}
+],
+"skew": -8,
+"color": "#353535",
+"scale_x": 1.022
+},
+{
+"type": "text",
+"text": "コラボ",
+"x": 656.5,
+"y": 180.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 57.8,
+"tb": [
+594,
+722,
+156,
+209
+],
+"color": "#353535",
+"scale_x": 0.759
+},
+{
+"type": "text",
+"text": "視聴者",
+"x": 1221.5,
+"y": 154.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 97.2,
+"tb": [
+1168,
+1274,
+5,
+303
+],
+"vertical": true,
+"color": "#f4ef19",
+"strokes": [
+[
+6,
+"#111111"
+]
+],
+"tbs": true,
+"scale_x": 0.937
+},
+{
+"type": "text",
+"text": "プレゼント",
+"x": 1135.5,
+"y": 157.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 59.4,
+"tb": [
+1105,
+1168,
+4,
+305
+],
+"vertical": true,
+"color": "#f4ef19",
+"strokes": [
+[
+5,
+"#111111"
+]
+],
+"tbs": true,
+"scale_x": 0.923
+},
+{
+"type": "text",
+"text": "あります!",
+"x": 1070.0,
+"y": 155.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 58.8,
+"tb": [
+1041,
+1102,
+8,
+302
+],
+"vertical": true,
+"color": "#ffffff",
+"strokes": [
+[
+5,
+"#111111"
+]
+],
+"tbs": true,
+"scale_x": 1.02
+},
+{
+"type": "text",
+"text": "安い",
+"x": 167.5,
+"y": 406.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 133.0,
+"tb": [
+38,
+304,
+351,
+481
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 1.003
+},
+{
+"type": "text",
+"text": "のに",
+"x": 390.5,
+"y": 423.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 92.4,
+"tb": [
+301,
+481,
+381,
+476
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 0.982
+},
+{
+"type": "text",
+"text": "超カ",
+"x": 612.0,
+"y": 407.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 132.0,
+"tb": [
+487,
+727,
+351,
+479
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 0.966
+},
+{
+"type": "text",
+"text": "ッ",
+"x": 770.0,
+"y": 406.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 93.5,
+"tb": [
+730,
+812,
+386,
+456
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 1.14
+},
+{
+"type": "text",
+"text": "コいい!!",
+"x": 1019.5,
+"y": 399.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 145.9,
+"tb": [
+811,
+1233,
+351,
+474
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 0.812
+},
+{
+"type": "text",
+"text": "GU限定コーデ",
+"x": 632.0,
+"y": 589.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 218.8,
+"tb": [
+3,
+1273,
+484,
+723
+],
+"fill": "linear-gradient(180deg,#b88a3a 0%,#e6c27a 22%,#ffffff 48%,#f2dfb0 60%,#c4923c 82%,#8a5e22 100%)",
+"shadow": "3px 3px 0 #4a4a4a, 0 0 14px rgba(0,0,0,.8)",
+"palt": true,
+"scale_x": 0.95
+}
+],
+"grow": 13
+}

@@ -1,0 +1,202 @@
+{
+ "id": "Wd8YGiOSV08",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    78,
+    210,
+    215,
+    32
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    45,
+    240,
+    1195,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 8
+  },
+  {
+   "rect": [
+    45,
+    342,
+    1205,
+    172
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 8
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 86,
+   "y": 218,
+   "w": 17,
+   "h": 17,
+   "fill": "#ffffff",
+   "radius": 8.5
+  },
+  {
+   "type": "rect",
+   "x": 184,
+   "y": 218,
+   "w": 17,
+   "h": 17,
+   "fill": "#ffffff",
+   "radius": 8.5
+  },
+  {
+   "type": "rect",
+   "x": 281,
+   "y": 218,
+   "w": 17,
+   "h": 17,
+   "fill": "#ffffff",
+   "radius": 8.5
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "低身長でもスタイルよく見える",
+   "x": 642,
+   "y": 290,
+   "size": 90,
+   "spacing": -0.07
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "シ",
+   "x": 114.5,
+   "y": 432.5,
+   "size": 141
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "ャ",
+   "x": 238.5,
+   "y": 458.5,
+   "size": 135
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "ツ",
+   "x": 358.0,
+   "y": 434.0,
+   "size": 146
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "の",
+   "x": 482.5,
+   "y": 453.5,
+   "size": 122
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "小",
+   "x": 624.0,
+   "y": 435.5,
+   "size": 158
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "技",
+   "x": 794.0,
+   "y": 435.0,
+   "size": 159
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "1",
+   "x": 941.0,
+   "y": 428.0,
+   "size": 214
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "0",
+   "x": 1059.5,
+   "y": 428.5,
+   "size": 214
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "tol": 15,
+   "text": "選",
+   "x": 1186.5,
+   "y": 450.5,
+   "size": 119
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "MTOjgr-Vmas",
+ "erase": [
+  {
+   "rect": [
+    449,
+    259,
+    334,
+    160
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    350,
+    86,
+    135,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    395,
+    1280,
+    218
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    625,
+    1280,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 357,
+   "y": 93,
+   "w": 118,
+   "h": 118,
+   "fill": "#ffffff",
+   "radius": 59
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/arrow_red_curve_mtoj.png",
+   "x": 449,
+   "y": 259,
+   "w": 334,
+   "h": 160
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "人生"
+    },
+    {
+     "text": "が",
+     "size_em": 0.62
+    },
+    {
+     "text": "変わる"
+    }
+   ],
+   "x": 637.5,
+   "y": 491.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 216.8,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    10,
+    400,
+    1244,
+    606
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.036
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "が",
+     "size_em": 0.8
+    },
+    {
+     "text": "最短"
+    },
+    {
+     "text": "で",
+     "size_em": 0.8
+    },
+    {
+     "text": "カ"
+    },
+    {
+     "text": "ッ",
+     "size_em": 0.8
+    },
+    {
+     "text": "コよくなる方法"
+    }
+   ],
+   "x": 640.5,
+   "y": 665.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 74.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    8,
+    633,
+    1274,
+    704
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.984
+  }
+ ]
+}

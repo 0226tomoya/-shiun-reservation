@@ -1,0 +1,126 @@
+{
+ "id": "kg5KC0Fuw0s",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    14,
+    10,
+    166,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    209,
+    10,
+    168,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    8,
+    192,
+    126,
+    126
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    150,
+    192,
+    126,
+    126
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    332,
+    720,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    425,
+    1280,
+    295
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_kg5k.png",
+   "x": 14,
+   "y": 10,
+   "w": 166,
+   "h": 172
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_kg5k.png",
+   "x": 209,
+   "y": 10,
+   "w": 168,
+   "h": 172
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_kg5k.png",
+   "x": 8,
+   "y": 192,
+   "w": 126,
+   "h": 126
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_kg5k.png",
+   "x": 150,
+   "y": 192,
+   "w": 126,
+   "h": 126
+  },
+  {
+   "type": "text",
+   "text": "169cm以下の男性",
+   "x": 4,
+   "y": 324,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 90,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.97
+  },
+  {
+   "type": "text",
+   "text": "絶対買い‼",
+   "x": 4,
+   "y": 394,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 296,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.98
+  }
+ ]
+}

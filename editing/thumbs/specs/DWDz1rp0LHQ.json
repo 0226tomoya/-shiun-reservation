@@ -1,12 +1,145 @@
-{"id":"DWDz1rp0LHQ","erase":[
- {"rect":[1075,188,197,200],"full":true},
- {"rect":[0,5,1280,160],"colors":["#ffffff"],"tol":16},
- {"rect":[30,250,325,140],"colors":["#1a1a1a"],"tol":40},
- {"rect":[0,455,1280,260],"colors":["#ffffff"],"tol":16}
-],
-"layers":[
- {"type":"image","src":"assets/logos/zozotown_black_dwdz.png","x":1075,"y":188,"w":197,"h":200},
- {"type":"text","text":"ZOZOTOWNで買える","x":640,"y":85,"anchor":"cc","font":"Noto Sans JP","weight":900,"size":150,"color":"#ffffff","spacing":-0.04,"tgt":[7,12,1270,158],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"最大8cmUP!?","x":195,"y":320,"anchor":"cc","font":"Yusei Magic","weight":400,"size":48,"color":"#1a1a1a","rotate":-24,"spacing":0.1,"tgt":[38,255,350,385],"m":[0,0,1,1,"#fff","noscale"]},
- {"type":"text","runs":[{"text":"身長"},{"text":"が","size_em":0.55},{"text":"盛れる靴"}],"x":640,"y":585,"anchor":"cc","font":"Noto Sans JP","weight":900,"size":250,"color":"#ffffff","spacing":-0.03,"tgt":[4,462,1272,708],"m":[0,0,1,1,"#fff"]}
-]}
+{
+ "id": "DWDz1rp0LHQ",
+ "erase": [
+  {
+   "rect": [
+    1075,
+    188,
+    197,
+    200
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    5,
+    1280,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    30,
+    250,
+    330,
+    140
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    455,
+    1280,
+    260
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/zozotown_black_dwdz.png",
+   "x": 1075,
+   "y": 188,
+   "w": 197,
+   "h": 200
+  },
+  {
+   "type": "text",
+   "text": "ZOZOTOWNで買える",
+   "x": 641.0,
+   "y": 73.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 158.7,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "tgt": [
+    7,
+    12,
+    1270,
+    158
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.871
+  },
+  {
+   "type": "text",
+   "text": "最大8cmUP!?",
+   "x": 193.0,
+   "y": 312.5,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 52,
+   "color": "#ffffff",
+   "rotate": -20,
+   "spacing": 0.1,
+   "m": [
+    30,
+    250,
+    330,
+    140,
+    "#ffffff",
+    20,
+    "noscale"
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "身長"
+    },
+    {
+     "text": "が",
+     "size_em": 0.55
+    },
+    {
+     "text": "盛れる靴"
+    }
+   ],
+   "x": 633.0,
+   "y": 572.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 256.2,
+   "color": "#ffffff",
+   "spacing": -0.03,
+   "tgt": [
+    4,
+    462,
+    1272,
+    708
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.782
+  }
+ ]
+}

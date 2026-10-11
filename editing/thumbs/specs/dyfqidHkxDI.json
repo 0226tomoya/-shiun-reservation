@@ -1,0 +1,224 @@
+{
+ "id": "dyfqidHkxDI",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    15,
+    18,
+    1250,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    15,
+    686,
+    1250,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    15,
+    18,
+    14,
+    680
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1249,
+    18,
+    14,
+    680
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1022,
+    40,
+    225,
+    198
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    35,
+    220,
+    950,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    368,
+    530,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    700,
+    368,
+    540,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    560,
+    368,
+    140,
+    190
+   ],
+   "by": "layers",
+   "grow": 9
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 21,
+   "y": 24,
+   "w": 1237,
+   "h": 671,
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "7"
+    },
+    {
+     "text": "選",
+     "size_em": 0.55
+    }
+   ],
+   "x": 1030,
+   "y": 4,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 205,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "palt": true
+  },
+  {
+   "type": "rect",
+   "x": 1030,
+   "y": 215,
+   "w": 209,
+   "h": 6,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1030,
+   "y": 228,
+   "w": 209,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "164"
+    },
+    {
+     "text": "cm",
+     "size_em": 0.85
+    }
+   ],
+   "x": 42,
+   "y": 190,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 140,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.2
+  },
+  {
+   "type": "text",
+   "text": "でも",
+   "x": 714,
+   "y": 210,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.1
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "彼女"
+    },
+    {
+     "text": "が",
+     "size_em": 0.62
+    },
+    {
+     "text": "できる方法"
+    }
+   ],
+   "x": 34,
+   "y": 350,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 192,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)"
+  }
+ ]
+}

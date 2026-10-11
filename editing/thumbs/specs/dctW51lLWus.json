@@ -1,0 +1,135 @@
+{
+ "id": "dctW51lLWus",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    13,
+    10,
+    197,
+    199
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    246,
+    10,
+    257,
+    202
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    752,
+    40,
+    480,
+    170
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1232,
+    22,
+    48,
+    92
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    0,
+    468,
+    1280,
+    245
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_dctw.png",
+   "x": 13,
+   "y": 10,
+   "w": 197,
+   "h": 199
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_colon_c_black_dctw.png",
+   "x": 246,
+   "y": 10,
+   "w": 257,
+   "h": 202
+  },
+  {
+   "type": "text",
+   "text": "完売間近",
+   "x": 755,
+   "y": 42,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 142,
+   "color": "#111111",
+   "scale_x": 0.86
+  },
+  {
+   "type": "text",
+   "text": "!?",
+   "x": 1238,
+   "y": 18,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 52,
+   "color": "#111111",
+   "rotate": 8
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "急"
+    },
+    {
+     "text": "いで",
+     "size_em": 0.86
+    },
+    {
+     "text": "手"
+    },
+    {
+     "text": "に",
+     "size_em": 0.86
+    },
+    {
+     "text": "入"
+    },
+    {
+     "text": "れろ",
+     "size_em": 0.86
+    }
+   ],
+   "x": 8,
+   "y": 448,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 240,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.78,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  }
+ ]
+}

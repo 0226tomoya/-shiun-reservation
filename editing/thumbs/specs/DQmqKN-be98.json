@@ -1,0 +1,86 @@
+{
+ "id": "DQmqKN-be98",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    240,
+    5,
+    1040,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    502,
+    199,
+    320,
+    322
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    512,
+    1280,
+    208
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "絶対"
+    },
+    {
+     "text": "に",
+     "size_em": 0.62
+    },
+    {
+     "text": "買うべき"
+    }
+   ],
+   "x": 244,
+   "y": -10,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 192,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_big_dqmq.png",
+   "x": 502,
+   "y": 199,
+   "w": 320,
+   "h": 322
+  },
+  {
+   "type": "text",
+   "text": "ユニクロニット",
+   "x": 0,
+   "y": 490,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 212,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "scale_x": 1.08,
+   "spacing": -0.1
+  }
+ ]
+}

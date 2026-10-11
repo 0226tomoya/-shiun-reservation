@@ -1,0 +1,304 @@
+{
+ "id": "fELtFrdlAuY",
+ "erase": [
+  {
+   "rect": [
+    0,
+    10,
+    500,
+    250
+   ],
+   "by": "layers",
+   "grow": 13
+  },
+  {
+   "rect": [
+    0,
+    262,
+    500,
+    250
+   ],
+   "by": "layers",
+   "grow": 13
+  },
+  {
+   "rect": [
+    1080,
+    0,
+    200,
+    575
+   ],
+   "by": "layers",
+   "grow": 13
+  },
+  {
+   "rect": [
+    5,
+    535,
+    535,
+    75
+   ],
+   "colors": [
+    "#f9f031"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    5,
+    612,
+    345,
+    103
+   ],
+   "colors": [
+    "#f9f031"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    345,
+    645,
+    380,
+    70
+   ],
+   "colors": [
+    "#f9f031"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    878,
+    510,
+    388,
+    68
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    755,
+    585,
+    520,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "2日",
+   "x": 260.0,
+   "y": 118.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 255.5,
+   "color": "#f8f8f8",
+   "tgt": [
+    18,
+    25,
+    470,
+    250
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.23
+  },
+  {
+   "type": "text",
+   "text": "密着",
+   "x": 252.0,
+   "y": 372.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 241.1,
+   "color": "#f8f8f8",
+   "tgt": [
+    18,
+    270,
+    480,
+    500
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.996
+  },
+  {
+   "type": "text",
+   "text": "低身長",
+   "x": 1181.0,
+   "y": 283.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 190.0,
+   "color": "#ffffff",
+   "opacity": 0.7,
+   "vertical": true,
+   "tgt": [
+    1088,
+    5,
+    1275,
+    565
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "text": "アパレルブランド",
+   "x": 270.5,
+   "y": 572.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 67.2,
+   "color": "#f9f031",
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    11,
+    543,
+    532,
+    606
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.996
+  },
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 180.0,
+   "y": 662.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 99.2,
+   "color": "#f9f031",
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    12,
+    622,
+    343,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.231
+  },
+  {
+   "type": "text",
+   "text": "ディレクター",
+   "x": 534.5,
+   "y": 676.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 54.8,
+   "color": "#f9f031",
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    352,
+    652,
+    717,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.161
+  },
+  {
+   "type": "text",
+   "text": "ファッション",
+   "x": 1068.5,
+   "y": 539.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 62.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    886,
+    517,
+    1256,
+    572
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.025
+  },
+  {
+   "type": "text",
+   "text": "YouTuber",
+   "x": 1013.5,
+   "y": 629.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 108.8,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    762,
+    590,
+    1265,
+    678
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.971
+  }
+ ]
+}

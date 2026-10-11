@@ -1,0 +1,159 @@
+{
+ "id": "umXcj756V9s",
+ "grow": 13,
+ "front": [
+  [
+   [
+    545,
+    0
+   ],
+   [
+    748,
+    0
+   ],
+   [
+    752,
+    110
+   ],
+   [
+    740,
+    190
+   ],
+   [
+    715,
+    250
+   ],
+   [
+    690,
+    268
+   ],
+   [
+    575,
+    268
+   ],
+   [
+    548,
+    200
+   ],
+   [
+    538,
+    100
+   ]
+  ]
+ ],
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    285
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    462,
+    353,
+    354,
+    356
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    38,
+    460,
+    380,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    860,
+    452,
+    375,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "秋服爆買",
+   "x": 2,
+   "y": -34,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 292,
+   "color": "#ffffff",
+   "spacing": 0.12,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_umxc.png",
+   "x": 462,
+   "y": 353,
+   "w": 354,
+   "h": 356
+  },
+  {
+   "type": "text",
+   "text": "女子ウケ◎",
+   "x": 224,
+   "y": 506,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 74,
+   "color": "#ffffff",
+   "rotate": -5,
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "line",
+   "x1": 49,
+   "y1": 578,
+   "x2": 409,
+   "y2": 545,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "安すぎる◎",
+   "x": 1048,
+   "y": 502,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 74,
+   "color": "#ffffff",
+   "rotate": 5,
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "line",
+   "x1": 867,
+   "y1": 545,
+   "x2": 1228,
+   "y2": 578,
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

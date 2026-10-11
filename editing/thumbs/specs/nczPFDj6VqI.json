@@ -1,0 +1,145 @@
+{
+ "id": "nczPFDj6VqI",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    5,
+    12,
+    820,
+    115
+   ],
+   "colors": [
+    "#fffbd8"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    937,
+    7,
+    337,
+    161
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    10,
+    322,
+    820,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    75,
+    488,
+    550,
+    42
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    0,
+    528,
+    1280,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "UNIQLO U 2024AW",
+   "x": 12,
+   "y": 0,
+   "font": "Oswald",
+   "weight": 400,
+   "size": 112,
+   "color": "#fffbd8"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_pair_white_ncz.png",
+   "x": 937,
+   "y": 7,
+   "w": 337,
+   "h": 161
+  },
+  {
+   "type": "text",
+   "text": "ユニクロU",
+   "x": 16,
+   "y": 302,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 172,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 1.035
+  },
+  {
+   "type": "rect",
+   "x": 85,
+   "y": 496,
+   "w": 24,
+   "h": 24,
+   "radius": 12,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 250,
+   "y": 496,
+   "w": 24,
+   "h": 24,
+   "radius": 12,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 415,
+   "y": 496,
+   "w": 24,
+   "h": 24,
+   "radius": 12,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 580,
+   "y": 496,
+   "w": 24,
+   "h": 24,
+   "radius": 12,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "買うべきアイテム",
+   "x": 6,
+   "y": 516,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 184,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "spacing": -0.02
+  }
+ ]
+}

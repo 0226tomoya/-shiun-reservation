@@ -1,0 +1,313 @@
+{
+ "id": "yW8RY0VbOHc",
+ "erase": [
+  {
+   "rect": [
+    365,
+    8,
+    912,
+    82
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    512,
+    102,
+    760,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    685,
+    246,
+    412,
+    212
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    687,
+    502,
+    410,
+    205
+   ],
+   "colors": [
+    "#fce40c"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    36,
+    270,
+    118
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    112,
+    152,
+    193,
+    145
+   ],
+   "colors": [
+    "#e01818"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/arrow_red_curve_yw8r.png",
+   "x": 112,
+   "y": 152,
+   "w": 193,
+   "h": 145
+  },
+  {
+   "type": "text",
+   "text": "服好きなら絶対に知っておくべき",
+   "x": 369.5,
+   "y": 16.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 60.36,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    365,
+    8,
+    912,
+    82
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.006,
+   "fit_iou": 0.521
+  },
+  {
+   "type": "text",
+   "x": 522.5,
+   "y": 90.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 124.57,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "フ"
+    },
+    {
+     "text": "ァ",
+     "size_em": 0.75
+    },
+    {
+     "text": "ッ",
+     "size_em": 0.75
+    },
+    {
+     "text": "シ"
+    },
+    {
+     "text": "ョ",
+     "size_em": 0.75
+    },
+    {
+     "text": "ンの"
+    }
+   ],
+   "box": [
+    512,
+    102,
+    760,
+    125
+   ],
+   "tol": 20,
+   "scale_x": 0.986,
+   "spacing": 0.018,
+   "skew": -4.9,
+   "rotate": 0.15,
+   "fit_iou": 0.446
+  },
+  {
+   "type": "text",
+   "text": "小技",
+   "x": 687.0,
+   "y": 240.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 213.66,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    685,
+    246,
+    412,
+    212
+   ],
+   "tol": 20,
+   "scale_x": 0.938,
+   "spacing": 0.006,
+   "fit_iou": 0.854
+  },
+  {
+   "type": "text",
+   "text": "20選",
+   "x": 704.0,
+   "y": 490.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 202.866,
+   "color": "#fce40c",
+   "strokes": [
+    [
+     4,
+     "#0c0c0c"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    687,
+    502,
+    410,
+    205
+   ],
+   "fit_color": "#fce40c",
+   "tol": 40,
+   "scale_x": 0.922,
+   "spacing": -0.014,
+   "rotate": 0.65,
+   "skew": -0.3,
+   "fit_iou": 0.549
+  },
+  {
+   "type": "text",
+   "text": "身長",
+   "x": 79.0,
+   "y": 35.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 41.055,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    0,
+    36,
+    270,
+    48
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.978,
+   "spacing": 0.066,
+   "rotate": -1.5,
+   "skew": -3,
+   "fit_iou": 0.566
+  },
+  {
+   "type": "text",
+   "text": "164cm",
+   "x": -3.5,
+   "y": 78.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 75.963,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    0,
+    86,
+    270,
+    66
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.029,
+   "rotate": -0.95,
+   "skew": -1,
+   "fit_iou": 0.529
+  },
+  {
+   "type": "text",
+   "text": "低身長のメンズ必見‼",
+   "x": 21.5,
+   "y": 602.5,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 75.653,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.894,
+   "skew": 1,
+   "spacing": 0.002,
+   "fit_iou": 0.215
+  }
+ ]
+}

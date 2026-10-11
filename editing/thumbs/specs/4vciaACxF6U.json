@@ -1,0 +1,78 @@
+{
+ "id": "4vciaACxF6U",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    5,
+    435,
+    1270,
+    192
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    110,
+    632,
+    1060,
+    82
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "COMOLI",
+   "x": 12,
+   "y": 390,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 232,
+   "color": "#ffffff",
+   "scale_x": 0.86,
+   "spacing": -0.03,
+   "shadow": "0 0 8px rgba(0,0,0,.25)"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "の",
+     "size_em": 0.72
+    },
+    {
+     "text": "名作",
+     "spacing": -0.02
+    }
+   ],
+   "x": 760,
+   "y": 432,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 190,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.25)"
+  },
+  {
+   "type": "text",
+   "text": "ベルテッドデニムを購入しました",
+   "x": 118,
+   "y": 631,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 72,
+   "color": "#ffffff",
+   "spacing": -0.035,
+   "shadow": "0 0 8px rgba(0,0,0,.25)"
+  }
+ ]
+}

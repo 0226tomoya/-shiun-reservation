@@ -122,10 +122,10 @@
    "type": "text",
    "text": ":C",
    "x": 1041.0,
-   "y": -8.5,
+   "y": -14.5,
    "font": "Montserrat",
    "weight": 700,
-   "size": 220.99,
+   "size": 220.958,
    "color": "#0a0a0a",
    "line": 1.0,
    "box": [
@@ -135,7 +135,10 @@
     160
    ],
    "tol": 35,
-   "scale_x": 1.047
+   "scale_x": 1.051,
+   "spacing": 0.004,
+   "rotate": 0.15,
+   "fit_iou": 0.64
   },
   {
    "type": "rect",
@@ -148,13 +151,13 @@
   {
    "type": "text",
    "text": "ユニクロの買うべき春服",
-   "x": 109.0,
-   "y": 296.5,
+   "x": 112.5,
+   "y": 294.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 117.08,
+   "size": 114.41,
    "color": "#ffffff",
-   "skew": -6,
+   "skew": -7.3,
    "strokes": [
     [
      4,
@@ -171,17 +174,20 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.823
+   "scale_x": 0.837,
+   "spacing": 0.002,
+   "rotate": 0.3,
+   "fit_iou": 0.409
   },
   {
    "type": "text",
-   "x": 42.0,
-   "y": 441.5,
+   "x": 25.0,
+   "y": 440.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 247.64,
+   "size": 247.02,
    "fill": "linear-gradient(180deg,#b28a50 0%,#c9a87a 30%,#faef8d 50%,#ceb279 65%,#b08040 100%)",
-   "skew": -8,
+   "skew": -7,
    "strokes": [
     [
      5,
@@ -198,26 +204,11 @@
    ],
    "fit_color": "#e0c070",
    "tol": 50,
-   "scale_x": 0.983,
-   "runs": [
-    {
-     "text": "全"
-    },
-    {
-     "text": "て",
-     "size_em": 0.8
-    },
-    {
-     "text": "分"
-    },
-    {
-     "text": "かる",
-     "size_em": 0.8
-    },
-    {
-     "text": "‼"
-    }
-   ]
+   "scale_x": 0.956,
+   "spacing": -0.002,
+   "rotate": 0.15,
+   "fit_iou": 0.336,
+   "text": "全て分かる‼"
   }
  ]
 }

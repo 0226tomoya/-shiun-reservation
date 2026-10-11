@@ -1,0 +1,95 @@
+{
+ "id": "CfiAoNO6bzM",
+ "erase": [
+  {
+   "rect": [
+    538,
+    283,
+    214,
+    44
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    557,
+    411,
+    75,
+    74
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    649,
+    411,
+    74,
+    73
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    2,
+    330,
+    1276,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/jwanderson_black_cfia.png",
+   "x": 538,
+   "y": 283,
+   "w": 214,
+   "h": 44
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_cfia.png",
+   "x": 557,
+   "y": 411,
+   "w": 75,
+   "h": 74
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_cfia.png",
+   "x": 649,
+   "y": 411,
+   "w": 74,
+   "h": 73
+  },
+  {
+   "type": "text",
+   "text": "Tiktokで話題のトレンドシャツ、ぶっちゃけどうなの？",
+   "x": 647.5,
+   "y": 356.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 49.11,
+   "spacing": 0.078,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    2,
+    330,
+    1276,
+    60
+   ],
+   "tol": 16,
+   "scale_x": 0.958,
+   "fit_iou": 0.642
+  }
+ ]
+}

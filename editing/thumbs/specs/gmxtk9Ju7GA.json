@@ -1,0 +1,101 @@
+{
+ "id": "gmxtk9Ju7GA",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    14,
+    13,
+    186,
+    187
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    245,
+    13,
+    186,
+    187
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    884,
+    28,
+    288,
+    78
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    392,
+    1280,
+    328
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_gmxt.png",
+   "x": 14,
+   "y": 13,
+   "w": 186,
+   "h": 187
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_gmxt.png",
+   "x": 245,
+   "y": 13,
+   "w": 186,
+   "h": 187
+  },
+  {
+   "type": "rect",
+   "x": 886,
+   "y": 30,
+   "w": 284,
+   "h": 74,
+   "fill": "#ffffff",
+   "radius": 22
+  },
+  {
+   "type": "text",
+   "text": "秋服最高かよ",
+   "x": 1021,
+   "y": 70,
+   "anchor": "cc",
+   "font": "Klee One",
+   "weight": 600,
+   "size": 58,
+   "color": "#111111"
+  },
+  {
+   "type": "text",
+   "text": "大当たり連発",
+   "x": 4,
+   "y": 372,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 310,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.8,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "spacing": -0.08
+  }
+ ]
+}

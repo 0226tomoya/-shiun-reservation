@@ -1,0 +1,153 @@
+{
+ "id": "Gzyy7F0Xn44",
+ "erase": [
+  {
+   "rect": [
+    13,
+    95,
+    172,
+    186
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    70,
+    0,
+    1140,
+    92
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    0,
+    392,
+    1280,
+    325
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_gzyy.png",
+   "x": 13,
+   "y": 95,
+   "w": 172,
+   "h": 186
+  },
+  {
+   "type": "text",
+   "text": "ユニクロ×JW ANDERSON",
+   "x": 643.0,
+   "y": 45.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82.2,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.35)",
+   "m": [
+    75,
+    0,
+    1130,
+    92,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.102
+  },
+  {
+   "type": "text",
+   "text": "本",
+   "x": 165.0,
+   "y": 537.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 328.9,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    0,
+    392,
+    340,
+    325,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.966
+  },
+  {
+   "type": "text",
+   "text": "日",
+   "x": 476.5,
+   "y": 539.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 330.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    345,
+    392,
+    265,
+    325,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.983
+  },
+  {
+   "type": "text",
+   "text": "発",
+   "x": 785.5,
+   "y": 538.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 321.7,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    615,
+    392,
+    335,
+    325,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.975
+  },
+  {
+   "type": "text",
+   "text": "売",
+   "x": 1115.5,
+   "y": 535.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 325.8,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    952,
+    392,
+    323,
+    325,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.971
+  }
+ ]
+}

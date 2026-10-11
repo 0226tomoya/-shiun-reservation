@@ -1,0 +1,69 @@
+{
+ "id": "EAzsTH-_Qtk",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    400,
+    1280,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    548,
+    1245,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "が",
+     "size_em": 0.62
+    },
+    {
+     "text": "着ると"
+    }
+   ],
+   "x": 6,
+   "y": 391,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 138,
+   "color": "#ffffff",
+   "palt": false,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "scale_x": 1.08
+  },
+  {
+   "type": "text",
+   "text": "カッコいい秋服9選",
+   "x": 44,
+   "y": 536,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 150,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "scale_x": 1.0
+  }
+ ]
+}

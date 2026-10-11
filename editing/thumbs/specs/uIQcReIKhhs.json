@@ -1,0 +1,245 @@
+{
+ "id": "uIQcReIKhhs",
+ "erase": [
+  {
+   "rect": [
+    8,
+    20,
+    372,
+    190
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    8,
+    241,
+    460,
+    190
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    816,
+    217,
+    460,
+    232
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    850,
+    20,
+    400,
+    88
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    835,
+    82,
+    435,
+    118
+   ],
+   "colors": [
+    "#f0e939",
+    "#222222"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    462,
+    1280,
+    250
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 10,
+   "y": 23,
+   "w": 368,
+   "h": 184,
+   "fill": "#ffffff",
+   "radius": 14
+  },
+  {
+   "type": "rect",
+   "x": 11,
+   "y": 244,
+   "w": 455,
+   "h": 184,
+   "fill": "#ffffff",
+   "radius": 14
+  },
+  {
+   "type": "rect",
+   "x": 819,
+   "y": 220,
+   "w": 455,
+   "h": 227,
+   "fill": "#ffffff",
+   "radius": 14
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/avatar_gray_uiqc.png",
+   "x": 16,
+   "y": 44,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/avatar_gray_uiqc.png",
+   "x": 16,
+   "y": 264,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/avatar_gray_uiqc.png",
+   "x": 826,
+   "y": 240,
+   "w": 46,
+   "h": 46
+  },
+  {
+   "type": "text",
+   "text": "顔には自信があるけど\nチビだから\n総合的にブスになる",
+   "x": 73,
+   "y": 38.25,
+   "anchor": "lt",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 30,
+   "line": 1.717,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "text",
+   "text": "高身長の男たちが\n努力で身長伸ばしたみたいな\n顔をしているのに腹が立つ",
+   "x": 73,
+   "y": 258.25,
+   "anchor": "lt",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 30,
+   "line": 1.717,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "text",
+   "text": "好きな女の子が\n「贅沢言わないから\n170cm 以上は欲しい」\nって言ってて○にたくなった",
+   "x": 880,
+   "y": 236.25,
+   "anchor": "lt",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 30,
+   "line": 1.7,
+   "color": "#1a1a1a"
+  },
+  {
+   "type": "text",
+   "text": "170cm以上の",
+   "x": 1047.0,
+   "y": 57.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 79.4,
+   "color": "#ffffff",
+   "rotate": 3,
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "tgt": [
+    864,
+    25,
+    1229,
+    104
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.738
+  },
+  {
+   "type": "text",
+   "text": "高身長男子禁制",
+   "x": 1054.0,
+   "y": 142.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 67.6,
+   "color": "#f0e939",
+   "rotate": 3,
+   "strokes": [
+    [
+     3,
+     "#3a3a3a"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    858,
+    105,
+    1252,
+    188
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.847
+  },
+  {
+   "type": "text",
+   "text": "低身長の嘆き",
+   "x": 641.5,
+   "y": 572.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 245.8,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    5,
+    468,
+    1269,
+    703
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.94,
+   "spacing": -0.08
+  }
+ ]
+}

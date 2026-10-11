@@ -1,0 +1,217 @@
+{
+ "id": "XmL47sLG3w0",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    10,
+    8,
+    260,
+    65
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    10,
+    75,
+    1260,
+    255
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    330,
+    1260,
+    236
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    14,
+    584,
+    1252,
+    75
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "164"
+    },
+    {
+     "text": "cm",
+     "size_em": 0.85
+    }
+   ],
+   "x": 14,
+   "y": 4,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 44,
+   "color": "#111111",
+   "palt": true
+  },
+  {
+   "type": "line",
+   "x1": 187,
+   "y1": 38,
+   "x2": 253,
+   "y2": 58,
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "x1": 253,
+   "y1": 58,
+   "x2": 236,
+   "y2": 63,
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "line",
+   "x1": 253,
+   "y1": 58,
+   "x2": 243,
+   "y2": 44,
+   "width": 3,
+   "color": "#111111"
+  },
+  {
+   "type": "text",
+   "x": 14,
+   "y": 52,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 250,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.92,
+   "runs": [
+    {
+     "text": "低身長",
+     "spacing": -0.02
+    },
+    {
+     "text": "の",
+     "size_em": 0.65,
+     "spacing": -0.08
+    },
+    {
+     "text": "天敵"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "着こなす方法",
+   "x": 14,
+   "y": 300,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 250,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.86
+  },
+  {
+   "type": "rect",
+   "x": 17,
+   "y": 587,
+   "w": 358,
+   "h": 69,
+   "fill": "#ffffff",
+   "radius": 10
+  },
+  {
+   "type": "text",
+   "text": "ワイドパンツ",
+   "x": 199.5,
+   "y": 621,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 46,
+   "color": "#111111",
+   "spacing": 0.16
+  },
+  {
+   "type": "rect",
+   "x": 409,
+   "y": 587,
+   "w": 360,
+   "h": 69,
+   "fill": "#ffffff",
+   "radius": 10
+  },
+  {
+   "type": "text",
+   "text": "ロングコート",
+   "x": 592.5,
+   "y": 621,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 46,
+   "color": "#111111",
+   "spacing": 0.16
+  },
+  {
+   "type": "rect",
+   "x": 792,
+   "y": 587,
+   "w": 471,
+   "h": 69,
+   "fill": "#ffffff",
+   "radius": 10
+  },
+  {
+   "type": "text",
+   "text": "ダウンジャケット",
+   "x": 1031.0,
+   "y": 621,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 46,
+   "color": "#111111",
+   "spacing": 0.16
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "yXbm2bU0Tis",
+ "erase": [
+  {
+   "rect": [
+    238,
+    478,
+    1042,
+    242
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    477,
+    238,
+    243
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    946,
+    275,
+    90,
+    91
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1061,
+    275,
+    91,
+    91
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    856,
+    390,
+    80,
+    78
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    955,
+    390,
+    80,
+    78
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1062,
+    390,
+    80,
+    78
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1158,
+    388,
+    100,
+    80
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 238,
+   "y": 478,
+   "w": 1042,
+   "h": 242,
+   "fill": "#000000"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_big_yxbm.png",
+   "x": 0,
+   "y": 477,
+   "w": 238,
+   "h": 243
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_yxbm.png",
+   "x": 946,
+   "y": 275,
+   "w": 90,
+   "h": 91
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_yxbm.png",
+   "x": 1061,
+   "y": 275,
+   "w": 91,
+   "h": 91
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_yxbm.png",
+   "x": 856,
+   "y": 390,
+   "w": 80,
+   "h": 78
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_yxbm.png",
+   "x": 955,
+   "y": 390,
+   "w": 80,
+   "h": 78
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_yxbm_2.png",
+   "x": 1062,
+   "y": 390,
+   "w": 80,
+   "h": 78
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_colon_c_black_yxbm.png",
+   "x": 1158,
+   "y": 388,
+   "w": 100,
+   "h": 80
+  },
+  {
+   "type": "text",
+   "text": "最強Tier表",
+   "x": 236.5,
+   "y": 486.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 192.911,
+   "fill": "linear-gradient(180deg,#fbf9b6 0%,#e7e220 30%,#fdeebd 50%,#eaa123 62%,#fbe18d 75%,#fb7207 100%)",
+   "strokes": [
+    [
+     3,
+     "#3a2000"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    240,
+    480,
+    1040,
+    235
+   ],
+   "fit_color": "#f5e070",
+   "tol": 60,
+   "scale_x": 1.033,
+   "skew": 1,
+   "fit_iou": 0.449
+  }
+ ]
+}

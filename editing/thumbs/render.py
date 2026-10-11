@@ -351,6 +351,10 @@ def run(spec_path, orig_path, out_dir, page):
     uni = (A | Tm).sum()
     iou = float((A & Tm).sum() / uni) if uni else 0.0
     det['iou'] = round(iou, 3)
+    # 細い文字のにじみを 2px まで許した形の一致（参考値）
+    k = np.ones((5, 5), np.uint8)
+    Ad, Td = cv2.dilate(A.astype(np.uint8), k) > 0, cv2.dilate(Tm.astype(np.uint8), k) > 0
+    det['iou_tol'] = round(float(((A & Td).sum() + (Tm & Ad).sum()) / max(1, A.sum() + Tm.sum())), 3)
     det['region'] = sc
     sc = round(100 * (0.5 * iou) + 0.5 * sc, 1)
     os.makedirs(out_dir, exist_ok=True)

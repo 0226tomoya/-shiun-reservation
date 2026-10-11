@@ -1,0 +1,341 @@
+{
+ "id": "FByYtwdZNqM",
+ "erase": [
+  {
+   "rect": [
+    0,
+    5,
+    585,
+    212
+   ],
+   "colors": [
+    "#f7f6f4",
+    "#3c3c3c"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    862,
+    45,
+    418,
+    182
+   ],
+   "colors": [
+    "#f7f6f4",
+    "#3c3c3c"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    0,
+    220,
+    440,
+    190
+   ],
+   "colors": [
+    "#f7f6f4",
+    "#3c3c3c"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    832,
+    275,
+    440,
+    160
+   ],
+   "colors": [
+    "#f7f6f4",
+    "#3c3c3c"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    5,
+    425,
+    245,
+    285
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    250,
+    425,
+    226,
+    285
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    476,
+    425,
+    430,
+    285
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    906,
+    440,
+    320,
+    270
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 12,
+   "w": 582,
+   "h": 186,
+   "fill": "#f7f6f4",
+   "radius": 93
+  },
+  {
+   "type": "rect",
+   "x": 874,
+   "y": 52,
+   "w": 410,
+   "h": 166,
+   "fill": "#f7f6f4",
+   "radius": 83
+  },
+  {
+   "type": "rect",
+   "x": -10,
+   "y": 227,
+   "w": 437,
+   "h": 172,
+   "fill": "#f7f6f4",
+   "radius": 86
+  },
+  {
+   "type": "rect",
+   "x": 842,
+   "y": 282,
+   "w": 425,
+   "h": 146,
+   "fill": "#f7f6f4",
+   "radius": 73
+  },
+  {
+   "type": "text",
+   "text": "似合うものが分からず\n着たいと思える服がない",
+   "x": 279.5,
+   "y": 100.5,
+   "anchor": "cc",
+   "font": "Zen Maru Gothic",
+   "weight": 700,
+   "size": 50.5,
+   "line": 1.5,
+   "spacing": 0.15,
+   "color": "#3c3c3c",
+   "tgt": [
+    21,
+    40,
+    530,
+    163
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.813
+  },
+  {
+   "type": "text",
+   "text": "似合う服は\nどう見つけるの？",
+   "x": 1089.0,
+   "y": 126.5,
+   "anchor": "cc",
+   "font": "Zen Maru Gothic",
+   "weight": 700,
+   "size": 51.6,
+   "line": 1.5,
+   "spacing": 0.15,
+   "color": "#3c3c3c",
+   "tgt": [
+    911,
+    67,
+    1253,
+    192
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.753
+  },
+  {
+   "type": "text",
+   "text": "オススメの\nシルバーアクセは？",
+   "x": 222.0,
+   "y": 308.5,
+   "anchor": "cc",
+   "font": "Zen Maru Gothic",
+   "weight": 700,
+   "size": 53.7,
+   "line": 1.5,
+   "spacing": 0.15,
+   "color": "#3c3c3c",
+   "tgt": [
+    13,
+    250,
+    419,
+    374
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.765
+  },
+  {
+   "type": "text",
+   "text": "奥さんへの\nプレゼントは？",
+   "x": 1069.5,
+   "y": 358.5,
+   "anchor": "cc",
+   "font": "Zen Maru Gothic",
+   "weight": 700,
+   "size": 44.5,
+   "line": 1.5,
+   "spacing": 0.15,
+   "color": "#3c3c3c",
+   "tgt": [
+    912,
+    305,
+    1213,
+    413
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.885
+  },
+  {
+   "type": "text",
+   "text": "質",
+   "x": 131.5,
+   "y": 552.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 271.2,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "m": [
+    5,
+    425,
+    245,
+    285,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.918
+  },
+  {
+   "type": "text",
+   "text": "問",
+   "x": 364.5,
+   "y": 551.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 275.1,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "m": [
+    250,
+    425,
+    226,
+    285,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.917
+  },
+  {
+   "type": "text",
+   "text": "答え",
+   "x": 697.0,
+   "y": 552.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 271.9,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "m": [
+    476,
+    425,
+    430,
+    285,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.802
+  },
+  {
+   "type": "text",
+   "text": "ます",
+   "x": 1054.0,
+   "y": 556.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 273.3,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "m": [
+    906,
+    425,
+    374,
+    285,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.618,
+   "tgt": [
+    911,
+    452,
+    1213,
+    698
+   ]
+  }
+ ]
+}

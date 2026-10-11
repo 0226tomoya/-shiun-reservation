@@ -1,0 +1,98 @@
+{
+ "id": "Um0ugaPle68",
+ "erase": [
+  {
+   "rect": [
+    28,
+    16,
+    176,
+    176
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    66,
+    326,
+    1146,
+    68
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    182,
+    402,
+    918,
+    54
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_um0u.png",
+   "x": 28,
+   "y": 16,
+   "w": 176,
+   "h": 176
+  },
+  {
+   "type": "text",
+   "text": "GUで完成するメンズの夏スタイリング",
+   "x": 643.5,
+   "y": 358.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 56.29,
+   "spacing": 0.144,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    66,
+    326,
+    1146,
+    68
+   ],
+   "tol": 18,
+   "scale_x": 1.01,
+   "fit_iou": 0.566
+  },
+  {
+   "type": "text",
+   "text": "~今年らしいコーデが1万円以内でできる~",
+   "x": 642.0,
+   "y": 426.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 40.22,
+   "spacing": 0.146,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    182,
+    402,
+    918,
+    54
+   ],
+   "tol": 18,
+   "scale_x": 1.038,
+   "fit_iou": 0.525
+  }
+ ]
+}

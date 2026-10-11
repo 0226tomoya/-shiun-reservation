@@ -1,0 +1,147 @@
+{
+ "id": "Shbd_lNyHsQ",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    420,
+    720
+   ],
+   "colors": [
+    "#fff200"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    845,
+    22,
+    392,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    748,
+    115,
+    520,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "新",
+   "x": 207.0,
+   "y": 144.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 393.4,
+   "color": "#fff200",
+   "tgt": [
+    6,
+    -18,
+    402,
+    352
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.044
+  },
+  {
+   "type": "text",
+   "text": "作",
+   "x": 205.0,
+   "y": 531.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 391.4,
+   "color": "#fff200",
+   "tgt": [
+    6,
+    368,
+    402,
+    738
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.052
+  },
+  {
+   "type": "text",
+   "text": "話題の〇〇が",
+   "x": 1040.5,
+   "y": 56.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 60.7,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.35)",
+   "m": [
+    838,
+    25,
+    410,
+    90,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 1.035,
+   "tgt": [
+    854,
+    30,
+    1228,
+    88
+   ]
+  },
+  {
+   "type": "text",
+   "text": "マジで良かった!!",
+   "x": 999.5,
+   "y": 154.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 62.8,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.35)",
+   "m": [
+    748,
+    115,
+    520,
+    95,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 1.041,
+   "tgt": [
+    753,
+    128,
+    1247,
+    188
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": "vkvVfB4f5IE",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    80,
+    345,
+    295,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    20,
+    385,
+    1245,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    10,
+    522,
+    1270,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 90,
+   "y": 352,
+   "w": 23,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": 11.5
+  },
+  {
+   "type": "rect",
+   "x": 214,
+   "y": 352,
+   "w": 23,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": 11.5
+  },
+  {
+   "type": "rect",
+   "x": 338,
+   "y": 352,
+   "w": 23,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": 11.5
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tol": 12,
+   "lock": [
+    "rotate"
+   ],
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "が",
+     "size_em": 0.75
+    },
+    {
+     "text": "今揃"
+    },
+    {
+     "text": "えるべき",
+     "size_em": 0.8
+    }
+   ],
+   "x": 684.5,
+   "y": 446.0,
+   "size": 136.396,
+   "scale_x": 0.886,
+   "spacing": -0.016,
+   "skew": -8,
+   "fit_iou": 0.416
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tol": 12,
+   "lock": [
+    "rotate"
+   ],
+   "text": "アイテムランキング",
+   "x": 616.5,
+   "y": 597.5,
+   "size": 178.971,
+   "scale_x": 0.795,
+   "spacing": -0.03,
+   "skew": -3,
+   "fit_iou": 0.457
+  }
+ ]
+}

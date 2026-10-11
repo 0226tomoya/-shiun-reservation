@@ -1,0 +1,136 @@
+{
+ "id": "yDHRoLXxX8c",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    5,
+    3,
+    251,
+    247
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1018,
+    8,
+    258,
+    264
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    275,
+    10,
+    612,
+    70
+   ],
+   "colors": [
+    "#7c1626"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    392,
+    80,
+    495,
+    135
+   ],
+   "colors": [
+    "#7c1626"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    40,
+    340,
+    470,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    455,
+    1280,
+    265
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_undercover_red_ydhr.png",
+   "x": 5,
+   "y": 3,
+   "w": 251,
+   "h": 247
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/badge_starburst_red_ydhr.png",
+   "x": 1018,
+   "y": 8,
+   "w": 258,
+   "h": 264
+  },
+  {
+   "type": "text",
+   "text": "GU × アンダーカバー",
+   "x": 280,
+   "y": 4,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 64,
+   "color": "#7c1626",
+   "palt": true
+  },
+  {
+   "type": "text",
+   "text": "2024AW",
+   "x": 398,
+   "y": 64,
+   "font": "Libre Baskerville",
+   "weight": 700,
+   "size": 164,
+   "color": "#7c1626",
+   "scale_x": 0.82
+  },
+  {
+   "type": "text",
+   "text": "＼新作／",
+   "x": 46,
+   "y": 336,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 110,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.86
+  },
+  {
+   "type": "text",
+   "x": 4,
+   "y": 428,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 262,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "全型チェック"
+  }
+ ]
+}

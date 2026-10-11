@@ -1,0 +1,36 @@
+{
+ "id": "rc2YpElqGPs",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    445,
+    318,
+    385,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "LEMAIRE",
+   "x": 644.0,
+   "y": 352.0,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 400,
+   "size": 98.207,
+   "spacing": 0.266,
+   "color": "#ffffff",
+   "tol": 25,
+   "scale_x": 0.687,
+   "rotate": 0.3,
+   "fit_iou": 0.338
+  }
+ ]
+}

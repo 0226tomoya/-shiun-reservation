@@ -1,0 +1,190 @@
+{
+ "id": "2OEQCRVMZV8",
+ "erase": [
+  {
+   "rect": [
+    5,
+    5,
+    165,
+    712
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    862,
+    128,
+    70,
+    68
+   ],
+   "colors": [
+    "#222222"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    1050,
+    215,
+    70,
+    62
+   ],
+   "colors": [
+    "#222222"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    160,
+    462,
+    1120,
+    258
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "低身長男性",
+   "x": 85.5,
+   "y": 359.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 141.6,
+   "color": "#ffffff",
+   "vertical": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    12,
+    11,
+    160,
+    712
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.061
+  },
+  {
+   "type": "text",
+   "text": "新",
+   "x": 898.0,
+   "y": 160.0,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 62.7,
+   "color": "#222222",
+   "m": [
+    862,
+    128,
+    70,
+    68,
+    "#222222",
+    50
+   ],
+   "scale_x": 0.949
+  },
+  {
+   "type": "text",
+   "text": "作",
+   "x": 1085.0,
+   "y": 243.5,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 54.6,
+   "color": "#222222",
+   "m": [
+    1050,
+    215,
+    70,
+    62,
+    "#222222",
+    50
+   ],
+   "scale_x": 1.134
+  },
+  {
+   "type": "text",
+   "text": "全員買え",
+   "x": 664.0,
+   "y": 577.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 252.7,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    165,
+    470,
+    1149,
+    712
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "text": "!",
+   "x": 1186.0,
+   "y": 574.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 273.9,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    1155,
+    470,
+    59,
+    250,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.872
+  },
+  {
+   "type": "text",
+   "text": "!",
+   "x": 1243.5,
+   "y": 574.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 273.9,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    1214,
+    470,
+    58,
+    250,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.872
+  }
+ ]
+}

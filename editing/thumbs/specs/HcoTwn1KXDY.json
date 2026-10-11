@@ -1,0 +1,468 @@
+{
+ "id": "HcoTwn1KXDY",
+ "erase": [
+  {
+   "rect": [
+    852,
+    13,
+    177,
+    92
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1052,
+    13,
+    202,
+    202
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    297,
+    14,
+    256,
+    110
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    18,
+    51,
+    256,
+    85
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    785,
+    124,
+    186,
+    80
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    348,
+    136,
+    199,
+    199
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    18,
+    149,
+    294,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    798,
+    224,
+    318,
+    82
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    984,
+    321,
+    264,
+    195
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    33,
+    342,
+    328,
+    155
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    200,
+    529,
+    180,
+    181
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    625,
+    395,
+    310,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    2,
+    515,
+    198,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    383,
+    515,
+    895,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_1.png",
+   "x": 852,
+   "y": 13,
+   "w": 177,
+   "h": 92
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_2.png",
+   "x": 1052,
+   "y": 13,
+   "w": 202,
+   "h": 202
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_3.png",
+   "x": 297,
+   "y": 14,
+   "w": 256,
+   "h": 110
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_4.png",
+   "x": 18,
+   "y": 51,
+   "w": 256,
+   "h": 85
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_5.png",
+   "x": 785,
+   "y": 124,
+   "w": 186,
+   "h": 80
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_6.png",
+   "x": 348,
+   "y": 136,
+   "w": 199,
+   "h": 199
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_7.png",
+   "x": 18,
+   "y": 149,
+   "w": 294,
+   "h": 172
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_8.png",
+   "x": 798,
+   "y": 224,
+   "w": 318,
+   "h": 82
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_9.png",
+   "x": 984,
+   "y": 321,
+   "w": 264,
+   "h": 195
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brandcard_hcot_10.png",
+   "x": 33,
+   "y": 342,
+   "w": 328,
+   "h": 155
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_hcot.png",
+   "x": 200,
+   "y": 529,
+   "w": 180,
+   "h": 181
+  },
+  {
+   "type": "text",
+   "text": "低身長にオススメ!!",
+   "x": 798.0,
+   "y": 417.0,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 52.56,
+   "rotate": -1.85,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    625,
+    395,
+    310,
+    75
+   ],
+   "scale_x": 0.692,
+   "spacing": -0.006,
+   "fit_iou": 0.136
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 25,
+   "text": "脱",
+   "x": 4.0,
+   "y": 482.5,
+   "size": 217.208,
+   "box": [
+    4,
+    515,
+    199,
+    200
+   ],
+   "scale_x": 0.906,
+   "fit_iou": 0.898
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 371.5,
+   "y": 494.5,
+   "size": 194.578,
+   "scale_x": 0.864,
+   "spacing": 0,
+   "text": "ブ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    361,
+    511,
+    174,
+    206
+   ],
+   "fit_iou": 0.792
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 503.4,
+   "y": 504.5,
+   "size": 196.913,
+   "scale_x": 0.864,
+   "spacing": 0,
+   "text": "ラ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    512,
+    529,
+    156,
+    188
+   ],
+   "fit_iou": 0.789
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 631.3,
+   "y": 500.0,
+   "size": 195.356,
+   "scale_x": 0.864,
+   "spacing": 0,
+   "text": "ン",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    654,
+    530,
+    166,
+    183
+   ],
+   "fit_iou": 0.416
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 799.3,
+   "y": 494.5,
+   "size": 198.492,
+   "scale_x": 0.864,
+   "spacing": 0,
+   "text": "ド",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    827,
+    523,
+    135,
+    194
+   ],
+   "fit_iou": 0.323
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 983.5,
+   "y": 452,
+   "size": 257.66,
+   "scale_x": 0.663,
+   "spacing": 0,
+   "text": "1",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    989,
+    505,
+    104,
+    210
+   ],
+   "fit_iou": 0.454
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "tol": 25,
+   "x": 1044.2,
+   "y": 442,
+   "size": 271.182,
+   "scale_x": 0.663,
+   "spacing": 0,
+   "text": "0",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    1054,
+    501,
+    113,
+    217
+   ],
+   "fit_iou": 0.532
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 25,
+   "text": "選",
+   "x": 1162.0,
+   "y": 579.0,
+   "size": 119.155,
+   "box": [
+    1160,
+    590,
+    118,
+    122
+   ],
+   "scale_x": 0.958,
+   "fit_iou": 0.957
+  }
+ ]
+}

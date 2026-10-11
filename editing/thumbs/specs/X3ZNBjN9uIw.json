@@ -1,0 +1,71 @@
+{
+ "id": "X3ZNBjN9uIw",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    315,
+    192,
+    655,
+    98
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    292,
+    1280,
+    236
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "167cm以下限定",
+   "x": 643,
+   "y": 190,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 89,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "text",
+   "x": 2,
+   "y": 275,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 225,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "spacing": -0.03,
+   "runs": [
+    {
+     "text": "最強秋"
+    },
+    {
+     "text": "コーデ",
+     "spacing": -0.13
+    }
+   ]
+  }
+ ]
+}

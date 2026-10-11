@@ -1,0 +1,465 @@
+{
+ "id": "uxb9oxcFRp8",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    11,
+    12,
+    1258,
+    6
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    11,
+    702,
+    1258,
+    6
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    11,
+    12,
+    6,
+    696
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1263,
+    12,
+    6,
+    696
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    42,
+    36,
+    220,
+    186
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    855,
+    40,
+    412,
+    88
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    535,
+    1220,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    120,
+    642,
+    1040,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 13,
+   "y": 14,
+   "w": 1254,
+   "h": 2,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 13,
+   "y": 704,
+   "w": 1254,
+   "h": 2,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 13,
+   "y": 14,
+   "w": 2,
+   "h": 692,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1265,
+   "y": 14,
+   "w": 2,
+   "h": 692,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "Shirt\nPants\nEyewear",
+   "x": 47.0,
+   "y": 28.5,
+   "font": "Jost",
+   "weight": 400,
+   "size": 44.06,
+   "line": 1.45,
+   "spacing": 0.108,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    42,
+    36,
+    220,
+    186
+   ],
+   "tol": 25,
+   "scale_x": 1.159,
+   "fit_iou": 0.416
+  },
+  {
+   "type": "text",
+   "text": "2025Summer",
+   "x": 1064.5,
+   "y": 91.0,
+   "anchor": "cc",
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 54.759,
+   "rotate": 5.0,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    855,
+    40,
+    412,
+    88
+   ],
+   "tol": 30,
+   "scale_x": 1.255,
+   "spacing": -0.006,
+   "fit_iou": 0.1
+  },
+  {
+   "type": "text",
+   "text": "EDIFICE/ WYM / CONFECT / nest Robe / EYEVAN7285",
+   "x": 633.5,
+   "y": 670.0,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 400,
+   "italic": true,
+   "size": 48.087,
+   "spacing": 0.1,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    120,
+    642,
+    1040,
+    52
+   ],
+   "tol": 25,
+   "scale_x": 0.728,
+   "fit_iou": 0.29
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "最",
+   "x": 31.5,
+   "y": 516.0,
+   "size": 103.25,
+   "box": [
+    32,
+    535,
+    117,
+    98
+   ],
+   "scale_x": 1.148,
+   "fit_iou": 0.763
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "近",
+   "x": 163.0,
+   "y": 518.5,
+   "size": 98.442,
+   "box": [
+    161,
+    535,
+    121,
+    97
+   ],
+   "scale_x": 1.182,
+   "fit_iou": 0.604
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "買",
+   "x": 294.0,
+   "y": 518.0,
+   "size": 101.725,
+   "box": [
+    296,
+    535,
+    112,
+    98
+   ],
+   "scale_x": 1.151,
+   "fit_iou": 0.73
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "っ",
+   "x": 416.5,
+   "y": 490.0,
+   "size": 125.209,
+   "box": [
+    424,
+    540,
+    77,
+    84
+   ],
+   "scale_x": 0.715,
+   "fit_iou": 0.713
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "て",
+   "x": 509.0,
+   "y": 510.0,
+   "size": 106.454,
+   "box": [
+    518,
+    535,
+    85,
+    88
+   ],
+   "scale_x": 0.91,
+   "fit_iou": 0.674
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "良",
+   "x": 618.0,
+   "y": 521.0,
+   "size": 97.669,
+   "box": [
+    621,
+    535,
+    113,
+    98
+   ],
+   "scale_x": 1.197,
+   "fit_iou": 0.718
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "か",
+   "x": 752.0,
+   "y": 509.0,
+   "size": 106.145,
+   "box": [
+    752,
+    535,
+    92,
+    92
+   ],
+   "scale_x": 0.867,
+   "fit_iou": 0.699
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "っ",
+   "x": 848.5,
+   "y": 490.0,
+   "size": 125.209,
+   "box": [
+    856,
+    540,
+    77,
+    84
+   ],
+   "scale_x": 0.715,
+   "fit_iou": 0.712
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "た",
+   "x": 948.0,
+   "y": 511.0,
+   "size": 101.228,
+   "box": [
+    951,
+    535,
+    88,
+    91
+   ],
+   "scale_x": 0.92,
+   "fit_iou": 0.603
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "も",
+   "x": 1054.0,
+   "y": 513.0,
+   "size": 101.175,
+   "box": [
+    1056,
+    535,
+    85,
+    93
+   ],
+   "scale_x": 0.924,
+   "fit_iou": 0.663
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "text": "の",
+   "x": 1159.0,
+   "y": 508.5,
+   "size": 106.298,
+   "box": [
+    1158,
+    535,
+    90,
+    89
+   ],
+   "scale_x": 0.847,
+   "fit_iou": 0.829
+  }
+ ]
+}
