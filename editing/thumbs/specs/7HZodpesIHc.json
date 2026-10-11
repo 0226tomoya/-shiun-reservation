@@ -1,0 +1,247 @@
+{
+ "id": "7HZodpesIHc",
+ "erase": [
+  {
+   "rect": [
+    55,
+    52,
+    107,
+    41
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    254,
+    207,
+    406,
+    84
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    34,
+    33,
+    1212,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    675,
+    1212,
+    11
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1234,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    670,
+    205,
+    355,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    60,
+    310,
+    1160,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    835,
+    578,
+    395,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 9,
+ "front": [
+  [
+   [
+    845,
+    0
+   ],
+   [
+    1100,
+    0
+   ],
+   [
+    1100,
+    58
+   ],
+   [
+    845,
+    58
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 38,
+   "w": 1202,
+   "h": 644,
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_7hzo.png",
+   "x": 55,
+   "y": 52,
+   "w": 107,
+   "h": 41
+  },
+  {
+   "type": "rect",
+   "x": 256,
+   "y": 209,
+   "w": 403,
+   "h": 80,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "低身長男性",
+   "x": 260.5,
+   "y": 199.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 81.7,
+   "color": "#111111",
+   "palt": true,
+   "m": [
+    258,
+    211,
+    399,
+    76,
+    "#111111",
+    60
+   ],
+   "scale_x": 0.965
+  },
+  {
+   "type": "text",
+   "text": "のための",
+   "x": 668.5,
+   "y": 197.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 600,
+   "size": 88.8,
+   "color": "#ffffff",
+   "palt": true,
+   "tgt": [
+    679,
+    215,
+    1016,
+    286
+   ],
+   "scale_x": 1.003
+  },
+  {
+   "type": "text",
+   "text": "過去最高の春服",
+   "x": 63.0,
+   "y": 301.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 151.5,
+   "color": "#ffffff",
+   "palt": true,
+   "tgt": [
+    71,
+    321,
+    1207,
+    464
+   ],
+   "scale_x": 1.084
+  },
+  {
+   "type": "text",
+   "text": "24Spring 2nd Collection",
+   "x": 865.0,
+   "y": 579.0,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 38.0,
+   "color": "#ffffff",
+   "tgt": [
+    867,
+    586,
+    1217,
+    624
+   ],
+   "scale_x": 0.901
+  },
+  {
+   "type": "text",
+   "text": "2024.03.16 sat. 22:00 - Release",
+   "x": 841.0,
+   "y": 625.0,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 32.8,
+   "color": "#ffffff",
+   "tgt": [
+    843,
+    631,
+    1216,
+    655
+   ],
+   "scale_x": 0.889
+  }
+ ]
+}

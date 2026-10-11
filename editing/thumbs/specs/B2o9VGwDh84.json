@@ -1,0 +1,202 @@
+{
+ "id": "B2o9VGwDh84",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    970,
+    26,
+    286,
+    70
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1040,
+    125,
+    132,
+    199
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    20,
+    45,
+    560,
+    255
+   ],
+   "colors": [
+    "#f8dc78",
+    "#d88a40",
+    "#1a1208"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    340,
+    365,
+    640,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    5,
+    470,
+    1275,
+    250
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/stevenalan_navy_b2o9.png",
+   "x": 970,
+   "y": 26,
+   "w": 286,
+   "h": 70
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/batoner_gray_b2o9.png",
+   "x": 1040,
+   "y": 125,
+   "w": 132,
+   "h": 199
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#fff2b0 0%,#f8dc78 35%,#d88a40 75%,#b86828 100%)",
+   "strokes": [
+    [
+     6,
+     "#1a1208"
+    ]
+   ],
+   "rotate": -3,
+   "text": "7万円相当の私服が",
+   "x": 33.0,
+   "y": 83.0,
+   "size": 43.7,
+   "tgt": [
+    38,
+    62,
+    553,
+    128
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.384
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#fff2b0 0%,#f8dc78 35%,#d88a40 75%,#b86828 100%)",
+   "strokes": [
+    [
+     6,
+     "#1a1208"
+    ]
+   ],
+   "rotate": -3,
+   "text": "無料!?",
+   "x": 93.0,
+   "y": 134.0,
+   "size": 142.4,
+   "tgt": [
+    98,
+    140,
+    457,
+    286
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.881
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.9)",
+   "text": "低身長男性限定!!",
+   "x": 348.5,
+   "y": 368.0,
+   "size": 75.0,
+   "tgt": [
+    350,
+    378,
+    965,
+    449
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.066
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.9)",
+   "text": "福袋作りました",
+   "x": 16.0,
+   "y": 458.0,
+   "size": 234.9,
+   "tgt": [
+    18,
+    488,
+    1255,
+    712
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.816
+  }
+ ]
+}

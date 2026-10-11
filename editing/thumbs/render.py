@@ -21,6 +21,7 @@
           "border":[4,"#fff"], "skew":0}
   image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1}
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
+  "skew_y" で縦方向のせん断（右上がりの見出し）。rect の radius に "50%" で楕円・円
   "css_transform": "perspective(800px) rotateY(-20deg)" のような変形を足せる（遠近の文字）
   erase の要素に {"poly":[[x,y],...], "colors":[..]} で斜めの範囲（多角形）も指定できる
   "hollow": true で中を塗らない縁だけの文字（strokes の 1 つ目の太さ・色が線）
@@ -133,6 +134,8 @@ def text_html(L, i):
         tf.append(f"rotate({L['rotate']}deg)")
     if L.get('skew'):
         tf.append(f"skewX({L['skew']}deg)")
+    if L.get('skew_y'):
+        tf.append(f"skewY({L['skew_y']}deg)")
     if L.get('scale_x', 1) != 1 or L.get('scale_y', 1) != 1:
         tf.append(f"scale({L.get('scale_x', 1)},{L.get('scale_y', 1)})")
     if L.get('css_transform'):  # 遠近など: 例 "perspective(800px) rotateY(-20deg)"
@@ -188,7 +191,7 @@ def layer_html(L, i):
         b = L.get('border')
         bs = f"border:{b[0]}px solid {b[1]};box-sizing:border-box;" if b else ''
         return (f"<div id=\"L{i}\" style=\"position:absolute;left:{L['x']}px;top:{L['y']}px;width:{L['w']}px;height:{L['h']}px;"
-                f"background:{L.get('fill', 'transparent')};opacity:{L.get('opacity', 1)};border-radius:{L.get('radius', 0)}px;{bs}{rot}\"></div>")
+                f"background:{L.get('fill', 'transparent')};opacity:{L.get('opacity', 1)};border-radius:{L.get('radius', 0) if isinstance(L.get('radius', 0), str) else str(L.get('radius', 0)) + 'px'};{bs}{rot}\"></div>")
     if t == 'image':
         p = L['src'] if os.path.isabs(L['src']) else os.path.join(HERE, L['src'])
         mime = 'image/png' if p.lower().endswith('.png') else 'image/jpeg'

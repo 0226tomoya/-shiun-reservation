@@ -114,23 +114,11 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "コレ"
-    },
-    {
-     "text": "最高"
-    },
-    {
-     "text": "だわ",
-     "size_em": 0.95
-    }
-   ],
-   "x": -12.5,
-   "y": 456.5,
+   "x": -14.0,
+   "y": 460.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 233.2,
+   "size": 220.0,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -140,13 +128,139 @@
     ]
    ],
    "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "コ",
    "tgt": [
-    13,
-    487,
-    1267,
-    710
+    11,
+    518,
+    184,
+    684
    ],
-   "scale_x": 0.956
+   "scale_x": 1.048
+  },
+  {
+   "type": "text",
+   "x": 177.5,
+   "y": 458.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 224.7,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "レ",
+   "tgt": [
+    211,
+    507,
+    384,
+    692
+   ],
+   "scale_x": 1.014
+  },
+  {
+   "type": "text",
+   "x": 388.0,
+   "y": 456.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 231.0,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "最",
+   "tgt": [
+    397,
+    493,
+    613,
+    705
+   ],
+   "scale_x": 1.005
+  },
+  {
+   "type": "text",
+   "x": 607.5,
+   "y": 461.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 226.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "高",
+   "tgt": [
+    622,
+    489,
+    829,
+    706
+   ],
+   "scale_x": 1.033
+  },
+  {
+   "type": "text",
+   "x": 841.0,
+   "y": 452.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 230.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "だ",
+   "tgt": [
+    852,
+    492,
+    1053,
+    696
+   ],
+   "scale_x": 0.94
+  },
+  {
+   "type": "text",
+   "x": 1051.5,
+   "y": 458.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 229.7,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "text": "わ",
+   "tgt": [
+    1062,
+    497,
+    1268,
+    698
+   ],
+   "scale_x": 0.977
   },
   {
    "type": "text",

@@ -1,0 +1,192 @@
+{
+ "id": "24CweW03ryU",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    12,
+    12,
+    286,
+    287
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    305,
+    45,
+    970,
+    52
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    300,
+    8,
+    970,
+    90
+   ],
+   "colors": [
+    "#222222",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    465,
+    1275,
+    255
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_24cw.png",
+   "x": 12,
+   "y": 12,
+   "w": 286,
+   "h": 287
+  },
+  {
+   "type": "rect",
+   "x": 309,
+   "y": 50,
+   "w": 963,
+   "h": 43,
+   "fill": "#fff200"
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#222222",
+   "palt": false,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "2024",
+   "x": 314.0,
+   "y": -3.0,
+   "size": 85.0,
+   "tgt": [
+    318,
+    18,
+    560,
+    82
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.2
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#222222",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "年",
+   "x": 560.0,
+   "y": 28.0,
+   "size": 49.6,
+   "tgt": [
+    562,
+    35,
+    610,
+    82
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.043
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#222222",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "春夏 未発売アイテム",
+   "x": 610.5,
+   "y": 6.0,
+   "size": 72.7,
+   "tgt": [
+    612,
+    15,
+    1258,
+    84
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.012
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.45)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "新作最高すぎ!!",
+   "x": 14.0,
+   "y": 449.0,
+   "size": 236.4,
+   "tgt": [
+    16,
+    476,
+    1266,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.813
+  }
+ ]
+}

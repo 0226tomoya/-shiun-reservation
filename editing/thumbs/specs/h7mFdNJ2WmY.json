@@ -101,10 +101,10 @@
    "type": "text",
    "text": "生",
    "x": 245.0,
-   "y": -18.5,
+   "y": -17.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 241.1,
+   "size": 240.0,
    "color": "#ffffff",
    "tgt": [
     249,
@@ -112,7 +112,7 @@
     465,
     236
    ],
-   "scale_x": 0.951
+   "scale_x": 0.955
   },
   {
    "type": "text",
@@ -145,7 +145,7 @@
   {
    "type": "text",
    "text": "ち",
-   "x": 848.5,
+   "x": 847.0,
    "y": -10.0,
    "font": "Noto Sans JP",
    "weight": 900,
@@ -157,7 +157,7 @@
     1060,
     236
    ],
-   "scale_x": 1.019
+   "scale_x": 1.024
   },
   {
    "type": "text",
@@ -179,17 +179,17 @@
   {
    "type": "text",
    "text": "やって\n良かったコト",
-   "x": 270.0,
-   "y": 317.0,
+   "x": 267.0,
+   "y": 331.5,
    "anchor": "ct",
    "align": "center",
    "line": 1.2,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 91.6,
+   "size": 81.3,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 1.003,
+   "scale_x": 1.067,
    "tgt": [
     30,
     347,
@@ -200,17 +200,17 @@
   {
    "type": "text",
    "text": "やらずに\n後悔したコト",
-   "x": 1020.0,
-   "y": 318.5,
+   "x": 1022.0,
+   "y": 333.0,
    "anchor": "ct",
    "align": "center",
    "line": 1.2,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 91.4,
+   "size": 80.6,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.974,
+   "scale_x": 1.05,
    "tgt": [
     784,
     347,

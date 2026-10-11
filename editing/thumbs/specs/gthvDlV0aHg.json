@@ -1,1 +1,164 @@
-{"id": "gthvDlV0aHg", "grow": 9, "erase": [{"rect": [18, 25, 945, 108], "colors": ["#111111", "#ffffff"], "tol": 25}, {"rect": [218, 560, 1062, 150], "colors": ["#111111", "#ffffff"], "tol": 25}, {"rect": [482, 165, 145, 50], "colors": ["#ffffff"], "tol": 30}, {"rect": [1042, 105, 140, 40], "colors": ["#ffffff"], "tol": 30}, {"rect": [233, 520, 135, 45], "colors": ["#ffffff"], "tol": 30}], "layers": [{"type": "text", "text": "高身長イケメンがインタビュー", "x": 490, "y": 76, "anchor": "cc", "font": "Noto Sans JP", "weight": 700, "size": 84, "spacing": -0.19, "color": "#111111", "strokes": [[8, "#ffffff"]]}, {"type": "text", "text": "『チビと付き合えるか？』", "x": 736, "y": 634, "anchor": "cc", "font": "Noto Sans JP", "weight": 700, "size": 116, "spacing": -0.19, "color": "#111111", "strokes": [[9, "#ffffff"]]}, {"type": "text", "text": "161cm", "x": 548, "y": 190, "anchor": "cc", "font": "Yomogi", "weight": 400, "size": 40, "spacing": 0.1, "color": "#ffffff"}, {"type": "text", "text": "176cm", "x": 1110, "y": 124, "anchor": "cc", "font": "Yomogi", "weight": 400, "size": 36, "spacing": 0.1, "color": "#ffffff"}, {"type": "text", "text": "164cm", "x": 300, "y": 542, "anchor": "cc", "font": "Yomogi", "weight": 400, "size": 40, "spacing": 0.1, "color": "#ffffff"}]}
+{
+ "id": "gthvDlV0aHg",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    218,
+    560,
+    1062,
+    150
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    218,
+    560,
+    1062,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    18,
+    25,
+    945,
+    108
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    18,
+    25,
+    945,
+    108
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    482,
+    165,
+    145,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1042,
+    105,
+    140,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    233,
+    520,
+    135,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "高身長イケメンがインタビュー",
+   "x": 490,
+   "y": 76,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 84,
+   "spacing": -0.19,
+   "color": "#111111",
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "『チビと付き合えるか？』",
+   "x": 736,
+   "y": 634,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 116,
+   "spacing": -0.19,
+   "color": "#111111",
+   "strokes": [
+    [
+     9,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "161cm",
+   "x": 548,
+   "y": 190,
+   "anchor": "cc",
+   "font": "Yomogi",
+   "weight": 400,
+   "size": 40,
+   "spacing": 0.1,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "176cm",
+   "x": 1110,
+   "y": 124,
+   "anchor": "cc",
+   "font": "Yomogi",
+   "weight": 400,
+   "size": 36,
+   "spacing": 0.1,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "164cm",
+   "x": 300,
+   "y": 542,
+   "anchor": "cc",
+   "font": "Yomogi",
+   "weight": 400,
+   "size": 40,
+   "spacing": 0.1,
+   "color": "#ffffff"
+  }
+ ]
+}

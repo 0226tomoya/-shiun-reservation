@@ -1,0 +1,154 @@
+{
+ "id": "aqEPKGbKedk",
+ "erase": [
+  {
+   "rect": [
+    990,
+    14,
+    272,
+    278
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    370,
+    835,
+    125
+   ],
+   "colors": [
+    "#b31416",
+    "#d8393a",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    445,
+    1275,
+    275
+   ],
+   "colors": [
+    "#b31416",
+    "#d8393a",
+    "#9a1418",
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_aqep.png",
+   "x": 990,
+   "y": 14,
+   "w": 272,
+   "h": 278
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "UNIQLO ",
+     "font": "Montserrat",
+     "weight": 900
+    },
+    {
+     "text": "2024",
+     "font": "Montserrat",
+     "weight": 900
+    },
+    {
+     "text": "春夏"
+    }
+   ],
+   "x": 13.0,
+   "y": 371.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 99.3,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.899
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "絶対買い"
+    },
+    {
+     "text": "BEST",
+     "font": "Montserrat",
+     "weight": 900
+    }
+   ],
+   "x": 16.0,
+   "y": 493.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 193.7,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.862
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "x": 1138.0,
+   "y": 385.0,
+   "font": "Montserrat",
+   "weight": 900,
+   "size": 350.0,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    1142,
+    458,
+    1256,
+    703
+   ],
+   "scale_x": 0.543
+  }
+ ]
+}

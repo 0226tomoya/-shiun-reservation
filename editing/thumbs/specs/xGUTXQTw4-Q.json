@@ -76,20 +76,11 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "ユニクロ史上最高峰"
-    },
-    {
-     "text": "の",
-     "size_em": 0.7
-    }
-   ],
-   "x": 1.5,
-   "y": -11.0,
+   "x": -2.5,
+   "y": 12.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 176.2,
+   "size": 160.3,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -102,13 +93,266 @@
      "#111111"
     ]
    ],
+   "text": "ユ",
    "tgt": [
-    8,
-    12,
-    1268,
+    4,
+    55,
+    124,
+    166
+   ],
+   "scale_x": 0.861
+  },
+  {
+   "type": "text",
+   "x": 120.0,
+   "y": 15.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 152.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "ニ",
+   "tgt": [
+    131,
+    59,
+    246,
+    161
+   ],
+   "scale_x": 0.918
+  },
+  {
+   "type": "text",
+   "x": 257.0,
+   "y": 29.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 137.0,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "ク",
+   "tgt": [
+    261,
+    49,
+    373,
+    175
+   ],
+   "scale_x": 0.954
+  },
+  {
+   "type": "text",
+   "x": 369.0,
+   "y": 11.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 156.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "ロ",
+   "tgt": [
+    386,
+    52,
+    497,
+    169
+   ],
+   "scale_x": 0.915
+  },
+  {
+   "type": "text",
+   "x": 499.0,
+   "y": 13.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 153.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "史",
+   "tgt": [
+    503,
+    35,
+    634,
     180
    ],
-   "scale_x": 0.755
+   "scale_x": 0.892
+  },
+  {
+   "type": "text",
+   "x": 634.5,
+   "y": 13.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 159.4,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "上",
+   "tgt": [
+    641,
+    35,
+    774,
+    177
+   ],
+   "scale_x": 0.909
+  },
+  {
+   "type": "text",
+   "x": 773.0,
+   "y": 5.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 162.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "最",
+   "tgt": [
+    779,
+    31,
+    912,
+    180
+   ],
+   "scale_x": 0.887
+  },
+  {
+   "type": "text",
+   "x": 912.0,
+   "y": 15.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 153.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "高",
+   "tgt": [
+    920,
+    35,
+    1049,
+    181
+   ],
+   "scale_x": 0.952
+  },
+  {
+   "type": "text",
+   "x": 1049.5,
+   "y": 9.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 158.4,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "峰",
+   "tgt": [
+    1057,
+    31,
+    1188,
+    181
+   ],
+   "scale_x": 0.883
+  },
+  {
+   "type": "text",
+   "x": 1190.0,
+   "y": 75.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 89.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "text": "の",
+   "tgt": [
+    1194,
+    95,
+    1270,
+    168
+   ],
+   "scale_x": 0.954
   },
   {
    "type": "text",
@@ -140,7 +384,7 @@
   {
    "type": "text",
    "text": "スラックス",
-   "x": 330.0,
+   "x": 329.5,
    "y": 375.0,
    "font": "Noto Sans JP",
    "weight": 900,
@@ -163,7 +407,7 @@
     1268,
     690
    ],
-   "scale_x": 0.727
+   "scale_x": 0.728
   },
   {
    "type": "text",

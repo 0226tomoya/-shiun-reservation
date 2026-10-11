@@ -1,0 +1,244 @@
+{
+ "id": "FVCTcwToQWo",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    18
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    700,
+    1280,
+    20
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    15,
+    690,
+    100
+   ],
+   "colors": [
+    "#f7565b",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    300,
+    1275,
+    405
+   ],
+   "colors": [
+    "#f7565b",
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 16,
+   "fill": "#4f9a68"
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 702,
+   "w": 1280,
+   "h": 18,
+   "fill": "#46a36a"
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f7565b",
+   "palt": true,
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ],
+    [
+     9,
+     "#f05a5a"
+    ]
+   ],
+   "text": "おすすめスポットも紹介!!",
+   "x": 17.5,
+   "y": 53.5,
+   "size": 45.0,
+   "tgt": [
+    22,
+    28,
+    668,
+    96
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "rotate": -3,
+   "scale_x": 1.237
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f7565b",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f05a5a"
+    ]
+   ],
+   "text": "男子",
+   "x": 14.0,
+   "y": 298.0,
+   "size": 194.7,
+   "tgt": [
+    25,
+    322,
+    372,
+    498
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.935
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f7565b",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f05a5a"
+    ]
+   ],
+   "text": "に",
+   "x": 370.0,
+   "y": 374.0,
+   "size": 118.7,
+   "tgt": [
+    382,
+    392,
+    480,
+    490
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.023
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f7565b",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f05a5a"
+    ]
+   ],
+   "text": "着てほしい",
+   "x": 486.5,
+   "y": 301.0,
+   "size": 192.8,
+   "tgt": [
+    492,
+    318,
+    1250,
+    500
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.803
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f7565b",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f05a5a"
+    ]
+   ],
+   "text": "クリスマスデート服",
+   "x": 15.0,
+   "y": 515.0,
+   "size": 180.5,
+   "tgt": [
+    28,
+    532,
+    1255,
+    700
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.766
+  }
+ ]
+}

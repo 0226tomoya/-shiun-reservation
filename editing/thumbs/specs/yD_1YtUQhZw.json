@@ -64,23 +64,11 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "こんな"
-    },
-    {
-     "text": "の",
-     "size_em": 0.7
-    },
-    {
-     "text": "あったっけ!?"
-    }
-   ],
-   "x": 5.0,
-   "y": -8.0,
+   "x": 1.5,
+   "y": -14.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 126.7,
+   "size": 139.2,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -94,13 +82,275 @@
     ]
    ],
    "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "こ",
    "tgt": [
-    14,
-    12,
-    1250,
+    11,
+    19,
+    111,
+    130
+   ],
+   "scale_x": 1.012
+  },
+  {
+   "type": "text",
+   "x": 131.5,
+   "y": -13.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 139.5,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "ん",
+   "tgt": [
+    134,
+    11,
+    257,
+    132
+   ],
+   "scale_x": 0.956
+  },
+  {
+   "type": "text",
+   "x": 262.5,
+   "y": -13.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 136.7,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "な",
+   "tgt": [
+    270,
+    9,
+    388,
+    132
+   ],
+   "scale_x": 0.959
+  },
+  {
+   "type": "text",
+   "x": 391.0,
+   "y": 22.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 99.6,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "の",
+   "tgt": [
+    396,
+    45,
+    488,
+    126
+   ],
+   "scale_x": 1.035
+  },
+  {
+   "type": "text",
+   "x": 488.5,
+   "y": -15.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 140.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "あ",
+   "tgt": [
+    499,
+    9,
+    618,
+    133
+   ],
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "x": 641.0,
+   "y": -17.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 140.4,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "っ",
+   "tgt": [
+    645,
+    45,
+    746,
     128
    ],
-   "scale_x": 1.106
+   "scale_x": 0.959
+  },
+  {
+   "type": "text",
+   "x": 761.0,
+   "y": -13.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 138.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "た",
+   "tgt": [
+    769,
+    9,
+    887,
+    130
+   ],
+   "scale_x": 1.012
+  },
+  {
+   "type": "text",
+   "x": 909.0,
+   "y": -17.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 140.4,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "っ",
+   "tgt": [
+    913,
+    45,
+    1013,
+    128
+   ],
+   "scale_x": 0.949
+  },
+  {
+   "type": "text",
+   "x": 1023.5,
+   "y": -13.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 134.5,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "け",
+   "tgt": [
+    1037,
+    11,
+    1156,
+    130
+   ],
+   "scale_x": 1.048
+  },
+  {
+   "type": "text",
+   "x": 1151.0,
+   "y": -18.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 149.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "!?",
+   "tgt": [
+    1164,
+    13,
+    1274,
+    131
+   ],
+   "scale_x": 0.934
   },
   {
    "type": "text",

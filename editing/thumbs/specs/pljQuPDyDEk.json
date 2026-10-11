@@ -1,0 +1,330 @@
+{
+ "id": "pljQuPDyDEk",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    24,
+    17,
+    130,
+    47
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    175,
+    205,
+    960,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    290,
+    1265,
+    230
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    810,
+    595,
+    450,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_pljq.png",
+   "x": 24,
+   "y": 17,
+   "w": 130,
+   "h": 47
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "低身長男性に特化した流行りの春服",
+   "x": 181.5,
+   "y": 208.0,
+   "size": 49.6,
+   "tgt": [
+    185,
+    215,
+    1124,
+    262
+   ],
+   "scale_x": 1.19
+  },
+  {
+   "type": "rect",
+   "x": 186,
+   "y": 267,
+   "w": 935,
+   "h": 4,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "最",
+   "x": 9.0,
+   "y": 265.5,
+   "size": 225.7,
+   "tgt": [
+    22,
+    298,
+    233,
+    508
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 1.03
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "高",
+   "x": 220.5,
+   "y": 267.5,
+   "size": 223.6,
+   "tgt": [
+    236,
+    298,
+    440,
+    507
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 1.043
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "傑",
+   "x": 429.0,
+   "y": 270.0,
+   "size": 221.4,
+   "tgt": [
+    440,
+    300,
+    646,
+    507
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "作",
+   "x": 639.0,
+   "y": 270.5,
+   "size": 219.4,
+   "tgt": [
+    646,
+    300,
+    796,
+    506
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.749
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "爆",
+   "x": 783.5,
+   "y": 268.0,
+   "size": 223.6,
+   "tgt": [
+    796,
+    298,
+    1040,
+    507
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 1.185
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "誕",
+   "x": 1028.5,
+   "y": 273.5,
+   "size": 216.0,
+   "tgt": [
+    1040,
+    305,
+    1253,
+    506
+   ],
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 1.07
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "24Spring 1st Collection",
+   "x": 818.5,
+   "y": 589.5,
+   "size": 56.4,
+   "tgt": [
+    821,
+    600,
+    1249,
+    655
+   ],
+   "scale_x": 0.724
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "2024.01.20 sat 22:00 - Release",
+   "x": 975.0,
+   "y": 660.0,
+   "size": 22.0,
+   "tgt": [
+    976,
+    664,
+    1250,
+    684
+   ],
+   "scale_x": 0.951
+  }
+ ]
+}

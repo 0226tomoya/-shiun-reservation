@@ -1,0 +1,155 @@
+{
+ "id": "r47UvWE1eN0",
+ "erase": [
+  {
+   "rect": [
+    9,
+    8,
+    133,
+    133
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    355,
+    680,
+    95
+   ],
+   "colors": [
+    "#111111",
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    5,
+    430,
+    1270,
+    285
+   ],
+   "colors": [
+    "#fde61b",
+    "#fbbe02",
+    "#f5ab04",
+    "#3a2a00"
+   ],
+   "tol": 30
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_r47u.png",
+   "x": 9,
+   "y": 8,
+   "w": 133,
+   "h": 133
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO U 24SS",
+   "x": 14.0,
+   "y": 361.0,
+   "font": "Montserrat",
+   "weight": 900,
+   "size": 71.2,
+   "color": "#111111",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "tgt": [
+    18,
+    374,
+    651,
+    438
+   ],
+   "scale_x": 1.085
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#fde61b 0%,#fdd803 25%,#fbbe02 70%,#f5ab04 100%)",
+   "color": "#fbc802",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#3a2a00"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "マストバイ",
+   "x": 12.0,
+   "y": 437.0,
+   "size": 247.5,
+   "tgt": [
+    18,
+    470,
+    910,
+    700
+   ],
+   "scale_x": 0.794
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 700,
+   "fill": "linear-gradient(180deg,#fde61b 0%,#fdd803 25%,#fbbe02 70%,#f5ab04 100%)",
+   "color": "#fbc802",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#3a2a00"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "3",
+   "x": 927.5,
+   "y": 366.0,
+   "size": 369.6,
+   "tgt": [
+    928,
+    442,
+    1108,
+    705
+   ],
+   "scale_x": 0.878
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#fde61b 0%,#fdd803 25%,#fbbe02 70%,#f5ab04 100%)",
+   "color": "#fbc802",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#3a2a00"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "text": "選",
+   "x": 1111.5,
+   "y": 510.0,
+   "size": 175.0,
+   "tgt": [
+    1115,
+    537,
+    1260,
+    697
+   ],
+   "scale_x": 0.859
+  }
+ ]
+}

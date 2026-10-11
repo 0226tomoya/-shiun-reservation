@@ -1,0 +1,291 @@
+{
+ "id": "sDJBIgqaUKE",
+ "erase": [
+  {
+   "rect": [
+    0,
+    20,
+    1280,
+    350
+   ],
+   "by": "layers",
+   "colors": [
+    "#eeec40"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    0,
+    490,
+    860,
+    110
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    410,
+    590,
+    860,
+    110
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  }
+ ],
+ "grow": 6,
+ "layers": [
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "絶",
+   "x": -4.5,
+   "y": 50.7,
+   "size": 291.5,
+   "m": [
+    7,
+    39,
+    294,
+    321,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 1.087
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "対",
+   "x": 286.5,
+   "y": 10.8,
+   "size": 319.0,
+   "m": [
+    299,
+    39,
+    247,
+    312,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 0.835
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "買",
+   "x": 531.5,
+   "y": -21.2,
+   "size": 332.1,
+   "m": [
+    544,
+    29,
+    257,
+    312,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 0.875
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "う",
+   "x": 721.0,
+   "y": 37.2,
+   "size": 253.2,
+   "m": [
+    799,
+    59,
+    142,
+    242,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 1.188
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "な",
+   "x": 895.5,
+   "y": 15.5,
+   "size": 235.3,
+   "m": [
+    943,
+    55,
+    261,
+    202,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 1.495
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "!",
+   "x": 1192.0,
+   "y": -6.4,
+   "size": 227.4,
+   "m": [
+    1207,
+    47,
+    30,
+    176,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 0.81
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#eeec40",
+   "strokes": [
+    [
+     4,
+     "#eeec40"
+    ]
+   ],
+   "text": "!",
+   "x": 1223.0,
+   "y": -11.4,
+   "size": 234.3,
+   "m": [
+    1237,
+    47,
+    29,
+    176,
+    "#eeec40",
+    50
+   ],
+   "scale_x": 0.76
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "x": 12.5,
+   "y": 485.0,
+   "size": 99.2,
+   "runs": [
+    {
+     "text": "買"
+    },
+    {
+     "text": "っ",
+     "size_em": 0.75
+    },
+    {
+     "text": "て後悔した冬服"
+    }
+   ],
+   "m": [
+    10,
+    497,
+    840,
+    95,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 1.008,
+   "shadow": "0 0 8px rgba(0,0,0,.5)"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "x": 420.5,
+   "y": 580.0,
+   "size": 104.4,
+   "runs": [
+    {
+     "text": "買"
+    },
+    {
+     "text": "っ",
+     "size_em": 0.75
+    },
+    {
+     "text": "て良か"
+    },
+    {
+     "text": "っ",
+     "size_em": 0.75
+    },
+    {
+     "text": "た冬服"
+    }
+   ],
+   "m": [
+    418,
+    592,
+    845,
+    100,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 0.992,
+   "shadow": "0 0 8px rgba(0,0,0,.5)"
+  }
+ ]
+}

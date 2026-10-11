@@ -87,23 +87,80 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "ZOZO",
-     "font": "Montserrat",
-     "weight": 700,
-     "size_em": 1.05
-    },
-    {
-     "text": "春服",
-     "color": "#fb025a"
-    },
-    {
-     "text": "購入品紹介"
-    }
+   "x": 15.0,
+   "y": 532.5,
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 184.5,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
    ],
-   "x": 14.0,
-   "y": 537.5,
+   "text": "ZOZO",
+   "tgt": [
+    20,
+    569,
+    396,
+    702
+   ],
+   "scale_x": 0.696
+  },
+  {
+   "type": "text",
+   "x": 406.5,
+   "y": 538.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 157.2,
+   "color": "#fb025a",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "text": "春服",
+   "tgt": [
+    409,
+    558,
+    647,
+    707
+   ],
+   "scale_x": 0.768
+  },
+  {
+   "type": "text",
+   "x": 652.5,
+   "y": 538.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 156.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "text": "購",
+   "tgt": [
+    655,
+    558,
+    774,
+    707
+   ],
+   "scale_x": 0.8
+  },
+  {
+   "type": "text",
+   "x": 778.0,
+   "y": 532.5,
    "font": "Noto Sans JP",
    "weight": 900,
    "size": 158.3,
@@ -115,13 +172,86 @@
      "#141213"
     ]
    ],
+   "text": "入",
    "tgt": [
-    19,
-    557,
-    1270,
-    709
+    781,
+    562,
+    891,
+    703
    ],
-   "scale_x": 0.782
+   "scale_x": 0.729
+  },
+  {
+   "type": "text",
+   "x": 898.0,
+   "y": 536.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 155.0,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "text": "品",
+   "tgt": [
+    906,
+    562,
+    1016,
+    704
+   ],
+   "scale_x": 0.814
+  },
+  {
+   "type": "text",
+   "x": 1027.0,
+   "y": 540.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 155.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "text": "紹",
+   "tgt": [
+    1028,
+    560,
+    1145,
+    707
+   ],
+   "scale_x": 0.801
+  },
+  {
+   "type": "text",
+   "x": 1152.0,
+   "y": 539.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 155.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "text": "介",
+   "tgt": [
+    1154,
+    558,
+    1268,
+    706
+   ],
+   "scale_x": 0.76
   }
  ]
 }

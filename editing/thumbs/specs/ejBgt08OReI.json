@@ -155,12 +155,11 @@
   },
   {
    "type": "text",
-   "text": "絶対買い!!",
-   "x": 10.0,
-   "y": 447.0,
+   "x": 13.5,
+   "y": 450.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 244.9,
+   "size": 232.3,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -174,13 +173,159 @@
     ]
    ],
    "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "絶",
    "tgt": [
-    13,
-    478,
-    1210,
-    712
+    17,
+    479,
+    259,
+    700
    ],
-   "scale_x": 1.045
+   "scale_x": 1.073
+  },
+  {
+   "type": "text",
+   "x": 275.0,
+   "y": 449.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 232.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "対",
+   "tgt": [
+    278,
+    479,
+    520,
+    700
+   ],
+   "scale_x": 1.086
+  },
+  {
+   "type": "text",
+   "x": 536.5,
+   "y": 439.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 241.6,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "買",
+   "tgt": [
+    544,
+    479,
+    771,
+    700
+   ],
+   "scale_x": 0.996
+  },
+  {
+   "type": "text",
+   "x": 778.0,
+   "y": 423.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 262.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "い",
+   "tgt": [
+    810,
+    491,
+    1120,
+    689
+   ],
+   "scale_x": 1.373
+  },
+  {
+   "type": "text",
+   "x": 1125.5,
+   "y": 420.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 269.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "!",
+   "tgt": [
+    1150,
+    479,
+    1204,
+    689
+   ],
+   "scale_x": 0.963
+  },
+  {
+   "type": "text",
+   "x": 1201.0,
+   "y": 420.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 269.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "text": "!",
+   "tgt": [
+    1225,
+    479,
+    1278,
+    689
+   ],
+   "scale_x": 0.945
   }
  ]
 }

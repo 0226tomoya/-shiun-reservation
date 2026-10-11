@@ -1,0 +1,302 @@
+{
+ "id": "cmHDCjsPAko",
+ "erase": [
+  {
+   "rect": [
+    57,
+    48,
+    259,
+    148
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    34,
+    33,
+    1212,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    675,
+    1212,
+    11
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1234,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    225,
+    245,
+    850,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    100,
+    325,
+    1085,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 9,
+ "front": [
+  [
+   [
+    552,
+    0
+   ],
+   [
+    790,
+    0
+   ],
+   [
+    790,
+    58
+   ],
+   [
+    552,
+    58
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 38,
+   "w": 1202,
+   "h": 644,
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_clareweightkeller_cmhd.png",
+   "x": 57,
+   "y": 48,
+   "w": 259,
+   "h": 148
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "に",
+     "size_em": 0.85
+    },
+    {
+     "text": "オススメしたい"
+    }
+   ],
+   "x": 236.0,
+   "y": 247.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 60.0,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "tgt": [
+    237,
+    255,
+    1057,
+    312
+   ],
+   "scale_x": 1.111
+  },
+  {
+   "type": "text",
+   "x": 110.0,
+   "y": 312.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 141.2,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "春",
+   "tgt": [
+    112,
+    331,
+    243,
+    465
+   ],
+   "scale_x": 0.956
+  },
+  {
+   "type": "text",
+   "x": 255.0,
+   "y": 352.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 98.2,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "の",
+   "tgt": [
+    260,
+    376,
+    350,
+    455
+   ],
+   "scale_x": 1.034
+  },
+  {
+   "type": "text",
+   "x": 362.0,
+   "y": 312.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 142.4,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "セ",
+   "tgt": [
+    368,
+    338,
+    490,
+    459
+   ],
+   "scale_x": 0.975
+  },
+  {
+   "type": "text",
+   "x": 499.5,
+   "y": 316.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 135.7,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "ッ",
+   "tgt": [
+    519,
+    368,
+    620,
+    464
+   ],
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "x": 632.0,
+   "y": 311.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 142.4,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "ト",
+   "tgt": [
+    672,
+    337,
+    752,
+    458
+   ],
+   "scale_x": 0.959
+  },
+  {
+   "type": "text",
+   "x": 765.0,
+   "y": 314.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 137.6,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "ア",
+   "tgt": [
+    780,
+    344,
+    899,
+    458
+   ],
+   "scale_x": 1.009
+  },
+  {
+   "type": "text",
+   "x": 902.5,
+   "y": 316.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 135.7,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "ッ",
+   "tgt": [
+    922,
+    368,
+    1023,
+    464
+   ],
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "x": 1032.0,
+   "y": 314.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 136.8,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "text": "プ",
+   "tgt": [
+    1045,
+    331,
+    1171,
+    458
+   ],
+   "scale_x": 1.04
+  }
+ ]
+}

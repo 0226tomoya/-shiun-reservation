@@ -18,22 +18,155 @@
  "layers": [
   {
    "type": "text",
-   "text": "ご報告があります",
-   "x": 0.5,
-   "y": 509.0,
+   "x": 1.0,
+   "y": 525.0,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 171.0,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "ご",
+   "tgt": [
+    12,
+    544,
+    143,
+    703
+   ],
+   "scale_x": 0.889
+  },
+  {
+   "type": "text",
+   "x": 141.5,
+   "y": 510.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 184.0,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "報",
+   "tgt": [
+    147,
+    536,
+    335,
+    709
+   ],
+   "scale_x": 1.063
+  },
+  {
+   "type": "text",
+   "x": 333.5,
+   "y": 513.0,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 182.9,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "告",
+   "tgt": [
+    343,
+    537,
+    504,
+    710
+   ],
+   "scale_x": 0.985
+  },
+  {
+   "type": "text",
+   "x": 507.0,
+   "y": 513.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 180.7,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "が",
+   "tgt": [
+    513,
+    535,
+    629,
+    702
+   ],
+   "scale_x": 0.687
+  },
+  {
+   "type": "text",
+   "x": 616.0,
+   "y": 502.0,
    "font": "Noto Sans JP",
    "weight": 800,
    "size": 191.4,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.887,
+   "text": "あ",
    "tgt": [
-    13,
-    530,
-    1262,
-    715
-   ]
+    634,
+    535,
+    833,
+    703
+   ],
+   "scale_x": 1.228
+  },
+  {
+   "type": "text",
+   "x": 827.5,
+   "y": 511.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 181.2,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "り",
+   "tgt": [
+    844,
+    543,
+    962,
+    703
+   ],
+   "scale_x": 1.023
+  },
+  {
+   "type": "text",
+   "x": 956.0,
+   "y": 511.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 183.4,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "ま",
+   "tgt": [
+    975,
+    543,
+    1101,
+    704
+   ],
+   "scale_x": 0.952
+  },
+  {
+   "type": "text",
+   "x": 1112.0,
+   "y": 513.0,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 181.3,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "す",
+   "tgt": [
+    1117,
+    544,
+    1253,
+    705
+   ],
+   "scale_x": 0.881
   }
  ]
 }

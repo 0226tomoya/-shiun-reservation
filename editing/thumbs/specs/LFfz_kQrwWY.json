@@ -1,0 +1,139 @@
+{
+ "id": "LFfz_kQrwWY",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    469,
+    288,
+    383,
+    107
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    130,
+    405,
+    1040,
+    108
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    5,
+    520,
+    1275,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/familymart_band_lffz.png",
+   "x": 469,
+   "y": 288,
+   "w": 383,
+   "h": 107
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": false,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "ファミマのスウェット",
+   "x": 136.5,
+   "y": 406.5,
+   "size": 88.5,
+   "tgt": [
+    150,
+    421,
+    1160,
+    503
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.17
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "想像以上",
+   "x": 11.0,
+   "y": 504.0,
+   "size": 193.2,
+   "tgt": [
+    16,
+    529,
+    929,
+    713
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.199,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "でした",
+   "x": 955.5,
+   "y": 501.5,
+   "size": 195.8,
+   "tgt": [
+    958,
+    535,
+    1266,
+    709
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.589,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
+  }
+ ]
+}

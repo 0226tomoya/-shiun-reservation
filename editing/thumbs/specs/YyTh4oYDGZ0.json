@@ -1,0 +1,314 @@
+{
+ "id": "YyTh4oYDGZ0",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    552,
+    18,
+    176,
+    176
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    205,
+    1280,
+    370
+   ],
+   "colors": [
+    "#2e2eb0",
+    "#f0d890",
+    "#6a4a18"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    0,
+    575,
+    1280,
+    145
+   ],
+   "colors": [
+    "#d4a848",
+    "#f8e6a0"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_yyth.png",
+   "x": 552,
+   "y": 18,
+   "w": 176,
+   "h": 176
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "絶",
+   "x": 14.0,
+   "y": 146.0,
+   "size": 412.4,
+   "tgt": [
+    15,
+    228,
+    279,
+    552
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.654
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "対",
+   "x": 283.0,
+   "y": 141.0,
+   "size": 413.1,
+   "tgt": [
+    279,
+    230,
+    542,
+    549
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.638
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "買",
+   "x": 552.0,
+   "y": 136.0,
+   "size": 414.6,
+   "tgt": [
+    550,
+    233,
+    810,
+    552
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.62
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "い",
+   "x": 817.5,
+   "y": 157.0,
+   "size": 384.4,
+   "tgt": [
+    825,
+    254,
+    1075,
+    530
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.681
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "!",
+   "x": 1085.5,
+   "y": 168.0,
+   "size": 361.7,
+   "tgt": [
+    1094,
+    242,
+    1163,
+    531
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.768
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#1a1a8c 0%,#2e2eb0 30%,#5048f0 50%,#2a1ea8 65%,#20169c 100%)",
+   "strokes": [
+    [
+     9,
+     "#f0d890"
+    ],
+    [
+     13,
+     "#6a4a18"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "text": "!",
+   "x": 1184.5,
+   "y": 168.0,
+   "size": 361.7,
+   "tgt": [
+    1193,
+    242,
+    1262,
+    531
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.768
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#f8e6a0 0%,#d4a848 40%,#a07830 60%,#f0c860 85%,#b07830 100%)",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "ジーユー秋冬服",
+   "x": 16.0,
+   "y": 582.0,
+   "size": 125.4,
+   "tgt": [
+    19,
+    592,
+    778,
+    707
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.867
+  },
+  {
+   "type": "text",
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "fill": "linear-gradient(180deg,#f8e6a0 0%,#d4a848 40%,#a07830 60%,#f0c860 85%,#b07830 100%)",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "総まとめ!!",
+   "x": 794.5,
+   "y": 564.0,
+   "size": 142.6,
+   "tgt": [
+    795,
+    592,
+    1266,
+    707
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.72
+  }
+ ]
+}

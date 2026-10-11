@@ -121,12 +121,11 @@
   },
   {
    "type": "text",
-   "text": "完売間近!!",
-   "x": 15.5,
-   "y": 407.0,
+   "x": 14.0,
+   "y": 398.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 279.5,
+   "size": 289.0,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -136,13 +135,139 @@
     ]
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "完",
    "tgt": [
-    21,
-    443,
-    1262,
+    20,
+    435,
+    288,
     710
    ],
-   "scale_x": 0.948
+   "scale_x": 0.978
+  },
+  {
+   "type": "text",
+   "x": 292.0,
+   "y": 397.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 289.0,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "売",
+   "tgt": [
+    299,
+    435,
+    568,
+    710
+   ],
+   "scale_x": 0.975
+  },
+  {
+   "type": "text",
+   "x": 562.0,
+   "y": 397.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 291.6,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "間",
+   "tgt": [
+    583,
+    446,
+    833,
+    712
+   ],
+   "scale_x": 0.994
+  },
+  {
+   "type": "text",
+   "x": 840.5,
+   "y": 401.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 285.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "近",
+   "tgt": [
+    846,
+    439,
+    1119,
+    707
+   ],
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "x": 1120.0,
+   "y": 398.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 289.8,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "!",
+   "tgt": [
+    1145,
+    461,
+    1202,
+    687
+   ],
+   "scale_x": 0.932
+  },
+  {
+   "type": "text",
+   "x": 1190.0,
+   "y": 398.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 289.8,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "!",
+   "tgt": [
+    1215,
+    461,
+    1272,
+    687
+   ],
+   "scale_x": 0.932
   }
  ]
 }

@@ -1,0 +1,303 @@
+{
+ "id": "fN4pcESsdpQ",
+ "grow": 27,
+ "erase": [
+  {
+   "rect": [
+    18,
+    15,
+    500,
+    110
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    534,
+    15,
+    446,
+    105
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    118,
+    700,
+    290
+   ],
+   "colors": [
+    "#d00010",
+    "#a00004"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    30,
+    395,
+    1180,
+    325
+   ],
+   "colors": [
+    "#d00010",
+    "#a00004"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    680,
+    160,
+    340,
+    190
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 18,
+   "y": 15,
+   "w": 500,
+   "h": 110,
+   "fill": "#000000",
+   "radius": 14
+  },
+  {
+   "type": "rect",
+   "x": 534,
+   "y": 15,
+   "w": 446,
+   "h": 105,
+   "fill": "#000000",
+   "radius": 14
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "text": "オーバーサイズ",
+   "x": 41.0,
+   "y": 13.5,
+   "size": 84.7,
+   "tgt": [
+    43,
+    27,
+    495,
+    105
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.768
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "text": "ロングコート",
+   "x": 560.0,
+   "y": 14.0,
+   "size": 85.8,
+   "tgt": [
+    568,
+    28,
+    933,
+    105
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.747
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "fill": "linear-gradient(180deg,#ea0513,#a00004)",
+   "palt": true,
+   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "strokes": [
+    [
+     5,
+     "#b8000c"
+    ],
+    [
+     8,
+     "#111111"
+    ]
+   ],
+   "text": "チビは",
+   "x": 12.5,
+   "y": 71.0,
+   "size": 305.8,
+   "tgt": [
+    33,
+    124,
+    637,
+    394
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.704
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "fill": "linear-gradient(180deg,#ea0513,#a00004)",
+   "palt": true,
+   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "strokes": [
+    [
+     5,
+     "#b8000c"
+    ],
+    [
+     8,
+     "#111111"
+    ]
+   ],
+   "text": "着る",
+   "x": 69.0,
+   "y": 362.5,
+   "size": 314.0,
+   "tgt": [
+    73,
+    404,
+    401,
+    697
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.582
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "fill": "linear-gradient(180deg,#ea0513,#a00004)",
+   "palt": true,
+   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "strokes": [
+    [
+     5,
+     "#b8000c"
+    ],
+    [
+     8,
+     "#111111"
+    ]
+   ],
+   "text": "の",
+   "x": 416.0,
+   "y": 458.5,
+   "size": 179.2,
+   "tgt": [
+    429,
+    509,
+    566,
+    639
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.914
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "fill": "linear-gradient(180deg,#ea0513,#a00004)",
+   "palt": true,
+   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "strokes": [
+    [
+     5,
+     "#b8000c"
+    ],
+    [
+     8,
+     "#111111"
+    ]
+   ],
+   "text": "禁止!?",
+   "x": 571.0,
+   "y": 370.0,
+   "size": 235.0,
+   "tgt": [
+    575,
+    404,
+    1188,
+    626
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.902
+  },
+  {
+   "type": "text",
+   "font": "YuseiMagic",
+   "weight": 400,
+   "color": "#111111",
+   "palt": true,
+   "text": "チビは\n着るなww",
+   "x": 675.0,
+   "y": 206.5,
+   "size": 71.3,
+   "tgt": [
+    690,
+    170,
+    1010,
+    340
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "rotate": -15,
+   "line": 1.0,
+   "scale_x": 1.075
+  }
+ ]
+}

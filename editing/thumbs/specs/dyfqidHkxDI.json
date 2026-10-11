@@ -66,13 +66,13 @@
    "rect": [
     35,
     220,
-    950,
+    515,
     125
    ],
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 20
   },
   {
    "rect": [
@@ -84,7 +84,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 20
   },
   {
    "rect": [
@@ -96,7 +96,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 20
   },
   {
    "rect": [
@@ -104,6 +104,28 @@
     368,
     140,
     190
+   ],
+   "by": "layers",
+   "grow": 9
+  },
+  {
+   "rect": [
+    610,
+    220,
+    375,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    550,
+    220,
+    60,
+    125
    ],
    "by": "layers",
    "grow": 9
@@ -123,20 +145,11 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "7"
-    },
-    {
-     "text": "選",
-     "size_em": 0.55
-    }
-   ],
-   "x": 1030,
-   "y": 4,
+   "x": 1022,
+   "y": -6,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 205,
+   "size": 219.5,
    "color": "#ffffff",
    "hollow": true,
    "strokes": [
@@ -145,7 +158,21 @@
      "#ffffff"
     ]
    ],
-   "palt": true
+   "palt": true,
+   "scale_x": 0.955,
+   "text": "7"
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1124,
+   "y": 95,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 79.2,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.998
   },
   {
    "type": "rect",
@@ -165,60 +192,228 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "164"
-    },
-    {
-     "text": "cm",
-     "size_em": 0.85
-    }
-   ],
-   "x": 42,
-   "y": 190,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 140,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.2
+   "scale_x": 1.217,
+   "text": "1",
+   "x": 40,
+   "y": 271.0,
+   "anchor": "lc",
+   "size": 131.0,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "でも",
-   "x": 714,
-   "y": 210,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 128,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.1
+   "scale_x": 1.06,
+   "text": "6",
+   "x": 124.4,
+   "y": 251.0,
+   "anchor": "lc",
+   "size": 181.0,
+   "line": 1.0
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "彼女"
-    },
-    {
-     "text": "が",
-     "size_em": 0.62
-    },
-    {
-     "text": "できる方法"
-    }
-   ],
-   "x": 34,
-   "y": 350,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 192,
    "color": "#ffffff",
    "palt": true,
-   "shadow": "0 0 8px rgba(0,0,0,.3)"
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.144,
+   "text": "4",
+   "x": 226.7,
+   "y": 256.0,
+   "anchor": "lc",
+   "size": 164.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.955,
+   "text": "c",
+   "x": 342.1,
+   "y": 263.5,
+   "anchor": "lc",
+   "size": 151.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.24,
+   "text": "m",
+   "x": 423.8,
+   "y": 259.5,
+   "anchor": "lc",
+   "size": 118.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.972,
+   "text": "で",
+   "x": 705,
+   "y": 270.0,
+   "anchor": "lc",
+   "size": 138.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.931,
+   "text": "も",
+   "x": 851.3,
+   "y": 265.0,
+   "anchor": "lc",
+   "size": 150.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.014,
+   "text": "彼",
+   "x": 33,
+   "y": 452.0,
+   "anchor": "lc",
+   "size": 178.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.938,
+   "text": "女",
+   "x": 204.3,
+   "y": 453.0,
+   "anchor": "lc",
+   "size": 182.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.994,
+   "text": "が",
+   "x": 360.6,
+   "y": 475.0,
+   "anchor": "lc",
+   "size": 124.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.778,
+   "text": "で",
+   "x": 491.2,
+   "y": 460.0,
+   "anchor": "lc",
+   "size": 154.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.778,
+   "text": "き",
+   "x": 658.2,
+   "y": 457.0,
+   "anchor": "lc",
+   "size": 167.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.897,
+   "text": "る",
+   "x": 772.9,
+   "y": 455.0,
+   "anchor": "lc",
+   "size": 181.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.994,
+   "text": "方",
+   "x": 906.4,
+   "y": 450.0,
+   "anchor": "lc",
+   "size": 175.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.054,
+   "text": "法",
+   "x": 1056.7,
+   "y": 457.0,
+   "anchor": "lc",
+   "size": 175.0,
+   "line": 1.0
   }
  ]
 }

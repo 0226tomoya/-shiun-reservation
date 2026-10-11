@@ -59,26 +59,22 @@
   {
    "type": "text",
    "text": "お洒落でモテる",
-   "x": 1181,
-   "y": 17,
+   "x": 1179.5,
+   "y": 11.0,
    "anchor": "ct",
    "vertical": true,
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 68,
+   "size": 70.3,
    "spacing": 0.06,
    "color": "#ffffff",
    "strokes": [
     [
-     2.5,
-     "#ffffff"
-    ],
-    [
-     3,
+     2,
      "#111111"
     ]
    ],
-   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
    "lock": [
     "skew",
     "rotate"
@@ -90,34 +86,44 @@
     520
    ],
    "tol": 20,
-   "scale_x": 1,
+   "scale_x": 1.015,
    "fit_iou": 0.223,
    "rotate": 0,
-   "fixed": true
+   "fixed": true,
+   "tgt": [
+    1147,
+    17,
+    1216,
+    521
+   ],
+   "m": [
+    1135,
+    8,
+    95,
+    520,
+    "#ffffff",
+    14
+   ]
   },
   {
    "type": "text",
    "text": "カッコいい低身長が",
-   "x": 1072,
-   "y": 87,
+   "x": 1076.5,
+   "y": 78.0,
    "anchor": "ct",
    "vertical": true,
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 66,
+   "size": 67.8,
    "spacing": 0.01,
    "color": "#ffffff",
    "strokes": [
     [
-     2.5,
-     "#ffffff"
-    ],
-    [
-     3,
+     2,
      "#111111"
     ]
    ],
-   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
    "lock": [
     "skew",
     "rotate"
@@ -129,34 +135,44 @@
     620
    ],
    "tol": 20,
-   "scale_x": 1,
+   "scale_x": 1.035,
    "fit_iou": 0.197,
    "rotate": 0,
-   "fixed": true
+   "fixed": true,
+   "tgt": [
+    1038,
+    87,
+    1108,
+    690
+   ],
+   "m": [
+    1028,
+    78,
+    92,
+    620,
+    "#ffffff",
+    14
+   ]
   },
   {
    "type": "text",
    "text": "をかけてやっている",
-   "x": 279,
-   "y": 20,
+   "x": 281.0,
+   "y": 8.0,
    "anchor": "ct",
    "vertical": true,
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 62,
+   "size": 63.8,
    "spacing": 0.1,
    "color": "#ffffff",
    "strokes": [
     [
-     2.5,
-     "#ffffff"
-    ],
-    [
-     3,
+     2,
      "#111111"
     ]
    ],
-   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
    "lock": [
     "skew",
     "rotate"
@@ -168,33 +184,43 @@
     630
    ],
    "tol": 20,
-   "scale_x": 1,
+   "scale_x": 1.071,
    "fit_iou": 0.185,
    "rotate": 0,
-   "fixed": true
+   "fixed": true,
+   "tgt": [
+    248,
+    17,
+    311,
+    632
+   ],
+   "m": [
+    238,
+    10,
+    85,
+    630,
+    "#ffffff",
+    14
+   ]
   },
   {
    "type": "text",
    "text": "10",
-   "x": 120,
-   "y": 256,
+   "x": 112.5,
+   "y": 253.0,
    "anchor": "cc",
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 180,
+   "size": 204.9,
    "skew": -10,
    "color": "#ffffff",
    "strokes": [
     [
-     2.5,
-     "#ffffff"
-    ],
-    [
-     3,
+     2,
      "#111111"
     ]
    ],
-   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
    "lock": [
     "rotate"
    ],
@@ -205,34 +231,44 @@
     165
    ],
    "tol": 20,
-   "scale_x": 0.86,
+   "scale_x": 0.822,
    "spacing": 0,
    "fit_iou": 0.147,
-   "fixed": true
+   "fixed": true,
+   "tgt": [
+    28,
+    193,
+    209,
+    345
+   ],
+   "m": [
+    18,
+    185,
+    205,
+    160,
+    "#ffffff",
+    14
+   ]
   },
   {
    "type": "text",
    "text": "のこと",
-   "x": 115,
-   "y": 366,
+   "x": 121.5,
+   "y": 344.0,
    "anchor": "ct",
    "vertical": true,
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 66,
+   "size": 78.2,
    "spacing": 0.2,
    "color": "#ffffff",
    "strokes": [
     [
-     2.5,
-     "#ffffff"
-    ],
-    [
-     3,
+     2,
      "#111111"
     ]
    ],
-   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
    "lock": [
     "skew",
     "rotate"
@@ -244,10 +280,24 @@
     250
    ],
    "tol": 20,
-   "scale_x": 1,
+   "scale_x": 1.231,
    "fit_iou": 0.228,
    "rotate": 0,
-   "fixed": true
+   "fixed": true,
+   "tgt": [
+    85,
+    355,
+    166,
+    600
+   ],
+   "m": [
+    60,
+    345,
+    110,
+    265,
+    "#ffffff",
+    14
+   ]
   }
  ]
 }

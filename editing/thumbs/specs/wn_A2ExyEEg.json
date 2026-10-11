@@ -1,0 +1,298 @@
+{
+ "id": "wn_A2ExyEEg",
+ "erase": [
+  {
+   "rect": [
+    1005,
+    10,
+    265,
+    274
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    1000,
+    118
+   ],
+   "colors": [
+    "#1a1a1a",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    150,
+    335,
+    610,
+    105
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    0,
+    395,
+    1280,
+    325
+   ],
+   "by": "layers",
+   "colors": [
+    "#c01818",
+    "#ffffff",
+    "#ff3d3b",
+    "#800810"
+   ],
+   "tol": 40
+  }
+ ],
+ "grow": 8,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_wna2.png",
+   "x": 1005,
+   "y": 10,
+   "w": 265,
+   "h": 274
+  },
+  {
+   "type": "text",
+   "x": 14.0,
+   "y": -6.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 110.4,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "runs": [
+    {
+     "text": "秋冬"
+    },
+    {
+     "text": "は",
+     "size_em": 0.75
+    },
+    {
+     "text": "コレ"
+    },
+    {
+     "text": "だけ",
+     "size_em": 0.75
+    },
+    {
+     "text": "あればOK!!"
+    }
+   ],
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.78
+  },
+  {
+   "type": "text",
+   "text": "＼初心者向け／",
+   "x": 158.5,
+   "y": 331.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 95.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "m": [
+    152,
+    338,
+    605,
+    100,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.901
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "絶",
+   "x": 12.5,
+   "y": 415.8,
+   "size": 264.6,
+   "m": [
+    14,
+    448,
+    241,
+    254,
+    "#c01818",
+    50
+   ],
+   "scale_x": 0.929
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "対",
+   "x": 261.0,
+   "y": 414.3,
+   "size": 266.4,
+   "m": [
+    263,
+    448,
+    245,
+    254,
+    "#c01818",
+    50
+   ],
+   "scale_x": 0.955
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "買",
+   "x": 509.0,
+   "y": 413.1,
+   "size": 260.8,
+   "m": [
+    515,
+    457,
+    203,
+    243,
+    "#c01818",
+    50
+   ],
+   "scale_x": 0.817
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "い",
+   "x": 713.0,
+   "y": 414.5,
+   "size": 256.9,
+   "m": [
+    735,
+    482,
+    202,
+    194,
+    "#c01818",
+    50
+   ],
+   "scale_x": 0.915
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "7",
+   "x": 922.0,
+   "y": 301.5,
+   "size": 380.0,
+   "m": [
+    942,
+    399,
+    216,
+    298,
+    "#c01818",
+    50
+   ],
+   "scale_x": 1.103
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#800810 0%,#b40c0c 25%,#d82424 50%,#ff3d3b 65%,#c02424 80%,#961414 100%)",
+   "fit_color": "#c01818",
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "text": "選",
+   "x": 1164.0,
+   "y": 498.4,
+   "size": 192.0,
+   "m": [
+    1166,
+    534,
+    101,
+    162,
+    "#c01818",
+    50
+   ],
+   "scale_x": 0.549,
+   "tgt": [
+    1166,
+    528,
+    1268,
+    702
+   ]
+  }
+ ]
+}
