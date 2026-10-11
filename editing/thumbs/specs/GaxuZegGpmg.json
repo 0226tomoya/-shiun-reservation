@@ -1,0 +1,462 @@
+{
+ "id": "GaxuZegGpmg",
+ "erase": [
+  {
+   "rect": [
+    15,
+    335,
+    730,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    8,
+    432,
+    750,
+    285
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    735,
+    428,
+    545,
+    290
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1105,
+    12,
+    175,
+    205
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    1095,
+    222,
+    185,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "x": 11.5,
+   "y": 322.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 94.42,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "こ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    21,
+    333,
+    89,
+    101
+   ],
+   "fit_iou": 0.776
+  },
+  {
+   "type": "text",
+   "x": 113.2,
+   "y": 322.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 99.549,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "の",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    102,
+    332,
+    105,
+    102
+   ],
+   "fit_iou": 0.839
+  },
+  {
+   "type": "text",
+   "x": 198.8,
+   "y": 322.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 97.962,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "フ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    199,
+    333,
+    95,
+    101
+   ],
+   "fit_iou": 0.843
+  },
+  {
+   "type": "text",
+   "x": 290.5,
+   "y": 320.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 99.152,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "ァ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    292,
+    349,
+    92,
+    90
+   ],
+   "fit_iou": 0.736
+  },
+  {
+   "type": "text",
+   "x": 378.2,
+   "y": 318.0,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 98.755,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "ッ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    380,
+    347,
+    91,
+    92
+   ],
+   "fit_iou": 0.628
+  },
+  {
+   "type": "text",
+   "x": 467.8,
+   "y": 320.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 99.152,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "シ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    463,
+    327,
+    103,
+    107
+   ],
+   "fit_iou": 0.539
+  },
+  {
+   "type": "text",
+   "x": 557.5,
+   "y": 322.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 99.152,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "ョ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    565,
+    350,
+    79,
+    87
+   ],
+   "fit_iou": 0.516
+  },
+  {
+   "type": "text",
+   "x": 645.7,
+   "y": 318.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 98.755,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.944,
+   "spacing": 0,
+   "text": "ン",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    646,
+    330,
+    100,
+    103
+   ],
+   "fit_iou": 0.633
+  },
+  {
+   "type": "text",
+   "x": -12.5,
+   "y": 410.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 260.154,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 1.062,
+   "spacing": 0,
+   "text": "ダ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    -12,
+    429,
+    266,
+    282
+   ],
+   "fit_iou": 0.698
+  },
+  {
+   "type": "text",
+   "x": 226.9,
+   "y": 414.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 264.394,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 1.062,
+   "spacing": 0,
+   "text": "メ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    238,
+    449,
+    257,
+    251
+   ],
+   "fit_iou": 0.751
+  },
+  {
+   "type": "text",
+   "x": 486.3,
+   "y": 428.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 264.394,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 1.062,
+   "spacing": 0,
+   "text": "、",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    491,
+    595,
+    118,
+    109
+   ],
+   "fit_iou": 0.856
+  },
+  {
+   "type": "text",
+   "x": 716.5,
+   "y": 398.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 293.268,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.905,
+   "spacing": 0,
+   "text": "絶",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    711,
+    422,
+    284,
+    305
+   ],
+   "fit_iou": 0.797
+  },
+  {
+   "type": "text",
+   "x": 1008.0,
+   "y": 396,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 296.83,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "scale_x": 0.905,
+   "spacing": 0,
+   "text": "対",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    999,
+    422,
+    281,
+    305
+   ],
+   "fit_iou": 0.768
+  },
+  {
+   "type": "text",
+   "text": "N",
+   "x": 1103.0,
+   "y": -28.5,
+   "font": "Bebas Neue",
+   "weight": 400,
+   "size": 271.877,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    1105,
+    12,
+    175,
+    205
+   ],
+   "scale_x": 1.802,
+   "rotate": 2.0,
+   "fit_iou": 0.544
+  },
+  {
+   "type": "text",
+   "text": "G",
+   "x": 1069.5,
+   "y": 192.5,
+   "font": "Bebas Neue",
+   "weight": 400,
+   "size": 253.344,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    1095,
+    222,
+    185,
+    215
+   ],
+   "scale_x": 1.727,
+   "rotate": -3.0,
+   "fit_iou": 0.521
+  }
+ ]
+}

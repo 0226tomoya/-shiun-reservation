@@ -4,76 +4,77 @@
   {
    "rect": [
     5,
-    365,
+    350,
     1272,
-    115
+    112
    ],
    "colors": [
     "#ffffff"
    ],
-   "tol": 12
+   "tol": 24
   },
   {
    "rect": [
     5,
-    480,
+    462,
     1272,
-    236
+    256
    ],
    "colors": [
     "#ffffff"
    ],
-   "tol": 12
+   "tol": 24
   }
  ],
  "layers": [
   {
    "type": "text",
    "text": "今バズってるあのアイテム",
-   "x": 10,
-   "y": 362,
+   "x": 19.0,
+   "y": 328.5,
    "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 108,
+   "weight": 900,
+   "size": 108.425,
    "line": 1.0,
-   "spacing": -0.04,
+   "spacing": -0.066,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.7)",
    "tol": 8,
-   "scale_x": 1.0,
-   "skew": 0,
-   "rotate": 0,
-   "fit_iou": 0.357,
+   "scale_x": 1.058,
+   "skew": 3.0,
+   "rotate": 0.15,
+   "fit_iou": 0.463,
    "box": [
     5,
-    372,
+    350,
     1272,
-    100
+    110
    ]
   },
   {
    "type": "text",
    "text": "実際どうなの?",
-   "x": 12,
-   "y": 478,
+   "x": 19.0,
+   "y": 446.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 225,
+   "size": 258.66,
    "line": 1.0,
    "spacing": -0.04,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.7)",
    "tol": 8,
-   "scale_x": 0.95,
-   "fit_iou": 0.519,
-   "skew": 0,
+   "scale_x": 0.806,
+   "fit_iou": 0.505,
+   "skew": 0.3,
    "rotate": 0,
    "box": [
     5,
-    490,
+    462,
     1272,
-    225
+    255
    ]
   }
- ]
+ ],
+ "grow": 15
 }

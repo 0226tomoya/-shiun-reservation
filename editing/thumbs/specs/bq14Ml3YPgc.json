@@ -1,0 +1,233 @@
+{
+ "id": "bq14Ml3YPgc",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    1135,
+    8,
+    95,
+    520
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    1028,
+    78,
+    92,
+    620
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    238,
+    10,
+    85,
+    630
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    18,
+    185,
+    205,
+    425
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "お洒落でモテる",
+   "x": 1181,
+   "y": 17,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 68,
+   "spacing": 0.06,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1135,
+    8,
+    95,
+    520
+   ],
+   "tol": 20,
+   "scale_x": 1,
+   "fit_iou": 0.223,
+   "rotate": 0,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "カッコいい低身長が",
+   "x": 1072,
+   "y": 87,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 66,
+   "spacing": 0.01,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1028,
+    78,
+    92,
+    620
+   ],
+   "tol": 20,
+   "scale_x": 1,
+   "fit_iou": 0.197,
+   "rotate": 0,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "をかけてやっている",
+   "x": 279,
+   "y": 20,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 62,
+   "spacing": 0.1,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    238,
+    10,
+    85,
+    630
+   ],
+   "tol": 20,
+   "scale_x": 1,
+   "fit_iou": 0.185,
+   "rotate": 0,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "x": 120,
+   "y": 256,
+   "anchor": "cc",
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 180,
+   "skew": -10,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    18,
+    185,
+    205,
+    165
+   ],
+   "tol": 20,
+   "scale_x": 0.76,
+   "spacing": 0,
+   "fit_iou": 0.147,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "のこと",
+   "x": 115,
+   "y": 366,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 66,
+   "spacing": 0.2,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    60,
+    360,
+    110,
+    250
+   ],
+   "tol": 20,
+   "scale_x": 1,
+   "fit_iou": 0.228,
+   "rotate": 0,
+   "fixed": true
+  }
+ ]
+}

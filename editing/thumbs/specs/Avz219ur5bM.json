@@ -61,7 +61,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 119.4,
+   "size": 119.23,
    "color": "#fdfdfc",
    "strokes": [
     [
@@ -69,14 +69,14 @@
      "#0f0e0f"
     ]
    ],
-   "spacing": -0.14,
+   "spacing": -0.142,
    "scale_x": 1,
-   "fit_iou": 0.496
+   "fit_iou": 0.498
   },
   {
    "type": "text",
-   "x": 644,
-   "y": 373,
+   "x": 664,
+   "y": 355,
    "anchor": "ct",
    "box": [
     20,
@@ -86,7 +86,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 297.0,
+   "size": 321.13,
    "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)",
    "strokes": [
     [
@@ -95,7 +95,7 @@
     ]
    ],
    "shadow": "0 0 14px rgba(255,220,120,.6)",
-   "spacing": -0.026,
+   "spacing": -0.082,
    "runs": [
     {
      "text": "全",
@@ -103,7 +103,7 @@
     },
     {
      "text": "て",
-     "size": 188.31,
+     "size": 205.03,
      "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
     },
     {
@@ -112,13 +112,13 @@
     },
     {
      "text": "かる!!",
-     "size": 188.31,
+     "size": 205.03,
      "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
     }
    ],
    "scale_x": 1.012,
-   "fit_iou": 0.39,
-   "skew": -12
+   "fit_iou": 0.407,
+   "skew": -11
   }
  ]
 }

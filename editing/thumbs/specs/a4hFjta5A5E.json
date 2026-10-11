@@ -58,18 +58,19 @@
      "text": "真似して欲しい"
     }
    ],
-   "x": 270.5,
-   "y": 243.5,
+   "x": 271.5,
+   "y": 242.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 74.092,
+   "size": 75.471,
    "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 10,
-   "scale_x": 0.77,
-   "skew": 3.6,
-   "fit_iou": 0.443
+   "scale_x": 0.766,
+   "skew": 5.4,
+   "fit_iou": 0.41,
+   "spacing": -0.022
   },
   {
    "type": "text",
@@ -86,19 +87,20 @@
      "size_em": 0.55
     }
    ],
-   "x": 201.5,
-   "y": 303.0,
+   "x": 203.0,
+   "y": 303.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
    "size": 130.25,
    "line": 1.0,
-   "spacing": -0.02,
+   "spacing": -0.016,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 10,
-   "scale_x": 0.836,
-   "skew": 0.7,
-   "fit_iou": 0.495
+   "scale_x": 0.828,
+   "skew": 0.4,
+   "fit_iou": 0.579,
+   "rotate": -0.35
   }
  ]
 }

@@ -76,8 +76,8 @@
   {
    "type": "text",
    "text": "街頭インタビュー",
-   "x": 1020,
-   "y": 493,
+   "x": 1016,
+   "y": 492,
    "anchor": "cc",
    "box": [
     770,
@@ -87,16 +87,16 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 60.48,
+   "size": 65.77,
    "color": "#fcfcfc",
    "nokana": true,
-   "spacing": -0.02,
+   "spacing": -0.11,
    "scale_x": 1,
-   "fit_iou": 0.61
+   "fit_iou": 0.747
   },
   {
    "type": "text",
-   "x": 624,
+   "x": 623,
    "y": 523,
    "anchor": "ct",
    "box": [
@@ -115,7 +115,7 @@
      "#151615"
     ]
    ],
-   "spacing": -0.191,
+   "spacing": -0.19,
    "runs": [
     {
      "text": "低身長"

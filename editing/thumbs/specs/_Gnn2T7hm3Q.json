@@ -64,19 +64,19 @@
   {
    "type": "text",
    "text": "今年のUNIQLO:Cも結局これが一番いい",
-   "x": 134.0,
+   "x": 136.0,
    "y": 311.0,
    "font": "Zen Kaku Gothic New",
    "weight": 900,
-   "size": 54.26,
+   "size": 54.043,
    "line": 1.0,
-   "spacing": 0.15,
+   "spacing": 0.152,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "tol": 6,
-   "scale_x": 0.903,
-   "skew": 4,
-   "fit_iou": 0.366,
+   "scale_x": 0.902,
+   "skew": 3.7,
+   "fit_iou": 0.362,
    "box": [
     125,
     312,
@@ -87,25 +87,26 @@
   {
    "type": "text",
    "text": "-キレイめ好きマストバイのジャケット-",
-   "x": 267.0,
+   "x": 269.0,
    "y": 376.0,
    "font": "Zen Kaku Gothic New",
    "weight": 900,
    "size": 36.19,
    "line": 1.0,
-   "spacing": 0.152,
+   "spacing": 0.154,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "tol": 6,
-   "scale_x": 0.983,
-   "skew": -3.2,
-   "fit_iou": 0.572,
+   "scale_x": 0.98,
+   "skew": -6.5,
+   "fit_iou": 0.493,
    "box": [
     262,
     374,
     742,
     42
-   ]
+   ],
+   "rotate": -0.15
   }
  ]
 }

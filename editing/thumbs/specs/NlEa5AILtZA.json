@@ -30,6 +30,26 @@
  "layers": [
   {
    "type": "text",
+   "y": 259.5,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "line": 1.0,
+   "spacing": -0.084,
+   "color": "#fbfbfb",
+   "shadow": "7px 8px 0 #141414",
+   "fit_color": "#fbfbfb",
+   "tol": 10,
+   "scale_x": 0.877,
+   "skew": 9.0,
+   "rotate": -0.3,
+   "x": 0.0,
+   "size": 125.549,
+   "box": [
+    8,
+    285,
+    285,
+    125
+   ],
    "runs": [
     {
      "text": "モテ"
@@ -37,49 +57,76 @@
     {
      "text": "る",
      "size_em": 0.75
-    },
-    {
-     "text": "低身長メンズコーデ"
     }
    ],
-   "x": 14,
-   "y": 278,
+   "fit_iou": 0.468
+  },
+  {
+   "type": "text",
+   "y": 278.5,
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 122,
    "line": 1.0,
-   "spacing": -0.04,
+   "spacing": -0.062,
    "color": "#fbfbfb",
    "shadow": "7px 8px 0 #141414",
    "fit_color": "#fbfbfb",
    "tol": 10,
-   "scale_x": 1.0,
-   "skew": 0,
-   "rotate": 0,
-   "fit_iou": 0.388,
+   "scale_x": 1.095,
+   "skew": 5.3,
+   "rotate": -0.3,
+   "text": "低身長",
+   "x": 277.5,
+   "size": 108.92,
    "box": [
-    8,
+    293,
     285,
-    1265,
+    340,
     125
-   ]
+   ],
+   "fit_iou": 0.434
+  },
+  {
+   "type": "text",
+   "y": 259.0,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "line": 1.0,
+   "spacing": -0.072,
+   "color": "#fbfbfb",
+   "shadow": "7px 8px 0 #141414",
+   "fit_color": "#fbfbfb",
+   "tol": 10,
+   "scale_x": 0.987,
+   "skew": 13.9,
+   "rotate": -0.15,
+   "text": "メンズコーデ",
+   "x": 600.5,
+   "size": 115.546,
+   "box": [
+    633,
+    285,
+    640,
+    125
+   ],
+   "fit_iou": 0.436
   },
   {
    "type": "text",
    "text": "shiun 25Autumn Collection 10 styling",
-   "x": 262,
-   "y": 412,
+   "x": 260.5,
+   "y": 414.0,
    "font": "Jost",
    "weight": 500,
-   "size": 40,
+   "size": 41.114,
    "spacing": 0.06,
    "color": "#fbfbfb",
    "shadow": "3px 3px 0 #141414",
    "fit_color": "#fbfbfb",
    "tol": 10,
-   "scale_x": 1.0,
-   "skew": 0,
-   "fit_iou": 0.391,
+   "scale_x": 0.996,
+   "skew": -6.5,
+   "fit_iou": 0.385,
    "rotate": 0,
    "box": [
     250,

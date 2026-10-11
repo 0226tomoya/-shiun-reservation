@@ -1,0 +1,641 @@
+{
+ "id": "BtFMK0EWAbs",
+ "erase": [
+  {
+   "rect": [
+    5,
+    8,
+    84,
+    84
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    183,
+    90,
+    90,
+    70
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    90,
+    15,
+    640,
+    80
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    752,
+    8,
+    516,
+    132
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    383,
+    127,
+    359,
+    128
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    10,
+    176,
+    235,
+    114
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1003,
+    222,
+    265,
+    98
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    443,
+    305,
+    422,
+    140
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    245,
+    405,
+    120,
+    80
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    355,
+    150,
+    55
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    445,
+    1265,
+    270
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/instagram_grad_btfm.png",
+   "x": 5,
+   "y": 8,
+   "w": 84,
+   "h": 84
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/arrow_red_curve_btfm.png",
+   "x": 183,
+   "y": 90,
+   "w": 90,
+   "h": 70
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "フォロワー",
+     "size_em": 0.62
+    },
+    {
+     "text": "1.8",
+     "size_em": 1.0
+    },
+    {
+     "text": "万人",
+     "size_em": 0.8
+    },
+    {
+     "text": "（身長163cm）",
+     "size_em": 0.55
+    }
+   ],
+   "x": 92.0,
+   "y": -5.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 87.3,
+   "color": "#ffffff",
+   "spacing": -0.03,
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    90,
+    15,
+    640,
+    80
+   ],
+   "scale_x": 0.773,
+   "fit_iou": 0.492
+  },
+  {
+   "type": "rect",
+   "x": 752,
+   "y": 8,
+   "w": 516,
+   "h": 132,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 383,
+   "y": 127,
+   "w": 359,
+   "h": 128,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 10,
+   "y": 176,
+   "w": 235,
+   "h": 114,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 1003,
+   "y": 222,
+   "w": 265,
+   "h": 98,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 443,
+   "y": 305,
+   "w": 422,
+   "h": 140,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 768,
+   "y": 52,
+   "w": 44,
+   "h": 44,
+   "fill": "#d3d3d3",
+   "radius": 22
+  },
+  {
+   "type": "rect",
+   "x": 408,
+   "y": 168,
+   "w": 44,
+   "h": 44,
+   "fill": "#d3d3d3",
+   "radius": 22
+  },
+  {
+   "type": "rect",
+   "x": 22,
+   "y": 212,
+   "w": 40,
+   "h": 40,
+   "fill": "#d3d3d3",
+   "radius": 20
+  },
+  {
+   "type": "rect",
+   "x": 1010,
+   "y": 252,
+   "w": 38,
+   "h": 38,
+   "fill": "#d3d3d3",
+   "radius": 19
+  },
+  {
+   "type": "rect",
+   "x": 458,
+   "y": 350,
+   "w": 46,
+   "h": 46,
+   "fill": "#d3d3d3",
+   "radius": 23
+  },
+  {
+   "type": "text",
+   "text": "身長高い女性→身長高い男性が好き\n身長低い女性→身長高い男性が好き",
+   "x": 824.0,
+   "y": 14.5,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 40.96,
+   "line": 1.5,
+   "color": "#111111",
+   "box": [
+    752,
+    8,
+    516,
+    132
+   ],
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 40,
+   "scale_x": 0.629,
+   "spacing": 0.006,
+   "fit_iou": 0.214
+  },
+  {
+   "type": "text",
+   "text": "\"スーツ\"とかいう\n身長ゲーファッション",
+   "x": 465,
+   "y": 148,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 27,
+   "line": 1.6,
+   "color": "#111111",
+   "box": [
+    383,
+    127,
+    359,
+    128
+   ],
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 40,
+   "scale_x": 1,
+   "spacing": 0,
+   "fit_iou": 0.083,
+   "fixed": true,
+   "rotate": 0
+  },
+  {
+   "type": "text",
+   "text": "低身長は\n「プライドが高い」\nと言われる",
+   "x": 68,
+   "y": 190,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 19,
+   "line": 1.55,
+   "color": "#111111",
+   "box": [
+    10,
+    176,
+    235,
+    114
+   ],
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 40,
+   "scale_x": 1,
+   "spacing": 0,
+   "fit_iou": 0.098,
+   "fixed": true,
+   "rotate": 0
+  },
+  {
+   "type": "text",
+   "text": "子供から他のパパと\n比べられる時が一番辛い",
+   "x": 1052,
+   "y": 240,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 19,
+   "line": 1.55,
+   "color": "#111111",
+   "box": [
+    1003,
+    222,
+    265,
+    98
+   ],
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 40,
+   "scale_x": 1,
+   "spacing": 0,
+   "fit_iou": 0.124,
+   "fixed": true,
+   "rotate": 0
+  },
+  {
+   "type": "text",
+   "text": "180cmくらいの人は\nシンプルな服装が似合ってて\nめちゃくちゃ鬱になる",
+   "x": 517.5,
+   "y": 307.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 30.93,
+   "line": 1.45,
+   "color": "#111111",
+   "box": [
+    443,
+    305,
+    422,
+    140
+   ],
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 40,
+   "scale_x": 0.878,
+   "spacing": 0.018,
+   "fit_iou": 0.445
+  },
+  {
+   "type": "text",
+   "text": "共感の嵐",
+   "x": 12.0,
+   "y": 349.0,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 54.567,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    15,
+    355,
+    150,
+    55
+   ],
+   "scale_x": 0.734,
+   "spacing": -0.01,
+   "rotate": -2.5,
+   "fit_iou": 0.271
+  },
+  {
+   "type": "text",
+   "text": "チビ",
+   "x": 248.0,
+   "y": 389.0,
+   "font": "Zen Antique",
+   "weight": 400,
+   "size": 95.23,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    245,
+    405,
+    120,
+    80
+   ],
+   "scale_x": 0.631,
+   "rotate": 0.3,
+   "fit_iou": 0.187,
+   "spacing": -0.04
+  },
+  {
+   "type": "text",
+   "x": 8,
+   "y": 420.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 263.737,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.756,
+   "text": "低",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    -3,
+    451,
+    223,
+    275
+   ],
+   "fit_iou": 0.796
+  },
+  {
+   "type": "text",
+   "x": 211.9,
+   "y": 426.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 263.737,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.756,
+   "text": "身",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    197,
+    449,
+    212,
+    278
+   ],
+   "fit_iou": 0.782
+  },
+  {
+   "type": "text",
+   "x": 396.7,
+   "y": 426.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 264.792,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.756,
+   "text": "長",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    396,
+    458,
+    211,
+    268
+   ],
+   "fit_iou": 0.773
+  },
+  {
+   "type": "text",
+   "text": "は",
+   "x": 592.0,
+   "y": 507.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 188.81,
+   "spacing": -0.054,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    600,
+    540,
+    140,
+    170
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.794,
+   "fit_iou": 0.838
+  },
+  {
+   "type": "text",
+   "x": 736.5,
+   "y": 438.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 247.257,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.781,
+   "text": "辛",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    728,
+    456,
+    198,
+    259
+   ],
+   "fit_iou": 0.824
+  },
+  {
+   "type": "text",
+   "x": 915.6,
+   "y": 434.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 247.257,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.781,
+   "text": "い",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    918,
+    488,
+    189,
+    210
+   ],
+   "fit_iou": 0.68
+  },
+  {
+   "type": "text",
+   "x": 1088.9,
+   "y": 438.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 245.267,
+   "spacing": 0,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "scale_x": 0.781,
+   "text": "よ",
+   "anchor": "lt",
+   "no_init": true,
+   "box": [
+    1095,
+    467,
+    176,
+    241
+   ],
+   "fit_iou": 0.839
+  }
+ ]
+}

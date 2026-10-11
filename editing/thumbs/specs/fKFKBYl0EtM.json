@@ -1,0 +1,86 @@
+{
+ "id": "fKFKBYl0EtM",
+ "erase": [
+  {
+   "rect": [
+    1078,
+    24,
+    172,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    160,
+    300,
+    960,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    270,
+    368,
+    740,
+    46
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_fkfk.png",
+   "x": 1081,
+   "y": 27,
+   "w": 166,
+   "h": 166
+  },
+  {
+   "type": "text",
+   "text": "絶対に買うべきGUの新作はコレ",
+   "x": 645.5,
+   "y": 336.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 54.395,
+   "spacing": 0.148,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.056,
+   "fit_iou": 0.622,
+   "tol": 45
+  },
+  {
+   "type": "text",
+   "text": "~トレンドを3000円以下で楽しめる~",
+   "x": 645.0,
+   "y": 391.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 37.319,
+   "spacing": 0.162,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.988,
+   "fit_iou": 0.574,
+   "tol": 45
+  }
+ ]
+}
