@@ -32,3 +32,8 @@
 - 1 枚 4 分まで。良い型（他の担当の specs/ にある似た型の JSON）をコピーして文字と位置だけ直すと速い。
 - ロゴは `"full":true` で消してよい（いまは full の範囲も形の一致に数える）。ShipporiMinchoB1 は使える（使う太さだけ読み込むよう直した）。
 - fit が縁取りの色で背景を拾うときは `"fit_color":"#文字色"`。runs は `size_em`（倍率）で書く。
+
+## 追記（04:05・計測モード。担当 11 以降）
+- マシンの負荷が非常に高いので **fit.py は使わない**。代わりに `THUMB_ORIG=…/yt/thumbs python3 measure.py ID x y w h '#色' [tol]` で
+  元の文字の外接矩形と横のかたまりを測り、size（≒文字の高さ×1.15 前後。フォントで違う）・x・y・scale_x を自分で決める。
+- 採点は `bash run.sh ID`（fit なし）。1 枚につき render 2〜3 回、4 分まで。

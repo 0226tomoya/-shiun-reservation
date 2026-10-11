@@ -1,0 +1,312 @@
+{
+ "id": "HKsCkphbwds",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    0,
+    15,
+    1280,
+    335
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    0,
+    375,
+    1280,
+    335
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  }
+ ],
+ "front": [
+  [
+   [
+    520,
+    70
+   ],
+   [
+    550,
+    12
+   ],
+   [
+    630,
+    0
+   ],
+   [
+    740,
+    8
+   ],
+   [
+    790,
+    60
+   ],
+   [
+    802,
+    130
+   ],
+   [
+    796,
+    190
+   ],
+   [
+    782,
+    250
+   ],
+   [
+    752,
+    300
+   ],
+   [
+    752,
+    360
+   ],
+   [
+    535,
+    360
+   ],
+   [
+    545,
+    250
+   ],
+   [
+    525,
+    150
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "x": -12.1,
+   "y": -30.7,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 338.64,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.966,
+   "rotate": -0.65,
+   "skew": -0.6,
+   "text": "高",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    -12,
+    -2,
+    327,
+    345
+   ]
+  },
+  {
+   "type": "text",
+   "x": 314.3,
+   "y": -30.7,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 338.64,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.966,
+   "rotate": -0.65,
+   "skew": -0.6,
+   "text": "身",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    316,
+    -3,
+    329,
+    345
+   ]
+  },
+  {
+   "type": "text",
+   "x": 640.8,
+   "y": -30.7,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 338.64,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.966,
+   "rotate": -0.65,
+   "skew": -0.6,
+   "text": "長",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    638,
+    -3,
+    335,
+    348
+   ]
+  },
+  {
+   "type": "text",
+   "x": 967.2,
+   "y": -30.7,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 338.64,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.966,
+   "rotate": -0.65,
+   "skew": -0.6,
+   "text": "に",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    988,
+    27,
+    297,
+    302
+   ]
+  },
+  {
+   "type": "text",
+   "x": 5.4,
+   "y": 340.8,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 337.96,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.973,
+   "skew": -1,
+   "rotate": -0.3,
+   "text": "勝",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    -5,
+    371,
+    345,
+    344
+   ]
+  },
+  {
+   "type": "text",
+   "x": 323.7,
+   "y": 340.8,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 337.96,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.973,
+   "skew": -1,
+   "rotate": -0.3,
+   "text": "ち",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    339,
+    387,
+    282,
+    315
+   ]
+  },
+  {
+   "type": "text",
+   "x": 642.0,
+   "y": 340.8,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 337.96,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.973,
+   "skew": -1,
+   "rotate": -0.3,
+   "text": "た",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    651,
+    381,
+    301,
+    318
+   ]
+  },
+  {
+   "type": "text",
+   "x": 960.4,
+   "y": 340.8,
+   "anchor": "lt",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 337.96,
+   "spacing": 0,
+   "color": "#ffffff",
+   "scale_x": 0.973,
+   "skew": -1,
+   "rotate": -0.3,
+   "text": "い",
+   "no_init": true,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew",
+    "spacing"
+   ],
+   "box": [
+    965,
+    422,
+    310,
+    260
+   ]
+  }
+ ]
+}

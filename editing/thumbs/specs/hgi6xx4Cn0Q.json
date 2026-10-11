@@ -1,6 +1,69 @@
-{"id":"hgi6xx4Cn0Q",
-"erase":[{"rect":[368,318,545,78],"colors":["#ffffff"],"tol":35},{"rect":[365,405,560,50],"colors":["#ffffff"],"tol":35}],
-"layers":[
- {"type":"text","text":"WAMU VLOG","x":640,"y":357,"anchor":"cc","font":"Permanent Marker","weight":400,"size":70,"spacing":0.08,"color":"#ffffff","lock":["rotate","skew"]},
- {"type":"text","text":"~shiunのロケハンで群馬まで~","x":640,"y":430,"anchor":"cc","font":"Zen Maru Gothic","weight":400,"size":36,"spacing":0.05,"color":"#ffffff","lock":["rotate","skew"]}
-]}
+{
+ "id": "hgi6xx4Cn0Q",
+ "erase": [
+  {
+   "rect": [
+    368,
+    318,
+    545,
+    78
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    365,
+    405,
+    560,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "WAMU VLOG",
+   "x": 646.5,
+   "y": 351.0,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 83.59,
+   "spacing": 0.044,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.109,
+   "fit_iou": 0.412,
+   "tol": 40
+  },
+  {
+   "type": "text",
+   "text": "~shiunのロケハンで群馬まで~",
+   "x": 643.0,
+   "y": 427.5,
+   "anchor": "cc",
+   "font": "Zen Maru Gothic",
+   "weight": 400,
+   "size": 40.409,
+   "spacing": 0.054,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.984,
+   "fit_iou": 0.459,
+   "tol": 45
+  }
+ ]
+}
