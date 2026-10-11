@@ -25,15 +25,15 @@
   },
   {
    "rect": [
-    420,
-    170,
-    350,
-    110
+    405,
+    165,
+    380,
+    120
    ],
    "colors": [
-    "#2a2a2a"
+    "#ffffff"
    ],
-   "tol": 45
+   "tol": 30
   },
   {
    "rect": [
@@ -122,14 +122,15 @@
   {
    "type": "text",
    "text": "低身長デザイナーが厳選",
-   "x": 590,
-   "y": 225,
+   "x": 592,
+   "y": 228,
    "anchor": "cc",
    "font": "KleeOne",
-   "weight": 400,
-   "size": 28,
-   "rotate": -12,
-   "color": "#2a2a2a"
+   "weight": 600,
+   "size": 34,
+   "rotate": 9,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.7)"
   },
   {
    "type": "text",
