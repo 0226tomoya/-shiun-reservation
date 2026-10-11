@@ -318,13 +318,8 @@
   },
   {
    "type": "text",
-   "text": "春服マストバイ",
-   "x": 524.0,
-   "y": 610.5,
-   "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 179.6,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
@@ -340,7 +335,175 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.827
+   "scale_x": 0.827,
+   "text": "春",
+   "x": 4.1,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "服",
+   "x": 152.7,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "マ",
+   "x": 301.2,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "ス",
+   "x": 449.7,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "ト",
+   "x": 598.3,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "バ",
+   "x": 746.8,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tgt": [
+    7,
+    535,
+    1030,
+    705
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.827,
+   "text": "イ",
+   "x": 895.3,
+   "y": 609.7,
+   "anchor": "lc",
+   "size": 179.6,
+   "line": 1.0
   },
   {
    "type": "text",
