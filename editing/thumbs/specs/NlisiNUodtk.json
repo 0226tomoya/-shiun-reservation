@@ -128,12 +128,12 @@
   {
    "type": "text",
    "text": "?",
-   "x": 448,
-   "y": 345,
+   "x": 444,
+   "y": 336,
    "anchor": "cc",
    "font": "Lora",
    "weight": 400,
-   "size": 610,
+   "size": 573.4,
    "color": "#050505",
    "fixed": true,
    "strokes": [
@@ -141,19 +141,20 @@
      2,
      "#e8e8e8"
     ]
-   ]
+   ],
+   "scale_x": 0.92
   },
   {
    "type": "text",
    "text": "2026",
-   "x": 45.0,
-   "y": 292.0,
+   "x": 43.0,
+   "y": 298.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 202.497,
+   "size": 194.4,
    "color": "#fdfdfd",
    "spacing": -0.068,
-   "scale_x": 0.897,
+   "scale_x": 0.933,
    "rotate": -1.15,
    "skew": -10,
    "lock": [
@@ -171,13 +172,13 @@
   {
    "type": "text",
    "text": "年",
-   "x": 428.5,
+   "x": 434.5,
    "y": 387.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 81.67,
+   "size": 81.7,
    "color": "#fdfdfd",
-   "scale_x": 1.027,
+   "scale_x": 0.926,
    "rotate": 0.5,
    "skew": -10,
    "lock": [
@@ -194,15 +195,10 @@
   },
   {
    "type": "text",
-   "text": "秋服",
-   "x": 517.0,
-   "y": 316.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 139.44,
    "color": "#fdfdfd",
-   "scale_x": 0.891,
-   "spacing": 0.014,
+   "scale_x": 0.89,
    "rotate": -0.5,
    "skew": -10,
    "lock": [
@@ -215,20 +211,52 @@
     260,
     140
    ],
-   "fit_iou": 0.787
+   "fit_iou": 0.787,
+   "text": "秋",
+   "x": 501.8,
+   "y": 395.0,
+   "anchor": "lc",
+   "size": 139.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "scale_x": 0.873,
+   "rotate": -0.5,
+   "skew": -10,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    495,
+    330,
+    260,
+    140
+   ],
+   "fit_iou": 0.787,
+   "text": "服",
+   "x": 630.8,
+   "y": 391.0,
+   "anchor": "lc",
+   "size": 139.4,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "低身長ディレクターが解説",
-   "x": 1172,
-   "y": 10,
+   "x": 1183,
+   "y": 25,
    "font": "KleeOne",
    "weight": 600,
-   "size": 37,
+   "size": 33.3,
    "color": "#111111",
    "vertical": true,
    "tol": 70,
-   "scale_x": 1,
+   "scale_x": 0.92,
    "rotate": 0.5,
    "skew": 1,
    "spacing": 0,
@@ -237,11 +265,11 @@
   {
    "type": "text",
    "text": "マ",
-   "x": 0.0,
-   "y": 469.5,
-   "font": "Noto Sans JP",
+   "x": 20.0,
+   "y": 495.5,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 231.55,
+   "size": 209.0,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -253,17 +281,17 @@
     230,
     230
    ],
-   "scale_x": 1.086,
+   "scale_x": 1.043,
    "fit_iou": 0.785
   },
   {
    "type": "text",
    "text": "ス",
-   "x": 237.0,
-   "y": 420.5,
+   "x": 265.0,
+   "y": 442.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 290.493,
+   "size": 250.9,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -275,17 +303,17 @@
     240,
     230
    ],
-   "scale_x": 0.964,
+   "scale_x": 0.907,
    "fit_iou": 0.736
   },
   {
    "type": "text",
    "text": "ト",
-   "x": 519.5,
-   "y": 405.5,
-   "font": "Noto Sans JP",
+   "x": 564.5,
+   "y": 435.5,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 293.258,
+   "size": 242.8,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -297,17 +325,17 @@
     160,
     250
    ],
-   "scale_x": 0.83,
+   "scale_x": 0.703,
    "fit_iou": 0.679
   },
   {
    "type": "text",
    "text": "バ",
-   "x": 761.0,
-   "y": 441.0,
+   "x": 771.0,
+   "y": 463.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 218.18,
+   "size": 176.8,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -319,17 +347,17 @@
     300,
     250
    ],
-   "scale_x": 1.283,
+   "scale_x": 1.497,
    "fit_iou": 0.606
   },
   {
    "type": "text",
    "text": "イ",
-   "x": 1025.5,
-   "y": 423.5,
+   "x": 1038.5,
+   "y": 411.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 255.267,
+   "size": 270.6,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -341,7 +369,7 @@
     220,
     250
    ],
-   "scale_x": 0.972,
+   "scale_x": 0.822,
    "fit_iou": 0.751
   }
  ]

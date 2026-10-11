@@ -162,14 +162,9 @@
   },
   {
    "type": "text",
-   "text": "以下\n必見",
-   "x": 494.0,
-   "y": 71.0,
-   "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 62.2,
-   "line": 0.95,
+   "line": 1.0,
    "color": "#ffffff",
    "hollow": true,
    "strokes": [
@@ -191,7 +186,111 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.054
+   "scale_x": 1.032,
+   "text": "以",
+   "x": 450.5,
+   "y": 30.9,
+   "anchor": "lc",
+   "size": 52.6
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "line": 1.0,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     2,
+     "#f4f4f4"
+    ]
+   ],
+   "tgt": [
+    437,
+    12,
+    563,
+    139
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.912,
+   "text": "下",
+   "x": 513,
+   "y": 41.9,
+   "anchor": "lc",
+   "size": 59.4
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "line": 1.0,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     2,
+     "#f4f4f4"
+    ]
+   ],
+   "tgt": [
+    437,
+    12,
+    563,
+    139
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.052,
+   "text": "必",
+   "x": 436.5,
+   "y": 104.0,
+   "anchor": "lc",
+   "size": 68.4
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "line": 1.0,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     2,
+     "#f4f4f4"
+    ]
+   ],
+   "tgt": [
+    437,
+    12,
+    563,
+    139
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.008,
+   "text": "見",
+   "x": 495,
+   "y": 101.0,
+   "anchor": "lc",
+   "size": 63.4
   },
   {
    "type": "text",
@@ -222,11 +321,11 @@
    "type": "text",
    "text": "長",
    "x": 433.0,
-   "y": 480.5,
+   "y": 479.5,
    "anchor": "cc",
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 297.6,
+   "size": 297.4,
    "color": "#ffffff",
    "tgt": [
     290,
@@ -241,17 +340,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.011
+   "scale_x": 1.031
   },
   {
    "type": "text",
    "text": "加",
    "x": 934.5,
-   "y": 124.0,
+   "y": 122.0,
    "anchor": "cc",
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 301.7,
+   "size": 295.7,
    "color": "#e7e7e7",
    "tgt": [
     787,
@@ -266,17 +365,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.01
+   "scale_x": 1.051
   },
   {
    "type": "text",
    "text": "工",
-   "x": 1163.0,
+   "x": 1162.0,
    "y": 194.5,
    "anchor": "cc",
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 271.6,
+   "size": 266.2,
    "color": "#e7e7e7",
    "tgt": [
     1070,
@@ -291,7 +390,7 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.95
+   "scale_x": 1.008
   },
   {
    "type": "text",
@@ -311,10 +410,10 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.905,
+   "scale_x": 0.923,
    "text": "デ",
-   "x": 741.6,
-   "y": 411.2,
+   "x": 737.6,
+   "y": 412.2,
    "anchor": "lc",
    "size": 268.6,
    "line": 1.0
@@ -337,12 +436,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.855,
+   "scale_x": 0.871,
    "text": "ニ",
-   "x": 903.3,
+   "x": 902.3,
    "y": 444.2,
    "anchor": "lc",
-   "size": 253.8,
+   "size": 248.7,
    "line": 1.0
   },
   {
@@ -363,23 +462,23 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.888,
+   "scale_x": 0.922,
    "text": "ム",
-   "x": 1079.8,
+   "x": 1077.8,
    "y": 440.2,
    "anchor": "lc",
-   "size": 248.1,
+   "size": 243.0,
    "line": 1.0
   },
   {
    "type": "text",
    "text": "25 Spring 1st Collection",
-   "x": 1098.0,
-   "y": 649.0,
+   "x": 1099.0,
+   "y": 650.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 700,
-   "size": 40.7,
+   "size": 37.5,
    "color": "#f6f6f6",
    "tgt": [
     934,
@@ -394,17 +493,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.747
+   "scale_x": 0.808
   },
   {
    "type": "text",
    "text": "2025.02.15 sat.22:00 — Release",
    "x": 1138.0,
-   "y": 685.0,
+   "y": 683.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 400,
-   "size": 26.4,
+   "size": 29.7,
    "color": "#f6f6f6",
    "tgt": [
     1012,
@@ -419,7 +518,7 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.725
+   "scale_x": 0.641
   }
  ]
 }

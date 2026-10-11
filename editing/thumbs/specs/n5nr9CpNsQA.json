@@ -45,7 +45,7 @@
    "y": 86.5,
    "size": 231.3,
    "skew": -14,
-   "shadow": "0 0 6px rgba(0,0,0,.9)",
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
    "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
    "_t": [
     172,
@@ -57,25 +57,171 @@
   },
   {
    "type": "text",
-   "text": "秋冬新作全部公開",
+   "text": "秋",
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 641.5,
-   "y": 611.0,
-   "size": 166.2,
-   "spacing": 0.02,
-   "shadow": "0 0 6px rgba(0,0,0,.9)",
+   "x": 89.0,
+   "y": 611.5,
+   "size": 174.6,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
    "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
-   "_t": [
-    8,
-    540,
-    1268,
-    700
-   ],
-   "scale_x": 0.944
+   "scale_x": 0.934,
+   "tgt": [
+    9.0,
+    539.0,
+    168.0,
+    705.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "冬",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 245.0,
+   "y": 612.0,
+   "size": 171.4,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.909,
+   "tgt": [
+    170.0,
+    540.0,
+    321.0,
+    704.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "新",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 404.0,
+   "y": 610.5,
+   "size": 176.9,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.934,
+   "tgt": [
+    323.0,
+    539.0,
+    482.0,
+    705.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "作",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 564.5,
+   "y": 612.5,
+   "size": 172.5,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.94,
+   "tgt": [
+    487.0,
+    540.0,
+    643.0,
+    704.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "全",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 721.0,
+   "y": 613.0,
+   "size": 170.5,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.92,
+   "tgt": [
+    645.0,
+    540.0,
+    798.0,
+    700.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "部",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 881.0,
+   "y": 612.0,
+   "size": 174.7,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.946,
+   "tgt": [
+    803.0,
+    540.0,
+    960.0,
+    705.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "公",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1038.0,
+   "y": 607.5,
+   "size": 169.4,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 0.964,
+   "tgt": [
+    963.0,
+    541.0,
+    1113.0,
+    699.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "開",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1195.0,
+   "y": 612.0,
+   "size": 176.0,
+   "shadow": "0 0 12px rgba(0,0,0,.9), 0 0 24px rgba(0,0,0,.8)",
+   "fill": "linear-gradient(180deg,#c9952a 0%,#f0dcc0 18%,#fffffc 35%,#e8c79a 50%,#c9952a 62%,#fffffc 85%,#d8b080 100%)",
+   "scale_x": 1.017,
+   "tgt": [
+    1119.0,
+    544.0,
+    1273.0,
+    705.0
+   ]
   }
  ],
  "grow": 15

@@ -22,8 +22,7 @@
     140
    ],
    "colors": [
-    "#ffffff",
-    "#000000"
+    "#ffffff"
    ],
    "tol": 35
   },
@@ -56,11 +55,11 @@
   {
    "type": "text",
    "text": "Men’s Fashion",
-   "x": 954.0,
-   "y": -1.7,
+   "x": 953.5,
+   "y": -1.8,
    "font": "NotoSansJP",
    "weight": 800,
-   "size": 59.7,
+   "size": 59.1,
    "color": "#ffffff",
    "m": [
     945,
@@ -70,7 +69,7 @@
     "#ffffff",
     20
    ],
-   "scale_x": 0.775
+   "scale_x": 0.786
   },
   {
    "type": "text",
@@ -107,129 +106,329 @@
   },
   {
    "type": "text",
-   "text": "2024",
-   "x": 317.5,
-   "y": 341.0,
+   "text": "2",
+   "x": 312.0,
+   "y": 330.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 140.6,
+   "size": 156.9,
    "color": "#ffffff",
-   "m": [
-    312,
-    370,
-    300,
-    135,
-    "#ffffff",
-    14
-   ],
-   "scale_x": 0.846,
-   "strokes": [
-    [
-     5,
-     "#ffffff"
-    ]
-   ],
+   "scale_x": 0.83,
    "tgt": [
-    322,
-    375,
-    605,
-    481
+    317,
+    368,
+    385,
+    484
+   ]
+  },
+  {
+   "type": "text",
+   "text": "0",
+   "x": 385.0,
+   "y": 330.6,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 156.3,
+   "color": "#ffffff",
+   "scale_x": 0.838,
+   "tgt": [
+    390,
+    368,
+    459,
+    486
+   ]
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "x": 458.0,
+   "y": 330.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 156.9,
+   "color": "#ffffff",
+   "scale_x": 0.83,
+   "tgt": [
+    463,
+    368,
+    531,
+    484
+   ]
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "x": 530.0,
+   "y": 327.9,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 157.5,
+   "color": "#ffffff",
+   "scale_x": 0.849,
+   "tgt": [
+    533,
+    369,
+    608,
+    483
    ]
   },
   {
    "type": "text",
    "text": "年",
-   "x": 617.5,
-   "y": 380.5,
+   "x": 613.0,
+   "y": 377.9,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 101.4,
+   "size": 109.0,
    "color": "#ffffff",
-   "m": [
-    612,
-    385,
-    95,
-    120,
-    "#ffffff",
-    14
-   ],
-   "scale_x": 0.84,
-   "strokes": [
-    [
-     5,
-     "#ffffff"
-    ]
-   ],
+   "scale_x": 0.858,
    "tgt": [
-    621,
-    394,
-    700,
-    491
-   ]
-  },
-  {
-   "type": "text",
-   "text": "春夏",
-   "x": 719.5,
-   "y": 339.0,
-   "font": "NotoSansJP",
-   "weight": 900,
-   "size": 145.0,
-   "color": "#ffffff",
-   "palt": true,
-   "m": [
-    708,
-    352,
-    262,
-    152,
-    "#ffffff",
-    14
-   ],
-   "scale_x": 0.838,
-   "strokes": [
-    [
-     5,
-     "#ffffff"
-    ]
-   ],
-   "tgt": [
-    721,
-    357,
-    960,
+    616,
+    391,
+    703,
     495
    ]
   },
   {
    "type": "text",
-   "text": "流行るアイテム13選",
-   "x": 16.5,
-   "y": 488.0,
+   "text": "春",
+   "x": 714.0,
+   "y": 331.8,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 200.0,
+   "size": 154.2,
+   "color": "#ffffff",
+   "scale_x": 0.815,
+   "tgt": [
+    716,
+    352,
+    838,
+    499
+   ]
+  },
+  {
+   "type": "text",
+   "text": "夏",
+   "x": 838.0,
+   "y": 329.6,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 156.2,
+   "color": "#ffffff",
+   "scale_x": 0.823,
+   "tgt": [
+    841,
+    355,
+    964,
+    498
+   ]
+  },
+  {
+   "type": "text",
+   "text": "流",
+   "x": 7.0,
+   "y": 492,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 210.0,
    "color": "#ffffff",
    "palt": true,
-   "m": [
-    10,
-    505,
-    1270,
-    210,
-    "#ffffff",
-    14
-   ],
-   "scale_x": 0.718,
-   "strokes": [
-    [
-     5,
-     "#ffffff"
-    ]
-   ],
+   "scale_x": 1,
    "tgt": [
-    19,
-    514,
-    1265,
+    10,
+    532,
+    139,
+    707
+   ]
+  },
+  {
+   "type": "text",
+   "text": "行",
+   "x": 138.0,
+   "y": 493,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 211.2,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1,
+   "tgt": [
+    140,
+    533,
+    302,
+    709
+   ]
+  },
+  {
+   "type": "text",
+   "text": "る",
+   "x": 298.0,
+   "y": 505,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 190.79999999999998,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1,
+   "tgt": [
+    305,
+    545,
+    429,
     704
    ]
+  },
+  {
+   "type": "text",
+   "text": "ア",
+   "x": 421.5,
+   "y": 499.2,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 193.2,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.802,
+   "tgt": [
+    433,
+    542,
+    566,
+    702
+   ]
+  },
+  {
+   "type": "text",
+   "text": "イ",
+   "x": 564.0,
+   "y": 512.7,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 181.7,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.746,
+   "tgt": [
+    567,
+    542,
+    682,
+    702
+   ]
+  },
+  {
+   "type": "text",
+   "text": "テ",
+   "x": 679.0,
+   "y": 504.2,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 187.3,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.763,
+   "tgt": [
+    684,
+    542,
+    806,
+    702
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ム",
+   "x": 805.0,
+   "y": 506.7,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 189.6,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.814,
+   "tgt": [
+    806,
+    542,
+    946,
+    702
+   ]
+  },
+  {
+   "type": "text",
+   "text": "1",
+   "x": 944.0,
+   "y": 504.4,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 191.8,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.819,
+   "tgt": [
+    956,
+    553,
+    1030,
+    692
+   ]
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "x": 1033.0,
+   "y": 505.1,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 189.1,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.812,
+   "tgt": [
+    1037,
+    551,
+    1118,
+    694
+   ]
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1119.5,
+   "y": 509.2,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 186.4,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.824,
+   "tgt": [
+    1123,
+    537,
+    1271,
+    707
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 79,
+   "y": 506,
+   "w": 18,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": "50%"
+  },
+  {
+   "type": "rect",
+   "x": 229,
+   "y": 506,
+   "w": 18,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": "50%"
+  },
+  {
+   "type": "rect",
+   "x": 358,
+   "y": 506,
+   "w": 18,
+   "h": 23,
+   "fill": "#ffffff",
+   "radius": "50%"
   }
  ]
 }

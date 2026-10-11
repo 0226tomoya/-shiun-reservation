@@ -11,7 +11,7 @@
    "colors": [
     "#fcfbf9"
    ],
-   "tol": 30
+   "tol": 16
   },
   {
    "rect": [
@@ -23,7 +23,7 @@
    "colors": [
     "#fdfdfd"
    ],
-   "tol": 30
+   "tol": 16
   },
   {
    "rect": [
@@ -35,7 +35,7 @@
    "colors": [
     "#fefefe"
    ],
-   "tol": 30
+   "tol": 16
   }
  ],
  "layers": [
@@ -82,15 +82,15 @@
   },
   {
    "type": "text",
-   "x": 684.0,
-   "y": 324.0,
+   "x": 683.0,
+   "y": 326.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 129.16,
+   "size": 126.6,
    "color": "#fdfdfd",
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
    "spacing": -0.014,
-   "scale_x": 0.996,
+   "scale_x": 1.016,
    "box": [
     680,
     355,
@@ -110,13 +110,72 @@
   },
   {
    "type": "text",
-   "x": 25.0,
-   "y": 423.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 264.01,
    "color": "#fefefe",
-   "spacing": -0.078,
+   "scale_x": 0.956,
+   "box": [
+    15,
+    468,
+    1250,
+    240
+   ],
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659,
+   "text": "買",
+   "x": 11,
+   "y": 567.0,
+   "anchor": "lc",
+   "size": 264.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fefefe",
+   "scale_x": 0.916,
+   "box": [
+    15,
+    468,
+    1250,
+    240
+   ],
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659,
+   "text": "う",
+   "x": 238.4,
+   "y": 593.0,
+   "anchor": "lc",
+   "size": 201.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fefefe",
+   "scale_x": 1.076,
+   "box": [
+    15,
+    468,
+    1250,
+    240
+   ],
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659,
+   "text": "べ",
+   "x": 404.3,
+   "y": 593.0,
+   "anchor": "lc",
+   "size": 186.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fefefe",
    "scale_x": 0.996,
    "box": [
     15,
@@ -124,20 +183,56 @@
     1250,
     240
    ],
-   "runs": [
-    {
-     "text": "買"
-    },
-    {
-     "text": "うべき",
-     "size": 186.12
-    },
-    {
-     "text": "冬服"
-    }
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659,
+   "text": "き",
+   "x": 595.2,
+   "y": 603.0,
+   "anchor": "lc",
+   "size": 189.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fefefe",
+   "scale_x": 0.956,
+   "box": [
+    15,
+    468,
+    1250,
+    240
    ],
    "shadow": "2px 2px 8px rgba(0,0,0,.4)",
-   "fit_iou": 0.659
+   "fit_iou": 0.659,
+   "text": "冬",
+   "x": 768.1,
+   "y": 569.0,
+   "anchor": "lc",
+   "size": 258.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fefefe",
+   "scale_x": 0.996,
+   "box": [
+    15,
+    468,
+    1250,
+    240
+   ],
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659,
+   "text": "服",
+   "x": 1011.5,
+   "y": 568.0,
+   "anchor": "lc",
+   "size": 258.7,
+   "line": 1.0
   }
  ],
  "grow": 21

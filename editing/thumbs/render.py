@@ -225,7 +225,9 @@ def render_layers(spec, page, clip=None):
         st['fams'] |= new
     body = ''.join(layer_html(L, i) for i, L in enumerate(spec.get('layers', [])))
     page.evaluate("html => { document.getElementById('root').innerHTML = html; }", body)
-    page.evaluate('document.fonts.ready.then(() => 1)')
+    # 使うフォントを明示的に読み込み終えてから撮る（混んでいると読み込み前に撮って点がぶれた）
+    page.evaluate("async fs => { for (const [f, w] of fs) { try { await document.fonts.load(`${w} 40px '${f}'`, 'あA1'); } catch (e) {} } await document.fonts.ready; return 1; }",
+                  [[f, w] for f, w in sorted(fams)])
     if clip:  # (x0, y0, x1, y1) の範囲だけ撮って全体の大きさの画像に戻す（fit を速くする）
         x0, y0, x1, y1 = [int(v) for v in clip]
         png = page.screenshot(omit_background=True, clip={'x': x0, 'y': y0, 'width': x1 - x0, 'height': y1 - y0})

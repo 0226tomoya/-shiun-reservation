@@ -37,11 +37,11 @@
   },
   {
    "type": "text",
-   "x": -1.0,
-   "y": 13.0,
+   "x": 3.0,
+   "y": 6.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 221.59,
+   "size": 230.5,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -62,16 +62,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.041,
+   "scale_x": 0.999,
    "text": "絶"
   },
   {
    "type": "text",
-   "x": 240.5,
-   "y": 1.5,
+   "x": 233.5,
+   "y": -1.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 220.6,
+   "size": 233.8,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -92,16 +92,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.0,
+   "scale_x": 0.96,
    "text": "対"
   },
   {
    "type": "text",
-   "x": 443.0,
-   "y": 71.5,
+   "x": 442.0,
+   "y": 63.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 144.99,
+   "size": 153.7,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -122,16 +122,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.028,
+   "scale_x": 0.987,
    "text": "に"
   },
   {
    "type": "text",
-   "x": 589.0,
-   "y": -23.0,
+   "x": 581.0,
+   "y": -16.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 231.28,
+   "size": 231.3,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -152,16 +152,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 0.951,
+   "scale_x": 1.008,
    "text": "着"
   },
   {
    "type": "text",
-   "x": 787.5,
-   "y": 12.0,
+   "x": 776.5,
+   "y": 7.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 192.62,
+   "size": 200.3,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -182,16 +182,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.001,
+   "scale_x": 1.021,
    "text": "る"
   },
   {
    "type": "text",
-   "x": 963.0,
-   "y": 5.5,
+   "x": 957.0,
+   "y": 0.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 176.94,
+   "size": 194.6,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -212,16 +212,16 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.037,
+   "scale_x": 1.016,
    "text": "な"
   },
   {
    "type": "text",
-   "x": 1138.0,
-   "y": -12.0,
+   "x": 1134,
+   "y": 11,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 206.07,
+   "size": 180.0,
    "color": "#b40c0c",
    "strokes": [
     [
@@ -242,44 +242,298 @@
    ],
    "fit_color": "#b40c0c",
    "tol": 40,
-   "scale_x": 1.404,
-   "text": "⁉"
+   "scale_x": 1.152,
+   "text": "!"
   },
   {
    "type": "text",
-   "x": 20.0,
-   "y": 611.0,
+   "x": 1180,
+   "y": -15,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 212.0,
+   "color": "#b40c0c",
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ],
+    [
+     6,
+     "#0c0c0c"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    1150,
+    0,
+    127,
+    245
+   ],
+   "fit_color": "#b40c0c",
+   "tol": 40,
+   "scale_x": 0.96,
+   "text": "?"
+  },
+  {
+   "type": "text",
    "font": "Noto Sans JP",
    "weight": 700,
-   "size": 96.43,
    "color": "#ffffff",
    "line": 1.0,
-   "runs": [
-    {
-     "text": "低身長男性"
-    },
-    {
-     "text": "が",
-     "size_em": 0.8
-    },
-    {
-     "text": "着"
-    },
-    {
-     "text": "ると",
-     "size_em": 0.8
-    },
-    {
-     "text": "失敗"
-    },
-    {
-     "text": "する",
-     "size_em": 0.8
-    },
-    {
-     "text": "春服"
-    }
+   "box": [
+    15,
+    610,
+    1255,
+    105
    ],
+   "tol": 20,
+   "scale_x": 0.976,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "低",
+   "x": 18.7,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 94.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "身",
+   "x": 109.6,
+   "y": 660.0,
+   "anchor": "lc",
+   "size": 90.6
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "長",
+   "x": 195.4,
+   "y": 660.0,
+   "anchor": "lc",
+   "size": 92.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.958,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "男",
+   "x": 285.2,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 96.4
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "性",
+   "x": 370.0,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 92.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "が",
+   "x": 456.9,
+   "y": 664.5,
+   "anchor": "lc",
+   "size": 75.6
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.939,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "着",
+   "x": 532.9,
+   "y": 658.0,
+   "anchor": "lc",
+   "size": 94.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.903,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "る",
+   "x": 619.8,
+   "y": 665.5,
+   "anchor": "lc",
+   "size": 78.6
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "と",
+   "x": 690.9,
+   "y": 665.5,
+   "anchor": "lc",
+   "size": 72.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.976,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "失",
+   "x": 763.8,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 94.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "敗",
+   "x": 849.6,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 94.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
    "box": [
     15,
     610,
@@ -290,7 +544,81 @@
    "scale_x": 0.921,
    "skew": -1.1,
    "rotate": -0.15,
-   "fit_iou": 0.722
+   "fit_iou": 0.722,
+   "text": "す",
+   "x": 939.5,
+   "y": 665.5,
+   "anchor": "lc",
+   "size": 78.6
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.903,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "る",
+   "x": 1013.6,
+   "y": 664.5,
+   "anchor": "lc",
+   "size": 78.6
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.976,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "春",
+   "x": 1082.5,
+   "y": 659.0,
+   "anchor": "lc",
+   "size": 94.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.995,
+   "skew": -1.1,
+   "rotate": -0.15,
+   "fit_iou": 0.722,
+   "text": "服",
+   "x": 1171.3,
+   "y": 658.0,
+   "anchor": "lc",
+   "size": 94.5
   }
  ]
 }
