@@ -12,7 +12,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 26
+   "tol": 14
   },
   {
    "rect": [
@@ -24,7 +24,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 26
+   "tol": 14
   },
   {
    "rect": [
@@ -42,69 +42,333 @@
  "layers": [
   {
    "type": "text",
-   "text": "１６４ｃｍの低身長アパレルディレクター",
-   "x": 630.0,
-   "y": 263.5,
+   "text": "164cmの低身長アパレルディレクター",
+   "x": 650.0,
+   "y": 262.5,
    "anchor": "cc",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 53.11,
+   "font": "Zen Old Mincho",
+   "weight": 700,
+   "size": 55.3,
    "skew": -12.3,
    "spacing": -0.002,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.55)",
    "tol": 10,
-   "scale_x": 1.016,
+   "scale_x": 1.063,
    "fit_iou": 0.19,
-   "rotate": 0
-  },
-  {
-   "type": "text",
-   "runs": [
-    {
-     "text": "１週間コーデ"
-    },
-    {
-     "text": "ィ",
-     "size_em": 0.7
-    },
-    {
-     "text": "ネート"
-    }
+   "rotate": 0,
+   "tgt": [
+    146,
+    241,
+    1140,
+    291
    ],
-   "x": 634.5,
-   "y": 360.5,
-   "anchor": "cc",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 112.0,
-   "skew": -7.3,
-   "spacing": -0.014,
-   "color": "#ffffff",
-   "shadow": "0 0 12px rgba(0,0,0,.55)",
-   "tol": 10,
-   "scale_x": 1.064,
-   "fit_iou": 0.453,
-   "rotate": 0
+   "m": [
+    130,
+    232,
+    1020,
+    68,
+    "#ffffff",
+    12
+   ],
+   "palt": true
   },
   {
    "type": "text",
    "text": "COMOLI / barbell object / NICENESS / LEMAIRE / EYEVAN 7285",
-   "x": 642.0,
-   "y": 681.5,
+   "x": 640.9,
+   "y": 680.5,
    "anchor": "cc",
    "font": "BarlowCondensed",
    "weight": 500,
    "italic": true,
-   "size": 30.507,
+   "size": 31.6,
    "spacing": 0.22,
    "color": "#ffffff",
    "shadow": "0 0 6px rgba(0,0,0,.5)",
    "tol": 28,
-   "scale_x": 1.031,
+   "scale_x": 0.999,
    "skew": 7,
    "rotate": 0.0,
-   "fit_iou": 0.307
+   "fit_iou": 0.307,
+   "m": [
+    95,
+    662,
+    1090,
+    44,
+    "#ffffff",
+    30
+   ]
+  },
+  {
+   "type": "text",
+   "text": "１",
+   "x": 98.0,
+   "y": 288.1,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 129.5,
+   "color": "#ffffff",
+   "tgt": [
+    107,
+    317,
+    148,
+    416
+   ],
+   "m": [
+    104,
+    305,
+    47,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.684
+  },
+  {
+   "type": "text",
+   "text": "週",
+   "x": 192.5,
+   "y": 298.1,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 112.2,
+   "color": "#ffffff",
+   "tgt": [
+    181,
+    314,
+    287,
+    418
+   ],
+   "m": [
+    178,
+    305,
+    112,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.936
+  },
+  {
+   "type": "text",
+   "text": "間",
+   "x": 319.0,
+   "y": 295.4,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 115.5,
+   "color": "#ffffff",
+   "tgt": [
+    311,
+    313,
+    413,
+    419
+   ],
+   "m": [
+    308,
+    305,
+    108,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.897
+  },
+  {
+   "type": "text",
+   "text": "コ",
+   "x": 442.0,
+   "y": 306.3,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 98.7,
+   "color": "#ffffff",
+   "tgt": [
+    447,
+    339,
+    513,
+    396
+   ],
+   "m": [
+    444,
+    305,
+    72,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.884
+  },
+  {
+   "type": "text",
+   "text": "ー",
+   "x": 552.0,
+   "y": 313.3,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 89.3,
+   "color": "#ffffff",
+   "tgt": [
+    554,
+    360,
+    638,
+    377
+   ],
+   "m": [
+    551,
+    305,
+    90,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 1.132
+  },
+  {
+   "type": "text",
+   "text": "デ",
+   "x": 672.0,
+   "y": 302.9,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 102.4,
+   "color": "#ffffff",
+   "tgt": [
+    677,
+    321,
+    767,
+    412
+   ],
+   "m": [
+    674,
+    305,
+    96,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "text": "ィ",
+   "x": 781.0,
+   "y": 304.7,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 104.3,
+   "color": "#ffffff",
+   "tgt": [
+    786,
+    346,
+    834,
+    414
+   ],
+   "m": [
+    783,
+    305,
+    54,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.8
+  },
+  {
+   "type": "text",
+   "text": "ネ",
+   "x": 882.5,
+   "y": 298.9,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 108.2,
+   "color": "#ffffff",
+   "tgt": [
+    876,
+    318,
+    951,
+    414
+   ],
+   "m": [
+    873,
+    305,
+    81,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.803
+  },
+  {
+   "type": "text",
+   "text": "ー",
+   "x": 990.0,
+   "y": 313.3,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 89.3,
+   "color": "#ffffff",
+   "tgt": [
+    992,
+    360,
+    1075,
+    377
+   ],
+   "m": [
+    989,
+    305,
+    89,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 1.12
+  },
+  {
+   "type": "text",
+   "text": "ト",
+   "x": 1103.5,
+   "y": 301.1,
+   "font": "NotoSerifJP",
+   "weight": 700,
+   "size": 106.0,
+   "color": "#ffffff",
+   "tgt": [
+    1123,
+    322,
+    1168,
+    411
+   ],
+   "m": [
+    1120,
+    305,
+    51,
+    123,
+    "#ffffff",
+    12
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.55)",
+   "skew": -7.3,
+   "scale_x": 0.877
   }
  ]
 }

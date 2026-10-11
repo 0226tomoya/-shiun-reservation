@@ -386,8 +386,8 @@
   },
   {
    "type": "text",
-   "text": "小技で解決",
-   "x": 7.0,
+   "text": "小",
+   "x": 4,
    "y": 427.0,
    "font": "NotoSansJP",
    "weight": 900,
@@ -402,13 +402,141 @@
     "#fff"
    ],
    "tgt": [
-    12,
-    460,
-    1268,
-    701
+    8,
+    463,
+    166,
+    710
    ],
    "shadow": "5px 5px 0 rgba(0,0,0,.85)",
-   "scale_x": 1.019,
+   "scale_x": 1.0,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "技",
+   "x": 192,
+   "y": 427.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 252.9,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    196,
+    459,
+    524,
+    709
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.0,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "で",
+   "x": 543,
+   "y": 427.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 252.9,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    547,
+    504,
+    747,
+    696
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.0,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "解",
+   "x": 755,
+   "y": 427.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 252.9,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    759,
+    460,
+    1021,
+    710
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.0,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "決",
+   "x": 1024,
+   "y": 427.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 252.9,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    1028,
+    459,
+    1275,
+    707
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.0,
    "strokes": [
     [
      4,

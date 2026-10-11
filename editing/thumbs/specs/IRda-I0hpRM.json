@@ -12,7 +12,7 @@
    "colors": [
     "#ffff00"
    ],
-   "tol": 60
+   "tol": 45
   },
   {
    "rect": [
@@ -24,7 +24,7 @@
    "colors": [
     "#ffff00"
    ],
-   "tol": 60
+   "tol": 45
   },
   {
    "rect": [
@@ -49,7 +49,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 16
   }
  ],
  "layers": [
@@ -64,15 +64,29 @@
      "size_em": 0.8
     }
    ],
-   "x": 588,
-   "y": -22,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 275,
+   "x": 578.0,
+   "y": -62.0,
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "size": 330.0,
    "color": "#ffff00",
    "palt": true,
-   "scale_x": 0.86,
-   "shadow": "0 0 10px rgba(0,0,0,.5)"
+   "scale_x": 0.746,
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tgt": [
+    583,
+    5,
+    1269,
+    265
+   ],
+   "m": [
+    575,
+    0,
+    705,
+    268,
+    "#ffff00",
+    40
+   ]
   },
   {
    "type": "text",
@@ -89,24 +103,38 @@
      "size_em": 0.85
     }
    ],
-   "x": 600,
-   "y": 222,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 250,
+   "x": 617.0,
+   "y": 209.0,
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "size": 314.5,
    "color": "#ffff00",
    "palt": true,
-   "scale_x": 0.86,
-   "shadow": "0 0 10px rgba(0,0,0,.5)"
+   "scale_x": 0.663,
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tgt": [
+    603,
+    270,
+    1279,
+    519
+   ],
+   "m": [
+    585,
+    268,
+    695,
+    252,
+    "#ffff00",
+    40
+   ]
   },
   {
    "type": "text",
    "text": "低身長男性",
-   "x": 4,
-   "y": 494,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 62,
+   "x": 7.0,
+   "y": 492.5,
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "size": 69.4,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -115,7 +143,21 @@
      "#111111"
     ]
    ],
-   "scale_x": 0.9
+   "scale_x": 0.801,
+   "tgt": [
+    6,
+    505,
+    283,
+    560
+   ],
+   "m": [
+    0,
+    502,
+    295,
+    62,
+    "#ffffff",
+    14
+   ]
   },
   {
    "type": "text",
@@ -146,19 +188,33 @@
      "spacing": -0.06
     }
    ],
-   "x": 4,
-   "y": 552,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 158,
+   "x": 7.5,
+   "y": 535.0,
+   "font": "DelaGothicOne",
+   "weight": 400,
+   "size": 179.6,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.8,
+   "scale_x": 0.545,
    "strokes": [
     [
      5,
      "#111111"
     ]
+   ],
+   "tgt": [
+    6,
+    568,
+    1265,
+    712
+   ],
+   "m": [
+    0,
+    566,
+    1280,
+    150,
+    "#ffffff",
+    14
    ]
   }
  ]

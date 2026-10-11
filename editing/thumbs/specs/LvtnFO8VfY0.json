@@ -11,7 +11,7 @@
    "colors": [
     "#fbfbfb"
    ],
-   "tol": 30
+   "tol": 15
   },
   {
    "rect": [
@@ -23,27 +23,45 @@
    "colors": [
     "#fdfdfd"
    ],
-   "tol": 30
+   "tol": 15
   },
   {
    "rect": [
-    185,
-    672,
-    960,
-    46
+    100,
+    670,
+    1090,
+    48
    ],
    "colors": [
     "#f4f4f3"
    ],
-   "tol": 30
+   "tol": 15
   }
  ],
  "layers": [
   {
    "type": "text",
-   "x": 635.5,
-   "y": 312.5,
-   "anchor": "ct",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.959,
+   "fit_iou": 0.355,
+   "text": "低",
+   "x": 244.2,
+   "y": 386.0,
+   "anchor": "lc",
+   "size": 122.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "box": [
     240,
     320,
@@ -52,34 +70,145 @@
    ],
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 135.71,
    "color": "#fbfbfb",
    "shadow": "0 0 14px rgba(0,0,0,.8)",
-   "spacing": -0.215,
-   "scale_x": 1.004,
+   "scale_x": 0.959,
    "fit_iou": 0.355,
-   "runs": [
-    {
-     "text": "低身長"
-    },
-    {
-     "text": "でも",
-     "size": 114.38
-    },
-    {
-     "text": "似合"
-    },
-    {
-     "text": "う",
-     "size": 114.38
-    }
-   ]
+   "text": "身",
+   "x": 369.7,
+   "y": 388.0,
+   "anchor": "lc",
+   "size": 117.4,
+   "line": 1.0
   },
   {
    "type": "text",
-   "x": 585.0,
-   "y": 425.5,
-   "anchor": "ct",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.92,
+   "fit_iou": 0.355,
+   "text": "長",
+   "x": 480.3,
+   "y": 382.0,
+   "anchor": "lc",
+   "size": 122.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.901,
+   "fit_iou": 0.355,
+   "text": "で",
+   "x": 586.9,
+   "y": 401.5,
+   "anchor": "lc",
+   "size": 97.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.218,
+   "fit_iou": 0.355,
+   "text": "も",
+   "x": 651.2,
+   "y": 400.5,
+   "anchor": "lc",
+   "size": 91.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.08,
+   "fit_iou": 0.355,
+   "text": "似",
+   "x": 732.4,
+   "y": 388.0,
+   "anchor": "lc",
+   "size": 107.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.999,
+   "fit_iou": 0.355,
+   "text": "合",
+   "x": 857.0,
+   "y": 389.0,
+   "anchor": "lc",
+   "size": 112.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.128,
+   "fit_iou": 0.355,
+   "text": "う",
+   "x": 958.6,
+   "y": 400.5,
+   "anchor": "lc",
+   "size": 92.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "box": [
     10,
     455,
@@ -88,44 +217,155 @@
    ],
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 214.29,
    "color": "#fdfdfd",
    "shadow": "0 0 14px rgba(0,0,0,.8)",
-   "spacing": -0.02,
-   "runs": [
-    {
-     "text": "コート"
-    },
-    {
-     "text": "の",
-     "size": 130.24
-    },
-    {
-     "text": "教科書"
-    }
+   "scale_x": 0.902,
+   "fit_iou": 0.503,
+   "text": "コ",
+   "x": 23,
+   "y": 565,
+   "anchor": "lc",
+   "size": 191.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
    ],
-   "scale_x": 1.0,
-   "fit_iou": 0.503
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.166,
+   "fit_iou": 0.503,
+   "text": "ー",
+   "x": 163,
+   "y": 546,
+   "anchor": "lc",
+   "size": 195.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.957,
+   "fit_iou": 0.503,
+   "text": "ト",
+   "x": 295.0,
+   "y": 541.0,
+   "anchor": "lc",
+   "size": 245.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.08,
+   "fit_iou": 0.503,
+   "text": "の",
+   "x": 492,
+   "y": 598.0,
+   "anchor": "lc",
+   "size": 146.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.96,
+   "fit_iou": 0.503,
+   "text": "教",
+   "x": 657,
+   "y": 546.0,
+   "anchor": "lc",
+   "size": 205.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 1.123,
+   "fit_iou": 0.503,
+   "text": "科",
+   "x": 862.0,
+   "y": 542.0,
+   "anchor": "lc",
+   "size": 193.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "scale_x": 0.846,
+   "fit_iou": 0.503,
+   "text": "書",
+   "x": 1080.0,
+   "y": 544.0,
+   "anchor": "lc",
+   "size": 214.3,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "2025 AUTUMN & WINTER MEN’S FASHION",
-   "x": 646.0,
-   "y": 676.0,
+   "x": 645,
+   "y": 677,
    "anchor": "ct",
-   "box": [
-    185,
-    678,
-    960,
-    36
-   ],
-   "font": "Montserrat",
-   "weight": 700,
-   "size": 36.36,
+   "font": "Jost",
+   "weight": 600,
+   "size": 35.6,
    "color": "#f4f4f3",
    "spacing": 0.22,
-   "scale_x": 0.996,
-   "fit_iou": 0.314
+   "scale_x": 1.095
   }
  ],
  "grow": 19

@@ -183,31 +183,146 @@
    "size": 88.8,
    "color": "#ffffff",
    "palt": true,
-   "tgt": [
+   "scale_x": 1.003,
+   "_tgt": [
     679,
     215,
     1016,
     286
-   ],
-   "scale_x": 1.003
+   ]
   },
   {
    "type": "text",
-   "text": "過去最高の春服",
-   "x": 63.0,
-   "y": 301.0,
+   "text": "過",
+   "x": 149.0,
+   "y": 378.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 151.5,
+   "size": 166.6,
    "color": "#ffffff",
    "palt": true,
+   "scale_x": 1.078,
+   "anchor": "cc",
    "tgt": [
-    71,
-    321,
-    1207,
-    464
-   ],
-   "scale_x": 1.084
+    69.0,
+    310.0,
+    231.0,
+    464.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "去",
+   "x": 321.0,
+   "y": 377.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 170.0,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.012,
+   "anchor": "cc",
+   "tgt": [
+    245.0,
+    309.0,
+    398.0,
+    464.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "最",
+   "x": 490.5,
+   "y": 377.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 169.7,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.014,
+   "anchor": "cc",
+   "tgt": [
+    414.0,
+    308.0,
+    570.0,
+    466.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "高",
+   "x": 663.0,
+   "y": 376.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 167.6,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.055,
+   "anchor": "cc",
+   "tgt": [
+    587.0,
+    308.0,
+    741.0,
+    465.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 809.5,
+   "y": 397.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 124.8,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.062,
+   "anchor": "cc",
+   "tgt": [
+    757.0,
+    363.0,
+    862.0,
+    452.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "春",
+   "x": 957.5,
+   "y": 377.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 167.4,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.046,
+   "anchor": "cc",
+   "tgt": [
+    879.0,
+    308.0,
+    1039.0,
+    466.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 1128.0,
+   "y": 376.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 165.5,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.058,
+   "anchor": "cc",
+   "tgt": [
+    1049.0,
+    310.0,
+    1210.0,
+    464.0
+   ]
   },
   {
    "type": "text",
@@ -218,13 +333,13 @@
    "weight": 700,
    "size": 38.0,
    "color": "#ffffff",
-   "tgt": [
+   "scale_x": 0.901,
+   "_tgt": [
     867,
     586,
     1217,
     624
-   ],
-   "scale_x": 0.901
+   ]
   },
   {
    "type": "text",
@@ -235,13 +350,13 @@
    "weight": 700,
    "size": 32.8,
    "color": "#ffffff",
-   "tgt": [
+   "scale_x": 0.889,
+   "_tgt": [
     843,
     631,
     1216,
     655
-   ],
-   "scale_x": 0.889
+   ]
   }
  ]
 }

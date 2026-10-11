@@ -1,0 +1,285 @@
+{
+ "id": "Dert0M5y8cM",
+ "erase": [
+  {
+   "rect": [
+    30,
+    140,
+    1245,
+    175
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    310,
+    1270,
+    305
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    440,
+    588,
+    400,
+    105
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "grow": 5,
+ "layers": [
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "x": 41.7,
+   "y": 183.5,
+   "size": 123.3,
+   "rotate": -2.5,
+   "palt": true,
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "が",
+     "size_em": 0.65
+    },
+    {
+     "text": "参考になりすぎる"
+    }
+   ],
+   "m": [
+    40,
+    150,
+    1235,
+    158,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.737
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "冬",
+   "x": 16.5,
+   "y": 275.3,
+   "size": 315.4,
+   "m": [
+    22,
+    319,
+    196,
+    291,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.654
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "コ",
+   "x": 233.0,
+   "y": 269.7,
+   "size": 310.5,
+   "m": [
+    270,
+    329,
+    145,
+    209,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.707
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "ー",
+   "x": 427.0,
+   "y": 183.4,
+   "size": 424.6,
+   "m": [
+    442,
+    399,
+    184,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.502
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "デ",
+   "x": 622.0,
+   "y": 263.7,
+   "size": 279.0,
+   "m": [
+    648,
+    309,
+    183,
+    244,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.745
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "8",
+   "x": 879.0,
+   "y": 240.0,
+   "size": 280.3,
+   "m": [
+    889,
+    309,
+    115,
+    210,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.819
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "選",
+   "x": 1060.0,
+   "y": 270.2,
+   "size": 240.1,
+   "m": [
+    1067,
+    309,
+    204,
+    217,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.913
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_small_dert.png",
+   "x": 606,
+   "y": 590,
+   "w": 66,
+   "h": 26
+  },
+  {
+   "type": "text",
+   "text": "23Winter 1st Collection",
+   "x": 450.5,
+   "y": 622.5,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 44.2,
+   "color": "#ffffff",
+   "m": [
+    440,
+    628,
+    400,
+    40,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 0.841
+  },
+  {
+   "type": "text",
+   "text": "2023.10.21 sat 22:00 - Release",
+   "x": 609.0,
+   "y": 675.0,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 12.2,
+   "color": "#ffffff",
+   "m": [
+    535,
+    672,
+    210,
+    20,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 0.776
+  }
+ ]
+}

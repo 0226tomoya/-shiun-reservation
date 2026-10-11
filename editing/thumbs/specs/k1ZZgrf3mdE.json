@@ -1,0 +1,172 @@
+{
+ "id": "k1ZZgrf3mdE",
+ "erase": [
+  {
+   "rect": [
+    400,
+    20,
+    880,
+    180
+   ],
+   "colors": [
+    "#ffffff",
+    "#222222"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    0,
+    330,
+    1280,
+    390
+   ],
+   "by": "layers",
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 5,
+ "layers": [
+  {
+   "type": "text",
+   "font": "YuseiMagic",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#222222"
+    ]
+   ],
+   "palt": true,
+   "text": "ユニクロの最強アウターが",
+   "x": 439.0,
+   "y": 15.0,
+   "size": 84.4,
+   "m": [
+    438,
+    28,
+    830,
+    75,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.848
+  },
+  {
+   "type": "text",
+   "font": "YuseiMagic",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#222222"
+    ]
+   ],
+   "palt": true,
+   "text": "進化を遂げて帰ってきた!!",
+   "x": 406.5,
+   "y": 108.0,
+   "size": 80.5,
+   "m": [
+    405,
+    108,
+    872,
+    85,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 1.039
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "神",
+   "x": 5.0,
+   "y": 313.7,
+   "size": 369.3,
+   "m": [
+    7,
+    363,
+    334,
+    350,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "コ",
+   "x": 290.1,
+   "y": 317.9,
+   "size": 365.6,
+   "m": [
+    342,
+    411,
+    280,
+    278,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "ス",
+   "x": 617.0,
+   "y": 279.8,
+   "size": 401.1,
+   "m": [
+    625,
+    339,
+    338,
+    358,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.913,
+   "tgt": [
+    640,
+    372,
+    958,
+    696
+   ]
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "パ",
+   "x": 958.0,
+   "y": 315.0,
+   "size": 364.8,
+   "m": [
+    965,
+    362,
+    313,
+    335,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.888
+  }
+ ]
+}

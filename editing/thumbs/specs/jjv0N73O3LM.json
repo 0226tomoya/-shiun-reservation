@@ -1,0 +1,961 @@
+{
+ "id": "jjv0N73O3LM",
+ "erase": [
+  {
+   "rect": [
+    21,
+    14,
+    70,
+    28
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    18,
+    50,
+    400,
+    75
+   ],
+   "colors": [
+    "#353631"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1060,
+    10,
+    215,
+    55
+   ],
+   "colors": [
+    "#353631"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    50,
+    170,
+    420,
+    170
+   ],
+   "colors": [
+    "#7a1010"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    480,
+    245,
+    240,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    60,
+    350,
+    1170,
+    170
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    40,
+    520,
+    1110,
+    175
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "grow": 5,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_black_jjv0.png",
+   "x": 21,
+   "y": 14,
+   "w": 70,
+   "h": 28
+  },
+  {
+   "type": "text",
+   "text": "23Winter 1st COLLECTION",
+   "x": 23.4,
+   "y": 53.0,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 38.8,
+   "color": "#353631",
+   "m": [
+    18,
+    52,
+    400,
+    40,
+    "#353631",
+    40
+   ],
+   "scale_x": 0.792
+  },
+  {
+   "type": "text",
+   "text": "October 24th Sat 10pm  —— Release",
+   "x": 24.5,
+   "y": 98.5,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 19.1,
+   "color": "#353631",
+   "m": [
+    18,
+    97,
+    250,
+    26,
+    "#353631",
+    40
+   ],
+   "scale_x": 0.768
+  },
+  {
+   "type": "text",
+   "text": "WOOL SHAWL COLLAR COAT Price ¥18,700",
+   "x": 1234.0,
+   "y": 11.5,
+   "anchor": "rt",
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 24.6,
+   "color": "#353631",
+   "m": [
+    1060,
+    14,
+    215,
+    22,
+    "#353631",
+    45
+   ],
+   "scale_x": 0.303
+  },
+  {
+   "type": "text",
+   "text": "WOOL CREW NECK KNIT Price ¥8,800",
+   "x": 1253.5,
+   "y": 33.5,
+   "anchor": "rt",
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 11.8,
+   "color": "#353631",
+   "m": [
+    1080,
+    32,
+    195,
+    20,
+    "#353631",
+    45
+   ],
+   "scale_x": 0.711
+  },
+  {
+   "type": "text",
+   "text": "BLEACH DENIM Price ¥9,900",
+   "x": 1253.5,
+   "y": 50.5,
+   "anchor": "rt",
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 11.8,
+   "color": "#353631",
+   "m": [
+    1130,
+    48,
+    145,
+    16,
+    "#353631",
+    45
+   ],
+   "scale_x": 0.666
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#7a0c10",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "fit_color": "#7a1010",
+   "text": "背",
+   "x": 47.0,
+   "y": 158.6,
+   "size": 163.3,
+   "m": [
+    61,
+    179,
+    171,
+    155,
+    "#7a1010",
+    50
+   ],
+   "scale_x": 1.21,
+   "tgt": [
+    62,
+    180,
+    231,
+    333
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#7a0c10",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "fit_color": "#7a1010",
+   "text": "が",
+   "x": 232.5,
+   "y": 241.0,
+   "size": 63.6,
+   "m": [
+    235,
+    249,
+    30,
+    52,
+    "#7a1010",
+    50
+   ],
+   "scale_x": 1.12,
+   "tgt": [
+    237,
+    250,
+    300,
+    303
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#7a0c10",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "fit_color": "#7a1010",
+   "text": "低",
+   "x": 259.5,
+   "y": 158.8,
+   "size": 162.2,
+   "m": [
+    265,
+    179,
+    152,
+    154,
+    "#7a1010",
+    50
+   ],
+   "scale_x": 1.004,
+   "tgt": [
+    266,
+    180,
+    416,
+    332
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#7a0c10",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "fit_color": "#7a1010",
+   "text": "い",
+   "x": 412.0,
+   "y": 196.6,
+   "size": 119.7,
+   "m": [
+    419,
+    235,
+    70,
+    80,
+    "#7a1010",
+    50
+   ],
+   "scale_x": 0.709,
+   "tgt": [
+    420,
+    236,
+    488,
+    314
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "か",
+   "x": 481.0,
+   "y": 234.1,
+   "size": 87.2,
+   "m": [
+    488,
+    252,
+    76,
+    68,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 0.952,
+   "tgt": [
+    489,
+    253,
+    563,
+    319
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "ら",
+   "x": 540.0,
+   "y": 243.2,
+   "size": 76.8,
+   "m": [
+    572,
+    255,
+    76,
+    67,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 1.789,
+   "tgt": [
+    573,
+    256,
+    647,
+    321
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "と",
+   "x": 639.5,
+   "y": 244.4,
+   "size": 74.4,
+   "m": [
+    663,
+    255,
+    43,
+    65,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 1.198,
+   "tgt": [
+    664,
+    256,
+    705,
+    319
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 80,
+   "y": 506,
+   "w": 1080,
+   "h": 2,
+   "fill": "#f3f2ee"
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "コ",
+   "x": 61.0,
+   "y": 310.9,
+   "size": 224.0,
+   "m": [
+    83,
+    395,
+    103,
+    115,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.671,
+   "tgt": [
+    84,
+    396,
+    185,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "ー",
+   "x": 178.5,
+   "y": 180.1,
+   "size": 459.3,
+   "m": [
+    190,
+    421,
+    128,
+    89,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.327,
+   "tgt": [
+    191,
+    422,
+    317,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "ト",
+   "x": 278.5,
+   "y": 337.1,
+   "size": 168.0,
+   "m": [
+    322,
+    367,
+    65,
+    143,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.837,
+   "tgt": [
+    323,
+    368,
+    386,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "を",
+   "x": 379.0,
+   "y": 404.3,
+   "size": 103.3,
+   "m": [
+    392,
+    419,
+    64,
+    91,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.853,
+   "tgt": [
+    393,
+    420,
+    455,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "避",
+   "x": 452.0,
+   "y": 337.6,
+   "size": 162.5,
+   "m": [
+    459,
+    359,
+    146,
+    151,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.978,
+   "tgt": [
+    460,
+    360,
+    604,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "け",
+   "x": 596.5,
+   "y": 411.5,
+   "size": 93.6,
+   "m": [
+    608,
+    429,
+    51,
+    81,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.756,
+   "tgt": [
+    609,
+    430,
+    658,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "て",
+   "x": 666.0,
+   "y": 415.4,
+   "size": 95.7,
+   "m": [
+    672,
+    436,
+    62,
+    74,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.809,
+   "tgt": [
+    673,
+    437,
+    733,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "い",
+   "x": 736.0,
+   "y": 406.8,
+   "size": 104.7,
+   "m": [
+    742,
+    440,
+    61,
+    70,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.709,
+   "tgt": [
+    743,
+    441,
+    802,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "る",
+   "x": 803.5,
+   "y": 409.9,
+   "size": 99.0,
+   "m": [
+    815,
+    432,
+    45,
+    78,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.708,
+   "tgt": [
+    816,
+    433,
+    859,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "人",
+   "x": 856.0,
+   "y": 338.4,
+   "size": 160.1,
+   "m": [
+    864,
+    361,
+    147,
+    149,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.011,
+   "tgt": [
+    865,
+    362,
+    1010,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "生",
+   "x": 1007.5,
+   "y": 337.1,
+   "size": 166.5,
+   "m": [
+    1014,
+    359,
+    137,
+    151,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.902,
+   "tgt": [
+    1015,
+    360,
+    1150,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "を",
+   "x": 1142.0,
+   "y": 404.3,
+   "size": 103.5,
+   "m": [
+    1154,
+    419,
+    59,
+    91,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.785,
+   "tgt": [
+    1155,
+    420,
+    1212,
+    509
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "今",
+   "x": 56.0,
+   "y": 512.2,
+   "size": 156.9,
+   "m": [
+    61,
+    530,
+    149,
+    152,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.016,
+   "tgt": [
+    62,
+    531,
+    209,
+    681
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "日",
+   "x": 187.5,
+   "y": 512.6,
+   "size": 153.3,
+   "m": [
+    215,
+    539,
+    103,
+    139,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.994,
+   "tgt": [
+    216,
+    540,
+    317,
+    677
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "で",
+   "x": 317.0,
+   "y": 578.8,
+   "size": 90.9,
+   "m": [
+    321,
+    599,
+    69,
+    70,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.846,
+   "tgt": [
+    322,
+    600,
+    389,
+    668
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "終",
+   "x": 387.0,
+   "y": 507.7,
+   "size": 163.6,
+   "m": [
+    394,
+    529,
+    152,
+    155,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.001,
+   "tgt": [
+    395,
+    530,
+    545,
+    683
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "わ",
+   "x": 537.5,
+   "y": 552.8,
+   "size": 120.0,
+   "m": [
+    552,
+    570,
+    99,
+    104,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.063,
+   "tgt": [
+    553,
+    571,
+    650,
+    673
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "ら",
+   "x": 633.5,
+   "y": 548.9,
+   "size": 120.0,
+   "m": [
+    666,
+    570,
+    75,
+    103,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.133,
+   "tgt": [
+    667,
+    571,
+    740,
+    672
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "せ",
+   "x": 735.0,
+   "y": 550.3,
+   "size": 118.8,
+   "m": [
+    742,
+    576,
+    107,
+    91,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.025,
+   "tgt": [
+    743,
+    577,
+    848,
+    666
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "ま",
+   "x": 829.0,
+   "y": 549.6,
+   "size": 120.1,
+   "m": [
+    857,
+    569,
+    76,
+    105,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.138,
+   "tgt": [
+    858,
+    570,
+    932,
+    673
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "す",
+   "x": 932.0,
+   "y": 551.2,
+   "size": 119.5,
+   "m": [
+    940,
+    570,
+    91,
+    109,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.902,
+   "tgt": [
+    941,
+    571,
+    1030,
+    678
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "text": "。",
+   "x": 1025.0,
+   "y": 567.8,
+   "size": 105.1,
+   "m": [
+    1031,
+    644,
+    38,
+    37,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.029,
+   "tgt": [
+    1032,
+    645,
+    1068,
+    680
+   ]
+  }
+ ]
+}

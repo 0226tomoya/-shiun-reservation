@@ -30,3 +30,5 @@
 - `helpers/chars.py ID y0 y1 x0 x1 thr k [white|black]`: 範囲の白（または黒）の画素を開処理して、列ごとの外接矩形（1 文字ずつの x0,x1,y0,y1）を出す。大見出しを 1 文字ずつのレイヤーに分けるときの目標になる（担当 16: 39→72 点）
 - `helpers/snap_b11.py`・`helpers/snap_b16.py`: レイヤーの描いた形の外接矩形を、目標の矩形に合わせて size・scale_x・x・y を直す（fit より軽い）
 - 新機能: `skew_y`、rect の `radius:"50%"`（楕円）
+- **`helpers/split.py ID i[,j]`** → **`helpers/tune.py ID --apply [--layers ..] [--fonts 'NotoSansJP:900,ZenOldMincho:900']`**: 文字レイヤーを描いた位置のまま 1 文字ずつに分け、1 文字ずつ位置・大きさ・横幅・フォント・傾きを合わせる（2 周目で 20 枚が平均 34→56 点）。分けた後は比較画像で字が消えていないか必ず見る
+- 太字の当たり: 大きい漢字＝ZenOldMincho 900 / NotoSerifJP 900、丸い仮名＝KaiseiTokumin 800、縦長の太ゴ＝MPLUS1p 900 か NotoSansJP 900＋scale_x 0.7〜0.8。英字の単語や日付は分けずに 1 行で

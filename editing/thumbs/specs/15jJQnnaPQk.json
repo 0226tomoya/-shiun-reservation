@@ -1,0 +1,384 @@
+{
+ "id": "15jJQnnaPQk",
+ "erase": [
+  {
+   "rect": [
+    999,
+    7,
+    281,
+    293
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    85,
+    330,
+    660,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    25,
+    370,
+    1015,
+    330
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    1070,
+    540,
+    210,
+    180
+   ],
+   "full": true
+  }
+ ],
+ "grow": 5,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_square_15jj.png",
+   "x": 999,
+   "y": 7,
+   "w": 281,
+   "h": 293
+  },
+  {
+   "type": "rect",
+   "x": 96,
+   "y": 340,
+   "w": 22,
+   "h": 22,
+   "radius": 11,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 253,
+   "y": 340,
+   "w": 22,
+   "h": 22,
+   "radius": 11,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 548,
+   "y": 340,
+   "w": 22,
+   "h": 22,
+   "radius": 11,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 705,
+   "y": 340,
+   "w": 22,
+   "h": 22,
+   "radius": 11,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "洋",
+   "x": 33.0,
+   "y": 363.8,
+   "size": 139.3,
+   "m": [
+    37,
+    382,
+    141,
+    133,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.068
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "服",
+   "x": 199.5,
+   "y": 365.3,
+   "size": 139.7,
+   "m": [
+    203,
+    382,
+    141,
+    133,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.044
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "に",
+   "x": 363.0,
+   "y": 410.0,
+   "size": 102.0,
+   "m": [
+    373,
+    430,
+    87,
+    85,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.036
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "特",
+   "x": 480.0,
+   "y": 363.8,
+   "size": 140.5,
+   "m": [
+    482,
+    382,
+    145,
+    133,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.075
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "化",
+   "x": 648.0,
+   "y": 367.3,
+   "size": 138.0,
+   "m": [
+    649,
+    382,
+    146,
+    133,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.087
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "し",
+   "x": 814.0,
+   "y": 409.8,
+   "size": 99.7,
+   "m": [
+    834,
+    428,
+    75,
+    87,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.023
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "た",
+   "x": 930.0,
+   "y": 408.6,
+   "size": 102.1,
+   "m": [
+    938,
+    426,
+    87,
+    89,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.011
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "無",
+   "x": 34.0,
+   "y": 531.3,
+   "size": 149.5,
+   "m": [
+    37,
+    548,
+    140,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.973
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "印",
+   "x": 198.0,
+   "y": 531.8,
+   "size": 148.4,
+   "m": [
+    211,
+    548,
+    130,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.029
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "良",
+   "x": 366.2,
+   "y": 529.8,
+   "size": 149.8,
+   "m": [
+    375,
+    548,
+    134,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.979
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "品",
+   "x": 532.0,
+   "y": 530.8,
+   "size": 150.7,
+   "m": [
+    542,
+    548,
+    133,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.009
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "誕",
+   "x": 699.0,
+   "y": 531.8,
+   "size": 148.3,
+   "m": [
+    703,
+    548,
+    144,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.01
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "生",
+   "x": 869.1,
+   "y": 527.8,
+   "size": 153.3,
+   "m": [
+    872,
+    548,
+    140,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.975
+  },
+  {
+   "type": "rect",
+   "x": 1075,
+   "y": 545,
+   "w": 320,
+   "h": 320,
+   "radius": 160,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "@新宿",
+   "x": 1104.0,
+   "y": 632.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 50.6,
+   "color": "#6a0c1e",
+   "palt": true,
+   "m": [
+    1105,
+    600,
+    175,
+    85,
+    "#700c1e",
+    50
+   ],
+   "scale_x": 1.079,
+   "rotate": -12
+  }
+ ]
+}

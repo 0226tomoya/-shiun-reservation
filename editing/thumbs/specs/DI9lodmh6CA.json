@@ -34,10 +34,10 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -65,10 +65,10 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -96,10 +96,10 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -127,10 +127,10 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -158,15 +158,15 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
    "text": "テ",
-   "x": 724.0,
+   "x": 725.5,
    "y": -17.0,
    "size": 204.5,
    "tgt": [
@@ -182,17 +182,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.919
+   "scale_x": 0.913
   },
   {
    "type": "text",
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -220,10 +220,10 @@
    "font": "KaiseiTokumin",
    "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -250,10 +250,10 @@
    "type": "text",
    "font": "KaiseiTokumin",
    "weight": 800,
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -282,20 +282,52 @@
    "type": "text",
    "font": "KaiseiTokumin",
    "weight": 800,
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
    "fill": "linear-gradient(180deg,#f00010,#b00008)",
-   "text": "れ勘",
-   "x": 183.0,
+   "text": "れ",
+   "x": 185.0,
+   "y": 360.5,
+   "size": 324.2,
+   "tgt": [
+    210,
+    429,
+    425,
+    693
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "palt": true,
+   "scale_x": 0.755
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "strokes": [
+    [
+     2,
+     "#111"
+    ]
+   ],
+   "fill": "linear-gradient(180deg,#f00010,#b00008)",
+   "text": "勘",
+   "x": 425.0,
    "y": 377.5,
    "size": 292.3,
    "tgt": [
-    208,
+    429,
     429,
     660,
     693
@@ -308,16 +340,16 @@
     "#fff"
    ],
    "palt": true,
-   "scale_x": 0.841
+   "scale_x": 0.852
   },
   {
    "type": "text",
    "font": "KaiseiTokumin",
    "weight": 800,
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -346,10 +378,10 @@
    "type": "text",
    "font": "KaiseiTokumin",
    "weight": 800,
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
@@ -378,10 +410,10 @@
    "type": "text",
    "font": "NotoSerifJP",
    "weight": 800,
-   "shadow": "0 0 14px rgba(0,0,0,1)",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
    "strokes": [
     [
-     4,
+     2,
      "#111"
     ]
    ],
