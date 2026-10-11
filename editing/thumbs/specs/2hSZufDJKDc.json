@@ -1,0 +1,118 @@
+{
+ "id": "2hSZufDJKDc",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    240
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    415,
+    244,
+    200,
+    200
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    664,
+    244,
+    200,
+    200
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    445,
+    1280,
+    275
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_2hsz.png",
+   "x": 415,
+   "y": 244,
+   "w": 200,
+   "h": 200
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_2hsz.png",
+   "x": 664,
+   "y": 244,
+   "w": 200,
+   "h": 200
+  },
+  {
+   "type": "text",
+   "text": "ユニクロ24SS",
+   "x": 2.0,
+   "y": -11.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 216.9,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "m": [
+    0,
+    20,
+    1280,
+    200,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.93
+  },
+  {
+   "type": "text",
+   "x": 19.0,
+   "y": 421.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 263.2,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "runs": [
+    {
+     "text": "新作"
+    },
+    {
+     "text": "が",
+     "size_em": 0.55
+    },
+    {
+     "text": "ヤバい"
+    }
+   ],
+   "m": [
+    0,
+    455,
+    1280,
+    265,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.88
+  }
+ ]
+}
