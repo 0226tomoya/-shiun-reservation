@@ -89,26 +89,164 @@
   },
   {
    "type": "text",
-   "text": "春の購入品紹介",
-   "x": 77.5,
-   "y": 267.5,
+   "text": "春",
+   "x": 97.0,
+   "y": 286.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 189.716,
+   "size": 166.94,
    "color": "#ffffff",
    "spacing": 0.0,
    "line": 1.0,
-   "rotate": -2.35,
+   "rotate": -0.8,
    "box": [
-    80,
+    87,
     240,
-    1125,
+    152,
     225
    ],
-   "tol": 22,
-   "scale_x": 0.844,
+   "tol": 30,
+   "scale_x": 0.91,
    "skew": -5.6,
-   "fit_iou": 0.361
+   "fit_iou": 0.697
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 249.5,
+   "y": 298.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 160.045,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": 0,
+   "box": [
+    251,
+    240,
+    121,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.892,
+   "skew": -4.6,
+   "fit_iou": 0.713
+  },
+  {
+   "type": "text",
+   "text": "購",
+   "x": 390.5,
+   "y": 266.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 172.159,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": -0.15,
+   "box": [
+    378,
+    240,
+    161,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.911,
+   "skew": -5.6,
+   "fit_iou": 0.775
+  },
+  {
+   "type": "text",
+   "text": "入",
+   "x": 555.5,
+   "y": 235.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 191.94,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": 0,
+   "box": [
+    543,
+    240,
+    149,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.851,
+   "skew": -5.6,
+   "fit_iou": 0.616
+  },
+  {
+   "type": "text",
+   "text": "品",
+   "x": 721.5,
+   "y": 251.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 164.903,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": 0,
+   "box": [
+    716,
+    240,
+    143,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.926,
+   "skew": -5.6,
+   "fit_iou": 0.815
+  },
+  {
+   "type": "text",
+   "text": "紹",
+   "x": 884.5,
+   "y": 242.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 164.421,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": -0.65,
+   "box": [
+    873,
+    240,
+    159,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.932,
+   "skew": -5.6,
+   "fit_iou": 0.785
+  },
+  {
+   "type": "text",
+   "text": "介",
+   "x": 1049.5,
+   "y": 231.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 170.117,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": -0.5,
+   "box": [
+    1040,
+    240,
+    154,
+    225
+   ],
+   "tol": 30,
+   "scale_x": 0.888,
+   "skew": -5.6,
+   "fit_iou": 0.853
   },
   {
    "type": "text",
@@ -120,7 +258,7 @@
    "italic": true,
    "size": 46.36,
    "color": "#ffffff",
-   "spacing": 0.142,
+   "spacing": 0.162,
    "line": 1.0,
    "box": [
     270,
@@ -129,8 +267,8 @@
     52
    ],
    "tol": 40,
-   "scale_x": 0.755,
-   "fit_iou": 0.07
+   "scale_x": 0.73,
+   "fit_iou": 0.072
   }
  ]
 }

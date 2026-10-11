@@ -1,0 +1,14 @@
+{"id":"fsTfavOy_wM","grow":9,
+"erase":[{"rect":[15,17,140,140],"full":true},{"rect":[165,17,139,139],"full":true},
+ {"rect":[540,256,235,36],"colors":["#ffffff"],"tol":40},
+ {"rect":[40,290,1205,100],"colors":["#ffffff"],"tol":35},
+ {"rect":[85,394,1118,56],"colors":["#ffffff"],"tol":35}],
+"layers":[
+ {"type":"image","src":"assets/logos/gu_blue_fstf.png","x":15,"y":17,"w":140,"h":140},
+ {"type":"image","src":"assets/logos/muji_red_square_fstf.png","x":165,"y":17,"w":139,"h":139},
+ {"type":"rect","x":549,"y":265,"w":19,"h":19,"fill":"#ffffff","radius":9.5},
+ {"type":"rect","x":647,"y":264,"w":19,"h":19,"fill":"#ffffff","radius":9.5},
+ {"type":"rect","x":745,"y":264,"w":19,"h":19,"fill":"#ffffff","radius":9.5},
+ {"type":"text","text":"夏モテたい低身長コレ買って","x":642,"y":340,"anchor":"cc","font":"ZenKakuGothicNew","weight":700,"size":90,"spacing":0.1,"color":"#ffffff","shadow":"0 0 6px rgba(0,0,0,.3)","split":true},
+ {"type":"text","text":"-GUの新作と無印良品の間違いないアイテム-","x":644,"y":422,"anchor":"cc","font":"ZenKakuGothicNew","weight":700,"size":46,"spacing":0.15,"color":"#ffffff","shadow":"0 0 6px rgba(0,0,0,.3)"}
+]}

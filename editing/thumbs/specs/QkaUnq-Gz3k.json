@@ -12,39 +12,39 @@
   },
   {
    "rect": [
-    860,
-    90,
-    410,
-    160
+    858,
+    95,
+    412,
+    150
    ],
    "colors": [
-    "#2a2a2a"
+    "#ffffff"
    ],
    "tol": 30
   },
   {
    "rect": [
-    260,
-    385,
-    760,
-    125
+    262,
+    392,
+    755,
+    120
    ],
    "colors": [
     "#ffffff"
    ],
-   "tol": 16
+   "tol": 12
   },
   {
    "rect": [
-    20,
-    515,
-    1245,
-    190
+    22,
+    520,
+    1240,
+    185
    ],
    "colors": [
     "#ffffff"
    ],
-   "tol": 16
+   "tol": 12
   }
  ],
  "layers": [
@@ -58,26 +58,35 @@
   },
   {
    "type": "text",
-   "text": "これ知ってる?",
-   "x": 1062,
-   "y": 168,
+   "text": "これ知ってる？",
+   "x": 1073.5,
+   "y": 163.0,
    "anchor": "cc",
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 62,
-   "color": "#2a2a2a",
-   "rotate": 14,
-   "spacing": 0.1
+   "size": 112.7,
+   "color": "#ffffff",
+   "rotate": 8,
+   "spacing": 0.05,
+   "m": [
+    858,
+    95,
+    412,
+    150,
+    "#ffffff",
+    22
+   ],
+   "scale_x": 0.597
   },
   {
    "type": "text",
    "text": "アディダス新作",
-   "x": 635.0,
-   "y": 442.0,
+   "x": 634.5,
+   "y": 447.0,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 800,
-   "size": 128.5,
+   "size": 106.7,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
    "m": [
@@ -88,17 +97,23 @@
     "#ffffff",
     10
    ],
-   "scale_x": 0.87
+   "scale_x": 1.015,
+   "tgt": [
+    272,
+    400,
+    1008,
+    503
+   ]
   },
   {
    "type": "text",
    "text": "買うべきスニーカー",
-   "x": 646.5,
-   "y": 594.0,
+   "x": 644.5,
+   "y": 600.0,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 202.0,
+   "size": 183.6,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
    "m": [
@@ -109,7 +124,13 @@
     "#ffffff",
     10
    ],
-   "scale_x": 0.693
+   "scale_x": 0.749,
+   "tgt": [
+    30,
+    527,
+    1252,
+    697
+   ]
   }
  ]
 }

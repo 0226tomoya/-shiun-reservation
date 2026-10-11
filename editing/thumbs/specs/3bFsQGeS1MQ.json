@@ -1,0 +1,159 @@
+{
+ "id": "3bFsQGeS1MQ",
+ "erase": [
+  {
+   "rect": [
+    14,
+    12,
+    203,
+    203
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    318,
+    178,
+    138,
+    212
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    465,
+    25,
+    390,
+    115
+   ],
+   "colors": [
+    "#222222"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    1115,
+    25,
+    105,
+    335
+   ],
+   "colors": [
+    "#222222"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    0,
+    400,
+    1260,
+    315
+   ],
+   "by": "layers",
+   "grow": 15
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_3bfs.png",
+   "x": 14,
+   "y": 12,
+   "w": 203,
+   "h": 203
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 387.5,
+   "y": 293.5,
+   "anchor": "cc",
+   "font": "Libre Baskerville",
+   "weight": 700,
+   "size": 250.3,
+   "color": "#ffffff",
+   "m": [
+    318,
+    178,
+    138,
+    212,
+    "#ffffff",
+    25
+   ],
+   "scale_x": 1.629
+  },
+  {
+   "type": "text",
+   "text": "安すぎだろww",
+   "x": 663.5,
+   "y": 77.5,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 110.5,
+   "color": "#222222",
+   "rotate": 0,
+   "m": [
+    465,
+    25,
+    390,
+    115,
+    "#222222",
+    50
+   ],
+   "scale_x": 0.598
+  },
+  {
+   "type": "text",
+   "text": "春ニット",
+   "x": 1172.0,
+   "y": 189.7,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 94.0,
+   "color": "#222222",
+   "vertical": true,
+   "m": [
+    1115,
+    25,
+    105,
+    335,
+    "#222222",
+    50
+   ],
+   "scale_x": 1.124
+  },
+  {
+   "type": "text",
+   "text": "絶対買い!!",
+   "x": 632.0,
+   "y": 541.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 297.9,
+   "color": "#ffffff",
+   "shadow": "4px 4px 10px rgba(0,0,0,.35)",
+   "spacing": -0.12,
+   "tgt": [
+    15,
+    415,
+    1235,
+    700
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.912
+  }
+ ]
+}
