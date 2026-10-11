@@ -42,11 +42,11 @@
   {
    "type": "text",
    "text": "低身長のカリスマ",
-   "x": 704.0,
-   "y": -9.5,
-   "font": "Klee One",
-   "weight": 600,
-   "size": 75.57,
+   "x": 695.5,
+   "y": -6.0,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 80.22,
    "spacing": 0.062,
    "color": "#ffffff",
    "lock": [
@@ -59,32 +59,261 @@
     265,
     70
    ],
-   "scale_x": 0.409,
-   "fit_iou": 0.143
+   "scale_x": 0.374,
+   "fit_iou": 0.166
   },
   {
    "type": "text",
-   "text": "低身長メンズが今買うと",
-   "x": 92.5,
-   "y": 345.0,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 127.48,
-   "spacing": -0.02,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
     "rotate",
     "skew"
    ],
+   "text": "低",
+   "x": 58.5,
+   "y": 344.5,
+   "size": 128.394,
    "box": [
-    62,
-    355,
-    1185,
-    135
+    67,
+    358,
+    126,
+    127
    ],
-   "scale_x": 0.873,
-   "fit_iou": 0.312
+   "scale_x": 1.069,
+   "fit_iou": 0.702
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "身",
+   "x": 183.0,
+   "y": 343.0,
+   "size": 125.088,
+   "box": [
+    191,
+    358,
+    119,
+    127
+   ],
+   "scale_x": 1.048,
+   "fit_iou": 0.699
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "長",
+   "x": 296.5,
+   "y": 340.5,
+   "size": 131.413,
+   "box": [
+    308,
+    356,
+    122,
+    129
+   ],
+   "scale_x": 1.019,
+   "fit_iou": 0.705
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "メ",
+   "x": 428.0,
+   "y": 348.0,
+   "size": 130.23,
+   "box": [
+    433,
+    378,
+    92,
+    102
+   ],
+   "scale_x": 0.921,
+   "fit_iou": 0.81
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "ン",
+   "x": 517.0,
+   "y": 339.0,
+   "size": 142.03,
+   "box": [
+    546,
+    381,
+    103,
+    99
+   ],
+   "scale_x": 0.986,
+   "fit_iou": 0.499
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "ズ",
+   "x": 640.5,
+   "y": 349.0,
+   "size": 126.68,
+   "box": [
+    650,
+    362,
+    102,
+    121
+   ],
+   "scale_x": 0.916,
+   "fit_iou": 0.743
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "が",
+   "x": 737.5,
+   "y": 354.5,
+   "size": 125.942,
+   "box": [
+    742,
+    359,
+    125,
+    126
+   ],
+   "scale_x": 0.974,
+   "fit_iou": 0.523
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "今",
+   "x": 848.0,
+   "y": 353.0,
+   "size": 123.226,
+   "box": [
+    867,
+    359,
+    106,
+    126
+   ],
+   "scale_x": 0.999,
+   "fit_iou": 0.631
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "買",
+   "x": 960.5,
+   "y": 345.0,
+   "size": 125.85,
+   "box": [
+    971,
+    359,
+    115,
+    125
+   ],
+   "scale_x": 1.059,
+   "fit_iou": 0.738
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "う",
+   "x": 1068.0,
+   "y": 362.5,
+   "size": 112.5,
+   "box": [
+    1086,
+    372,
+    65,
+    109
+   ],
+   "scale_x": 0.926,
+   "fit_iou": 0.625
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "text": "と",
+   "x": 1119.0,
+   "y": 373.0,
+   "size": 95.907,
+   "box": [
+    1158,
+    389,
+    83,
+    87
+   ],
+   "scale_x": 1.677,
+   "fit_iou": 0.386
   },
   {
    "type": "text",

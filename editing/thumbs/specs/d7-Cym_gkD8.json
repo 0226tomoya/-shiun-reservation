@@ -1,0 +1,95 @@
+{
+ "id": "d7-Cym_gkD8",
+ "erase": [
+  {
+   "rect": [
+    559,
+    223,
+    158,
+    76
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    567,
+    384,
+    66,
+    66
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    648,
+    384,
+    66,
+    66
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_d7cy.png",
+   "x": 559,
+   "y": 223,
+   "w": 158,
+   "h": 76
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_d7cy.png",
+   "x": 567,
+   "y": 384,
+   "w": 66,
+   "h": 66
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_d7cy.png",
+   "x": 648,
+   "y": 384,
+   "w": 66,
+   "h": 66
+  },
+  {
+   "type": "text",
+   "text": "さりげなく個性を演出する大人シャツ",
+   "x": 644.0,
+   "y": 334.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 47.24,
+   "spacing": 0.206,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.01,
+   "fit_iou": 0.687
+  }
+ ]
+}

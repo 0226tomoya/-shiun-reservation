@@ -1,0 +1,205 @@
+{
+ "id": "nfxbWQSVziQ",
+ "grow": 15,
+ "erase": [
+  {
+   "rect": [
+    20,
+    25,
+    1240,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    973,
+    164,
+    250,
+    250
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    430,
+    1280,
+    220
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    290,
+    650,
+    700,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "line",
+   "x1": 20,
+   "y1": 143.0,
+   "x2": 142,
+   "y2": 128.2,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 142,
+   "y1": 128.2,
+   "x2": 265,
+   "y2": 116.7,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 265,
+   "y1": 116.7,
+   "x2": 388,
+   "y2": 108.5,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 388,
+   "y1": 108.5,
+   "x2": 510,
+   "y2": 103.6,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 510,
+   "y1": 103.6,
+   "x2": 632,
+   "y2": 102.0,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 632,
+   "y1": 102.0,
+   "x2": 755,
+   "y2": 103.7,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 755,
+   "y1": 103.7,
+   "x2": 878,
+   "y2": 108.6,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 878,
+   "y1": 108.6,
+   "x2": 1000,
+   "y2": 116.8,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1000,
+   "y1": 116.8,
+   "x2": 1122,
+   "y2": 128.3,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1122,
+   "y1": 128.3,
+   "x2": 1245,
+   "y2": 143.1,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "ドライバーズニット待ってました‼",
+   "x": 36,
+   "y": 36,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 78,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_nfxb.png",
+   "x": 975,
+   "y": 166,
+   "w": 246,
+   "h": 246
+  },
+  {
+   "type": "text",
+   "x": 10,
+   "y": 415,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 210,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.93,
+   "runs": [
+    {
+     "text": "冬",
+     "spacing": -0.06
+    },
+    {
+     "text": "の",
+     "size_em": 0.6,
+     "spacing": -0.02
+    },
+    {
+     "text": "新作",
+     "spacing": -0.06
+    },
+    {
+     "text": "トップス",
+     "spacing": -0.09
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "GU 2024 Autumn/Winter",
+   "x": 640,
+   "y": 648,
+   "anchor": "ct",
+   "font": "Jost",
+   "weight": 400,
+   "size": 64,
+   "color": "#ffffff"
+  }
+ ]
+}

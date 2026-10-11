@@ -1,0 +1,136 @@
+{
+ "id": "H1Or3Hiz6Po",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    0,
+    182,
+    1280,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    0,
+    236,
+    1280,
+    246
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    0,
+    478,
+    1280,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    480,
+    612,
+    320,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 60
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "着るだけでスタイルが良く見える",
+   "x": 658,
+   "y": 183,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 52,
+   "color": "#ffffff",
+   "spacing": 0.72,
+   "shadow": "0 0 6px rgba(0,0,0,.4)"
+  },
+  {
+   "type": "text",
+   "text": "低身長革命",
+   "x": 640,
+   "y": 202,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 280,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "小柄男性のための冬服作りました",
+   "x": 660,
+   "y": 474,
+   "anchor": "ct",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 52,
+   "color": "#ffffff",
+   "spacing": 0.72,
+   "shadow": "0 0 6px rgba(0,0,0,.4)"
+  },
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 640,
+   "y": 617,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 400,
+   "size": 15,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "24Winter 1st Collection",
+   "x": 640,
+   "y": 633,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 700,
+   "size": 40,
+   "color": "#ffffff",
+   "scale_x": 0.7
+  },
+  {
+   "type": "text",
+   "text": "2024.10.19 sat. 22:00 - Release",
+   "x": 640,
+   "y": 678,
+   "anchor": "ct",
+   "font": "EB Garamond",
+   "weight": 400,
+   "size": 15,
+   "color": "#ffffff",
+   "scale_x": 0.8
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "ruBHHZHMojA",
+ "erase": [
+  {
+   "rect": [
+    345,
+    263,
+    595,
+    46
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    150,
+    304,
+    980,
+    112
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    345,
+    416,
+    595,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    375,
+    636,
+    527,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 50
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "アパレルディレクターが愛用している",
+   "x": 351.5,
+   "y": 269.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 32.0,
+   "color": "#ffffff",
+   "spacing": 0.122,
+   "line": 1.0,
+   "box": [
+    345,
+    263,
+    595,
+    46
+   ],
+   "tol": 25,
+   "scale_x": 0.966,
+   "fit_iou": 0.519
+  },
+  {
+   "type": "text",
+   "text": "最高の春服紹介します",
+   "x": 155.0,
+   "y": 304.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 99.71,
+   "color": "#ffffff",
+   "spacing": 0.02,
+   "line": 1.0,
+   "box": [
+    150,
+    304,
+    980,
+    112
+   ],
+   "tol": 25,
+   "scale_x": 0.955,
+   "skew": -1.1,
+   "rotate": 0.15,
+   "fit_iou": 0.686
+  },
+  {
+   "type": "text",
+   "text": "2025SS FASHION REVIEW",
+   "x": 359.0,
+   "y": 418.5,
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 35.42,
+   "color": "#ffffff",
+   "spacing": 0.2,
+   "line": 1.0,
+   "box": [
+    345,
+    416,
+    595,
+    40
+   ],
+   "tol": 25,
+   "scale_x": 0.939,
+   "skew": -1,
+   "fit_iou": 0.478
+  },
+  {
+   "type": "text",
+   "text": "Llife | COMOLI | NICENESS",
+   "x": 384.0,
+   "y": 647.5,
+   "font": "CormorantGaramond",
+   "weight": 300,
+   "italic": true,
+   "size": 38.28,
+   "color": "#ffffff",
+   "spacing": 0.12,
+   "line": 1.0,
+   "box": [
+    375,
+    636,
+    527,
+    72
+   ],
+   "tol": 45,
+   "scale_x": 0.923,
+   "rotate": 1.85,
+   "skew": -2.1,
+   "fit_iou": 0.077
+  }
+ ]
+}

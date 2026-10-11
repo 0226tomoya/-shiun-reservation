@@ -1,0 +1,115 @@
+{
+ "id": "uG_mVNivbRA",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    8,
+    6,
+    173,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    220,
+    6,
+    174,
+    172
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    270,
+    770,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    385,
+    1280,
+    330
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1185,
+    50,
+    80,
+    380
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 80
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_ugmv.png",
+   "x": 10,
+   "y": 8,
+   "w": 169,
+   "h": 168
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_ugmv.png",
+   "x": 222,
+   "y": 8,
+   "w": 170,
+   "h": 168
+  },
+  {
+   "type": "text",
+   "text": "カッコ良すぎて",
+   "x": 2,
+   "y": 262,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 130,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)"
+  },
+  {
+   "type": "text",
+   "text": "ヤバい服。",
+   "x": 4,
+   "y": 350,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 335,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)"
+  },
+  {
+   "type": "text",
+   "text": "見つけちゃいました",
+   "x": 1223,
+   "y": 56,
+   "anchor": "ct",
+   "font": "Klee One",
+   "weight": 400,
+   "size": 42,
+   "color": "#000000",
+   "vertical": true,
+   "spacing": -0.05
+  }
+ ]
+}
