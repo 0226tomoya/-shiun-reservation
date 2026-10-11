@@ -1,0 +1,205 @@
+{
+"id": "dbH9XAfTHhc",
+"erase": [
+{
+"rect": [
+497,
+532,
+129,
+129
+],
+"full": true
+},
+{
+"rect": [
+653,
+532,
+130,
+129
+],
+"full": true
+},
+{
+"rect": [
+5,
+160,
+1275,
+235
+],
+"colors": [
+"#d0a050",
+"#ffffff",
+"#e3bf7e",
+"#a87a30"
+],
+"tol": 25
+},
+{
+"rect": [
+195,
+395,
+860,
+130
+],
+"colors": [
+"#d0a050",
+"#ffffff",
+"#e3bf7e",
+"#a87a30"
+],
+"tol": 25
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/uniqlo_kata_red_dbh9.png",
+"x": 497,
+"y": 532,
+"w": 129,
+"h": 129
+},
+{
+"type": "image",
+"src": "assets/logos/uniqlo_red_dbh9.png",
+"x": 653,
+"y": 532,
+"w": 130,
+"h": 129
+},
+{
+"type": "text",
+"text": "未",
+"x": 117.0,
+"y": 271.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 220.0,
+"tb": [
+15,
+220,
+168,
+392
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.96
+},
+{
+"type": "text",
+"text": "発",
+"x": 335.5,
+"y": 271.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 219.5,
+"tb": [
+233,
+439,
+175,
+393
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.954
+},
+{
+"type": "text",
+"text": "売",
+"x": 552.0,
+"y": 270.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 218.5,
+"tb": [
+451,
+657,
+176,
+391
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.963
+},
+{
+"type": "text",
+"text": "の",
+"x": 748.0,
+"y": 285.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 182.4,
+"tb": [
+669,
+824,
+226,
+389
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.91
+},
+{
+"type": "text",
+"text": "新",
+"x": 950.5,
+"y": 263.0,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 236.8,
+"tb": [
+839,
+1059,
+166,
+393
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.965
+},
+{
+"type": "text",
+"text": "作",
+"x": 1162.5,
+"y": 270.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 229.5,
+"tb": [
+1058,
+1266,
+168,
+393
+],
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)",
+"scale_x": 0.94
+},
+{
+"type": "text",
+"text": "UNIQLO秋冬パンツ",
+"x": 628.0,
+"y": 456.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 105.6,
+"tb": [
+204,
+1044,
+398,
+516
+],
+"scale_x": 0.882,
+"fill": "linear-gradient(180deg,#a87a30 0%,#e3bf7e 22%,#ffffff 50%,#f0d9a8 66%,#c08a3a 86%,#8a5c20 100%)",
+"shadow": "4px 4px 0 #3a3a3a, 0 0 14px rgba(0,0,0,.8)"
+}
+],
+"grow": 13
+}

@@ -1,0 +1,190 @@
+{
+ "id": "Z9wDX6qrcpw",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    55,
+    290,
+    1170,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    1005,
+    465,
+    255,
+    230
+   ],
+   "colors": [
+    "#d0d0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    34,
+    34,
+    1212,
+    9
+   ],
+   "colors": [
+    "#c8c8c8"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    34,
+    676,
+    1212,
+    9
+   ],
+   "colors": [
+    "#c8c8c8"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    34,
+    34,
+    9,
+    650
+   ],
+   "colors": [
+    "#c8c8c8"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1235,
+    34,
+    9,
+    650
+   ],
+   "colors": [
+    "#c8c8c8"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 39,
+   "w": 1201,
+   "h": 641,
+   "fill": "rgba(0,0,0,0)",
+   "border": [
+    3,
+    "rgba(220,220,220,0.85)"
+   ]
+  },
+  {
+   "type": "text",
+   "x": 68.5,
+   "y": 287.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 132.9,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.937,
+   "text": "低身長",
+   "m": [
+    58,
+    290,
+    384,
+    150,
+    "#ffffff",
+    22
+   ]
+  },
+  {
+   "type": "text",
+   "x": 431.5,
+   "y": 288.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 128.9,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.899,
+   "text": "ロンTの",
+   "m": [
+    443,
+    290,
+    395,
+    150,
+    "#ffffff",
+    22
+   ]
+  },
+  {
+   "type": "text",
+   "x": 838.5,
+   "y": 285.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 131.9,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.979,
+   "text": "選び方",
+   "m": [
+    839,
+    290,
+    383,
+    150,
+    "#ffffff",
+    22
+   ]
+  },
+  {
+   "type": "text",
+   "text": "5",
+   "x": 1017.0,
+   "y": 396.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 294.9,
+   "color": "#d4d4d4",
+   "m": [
+    1005,
+    465,
+    190,
+    225,
+    "#d8d8d8",
+    25
+   ],
+   "scale_x": 1.091
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1184.0,
+   "y": 597.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 87.5,
+   "color": "#d4d4d4",
+   "m": [
+    1185,
+    610,
+    70,
+    80,
+    "#d8d8d8",
+    25
+   ],
+   "scale_x": 0.824
+  }
+ ]
+}

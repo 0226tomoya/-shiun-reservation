@@ -1,0 +1,149 @@
+{
+ "id": "urUYLSsV3PI",
+ "erase": [
+  {
+   "rect": [
+    703,
+    8,
+    191,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    460,
+    720
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    930,
+    0,
+    350,
+    720
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_uruy.png",
+   "x": 703,
+   "y": 8,
+   "w": 191,
+   "h": 206
+  },
+  {
+   "type": "text",
+   "text": "最",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 223.0,
+   "y": 171.0,
+   "size": 440.9,
+   "_t": [
+    10,
+    0,
+    441,
+    405
+   ],
+   "scale_x": 1.052
+  },
+  {
+   "type": "text",
+   "text": "強",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 105.0,
+   "y": 590.5,
+   "size": 440.9,
+   "_t": [
+    11,
+    405,
+    329,
+    720
+   ],
+   "_ref": 1,
+   "_align": "rt",
+   "scale_x": 1.052
+  },
+  {
+   "type": "text",
+   "text": "ス",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1132.5,
+   "y": 370.5,
+   "size": 337.6,
+   "_t": [
+    975,
+    262,
+    1280,
+    535
+   ],
+   "scale_x": 1.041
+  },
+  {
+   "type": "text",
+   "text": "コ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1133.5,
+   "y": 97.5,
+   "size": 337.6,
+   "_t": [
+    963,
+    0,
+    1264,
+    255
+   ],
+   "_ref": 3,
+   "_align": "rb",
+   "scale_x": 1.041
+  },
+  {
+   "type": "text",
+   "text": "パ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 1052.0,
+   "y": 686.5,
+   "size": 337.6,
+   "_t": [
+    940,
+    545,
+    1258,
+    720
+   ],
+   "_ref": 3,
+   "_align": "lt",
+   "scale_x": 1.041
+  }
+ ]
+}

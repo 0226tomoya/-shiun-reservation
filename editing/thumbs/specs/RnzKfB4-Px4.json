@@ -1,0 +1,226 @@
+{
+ "id": "RnzKfB4-Px4",
+ "erase": [
+  {
+   "rect": [
+    512,
+    16,
+    128,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    655,
+    16,
+    112,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    512,
+    587,
+    113,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    655,
+    587,
+    112,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    270,
+    990,
+    70
+   ],
+   "colors": [
+    "#664e4a",
+    "#4a3c38"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    480,
+    1270,
+    90
+   ],
+   "colors": [
+    "#664e4a",
+    "#4a3c38"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    8,
+    135,
+    985,
+    170
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    8,
+    325,
+    1260,
+    210
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    1205,
+    20,
+    75,
+    330
+   ],
+   "colors": [
+    "#333333"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_rnzk.png",
+   "x": 512,
+   "y": 16,
+   "w": 128,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_rnzk.png",
+   "x": 655,
+   "y": 16,
+   "w": 112,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_rnzk.png",
+   "x": 512,
+   "y": 587,
+   "w": 113,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_rnzk.png",
+   "x": 655,
+   "y": 587,
+   "w": 112,
+   "h": 113
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": 285,
+   "w": 1010,
+   "h": 44,
+   "fill": "#5a4440",
+   "opacity": 0.85,
+   "skew": -30,
+   "rotate": -2
+  },
+  {
+   "type": "rect",
+   "x": -30,
+   "y": 495,
+   "w": 1290,
+   "h": 58,
+   "fill": "#5a4440",
+   "opacity": 0.85,
+   "skew": -30,
+   "rotate": -2
+  },
+  {
+   "type": "text",
+   "text": "ユニクロU春夏",
+   "x": 27.0,
+   "y": 132.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 178.364,
+   "color": "#ffffff",
+   "skew": -6.7,
+   "line": 1.0,
+   "box": [
+    8,
+    135,
+    985,
+    170
+   ],
+   "tol": 14,
+   "scale_x": 0.797,
+   "spacing": -0.006,
+   "rotate": -0.3,
+   "fit_iou": 0.451
+  },
+  {
+   "type": "text",
+   "text": "全型レビュー",
+   "x": 47.0,
+   "y": 315.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 222.79,
+   "color": "#ffffff",
+   "skew": -8.7,
+   "line": 1.0,
+   "box": [
+    8,
+    325,
+    1260,
+    210
+   ],
+   "tol": 14,
+   "scale_x": 0.939,
+   "rotate": -0.8,
+   "fit_iou": 0.52
+  },
+  {
+   "type": "text",
+   "text": "低身長のカリスマ",
+   "x": 1189.5,
+   "y": 66.5,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 39.37,
+   "color": "#333333",
+   "vertical": true,
+   "line": 1.0,
+   "box": [
+    1205,
+    20,
+    75,
+    330
+   ],
+   "tol": 40,
+   "scale_x": 2.38,
+   "spacing": 0.006,
+   "fit_iou": 0.176
+  }
+ ]
+}

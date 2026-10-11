@@ -1,0 +1,428 @@
+{
+ "id": "RJvdDBb3fOQ",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    108
+   ],
+   "colors": [
+    "#343434"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    106,
+    1280,
+    52
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    400,
+    620,
+    110
+   ],
+   "colors": [
+    "#343434",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    485,
+    1280,
+    235
+   ],
+   "colors": [
+    "#343434",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    326,
+    232,
+    76,
+    132
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    619,
+    241,
+    76,
+    132
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    871,
+    231,
+    76,
+    132
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1127,
+    241,
+    76,
+    132
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    0,
+    630,
+    860,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  }
+ ],
+ "grow": 9,
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 107,
+   "w": 1280,
+   "h": 50,
+   "fill": "#070908"
+  },
+  {
+   "type": "line",
+   "x1": 0,
+   "y1": 693,
+   "x2": 845,
+   "y2": 640,
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "2024年最新",
+   "x": 10.4,
+   "y": 3.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 93.7,
+   "color": "#343434",
+   "palt": true,
+   "m": [
+    10,
+    5,
+    480,
+    100,
+    "#343434",
+    30
+   ],
+   "scale_x": 0.914
+  },
+  {
+   "type": "text",
+   "text": "ファッショントレンド",
+   "x": 503.0,
+   "y": 3.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 88.8,
+   "color": "#343434",
+   "palt": true,
+   "spacing": 0.05,
+   "m": [
+    505,
+    5,
+    775,
+    100,
+    "#343434",
+    30
+   ],
+   "scale_x": 0.833
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "アパレルディレクター"
+    },
+    {
+     "text": "が",
+     "size_em": 0.75
+    },
+    {
+     "text": "徹底解説"
+    }
+   ],
+   "x": 715.5,
+   "y": 112.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 35.0,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    700,
+    110,
+    580,
+    45,
+    "#ffffff",
+    40
+   ],
+   "scale_x": 1.063,
+   "tgt": [
+    721,
+    116,
+    1263,
+    149
+   ]
+  },
+  {
+   "type": "text",
+   "text": "お洒落さん",
+   "x": 2.5,
+   "y": 393.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 98.9,
+   "color": "#343434",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    0,
+    405,
+    320,
+    100,
+    "#343434",
+    25
+   ],
+   "scale_x": 0.619
+  },
+  {
+   "type": "text",
+   "text": "間",
+   "x": 466.5,
+   "y": 415.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 77.0,
+   "color": "#343434",
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    450,
+    400,
+    100,
+    100,
+    "#343434",
+    25
+   ],
+   "scale_x": 1.025,
+   "tgt": [
+    474,
+    426,
+    540,
+    497
+   ]
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 318,
+   "y": 425,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 75,
+   "color": "#343434",
+   "opacity": 0.12,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "で",
+   "x": 555,
+   "y": 425,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 75,
+   "color": "#343434",
+   "opacity": 0.12,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "流行"
+    },
+    {
+     "text": "る",
+     "size_em": 0.75
+    },
+    {
+     "text": "夏服",
+     "spacing": -0.02
+    },
+    {
+     "text": "は",
+     "size_em": 0.6
+    },
+    {
+     "text": "コレ"
+    }
+   ],
+   "x": 17.0,
+   "y": 457.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 240.6,
+   "color": "#343434",
+   "palt": true,
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "m": [
+    0,
+    490,
+    1280,
+    230,
+    "#343434",
+    25
+   ],
+   "scale_x": 0.724,
+   "skew": -6
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 321.0,
+   "y": 207.0,
+   "anchor": "lt",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 150.4,
+   "color": "#ffffff",
+   "m": [
+    319,
+    230,
+    90,
+    140,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 1.074
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 614.0,
+   "y": 216.0,
+   "anchor": "lt",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 150.4,
+   "color": "#ffffff",
+   "m": [
+    612,
+    239,
+    90,
+    140,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 1.074
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 866.0,
+   "y": 206.0,
+   "anchor": "lt",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 150.4,
+   "color": "#ffffff",
+   "m": [
+    864,
+    229,
+    90,
+    140,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 1.074
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 1122.0,
+   "y": 216.0,
+   "anchor": "lt",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 150.4,
+   "color": "#ffffff",
+   "m": [
+    1120,
+    239,
+    90,
+    140,
+    "#ffffff",
+    30
+   ],
+   "scale_x": 1.074
+  }
+ ]
+}
