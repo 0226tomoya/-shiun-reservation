@@ -1,0 +1,246 @@
+{
+ "id": "_vhNDtDOcTE",
+ "erase": [
+  {
+   "rect": [
+    996,
+    12,
+    274,
+    274
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    1000,
+    130
+   ],
+   "colors": [
+    "#ffffff",
+    "#222222"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    280,
+    1060,
+    440
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1060,
+    290,
+    220,
+    430
+   ],
+   "full": true
+  }
+ ],
+ "grow": 7,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_vhnd.png",
+   "x": 996,
+   "y": 12,
+   "w": 274,
+   "h": 274
+  },
+  {
+   "type": "text",
+   "text": "低身長の方にもオススメ!!",
+   "x": -3.5,
+   "y": -12.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 129.2,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.713
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "text": "神",
+   "x": -2.5,
+   "y": 225.0,
+   "size": 453.8,
+   "m": [
+    1,
+    285,
+    430,
+    431,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "text": "コ",
+   "x": 413.0,
+   "y": 404.2,
+   "size": 296.7,
+   "m": [
+    445,
+    480,
+    175,
+    225,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.785
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "text": "ス",
+   "x": 628.0,
+   "y": 404.9,
+   "size": 293.0,
+   "m": [
+    641,
+    471,
+    175,
+    240,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.688
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "text": "パ",
+   "x": 836.0,
+   "y": 403.3,
+   "size": 295.5,
+   "m": [
+    841,
+    440,
+    211,
+    266,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.739
+  },
+  {
+   "type": "rect",
+   "x": 1068,
+   "y": 296,
+   "w": 204,
+   "h": 202,
+   "fill": "#ffffff",
+   "border": [
+    4,
+    "#1f1f1f"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 1068,
+   "y": 504,
+   "w": 204,
+   "h": 210,
+   "fill": "#ffffff",
+   "border": [
+    4,
+    "#1f1f1f"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "冬",
+   "x": 1082.0,
+   "y": 276.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 200.4,
+   "color": "#1f1f1f",
+   "m": [
+    1077,
+    302,
+    184,
+    190,
+    "#1f1f1f",
+    30
+   ],
+   "scale_x": 0.958
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 1081.0,
+   "y": 478.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 209.7,
+   "color": "#1f1f1f",
+   "m": [
+    1077,
+    512,
+    184,
+    195,
+    "#1f1f1f",
+    30
+   ],
+   "scale_x": 0.916
+  }
+ ]
+}
