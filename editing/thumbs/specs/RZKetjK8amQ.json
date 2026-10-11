@@ -1,0 +1,136 @@
+{
+ "id": "RZKetjK8amQ",
+ "erase": [
+  {
+   "rect": [
+    11,
+    11,
+    175,
+    174
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    420,
+    40,
+    440,
+    440
+   ],
+   "colors": [
+    "#d09a30",
+    "#ffffff",
+    "#e8c890"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    400,
+    488,
+    480,
+    165
+   ],
+   "colors": [
+    "#d09a30",
+    "#ffffff",
+    "#e8c890"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_rzke.png",
+   "x": 11,
+   "y": 11,
+   "w": 175,
+   "h": 174
+  },
+  {
+   "type": "text",
+   "text": "神",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 646.5,
+   "y": 233.5,
+   "size": 440.1,
+   "shadow": "-4px 6px 12px rgba(0,0,0,.85)",
+   "fill": "linear-gradient(180deg,#c8902a 0%,#fffdf6 24%,#c8901a 50%,#ffffff 74%,#cc9530 100%)",
+   "_t": [
+    434,
+    50,
+    843,
+    468
+   ],
+   "scale_x": 0.983
+  },
+  {
+   "type": "text",
+   "text": "デ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 481.0,
+   "y": 563.0,
+   "size": 148.2,
+   "shadow": "-4px 6px 12px rgba(0,0,0,.85)",
+   "fill": "linear-gradient(180deg,#c8902a 0%,#fffaf0 30%,#c8901a 55%,#ffffff 80%,#cc9530 100%)",
+   "_t": [
+    412,
+    497,
+    556,
+    640
+   ],
+   "scale_x": 1.069
+  },
+  {
+   "type": "text",
+   "text": "ニ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 635.0,
+   "y": 562.0,
+   "size": 164.3,
+   "shadow": "-4px 6px 12px rgba(0,0,0,.85)",
+   "fill": "linear-gradient(180deg,#c8902a 0%,#fffaf0 30%,#c8901a 55%,#ffffff 80%,#cc9530 100%)",
+   "_t": [
+    570,
+    520,
+    701,
+    630
+   ],
+   "scale_x": 0.978
+  },
+  {
+   "type": "text",
+   "text": "ム",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 790.0,
+   "y": 558.5,
+   "size": 169.0,
+   "shadow": "-4px 6px 12px rgba(0,0,0,.85)",
+   "fill": "linear-gradient(180deg,#c8902a 0%,#fffaf0 30%,#c8901a 55%,#ffffff 80%,#cc9530 100%)",
+   "_t": [
+    715,
+    497,
+    866,
+    640
+   ],
+   "scale_x": 0.983
+  }
+ ]
+}

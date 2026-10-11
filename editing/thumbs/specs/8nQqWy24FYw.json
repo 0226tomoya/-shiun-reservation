@@ -1,0 +1,223 @@
+{
+ "id": "8nQqWy24FYw",
+ "erase": [
+  {
+   "rect": [
+    650,
+    14,
+    215,
+    268
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    988,
+    14,
+    236,
+    268
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1123,
+    311,
+    136,
+    137
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    15,
+    28,
+    330,
+    205
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    15,
+    390,
+    780,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    15,
+    485,
+    1260,
+    235
+   ],
+   "colors": [
+    "#c09736",
+    "#e4dc79",
+    "#edee88"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_8nqq.png",
+   "x": 650,
+   "y": 14,
+   "w": 215,
+   "h": 268
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_8nqq.png",
+   "x": 988,
+   "y": 14,
+   "w": 236,
+   "h": 268
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_8nqq.png",
+   "x": 1123,
+   "y": 311,
+   "w": 136,
+   "h": 137
+  },
+  {
+   "type": "text",
+   "text": "本日3/20",
+   "x": 11.0,
+   "y": 66.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 58.545,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#333333"
+    ]
+   ],
+   "rotate": -7.5,
+   "line": 1.0,
+   "box": [
+    15,
+    28,
+    330,
+    85
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.302,
+   "skew": -1,
+   "spacing": 0.002,
+   "fit_iou": 0.474
+  },
+  {
+   "type": "line",
+   "x1": 30,
+   "y1": 115,
+   "x2": 330,
+   "y2": 92,
+   "width": 4,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "発売‼",
+   "x": 26.5,
+   "y": 153.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 88.345,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#333333"
+    ]
+   ],
+   "rotate": -7.5,
+   "line": 1.0,
+   "box": [
+    15,
+    118,
+    330,
+    115
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.302,
+   "skew": 3,
+   "spacing": 0.006,
+   "fit_iou": 0.526
+  },
+  {
+   "type": "text",
+   "text": "ユニクロU2025春夏",
+   "x": 6.0,
+   "y": 386.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82.99,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#222222"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    15,
+    390,
+    780,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.006,
+   "skew": -3.7,
+   "spacing": 0.008,
+   "fit_iou": 0.598
+  },
+  {
+   "type": "text",
+   "text": "絶対買い3選‼",
+   "x": 41.0,
+   "y": 512.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 160.73,
+   "fill": "linear-gradient(180deg,#c09736 0%,#e4dc79 35%,#edee88 50%,#e4dc79 65%,#c39a35 100%)",
+   "strokes": [
+    [
+     4,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    15,
+    485,
+    1260,
+    235
+   ],
+   "fit_color": "#e4dc79",
+   "tol": 40,
+   "scale_x": 1.24,
+   "spacing": 0.002,
+   "skew": -0.3,
+   "fit_iou": 0.585
+  }
+ ]
+}

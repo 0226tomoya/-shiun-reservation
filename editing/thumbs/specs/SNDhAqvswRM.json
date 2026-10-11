@@ -1,0 +1,101 @@
+{
+ "id": "SNDhAqvswRM",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    12,
+    10,
+    210,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    260,
+    10,
+    212,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    803,
+    10,
+    209,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1057,
+    10,
+    211,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    490,
+    1280,
+    225
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_sndh.png",
+   "x": 12,
+   "y": 10,
+   "w": 210,
+   "h": 206
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_sndh.png",
+   "x": 260,
+   "y": 10,
+   "w": 212,
+   "h": 206
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_sndh.png",
+   "x": 803,
+   "y": 10,
+   "w": 209,
+   "h": 206
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_sndh.png",
+   "x": 1057,
+   "y": 10,
+   "w": 211,
+   "h": 206
+  },
+  {
+   "type": "text",
+   "text": "秋冬新作大量購入",
+   "x": 6,
+   "y": 472,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 218,
+   "color": "#ffffff",
+   "scale_x": 0.74,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "spacing": -0.01
+  }
+ ]
+}

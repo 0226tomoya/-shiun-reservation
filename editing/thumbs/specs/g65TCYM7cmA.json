@@ -1,0 +1,506 @@
+{
+"id": "g65TCYM7cmA",
+"erase": [
+{
+"rect": [
+15,
+12,
+120,
+44
+],
+"full": true
+},
+{
+"rect": [
+10,
+270,
+415,
+160
+],
+"colors": [
+"#1a1a1a"
+],
+"tol": 14
+},
+{
+"rect": [
+1115,
+275,
+155,
+150
+],
+"colors": [
+"#1a1a1a"
+],
+"tol": 14
+},
+{
+"rect": [
+995,
+295,
+120,
+140
+],
+"colors": [
+"#1a1a1a"
+],
+"tol": 10
+},
+{
+"rect": [
+1000,
+268,
+85,
+30
+],
+"colors": [
+"#1a1a1a"
+],
+"tol": 14
+},
+{
+"rect": [
+415,
+240,
+600,
+200
+],
+"colors": [
+"#ffffff"
+],
+"tol": 14
+},
+{
+"rect": [
+310,
+155,
+200,
+140
+],
+"colors": [
+"#ffffff"
+],
+"tol": 22
+},
+{
+"rect": [
+935,
+8,
+335,
+70
+],
+"colors": [
+"#ffffff"
+],
+"tol": 25
+},
+{
+"rect": [
+350,
+660,
+580,
+42
+],
+"colors": [
+"#ffffff"
+],
+"tol": 30
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/shiun_white_g65t.png",
+"x": 15,
+"y": 12,
+"w": 120,
+"h": 44
+},
+{
+"type": "text",
+"text": "身",
+"x": 88,
+"y": 350,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 156,
+"tb": [
+13,
+162,
+275,
+425
+],
+"color": "#1a1a1a",
+"scale_x": 0.951
+},
+{
+"type": "text",
+"text": "長",
+"x": 240,
+"y": 349,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 154,
+"tb": [
+166,
+313,
+275,
+423
+],
+"color": "#1a1a1a",
+"scale_x": 0.95
+},
+{
+"type": "text",
+"text": "が",
+"x": 373,
+"y": 376,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 100,
+"tb": [
+322,
+424,
+326,
+425
+],
+"color": "#1a1a1a",
+"scale_x": 0.989
+},
+{
+"type": "text",
+"text": "6",
+"x": 482,
+"y": 340,
+"anchor": "cc",
+"font": "Playfair Display",
+"weight": 700,
+"size": 187,
+"tb": [
+421,
+544,
+251,
+421
+],
+"color": "#ffffff",
+"scale_x": 0.647
+},
+{
+"type": "text",
+"text": "cm",
+"x": 653,
+"y": 372,
+"anchor": "cc",
+"font": "Playfair Display",
+"weight": 700,
+"size": 113,
+"tb": [
+544,
+762,
+316,
+421
+],
+"color": "#ffffff",
+"scale_x": 0.978
+},
+{
+"type": "text",
+"text": "盛",
+"x": 828,
+"y": 339,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 185,
+"tb": [
+756,
+899,
+251,
+421
+],
+"color": "#ffffff",
+"scale_x": 0.768
+},
+{
+"type": "text",
+"text": "れ",
+"x": 950,
+"y": 360,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 132,
+"tb": [
+896,
+1004,
+296,
+421
+],
+"color": "#ffffff",
+"scale_x": 0.797
+},
+{
+"type": "text",
+"text": "る",
+"x": 1055,
+"y": 362,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 138,
+"tb": [
+996,
+1114,
+296,
+421
+],
+"color": "#1a1a1a",
+"scale_x": 0.839
+},
+{
+"type": "text",
+"text": "靴",
+"x": 1193,
+"y": 351,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 800,
+"size": 150,
+"tb": [
+1118,
+1268,
+279,
+423
+],
+"color": "#1a1a1a",
+"scale_x": 0.996
+},
+{
+"type": "rect",
+"x": 425,
+"y": 424,
+"w": 586,
+"h": 7,
+"fill": "#ffffff"
+},
+{
+"type": "rect",
+"x": 1009,
+"y": 424,
+"w": 98,
+"h": 7,
+"fill": "#1a1a1a"
+},
+{
+"type": "rect",
+"x": 948,
+"y": 275,
+"w": 16,
+"h": 16,
+"radius": 8,
+"fill": "#ffffff"
+},
+{
+"type": "rect",
+"x": 1060,
+"y": 275,
+"w": 16,
+"h": 16,
+"radius": 8,
+"fill": "#1a1a1a"
+},
+{
+"type": "text",
+"text": "自",
+"x": 351,
+"y": 201,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 700,
+"size": 46,
+"tb": [
+331,
+371,
+176,
+226
+],
+"color": "#ffffff",
+"scale_x": 0.732
+},
+{
+"type": "text",
+"text": "然",
+"x": 405,
+"y": 198,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 700,
+"size": 43,
+"tb": [
+382,
+428,
+174,
+221
+],
+"color": "#ffffff",
+"scale_x": 0.93
+},
+{
+"type": "text",
+"text": "と",
+"x": 476,
+"y": 200,
+"anchor": "cc",
+"font": "Shippori Mincho B1",
+"weight": 700,
+"size": 33,
+"tb": [
+444,
+508,
+181,
+219
+],
+"color": "#ffffff",
+"scale_x": 1.2
+},
+{
+"type": "rect",
+"x": 345,
+"y": 163,
+"w": 6,
+"h": 6,
+"radius": 3,
+"fill": "#ffffff"
+},
+{
+"type": "rect",
+"x": 399,
+"y": 163,
+"w": 6,
+"h": 6,
+"radius": 3,
+"fill": "#ffffff"
+},
+{
+"type": "rect",
+"x": 462,
+"y": 163,
+"w": 6,
+"h": 6,
+"radius": 3,
+"fill": "#ffffff"
+},
+{
+"type": "line",
+"x1": 318,
+"y1": 238,
+"x2": 370,
+"y2": 255,
+"width": 2.5,
+"color": "#ffffff"
+},
+{
+"type": "line",
+"x1": 370,
+"y1": 255,
+"x2": 413,
+"y2": 288,
+"width": 2.5,
+"color": "#ffffff"
+},
+{
+"type": "line",
+"x1": 414,
+"y1": 288,
+"x2": 450,
+"y2": 240,
+"width": 2.5,
+"color": "#ffffff"
+},
+{
+"type": "line",
+"x1": 450,
+"y1": 240,
+"x2": 500,
+"y2": 196,
+"width": 2.5,
+"color": "#ffffff"
+},
+{
+"type": "text",
+"text": "24 Essential Collection",
+"x": 1102,
+"y": 32,
+"anchor": "cc",
+"font": "EB Garamond",
+"weight": 600,
+"size": 43,
+"tb": [
+941,
+1263,
+11,
+52
+],
+"color": "#ffffff",
+"scale_x": 0.5
+},
+{
+"type": "text",
+"text": "2024.07.20 sat. 22:00 - Release",
+"x": 1148,
+"y": 63,
+"anchor": "cc",
+"font": "EB Garamond",
+"weight": 500,
+"size": 24,
+"tb": [
+1033,
+1263,
+51,
+75
+],
+"color": "#ffffff",
+"scale_x": 0.5
+},
+{
+"type": "text",
+"text": "24 Essential Collection　2024.07.20 sat. 22:00 - Release",
+"x": 640,
+"y": 670,
+"anchor": "cc",
+"font": "EB Garamond",
+"weight": 500,
+"size": 14,
+"tb": [
+496,
+785,
+662,
+679
+],
+"color": "#ffffff",
+"scale_x": 0.5
+},
+{
+"type": "text",
+"text": "BLACK SUEDE MOCCASIN / BLACK / XS , S , M / ¥9,900　MITSUKADO  BAG / SUMI KURO / ONE SIZE / ¥7,920",
+"x": 640,
+"y": 692,
+"anchor": "cc",
+"font": "EB Garamond",
+"weight": 500,
+"size": 13,
+"tb": [
+356,
+925,
+684,
+700
+],
+"color": "#ffffff",
+"scale_x": 0.5
+}
+],
+"grow": 11
+}

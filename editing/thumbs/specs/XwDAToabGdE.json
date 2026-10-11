@@ -1,0 +1,138 @@
+{
+ "id": "XwDAToabGdE",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    335,
+    22,
+    625,
+    102
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    410,
+    1280,
+    225
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    12,
+    638,
+    1255,
+    72
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "は",
+     "size_em": 0.8
+    },
+    {
+     "text": "何"
+    },
+    {
+     "text": "を",
+     "size_em": 0.8
+    },
+    {
+     "text": "着"
+    },
+    {
+     "text": "るべき",
+     "size_em": 0.8
+    },
+    {
+     "text": "??",
+     "size_em": 0.8
+    }
+   ],
+   "x": 646,
+   "y": 64,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 72,
+   "color": "#ffffff",
+   "palt": true,
+   "rotate": -2,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "line",
+   "x1": 346,
+   "y1": 116,
+   "x2": 947,
+   "y2": 104,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "2024",
+     "font": "Oswald",
+     "weight": 700,
+     "size_em": 1.06,
+     "spacing": -0.09
+    },
+    {
+     "text": "年",
+     "size_em": 0.62
+    },
+    {
+     "text": "流行る秋服"
+    }
+   ],
+   "x": 10,
+   "y": 374,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 228,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)"
+  },
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 641,
+   "w": 1249,
+   "h": 67,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "ファッションディレクターによる2024AWトレンド解説",
+   "x": 640,
+   "y": 674,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 52,
+   "color": "#111111",
+   "palt": true,
+   "spacing": 0.04
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "id": "IRda-I0hpRM",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    575,
+    0,
+    705,
+    270
+   ],
+   "colors": [
+    "#ffff00"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    585,
+    262,
+    695,
+    258
+   ],
+   "colors": [
+    "#ffff00"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    0,
+    502,
+    295,
+    72
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    565,
+    1280,
+    155
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "絶対"
+    },
+    {
+     "text": "に",
+     "size_em": 0.8
+    }
+   ],
+   "x": 588,
+   "y": -22,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 275,
+   "color": "#ffff00",
+   "palt": true,
+   "scale_x": 0.86,
+   "shadow": "0 0 10px rgba(0,0,0,.5)"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "着"
+    },
+    {
+     "text": "るな",
+     "size_em": 0.85
+    },
+    {
+     "text": "‼",
+     "size_em": 0.85
+    }
+   ],
+   "x": 600,
+   "y": 222,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 250,
+   "color": "#ffff00",
+   "palt": true,
+   "scale_x": 0.86,
+   "shadow": "0 0 10px rgba(0,0,0,.5)"
+  },
+  {
+   "type": "text",
+   "text": "低身長男性",
+   "x": 4,
+   "y": 494,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 62,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "scale_x": 0.9
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "秋"
+    },
+    {
+     "text": "に",
+     "size_em": 0.55
+    },
+    {
+     "text": "着る"
+    },
+    {
+     "text": "と",
+     "size_em": 0.55
+    },
+    {
+     "text": "失敗"
+    },
+    {
+     "text": "する",
+     "size_em": 0.55
+    },
+    {
+     "text": "ファッション",
+     "spacing": -0.06
+    }
+   ],
+   "x": 4,
+   "y": 552,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 158,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.8,
+   "strokes": [
+    [
+     5,
+     "#111111"
+    ]
+   ]
+  }
+ ]
+}

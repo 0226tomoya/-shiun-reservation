@@ -1,0 +1,228 @@
+{
+ "id": "59OuL2ImSus",
+ "erase": [
+  {
+   "rect": [
+    845,
+    32,
+    432,
+    185
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    845,
+    217,
+    432,
+    200
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    10,
+    385,
+    490,
+    75
+   ],
+   "colors": [
+    "#f0f0f0"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    5,
+    495,
+    605,
+    215
+   ],
+   "colors": [
+    "#f0f0f0",
+    "#e4e4e4"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    598,
+    460,
+    310,
+    255
+   ],
+   "colors": [
+    "#f0f0f0",
+    "#e4e4e4"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    905,
+    545,
+    375,
+    170
+   ],
+   "colors": [
+    "#f0f0f0",
+    "#e4e4e4"
+   ],
+   "tol": 15
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "30代",
+   "x": 867.0,
+   "y": 12.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 192.12,
+   "color": "#1e1e1e",
+   "skew": -8,
+   "line": 1.0,
+   "box": [
+    845,
+    32,
+    432,
+    185
+   ],
+   "tol": 25,
+   "scale_x": 0.996,
+   "rotate": -0.15,
+   "fit_iou": 0.562
+  },
+  {
+   "type": "text",
+   "text": "男性",
+   "x": 894.5,
+   "y": 202.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 202.247,
+   "color": "#1e1e1e",
+   "skew": 0.3,
+   "line": 1.0,
+   "box": [
+    845,
+    217,
+    432,
+    200
+   ],
+   "tol": 25,
+   "scale_x": 1.009,
+   "spacing": -0.038,
+   "fit_iou": 0.549
+  },
+  {
+   "type": "text",
+   "text": "＼今すぐ始めろ‼／",
+   "x": -2.0,
+   "y": 374.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 77.0,
+   "color": "#f0f0f0",
+   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    10,
+    385,
+    490,
+    75
+   ],
+   "tol": 15,
+   "scale_x": 0.153,
+   "spacing": -0.1,
+   "rotate": -1.35,
+   "skew": -1,
+   "fit_iou": 0.442
+  },
+  {
+   "type": "text",
+   "x": 27.5,
+   "y": 479.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 222.228,
+   "color": "#f0f0f0",
+   "skew": -6.7,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "垢抜"
+    },
+    {
+     "text": "ける",
+     "size_em": 0.7
+    }
+   ],
+   "box": [
+    5,
+    495,
+    605,
+    215
+   ],
+   "tol": 15,
+   "scale_x": 0.811,
+   "spacing": -0.008,
+   "fit_iou": 0.643
+  },
+  {
+   "type": "text",
+   "text": "13",
+   "x": 622.5,
+   "y": 394.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 327.604,
+   "color": "#f0f0f0",
+   "skew": -8,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    598,
+    460,
+    310,
+    255
+   ],
+   "tol": 15,
+   "scale_x": 0.806,
+   "spacing": 0.01,
+   "fit_iou": 0.813
+  },
+  {
+   "type": "text",
+   "text": "のこと",
+   "x": 923.5,
+   "y": 545.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 150.259,
+   "color": "#f0f0f0",
+   "skew": -8,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    905,
+    545,
+    375,
+    170
+   ],
+   "tol": 15,
+   "scale_x": 0.845,
+   "spacing": -0.052,
+   "rotate": -0.15,
+   "fit_iou": 0.727
+  }
+ ]
+}
