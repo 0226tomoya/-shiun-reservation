@@ -1,13 +1,155 @@
-{"id":"O4T5bB3-G1c",
- "erase":[{"rect":[8,16,120,52],"full":true},
-          {"rect":[938,20,334,50],"colors":["#ffffff"],"tol":18},
-          {"rect":[8,530,1265,180],"colors":["#ffffff"],"tol":20},
-          {"rect":[495,478,190,90],"colors":["#e8e8e8"],"tol":25},
-          {"rect":[685,478,115,72],"colors":["#e8e8e8"],"tol":25}],
- "layers":[
-  {"type":"image","src":"assets/logos/shiun_white_o4t5.png","x":10,"y":18,"w":116,"h":48},
-  {"type":"text","text":"25 Winter 1st Collection","x":944,"y":22,"font":"Playfair Display","weight":700,"size":38,"scale_x":0.8,"color":"#ffffff","tol":18},
-  {"type":"text","runs":[{"text":"低身長"},{"text":"のための","size_em":0.72},{"text":"冬服"}],"x":15,"y":520,"font":"Noto Serif JP","weight":900,"size":170,"line":1.0,"color":"#ffffff","shadow":"0 0 16px rgba(0,0,0,.6)","tol":20},
-  {"type":"text","text":"トレンド","x":505,"y":488,"font":"Noto Serif JP","weight":700,"size":52,"rotate":12,"color":"#e8e8e8","shadow":"0 0 8px rgba(0,0,0,.6)","tol":25},
-  {"type":"text","text":"唯一無二","x":688,"y":483,"font":"Noto Serif JP","weight":700,"size":56,"color":"#e8e8e8","shadow":"0 0 8px rgba(0,0,0,.6)","tol":25}
- ]}
+{
+ "id": "O4T5bB3-G1c",
+ "erase": [
+  {
+   "rect": [
+    8,
+    16,
+    120,
+    52
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    938,
+    20,
+    334,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    8,
+    530,
+    1265,
+    185
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    495,
+    470,
+    475,
+    105
+   ],
+   "colors": [
+    "#d8d8d8"
+   ],
+   "tol": 28
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_o4t5.png",
+   "x": 10,
+   "y": 18,
+   "w": 116,
+   "h": 48
+  },
+  {
+   "type": "text",
+   "text": "25 Winter 1st Collection",
+   "x": 949.0,
+   "y": 21.5,
+   "font": "Playfair Display",
+   "weight": 700,
+   "size": 41.125,
+   "scale_x": 0.732,
+   "color": "#ffffff",
+   "tol": 18,
+   "skew": -4.5,
+   "rotate": 0.3,
+   "fit_iou": 0.4
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "のための",
+     "size_em": 0.68
+    },
+    {
+     "text": "冬服"
+    }
+   ],
+   "x": 10.0,
+   "y": 520.0,
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 168.951,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 16px rgba(0,0,0,.6)",
+   "tol": 20,
+   "scale_x": 0.981,
+   "skew": 0,
+   "spacing": -0.018,
+   "fit_iou": 0.467,
+   "rotate": 0,
+   "box": [
+    8,
+    535,
+    1268,
+    175
+   ]
+  },
+  {
+   "type": "text",
+   "text": "トレンド",
+   "x": 505,
+   "y": 488,
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "size": 52,
+   "rotate": 12,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 1.0,
+   "fit_iou": 0.144,
+   "box": [
+    495,
+    470,
+    215,
+    105
+   ],
+   "skew": 0
+  },
+  {
+   "type": "text",
+   "text": "唯一無二",
+   "x": 712,
+   "y": 478,
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "size": 58,
+   "rotate": 9,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 1.0,
+   "fit_iou": 0.144,
+   "box": [
+    700,
+    470,
+    270,
+    105
+   ],
+   "skew": 0
+  }
+ ],
+ "grow": 15
+}

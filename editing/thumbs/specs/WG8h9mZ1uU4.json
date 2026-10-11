@@ -1,0 +1,117 @@
+{
+ "id": "WG8h9mZ1uU4",
+ "erase": [
+  {
+   "rect": [
+    160,
+    205,
+    965,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    172,
+    296,
+    940,
+    126
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    161,
+    379,
+    957,
+    35
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 162,
+   "y": 380,
+   "w": 955,
+   "h": 33,
+   "fill": "#000000",
+   "opacity": 0.6
+  },
+  {
+   "type": "text",
+   "text": "低身長デザイナーがガチで使っている",
+   "x": 167.0,
+   "y": 230.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 70.19,
+   "line": 1.0,
+   "spacing": -0.03,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tol": 10,
+   "box": [
+    160,
+    232,
+    965,
+    72
+   ],
+   "scale_x": 0.826,
+   "skew": -1.4,
+   "fit_iou": 0.539
+  },
+  {
+   "type": "text",
+   "text": "・・",
+   "x": 668.0,
+   "y": 196.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 46.082,
+   "spacing": 0.02,
+   "color": "#ffffff",
+   "tol": 10,
+   "box": [
+    680,
+    210,
+    90,
+    25
+   ],
+   "scale_x": 1.194,
+   "rotate": -0.5,
+   "fit_iou": 0.671
+  },
+  {
+   "type": "text",
+   "text": "アクセサリー＆小物",
+   "x": 147.0,
+   "y": 291.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 129.0,
+   "line": 1.0,
+   "spacing": -0.02,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tol": 10,
+   "scale_x": 0.87,
+   "skew": -2.4,
+   "rotate": -0.15,
+   "fit_iou": 0.493,
+   "box": [
+    172,
+    296,
+    940,
+    120
+   ]
+  }
+ ]
+}

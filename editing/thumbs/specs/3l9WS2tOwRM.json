@@ -1,0 +1,236 @@
+{
+ "id": "3l9WS2tOwRM",
+ "erase": [
+  {
+   "rect": [
+    4,
+    82,
+    262,
+    58
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    304,
+    86,
+    128,
+    54
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    475,
+    82,
+    265,
+    58
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    12,
+    394,
+    696,
+    74
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    822,
+    24,
+    76,
+    296
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    2,
+    462,
+    1270,
+    250
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "ワイドパンツ",
+   "x": 10.0,
+   "y": 85.0,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 44.0,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#000000"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.954,
+   "rotate": 0.35,
+   "skew": -0.7,
+   "spacing": 0.002,
+   "fit_iou": 0.386
+  },
+  {
+   "type": "text",
+   "text": "コート",
+   "x": 307.0,
+   "y": 90.0,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 42.98,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#000000"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.954,
+   "spacing": 0.028,
+   "skew": -1,
+   "fit_iou": 0.524
+  },
+  {
+   "type": "text",
+   "text": "渋いジャンル",
+   "x": 483.0,
+   "y": 86.0,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 45.76,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#000000"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.944,
+   "spacing": -0.008,
+   "skew": -4,
+   "fit_iou": 0.399
+  },
+  {
+   "type": "rect",
+   "x": 13,
+   "y": 396,
+   "w": 693,
+   "h": 70,
+   "fill": "#0a0a0a"
+  },
+  {
+   "type": "text",
+   "text": "低身長はこれ着ちゃダメ!?",
+   "x": 37.0,
+   "y": 393.5,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 68.493,
+   "line": 1.0,
+   "color": "#ffffff",
+   "tol": 20,
+   "box": [
+    15,
+    397,
+    690,
+    68
+   ],
+   "scale_x": 0.827,
+   "skew": -2.9,
+   "fit_iou": 0.485
+  },
+  {
+   "type": "text",
+   "text": "大丈夫!!",
+   "x": 828.0,
+   "y": 30.0,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 58.326,
+   "vertical": true,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 25,
+   "scale_x": 1.133,
+   "fit_iou": 0.178
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "実"
+    },
+    {
+     "text": "は",
+     "size_em": 0.75
+    },
+    {
+     "text": "似合います"
+    }
+   ],
+   "x": 6,
+   "y": 455,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 220,
+   "line": 1.0,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 10,
+   "scale_x": 0.93,
+   "skew": 0,
+   "rotate": 0,
+   "fit_iou": 0.421,
+   "box": [
+    2,
+    468,
+    1272,
+    240
+   ]
+  }
+ ]
+}

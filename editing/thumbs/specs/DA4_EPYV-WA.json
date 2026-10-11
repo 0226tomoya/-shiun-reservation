@@ -94,8 +94,8 @@
   {
    "type": "text",
    "text": "低身長男性必見!!",
-   "x": 418,
-   "y": 225,
+   "x": 414,
+   "y": 218,
    "box": [
     405,
     205,
@@ -104,7 +104,7 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 42,
+   "size": 51.6,
    "color": "#f6f4f0",
    "strokes": [
     [
@@ -112,14 +112,16 @@
      "#6a5a4a"
     ]
    ],
-   "scale_x": 1.0,
-   "rotate": 5
+   "scale_x": 0.996,
+   "rotate": 4.6,
+   "spacing": -0.14,
+   "fit_iou": 0.157
   },
   {
    "type": "text",
    "text": "UNIQLO and JW ANDERSON",
-   "x": 15,
-   "y": 350,
+   "x": 22,
+   "y": 347,
    "box": [
     10,
     345,
@@ -128,7 +130,7 @@
    ],
    "font": "Roboto Condensed",
    "weight": 700,
-   "size": 80,
+   "size": 80.15,
    "color": "#fdfdfc",
    "strokes": [
     [
@@ -136,14 +138,15 @@
      "#0c0909"
     ]
    ],
-   "spacing": -0.02,
-   "scale_x": 1.0
+   "spacing": 0.002,
+   "scale_x": 1.012,
+   "fit_iou": 0.678
   },
   {
    "type": "text",
    "text": "これは買い",
-   "x": 640,
-   "y": 430,
+   "x": 616,
+   "y": 404,
    "anchor": "ct",
    "box": [
     15,
@@ -153,7 +156,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 270,
+   "size": 272.44,
    "color": "#fdee05",
    "strokes": [
     [
@@ -161,8 +164,9 @@
      "#0e0d09"
     ]
    ],
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.05,
+   "scale_x": 0.996,
+   "fit_iou": 0.712
   }
  ],
  "grow": 17

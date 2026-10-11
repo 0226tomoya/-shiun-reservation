@@ -1,0 +1,103 @@
+{
+ "id": "sh7V5Tk74eY",
+ "grow": 15,
+ "erase": [
+  {
+   "rect": [
+    7,
+    8,
+    187,
+    187
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    385,
+    900,
+    115
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    5,
+    500,
+    1260,
+    205
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_square.png",
+   "x": 9,
+   "y": 10,
+   "w": 183,
+   "h": 182
+  },
+  {
+   "type": "text",
+   "text": "安くてカッコいい○○",
+   "x": 440.0,
+   "y": 430.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 120.0,
+   "color": "#ffffff",
+   "skew": -10,
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "tol": 7,
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    5,
+    385,
+    900,
+    115
+   ],
+   "scale_x": 0.781,
+   "spacing": -0.014,
+   "fit_iou": 0.312,
+   "rotate": 0
+  },
+  {
+   "type": "text",
+   "text": "コレは買うべき!!",
+   "x": 624.0,
+   "y": 587.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 233.114,
+   "color": "#ffffff",
+   "skew": -7,
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "tol": 7,
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    5,
+    500,
+    1260,
+    205
+   ],
+   "scale_x": 0.785,
+   "fit_iou": 0.519,
+   "spacing": -0.102,
+   "rotate": 0
+  }
+ ]
+}

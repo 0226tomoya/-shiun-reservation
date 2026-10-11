@@ -1,0 +1,169 @@
+{
+ "id": "nESPvxlUpKw",
+ "grow": 15,
+ "erase": [
+  {
+   "rect": [
+    6,
+    6,
+    356,
+    148
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1096,
+    4,
+    184,
+    374
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    560,
+    40,
+    400,
+    92
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    2,
+    228,
+    905,
+    128
+   ],
+   "colors": [
+    "#ece171",
+    "#ad9845",
+    "#604f22",
+    "#181007"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    360,
+    1272,
+    358
+   ],
+   "colors": [
+    "#ece171",
+    "#ad9845",
+    "#604f22",
+    "#181007",
+    "#f0efd0"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_nesp.png",
+   "x": 8,
+   "y": 8,
+   "w": 352,
+   "h": 144
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_vpair_cut_nesp.png",
+   "x": 1098,
+   "y": 6,
+   "w": 182,
+   "h": 370
+  },
+  {
+   "type": "text",
+   "text": "コレ買っとけ!!",
+   "x": 565.5,
+   "y": 59.5,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 73.88,
+   "rotate": -8.5,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#222222"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 25,
+   "scale_x": 0.861,
+   "skew": -3,
+   "fit_iou": 0.125
+  },
+  {
+   "type": "text",
+   "text": "ユニクロC 2025AW",
+   "x": 23.5,
+   "y": 238.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 96.383,
+   "skew": -8,
+   "line": 1.0,
+   "spacing": -0.02,
+   "fill": "linear-gradient(180deg,#fbf3b0 0%,#e8d36a 35%,#5a3c05 50%,#8a6810 62%,#e8cf55 85%,#fbf3b8 100%)",
+   "strokes": [
+    [
+     6,
+     "#120c02"
+    ]
+   ],
+   "shadow": "5px 5px 4px rgba(0,0,0,.6)",
+   "fit_color": "#ece171",
+   "tol": 45,
+   "scale_x": 1.06,
+   "fit_iou": 0.358,
+   "box": [
+    2,
+    228,
+    905,
+    128
+   ]
+  },
+  {
+   "type": "text",
+   "text": "絶対買い",
+   "x": 55.5,
+   "y": 350.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 338.87,
+   "skew": -7,
+   "line": 1.0,
+   "spacing": -0.04,
+   "fill": "linear-gradient(180deg,#f0e8a0 0%,#ece171 30%,#1a0d00 42%,#5a3c05 58%,#cda830 75%,#f7f0b0 100%)",
+   "strokes": [
+    [
+     9,
+     "#120c02"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.6)",
+   "fit_color": "#ece171",
+   "tol": 50,
+   "box": [
+    10,
+    365,
+    1265,
+    345
+   ],
+   "scale_x": 0.942,
+   "fit_iou": 0.512
+  }
+ ]
+}

@@ -124,8 +124,8 @@
   },
   {
    "type": "text",
-   "x": 11.5,
-   "y": 310.0,
+   "x": 21.5,
+   "y": 307.0,
    "box": [
     15,
     280,
@@ -134,7 +134,7 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 65.61,
+   "size": 68.39,
    "color": "#f7f6f4",
    "strokes": [
     [
@@ -142,8 +142,8 @@
      "#111111"
     ]
    ],
-   "scale_x": 1.0,
-   "spacing": -0.074,
+   "scale_x": 0.996,
+   "spacing": -0.11,
    "rotate": -5.85,
    "runs": [
     {
@@ -157,7 +157,7 @@
      "text": "!!"
     }
    ],
-   "fit_iou": 0.213
+   "fit_iou": 0.162
   },
   {
    "font": "Noto Sans JP",
@@ -170,17 +170,19 @@
    ],
    "type": "text",
    "text": "GU",
-   "x": 18,
-   "y": 440,
+   "x": 12,
+   "y": 414,
    "box": [
     15,
     440,
     112,
     80
    ],
-   "size": 85,
+   "size": 80.67,
    "color": "#f9db0e",
-   "spacing": -0.02
+   "spacing": -0.22,
+   "scale_x": 1.012,
+   "fit_iou": 0.501
   },
   {
    "font": "Noto Sans JP",
@@ -193,16 +195,19 @@
    ],
    "type": "text",
    "text": "×",
-   "x": 135,
-   "y": 448,
+   "x": 119,
+   "y": 426,
    "box": [
     128,
     448,
     64,
     66
    ],
-   "size": 70,
-   "color": "#f9db0e"
+   "size": 70.53,
+   "color": "#f9db0e",
+   "spacing": 0,
+   "scale_x": 0.68,
+   "fit_iou": 0.417
   },
   {
    "font": "Noto Sans JP",
@@ -215,22 +220,24 @@
    ],
    "type": "text",
    "text": "エンジニアドガーメンツ",
-   "x": 195,
-   "y": 440,
+   "x": 288,
+   "y": 411,
    "box": [
     190,
     440,
     1075,
     80
    ],
-   "size": 85,
+   "size": 71.07,
    "color": "#f9db0e",
-   "spacing": -0.02
+   "spacing": 0.274,
+   "scale_x": 1,
+   "fit_iou": 0.396
   },
   {
    "type": "text",
-   "x": 634.5,
-   "y": 489.0,
+   "x": 632.5,
+   "y": 486.0,
    "anchor": "ct",
    "box": [
     15,
@@ -240,7 +247,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 185.28,
+   "size": 190.36,
    "color": "#fefefe",
    "strokes": [
     [
@@ -248,18 +255,18 @@
      "#0f1011"
     ]
    ],
-   "spacing": -0.09,
-   "scale_x": 1.0,
+   "spacing": -0.11,
+   "scale_x": 0.996,
    "runs": [
     {
      "text": "全型着用"
     },
     {
      "text": "レビュー",
-     "size": 158.26
+     "size": 163.73
     }
    ],
-   "fit_iou": 0.655
+   "fit_iou": 0.66
   }
  ],
  "grow": 21

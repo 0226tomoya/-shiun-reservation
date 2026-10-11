@@ -29,66 +29,219 @@
  "layers": [
   {
    "type": "text",
-   "text": "低身長メンズ",
-   "x": 8.5,
-   "y": 190.5,
+   "text": "低身長",
+   "x": 8.0,
+   "y": 321.5,
+   "anchor": "lb",
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 125.701,
+   "size": 119.28,
+   "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.45)",
    "box": [
-    5,
-    205,
-    610,
-    120
+    10,
+    210,
+    299,
+    118
    ],
-   "tol": 10,
-   "scale_x": 0.809,
-   "skew": -2,
-   "spacing": 0.002,
-   "rotate": -0.3,
-   "fit_iou": 0.467
+   "tol": 9,
+   "scale_x": 0.846,
+   "spacing": -0.016,
+   "skew": -1.3,
+   "fit_iou": 0.532
   },
   {
    "type": "text",
-   "x": 0.5,
-   "y": 316,
+   "text": "メンズ",
+   "x": 308.0,
+   "y": 318.0,
+   "anchor": "lb",
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 135,
+   "size": 124.942,
+   "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.45)",
    "box": [
-    5,
-    325,
-    1272,
-    160
+    315,
+    208,
+    309,
+    113
    ],
-   "tol": 10,
-   "scale_x": 1,
-   "spacing": 0,
-   "skew": -2.7,
-   "fit_iou": 0.263,
-   "runs": [
-    {
-     "text": "明るい色"
-    },
-    {
-     "text": "の",
-     "size": 100
-    },
-    {
-     "text": "取り入れ方"
-    }
-   ],
+   "tol": 9,
+   "scale_x": 0.835,
+   "skew": -1.6,
    "rotate": -0.15,
-   "no_init": true,
-   "lock": [
-    "size",
-    "scale_x",
-    "spacing"
-   ]
+   "fit_iou": 0.478
+  },
+  {
+   "type": "text",
+   "text": "明",
+   "x": -0.5,
+   "y": 475.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 160.884,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    7,
+    326,
+    131,
+    155
+   ],
+   "tol": 9,
+   "scale_x": 0.867,
+   "rotate": 0.95,
+   "skew": -0.6,
+   "fit_iou": 0.693
+  },
+  {
+   "type": "text",
+   "text": "るい",
+   "x": 131.5,
+   "y": 471.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 156.51,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    149,
+    338,
+    235,
+    129
+   ],
+   "tol": 9,
+   "scale_x": 0.862,
+   "spacing": -0.118,
+   "skew": -3.3,
+   "fit_iou": 0.576
+  },
+  {
+   "type": "text",
+   "text": "色",
+   "x": 392.0,
+   "y": 462.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 148.713,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    396,
+    326,
+    126,
+    139
+   ],
+   "tol": 9,
+   "scale_x": 0.909,
+   "rotate": -0.65,
+   "skew": -1,
+   "fit_iou": 0.737
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 522.0,
+   "y": 457.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 127.204,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    530,
+    355,
+    102,
+    100
+   ],
+   "tol": 9,
+   "scale_x": 0.944,
+   "rotate": 0.5,
+   "skew": -1.3,
+   "fit_iou": 0.752
+  },
+  {
+   "type": "text",
+   "text": "取",
+   "x": 633.0,
+   "y": 451.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 146.713,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    636,
+    326,
+    136,
+    135
+   ],
+   "tol": 9,
+   "scale_x": 0.973,
+   "skew": -0.3,
+   "fit_iou": 0.7
+  },
+  {
+   "type": "text",
+   "text": "り",
+   "x": 755.0,
+   "y": 451.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 141.022,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    791,
+    326,
+    73,
+    130
+   ],
+   "tol": 9,
+   "scale_x": 1.03,
+   "skew": -3,
+   "rotate": -0.5,
+   "fit_iou": 0.665
+  },
+  {
+   "type": "text",
+   "text": "入れ方",
+   "x": 865.5,
+   "y": 435.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 130.705,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    877,
+    326,
+    397,
+    125
+   ],
+   "tol": 9,
+   "scale_x": 1.039,
+   "skew": -4,
+   "spacing": -0.008,
+   "rotate": 0.5,
+   "fit_iou": 0.497
   }
  ]
 }

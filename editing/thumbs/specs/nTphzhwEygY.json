@@ -1,5 +1,6 @@
 {
  "id": "nTphzhwEygY",
+ "grow": 15,
  "erase": [
   {
    "rect": [
@@ -36,4 +37,45 @@
   {
    "type": "text",
    "text": "shiun試着会",
-   "x": 
+   "x": 1100,
+   "y": 41,
+   "anchor": "cc",
+   "box": [
+    920,
+    6,
+    360,
+    72
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 48.94,
+   "color": "#f8f8f7",
+   "spacing": 0.05,
+   "scale_x": 1,
+   "fit_iou": 0.568
+  },
+  {
+   "type": "text",
+   "text": "身長7.5cm盛れるブーツ、実際に履いてもらいました",
+   "x": 638,
+   "y": 324,
+   "anchor": "ct",
+   "box": [
+    45,
+    325,
+    1190,
+    70
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 56.39,
+   "color": "#f3f2ef",
+   "shadow": "2px 2px 6px rgba(0,0,0,.6)",
+   "spacing": -0.06,
+   "nokana": true,
+   "scale_x": 1.004,
+   "fit_iou": 0.191,
+   "fixed": true
+  }
+ ]
+}

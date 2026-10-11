@@ -1,0 +1,160 @@
+{
+ "id": "FDHgAYDAMa8",
+ "erase": [
+  {
+   "rect": [
+    18,
+    10,
+    218,
+    98
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    982,
+    9,
+    281,
+    127
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    325,
+    15,
+    105,
+    430
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    452,
+    425,
+    825,
+    92
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    5,
+    495,
+    1272,
+    218
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_kana_topleft_fdhg.png",
+   "x": 20,
+   "y": 12,
+   "w": 214,
+   "h": 94
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_pair_black_fdhg.png",
+   "x": 984,
+   "y": 11,
+   "w": 277,
+   "h": 123
+  },
+  {
+   "type": "text",
+   "text": "〇〇がマストバイ!!",
+   "x": 325.5,
+   "y": 31.5,
+   "font": "Klee One",
+   "weight": 600,
+   "size": 43.784,
+   "vertical": true,
+   "rotate": -10,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#222222"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "tol": 22,
+   "scale_x": 0.883,
+   "spacing": -0.004,
+   "fit_iou": 0.156
+  },
+  {
+   "type": "text",
+   "text": "2025AW UNIQLO U",
+   "x": 455.5,
+   "y": 426.0,
+   "font": "Roboto Condensed",
+   "weight": 700,
+   "size": 100.42,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "tol": 14,
+   "scale_x": 1.097,
+   "skew": 0.5,
+   "rotate": 0.35,
+   "fit_iou": 0.606
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "ぶ"
+    },
+    {
+     "text": "っ",
+     "size_em": 0.7
+    },
+    {
+     "text": "ち"
+    },
+    {
+     "text": "ゃ",
+     "size_em": 0.7
+    },
+    {
+     "text": "けレビュー"
+    }
+   ],
+   "x": 12,
+   "y": 486,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 225,
+   "line": 1.0,
+   "spacing": -0.07,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 7,
+   "scale_x": 0.78,
+   "rotate": -0.65,
+   "fit_iou": 0.281,
+   "box": [
+    5,
+    495,
+    1272,
+    218
+   ]
+  }
+ ]
+}

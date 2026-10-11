@@ -1,0 +1,140 @@
+{
+ "id": "k4sFrdIHIBI",
+ "erase": [
+  {
+   "rect": [
+    8,
+    16,
+    120,
+    52
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    878,
+    20,
+    394,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    132,
+    378,
+    1075,
+    118
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    2,
+    490,
+    1276,
+    225
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_k4sf.png",
+   "x": 10,
+   "y": 18,
+   "w": 116,
+   "h": 48
+  },
+  {
+   "type": "text",
+   "text": "25 Autumn 2nd Collection",
+   "x": 883.0,
+   "y": 22.0,
+   "font": "Playfair Display",
+   "weight": 700,
+   "size": 43.45,
+   "scale_x": 0.748,
+   "color": "#ffffff",
+   "tol": 10,
+   "skew": 1,
+   "fit_iou": 0.247
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "理想"
+    },
+    {
+     "text": "を",
+     "size_em": 0.75
+    },
+    {
+     "text": "叶える"
+    },
+    {
+     "text": "傑作"
+    },
+    {
+     "text": "が",
+     "size_em": 0.75
+    },
+    {
+     "text": "勢揃い"
+    }
+   ],
+   "x": 133.5,
+   "y": 371.0,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 112.003,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 10,
+   "scale_x": 0.8,
+   "spacing": -0.02,
+   "skew": 2.7,
+   "fit_iou": 0.519
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "=",
+     "size_em": 0.6
+    },
+    {
+     "text": "お洒落"
+    }
+   ],
+   "x": -18.5,
+   "y": 471.0,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 225.146,
+   "line": 1.0,
+   "spacing": -0.05,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 10,
+   "scale_x": 0.944,
+   "skew": 3.6,
+   "fit_iou": 0.538
+  }
+ ]
+}

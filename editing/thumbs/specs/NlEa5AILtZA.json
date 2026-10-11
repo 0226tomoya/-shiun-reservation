@@ -1,0 +1,92 @@
+{
+ "id": "NlEa5AILtZA",
+ "grow": 21,
+ "erase": [
+  {
+   "rect": [
+    5,
+    282,
+    1270,
+    130
+   ],
+   "colors": [
+    "#fbfbfb"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    250,
+    415,
+    780,
+    60
+   ],
+   "colors": [
+    "#fbfbfb"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "モテ"
+    },
+    {
+     "text": "る",
+     "size_em": 0.75
+    },
+    {
+     "text": "低身長メンズコーデ"
+    }
+   ],
+   "x": 14,
+   "y": 278,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 122,
+   "line": 1.0,
+   "spacing": -0.04,
+   "color": "#fbfbfb",
+   "shadow": "7px 8px 0 #141414",
+   "fit_color": "#fbfbfb",
+   "tol": 10,
+   "scale_x": 1.0,
+   "skew": 0,
+   "rotate": 0,
+   "fit_iou": 0.388,
+   "box": [
+    8,
+    285,
+    1265,
+    125
+   ]
+  },
+  {
+   "type": "text",
+   "text": "shiun 25Autumn Collection 10 styling",
+   "x": 262,
+   "y": 412,
+   "font": "Jost",
+   "weight": 500,
+   "size": 40,
+   "spacing": 0.06,
+   "color": "#fbfbfb",
+   "shadow": "3px 3px 0 #141414",
+   "fit_color": "#fbfbfb",
+   "tol": 10,
+   "scale_x": 1.0,
+   "skew": 0,
+   "fit_iou": 0.391,
+   "rotate": 0,
+   "box": [
+    250,
+    415,
+    780,
+    55
+   ]
+  }
+ ]
+}

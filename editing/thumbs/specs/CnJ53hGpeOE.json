@@ -59,7 +59,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 25
+   "tol": 12
   },
   {
    "rect": [
@@ -71,7 +71,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 35
+   "tol": 12
   },
   {
    "rect": [
@@ -83,7 +83,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 25
+   "tol": 12
   },
   {
    "rect": [
@@ -95,7 +95,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 25
+   "tol": 12
   }
  ],
  "layers": [
@@ -114,13 +114,13 @@
   {
    "type": "text",
    "text": "Cort\nJacket\nShirt\nPants\nsneaker",
-   "x": 47.0,
-   "y": 29.0,
+   "x": 42.0,
+   "y": 29.5,
    "font": "Jost",
    "weight": 500,
-   "size": 34.638,
+   "size": 34.5,
    "line": 1.32,
-   "spacing": 0.126,
+   "spacing": 0.146,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "box": [
@@ -129,20 +129,21 @@
     140,
     220
    ],
-   "tol": 25,
-   "scale_x": 0.85,
-   "rotate": 0.5,
-   "fit_iou": 0.318
+   "tol": 12,
+   "scale_x": 0.882,
+   "rotate": 0,
+   "fit_iou": 0.331,
+   "skew": 0
   },
   {
    "type": "text",
    "text": "2026 Winter & Spring",
-   "x": 786.5,
-   "y": 63.0,
-   "rotate": -2.0,
+   "x": 785.0,
+   "y": 68.0,
+   "rotate": -2.5,
    "font": "Allura",
    "weight": 400,
-   "size": 79.416,
+   "size": 77.599,
    "color": "#ffffff",
    "box": [
     778,
@@ -150,21 +151,21 @@
     480,
     92
    ],
-   "tol": 35,
-   "scale_x": 0.639,
+   "tol": 12,
+   "scale_x": 0.656,
    "spacing": -0.006,
-   "skew": 0.4,
-   "fit_iou": 0.061
+   "skew": 0.7,
+   "fit_iou": 0.034
   },
   {
    "type": "text",
    "text": "最近買ってよかったもの",
-   "x": 144.0,
-   "y": 526.5,
+   "x": 143.5,
+   "y": 528.0,
    "font": "ZenKakuGothicNew",
    "weight": 700,
-   "size": 100.78,
-   "spacing": 0.032,
+   "size": 99.678,
+   "spacing": 0.028,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "box": [
@@ -173,15 +174,16 @@
     1008,
     100
    ],
-   "tol": 25,
-   "scale_x": 0.873,
-   "skew": 3.9,
-   "fit_iou": 0.514
+   "tol": 12,
+   "scale_x": 0.885,
+   "skew": 4.6,
+   "fit_iou": 0.515,
+   "rotate": 0
   },
   {
    "type": "text",
    "text": "barbell object / COMOLI / SEVEN BY SEVEN / OUR LEGACY",
-   "x": 144.0,
+   "x": 144.5,
    "y": 645.0,
    "font": "Jost",
    "weight": 500,
@@ -195,10 +197,11 @@
     1012,
     46
    ],
-   "tol": 25,
-   "scale_x": 0.925,
-   "skew": -2,
-   "fit_iou": 0.311
+   "tol": 12,
+   "scale_x": 0.924,
+   "skew": -3.7,
+   "fit_iou": 0.319,
+   "rotate": 0
   }
  ]
 }

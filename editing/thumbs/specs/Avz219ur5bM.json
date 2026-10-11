@@ -1,5 +1,6 @@
 {
  "id": "Avz219ur5bM",
+ "grow": 21,
  "erase": [
   {
    "rect": [
@@ -49,8 +50,8 @@
   {
    "type": "text",
    "text": "プチプラで買うべき秋冬服",
-   "x": 640,
-   "y": 295,
+   "x": 622,
+   "y": 283,
    "anchor": "ct",
    "box": [
     15,
@@ -60,7 +61,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 100,
+   "size": 119.4,
    "color": "#fdfdfc",
    "strokes": [
     [
@@ -68,13 +69,14 @@
      "#0f0e0f"
     ]
    ],
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.14,
+   "scale_x": 1,
+   "fit_iou": 0.496
   },
   {
    "type": "text",
-   "x": 640,
-   "y": 395,
+   "x": 644,
+   "y": 373,
    "anchor": "ct",
    "box": [
     20,
@@ -84,16 +86,16 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 270,
+   "size": 297.0,
    "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)",
    "strokes": [
     [
-     6,
-     "#5a3a18"
+     8,
+     "#4a2c10"
     ]
    ],
    "shadow": "0 0 14px rgba(255,220,120,.6)",
-   "spacing": -0.04,
+   "spacing": -0.026,
    "runs": [
     {
      "text": "全",
@@ -101,7 +103,7 @@
     },
     {
      "text": "て",
-     "size": 170,
+     "size": 188.31,
      "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
     },
     {
@@ -110,12 +112,13 @@
     },
     {
      "text": "かる!!",
-     "size": 170,
+     "size": 188.31,
      "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
     }
    ],
-   "scale_x": 1.0
+   "scale_x": 1.012,
+   "fit_iou": 0.39,
+   "skew": -12
   }
- ],
- "grow": 21
+ ]
 }

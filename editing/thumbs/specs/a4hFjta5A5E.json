@@ -1,0 +1,104 @@
+{
+ "id": "a4hFjta5A5E",
+ "erase": [
+  {
+   "rect": [
+    268,
+    248,
+    742,
+    78
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    195,
+    318,
+    890,
+    132
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    594,
+    452,
+    90,
+    90
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_cream_square_a4hf.png",
+   "x": 596,
+   "y": 454,
+   "w": 86,
+   "h": 86
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "に",
+     "size_em": 0.8
+    },
+    {
+     "text": "真似して欲しい"
+    }
+   ],
+   "x": 270.5,
+   "y": 243.5,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 74.092,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "tol": 10,
+   "scale_x": 0.77,
+   "skew": 3.6,
+   "fit_iou": 0.443
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "秋スタイリング"
+    },
+    {
+     "text": "8",
+     "size_em": 1.1
+    },
+    {
+     "text": "選",
+     "size_em": 0.55
+    }
+   ],
+   "x": 201.5,
+   "y": 303.0,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 130.25,
+   "line": 1.0,
+   "spacing": -0.02,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "tol": 10,
+   "scale_x": 0.836,
+   "skew": 0.7,
+   "fit_iou": 0.495
+  }
+ ]
+}

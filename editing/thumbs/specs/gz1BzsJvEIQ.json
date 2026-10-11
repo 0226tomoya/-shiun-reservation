@@ -1,5 +1,6 @@
 {
  "id": "gz1BzsJvEIQ",
+ "grow": 17,
  "erase": [
   {
    "rect": [
@@ -42,57 +43,59 @@
   {
    "type": "text",
    "text": "低身長でも似合うようになる",
-   "x": 12,
-   "y": 370,
+   "x": 10,
+   "y": 353,
    "box": [
     10,
     372,
     900,
     80
    ],
-   "font": "Zen Old Mincho",
-   "weight": 900,
-   "size": 78,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 92.86,
    "color": "#fafafa",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.264,
+   "scale_x": 1,
+   "fit_iou": 0.304
   },
   {
    "type": "text",
-   "x": 10,
-   "y": 455,
+   "x": -41,
+   "y": 444,
    "box": [
     5,
     460,
     1260,
     250
    ],
-   "font": "Zen Old Mincho",
-   "weight": 900,
-   "size": 240,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 232.28,
    "color": "#fdfdfc",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
-   "spacing": -0.04,
+   "spacing": -0.148,
    "runs": [
     {
      "text": "ダウン"
     },
     {
      "text": "の",
-     "size": 150
+     "size": 134.58
     },
     {
      "text": "教科書"
     }
    ],
-   "scale_x": 1.0
+   "scale_x": 1,
+   "fit_iou": 0.426
   },
   {
    "type": "text",
    "text": "2025年冬",
-   "x": 1032,
-   "y": 390,
+   "x": 1029,
+   "y": 377,
    "box": [
     1030,
     392,
@@ -101,12 +104,13 @@
    ],
    "font": "Noto Sans JP",
    "weight": 500,
-   "size": 56,
+   "size": 64.97,
    "color": "#f8f8f8",
    "shadow": "0 0 10px rgba(0,0,0,.7)",
-   "spacing": -0.05,
-   "scale_x": 1.0
+   "spacing": -0.046,
+   "nokana": true,
+   "scale_x": 1.056,
+   "fit_iou": 0.387
   }
- ],
- "grow": 17
+ ]
 }

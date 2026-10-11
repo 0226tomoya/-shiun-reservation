@@ -1,0 +1,136 @@
+{
+ "id": "F_SsUKAndbA",
+ "erase": [
+  {
+   "rect": [
+    10,
+    272,
+    1262,
+    345
+   ],
+   "colors": [
+    "#fdf5ee"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    328,
+    636,
+    636,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    12,
+    15,
+    1258,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    12,
+    693,
+    1258,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    12,
+    15,
+    12,
+    690
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1257,
+    15,
+    12,
+    690
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 17,
+   "y": 20,
+   "w": 1248,
+   "h": 681,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#f4f4f4"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ドメ爆買い",
+   "x": -34,
+   "y": 262,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 320,
+   "line": 1.0,
+   "color": "#fdf5ee",
+   "tol": 18,
+   "scale_x": 0.82,
+   "spacing": -0.02,
+   "skew": 0,
+   "rotate": 0,
+   "fit_iou": 0.376,
+   "box": [
+    26,
+    272,
+    1228,
+    345
+   ]
+  },
+  {
+   "type": "text",
+   "text": "COMOLI / blurhms / AURALEE",
+   "x": 340.0,
+   "y": 638.0,
+   "font": "Jost",
+   "weight": 500,
+   "size": 45.1,
+   "spacing": 0.08,
+   "color": "#ffffff",
+   "tol": 18,
+   "scale_x": 0.869,
+   "skew": -6,
+   "rotate": -0.15,
+   "fit_iou": 0.46,
+   "box": [
+    328,
+    636,
+    636,
+    56
+   ]
+  }
+ ]
+}

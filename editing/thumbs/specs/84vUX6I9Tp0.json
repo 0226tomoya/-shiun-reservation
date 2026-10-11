@@ -1,0 +1,72 @@
+{
+ "id": "84vUX6I9Tp0",
+ "erase": [
+  {
+   "rect": [
+    222,
+    304,
+    835,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    465,
+    368,
+    348,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "至高のセットアップ購入しました",
+   "x": 228.0,
+   "y": 309.0,
+   "font": "Zen Kaku Gothic New",
+   "weight": 900,
+   "size": 51.27,
+   "line": 1.0,
+   "spacing": 0.2,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 8,
+   "scale_x": 0.905,
+   "skew": -0.6,
+   "fit_iou": 0.708
+  },
+  {
+   "type": "text",
+   "text": "COMOLI / Llife",
+   "x": 470,
+   "y": 366,
+   "font": "Didact Gothic",
+   "weight": 400,
+   "size": 37,
+   "line": 1.0,
+   "spacing": 0.2,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 8,
+   "scale_x": 1.0,
+   "rotate": 0.85,
+   "skew": -1,
+   "fit_iou": 0.15,
+   "box": [
+    466,
+    370,
+    345,
+    36
+   ]
+  }
+ ]
+}

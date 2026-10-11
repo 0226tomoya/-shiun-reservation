@@ -1,5 +1,6 @@
 {
  "id": "xUjMZH_p5ig",
+ "grow": 21,
  "erase": [
   {
    "rect": [
@@ -16,10 +17,10 @@
   },
   {
    "rect": [
-    568,
-    468,
-    684,
-    64
+    754,
+    456,
+    526,
+    78
    ],
    "full": true
   },
@@ -62,38 +63,41 @@
     ]
    ],
    "shadow": "0 0 10px #b04cb0",
-   "scale_x": 1.0
+   "fixed": true
   },
   {
    "type": "rect",
-   "x": 570,
-   "y": 470,
-   "w": 680,
-   "h": 60,
+   "x": 756,
+   "y": 458,
+   "w": 524,
+   "h": 74,
    "fill": "#030202"
   },
   {
    "type": "text",
    "text": "街頭インタビュー",
-   "x": 910,
-   "y": 500,
+   "x": 1020,
+   "y": 493,
    "anchor": "cc",
    "box": [
-    600,
-    475,
-    620,
-    52
+    770,
+    465,
+    500,
+    62
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 54,
+   "size": 60.48,
    "color": "#fcfcfc",
-   "scale_x": 1.0
+   "nokana": true,
+   "spacing": -0.02,
+   "scale_x": 1,
+   "fit_iou": 0.61
   },
   {
    "type": "text",
-   "x": 640,
-   "y": 535,
+   "x": 624,
+   "y": 523,
    "anchor": "ct",
    "box": [
     10,
@@ -103,7 +107,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 170,
+   "size": 167.9,
    "color": "#fdfdfd",
    "strokes": [
     [
@@ -111,21 +115,21 @@
      "#151615"
     ]
    ],
-   "spacing": -0.04,
+   "spacing": -0.191,
    "runs": [
     {
      "text": "低身長"
     },
     {
      "text": "と",
-     "size": 120
+     "size": 125.27
     },
     {
      "text": "付き合える?"
     }
    ],
-   "scale_x": 1.0
+   "scale_x": 1,
+   "fit_iou": 0.718
   }
- ],
- "grow": 21
+ ]
 }

@@ -42,8 +42,8 @@
   {
    "type": "text",
    "text": "低身長でも似合う",
-   "x": 656.5,
-   "y": 307.5,
+   "x": 708.5,
+   "y": 315.5,
    "anchor": "ct",
    "box": [
     240,
@@ -51,18 +51,19 @@
     810,
     145
    ],
-   "font": "Zen Old Mincho",
-   "weight": 900,
-   "size": 141.35,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 125.34,
    "color": "#fbfbfb",
    "shadow": "0 0 14px rgba(0,0,0,.8)",
-   "spacing": -0.02,
-   "scale_x": 1.0
+   "spacing": -0.074,
+   "scale_x": 1.0,
+   "fit_iou": 0.32
   },
   {
    "type": "text",
-   "x": 579.0,
-   "y": 410.5,
+   "x": 580.0,
+   "y": 426.5,
    "anchor": "ct",
    "box": [
     10,
@@ -70,31 +71,32 @@
     1260,
     215
    ],
-   "font": "Zen Old Mincho",
-   "weight": 900,
-   "size": 244.38,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 218.93,
    "color": "#fdfdfd",
    "shadow": "0 0 14px rgba(0,0,0,.8)",
-   "spacing": -0.058,
+   "spacing": -0.04,
    "runs": [
     {
      "text": "コート"
     },
     {
      "text": "の",
-     "size": 150
+     "size": 141.1
     },
     {
      "text": "教科書"
     }
    ],
-   "scale_x": 1.0
+   "scale_x": 1.0,
+   "fit_iou": 0.436
   },
   {
    "type": "text",
    "text": "2025 AUTUMN & WINTER MEN’S FASHION",
-   "x": 676.0,
-   "y": 678.0,
+   "x": 647.0,
+   "y": 677.0,
    "anchor": "ct",
    "box": [
     185,
@@ -104,10 +106,11 @@
    ],
    "font": "Montserrat",
    "weight": 700,
-   "size": 34.67,
+   "size": 36.0,
    "color": "#f4f4f3",
-   "spacing": 0.224,
-   "scale_x": 1.0
+   "spacing": 0.22,
+   "scale_x": 0.996,
+   "fit_iou": 0.362
   }
  ],
  "grow": 19

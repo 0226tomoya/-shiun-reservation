@@ -1,5 +1,6 @@
 {
  "id": "eIQ-bW8jHmA",
+ "grow": 17,
  "erase": [
   {
    "rect": [
@@ -95,8 +96,8 @@
   {
    "type": "text",
    "text": "オンラインショッピング",
-   "x": 640,
-   "y": 10,
+   "x": 633,
+   "y": 1,
    "anchor": "ct",
    "box": [
     10,
@@ -106,10 +107,11 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 120,
+   "size": 123.08,
    "color": "#fdfdfd",
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.08,
+   "scale_x": 1,
+   "fit_iou": 0.612
   },
   {
    "type": "image",
@@ -146,8 +148,8 @@
   {
    "type": "text",
    "text": "注意",
-   "x": 10,
-   "y": 425,
+   "x": -15,
+   "y": 392,
    "box": [
     10,
     430,
@@ -156,17 +158,18 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 270,
+   "size": 302.83,
    "color": "#fdfdfd",
    "shadow": "3px 3px 8px rgba(0,0,0,.4)",
-   "spacing": -0.05,
-   "scale_x": 1.0
+   "spacing": -0.094,
+   "scale_x": 0.988,
+   "fit_iou": 0.687
   },
   {
    "type": "text",
    "text": "すべきこと",
-   "x": 1265,
-   "y": 535,
+   "x": 1272,
+   "y": 508,
    "anchor": "rt",
    "box": [
     535,
@@ -176,17 +179,18 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 170,
+   "size": 187.33,
    "color": "#fdfdfd",
    "shadow": "3px 3px 8px rgba(0,0,0,.4)",
-   "spacing": -0.05,
-   "scale_x": 1.0
+   "spacing": -0.196,
+   "scale_x": 1,
+   "fit_iou": 0.625
   },
   {
    "type": "text",
    "text": "低身長ディレクターが解説する",
-   "x": 1270,
-   "y": 460,
+   "x": 1272,
+   "y": 450,
    "anchor": "rt",
    "box": [
     560,
@@ -196,7 +200,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 52,
+   "size": 60.93,
    "color": "#f6ea1b",
    "strokes": [
     [
@@ -204,9 +208,9 @@
      "#0f0c0a"
     ]
    ],
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.17,
+   "scale_x": 1.004,
+   "fit_iou": 0.574
   }
- ],
- "grow": 17
+ ]
 }

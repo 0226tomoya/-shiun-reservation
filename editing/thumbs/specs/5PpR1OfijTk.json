@@ -291,13 +291,13 @@
   {
    "type": "text",
    "text": "低身長",
-   "x": 30,
-   "y": 15,
+   "x": 26.0,
+   "y": 9.5,
    "vertical": true,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 225,
-   "scale_x": 0.5,
+   "size": 235.21,
+   "scale_x": 0.573,
    "color": "#b0b0af",
    "line": 1.0,
    "tol": 18,
@@ -306,7 +306,10 @@
     15,
     120,
     700
-   ]
+   ],
+   "spacing": -0.008,
+   "rotate": 0.15,
+   "fit_iou": 0.58
   },
   {
    "type": "text",
@@ -338,11 +341,11 @@
      "weight": 700
     }
    ],
-   "x": 125,
-   "y": 0,
+   "x": 107.0,
+   "y": -20.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 90,
+   "size": 111.484,
    "color": "#141414",
    "spacing": -0.03,
    "tol": 40,
@@ -351,7 +354,11 @@
     8,
     810,
     98
-   ]
+   ],
+   "scale_x": 0.831,
+   "rotate": 0.15,
+   "skew": -0.9,
+   "fit_iou": 0.502
   },
   {
    "type": "text",
@@ -387,47 +394,53 @@
   {
    "type": "text",
    "text": "に聞きたい",
-   "x": 590,
-   "y": 140,
+   "x": 582.5,
+   "y": 106.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 68,
+   "size": 96.933,
    "color": "#141414",
-   "spacing": -0.02,
+   "spacing": -0.012,
    "tol": 40,
    "box": [
     585,
     140,
     340,
     90
-   ]
+   ],
+   "scale_x": 0.694,
+   "fit_iou": 0.409
   },
   {
    "type": "text",
    "text": "50",
-   "x": 950,
-   "y": -25,
+   "x": 952.5,
+   "y": -46.0,
    "font": "Inter",
    "weight": 900,
-   "size": 260,
+   "size": 287.144,
    "color": "#dc0202",
    "shadow": "7px 7px 0 #160808",
-   "spacing": -0.05,
+   "spacing": -0.02,
    "box": [
     945,
     2,
     320,
     235
-   ]
+   ],
+   "scale_x": 0.814,
+   "rotate": 1.2,
+   "skew": -1,
+   "fit_iou": 0.772
   },
   {
    "type": "text",
    "text": "の質問",
-   "x": 1028,
-   "y": 222,
+   "x": 1017.5,
+   "y": 231.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 50,
+   "size": 63.674,
    "color": "#141414",
    "tol": 40,
    "box": [
@@ -435,7 +448,11 @@
     228,
     170,
     70
-   ]
+   ],
+   "scale_x": 0.818,
+   "spacing": -0.006,
+   "skew": 4,
+   "fit_iou": 0.471
   },
   {
    "type": "text",
@@ -455,20 +472,24 @@
      "size": 24
     }
    ],
-   "x": 728,
-   "y": 245,
+   "x": 723.5,
+   "y": 245.0,
    "font": "Inter",
    "weight": 900,
-   "size": 40,
+   "size": 47.139,
    "color": "#141414",
-   "spacing": -0.02,
+   "spacing": -0.022,
    "tol": 40,
    "box": [
     720,
     248,
     275,
     48
-   ]
+   ],
+   "scale_x": 0.945,
+   "skew": 2.9,
+   "rotate": 0.15,
+   "fit_iou": 0.571
   },
   {
    "type": "text",
@@ -484,29 +505,33 @@
   {
    "type": "text",
    "text": "名前は？ 年齢は？ 出身は？ 職業・肩書きは？",
-   "x": 15,
-   "y": 298,
+   "x": -25.5,
+   "y": 295.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 38.068,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.042,
    "tol": 70,
    "box": [
     7,
     300,
     561,
     48
-   ]
+   ],
+   "scale_x": 0.684,
+   "skew": 3,
+   "rotate": 0.5,
+   "fit_iou": 0.119
   },
   {
    "type": "text",
    "text": "初投稿のテーマは？ 好きな休みの過ごし方は？",
-   "x": 35,
-   "y": 353,
+   "x": 10.0,
+   "y": 348.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 37.52,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -515,52 +540,61 @@
     355,
     558,
     48
-   ]
+   ],
+   "scale_x": 0.665,
+   "fit_iou": 0.116
   },
   {
    "type": "text",
    "text": "“低身長×モテ”のマイルールを3つ挙げるなら？",
-   "x": 45,
-   "y": 403,
+   "x": 18.5,
+   "y": 402.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 47.62,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.02,
    "tol": 70,
    "box": [
     37,
     405,
     552,
     48
-   ]
+   ],
+   "scale_x": 0.571,
+   "skew": 1,
+   "fit_iou": 0.069
   },
   {
    "type": "text",
    "text": "ロゴ/柄物を選ぶ時の判断ポイントは？",
-   "x": 30,
-   "y": 458,
+   "x": 24.5,
+   "y": 456.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 50.44,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.034,
    "tol": 70,
    "box": [
     22,
     460,
     478,
     48
-   ]
+   ],
+   "scale_x": 0.519,
+   "rotate": -1.5,
+   "skew": -3,
+   "fit_iou": 0.123
   },
   {
    "type": "text",
    "text": "10万円あったら何に使う？ 最近買った",
-   "x": 15,
-   "y": 513,
+   "x": 12.5,
+   "y": 504.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 53.95,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -569,34 +603,42 @@
     515,
     461,
     48
-   ]
+   ],
+   "scale_x": 0.468,
+   "skew": -1.7,
+   "rotate": 0.15,
+   "fit_iou": 0.076
   },
   {
    "type": "text",
    "text": "低身長と向き合った最初の一歩は？",
-   "x": 30,
-   "y": 563,
+   "x": 36.5,
+   "y": 553.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 48.682,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.038,
    "tol": 70,
    "box": [
     22,
     565,
     432,
     48
-   ]
+   ],
+   "scale_x": 0.53,
+   "skew": 1,
+   "rotate": 0.3,
+   "fit_iou": 0.111
   },
   {
    "type": "text",
    "text": "伸びるサムネ/タ",
-   "x": 65,
-   "y": 615,
+   "x": 71.5,
+   "y": 606.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 51.312,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -605,88 +647,104 @@
     617,
     223,
     48
-   ]
+   ],
+   "scale_x": 0.528,
+   "rotate": -1.5,
+   "fit_iou": 0.082
   },
   {
    "type": "text",
    "text": "低身長にオススメのアウターは",
-   "x": 60,
-   "y": 668,
+   "x": 75.0,
+   "y": 664.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 36.048,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.034,
    "tol": 70,
    "box": [
     52,
     670,
     366,
     48
-   ]
+   ],
+   "scale_x": 0.656,
+   "skew": 3,
+   "fit_iou": 0.117
   },
   {
    "type": "text",
    "text": "開設はいつ？ チャンネルの一言コンセプトは？",
-   "x": 740,
-   "y": 298,
+   "x": 725.5,
+   "y": 298.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 34.0,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.06,
    "tol": 70,
    "box": [
     732,
     300,
     543,
     48
-   ]
+   ],
+   "scale_x": 0.826,
+   "skew": 1,
+   "fit_iou": 0.088
   },
   {
    "type": "text",
    "text": "好き・嫌いな食べ物は？ よく買うショップ/ECは？",
-   "x": 720,
-   "y": 353,
+   "x": 716.5,
+   "y": 351.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 34.468,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.038,
    "tol": 70,
    "box": [
     712,
     355,
     563,
     48
-   ]
+   ],
+   "scale_x": 0.906,
+   "skew": 9.6,
+   "rotate": 0.15,
+   "fit_iou": 0.104
   },
   {
    "type": "text",
    "text": "朝型？夜型？ 似合う色の見つけ方は？",
-   "x": 740,
-   "y": 403,
+   "x": 735.0,
+   "y": 398.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 50.41,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.038,
    "tol": 70,
    "box": [
     732,
     405,
     543,
     48
-   ]
+   ],
+   "scale_x": 0.492,
+   "rotate": 0.15,
+   "fit_iou": 0.123
   },
   {
    "type": "text",
    "text": "厚底・インソールを自然に使うコツは？",
-   "x": 780,
-   "y": 458,
+   "x": 768.5,
+   "y": 452.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 52.76,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -695,16 +753,20 @@
     460,
     485,
     48
-   ]
+   ],
+   "scale_x": 0.494,
+   "rotate": -1.0,
+   "skew": -0.3,
+   "fit_iou": 0.078
   },
   {
    "type": "text",
    "text": "神アイテムは？ 好きなブランドは？",
-   "x": 830,
-   "y": 513,
+   "x": 828.0,
+   "y": 512.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 32.699,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -713,34 +775,41 @@
     515,
     453,
     48
-   ]
+   ],
+   "scale_x": 0.674,
+   "skew": 6,
+   "fit_iou": 0.152
   },
   {
    "type": "text",
    "text": "企画の出し方・ネタ探しの方法は？",
-   "x": 840,
-   "y": 563,
+   "x": 828.5,
+   "y": 560.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 51.314,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.034,
    "tol": 70,
    "box": [
     832,
     565,
     443,
     48
-   ]
+   ],
+   "scale_x": 0.503,
+   "skew": 3,
+   "rotate": -0.5,
+   "fit_iou": 0.091
   },
   {
    "type": "text",
    "text": "画から学んだことは？",
-   "x": 1015,
-   "y": 615,
+   "x": 998.5,
+   "y": 606.0,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 49.89,
    "color": "#202020",
    "spacing": 0.04,
    "tol": 70,
@@ -749,25 +818,30 @@
     617,
     267,
     48
-   ]
+   ],
+   "scale_x": 0.656,
+   "fit_iou": 0.077
   },
   {
    "type": "text",
    "text": "できる“+1cm見え”の一歩は？",
-   "x": 915,
-   "y": 668,
+   "x": 898.5,
+   "y": 663.5,
    "font": "Yomogi",
    "weight": 400,
-   "size": 34,
+   "size": 34.578,
    "color": "#202020",
-   "spacing": 0.04,
+   "spacing": 0.06,
    "tol": 70,
    "box": [
     907,
     670,
     368,
     48
-   ]
+   ],
+   "scale_x": 0.803,
+   "skew": -1,
+   "fit_iou": 0.113
   }
  ]
 }

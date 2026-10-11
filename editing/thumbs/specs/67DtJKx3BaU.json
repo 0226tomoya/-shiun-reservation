@@ -42,4 +42,63 @@
   {
    "type": "text",
    "text": "shiun",
-   "x": 
+   "x": 14,
+   "y": 8,
+   "box": [
+    10,
+    10,
+    118,
+    40
+   ],
+   "font": "Libre Baskerville",
+   "weight": 700,
+   "size": 42.46,
+   "color": "#232323",
+   "spacing": -0.08,
+   "scale_x": 0.988,
+   "fit_iou": 0.667
+  },
+  {
+   "type": "text",
+   "text": "25 Winter 2nd Collection",
+   "x": 1264,
+   "y": 12,
+   "anchor": "rt",
+   "box": [
+    920,
+    8,
+    352,
+    48
+   ],
+   "font": "Playfair Display",
+   "weight": 700,
+   "size": 36.1,
+   "color": "#232323",
+   "spacing": -0.086,
+   "scale_x": 1,
+   "fit_iou": 0.434
+  },
+  {
+   "type": "text",
+   "text": "低身長、終了のお知らせ",
+   "x": 645,
+   "y": 305,
+   "anchor": "ct",
+   "box": [
+    160,
+    315,
+    960,
+    90
+   ],
+   "font": "Shippori Mincho",
+   "weight": 400,
+   "size": 89.69,
+   "color": "#eff1f1",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "spacing": -0.014,
+   "nokana": true,
+   "scale_x": 1,
+   "fit_iou": 0.223
+  }
+ ]
+}

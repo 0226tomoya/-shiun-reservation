@@ -35,7 +35,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 22
+   "tol": 9
   },
   {
    "rect": [
@@ -47,7 +47,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 22
+   "tol": 9
   },
   {
    "rect": [
@@ -59,7 +59,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 25
+   "tol": 9
   }
  ],
  "layers": [
@@ -74,12 +74,12 @@
   {
    "type": "text",
    "text": "26 Spring 3rd Collection",
-   "x": 936.5,
+   "x": 935.5,
    "y": 7.0,
    "font": "PlayfairDisplay",
    "weight": 700,
    "size": 50.53,
-   "scale_x": 0.586,
+   "scale_x": 0.588,
    "color": "#ffffff",
    "box": [
     932,
@@ -89,8 +89,8 @@
    ],
    "tol": 25,
    "skew": 0.7,
-   "rotate": 0.15,
-   "fit_iou": 0.438
+   "rotate": 0.0,
+   "fit_iou": 0.404
   },
   {
    "type": "text",
@@ -108,63 +108,184 @@
     1206,
     46
    ],
-   "tol": 22,
+   "tol": 9,
    "scale_x": 0.817,
    "skew": -1,
-   "fit_iou": 0.281
+   "fit_iou": 0.261,
+   "spacing": 0,
+   "rotate": 0
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "低身長"
-    },
-    {
-     "text": "を",
-     "size": 110
-    },
-    {
-     "text": "武器"
-    },
-    {
-     "text": "に",
-     "size": 110
-    },
-    {
-     "text": "変える服"
-    }
-   ],
-   "x": 34.5,
-   "y": 307.5,
+   "text": "低身長",
+   "x": 36.5,
+   "y": 458.0,
+   "anchor": "lb",
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 143.58,
+   "size": 141.571,
+   "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.4)",
-   "lock": [
-    "size"
-   ],
    "box": [
-    32,
+    35,
     324,
-    1214,
-    146
+    371,
+    143
    ],
-   "tol": 22,
-   "scale_x": 0.862,
-   "spacing": 0.014,
+   "tol": 9,
+   "scale_x": 0.873,
+   "rotate": -0.15,
+   "fit_iou": 0.455
+  },
+  {
+   "type": "text",
+   "text": "を",
+   "x": 389.0,
+   "y": 455.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 112.433,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    404,
+    353,
+    86,
+    103
+   ],
+   "tol": 9,
+   "scale_x": 1.027,
+   "skew": 1,
+   "fit_iou": 0.503
+  },
+  {
+   "type": "text",
+   "text": "武器",
+   "x": 486.0,
+   "y": 459.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 134.383,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    487,
+    330,
+    248,
+    133
+   ],
+   "tol": 9,
+   "scale_x": 0.943,
+   "spacing": -0.014,
+   "skew": 3,
    "rotate": 0.15,
-   "fit_iou": 0.275
+   "fit_iou": 0.491
+  },
+  {
+   "type": "text",
+   "text": "に",
+   "x": 723.0,
+   "y": 460.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 117.888,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    737,
+    359,
+    87,
+    95
+   ],
+   "tol": 9,
+   "scale_x": 0.978,
+   "fit_iou": 0.627
+  },
+  {
+   "type": "text",
+   "text": "変",
+   "x": 826.0,
+   "y": 456.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 129.667,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    827,
+    328,
+    118,
+    135
+   ],
+   "tol": 9,
+   "scale_x": 0.895,
+   "skew": -0.3,
+   "fit_iou": 0.546
+  },
+  {
+   "type": "text",
+   "text": "える",
+   "x": 939.5,
+   "y": 450.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 109.66,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    947,
+    354,
+    166,
+    101
+   ],
+   "tol": 9,
+   "scale_x": 0.876,
+   "spacing": -0.142,
+   "skew": -3,
+   "fit_iou": 0.45
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 1110.5,
+   "y": 452.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 128.93,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    1118,
+    333,
+    125,
+    130
+   ],
+   "tol": 9,
+   "scale_x": 0.986,
+   "fit_iou": 0.637
   },
   {
    "type": "text",
    "text": "March 28th Sat. 10pm - Release",
-   "x": 513.0,
-   "y": 470.0,
+   "x": 515.0,
+   "y": 473.0,
    "font": "PlayfairDisplay",
    "weight": 700,
-   "size": 31.961,
-   "scale_x": 0.562,
+   "size": 29.83,
+   "scale_x": 0.583,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.4)",
    "box": [
@@ -173,10 +294,10 @@
     264,
     42
    ],
-   "tol": 25,
-   "rotate": -0.3,
-   "skew": -0.3,
-   "fit_iou": 0.332
+   "tol": 9,
+   "rotate": -0.15,
+   "skew": 2.7,
+   "fit_iou": 0.363
   }
  ]
 }

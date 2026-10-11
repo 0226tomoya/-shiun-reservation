@@ -1,0 +1,169 @@
+{
+ "id": "a4rzjSOiZAg",
+ "erase": [
+  {
+   "rect": [
+    5,
+    10,
+    213,
+    214
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    840,
+    10,
+    440,
+    103
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    838,
+    112,
+    436,
+    120
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    5,
+    390,
+    450,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    445,
+    1280,
+    275
+   ],
+   "colors": [
+    "#fcf5ee"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square_a4rz.png",
+   "x": 7,
+   "y": 12,
+   "w": 209,
+   "h": 210
+  },
+  {
+   "type": "rect",
+   "x": 842,
+   "y": 12,
+   "w": 438,
+   "h": 99,
+   "fill": "#f6f1ec"
+  },
+  {
+   "type": "text",
+   "text": "MUJI Labo",
+   "x": 851.5,
+   "y": 7.5,
+   "font": "Inter",
+   "weight": 900,
+   "size": 105.539,
+   "line": 1.0,
+   "color": "#000000",
+   "tol": 40,
+   "box": [
+    845,
+    15,
+    430,
+    95
+   ],
+   "scale_x": 0.783,
+   "skew": 5.6,
+   "spacing": -0.008,
+   "rotate": -0.15,
+   "fit_iou": 0.661
+  },
+  {
+   "type": "text",
+   "text": "秋冬展示会",
+   "x": 835.5,
+   "y": 114.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 115.555,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "tol": 14,
+   "scale_x": 0.845,
+   "spacing": -0.026,
+   "rotate": 0.5,
+   "skew": 1,
+   "fit_iou": 0.449,
+   "box": [
+    838,
+    112,
+    436,
+    120
+   ]
+  },
+  {
+   "type": "text",
+   "text": "2025 Autumn&Winter",
+   "x": 10,
+   "y": 396,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 58,
+   "color": "#ffffff",
+   "tol": 30,
+   "scale_x": 0.79,
+   "rotate": 0,
+   "skew": 0,
+   "fit_iou": 0.075,
+   "spacing": 0,
+   "box": [
+    5,
+    390,
+    452,
+    62
+   ]
+  },
+  {
+   "type": "text",
+   "text": "新作見せます",
+   "x": -11.5,
+   "y": 437.5,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 265.315,
+   "line": 1.0,
+   "color": "#fcf5ee",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "tol": 16,
+   "scale_x": 0.841,
+   "spacing": -0.022,
+   "skew": 7.3,
+   "fit_iou": 0.59,
+   "box": [
+    0,
+    450,
+    1280,
+    265
+   ]
+  }
+ ]
+}

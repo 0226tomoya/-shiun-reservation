@@ -93,8 +93,8 @@
   {
    "type": "text",
    "text": "低身長にオススメの〇〇",
-   "x": 800,
-   "y": 35,
+   "x": 827,
+   "y": 22,
    "box": [
     800,
     25,
@@ -103,16 +103,18 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 40,
+   "size": 39.41,
    "color": "#5a5556",
-   "scale_x": 1.0,
-   "rotate": -3
+   "scale_x": 1.084,
+   "rotate": 4.8,
+   "spacing": -0.41,
+   "fit_iou": 0.305
   },
   {
    "type": "text",
    "text": "2025年秋冬",
-   "x": 1258,
-   "y": 462,
+   "x": 1268,
+   "y": 450,
    "anchor": "rt",
    "box": [
     915,
@@ -122,7 +124,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 58,
+   "size": 65.64,
    "color": "#fbfbfa",
    "strokes": [
     [
@@ -130,14 +132,14 @@
      "#0d133a"
     ]
    ],
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.038,
+   "scale_x": 0.996,
+   "fit_iou": 0.711
   },
   {
    "type": "text",
-   "text": "新作レビュー",
-   "x": 640,
-   "y": 470,
+   "x": 625,
+   "y": 420,
    "anchor": "ct",
    "box": [
     10,
@@ -147,11 +149,21 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 225,
+   "size": 265.54,
    "color": "#fefefe",
    "shadow": "3px 3px 10px rgba(0,0,0,.4)",
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.128,
+   "scale_x": 0.996,
+   "runs": [
+    {
+     "text": "新作"
+    },
+    {
+     "text": "レビュー",
+     "size": 232.93
+    }
+   ],
+   "fit_iou": 0.586
   }
  ],
  "grow": 17

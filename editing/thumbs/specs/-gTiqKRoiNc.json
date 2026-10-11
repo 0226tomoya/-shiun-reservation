@@ -1,5 +1,6 @@
 {
  "id": "-gTiqKRoiNc",
+ "grow": 17,
  "erase": [
   {
    "rect": [
@@ -107,8 +108,8 @@
   {
    "type": "text",
    "text": "アパレルディ",
-   "x": 405,
-   "y": 28,
+   "x": 399,
+   "y": 9,
    "box": [
     400,
     25,
@@ -117,7 +118,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 62,
+   "size": 71.92,
    "color": "#f7e513",
    "strokes": [
     [
@@ -125,14 +126,15 @@
      "#362c1d"
     ]
    ],
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.11,
+   "scale_x": 1,
+   "fit_iou": 0.683
   },
   {
    "type": "text",
    "text": "クターが厳選",
-   "x": 1258,
-   "y": 28,
+   "x": 1257,
+   "y": 10,
    "anchor": "rt",
    "box": [
     780,
@@ -142,7 +144,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 62,
+   "size": 71.75,
    "color": "#f7e513",
    "strokes": [
     [
@@ -150,14 +152,15 @@
      "#362c1d"
     ]
    ],
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.02,
+   "scale_x": 1.012,
+   "fit_iou": 0.609
   },
   {
    "type": "text",
    "text": "これは最強!!",
-   "x": 75,
-   "y": 250,
+   "x": 128,
+   "y": 268,
    "box": [
     70,
     248,
@@ -166,16 +169,19 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 30,
+   "size": 36.13,
    "color": "#2a2a30",
-   "scale_x": 1.0,
-   "rotate": -3
+   "rotate": -3.25,
+   "nokana": true,
+   "spacing": -0.22,
+   "scale_x": 0.96,
+   "fit_iou": 0.373
   },
   {
    "type": "text",
    "text": "〇〇は冬のマストアイテム",
-   "x": 930,
-   "y": 232,
+   "x": 905,
+   "y": 226,
    "box": [
     925,
     228,
@@ -184,16 +190,19 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 28,
+   "size": 37.98,
    "color": "#2a2a30",
-   "scale_x": 1.0,
-   "rotate": 5
+   "rotate": 3.55,
+   "nokana": true,
+   "spacing": -0.28,
+   "scale_x": 0.988,
+   "fit_iou": 0.189
   },
   {
    "type": "text",
    "text": "ユニクロ 2025秋冬",
-   "x": 25,
-   "y": 330,
+   "x": -13,
+   "y": 302,
    "box": [
     20,
     325,
@@ -202,7 +211,7 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 90,
+   "size": 106.83,
    "color": "#fcfcfb",
    "strokes": [
     [
@@ -210,14 +219,15 @@
      "#151311"
     ]
    ],
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.018,
+   "scale_x": 0.996,
+   "fit_iou": 0.528
   },
   {
    "type": "text",
    "text": "BEST",
-   "x": 20,
-   "y": 420,
+   "x": 18,
+   "y": 357,
    "box": [
     25,
     425,
@@ -226,17 +236,18 @@
    ],
    "font": "Inter",
    "weight": 900,
-   "size": 360,
+   "size": 381.5,
    "color": "#fefefe",
    "shadow": "3px 3px 8px rgba(0,0,0,.3)",
-   "spacing": -0.05,
-   "scale_x": 1.0
+   "spacing": -0.048,
+   "scale_x": 1,
+   "fit_iou": 0.721
   },
   {
    "type": "text",
    "text": "3",
-   "x": 920,
-   "y": 260,
+   "x": 892,
+   "y": 173,
    "box": [
     915,
     270,
@@ -245,11 +256,12 @@
    ],
    "font": "Inter",
    "weight": 900,
-   "size": 540,
+   "size": 585.77,
    "color": "#fefefe",
    "shadow": "3px 3px 8px rgba(0,0,0,.3)",
-   "scale_x": 1.0
+   "spacing": 0,
+   "scale_x": 1,
+   "fit_iou": 0.672
   }
- ],
- "grow": 17
+ ]
 }

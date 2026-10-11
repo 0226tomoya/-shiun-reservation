@@ -21,6 +21,8 @@
           "border":[4,"#fff"], "skew":0}
   image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1}
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
+  "hollow": true で中を塗らない縁だけの文字（strokes の 1 つ目の太さ・色が線）
+  erase の要素 {"rect":[..],"by":"layers"} は、色ではなく描いた文字の形で消す（白文字の範囲の白い服を守る。ただし形がずれると元の文字が残る）
   （runs の各要素は size_em で行の size に対する倍率も書ける）
 "front": [[[x,y],...], ...]   # 文字より前にある人物などの多角形。中は元の画素をそのまま上に戻す
 背景 = 元のサムネから erase の範囲と描いたレイヤーの範囲を消して埋めたもの（cv2.inpaint）。人物・写真は元のまま。
@@ -47,12 +49,18 @@ _FONT_CACHE = {}
 def font_css(families):
     """使うファミリーだけ、全ウェイトを data URI で埋め込む（file:// は読まれないため）。"""
     out = []
+    have = {}
     for fn in sorted(os.listdir(FONT_DIR)):
-        if not fn.endswith('.ttf'):
-            continue
+        if fn.endswith('.ttf'):
+            name, w = fn[:-4].rsplit('-', 1)
+            have.setdefault(name, []).append(int(w))
+    want = set()
+    for name, w in families:
+        ws = have.get(name)
+        if ws:  # その太さが無ければ一番近い太さ
+            want.add(f"{name}-{min(ws, key=lambda x: abs(x - w))}.ttf")
+    for fn in sorted(want):
         name, w = fn[:-4].rsplit('-', 1)
-        if name not in families:
-            continue
         if fn not in _FONT_CACHE:
             _FONT_CACHE[fn] = base64.b64encode(open(os.path.join(FONT_DIR, fn), 'rb').read()).decode()
         out.append(f"@font-face{{font-family:'{name}';font-weight:{w};src:url(data:font/ttf;base64,{_FONT_CACHE[fn]}) format('truetype');}}")
@@ -60,13 +68,15 @@ def font_css(families):
 
 
 def families_of(spec):
+    """使う (ファミリー, 太さ) だけ（全ウェイトを埋め込むとブラウザが落ちることがある）。"""
     f = set()
     for L in spec.get('layers', []):
         if L.get('type') == 'text':
-            f.add(L.get('font', 'Noto Sans JP').replace(' ', ''))
+            fam_ = L.get('font', 'Noto Sans JP').replace(' ', '')
+            w = int(L.get('weight', 900))
+            f.add((fam_, w))
             for r in L.get('runs') or []:
-                if r.get('font'):
-                    f.add(r['font'].replace(' ', ''))
+                f.add(((r.get('font') or fam_).replace(' ', ''), int(r.get('weight', w))))
     return f
 
 
@@ -90,7 +100,7 @@ def text_html(L, i):
     def content(color_css):
         if L.get('runs'):
             s = ''
-            for r in L['runs']:
+            for k_, r in enumerate(L['runs']):
                 st = ''
                 if r.get('size_em'):
                     st += f"font-size:{r['size_em']}em;"
@@ -101,11 +111,12 @@ def text_html(L, i):
                 if r.get('weight'):
                     st += f"font-weight:{r['weight']};"
                 if color_css is None:
-                    if r.get('fill'):
+                    if r.get('fill') or (L.get('fill') and not r.get('color')):
+                        r = dict(r, fill=r.get('fill') or L.get('fill'))
                         st += f"background:{r['fill']};-webkit-background-clip:text;color:transparent;"
                     else:
                         st += f"color:{r.get('color', L.get('color', '#fff'))};"
-                s += f"<span style=\"{st}\">{esc(r['text'])}</span>"
+                s += f"<span data-k=\"{k_}\" style=\"{st}\">{esc(r['text'])}</span>"
             return s
         return esc(L.get('text', ''))
 
@@ -129,7 +140,11 @@ def text_html(L, i):
     for w, c in sw:
         acc += w
         widths.append((acc, c))
+    hollow = L.get('hollow')
     for w, c in reversed(widths):
+        if hollow:  # 中を塗らない縁だけの文字（「？」の線画など）: 縁の太さ w をそのまま線の太さに
+            layers += (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;-webkit-text-stroke:{w}px {c};\">{content('transparent')}</div>")
+            continue
         layers += (f"<div style=\"{base}position:absolute;left:0;top:0;color:{c};-webkit-text-stroke:{2 * w}px {c};"
                    f"paint-order:stroke fill;\">{content(c)}</div>")
     if L.get('shadow') and not sw:
@@ -140,7 +155,9 @@ def text_html(L, i):
         # 影は一番外側の縁取りに付ける
         layers = layers.replace('paint-order:stroke fill;', f"paint-order:stroke fill;filter:drop-shadow({L['shadow']});", 1)
     fill = L.get('fill')
-    if fill and not L.get('runs'):
+    if hollow:
+        top = f"<div style=\"{base}position:relative;color:transparent;\">{content('transparent')}</div>"
+    elif fill and not L.get('runs'):
         under = (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;{sh}\">{content('transparent')}</div>" if sh else '')
         top = under + f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;\">{content(None)}</div>"
     else:
@@ -244,7 +261,7 @@ def layer_colors(spec):
     return out
 
 
-def erase_mask(spec, orig):
+def erase_mask(spec, orig, alpha=None):
     mask = np.zeros((H, W), np.uint8)
     raw = np.zeros((H, W), bool)  # 元の文字の画素（広げる前）＝形の一致を見る相手
     lab = cv2.cvtColor(orig, cv2.COLOR_BGR2LAB).astype(np.float32)
@@ -259,6 +276,12 @@ def erase_mask(spec, orig):
             x, y, w, h = e
             full, cols, tol = False, default_cols, 28
         x, y, w, h = int(max(0, x)), int(max(0, y)), int(w), int(h)
+        if isinstance(e, dict) and e.get('by') == 'layers' and alpha is not None:
+            a = (alpha[y:y + h, x:x + w] > 8).astype(np.uint8) * 255
+            g = int(e.get('grow', spec.get('grow', 11)))
+            mask[y:y + h, x:x + w] = np.maximum(mask[y:y + h, x:x + w], cv2.dilate(a, np.ones((g, g), np.uint8)))
+            raw[y:y + h, x:x + w] |= alpha[y:y + h, x:x + w] > 128
+            continue
         if full or not cols:
             cv2.rectangle(mask, (x, y), (x + w, y + h), 255, -1)
             raw[y:y + h, x:x + w] = True
@@ -277,7 +300,7 @@ def erase_mask(spec, orig):
 
 
 def compose(spec, orig_bgr, rgba):
-    mask = erase_mask(spec, orig_bgr)
+    mask = erase_mask(spec, orig_bgr, rgba[:, :, 3])
     alpha = rgba[:, :, 3]
     drawn = cv2.dilate((alpha > 8).astype(np.uint8) * 255, np.ones((5, 5), np.uint8))
     mask = cv2.bitwise_or(mask, drawn)

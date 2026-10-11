@@ -93,7 +93,7 @@
    "x": 17,
    "y": 18,
    "w": 1247,
-   "h": 720,
+   "h": 685,
    "fill": "transparent",
    "border": [
     3,
@@ -135,13 +135,12 @@
   },
   {
    "type": "text",
-   "text": "2026年",
-   "x": 305.0,
-   "y": 433.0,
+   "x": 296,
+   "y": 432,
    "anchor": "lb",
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 71.613,
+   "size": 76,
    "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
@@ -152,10 +151,24 @@
     77
    ],
    "tol": 25,
-   "scale_x": 0.999,
-   "rotate": 2.15,
-   "skew": 9,
-   "fit_iou": 0.445
+   "scale_x": 1.039,
+   "rotate": 0.65,
+   "skew": 3.4,
+   "fit_iou": 0.659,
+   "runs": [
+    {
+     "text": "2026"
+    },
+    {
+     "text": "年",
+     "size": 48
+    }
+   ],
+   "lock": [
+    "size"
+   ],
+   "no_init": true,
+   "spacing": -0.022
   },
   {
    "type": "text",
@@ -253,13 +266,13 @@
   {
    "type": "text",
    "text": "大人男性必見",
-   "x": 1164.5,
-   "y": 54.0,
+   "x": 1165,
+   "y": 46,
    "anchor": "ct",
    "vertical": true,
    "font": "ZenKurenaido",
    "weight": 400,
-   "size": 67.5,
+   "size": 64,
    "color": "#ffffff",
    "strokes": [
     [
@@ -275,10 +288,11 @@
     420
    ],
    "tol": 30,
-   "scale_x": 0.901,
-   "spacing": -0.018,
-   "rotate": 1.15,
-   "fit_iou": 0.268
+   "scale_x": 1,
+   "spacing": 0,
+   "rotate": 0,
+   "fit_iou": 0.268,
+   "skew": 0
   }
  ]
 }

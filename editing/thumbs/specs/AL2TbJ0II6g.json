@@ -1,0 +1,159 @@
+{
+ "id": "AL2TbJ0II6g",
+ "erase": [
+  {
+   "rect": [
+    369,
+    8,
+    346,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1136,
+    8,
+    133,
+    280
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    305,
+    222,
+    325,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    365,
+    1268,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    0,
+    462,
+    1280,
+    258
+   ],
+   "colors": [
+    "#fce207"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_pair_black_al2t.png",
+   "x": 371,
+   "y": 10,
+   "w": 342,
+   "h": 153
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_vpair_al2t.png",
+   "x": 1138,
+   "y": 10,
+   "w": 129,
+   "h": 276
+  },
+  {
+   "type": "text",
+   "text": "即完間違いなし!!",
+   "x": 318,
+   "y": 271,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 40,
+   "rotate": -10,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "tol": 25,
+   "scale_x": 1.02,
+   "skew": 3.3,
+   "spacing": -0.004,
+   "fit_iou": 0.094,
+   "box": [
+    305,
+    222,
+    325,
+    90
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ユニクロU 25秋冬コレクション",
+   "x": 20,
+   "y": 358,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 92,
+   "skew": -8,
+   "line": 1.0,
+   "spacing": -0.032,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.7)",
+   "tol": 6,
+   "scale_x": 1.0,
+   "rotate": 0,
+   "fit_iou": 0.334,
+   "box": [
+    10,
+    365,
+    1268,
+    95
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "コレ"
+    },
+    {
+     "text": "は",
+     "size_em": 0.6
+    },
+    {
+     "text": "絶対買い"
+    }
+   ],
+   "x": 4,
+   "y": 452,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 250,
+   "skew": -6,
+   "line": 1.0,
+   "spacing": -0.05,
+   "color": "#fce207",
+   "shadow": "0 0 14px rgba(0,0,0,.7)",
+   "tol": 30,
+   "scale_x": 0.83,
+   "fit_iou": 0.424,
+   "box": [
+    0,
+    462,
+    1280,
+    258
+   ]
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 {
  "id": "Gbae2_a5beo",
+ "grow": 17,
  "erase": [
   {
    "rect": [
@@ -53,9 +54,8 @@
  "layers": [
   {
    "type": "text",
-   "text": "表参道で女性にインタビュー",
-   "x": 780,
-   "y": 25,
+   "x": 791,
+   "y": 2,
    "anchor": "ct",
    "box": [
     325,
@@ -65,11 +65,28 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 58,
+   "size": 78.94,
    "color": "#f7d23a",
    "shadow": "2px 2px 6px rgba(0,0,0,.6)",
-   "spacing": 0.08,
-   "scale_x": 1.0
+   "spacing": -0.02,
+   "runs": [
+    {
+     "text": "表参道"
+    },
+    {
+     "text": "で",
+     "size": 70.63
+    },
+    {
+     "text": "女性"
+    },
+    {
+     "text": "にインタビュー",
+     "size": 70.63
+    }
+   ],
+   "scale_x": 0.988,
+   "fit_iou": 0.588
   },
   {
    "type": "line",
@@ -110,8 +127,8 @@
   {
    "type": "text",
    "text": "164cm\nチビ",
-   "x": 640,
-   "y": 305,
+   "x": 613,
+   "y": 290,
    "anchor": "ct",
    "align": "center",
    "box": [
@@ -122,17 +139,19 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 82,
+   "size": 88.48,
    "line": 1.15,
    "color": "#fcfcfb",
    "shadow": "2px 2px 8px rgba(0,0,0,.6)",
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.11,
+   "nokana": true,
+   "scale_x": 1,
+   "fit_iou": 0.405
   },
   {
    "type": "text",
-   "x": 640,
-   "y": 520,
+   "x": 626,
+   "y": 507,
    "anchor": "ct",
    "box": [
     5,
@@ -142,24 +161,24 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 175,
+   "size": 176.44,
    "color": "#fdfdfd",
    "shadow": "3px 3px 10px rgba(0,0,0,.7)",
-   "spacing": -0.06,
+   "spacing": -0.168,
    "runs": [
     {
      "text": "「低身長"
     },
     {
      "text": "は",
-     "size": 110
+     "size": 116.45
     },
     {
      "text": "恋愛対象?」"
     }
    ],
-   "scale_x": 1.0
+   "scale_x": 1,
+   "fit_iou": 0.722
   }
- ],
- "grow": 17
+ ]
 }

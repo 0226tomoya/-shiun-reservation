@@ -1,0 +1,215 @@
+{
+ "id": "Xuc4-Vdn55A",
+ "erase": [
+  {
+   "rect": [
+    9,
+    3,
+    276,
+    125
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    504,
+    3,
+    272,
+    125
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    978,
+    3,
+    291,
+    125
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    340,
+    155,
+    95,
+    155
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    817,
+    160,
+    95,
+    155
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    62,
+    268,
+    94,
+    158
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    1107,
+    284,
+    94,
+    152
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    10,
+    450,
+    1265,
+    268
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_pair_black_xuc4.png",
+   "x": 11,
+   "y": 5,
+   "w": 272,
+   "h": 121
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_pair_xuc4.png",
+   "x": 506,
+   "y": 5,
+   "w": 268,
+   "h": 121
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_xuc4.png",
+   "x": 980,
+   "y": 5,
+   "w": 287,
+   "h": 121
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 339.0,
+   "y": 136.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 180.762,
+   "line": 1.0,
+   "color": "#ffffff",
+   "tol": 10,
+   "scale_x": 0.979,
+   "rotate": -1.5,
+   "skew": 0.3,
+   "fit_iou": 0.761
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 816.5,
+   "y": 141.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 180.762,
+   "line": 1.0,
+   "color": "#ffffff",
+   "tol": 10,
+   "scale_x": 0.971,
+   "rotate": -1.35,
+   "fit_iou": 0.76
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 61.0,
+   "y": 250.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 170.353,
+   "line": 1.0,
+   "color": "#ffffff",
+   "tol": 10,
+   "scale_x": 1.055,
+   "rotate": -1.0,
+   "skew": 1.9,
+   "fit_iou": 0.59
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 1106.0,
+   "y": 268.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 171.255,
+   "line": 1.0,
+   "color": "#ffffff",
+   "tol": 10,
+   "scale_x": 1.047,
+   "rotate": -1.5,
+   "fit_iou": 0.719
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "コレ買"
+    },
+    {
+     "text": "っ",
+     "size_em": 0.75
+    },
+    {
+     "text": "とけ"
+    }
+   ],
+   "x": 12,
+   "y": 430,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 282,
+   "line": 1.0,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.5)",
+   "tol": 6,
+   "scale_x": 0.8,
+   "fit_iou": 0.295,
+   "skew": 0,
+   "rotate": 0,
+   "box": [
+    5,
+    455,
+    1275,
+    262
+   ]
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "id": "ohQv2BKXdsw",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    14,
+    15,
+    1253,
+    6
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    699,
+    1253,
+    7
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    15,
+    6,
+    690
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1260,
+    15,
+    7,
+    690
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    825,
+    25,
+    415,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    150,
+    512,
+    980,
+    122
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    150,
+    642,
+    980,
+    48
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 16,
+   "y": 17,
+   "w": 577,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 674,
+   "y": 17,
+   "w": 591,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 16,
+   "y": 701,
+   "w": 594,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 737,
+   "y": 701,
+   "w": 528,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 16,
+   "y": 17,
+   "w": 3,
+   "h": 687,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1262,
+   "y": 17,
+   "w": 3,
+   "h": 687,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "2026 Spring & Summer",
+   "x": 1032,
+   "y": 75,
+   "anchor": "cc",
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 60,
+   "rotate": 9,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "tol": 25,
+   "scale_x": 1,
+   "fit_iou": 0.089,
+   "spacing": 0
+  },
+  {
+   "type": "text",
+   "text": "最近買ってよかったもの",
+   "x": 640,
+   "y": 573,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 100,
+   "color": "#ffffff",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 6,
+   "scale_x": 1,
+   "spacing": 0,
+   "fit_iou": 0.402
+  },
+  {
+   "type": "text",
+   "text": "AULAREE / barbell object / KANEMASA PHIL. / seya.",
+   "x": 640,
+   "y": 666,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 400,
+   "italic": true,
+   "size": 32,
+   "spacing": 0.12,
+   "color": "#ffffff",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "tol": 12,
+   "scale_x": 1,
+   "fit_iou": 0.2
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 {
  "id": "qu2ZJwMFgSk",
+ "grow": 17,
  "erase": [
   {
    "rect": [
@@ -105,8 +106,8 @@
   {
    "type": "text",
    "text": "10/31\n発売",
-   "x": 1148,
-   "y": 20,
+   "x": 1142,
+   "y": 3,
    "anchor": "ct",
    "align": "center",
    "box": [
@@ -117,18 +118,20 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 80,
+   "size": 90.39,
    "line": 1.15,
    "color": "#fcfbfa",
    "shadow": "2px 2px 8px rgba(0,0,0,.4)",
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.063,
+   "nokana": true,
+   "scale_x": 1.008,
+   "fit_iou": 0.793
   },
   {
    "type": "text",
    "text": "ぶっちゃけレビュー",
-   "x": 10,
-   "y": 200,
+   "x": 9,
+   "y": 187,
    "box": [
     5,
     195,
@@ -137,17 +140,18 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 82,
+   "size": 88.24,
    "color": "#fdfcfc",
    "shadow": "2px 2px 8px rgba(0,0,0,.5)",
-   "spacing": -0.04,
-   "scale_x": 1.0
+   "spacing": -0.058,
+   "scale_x": 1.016,
+   "fit_iou": 0.621
   },
   {
    "type": "text",
    "text": "最高",
-   "x": 40,
-   "y": 330,
+   "x": 9,
+   "y": 268,
    "box": [
     40,
     335,
@@ -156,17 +160,18 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 360,
+   "size": 394.81,
    "color": "#fffffe",
    "shadow": "2px 2px 10px rgba(0,0,0,.4)",
-   "spacing": -0.03,
-   "scale_x": 1.0
+   "spacing": -0.08,
+   "scale_x": 1.012,
+   "fit_iou": 0.808
   },
   {
    "type": "text",
    "text": "のルームウェア",
-   "x": 762,
-   "y": 630,
+   "x": 754,
+   "y": 605,
    "box": [
     755,
     625,
@@ -175,11 +180,11 @@
    ],
    "font": "Noto Sans JP",
    "weight": 300,
-   "size": 70,
+   "size": 85.7,
    "color": "#f6f6f6",
-   "spacing": -0.02,
-   "scale_x": 1.0
+   "spacing": -0.158,
+   "scale_x": 1,
+   "fit_iou": 0.35
   }
- ],
- "grow": 17
+ ]
 }

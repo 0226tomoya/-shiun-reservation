@@ -7,6 +7,7 @@
  2. 描いた形（不透明な部分）と外接矩形を合わせて大きさ・横の伸び・位置の初期値を出す
  3. 二つの形の重なり（IoU）が最大になるよう x, y, size, scale_x, spacing, rotate を座標ごとに詰める
 結果は SPEC.json に上書き（各レイヤーに "fit_iou" を書く）。
+"split": true の行は 1 行で合わせた後に 1 文字ずつのレイヤーに分ける（もう一度 fit.py を流すと 1 文字ずつ詰める）。
 縁取りの色が背景に紛れるときは、レイヤーに "fit_color": "#文字色" を書くとその色で合わせる。"lock": ["rotate",…] で動かさない値を指定。
 """
 import copy
@@ -60,6 +61,7 @@ def main():
         def alpha_of(L):
             return R.render_layers({'layers': [L]}, page, clip=clipbox[0])[:, :, 3] > 128
 
+        pending_split = []
         for i, L in enumerate(spec['layers']):
             if L['type'] != 'text' or (only and i not in only) or L.get('fixed'):
                 continue
@@ -137,7 +139,37 @@ def main():
             clipbox[0] = None
             L['fit_iou'] = round(float(best), 3)
             spec['layers'][i] = L
+            if L.get('split') and L.get('text') and len(L['text'].replace('\n', '')) > 1:
+                pending_split.append(i)
             print(f'レイヤー {i}「{(L.get("text") or "".join(r["text"] for r in L.get("runs", [])))[:12]}」 IoU {best:.3f}')
+        # "split": true の行は、1 行で合わせた後に 1 文字ずつのレイヤーに分け、大きさの初期化なし・横の伸び固定で詰め直す
+        for i in reversed(pending_split):
+            L = spec['layers'][i]
+            chars = [c for c in L['text'] if c != '\n']
+            L2 = copy.deepcopy(L)
+            L2['runs'] = [{'text': c} for c in chars]
+            L2.pop('text', None)
+            R.render_layers({'layers': [L2]}, page)
+            rects = page.evaluate("""() => [...document.querySelectorAll('#L0 > div:last-child span')].map(e => {
+                const r = e.getBoundingClientRect(); return [r.left, r.top, r.width, r.height]; })""")
+            blk = page.evaluate("() => { const r = document.querySelector('#L0 > div:last-child').getBoundingClientRect(); return [r.left, r.top]; }")
+            new = []
+            for c, (rx, ry, rw, rh) in zip(chars, rects):
+                C = {k: v for k, v in L.items() if k not in ('text', 'split', 'fit_iou', 'box')}
+                C.update({'text': c, 'anchor': 'lt', 'x': round(rx, 1), 'y': round(blk[1], 1), 'no_init': True,
+                          'lock': sorted(set(L.get('lock', [])) | {'scale_x', 'rotate', 'skew', 'spacing'}), 'spacing': 0})
+                new.append(C)
+            spec['layers'][i:i + 1] = new
+            for j in range(i, i + len(new)):
+                C = spec['layers'][j]
+                a = alpha_of(C)
+                ys, xs = np.where(a)
+                if not len(xs):
+                    continue
+                pad = 12
+                C['box'] = [int(xs.min() - pad), int(ys.min() - pad), int(xs.max() - xs.min() + 2 * pad), int(ys.max() - ys.min() + 2 * pad)]
+            json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
+            print(f'レイヤー {i} を {len(new)} 文字に分けた → もう一度 fit.py を実行して 1 文字ずつ詰める')
         b.close()
     json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
 
