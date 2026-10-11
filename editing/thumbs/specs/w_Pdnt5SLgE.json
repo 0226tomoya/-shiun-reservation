@@ -59,13 +59,13 @@
   {
    "type": "text",
    "text": "新作レビュー",
-   "x": 552.5,
-   "y": 340.5,
+   "x": 569.5,
+   "y": 322.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 135.3,
+   "size": 162.246,
    "color": "#ffffff",
-   "scale_x": 0.892,
+   "scale_x": 0.763,
    "strokes": [
     [
      3,
@@ -80,17 +80,21 @@
     165
    ],
    "fit_color": "#ffffff",
-   "tol": 15
+   "tol": 15,
+   "spacing": 0.004,
+   "rotate": 0.2,
+   "skew": -2.6,
+   "fit_iou": 0.619
   },
   {
    "type": "text",
-   "x": 9.5,
+   "x": 15.5,
    "y": 499.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 193.91,
+   "size": 192.581,
    "color": "#ffffff",
-   "scale_x": 0.88,
+   "scale_x": 0.879,
    "strokes": [
     [
      3,
@@ -117,19 +121,22 @@
     210
    ],
    "fit_color": "#ffffff",
-   "tol": 15
+   "tol": 15,
+   "spacing": 0.004,
+   "skew": 0.3,
+   "fit_iou": 0.577
   },
   {
    "type": "text",
    "text": "全部当たり‼",
-   "x": 1185,
-   "y": 20,
+   "x": 1162.0,
+   "y": 15.0,
    "font": "KleeOne",
    "weight": 600,
-   "size": 44,
+   "size": 63.834,
    "color": "#333333",
    "vertical": true,
-   "rotate": -8,
+   "rotate": -6.8,
    "line": 1.0,
    "box": [
     1165,
@@ -137,7 +144,11 @@
     110,
     370
    ],
-   "tol": 45
+   "tol": 45,
+   "scale_x": 1.323,
+   "spacing": -0.02,
+   "skew": 0.6,
+   "fit_iou": 0.064
   }
  ]
 }
