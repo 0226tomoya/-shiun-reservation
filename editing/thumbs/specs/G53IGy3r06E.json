@@ -102,12 +102,12 @@
   {
    "type": "text",
    "text": "低身長",
-   "x": 13,
-   "y": 490,
+   "x": 3.0,
+   "y": 491.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 180,
-   "spacing": 0,
+   "size": 207.7,
+   "spacing": -0.04,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -121,17 +121,18 @@
     205
    ],
    "tol": 14,
-   "scale_x": 1
+   "scale_x": 0.807,
+   "fit_iou": 0.581
   },
   {
    "type": "text",
    "text": "のための",
-   "x": 500,
-   "y": 565,
+   "x": 490.5,
+   "y": 568.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 110,
-   "spacing": 0,
+   "size": 134.45,
+   "spacing": -0.014,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -145,17 +146,18 @@
     125
    ],
    "tol": 14,
-   "scale_x": 1
+   "scale_x": 0.871,
+   "fit_iou": 0.548
   },
   {
    "type": "text",
    "text": "秋服",
-   "x": 955,
-   "y": 495,
+   "x": 925.5,
+   "y": 506.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 180,
-   "spacing": 0,
+   "size": 184.32,
+   "spacing": -0.006,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -169,7 +171,8 @@
     200
    ],
    "tol": 14,
-   "scale_x": 1
+   "scale_x": 0.986,
+   "fit_iou": 0.457
   }
  ]
 }

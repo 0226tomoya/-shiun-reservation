@@ -73,7 +73,7 @@
    "type": "text",
    "text": "絶対買い",
    "x": 1145,
-   "y": 4,
+   "y": 2,
    "anchor": "ct",
    "vertical": true,
    "font": "Shippori Mincho B1",
@@ -94,14 +94,20 @@
     720
    ],
    "no_init": true,
-   "scale_x": 1.012,
-   "fit_iou": 0.627
+   "scale_x": 0.992,
+   "fit_iou": 0.553,
+   "strokes": [
+    [
+     3,
+     "#fee618"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "大人が選ぶ",
-   "x": 945,
-   "y": 6,
+   "x": 945.5,
+   "y": 4.5,
    "anchor": "ct",
    "vertical": true,
    "font": "Shippori Mincho B1",
@@ -122,8 +128,14 @@
     600
    ],
    "no_init": true,
-   "scale_x": 1.052,
-   "fit_iou": 0.525
+   "scale_x": 0.988,
+   "fit_iou": 0.517,
+   "strokes": [
+    [
+     2.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -150,20 +162,26 @@
     648
    ],
    "no_init": true,
-   "scale_x": 0.876,
-   "fit_iou": 0.508
+   "scale_x": 0.828,
+   "fit_iou": 0.553,
+   "strokes": [
+    [
+     2.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "低身長男性必見",
    "x": 112,
-   "y": 222,
+   "y": 220,
    "anchor": "ct",
    "vertical": true,
-   "font": "Zen Kurenaido",
-   "weight": 400,
+   "font": "Klee One",
+   "weight": 600,
    "size": 71.712,
-   "spacing": -0.04,
+   "spacing": -0.042,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -178,7 +196,8 @@
     505
    ],
    "no_init": true,
-   "fit_iou": 0.214
+   "fit_iou": 0.226,
+   "scale_x": 0.96
   }
  ]
 }

@@ -1,11 +1,1 @@
-{"id":"IaUB63SN34c","grow":11,
-"erase":[{"rect":[8,8,268,269],"full":true},
- {"rect":[340,0,900,275],"colors":["#ffffff"],"tol":30},
- {"rect":[20,425,1260,295],"colors":["#ffffff"],"tol":30}],
-"front":[[[722,70],[745,15],[820,0],[895,25],[915,110],[880,190],[855,250],[770,255],[728,190]]],
-"layers":[
- {"type":"image","src":"assets/logos/uniqlo_red_square_iaub.png","x":12,"y":12,"w":260,"h":261},
- {"type":"text","text":"爆買い!!","x":781,"y":133,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":262,"spacing":-0.04,"color":"#ffffff","shadow":"0 0 12px rgba(0,0,0,.25)"},
- {"type":"text","text":"2024-25 Winter / Spring","x":997,"y":431,"anchor":"cc","font":"Caveat","weight":400,"size":56,"rotate":-14,"spacing":0.08,"color":"#ffffff"},
- {"type":"text","text":"マジで良い","x":655,"y":575,"anchor":"cc","font":"Noto Sans JP","weight":900,"size":285,"spacing":-0.06,"color":"#ffffff","shadow":"0 0 14px rgba(0,0,0,.3)"}
-]}
+{"id": "IaUB63SN34c", "grow": 11, "erase": [{"rect": [8, 8, 268, 269], "full": true}, {"rect": [340, 0, 900, 275], "colors": ["#ffffff"], "tol": 30}, {"rect": [20, 425, 1260, 295], "colors": ["#ffffff"], "tol": 30}, {"rect": [715, 340, 565, 165], "colors": ["#ffffff"], "tol": 40}], "front": [[[722, 70], [745, 15], [820, 0], [895, 25], [915, 110], [880, 190], [855, 250], [770, 255], [728, 190]]], "layers": [{"type": "image", "src": "assets/logos/uniqlo_red_square_iaub.png", "x": 12, "y": 12, "w": 260, "h": 261}, {"type": "text", "text": "爆買い!!", "x": 781, "y": 120, "anchor": "cc", "font": "Shippori Mincho B1", "weight": 800, "size": 262, "spacing": -0.07, "color": "#ffffff", "shadow": "0 0 12px rgba(0,0,0,.25)"}, {"type": "text", "text": "2024-25 Winter / Spring", "x": 997, "y": 431, "anchor": "cc", "font": "Caveat", "weight": 400, "size": 56, "rotate": -14, "spacing": 0.08, "color": "#ffffff"}, {"type": "text", "text": "マジで良い", "x": 650, "y": 566, "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "size": 266, "spacing": -0.05, "color": "#ffffff", "shadow": "0 0 14px rgba(0,0,0,.3)"}]}

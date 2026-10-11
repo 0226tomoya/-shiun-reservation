@@ -1,0 +1,75 @@
+{
+ "id": "-Jfkot5UbDI",
+ "erase": [
+  {
+   "rect": [
+    140,
+    350,
+    1020,
+    165
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    5,
+    515,
+    1270,
+    200
+   ],
+   "colors": [
+    "#1e1e1e"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "低身長が今買うと",
+   "x": 147.0,
+   "y": 328.0,
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "size": 176.873,
+   "color": "#1e1e1e",
+   "spacing": -0.034,
+   "line": 1.0,
+   "box": [
+    140,
+    350,
+    1020,
+    165
+   ],
+   "tol": 40,
+   "scale_x": 0.794,
+   "skew": -1,
+   "fit_iou": 0.337
+  },
+  {
+   "type": "text",
+   "text": "成功するメンズ服",
+   "x": 0.0,
+   "y": 493.0,
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "size": 206.27,
+   "color": "#1e1e1e",
+   "scale_x": 0.768,
+   "line": 1.0,
+   "box": [
+    5,
+    515,
+    1270,
+    200
+   ],
+   "tol": 40,
+   "spacing": -0.002,
+   "skew": 1.8,
+   "fit_iou": 0.274
+  }
+ ]
+}
