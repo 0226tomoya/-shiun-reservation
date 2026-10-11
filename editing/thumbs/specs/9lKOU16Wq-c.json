@@ -1,0 +1,223 @@
+{
+ "id": "9lKOU16Wq-c",
+ "erase": [
+  {
+   "rect": [
+    20,
+    112,
+    1245,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    200,
+    1060,
+    185
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    26,
+    407,
+    814,
+    8
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    28,
+    447,
+    650,
+    67
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    28,
+    526,
+    604,
+    67
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    28,
+    605,
+    410,
+    66
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "難しいアイテムもカッコよく着られるようになる",
+   "x": 26.0,
+   "y": 115.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 60.31,
+   "color": "#ffffff",
+   "spacing": 0.022,
+   "line": 1.0,
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "box": [
+    20,
+    112,
+    1245,
+    72
+   ],
+   "tol": 20,
+   "scale_x": 0.916,
+   "skew": 1.5,
+   "fit_iou": 0.595
+  },
+  {
+   "type": "text",
+   "x": 29.0,
+   "y": 199.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 169.41,
+   "color": "#ffffff",
+   "spacing": 0.05,
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "着こなし"
+    },
+    {
+     "text": "の",
+     "size_em": 0.6
+    },
+    {
+     "text": "コツ"
+    }
+   ],
+   "box": [
+    20,
+    200,
+    1060,
+    185
+   ],
+   "tol": 20,
+   "scale_x": 0.897,
+   "rotate": 0.15,
+   "fit_iou": 0.665
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": 409,
+   "w": 810,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": 447,
+   "w": 650,
+   "h": 67,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": 526,
+   "w": 604,
+   "h": 67,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 28,
+   "y": 605,
+   "w": 410,
+   "h": 66,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "オーバーサイズのジャケット",
+   "x": 37.0,
+   "y": 451.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 48.14,
+   "color": "#111111",
+   "spacing": 0.038,
+   "line": 1.2,
+   "box": [
+    30,
+    449,
+    646,
+    63
+   ],
+   "tol": 40,
+   "scale_x": 0.988,
+   "skew": 2,
+   "rotate": -0.15,
+   "fit_iou": 0.455
+  },
+  {
+   "type": "text",
+   "text": "春らしい明るい色のパンツ",
+   "x": 35.5,
+   "y": 525.5,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 51.706,
+   "color": "#111111",
+   "spacing": 0.04,
+   "line": 1.2,
+   "box": [
+    30,
+    528,
+    600,
+    63
+   ],
+   "tol": 40,
+   "scale_x": 0.911,
+   "skew": 2.1,
+   "fit_iou": 0.483
+  },
+  {
+   "type": "text",
+   "text": "着丈の長いシャツ",
+   "x": 36.5,
+   "y": 604.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 51.35,
+   "color": "#111111",
+   "spacing": 0.04,
+   "line": 1.2,
+   "box": [
+    30,
+    607,
+    406,
+    62
+   ],
+   "tol": 40,
+   "scale_x": 0.911,
+   "skew": 1.7,
+   "rotate": 0.15,
+   "fit_iou": 0.552
+  }
+ ]
+}

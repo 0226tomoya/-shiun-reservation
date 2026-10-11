@@ -1,9 +1,101 @@
-{"id":"bcqvvYZnOXk","grow":13,
-"erase":[{"rect":[0,0,240,720],"colors":["#ffffff"],"tol":30},{"rect":[240,480,700,115],"colors":["#ffffff"],"tol":30},{"rect":[250,590,1030,125],"colors":["#ffffff"],"tol":30},
-{"rect":[904,11,358,190],"full":true}],
-"layers":[
-{"type":"image","src":"assets/logos/jins_whitebox_bcqv.png","x":906,"y":13,"w":355,"h":186},
-{"type":"text","text":"神コスパ","x":8,"y":0,"font":"Noto Sans JP","weight":900,"size":215,"color":"#ffffff","vertical":true,"spacing":-0.17,"line":1.0,"shadow":"0 0 8px rgba(0,0,0,.3)"},
-{"type":"text","text":"JINSのメガネが","x":250,"y":480,"font":"Noto Sans JP","weight":900,"size":100,"color":"#ffffff","palt":true,"shadow":"0 0 8px rgba(0,0,0,.3)"},
-{"type":"text","text":"カッコいいのに安すぎる","x":260,"y":588,"font":"Noto Sans JP","weight":900,"size":112,"color":"#ffffff","palt":true,"shadow":"0 0 8px rgba(0,0,0,.3)"}
-]}
+{
+ "id": "bcqvvYZnOXk",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    240,
+    720
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    240,
+    480,
+    700,
+    115
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    250,
+    590,
+    1030,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    904,
+    11,
+    358,
+    190
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/jins_whitebox_bcqv.png",
+   "x": 906,
+   "y": 13,
+   "w": 355,
+   "h": 186
+  },
+  {
+   "type": "text",
+   "text": "神コスパ",
+   "x": 8,
+   "y": 4,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 212,
+   "color": "#ffffff",
+   "vertical": true,
+   "spacing": -0.21,
+   "line": 1.0,
+   "shadow": "0 0 8px rgba(0,0,0,.3)"
+  },
+  {
+   "type": "text",
+   "text": "JINSのメガネが",
+   "x": 250,
+   "y": 479,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 100,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.952
+  },
+  {
+   "type": "text",
+   "text": "カッコいいのに安すぎる",
+   "x": 260,
+   "y": 585,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 112,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.93
+  }
+ ]
+}

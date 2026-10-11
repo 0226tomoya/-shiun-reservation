@@ -1,6 +1,6 @@
 {
  "id": "obMTx7dd_II",
- "grow": 21,
+ "grow": 11,
  "erase": [
   {
    "rect": [
@@ -11,9 +11,10 @@
    ],
    "colors": [
     "#ffffff",
+    "#000000",
     "#c8c8c8"
    ],
-   "tol": 30
+   "tol": 40
   },
   {
    "rect": [
@@ -24,9 +25,11 @@
    ],
    "colors": [
     "#ffffff",
-    "#c4c4c4"
+    "#000000",
+    "#c0c0c0",
+    "#3a3a3a"
    ],
-   "tol": 30
+   "tol": 35
   }
  ],
  "layers": [

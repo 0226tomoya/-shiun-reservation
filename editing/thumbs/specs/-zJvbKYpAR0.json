@@ -1,0 +1,161 @@
+{
+ "id": "-zJvbKYpAR0",
+ "erase": [
+  {
+   "rect": [
+    22,
+    21,
+    114,
+    114
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    148,
+    18,
+    114,
+    114
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    275,
+    15,
+    114,
+    115
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    8,
+    232,
+    535,
+    288
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    715,
+    232,
+    560,
+    288
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    4,
+    604,
+    1272,
+    104
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_zjvb.png",
+   "x": 22,
+   "y": 21,
+   "w": 114,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_zjvb.png",
+   "x": 148,
+   "y": 18,
+   "w": 114,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square_zjvb.png",
+   "x": 275,
+   "y": 15,
+   "w": 114,
+   "h": 114
+  },
+  {
+   "type": "text",
+   "text": "絶対",
+   "x": 19.0,
+   "y": 210.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 302.898,
+   "color": "#ffffff",
+   "spacing": 0.114,
+   "line": 1.0,
+   "box": [
+    8,
+    232,
+    535,
+    288
+   ],
+   "tol": 22,
+   "scale_x": 0.878,
+   "skew": -2.7,
+   "fit_iou": 0.695
+  },
+  {
+   "type": "text",
+   "text": "買い",
+   "x": 711.5,
+   "y": 216.5,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 288.96,
+   "color": "#ffffff",
+   "spacing": 0.184,
+   "line": 1.0,
+   "box": [
+    715,
+    232,
+    560,
+    288
+   ],
+   "tol": 22,
+   "scale_x": 0.884,
+   "rotate": -0.5,
+   "skew": 0.3,
+   "fit_iou": 0.764
+  },
+  {
+   "type": "text",
+   "text": "このスラックス、プチプラNO.1",
+   "x": -6.0,
+   "y": 605.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 92.64,
+   "color": "#ffffff",
+   "spacing": 0.078,
+   "line": 1.0,
+   "box": [
+    4,
+    604,
+    1272,
+    104
+   ],
+   "tol": 22,
+   "scale_x": 0.875,
+   "skew": 3.6,
+   "fit_iou": 0.473
+  }
+ ]
+}

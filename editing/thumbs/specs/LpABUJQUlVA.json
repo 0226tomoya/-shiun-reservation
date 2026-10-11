@@ -1,0 +1,330 @@
+{
+ "id": "LpABUJQUlVA",
+ "erase": [
+  {
+   "rect": [
+    80,
+    255,
+    75,
+    105
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    308,
+    255,
+    70,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    900,
+    262,
+    68,
+    98
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1155,
+    270,
+    68,
+    98
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    900,
+    12,
+    380,
+    175
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    180,
+    472,
+    900,
+    78
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    0,
+    452,
+    340,
+    262
+   ],
+   "colors": [
+    "#ffee01"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    340,
+    553,
+    940,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "?",
+   "x": 117.0,
+   "y": 301.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 111.2,
+   "color": "#ffffff",
+   "m": [
+    80,
+    255,
+    75,
+    105,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 1.133
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 343.0,
+   "y": 301.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 104.9,
+   "color": "#ffffff",
+   "m": [
+    308,
+    255,
+    70,
+    100,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 1.114
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 935.0,
+   "y": 307.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 99.9,
+   "color": "#ffffff",
+   "m": [
+    900,
+    262,
+    68,
+    98,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 1.101
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 1190.0,
+   "y": 314.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 98.6,
+   "color": "#ffffff",
+   "m": [
+    1155,
+    270,
+    68,
+    98,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 1.115
+  },
+  {
+   "type": "text",
+   "text": "突撃‼",
+   "x": 1098.0,
+   "y": 85.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 176.7,
+   "color": "#ffffff",
+   "rotate": -3,
+   "m": [
+    900,
+    12,
+    380,
+    175,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.802,
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "アパレルディレクター&ファッションYoutuber",
+   "x": 626.5,
+   "y": 508.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 65.3,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "m": [
+    180,
+    472,
+    900,
+    78,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.679,
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "1",
+   "x": 53.0,
+   "y": 557.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 331.0,
+   "color": "#ffee01",
+   "m": [
+    0,
+    452,
+    108,
+    262,
+    "#ffee01",
+    45
+   ],
+   "scale_x": 0.614,
+   "strokes": [
+    [
+     2,
+     "#ffee01"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "週間",
+   "x": 228.5,
+   "y": 626.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 146.5,
+   "color": "#ffee01",
+   "m": [
+    108,
+    540,
+    232,
+    174,
+    "#ffee01",
+    45
+   ],
+   "scale_x": 0.789,
+   "strokes": [
+    [
+     2,
+     "#ffee01"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "抜き打ち私服チ"
+    },
+    {
+     "text": "ェ",
+     "size_em": 0.7
+    },
+    {
+     "text": "ッ",
+     "size_em": 0.7
+    },
+    {
+     "text": "ク"
+    }
+   ],
+   "x": 813.0,
+   "y": 625.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 145.8,
+   "color": "#ffffff",
+   "m": [
+    340,
+    553,
+    940,
+    160,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.681,
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "id": "VtzhhyzCxC4",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    15,
+    18,
+    1250,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    15,
+    686,
+    1250,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    15,
+    18,
+    14,
+    684
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1250,
+    18,
+    15,
+    684
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    40,
+    42,
+    640,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    160,
+    380,
+    960,
+    140
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    40,
+    520,
+    1200,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 21,
+   "y": 24,
+   "w": 1239,
+   "h": 673,
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "COMOLI",
+     "font": "Jost",
+     "weight": 300,
+     "spacing": 0.28
+    },
+    {
+     "text": " / ",
+     "font": "Jost",
+     "weight": 300
+    },
+    {
+     "text": "OUR LEGACY",
+     "font": "Roboto Condensed",
+     "weight": 700
+    },
+    {
+     "text": " / ",
+     "font": "Jost",
+     "weight": 300
+    },
+    {
+     "text": "Clarks",
+     "font": "Kaushan Script",
+     "weight": 400,
+     "size_em": 1.05
+    }
+   ],
+   "x": 50,
+   "y": 40,
+   "font": "Jost",
+   "weight": 300,
+   "size": 40,
+   "color": "#ffffff",
+   "shadow": "0 0 4px rgba(0,0,0,.3)"
+  },
+  {
+   "type": "text",
+   "text": "OUR LEGACY",
+   "x": 172,
+   "y": 360,
+   "font": "Roboto Condensed",
+   "weight": 700,
+   "size": 170,
+   "color": "#ffffff",
+   "spacing": -0.03,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "scale_x": 1.11
+  },
+  {
+   "type": "text",
+   "text": "デビューしました",
+   "x": 52,
+   "y": 502,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 160,
+   "color": "#ffffff",
+   "palt": false,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "spacing": -0.09
+  }
+ ]
+}

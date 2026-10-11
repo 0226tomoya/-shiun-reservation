@@ -1,0 +1,233 @@
+{
+ "id": "e5eiTzlWvg8",
+ "front": [
+  [
+   [
+    540,
+    0
+   ],
+   [
+    690,
+    0
+   ],
+   [
+    700,
+    60
+   ],
+   [
+    820,
+    90
+   ],
+   [
+    870,
+    180
+   ],
+   [
+    892,
+    330
+   ],
+   [
+    885,
+    480
+   ],
+   [
+    830,
+    505
+   ],
+   [
+    790,
+    560
+   ],
+   [
+    545,
+    560
+   ],
+   [
+    505,
+    450
+   ],
+   [
+    508,
+    200
+   ],
+   [
+    530,
+    90
+   ]
+  ]
+ ],
+ "erase": [
+  {
+   "rect": [
+    25,
+    24,
+    1228,
+    15
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    25,
+    680,
+    1228,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    25,
+    24,
+    15,
+    672
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1238,
+    24,
+    15,
+    672
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    40,
+    60,
+    1200,
+    485
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    255,
+    565,
+    775,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    65,
+    618,
+    1150,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 31,
+   "y": 30,
+   "w": 1218,
+   "h": 662,
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "散",
+   "x": 285.0,
+   "y": 281.0,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 496.8,
+   "color": "#ffffff",
+   "m": [
+    40,
+    60,
+    500,
+    485,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993
+  },
+  {
+   "type": "text",
+   "text": "財",
+   "x": 985.0,
+   "y": 273.5,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 497,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "OUR LEGACY / COMOLI / Llife / ULTERIOR",
+   "x": 638.7,
+   "y": 592.5,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 400,
+   "italic": true,
+   "size": 41.1,
+   "color": "#ffffff",
+   "shadow": "0 0 4px rgba(0,0,0,.3)",
+   "m": [
+    255,
+    565,
+    775,
+    52,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.96
+  },
+  {
+   "type": "text",
+   "text": "ANCELLM / HEUGN / CONVERSE / Steven Alan / FOOTWORKS",
+   "x": 640.0,
+   "y": 644.7,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 400,
+   "italic": true,
+   "size": 40.3,
+   "color": "#ffffff",
+   "shadow": "0 0 4px rgba(0,0,0,.3)",
+   "m": [
+    65,
+    618,
+    1150,
+    52,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.983
+  }
+ ]
+}

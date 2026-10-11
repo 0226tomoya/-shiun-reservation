@@ -1,0 +1,136 @@
+{
+ "id": "puoRsZXxZ78",
+ "erase": [
+  {
+   "rect": [
+    15,
+    16,
+    1250,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    692,
+    1250,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    16,
+    10,
+    688
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1253,
+    16,
+    12,
+    688
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    80,
+    240,
+    1125,
+    225
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    270,
+    628,
+    745,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 19,
+   "y": 20,
+   "w": 1242,
+   "h": 681,
+   "fill": "transparent",
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "春の購入品紹介",
+   "x": 77.5,
+   "y": 267.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 189.716,
+   "color": "#ffffff",
+   "spacing": 0.0,
+   "line": 1.0,
+   "rotate": -2.35,
+   "box": [
+    80,
+    240,
+    1125,
+    225
+   ],
+   "tol": 22,
+   "scale_x": 0.844,
+   "skew": -5.6,
+   "fit_iou": 0.361
+  },
+  {
+   "type": "text",
+   "text": "Steven Alan| COMOLI / MAATEE&SONS",
+   "x": 276.0,
+   "y": 629.0,
+   "font": "CormorantGaramond",
+   "weight": 400,
+   "italic": true,
+   "size": 46.36,
+   "color": "#ffffff",
+   "spacing": 0.142,
+   "line": 1.0,
+   "box": [
+    270,
+    628,
+    745,
+    52
+   ],
+   "tol": 40,
+   "scale_x": 0.755,
+   "fit_iou": 0.07
+  }
+ ]
+}

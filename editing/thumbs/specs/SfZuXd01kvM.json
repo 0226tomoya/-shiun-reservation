@@ -1,0 +1,226 @@
+{
+ "id": "SfZuXd01kvM",
+ "erase": [
+  {
+   "rect": [
+    21,
+    19,
+    158,
+    158
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    216,
+    19,
+    159,
+    158
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    416,
+    19,
+    164,
+    158
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    676,
+    19,
+    159,
+    158
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    870,
+    17,
+    205,
+    177
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1098,
+    18,
+    159,
+    159
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    629,
+    1280,
+    91
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    40,
+    285,
+    1200,
+    140
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    380,
+    1280,
+    340
+   ],
+   "by": "layers",
+   "grow": 15
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_sfzu.png",
+   "x": 21,
+   "y": 19,
+   "w": 158,
+   "h": 158
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_sfzu.png",
+   "x": 216,
+   "y": 19,
+   "w": 159,
+   "h": 158
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_square_sfzu.png",
+   "x": 416,
+   "y": 19,
+   "w": 164,
+   "h": 158
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_sfzu_2.png",
+   "x": 676,
+   "y": 19,
+   "w": 159,
+   "h": 158
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_colon_black_sfzu.png",
+   "x": 870,
+   "y": 17,
+   "w": 205,
+   "h": 177
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_sfzu.png",
+   "x": 1098,
+   "y": 18,
+   "w": 159,
+   "h": 159
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 629,
+   "w": 1280,
+   "h": 91,
+   "fill": "#e00808"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "UNIQLO&GU",
+     "font": "Noto Sans JP",
+     "weight": 900
+    },
+    {
+     "text": "で買うべき夏服"
+    }
+   ],
+   "x": 34.5,
+   "y": 276.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 133.803,
+   "skew": -9.1,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    40,
+    285,
+    1200,
+    140
+   ],
+   "tol": 25,
+   "scale_x": 0.74,
+   "fit_iou": 0.362
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "全て分かる"
+    },
+    {
+     "text": "!!",
+     "size_em": 0.9
+    }
+   ],
+   "x": 15,
+   "y": 380,
+   "font": "M PLUS Rounded 1c",
+   "weight": 900,
+   "size": 300,
+   "skew": -8,
+   "spacing": -0.05,
+   "fill": "linear-gradient(180deg,#fff7c0 0%,#f5d26b 35%,#b07a28 60%,#f0c860 85%,#fff2a0 100%)",
+   "strokes": [
+    [
+     6,
+     "#fff3c0"
+    ],
+    [
+     8,
+     "#120400"
+    ]
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.6)",
+   "fit_color": "#d8b050",
+   "tol": 45,
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    0,
+    380,
+    1280,
+    340
+   ],
+   "scale_x": 0.8,
+   "fixed": true
+  }
+ ]
+}

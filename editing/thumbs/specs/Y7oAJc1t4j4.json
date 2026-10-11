@@ -1,0 +1,147 @@
+{
+ "id": "Y7oAJc1t4j4",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    690,
+    112
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    1195,
+    0,
+    85,
+    425
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    0,
+    335,
+    245,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    495,
+    1280,
+    225
+   ],
+   "colors": [
+    "#e0d070",
+    "#c49a3c",
+    "#ecec8c"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "10/18販売開始",
+   "x": 4,
+   "y": -6,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 96,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#111111"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)"
+  },
+  {
+   "type": "text",
+   "text": "完売間近!?",
+   "x": 1243,
+   "y": 4,
+   "anchor": "ct",
+   "font": "Klee One",
+   "weight": 600,
+   "size": 68,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO and\nJW ANDERSON",
+   "x": 0,
+   "y": 330,
+   "font": "Oswald",
+   "weight": 500,
+   "size": 60,
+   "line": 0.92,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.86
+  },
+  {
+   "type": "text",
+   "text": "2024AW COLLECTION",
+   "x": 0,
+   "y": 447,
+   "font": "Oswald",
+   "weight": 500,
+   "size": 31,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.71
+  },
+  {
+   "type": "text",
+   "x": 3,
+   "y": 480,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 205,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "runs": [
+    {
+     "text": "新作コレ買え",
+     "spacing": -0.01
+    },
+    {
+     "text": "‼",
+     "size_em": 0.88
+    }
+   ]
+  }
+ ]
+}
