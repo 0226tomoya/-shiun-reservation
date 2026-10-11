@@ -1,0 +1,204 @@
+{
+ "id": "V_0BuPvEDZI",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    205,
+    112
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    335,
+    75,
+    610,
+    82
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    165,
+    1280,
+    195
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    140,
+    355,
+    1010,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    420,
+    566,
+    438,
+    114
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": -25,
+   "y": 18,
+   "w": 250,
+   "h": 62,
+   "fill": "#ffffff",
+   "rotate": -22
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "164"
+    },
+    {
+     "text": "cm",
+     "size_em": 0.8
+    }
+   ],
+   "x": 96,
+   "y": 50,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 50,
+   "color": "#000000",
+   "rotate": -22,
+   "palt": true
+  },
+  {
+   "type": "rect",
+   "x": 343,
+   "y": 149,
+   "w": 594,
+   "h": 3,
+   "fill": "linear-gradient(90deg,#fff 0%,#fff 15%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 70%,#fff 85%,#fff 100%)"
+  },
+  {
+   "type": "text",
+   "text": "オンラインショッピング",
+   "x": 642,
+   "y": 70,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 65,
+   "color": "#ffffff",
+   "skew": -12,
+   "spacing": 0.0,
+   "palt": true,
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "x": 4,
+   "y": 152,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 188,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.0,
+   "spacing": -0.06,
+   "runs": [
+    {
+     "text": "絶対"
+    },
+    {
+     "text": "に",
+     "size_em": 0.75,
+     "spacing": -0.25
+    },
+    {
+     "text": "失敗しない"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "服",
+     "spacing": -0.12
+    },
+    {
+     "text": "の",
+     "size_em": 0.72,
+     "spacing": -0.2
+    },
+    {
+     "text": "サイズ選び",
+     "spacing": -0.13
+    }
+   ],
+   "x": 146,
+   "y": 338,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 196,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.0,
+   "spacing": -0.06
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/zozotown_black_v0bu.png",
+   "x": 420,
+   "y": 566,
+   "w": 114,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/mercari_white_v0bu.png",
+   "x": 535,
+   "y": 566,
+   "w": 101,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_v0bu.png",
+   "x": 636,
+   "y": 566,
+   "w": 111,
+   "h": 114
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_v0bu.png",
+   "x": 747,
+   "y": 566,
+   "w": 111,
+   "h": 114
+  }
+ ]
+}

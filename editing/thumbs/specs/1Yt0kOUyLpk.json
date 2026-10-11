@@ -1,0 +1,188 @@
+{
+ "id": "1Yt0kOUyLpk",
+ "front": [
+  [
+   [
+    770,
+    160
+   ],
+   [
+    780,
+    100
+   ],
+   [
+    830,
+    62
+   ],
+   [
+    900,
+    52
+   ],
+   [
+    960,
+    70
+   ],
+   [
+    995,
+    120
+   ],
+   [
+    1000,
+    160
+   ]
+  ]
+ ],
+ "erase": [
+  {
+   "rect": [
+    0,
+    442,
+    278,
+    278
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    5,
+    1280,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    0,
+    165,
+    590,
+    230
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    295,
+    468,
+    680,
+    252
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    955,
+    290,
+    320,
+    430
+   ],
+   "colors": [
+    "#fff000"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_1yt0.png",
+   "x": 0,
+   "y": 442,
+   "w": 278,
+   "h": 278
+  },
+  {
+   "type": "text",
+   "text": "本当に買って良かった",
+   "x": 642.0,
+   "y": 73.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 145.2,
+   "color": "#ffffff",
+   "spacing": -0.03,
+   "m": [
+    0,
+    5,
+    1280,
+    150,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.903
+  },
+  {
+   "type": "text",
+   "text": "30点の中から厳選!!",
+   "x": 302.0,
+   "y": 276.5,
+   "anchor": "cc",
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 58,
+   "color": "#ffffff",
+   "rotate": -19,
+   "spacing": 0.12,
+   "m": [
+    0,
+    165,
+    590,
+    230,
+    "#ffffff",
+    25,
+    "noscale"
+   ],
+   "scale_x": 1
+  },
+  {
+   "type": "text",
+   "text": "BEST",
+   "x": 626.5,
+   "y": 585.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 297.4,
+   "color": "#ffffff",
+   "m": [
+    295,
+    468,
+    680,
+    252,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.908
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "x": 1114.0,
+   "y": 467.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 571.6,
+   "color": "#fff000",
+   "m": [
+    955,
+    290,
+    320,
+    430,
+    "#fff000",
+    45
+   ],
+   "scale_x": 0.998
+  }
+ ]
+}

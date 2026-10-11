@@ -1,0 +1,112 @@
+{
+ "id": "3yyXblOTx2M",
+ "erase": [
+  {
+   "rect": [
+    24,
+    21,
+    104,
+    104
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    149,
+    21,
+    104,
+    104
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    50,
+    150,
+    1130,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    50,
+    478,
+    1180,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_3yyx.png",
+   "x": 24,
+   "y": 21,
+   "w": 104,
+   "h": 104
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_3yyx.png",
+   "x": 149,
+   "y": 21,
+   "w": 104,
+   "h": 104
+  },
+  {
+   "type": "text",
+   "text": "大バズり",
+   "x": 653.0,
+   "y": 288.5,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 322.8,
+   "color": "#ffffff",
+   "m": [
+    50,
+    150,
+    1130,
+    315,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.924,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ユニクロの●●が再び登場",
+   "x": 652.5,
+   "y": 520.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 77.3,
+   "color": "#ffffff",
+   "spacing": 0.4,
+   "m": [
+    50,
+    478,
+    1180,
+    90,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.92
+  }
+ ]
+}

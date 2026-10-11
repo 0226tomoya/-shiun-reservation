@@ -1,0 +1,109 @@
+{
+ "id": "BTCg9C1lrvI",
+ "grow": 19,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    95,
+    510
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    460,
+    12,
+    780,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    395,
+    145,
+    870,
+    270
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    640,
+    1220,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "※服のプロが解説",
+   "x": 44,
+   "y": -4,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 66,
+   "color": "#ffffff",
+   "vertical": true,
+   "palt": true,
+   "spacing": -0.05,
+   "shadow": "0 0 12px rgba(0,0,0,.45)",
+   "scale_x": 1.3
+  },
+  {
+   "type": "text",
+   "text": "ファッションの",
+   "x": 468,
+   "y": -11,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 132,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.45)",
+   "scale_x": 0.94
+  },
+  {
+   "type": "text",
+   "text": "新常識",
+   "x": 410,
+   "y": 110,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 290,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 12px rgba(0,0,0,.45)"
+  },
+  {
+   "type": "text",
+   "text": "初心者さんが知っておくべきこと14選",
+   "x": 38,
+   "y": 638,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 60,
+   "color": "#ffffff",
+   "spacing": 0.172,
+   "shadow": "0 0 12px rgba(0,0,0,.45)"
+  }
+ ]
+}

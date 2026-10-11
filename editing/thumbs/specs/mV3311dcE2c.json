@@ -1,0 +1,212 @@
+{
+ "id": "mV3311dcE2c",
+ "erase": [
+  {
+   "rect": [
+    474,
+    34,
+    330,
+    134
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    489,
+    546,
+    136,
+    136
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    654,
+    546,
+    136,
+    136
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    15,
+    55,
+    440,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    885,
+    30,
+    385,
+    190
+   ],
+   "colors": [
+    "#ffffff",
+    "#ffe600"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    212,
+    192,
+    840,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    50,
+    288,
+    1160,
+    210
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_mv33.png",
+   "x": 474,
+   "y": 34,
+   "w": 330,
+   "h": 134
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_mv33.png",
+   "x": 489,
+   "y": 546,
+   "w": 136,
+   "h": 136
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_mv33.png",
+   "x": 654,
+   "y": 546,
+   "w": 136,
+   "h": 136
+  },
+  {
+   "type": "text",
+   "text": "2/25発売",
+   "x": 235.5,
+   "y": 125.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 112.6,
+   "color": "#ffffff",
+   "rotate": -8,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "m": [
+    15,
+    55,
+    440,
+    160,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.911
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "7点",
+     "color": "#ffe600"
+    },
+    {
+     "text": "厳選"
+    }
+   ],
+   "x": 1069.0,
+   "y": 112.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 144.7,
+   "color": "#ffffff",
+   "rotate": 8,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "tgt": [
+    893,
+    40,
+    1254,
+    210
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.715
+  },
+  {
+   "type": "text",
+   "text": "ユニクロC 2025SS",
+   "x": 630.5,
+   "y": 236.2,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 92.7,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "m": [
+    212,
+    192,
+    840,
+    95,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.053
+  },
+  {
+   "type": "text",
+   "text": "先行レビュー",
+   "x": 638.0,
+   "y": 379.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 208.7,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "m": [
+    50,
+    288,
+    1160,
+    210,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.912,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ]
+  }
+ ]
+}

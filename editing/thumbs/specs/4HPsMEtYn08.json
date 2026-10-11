@@ -1,24 +1,372 @@
-{"id":"4HPsMEtYn08","erase":[
- {"rect":[20,660,104,40],"full":true},
- {"rect":[0,8,445,132],"colors":["#f0f0f0"],"tol":30},
- {"rect":[432,5,140,138],"colors":["#f0f0f0"],"tol":30},
- {"rect":[35,155,340,350],"colors":["#ececec"],"tol":25},
- {"rect":[285,365,300,270],"colors":["#ececec"],"tol":25},
- {"rect":[780,0,305,290],"colors":["#ececec"],"tol":25},
- {"rect":[1065,88,215,235],"colors":["#ececec"],"tol":25},
- {"rect":[765,315,515,240],"colors":["#ececec"],"tol":25},
- {"rect":[925,625,350,52],"colors":["#f0f0f0"],"tol":30},
- {"rect":[1000,670,275,30],"colors":["#f0f0f0"],"tol":30}
-],
-"layers":[
- {"type":"image","src":"assets/logos/shiun_white_4hps.png","x":20,"y":660,"w":104,"h":40},
- {"type":"text","text":"169cm","x":224,"y":74,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":150,"color":"#ffffff","hollow":true,"strokes":[[3,"#f4f4f4"]],"tgt":[9,15,439,133],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"以下\n必見","x":500,"y":74,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":66,"line":0.95,"color":"#ffffff","hollow":true,"strokes":[[2,"#f4f4f4"]],"tgt":[437,12,563,139],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"脚","x":205,"y":330,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":360,"color":"#ececec","tgt":[40,160,369,499],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"長","x":435,"y":500,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":280,"color":"#ececec","tgt":[290,370,579,629],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"加","x":935,"y":140,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":300,"color":"#ececec","tgt":[787,0,1079,281],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"工","x":1170,"y":205,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":240,"color":"#ececec","tgt":[1070,93,1279,318],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"デニム","x":1025,"y":435,"anchor":"cc","font":"Shippori Mincho B1","weight":800,"size":230,"color":"#ececec","tgt":[771,320,1279,549],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"25 Spring 1st Collection","x":1097,"y":653,"anchor":"cc","font":"Playfair Display","weight":700,"size":40,"color":"#f6f6f6","tgt":[934,632,1259,674],"m":[0,0,1,1,"#fff"]},
- {"type":"text","text":"2025.02.15 sat.22:00 — Release","x":1135,"y":683,"anchor":"cc","font":"Playfair Display","weight":400,"size":20,"color":"#f6f6f6","tgt":[1012,672,1259,694],"m":[0,0,1,1,"#fff"]}
-]}
+{
+ "id": "4HPsMEtYn08",
+ "erase": [
+  {
+   "rect": [
+    20,
+    660,
+    104,
+    40
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    8,
+    445,
+    132
+   ],
+   "colors": [
+    "#f0f0f0"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    432,
+    5,
+    140,
+    138
+   ],
+   "colors": [
+    "#f0f0f0"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    35,
+    155,
+    340,
+    350
+   ],
+   "colors": [
+    "#ececec"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    285,
+    365,
+    300,
+    270
+   ],
+   "colors": [
+    "#ececec"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    780,
+    0,
+    305,
+    290
+   ],
+   "colors": [
+    "#ececec"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1065,
+    88,
+    215,
+    235
+   ],
+   "colors": [
+    "#ececec"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    765,
+    315,
+    515,
+    240
+   ],
+   "colors": [
+    "#ececec"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    925,
+    625,
+    350,
+    52
+   ],
+   "colors": [
+    "#f0f0f0"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1000,
+    670,
+    275,
+    30
+   ],
+   "colors": [
+    "#f0f0f0"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_4hps.png",
+   "x": 20,
+   "y": 660,
+   "w": 104,
+   "h": 40
+  },
+  {
+   "type": "text",
+   "text": "169cm",
+   "x": 219.5,
+   "y": 63.5,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 155.2,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     3,
+     "#f4f4f4"
+    ]
+   ],
+   "tgt": [
+    9,
+    15,
+    439,
+    133
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.852
+  },
+  {
+   "type": "text",
+   "text": "以下\n必見",
+   "x": 500.0,
+   "y": 72.0,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 67.6,
+   "line": 0.95,
+   "color": "#ffffff",
+   "hollow": true,
+   "strokes": [
+    [
+     2,
+     "#f4f4f4"
+    ]
+   ],
+   "tgt": [
+    437,
+    12,
+    563,
+    139
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.976
+  },
+  {
+   "type": "text",
+   "text": "脚",
+   "x": 207.5,
+   "y": 305.5,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 380.0,
+   "color": "#ececec",
+   "tgt": [
+    40,
+    160,
+    369,
+    499
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.934
+  },
+  {
+   "type": "text",
+   "text": "長",
+   "x": 432.0,
+   "y": 482.5,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 283.4,
+   "color": "#ececec",
+   "tgt": [
+    290,
+    370,
+    579,
+    629
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.111
+  },
+  {
+   "type": "text",
+   "text": "加",
+   "x": 937.5,
+   "y": 124.0,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 311.0,
+   "color": "#ececec",
+   "tgt": [
+    787,
+    0,
+    1079,
+    281
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "text": "工",
+   "x": 1174.0,
+   "y": 192.5,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 280.0,
+   "color": "#ececec",
+   "tgt": [
+    1070,
+    93,
+    1279,
+    318
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.826
+  },
+  {
+   "type": "text",
+   "text": "デニム",
+   "x": 1028.0,
+   "y": 422.5,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 261.6,
+   "color": "#ececec",
+   "tgt": [
+    771,
+    320,
+    1279,
+    549
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.712
+  },
+  {
+   "type": "text",
+   "text": "25 Spring 1st Collection",
+   "x": 1096.0,
+   "y": 648.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 700,
+   "size": 44.2,
+   "color": "#f6f6f6",
+   "tgt": [
+    934,
+    632,
+    1259,
+    674
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.692
+  },
+  {
+   "type": "text",
+   "text": "2025.02.15 sat.22:00 — Release",
+   "x": 1135.0,
+   "y": 681.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 400,
+   "size": 24.4,
+   "color": "#f6f6f6",
+   "tgt": [
+    1012,
+    672,
+    1259,
+    694
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.771
+  }
+ ]
+}

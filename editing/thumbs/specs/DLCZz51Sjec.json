@@ -1,0 +1,118 @@
+{
+ "id": "DLCZz51Sjec",
+ "erase": [
+  {
+   "rect": [
+    0,
+    268,
+    1280,
+    132
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    345,
+    214,
+    605,
+    56
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 268,
+   "w": 1280,
+   "h": 132,
+   "fill": "#050505"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_dlcz.png",
+   "x": 11,
+   "y": 282,
+   "w": 103,
+   "h": 103
+  },
+  {
+   "type": "text",
+   "text": "マストバイ",
+   "x": 113.0,
+   "y": 261.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128.92,
+   "color": "#ffffff",
+   "skew": -4.6,
+   "line": 1.0,
+   "box": [
+    118,
+    270,
+    645,
+    128
+   ],
+   "tol": 30,
+   "scale_x": 1.025,
+   "spacing": 0.004,
+   "rotate": -0.15,
+   "fit_iou": 0.661
+  },
+  {
+   "type": "text",
+   "text": "BEST10",
+   "x": 785.5,
+   "y": 246.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 152.648,
+   "color": "#f0e40c",
+   "skew": -10,
+   "line": 1.0,
+   "box": [
+    765,
+    270,
+    510,
+    128
+   ],
+   "tol": 40,
+   "scale_x": 0.857,
+   "fit_iou": 0.84
+  },
+  {
+   "type": "text",
+   "text": "2025 Spring Men’s Fashion",
+   "x": 350.0,
+   "y": 215.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "italic": true,
+   "size": 35.94,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    345,
+    214,
+    605,
+    56
+   ],
+   "fit_color": "#ffffff",
+   "tol": 30,
+   "scale_x": 1.292,
+   "skew": 3,
+   "fit_iou": 0.338
+  }
+ ]
+}

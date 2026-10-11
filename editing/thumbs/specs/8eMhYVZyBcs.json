@@ -1,0 +1,229 @@
+{
+ "id": "8eMhYVZyBcs",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    1115,
+    17,
+    148,
+    144
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1115,
+    171,
+    147,
+    147
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    476,
+    1280,
+    244
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    4,
+    22,
+    62,
+    102
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    4,
+    185,
+    62,
+    103
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    4,
+    347,
+    62,
+    102
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_8emh.png",
+   "x": 1115,
+   "y": 17,
+   "w": 148,
+   "h": 144
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/ug_black_8emh.png",
+   "x": 1115,
+   "y": 171,
+   "w": 147,
+   "h": 147
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 476,
+   "w": 1280,
+   "h": 244,
+   "fill": "#000000"
+  },
+  {
+   "type": "text",
+   "text": "1",
+   "x": 35.0,
+   "y": 65.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 120.152,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#222222"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "scale_x": 0.659,
+   "spacing": 0.094,
+   "rotate": 1.15,
+   "skew": 1,
+   "fit_iou": 0.412
+  },
+  {
+   "type": "text",
+   "text": "Tier",
+   "x": 41.0,
+   "y": 67.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 118.037,
+   "color": "#ffffff",
+   "fit_color": "#ffffff",
+   "scale_x": 0.258,
+   "fit_iou": 0.23
+  },
+  {
+   "type": "text",
+   "text": "2",
+   "x": 25.0,
+   "y": 227.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 124.755,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#222222"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "scale_x": 0.756,
+   "spacing": -0.07,
+   "rotate": 5.0,
+   "skew": 1.3,
+   "fit_iou": 0.41
+  },
+  {
+   "type": "text",
+   "text": "Tier",
+   "x": 35.0,
+   "y": 229.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 117.756,
+   "color": "#ffffff",
+   "fit_color": "#ffffff",
+   "scale_x": 0.222,
+   "spacing": -0.04,
+   "rotate": 5.0,
+   "fit_iou": 0.332
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "x": 23.5,
+   "y": 390.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 124.141,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#222222"
+    ]
+   ],
+   "fit_color": "#ffffff",
+   "scale_x": 0.637,
+   "spacing": -0.132,
+   "rotate": 1.5,
+   "skew": -2.7,
+   "fit_iou": 0.363
+  },
+  {
+   "type": "text",
+   "text": "Tier",
+   "x": 35.0,
+   "y": 388.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 119.021,
+   "color": "#ffffff",
+   "fit_color": "#ffffff",
+   "scale_x": 0.155,
+   "rotate": -2.0,
+   "skew": 0.3,
+   "fit_iou": 0.279
+  },
+  {
+   "type": "text",
+   "text": "マストバイTier表",
+   "x": 598.0,
+   "y": 561.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 215.372,
+   "line": 0.95,
+   "spacing": -0.036,
+   "fill": "linear-gradient(180deg,#e4dd1b 0%,#f6e691 20%,#fdf0bb 38%,#fba416 52%,#fcd97f 62%,#fde08a 70%,#fe943e 84%,#ff6f04 100%)",
+   "fit_color": "#fbe08a",
+   "tol": 60,
+   "scale_x": 1.107,
+   "skew": 7.3,
+   "rotate": -0.2,
+   "fit_iou": 0.317
+  }
+ ]
+}

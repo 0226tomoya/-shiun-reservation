@@ -77,26 +77,29 @@
   {
    "type": "text",
    "text": "カッコ良すぎて",
-   "x": 2,
+   "x": 10,
    "y": 262,
    "font": "Noto Sans JP",
    "weight": 700,
    "size": 130,
    "color": "#ffffff",
    "palt": true,
-   "shadow": "0 0 8px rgba(0,0,0,.3)"
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "spacing": -0.08
   },
   {
    "type": "text",
    "text": "ヤバい服。",
-   "x": 4,
+   "x": 10,
    "y": 350,
    "font": "Noto Sans JP",
    "weight": 700,
    "size": 335,
    "color": "#ffffff",
    "palt": true,
-   "shadow": "0 0 8px rgba(0,0,0,.3)"
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.9,
+   "spacing": -0.03
   },
   {
    "type": "text",
@@ -104,12 +107,12 @@
    "x": 1223,
    "y": 56,
    "anchor": "ct",
-   "font": "Klee One",
+   "font": "Zen Kurenaido",
    "weight": 400,
-   "size": 42,
+   "size": 38,
    "color": "#000000",
    "vertical": true,
-   "spacing": -0.05
+   "spacing": 0.0
   }
  ]
 }

@@ -1,0 +1,275 @@
+{
+ "id": "N73SrUPkD4s",
+ "erase": [
+  {
+   "rect": [
+    118,
+    655,
+    135,
+    45
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    310,
+    652,
+    242,
+    48
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    607,
+    655,
+    117,
+    45
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    776,
+    632,
+    202,
+    72
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1017,
+    655,
+    144,
+    45
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    22,
+    22,
+    1236,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    22,
+    22,
+    16,
+    675
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1242,
+    22,
+    16,
+    675
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    22,
+    680,
+    75,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1183,
+    680,
+    75,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    25,
+    345,
+    370,
+    260
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    365,
+    428,
+    890,
+    186
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "line",
+   "x1": 29,
+   "y1": 31,
+   "x2": 1251,
+   "y2": 31,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 30,
+   "y1": 30,
+   "x2": 30,
+   "y2": 690,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1249,
+   "y1": 30,
+   "x2": 1249,
+   "y2": 690,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 29,
+   "y1": 689,
+   "x2": 91,
+   "y2": 689,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1189,
+   "y1": 689,
+   "x2": 1251,
+   "y2": 689,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/yoke_white_n73s.png",
+   "x": 118,
+   "y": 655,
+   "w": 135,
+   "h": 45
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/ourlegacy_white_n73s.png",
+   "x": 310,
+   "y": 652,
+   "w": 242,
+   "h": 48
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/wym_white_n73s.png",
+   "x": 607,
+   "y": 655,
+   "w": 117,
+   "h": 45
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/unitedarrows_white_n73s.png",
+   "x": 776,
+   "y": 632,
+   "w": 202,
+   "h": 72
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/flymee_white_n73s.png",
+   "x": 1017,
+   "y": 655,
+   "w": 144,
+   "h": 45
+  },
+  {
+   "type": "text",
+   "text": "41",
+   "x": 215.0,
+   "y": 454.0,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 335.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    25,
+    350,
+    370,
+    250,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.931,
+   "tgt": [
+    54,
+    353,
+    368,
+    600
+   ]
+  },
+  {
+   "type": "text",
+   "text": "万円分購入",
+   "x": 798.0,
+   "y": 514.0,
+   "anchor": "cc",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 187.8,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    365,
+    430,
+    890,
+    182,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.92,
+   "tgt": [
+    374,
+    438,
+    1225,
+    610
+   ]
+  }
+ ]
+}

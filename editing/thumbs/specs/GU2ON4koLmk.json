@@ -1,0 +1,170 @@
+{
+"id": "GU2ON4koLmk",
+"erase": [
+{
+"rect": [
+140,
+314,
+56,
+72
+],
+"full": true
+},
+{
+"rect": [
+626,
+363,
+488,
+357
+],
+"full": true
+},
+{
+"rect": [
+0,
+20,
+1280,
+370
+],
+"colors": [
+"#c00000",
+"#e01010",
+"#9c0001"
+],
+"tol": 35
+},
+{
+"rect": [
+0,
+20,
+1280,
+370
+],
+"colors": [
+"#ffffff"
+],
+"tol": 8
+},
+{
+"rect": [
+5,
+615,
+420,
+95
+],
+"colors": [
+"#ffffff"
+],
+"tol": 20
+}
+],
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/sweat_emoji_gu2o.png",
+"x": 140,
+"y": 314,
+"w": 56,
+"h": 72
+},
+{
+"type": "image",
+"src": "assets/logos/gu_blue_rot_gu2o.png",
+"x": 626,
+"y": 363,
+"w": 488,
+"h": 357
+},
+{
+"type": "text",
+"text": "",
+"x": 558.0,
+"y": 129.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 233.2,
+"tb": [
+14,
+1101,
+26,
+263
+],
+"runs": [
+{
+"text": "買わない方"
+},
+{
+"text": "が",
+"size_em": 0.62
+}
+],
+"fill": "linear-gradient(180deg,#f22a20 0%,#d40808 45%,#9a0000 100%)",
+"strokes": [
+[
+5,
+"#ffffff"
+]
+],
+"shadow": "3px 4px 6px rgba(0,0,0,.55)",
+"palt": true,
+"tbs": true,
+"scale_x": 0.826
+},
+{
+"type": "text",
+"text": "いいかも…!?",
+"x": 931.5,
+"y": 305.5,
+"anchor": "cc",
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 144.0,
+"tb": [
+596,
+1271,
+246,
+384
+],
+"fill": "linear-gradient(180deg,#f22a20 0%,#d40808 45%,#9a0000 100%)",
+"strokes": [
+[
+5,
+"#ffffff"
+]
+],
+"shadow": "3px 4px 6px rgba(0,0,0,.55)",
+"palt": true,
+"tbs": true,
+"scale_x": 0.809
+},
+{
+"type": "text",
+"text": "GU 2024AW",
+"x": 207.0,
+"y": 652.5,
+"anchor": "cc",
+"font": "Montserrat",
+"weight": 500,
+"size": 85.4,
+"tb": [
+12,
+418,
+620,
+687
+],
+"italic": true,
+"color": "#ffffff",
+"scale_x": 0.772
+},
+{
+"type": "rect",
+"x": 12,
+"y": 695,
+"w": 394,
+"h": 5,
+"fill": "#ffffff"
+}
+],
+"grow": 15
+}

@@ -1,0 +1,168 @@
+{
+ "id": "bDfdjlubSVY",
+ "erase": [
+  {
+   "rect": [
+    26,
+    25,
+    109,
+    109
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    152,
+    25,
+    109,
+    109
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    276,
+    25,
+    109,
+    109
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    404,
+    25,
+    109,
+    109
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    80,
+    340,
+    260,
+    22
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    80,
+    360,
+    1130,
+    58
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_bdfd.png",
+   "x": 26,
+   "y": 25,
+   "w": 109,
+   "h": 109
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_bdfd.png",
+   "x": 152,
+   "y": 25,
+   "w": 109,
+   "h": 109
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_bdfd.png",
+   "x": 276,
+   "y": 25,
+   "w": 109,
+   "h": 109
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_square_bdfd.png",
+   "x": 404,
+   "y": 25,
+   "w": 109,
+   "h": 109
+  },
+  {
+   "type": "rect",
+   "x": 102.5,
+   "y": 346,
+   "w": 9,
+   "h": 10,
+   "fill": "#ffffff",
+   "radius": 5
+  },
+  {
+   "type": "rect",
+   "x": 157.0,
+   "y": 346,
+   "w": 9,
+   "h": 10,
+   "fill": "#ffffff",
+   "radius": 5
+  },
+  {
+   "type": "rect",
+   "x": 211.0,
+   "y": 346,
+   "w": 9,
+   "h": 10,
+   "fill": "#ffffff",
+   "radius": 5
+  },
+  {
+   "type": "rect",
+   "x": 266.0,
+   "y": 346,
+   "w": 9,
+   "h": 10,
+   "fill": "#ffffff",
+   "radius": 5
+  },
+  {
+   "type": "rect",
+   "x": 320.0,
+   "y": 346,
+   "w": 9,
+   "h": 10,
+   "fill": "#ffffff",
+   "radius": 5
+  },
+  {
+   "type": "text",
+   "text": "低身長男性にこそオススメしたい一癖Tシャツ",
+   "x": 84.0,
+   "y": 358.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 51.27,
+   "spacing": 0.152,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    80,
+    360,
+    1130,
+    58
+   ],
+   "tol": 25,
+   "scale_x": 0.921,
+   "fit_iou": 0.635
+  }
+ ]
+}

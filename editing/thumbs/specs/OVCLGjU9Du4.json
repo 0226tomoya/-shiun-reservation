@@ -1,0 +1,115 @@
+{
+ "id": "OVCLGjU9Du4",
+ "erase": [
+  {
+   "rect": [
+    16,
+    17,
+    144,
+    143
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    185,
+    17,
+    144,
+    143
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    60,
+    320,
+    1160,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    180,
+    392,
+    920,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_ovcl.png",
+   "x": 16,
+   "y": 17,
+   "w": 144,
+   "h": 143
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_ovcl.png",
+   "x": 185,
+   "y": 17,
+   "w": 144,
+   "h": 143
+  },
+  {
+   "type": "text",
+   "text": "低身長が買うべきUNIQLOのデニムはコレ",
+   "x": 644.0,
+   "y": 348.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 66.853,
+   "spacing": 0.11,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    60,
+    320,
+    1160,
+    72
+   ],
+   "tol": 16,
+   "scale_x": 0.817,
+   "fit_iou": 0.455
+  },
+  {
+   "type": "text",
+   "text": "~大人男性にもオススメできる夏の新作紹介~",
+   "x": 642.0,
+   "y": 414.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 54.86,
+   "spacing": 0.118,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    180,
+    392,
+    920,
+    52
+   ],
+   "tol": 16,
+   "scale_x": 0.734,
+   "fit_iou": 0.427
+  }
+ ]
+}

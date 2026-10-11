@@ -133,192 +133,36 @@
   {
    "type": "text",
    "text": "低身長ファッションYoutuber",
-   "x": 326.5,
-   "y": 425.0,
+   "x": 319.5,
+   "y": 431.0,
    "anchor": "cc",
    "font": "Noto Serif JP",
    "weight": 600,
-   "size": 66.061,
-   "skew": -1,
-   "spacing": -0.03,
+   "size": 63.91,
+   "skew": -3,
+   "spacing": -0.032,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.691,
-   "fit_iou": 0.204
+   "scale_x": 0.692,
+   "fit_iou": 0.194,
+   "rotate": 1.35
   },
   {
    "type": "text",
-   "x": -14.4,
-   "y": 453.6,
-   "anchor": "lt",
+   "text": "眼鏡全部紹介",
+   "x": 641.5,
+   "y": 593.5,
+   "anchor": "cc",
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
+   "size": 250.12,
+   "scale_x": 0.849,
+   "spacing": -0.014,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
+   "tol": 15,
    "skew": -8.7,
-   "rotate": -0.15,
-   "text": "眼",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    -12,
-    478,
-    206,
-    253
-   ]
-  },
-  {
-   "type": "text",
-   "x": 194.8,
-   "y": 453.6,
-   "anchor": "lt",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
-   "skew": -8.7,
-   "rotate": -0.15,
-   "text": "鏡",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    154,
-    473,
-    251,
-    258
-   ]
-  },
-  {
-   "type": "text",
-   "x": 403.9,
-   "y": 453.6,
-   "anchor": "lt",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
-   "skew": -8.7,
-   "rotate": -0.15,
-   "text": "全",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    368,
-    474,
-    246,
-    251
-   ]
-  },
-  {
-   "type": "text",
-   "x": 613.1,
-   "y": 453.6,
-   "anchor": "lt",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
-   "skew": -8.7,
-   "rotate": -0.15,
-   "text": "部",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    583,
-    474,
-    246,
-    257
-   ]
-  },
-  {
-   "type": "text",
-   "x": 822.3,
-   "y": 453.6,
-   "anchor": "lt",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
-   "skew": -8.7,
-   "rotate": -0.15,
-   "text": "紹",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    777,
-    474,
-    259,
-    257
-   ]
-  },
-  {
-   "type": "text",
-   "x": 1031.4,
-   "y": 453.6,
-   "anchor": "lt",
-   "font": "Noto Serif JP",
-   "weight": 900,
-   "size": 249.448,
-   "spacing": 0,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.4)",
-   "scale_x": 0.868,
-   "skew": -8.7,
-   "rotate": -0.15,
-   "text": "介",
-   "no_init": true,
-   "lock": [
-    "rotate",
-    "scale_x",
-    "skew",
-    "spacing"
-   ],
-   "box": [
-    989,
-    473,
-    251,
-    258
-   ]
+   "fit_iou": 0.626
   }
  ]
 }

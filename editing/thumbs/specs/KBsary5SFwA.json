@@ -1,0 +1,157 @@
+{
+ "id": "KBsary5SFwA",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    7,
+    8,
+    184,
+    183
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    239,
+    8,
+    183,
+    183
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    862,
+    8,
+    184,
+    184
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1089,
+    8,
+    185,
+    184
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    90,
+    330,
+    1100,
+    120
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    5,
+    455,
+    1270,
+    265
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_kbsa.png",
+   "x": 7,
+   "y": 8,
+   "w": 184,
+   "h": 183
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_kbsa.png",
+   "x": 239,
+   "y": 8,
+   "w": 183,
+   "h": 183
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_kbsa.png",
+   "x": 862,
+   "y": 8,
+   "w": 184,
+   "h": 184
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_kbsa.png",
+   "x": 1089,
+   "y": 8,
+   "w": 185,
+   "h": 184
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "UNIQLO 2025"
+    },
+    {
+     "text": "年",
+     "size_em": 0.7
+    },
+    {
+     "text": "春夏"
+    }
+   ],
+   "x": 662.0,
+   "y": 378.5,
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 500,
+   "size": 117.01,
+   "spacing": 0.002,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "tol": 15,
+   "scale_x": 0.996,
+   "skew": 0,
+   "fit_iou": 0.447
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "新作レビ"
+    },
+    {
+     "text": "ュ",
+     "size_em": 0.75
+    },
+    {
+     "text": "ー"
+    }
+   ],
+   "x": 682.0,
+   "y": 581.0,
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 267.42,
+   "spacing": -0.032,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "tol": 15,
+   "scale_x": 0.894,
+   "rotate": 1.15,
+   "skew": 0.1,
+   "fit_iou": 0.514
+  }
+ ]
+}

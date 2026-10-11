@@ -1,0 +1,143 @@
+{
+ "id": "B3uJv0GStkE",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    8,
+    2,
+    237,
+    248
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    287,
+    2,
+    235,
+    248
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    900,
+    15,
+    380,
+    205
+   ],
+   "colors": [
+    "#000000",
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    195,
+    425,
+    900,
+    110
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    535,
+    1280,
+    185
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_shadow_b3uj.png",
+   "x": 8,
+   "y": 2,
+   "w": 237,
+   "h": 248
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_shadow_b3uj.png",
+   "x": 287,
+   "y": 2,
+   "w": 235,
+   "h": 248
+  },
+  {
+   "type": "text",
+   "text": "169cm以下",
+   "x": 1100,
+   "y": 16,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 68,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.88
+  },
+  {
+   "type": "text",
+   "text": "限定!?",
+   "x": 1102,
+   "y": 86,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 120,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.85
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO U 24AW",
+   "x": 642,
+   "y": 410,
+   "anchor": "ct",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 110,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "spacing": -0.02
+  },
+  {
+   "type": "text",
+   "text": "買うべきパンツ3選",
+   "x": -4,
+   "y": 518,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 180,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "spacing": -0.06
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "bP9zvvXtYy4",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    15,
+    12,
+    98,
+    98
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    15,
+    123,
+    98,
+    99
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1036,
+    15,
+    230,
+    94
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1040,
+    123,
+    99,
+    98
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1165,
+    124,
+    98,
+    97
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    25,
+    270,
+    505,
+    120
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    420,
+    1055,
+    118
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    540,
+    1085,
+    180
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1065,
+    430,
+    205,
+    275
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_bp9z.png",
+   "x": 15,
+   "y": 12,
+   "w": 98,
+   "h": 98
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_bp9z.png",
+   "x": 15,
+   "y": 123,
+   "w": 98,
+   "h": 99
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_bp9z.png",
+   "x": 1036,
+   "y": 15,
+   "w": 230,
+   "h": 94
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_bp9z.png",
+   "x": 1040,
+   "y": 123,
+   "w": 99,
+   "h": 98
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_bp9z.png",
+   "x": 1165,
+   "y": 124,
+   "w": 98,
+   "h": 97
+  },
+  {
+   "type": "text",
+   "text": "低身長デザイナーが厳選",
+   "x": 275,
+   "y": 330,
+   "anchor": "cc",
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 44,
+   "rotate": -11,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.6)",
+   "scale_x": 1,
+   "spacing": 0,
+   "skew": 10.3,
+   "fit_iou": 0.054,
+   "lock": [
+    "rotate",
+    "scale_x"
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "UNIQLO"
+    },
+    {
+     "text": "&",
+     "size_em": 0.7
+    },
+    {
+     "text": "GU 2025春夏"
+    }
+   ],
+   "x": 547.0,
+   "y": 478.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 108.27,
+   "skew": -10.7,
+   "spacing": -0.02,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "scale_x": 0.93,
+   "rotate": -0.3,
+   "fit_iou": 0.645
+  },
+  {
+   "type": "text",
+   "text": "マストバイBEST",
+   "x": 527.5,
+   "y": 624.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 189.11,
+   "skew": -9,
+   "scale_x": 0.746,
+   "spacing": 0.006,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "tol": 15,
+   "rotate": -0.8,
+   "fit_iou": 0.503
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "x": 1161.5,
+   "y": 545.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 343.142,
+   "skew": -12,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "scale_x": 0.965,
+   "spacing": 0.004,
+   "rotate": -0.3,
+   "fit_iou": 0.889
+  }
+ ]
+}

@@ -48,7 +48,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 9
   },
   {
    "rect": [
@@ -60,7 +60,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 28
+   "tol": 9
   },
   {
    "rect": [
@@ -72,7 +72,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 28
+   "tol": 9
   }
  ],
  "layers": [
@@ -80,7 +80,7 @@
    "type": "text",
    "text": "日々の鬱憤をぶつける",
    "x": 12.5,
-   "y": 15.0,
+   "y": 15.5,
    "font": "Noto Sans JP",
    "weight": 900,
    "size": 62.0,
@@ -91,7 +91,7 @@
      "#1a1a10"
     ]
    ],
-   "spacing": 0.02,
+   "spacing": 0.028,
    "line": 1.0,
    "box": [
     8,
@@ -101,15 +101,17 @@
    ],
    "fit_color": "#fce40c",
    "tol": 40,
-   "scale_x": 0.992
+   "scale_x": 0.992,
+   "skew": -1,
+   "fit_iou": 0.442
   },
   {
    "type": "text",
-   "x": 720.5,
-   "y": 12.0,
+   "x": 714.5,
+   "y": 2.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 53.81,
+   "size": 53.595,
    "color": "#242424",
    "strokes": [
     [
@@ -138,7 +140,11 @@
    ],
    "fit_color": "#242424",
    "tol": 30,
-   "scale_x": 0.803
+   "scale_x": 0.803,
+   "spacing": 0.028,
+   "rotate": 2.3,
+   "skew": -3.3,
+   "fit_iou": 0.364
   },
   {
    "type": "image",
@@ -177,11 +183,11 @@
   },
   {
    "type": "text",
-   "x": 294.5,
-   "y": 284.0,
+   "x": 279.0,
+   "y": 283.0,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 99.2,
+   "size": 98.13,
    "color": "#ffffff",
    "line": 1.0,
    "runs": [
@@ -190,7 +196,7 @@
     },
     {
      "text": "イケメンと",
-     "size_em": 0.75
+     "size_em": 0.9
     }
    ],
    "box": [
@@ -199,17 +205,20 @@
     680,
     105
    ],
-   "tol": 22,
-   "scale_x": 1.037
+   "tol": 9,
+   "scale_x": 0.942,
+   "skew": 3,
+   "rotate": -0.15,
+   "fit_iou": 0.343
   },
   {
    "type": "text",
    "text": "ガチ対談",
-   "x": -24.5,
-   "y": 360.5,
+   "x": -23.5,
+   "y": 362.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 357.94,
+   "size": 350.38,
    "color": "#ffffff",
    "line": 1.0,
    "box": [
@@ -218,8 +227,11 @@
     1265,
     334
    ],
-   "tol": 22,
-   "scale_x": 0.917
+   "tol": 9,
+   "scale_x": 0.916,
+   "spacing": 0.006,
+   "skew": -0.7,
+   "fit_iou": 0.606
   }
  ]
 }
