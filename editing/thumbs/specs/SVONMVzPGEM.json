@@ -1,0 +1,91 @@
+{
+ "id": "SVONMVzPGEM",
+ "erase": [
+  [
+   20,
+   180,
+   560,
+   330
+  ],
+  [
+   700,
+   170,
+   580,
+   340
+  ],
+  [
+   0,
+   585,
+   1280,
+   135
+  ],
+  {
+   "rect": [
+    8,
+    10,
+    150,
+    150
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_square.png",
+   "x": 10,
+   "y": 12,
+   "w": 145,
+   "h": 145
+  },
+  {
+   "type": "text",
+   "text": "絶対",
+   "x": 13.5,
+   "y": 169.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 297.73,
+   "color": "#ffe600",
+   "shadow": "4px 4px 6px rgba(0,0,0,.25)",
+   "spacing": -0.016,
+   "scale_x": 0.938,
+   "rotate": 0.35,
+   "skew": -1.6,
+   "fit_iou": 0.706
+  },
+  {
+   "type": "text",
+   "text": "買い",
+   "x": 740.5,
+   "y": 131.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 335.39,
+   "color": "#ffe600",
+   "shadow": "4px 4px 6px rgba(0,0,0,.25)",
+   "scale_x": 0.817,
+   "spacing": 0.002,
+   "skew": -0.3,
+   "fit_iou": 0.682
+  },
+  {
+   "type": "text",
+   "text": "¥2,990のコスパ最強ニット",
+   "x": 639.5,
+   "y": 635.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128.713,
+   "color": "#ffffff",
+   "shadow": "3px 3px 6px rgba(0,0,0,.5)",
+   "spacing": -0.024,
+   "italic": true,
+   "scale_x": 0.82,
+   "skew": 8,
+   "rotate": -0.15,
+   "fit_iou": 0.443
+  }
+ ]
+}
