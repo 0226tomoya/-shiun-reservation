@@ -1,0 +1,447 @@
+{
+ "id": "nlUPAfcv5wo",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    222
+   ],
+   "colors": [
+    "#ffea01"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    320,
+    215,
+    590,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    68,
+    242,
+    182,
+    74
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    7,
+    339,
+    247,
+    105
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    4,
+    466,
+    270,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    17,
+    606,
+    213,
+    74
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1023,
+    237,
+    239,
+    51
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1076,
+    312,
+    200,
+    112
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    822,
+    576,
+    450,
+    41
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    986,
+    640,
+    219,
+    72
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    68,
+    242,
+    182,
+    74
+   ],
+   "colors": [
+    "#101010",
+    "#f0f0f0",
+    "#d0d0d0",
+    "#f0f0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    7,
+    339,
+    247,
+    105
+   ],
+   "colors": [
+    "#d0d0d0",
+    "#101010",
+    "#f0f0f0",
+    "#f0f0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    4,
+    466,
+    270,
+    113
+   ],
+   "colors": [
+    "#d0d0d0",
+    "#101010",
+    "#d0d0b0",
+    "#505050"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    17,
+    606,
+    213,
+    74
+   ],
+   "colors": [
+    "#d0d0d0",
+    "#303030",
+    "#b0b0b0",
+    "#f0f0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1023,
+    237,
+    239,
+    51
+   ],
+   "colors": [
+    "#b0b0b0",
+    "#101010",
+    "#d0d0d0",
+    "#b0b0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1076,
+    312,
+    200,
+    112
+   ],
+   "colors": [
+    "#b0b0b0",
+    "#101010",
+    "#707070",
+    "#b0b090"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    822,
+    576,
+    450,
+    41
+   ],
+   "colors": [
+    "#d0d0d0",
+    "#101010",
+    "#f0f0f0",
+    "#f0f0d0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    986,
+    640,
+    219,
+    72
+   ],
+   "colors": [
+    "#b0b0b0",
+    "#f0f0f0",
+    "#d0d0d0",
+    "#101010"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "買",
+   "x": 4.5,
+   "y": -10.5,
+   "size": 217.24,
+   "box": [
+    -7,
+    6,
+    307,
+    218
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "skew": -4.4,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "scale_x": 1.004,
+   "fit_iou": 0.703
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "text": "うべ",
+   "x": 278.5,
+   "y": 72.0,
+   "size": 121.91,
+   "box": [
+    299,
+    68,
+    129,
+    144
+   ],
+   "skew": 4,
+   "scale_x": 0.522,
+   "rotate": 0,
+   "fit_iou": 0.263,
+   "spacing": -0.02
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "text": "き",
+   "x": 412.5,
+   "y": 64.0,
+   "size": 136.976,
+   "box": [
+    427,
+    68,
+    113,
+    144
+   ],
+   "skew": -3,
+   "scale_x": 1.037,
+   "fit_iou": 0.77
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "text": "サ",
+   "x": 554.0,
+   "y": 5.0,
+   "size": 174.639,
+   "box": [
+    545,
+    0,
+    183,
+    224
+   ],
+   "skew": -9.6,
+   "scale_x": 1.122,
+   "rotate": -1.0,
+   "fit_iou": 0.74
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "text": "ン",
+   "x": 767.0,
+   "y": 0.0,
+   "size": 192.13,
+   "box": [
+    726,
+    0,
+    186,
+    224
+   ],
+   "skew": -9.6,
+   "scale_x": 0.813,
+   "rotate": -5.0,
+   "fit_iou": 0.505
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "text": "ダル",
+   "x": 947.0,
+   "y": -8.0,
+   "size": 211.949,
+   "box": [
+    912,
+    0,
+    370,
+    224
+   ],
+   "skew": -16.4,
+   "scale_x": 0.844,
+   "rotate": -1.2,
+   "spacing": 0.024,
+   "fit_iou": 0.629
+  },
+  {
+   "type": "text",
+   "text": "低身長アパレルディレクターが厳選!!",
+   "x": 318.0,
+   "y": 237.0,
+   "size": 71.348,
+   "box": [
+    320,
+    210,
+    590,
+    109
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "color": "#ffffff",
+   "rotate": -4,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 0.5,
+   "skew": -1,
+   "fit_iou": 0.092
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/keen_black_nlup.png",
+   "x": 68,
+   "y": 242,
+   "w": 182,
+   "h": 74
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/paraboot_black_nlup.png",
+   "x": 7,
+   "y": 339,
+   "w": 247,
+   "h": 105
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/islandslipper_black_nlup.png",
+   "x": 4,
+   "y": 466,
+   "w": 270,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_black_nlup.png",
+   "x": 17,
+   "y": 606,
+   "w": 213,
+   "h": 74
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gogenon_black_nlup.png",
+   "x": 1023,
+   "y": 237,
+   "w": 239,
+   "h": 51
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/drmartens_black_nlup.png",
+   "x": 1076,
+   "y": 312,
+   "w": 200,
+   "h": 112
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/calmanthology_black_nlup.png",
+   "x": 822,
+   "y": 576,
+   "w": 450,
+   "h": 41
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/hereu_black_nlup.png",
+   "x": 986,
+   "y": 640,
+   "w": 219,
+   "h": 72
+  }
+ ]
+}

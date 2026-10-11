@@ -1,0 +1,347 @@
+{
+ "id": "zGuc4mpBDJ0",
+ "erase": [
+  {
+   "rect": [
+    1108,
+    5,
+    168,
+    262
+   ],
+   "colors": [
+    "#fcfcfb",
+    "#4a433d",
+    "#0f0e0c"
+   ],
+   "tol": 35
+  },
+  [
+   25,
+   10,
+   120,
+   185
+  ],
+  [
+   100,
+   230,
+   100,
+   165
+  ],
+  [
+   455,
+   105,
+   140,
+   240
+  ],
+  [
+   705,
+   10,
+   75,
+   345
+  ],
+  [
+   25,
+   395,
+   570,
+   100
+  ],
+  {
+   "rect": [
+    610,
+    350,
+    160,
+    145
+   ],
+   "colors": [
+    "#f0f0f0",
+    "#b0b0b0"
+   ],
+   "tol": 40
+  },
+  [
+   770,
+   365,
+   410,
+   140
+  ],
+  [
+   5,
+   505,
+   1270,
+   210
+  ]
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/wym_lidnm_ecstaff.png",
+   "x": 1108,
+   "y": 5,
+   "w": 168,
+   "h": 262
+  },
+  {
+   "type": "text",
+   "text": "C",
+   "x": -5.5,
+   "y": -30.5,
+   "font": "PermanentMarker",
+   "weight": 400,
+   "size": 155.908,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    25,
+    10,
+    120,
+    120
+   ],
+   "scale_x": 1.13,
+   "skew": 5,
+   "rotate": -0.3,
+   "fit_iou": 0.294
+  },
+  {
+   "type": "text",
+   "text": "チビ",
+   "x": 23.5,
+   "y": 120.5,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 81.204,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    25,
+    120,
+    120,
+    75
+   ],
+   "scale_x": 0.747,
+   "rotate": -10.0,
+   "spacing": -0.012,
+   "fit_iou": 0.363
+  },
+  {
+   "type": "text",
+   "text": "H",
+   "x": 111.0,
+   "y": 208.5,
+   "font": "PermanentMarker",
+   "weight": 400,
+   "size": 121.858,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    100,
+    230,
+    100,
+    105
+   ],
+   "scale_x": 0.638,
+   "rotate": -5.55,
+   "fit_iou": 0.568
+  },
+  {
+   "type": "text",
+   "text": "ハゲ",
+   "x": 106.5,
+   "y": 330.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 61.989,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    100,
+    330,
+    100,
+    65
+   ],
+   "scale_x": 0.76,
+   "spacing": 0.006,
+   "rotate": -0.15,
+   "fit_iou": 0.512
+  },
+  {
+   "type": "text",
+   "text": "D",
+   "x": 490.5,
+   "y": 67.5,
+   "font": "PermanentMarker",
+   "weight": 400,
+   "size": 173.99,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    480,
+    105,
+    115,
+    135
+   ],
+   "scale_x": 0.812,
+   "rotate": -4.5,
+   "fit_iou": 0.536
+  },
+  {
+   "type": "text",
+   "text": "デブ",
+   "x": 447.0,
+   "y": 249.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 74.318,
+   "color": "#fafafa",
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "box": [
+    455,
+    245,
+    140,
+    95
+   ],
+   "scale_x": 0.977,
+   "spacing": -0.04,
+   "fit_iou": 0.409
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "✦",
+     "size": 30,
+     "color": "#fff4c0"
+    },
+    {
+     "text": "イケおじ"
+    }
+   ],
+   "x": 719.5,
+   "y": 12.0,
+   "vertical": true,
+   "font": "ShipporiMinchoB1",
+   "weight": 600,
+   "size": 46.86,
+   "color": "#f5f5f5",
+   "shadow": "0 0 8px rgba(0,0,0,.9)",
+   "box": [
+    705,
+    10,
+    75,
+    345
+   ],
+   "scale_x": 0.957,
+   "spacing": -0.09,
+   "fit_iou": 0.321
+  },
+  {
+   "type": "text",
+   "text": "166cm 88kg",
+   "x": 36.0,
+   "y": 410.0,
+   "font": "Inter",
+   "weight": 700,
+   "size": 81.43,
+   "color": "#fdfdfd",
+   "shadow": "2px 2px 8px rgba(0,0,0,.6)",
+   "spacing": -0.02,
+   "box": [
+    25,
+    395,
+    570,
+    100
+   ],
+   "scale_x": 1.16,
+   "skew": 1.3,
+   "rotate": -0.3,
+   "fit_iou": 0.602
+  },
+  {
+   "type": "line",
+   "x1": 625,
+   "y1": 362,
+   "x2": 692,
+   "y2": 424,
+   "width": 20,
+   "color": "#f0f0f0"
+  },
+  {
+   "type": "line",
+   "x1": 692,
+   "y1": 424,
+   "x2": 625,
+   "y2": 486,
+   "width": 20,
+   "color": "#f0f0f0"
+  },
+  {
+   "type": "line",
+   "x1": 678,
+   "y1": 362,
+   "x2": 745,
+   "y2": 424,
+   "width": 20,
+   "color": "#f0f0f0"
+  },
+  {
+   "type": "line",
+   "x1": 745,
+   "y1": 424,
+   "x2": 678,
+   "y2": 486,
+   "width": 20,
+   "color": "#f0f0f0"
+  },
+  {
+   "type": "text",
+   "text": "58kg",
+   "x": 772.5,
+   "y": 338.0,
+   "font": "Inter",
+   "weight": 700,
+   "size": 146.86,
+   "color": "#fce909",
+   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
+   "spacing": -0.02,
+   "box": [
+    770,
+    365,
+    410,
+    140
+   ],
+   "scale_x": 1.15,
+   "rotate": -0.3,
+   "fit_iou": 0.761
+  },
+  {
+   "type": "text",
+   "text": "簡単ダイエット術",
+   "x": 4.5,
+   "y": 485.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 193.529,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     2,
+     "#fdfdfd"
+    ]
+   ],
+   "shadow": "3px 3px 10px rgba(0,0,0,.6)",
+   "spacing": -0.046,
+   "box": [
+    5,
+    505,
+    1270,
+    210
+   ],
+   "scale_x": 0.926,
+   "skew": 3.3,
+   "rotate": 0.5,
+   "fit_iou": 0.538
+  }
+ ]
+}

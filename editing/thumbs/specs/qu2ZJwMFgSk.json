@@ -1,0 +1,185 @@
+{
+ "id": "qu2ZJwMFgSk",
+ "erase": [
+  {
+   "rect": [
+    16,
+    14,
+    137,
+    138
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    188,
+    14,
+    138,
+    138
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    790,
+    334,
+    480,
+    271
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1030,
+    15,
+    240,
+    200
+   ],
+   "colors": [
+    "#fcfbfa"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    195,
+    760,
+    100
+   ],
+   "colors": [
+    "#fdfcfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    325,
+    735,
+    395
+   ],
+   "colors": [
+    "#fffffe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    755,
+    625,
+    515,
+    90
+   ],
+   "colors": [
+    "#f6f6f6"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red_2.png",
+   "x": 16,
+   "y": 14,
+   "w": 137,
+   "h": 138
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_latin_red.png",
+   "x": 188,
+   "y": 14,
+   "w": 138,
+   "h": 138
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/needles_uniqlo_white_panel.png",
+   "x": 790,
+   "y": 334,
+   "w": 480,
+   "h": 271
+  },
+  {
+   "type": "text",
+   "text": "10/31\n発売",
+   "x": 1148,
+   "y": 20,
+   "anchor": "ct",
+   "align": "center",
+   "box": [
+    1030,
+    15,
+    240,
+    200
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 80,
+   "line": 1.15,
+   "color": "#fcfbfa",
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "ぶっちゃけレビュー",
+   "x": 10,
+   "y": 200,
+   "box": [
+    5,
+    195,
+    760,
+    100
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82,
+   "color": "#fdfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "最高",
+   "x": 40,
+   "y": 330,
+   "box": [
+    40,
+    335,
+    720,
+    370
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 360,
+   "color": "#fffffe",
+   "shadow": "2px 2px 10px rgba(0,0,0,.4)",
+   "spacing": -0.03,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "のルームウェア",
+   "x": 762,
+   "y": 630,
+   "box": [
+    755,
+    625,
+    515,
+    90
+   ],
+   "font": "Noto Sans JP",
+   "weight": 300,
+   "size": 70,
+   "color": "#f6f6f6",
+   "spacing": -0.02,
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

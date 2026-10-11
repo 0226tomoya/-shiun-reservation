@@ -1,0 +1,165 @@
+{
+ "id": "Gbae2_a5beo",
+ "erase": [
+  {
+   "rect": [
+    325,
+    15,
+    910,
+    90
+   ],
+   "colors": [
+    "#f7d23a"
+   ],
+   "tol": 34
+  },
+  {
+   "rect": [
+    395,
+    195,
+    200,
+    110
+   ],
+   "colors": [
+    "#de0414"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    485,
+    300,
+    310,
+    215
+   ],
+   "colors": [
+    "#fcfcfb"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    515,
+    1270,
+    205
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "表参道で女性にインタビュー",
+   "x": 780,
+   "y": 25,
+   "anchor": "ct",
+   "box": [
+    325,
+    15,
+    910,
+    90
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 58,
+   "color": "#f7d23a",
+   "shadow": "2px 2px 6px rgba(0,0,0,.6)",
+   "spacing": 0.08,
+   "scale_x": 1.0
+  },
+  {
+   "type": "line",
+   "x1": 578,
+   "y1": 296,
+   "x2": 520,
+   "y2": 248,
+   "width": 9,
+   "color": "#de0414"
+  },
+  {
+   "type": "line",
+   "x1": 520,
+   "y1": 248,
+   "x2": 455,
+   "y2": 240,
+   "width": 9,
+   "color": "#de0414"
+  },
+  {
+   "type": "line",
+   "x1": 402,
+   "y1": 245,
+   "x2": 455,
+   "y2": 212,
+   "width": 9,
+   "color": "#de0414"
+  },
+  {
+   "type": "line",
+   "x1": 402,
+   "y1": 245,
+   "x2": 455,
+   "y2": 272,
+   "width": 9,
+   "color": "#de0414"
+  },
+  {
+   "type": "text",
+   "text": "164cm\nチビ",
+   "x": 640,
+   "y": 305,
+   "anchor": "ct",
+   "align": "center",
+   "box": [
+    495,
+    310,
+    245,
+    190
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82,
+   "line": 1.15,
+   "color": "#fcfcfb",
+   "shadow": "2px 2px 8px rgba(0,0,0,.6)",
+   "spacing": -0.03,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 640,
+   "y": 520,
+   "anchor": "ct",
+   "box": [
+    5,
+    530,
+    1270,
+    185
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 175,
+   "color": "#fdfdfd",
+   "shadow": "3px 3px 10px rgba(0,0,0,.7)",
+   "spacing": -0.06,
+   "runs": [
+    {
+     "text": "「低身長"
+    },
+    {
+     "text": "は",
+     "size": 110
+    },
+    {
+     "text": "恋愛対象?」"
+    }
+   ],
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

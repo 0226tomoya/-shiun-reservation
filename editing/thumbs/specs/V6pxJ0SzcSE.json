@@ -1,0 +1,205 @@
+{
+ "id": "V6pxJ0SzcSE",
+ "erase": [
+  {
+   "rect": [
+    12,
+    13,
+    1257,
+    9
+   ],
+   "colors": [
+    "#f5f5f5"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    698,
+    1257,
+    9
+   ],
+   "colors": [
+    "#f5f5f5"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    13,
+    9,
+    694
+   ],
+   "colors": [
+    "#f5f5f5"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1258,
+    13,
+    9,
+    694
+   ],
+   "colors": [
+    "#f5f5f5"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    150,
+    520,
+    980,
+    108
+   ],
+   "colors": [
+    "#fcfcfb"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    170,
+    630,
+    940,
+    45
+   ],
+   "colors": [
+    "#f4f2ef"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    25,
+    35,
+    130,
+    155
+   ],
+   "colors": [
+    "#fafaf9"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    915,
+    45,
+    340,
+    100
+   ],
+   "colors": [
+    "#e8e6e4"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 16,
+   "y": 17,
+   "w": 1249,
+   "h": 687,
+   "fill": "rgba(0,0,0,0)",
+   "border": [
+    3,
+    "#f5f5f5"
+   ]
+  },
+  {
+   "type": "text",
+   "x": 641.0,
+   "y": 506.5,
+   "anchor": "ct",
+   "box": [
+    150,
+    520,
+    980,
+    108
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 107.61,
+   "color": "#fcfcfb",
+   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
+   "spacing": -0.078,
+   "scale_x": 1.0,
+   "runs": [
+    {
+     "text": "最近買"
+    },
+    {
+     "text": "ってよかったもの",
+     "size": 91.5
+    }
+   ],
+   "fit_iou": 0.638
+  },
+  {
+   "type": "text",
+   "text": "Gorsch  / COMOLI / LIDNM / ANOTHER OFFICE",
+   "x": 640.0,
+   "y": 739.0,
+   "anchor": "ct",
+   "box": [
+    170,
+    630,
+    940,
+    45
+   ],
+   "font": "Jost",
+   "weight": 500,
+   "size": 30.02,
+   "color": "#f4f2ef",
+   "italic": true,
+   "spacing": 0.19,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "Coat\nKnit\nPants",
+   "x": 38.0,
+   "y": 36.0,
+   "box": [
+    25,
+    35,
+    130,
+    155
+   ],
+   "font": "Jost",
+   "weight": 500,
+   "size": 41.52,
+   "line": 1.2,
+   "color": "#fafaf9",
+   "scale_x": 1.0,
+   "spacing": 0.064,
+   "fit_iou": 0.48
+  },
+  {
+   "type": "text",
+   "text": "2025 Winter",
+   "x": 977.0,
+   "y": 84.5,
+   "box": [
+    915,
+    45,
+    340,
+    100
+   ],
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 66.18,
+   "color": "#e8e6e4",
+   "scale_x": 1.024,
+   "spacing": -0.228,
+   "rotate": -2.15,
+   "fit_iou": 0.075
+  }
+ ],
+ "grow": 15
+}

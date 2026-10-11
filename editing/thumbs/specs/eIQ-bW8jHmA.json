@@ -1,0 +1,212 @@
+{
+ "id": "eIQ-bW8jHmA",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    150
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    17,
+    185,
+    206,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    247,
+    185,
+    206,
+    207
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    822,
+    185,
+    206,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1053,
+    185,
+    206,
+    206
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    425,
+    560,
+    295
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    530,
+    530,
+    745,
+    190
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    560,
+    455,
+    720,
+    70
+   ],
+   "colors": [
+    "#f6ea1b"
+   ],
+   "tol": 34
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1280,
+   "h": 150,
+   "fill": "#3b3b3b"
+  },
+  {
+   "type": "text",
+   "text": "オンラインショッピング",
+   "x": 640,
+   "y": 10,
+   "anchor": "ct",
+   "box": [
+    10,
+    10,
+    1260,
+    135
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 120,
+   "color": "#fdfdfd",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_2.png",
+   "x": 17,
+   "y": 185,
+   "w": 206,
+   "h": 206
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square.png",
+   "x": 247,
+   "y": 185,
+   "w": 206,
+   "h": 207
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/zozotown_black.png",
+   "x": 822,
+   "y": 185,
+   "w": 206,
+   "h": 206
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_cream_square.png",
+   "x": 1053,
+   "y": 185,
+   "w": 206,
+   "h": 206
+  },
+  {
+   "type": "text",
+   "text": "注意",
+   "x": 10,
+   "y": 425,
+   "box": [
+    10,
+    430,
+    540,
+    285
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 270,
+   "color": "#fdfdfd",
+   "shadow": "3px 3px 8px rgba(0,0,0,.4)",
+   "spacing": -0.05,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "すべきこと",
+   "x": 1265,
+   "y": 535,
+   "anchor": "rt",
+   "box": [
+    535,
+    535,
+    740,
+    180
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 170,
+   "color": "#fdfdfd",
+   "shadow": "3px 3px 8px rgba(0,0,0,.4)",
+   "spacing": -0.05,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "低身長ディレクターが解説する",
+   "x": 1270,
+   "y": 460,
+   "anchor": "rt",
+   "box": [
+    560,
+    455,
+    720,
+    70
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 52,
+   "color": "#f6ea1b",
+   "strokes": [
+    [
+     4,
+     "#0f0c0a"
+    ]
+   ],
+   "spacing": -0.03,
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

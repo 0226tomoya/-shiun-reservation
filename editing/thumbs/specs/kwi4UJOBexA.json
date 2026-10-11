@@ -1,0 +1,202 @@
+{
+ "id": "kwi4UJOBexA",
+ "erase": [
+  {
+   "rect": [
+    605,
+    278,
+    70,
+    32
+   ],
+   "colors": [
+    "#f7f7f6"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    195,
+    312,
+    890,
+    105
+   ],
+   "colors": [
+    "#f7f7f6"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    505,
+    418,
+    270,
+    40
+   ],
+   "colors": [
+    "#f7f7f6"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    545,
+    455,
+    190,
+    28
+   ],
+   "colors": [
+    "#f7f7f6"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 605.5,
+   "y": 273.0,
+   "font": "EBGaramond",
+   "weight": 400,
+   "size": 30.85,
+   "color": "#f7f7f6",
+   "tol": 22,
+   "box": [
+    605,
+    278,
+    70,
+    32
+   ],
+   "scale_x": 0.859,
+   "skew": 0.3,
+   "fit_iou": 0.353
+  },
+  {
+   "type": "text",
+   "x": 203.0,
+   "y": 297.2,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 98.851,
+   "color": "#f7f7f6",
+   "strokes": [
+    [
+     1.5,
+     "#f7f7f6"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "spacing": 0.006,
+   "tol": 22,
+   "box": [
+    200,
+    308,
+    275,
+    105
+   ],
+   "text": "低身長",
+   "scale_x": 0.911,
+   "skew": -1,
+   "fit_iou": 0.611
+  },
+  {
+   "type": "text",
+   "x": 473.0,
+   "y": 332.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 69.888,
+   "color": "#f7f7f6",
+   "strokes": [
+    [
+     1.5,
+     "#f7f7f6"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "spacing": 0,
+   "tol": 22,
+   "box": [
+    476,
+    330,
+    70,
+    85
+   ],
+   "text": "の",
+   "scale_x": 0.948,
+   "rotate": 0.15,
+   "fit_iou": 0.655
+  },
+  {
+   "type": "text",
+   "x": 541.0,
+   "y": 304.7,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 87.82,
+   "color": "#f7f7f6",
+   "strokes": [
+    [
+     1.5,
+     "#f7f7f6"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "spacing": 0.002,
+   "tol": 22,
+   "box": [
+    543,
+    308,
+    540,
+    105
+   ],
+   "text": "大人スタイル",
+   "scale_x": 1.024,
+   "rotate": -0.15,
+   "fit_iou": 0.483
+  },
+  {
+   "type": "text",
+   "text": "26 Spring 1st Collection",
+   "x": 512.5,
+   "y": 412.5,
+   "font": "EBGaramond",
+   "weight": 400,
+   "size": 36.057,
+   "color": "#f7f7f6",
+   "tol": 22,
+   "box": [
+    505,
+    418,
+    270,
+    40
+   ],
+   "scale_x": 0.775,
+   "skew": 5,
+   "rotate": 0.0,
+   "fit_iou": 0.266
+  },
+  {
+   "type": "text",
+   "text": "January 24th Sat. 10pm - Release",
+   "x": 553.5,
+   "y": 458.0,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "size": 16.737,
+   "scale_x": 0.706,
+   "color": "#f7f7f6",
+   "tol": 22,
+   "box": [
+    545,
+    455,
+    190,
+    28
+   ],
+   "skew": 3,
+   "spacing": -0.008,
+   "rotate": -0.3,
+   "fit_iou": 0.25
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "id": "CFzF147E7vc",
+ "erase": [
+  {
+   "rect": [
+    30,
+    30,
+    160,
+    160
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff",
+    "#555555"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    765,
+    35,
+    135,
+    60
+   ],
+   "colors": [
+    "#e02020"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    890,
+    65,
+    375,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    0,
+    225,
+    440,
+    185
+   ],
+   "colors": [
+    "#ffffff",
+    "#0c0c0c"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    820,
+    215,
+    460,
+    170
+   ],
+   "colors": [
+    "#ffffff",
+    "#0c0c0c"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    395,
+    1280,
+    325
+   ],
+   "colors": [
+    "#ffffff",
+    "#0c0c0c"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_small.png",
+   "x": 35,
+   "y": 34,
+   "w": 143,
+   "h": 143
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/arrow_red_curve.png",
+   "x": 771,
+   "y": 39,
+   "w": 123,
+   "h": 49
+  },
+  {
+   "type": "text",
+   "text": "低身長デザイナー",
+   "x": 918.0,
+   "y": 62.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 57.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "box": [
+    890,
+    65,
+    375,
+    70
+   ],
+   "tol": 25,
+   "scale_x": 0.793,
+   "spacing": 0.004,
+   "skew": -0.7,
+   "fit_iou": 0.238
+  },
+  {
+   "type": "text",
+   "text": "これは",
+   "x": 4.5,
+   "y": 403.5,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 172.01,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     7,
+     "#0c0c0c"
+    ]
+   ],
+   "shadow": "5px 5px 6px rgba(0,0,0,.45)",
+   "box": [
+    6,
+    236,
+    422,
+    172
+   ],
+   "tol": 30,
+   "scale_x": 0.829,
+   "rotate": -2.0,
+   "skew": 2.3,
+   "fit_iou": 0.214
+  },
+  {
+   "type": "text",
+   "text": "良すぎる",
+   "x": 812.5,
+   "y": 368.5,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 148.261,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     7,
+     "#0c0c0c"
+    ]
+   ],
+   "shadow": "5px 5px 6px rgba(0,0,0,.45)",
+   "box": [
+    826,
+    221,
+    442,
+    162
+   ],
+   "tol": 30,
+   "scale_x": 1.003,
+   "rotate": -0.5,
+   "fit_iou": 0.24
+  },
+  {
+   "type": "text",
+   "text": "今スグ買って",
+   "x": -35.5,
+   "y": 729.5,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 310.67,
+   "line": 1.0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     7,
+     "#0c0c0c"
+    ]
+   ],
+   "shadow": "5px 5px 6px rgba(0,0,0,.45)",
+   "box": [
+    9,
+    396,
+    1262,
+    320
+   ],
+   "tol": 30,
+   "scale_x": 0.877,
+   "spacing": -0.04,
+   "skew": -4,
+   "rotate": -0.8,
+   "fit_iou": 0.332
+  }
+ ]
+}

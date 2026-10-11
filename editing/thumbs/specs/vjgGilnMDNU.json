@@ -1,0 +1,354 @@
+{
+ "id": "vjgGilnMDNU",
+ "erase": [
+  {
+   "rect": [
+    20,
+    0,
+    1240,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    40,
+    440,
+    500,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    0,
+    475,
+    1280,
+    245
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    0,
+    627,
+    1280,
+    84
+   ],
+   "colors": [
+    "#3b3b3b",
+    "#1c1c1c",
+    "#ffffff"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 627,
+   "w": 1280,
+   "h": 84,
+   "fill": "#000",
+   "opacity": 0.74
+  },
+  {
+   "type": "text",
+   "text": "股上",
+   "x": 46.0,
+   "y": 24.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 45.022,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -14.3,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    18,
+    5,
+    114,
+    80
+   ],
+   "scale_x": 0.928,
+   "spacing": 0.338,
+   "rotate": -1.2,
+   "fit_iou": 0.278,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "股下",
+   "x": 192.0,
+   "y": 21.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 45.595,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -15.1,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    168,
+    5,
+    119,
+    80
+   ],
+   "scale_x": 1.005,
+   "spacing": 0.252,
+   "rotate": 1.0,
+   "fit_iou": 0.292,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "わたり幅",
+   "x": 338.0,
+   "y": 21.5,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 44.22,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -13,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    318,
+    5,
+    209,
+    80
+   ],
+   "scale_x": 1.02,
+   "spacing": 0.018,
+   "rotate": 0.6,
+   "fit_iou": 0.24,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "裾幅",
+   "x": 569.0,
+   "y": 20.5,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 43.854,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -11.7,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    541,
+    5,
+    111,
+    80
+   ],
+   "scale_x": 0.966,
+   "spacing": 0.198,
+   "rotate": 2.25,
+   "fit_iou": 0.278,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "着丈",
+   "x": 714.0,
+   "y": 22.5,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 46.07,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -8,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    678,
+    5,
+    112,
+    80
+   ],
+   "scale_x": 0.744,
+   "spacing": 0.602,
+   "rotate": -1.65,
+   "fit_iou": 0.342,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "身幅",
+   "x": 864.5,
+   "y": 16.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 46.606,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -7,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    841,
+    5,
+    111,
+    80
+   ],
+   "scale_x": 0.949,
+   "spacing": 0.116,
+   "rotate": 3.5,
+   "fit_iou": 0.266,
+   "tol": 10
+  },
+  {
+   "type": "text",
+   "text": "肩幅",
+   "x": 1004.5,
+   "y": 22.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 45.97,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -12,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    983,
+    5,
+    112,
+    80
+   ],
+   "scale_x": 1.027,
+   "spacing": 0.132,
+   "fit_iou": 0.277,
+   "tol": 10,
+   "rotate": 0.2
+  },
+  {
+   "type": "text",
+   "text": "袖丈",
+   "x": 1151.0,
+   "y": 20.5,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 46.312,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "skew": -18,
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "box": [
+    1128,
+    5,
+    121,
+    80
+   ],
+   "scale_x": 1.024,
+   "spacing": 0.112,
+   "fit_iou": 0.272,
+   "tol": 10,
+   "rotate": -2.0
+  },
+  {
+   "type": "rect",
+   "x": 61,
+   "y": 451,
+   "w": 28,
+   "h": 28,
+   "fill": "#fff",
+   "radius": 14
+  },
+  {
+   "type": "rect",
+   "x": 276,
+   "y": 451,
+   "w": 28,
+   "h": 28,
+   "fill": "#fff",
+   "radius": 14
+  },
+  {
+   "type": "rect",
+   "x": 473,
+   "y": 451,
+   "w": 28,
+   "h": 28,
+   "fill": "#fff",
+   "radius": 14
+  },
+  {
+   "type": "text",
+   "text": "低身長サイズ表",
+   "x": 10.0,
+   "y": 448.5,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 230.68,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "box": [
+    0,
+    475,
+    1280,
+    245
+   ],
+   "scale_x": 0.794,
+   "rotate": 0,
+   "skew": 1.9,
+   "fit_iou": 0.439,
+   "tol": 10,
+   "spacing": -0.006
+  }
+ ]
+}

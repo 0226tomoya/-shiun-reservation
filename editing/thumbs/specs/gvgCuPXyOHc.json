@@ -1,0 +1,129 @@
+{
+ "id": "gvgCuPXyOHc",
+ "erase": [
+  {
+   "rect": [
+    20,
+    300,
+    1230,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    25,
+    605,
+    310,
+    35
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    25,
+    642,
+    200,
+    25
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "x": 30,
+   "y": 288,
+   "font": "KaiseiOpti",
+   "weight": 700,
+   "size": 84,
+   "color": "#ffffff",
+   "shadow": "2px 2px 6px rgba(0,0,0,.45)",
+   "tol": 30,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    20,
+    300,
+    1230,
+    100
+   ],
+   "runs": [
+    {
+     "text": "シンプル"
+    },
+    {
+     "text": "で",
+     "size": 52
+    },
+    {
+     "text": "カッコいい低身長"
+    },
+    {
+     "text": "の",
+     "size": 52
+    },
+    {
+     "text": "秋コーデ"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "shiun 26 Fall 2nd Collection",
+   "x": 33.5,
+   "y": 610.0,
+   "font": "Lora",
+   "weight": 700,
+   "size": 30.0,
+   "color": "#ffffff",
+   "scale_x": 0.743,
+   "tol": 45,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.359,
+   "box": [
+    25,
+    605,
+    310,
+    35
+   ]
+  },
+  {
+   "type": "text",
+   "text": "2026.9.26 sat 10pm - Release",
+   "x": 33.5,
+   "y": 645.0,
+   "font": "Lora",
+   "weight": 700,
+   "size": 18.782,
+   "color": "#ffffff",
+   "scale_x": 0.738,
+   "tol": 45,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.359,
+   "box": [
+    25,
+    642,
+    200,
+    25
+   ]
+  }
+ ]
+}

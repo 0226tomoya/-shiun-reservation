@@ -1,0 +1,94 @@
+{
+ "id": "ewsvzFBUuPM",
+ "erase": [
+  {
+   "rect": [
+    5,
+    205,
+    610,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    5,
+    320,
+    1272,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "低身長メンズ",
+   "x": 8.5,
+   "y": 190.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 125.701,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    5,
+    205,
+    610,
+    120
+   ],
+   "tol": 10,
+   "scale_x": 0.809,
+   "skew": -2,
+   "spacing": 0.002,
+   "rotate": -0.3,
+   "fit_iou": 0.467
+  },
+  {
+   "type": "text",
+   "x": 0.5,
+   "y": 316,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "box": [
+    5,
+    325,
+    1272,
+    160
+   ],
+   "tol": 10,
+   "scale_x": 1,
+   "spacing": 0,
+   "skew": -2.7,
+   "fit_iou": 0.263,
+   "runs": [
+    {
+     "text": "明るい色"
+    },
+    {
+     "text": "の",
+     "size": 100
+    },
+    {
+     "text": "取り入れ方"
+    }
+   ],
+   "rotate": -0.15,
+   "no_init": true,
+   "lock": [
+    "size",
+    "scale_x",
+    "spacing"
+   ]
+  }
+ ]
+}

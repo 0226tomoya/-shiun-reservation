@@ -1,0 +1,89 @@
+{
+ "id": "Erj8ujoPAIQ",
+ "erase": [
+  {
+   "rect": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    250,
+    428,
+    780,
+    46
+   ],
+   "colors": [
+    "#f8f9fa"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "x": 592.0,
+   "y": 268.0,
+   "anchor": "ct",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 152.92,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "spacing": -0.024,
+   "scale_x": 1.0,
+   "runs": [
+    {
+     "text": "大人"
+    },
+    {
+     "text": "の",
+     "size": 124.98
+    },
+    {
+     "text": "秋冬"
+    },
+    {
+     "text": "コーデ",
+     "size": 124.98
+    }
+   ],
+   "fit_iou": 0.508
+  },
+  {
+   "type": "text",
+   "text": "2025-26 Autumn&Winter Men’s Outfits 13",
+   "x": 638.0,
+   "y": 429.0,
+   "anchor": "ct",
+   "box": [
+    250,
+    428,
+    780,
+    46
+   ],
+   "font": "Jost",
+   "weight": 500,
+   "size": 36.18,
+   "color": "#f8f9fa",
+   "spacing": 0.066,
+   "shadow": "1px 1px 4px rgba(0,0,0,.35)",
+   "scale_x": 1.0,
+   "fit_iou": 0.352
+  }
+ ],
+ "grow": 15
+}

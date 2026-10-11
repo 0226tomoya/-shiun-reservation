@@ -1,0 +1,109 @@
+{
+ "id": "5MzX7s3bgT8",
+ "erase": [
+  {
+   "rect": [
+    18,
+    24,
+    1240,
+    680
+   ],
+   "full": false,
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    40,
+    46,
+    265,
+    120
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  [
+   125,
+   300,
+   1030,
+   60
+  ],
+  [
+   290,
+   365,
+   700,
+   35
+  ]
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 20,
+   "y": 26,
+   "w": 1234,
+   "h": 674,
+   "fill": "transparent",
+   "border": [
+    5,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_wide.png",
+   "x": 43,
+   "y": 49,
+   "w": 259,
+   "h": 114
+  },
+  {
+   "type": "text",
+   "text": "絶対買うべきユニクロ春アイテム2選",
+   "x": 126.5,
+   "y": 298.5,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 51.51,
+   "color": "#ffffff",
+   "spacing": 0.19,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "box": [
+    125,
+    300,
+    1030,
+    60
+   ],
+   "tol": 14,
+   "scale_x": 1.0,
+   "skew": 4.2,
+   "fit_iou": 0.649
+  },
+  {
+   "type": "text",
+   "text": "新作のシャツジャケットが最高すぎた",
+   "x": 295.0,
+   "y": 360.0,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 31.23,
+   "color": "#ffffff",
+   "spacing": 0.202,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "box": [
+    290,
+    365,
+    700,
+    35
+   ],
+   "tol": 14,
+   "scale_x": 1.084,
+   "skew": -3.5,
+   "fit_iou": 0.614
+  }
+ ]
+}

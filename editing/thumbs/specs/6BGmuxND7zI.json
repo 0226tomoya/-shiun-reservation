@@ -1,0 +1,248 @@
+{
+ "id": "6BGmuxND7zI",
+ "erase": [
+  {
+   "rect": [
+    255,
+    412,
+    1010,
+    62
+   ],
+   "colors": [
+    "#424242",
+    "#0a1206",
+    "#505050"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    410,
+    165,
+    705,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    265,
+    285,
+    995,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    545,
+    520,
+    700,
+    150
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    8,
+    28,
+    125,
+    465
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 258,
+   "y": 414,
+   "w": 1004,
+   "h": 57,
+   "fill": "#000",
+   "opacity": 0.6
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "が",
+     "size": 80
+    },
+    {
+     "text": "買うべき"
+    }
+   ],
+   "x": 441.5,
+   "y": 146.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 141.39,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.45)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    410,
+    165,
+    705,
+    135
+   ],
+   "tol": 20,
+   "scale_x": 0.67,
+   "spacing": -0.032,
+   "skew": 3,
+   "rotate": 0.15,
+   "fit_iou": 0.25
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "スラ"
+    },
+    {
+     "text": "ッ",
+     "size": 110
+    },
+    {
+     "text": "クス"
+    },
+    {
+     "text": "とは?",
+     "size": 110
+    }
+   ],
+   "x": 265.0,
+   "y": 236.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 234.42,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.45)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    265,
+    285,
+    995,
+    190
+   ],
+   "tol": 20,
+   "scale_x": 0.755,
+   "spacing": -0.008,
+   "skew": 1.3,
+   "fit_iou": 0.306
+  },
+  {
+   "type": "text",
+   "text": "flare",
+   "x": 542.0,
+   "y": 557.0,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 95.41,
+   "rotate": -8,
+   "color": "#ffffff",
+   "box": [
+    545,
+    540,
+    200,
+    130
+   ],
+   "tol": 35,
+   "scale_x": 1.429,
+   "spacing": 0.018,
+   "fit_iou": 0.068
+  },
+  {
+   "type": "text",
+   "text": "straight",
+   "x": 768.5,
+   "y": 556.5,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 95.158,
+   "rotate": -8.15,
+   "color": "#ffffff",
+   "box": [
+    765,
+    520,
+    260,
+    140
+   ],
+   "tol": 35,
+   "scale_x": 1.028,
+   "spacing": -0.02,
+   "fit_iou": 0.114
+  },
+  {
+   "type": "text",
+   "text": "wide",
+   "x": 1068.5,
+   "y": 513.0,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 145.64,
+   "rotate": -8,
+   "color": "#ffffff",
+   "box": [
+    1075,
+    520,
+    165,
+    130
+   ],
+   "tol": 35,
+   "scale_x": 0.852,
+   "spacing": -0.006,
+   "fit_iou": 0.056
+  },
+  {
+   "type": "text",
+   "text": "低身長のカリスマが解説!!",
+   "x": 43.0,
+   "y": 50.5,
+   "anchor": "ct",
+   "vertical": true,
+   "rotate": -1.5,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 34.73,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "box": [
+    8,
+    28,
+    125,
+    465
+   ],
+   "tol": 30,
+   "scale_x": 1.478,
+   "spacing": -0.002,
+   "fit_iou": 0.187
+  }
+ ]
+}

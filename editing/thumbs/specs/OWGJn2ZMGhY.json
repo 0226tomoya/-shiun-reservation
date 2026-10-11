@@ -1,0 +1,253 @@
+{
+ "id": "OWGJn2ZMGhY",
+ "erase": [
+  {
+   "rect": [
+    20,
+    355,
+    345,
+    265
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    360,
+    405,
+    885,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    137,
+    640,
+    376,
+    39
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    568,
+    637,
+    144,
+    49
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    765,
+    632,
+    194,
+    42
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    994,
+    618,
+    166,
+    67
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    20,
+    15,
+    1242,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    696,
+    1242,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    15,
+    10,
+    691
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1251,
+    15,
+    10,
+    691
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    139,
+    642,
+    372,
+    35
+   ],
+   "colors": [
+    "#909090",
+    "#f0f0f0",
+    "#303030",
+    "#b0b0b0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    570,
+    639,
+    140,
+    45
+   ],
+   "colors": [
+    "#909090",
+    "#9090b0",
+    "#f0f0f0",
+    "#b0b0b0"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    767,
+    634,
+    190,
+    38
+   ],
+   "colors": [
+    "#909090",
+    "#f0f0f0",
+    "#707070",
+    "#101030"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    996,
+    620,
+    162,
+    63
+   ],
+   "colors": [
+    "#909090",
+    "#9090b0",
+    "#101030",
+    "#103050"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 24,
+   "y": 19,
+   "w": 1234,
+   "h": 684,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/maateesons_white_owgj.png",
+   "x": 139,
+   "y": 642,
+   "w": 372,
+   "h": 35
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/seya_white_owgj.png",
+   "x": 570,
+   "y": 639,
+   "w": 140,
+   "h": 45
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/hermes_white_owgj.png",
+   "x": 767,
+   "y": 634,
+   "w": 190,
+   "h": 38
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/kaneisa_script_white_owgj.png",
+   "x": 996,
+   "y": 620,
+   "w": 162,
+   "h": 63
+  },
+  {
+   "type": "text",
+   "text": "20",
+   "x": 19.0,
+   "y": 319.5,
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 336.227,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": -0.026,
+   "shadow": "0 0 10px rgba(0,0,0,.25)",
+   "tol": 15,
+   "scale_x": 0.855,
+   "rotate": -0.65,
+   "skew": 0.3,
+   "fit_iou": 0.676
+  },
+  {
+   "type": "text",
+   "text": "万円分購入",
+   "x": 355.5,
+   "y": 396.5,
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 208.22,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": -0.058,
+   "shadow": "0 0 10px rgba(0,0,0,.25)",
+   "tol": 15,
+   "scale_x": 0.898,
+   "fit_iou": 0.722
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "w10xnF1MZ7g",
+ "erase": [
+  {
+   "rect": [
+    12,
+    14,
+    1257,
+    7
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    700,
+    1257,
+    7
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    14,
+    7,
+    693
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1262,
+    14,
+    7,
+    693
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    225,
+    290,
+    840,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    100,
+    344,
+    1080,
+    78
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 14,
+   "y": 16,
+   "w": 1253,
+   "h": 689,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "低身長アパレルディレクターが購入した",
+   "x": 233.0,
+   "y": 287.5,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 48.42,
+   "color": "#ffffff",
+   "spacing": 0.082,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    225,
+    290,
+    840,
+    52
+   ],
+   "scale_x": 0.88,
+   "skew": -2.6,
+   "fit_iou": 0.557
+  },
+  {
+   "type": "text",
+   "text": "2025年のベストバイ発表します",
+   "x": 108.0,
+   "y": 339.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 71.32,
+   "color": "#ffffff",
+   "spacing": 0.08,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    100,
+    344,
+    1080,
+    78
+   ],
+   "scale_x": 0.954,
+   "skew": 3,
+   "fit_iou": 0.664
+  }
+ ]
+}

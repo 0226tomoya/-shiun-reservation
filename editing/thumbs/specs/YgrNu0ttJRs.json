@@ -1,0 +1,210 @@
+{
+ "id": "YgrNu0ttJRs",
+ "erase": [
+  {
+   "rect": [
+    10,
+    0,
+    1265,
+    180
+   ],
+   "colors": [
+    "#fcfcfb"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    505,
+    1270,
+    215
+   ],
+   "colors": [
+    "#fadf1f"
+   ],
+   "tol": 34
+  },
+  {
+   "rect": [
+    878,
+    428,
+    384,
+    64
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    360,
+    275,
+    150,
+    60
+   ],
+   "colors": [
+    "#da0719"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    490,
+    370,
+    150,
+    100
+   ],
+   "colors": [
+    "#f6f8f9"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "x": 628.5,
+   "y": -11.5,
+   "anchor": "ct",
+   "box": [
+    10,
+    15,
+    1260,
+    155
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 160.97,
+   "color": "#fcfcfb",
+   "shadow": "4px 4px 8px rgba(0,0,0,.5)",
+   "spacing": -0.101,
+   "runs": [
+    {
+     "text": "男性"
+    },
+    {
+     "text": "の",
+     "size": 101.66
+    },
+    {
+     "text": "理想"
+    },
+    {
+     "text": "の",
+     "size": 101.66
+    },
+    {
+     "text": "身長は?"
+    }
+   ],
+   "scale_x": 0.996,
+   "fit_iou": 0.672
+  },
+  {
+   "type": "text",
+   "text": "意外な結果に...",
+   "x": 653.5,
+   "y": 477.0,
+   "anchor": "ct",
+   "box": [
+    5,
+    515,
+    1270,
+    200
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 204.94,
+   "color": "#fadf1f",
+   "shadow": "4px 4px 8px rgba(0,0,0,.5)",
+   "spacing": -0.084,
+   "scale_x": 0.996,
+   "fit_iou": 0.655
+  },
+  {
+   "type": "rect",
+   "x": 880,
+   "y": 430,
+   "w": 380,
+   "h": 60,
+   "fill": "#060506",
+   "opacity": 0.9
+  },
+  {
+   "type": "text",
+   "text": "街頭インタビュー",
+   "x": 1086.0,
+   "y": 458.0,
+   "anchor": "cc",
+   "box": [
+    880,
+    430,
+    380,
+    60
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 48.55,
+   "color": "#f9f9f9",
+   "scale_x": 1.0,
+   "spacing": -0.05,
+   "fit_iou": 0.543
+  },
+  {
+   "type": "line",
+   "x1": 500,
+   "y1": 328,
+   "x2": 420,
+   "y2": 290,
+   "width": 7,
+   "color": "#da0719"
+  },
+  {
+   "type": "line",
+   "x1": 420,
+   "y1": 290,
+   "x2": 375,
+   "y2": 293,
+   "width": 7,
+   "color": "#da0719"
+  },
+  {
+   "type": "line",
+   "x1": 375,
+   "y1": 293,
+   "x2": 398,
+   "y2": 278,
+   "width": 7,
+   "color": "#da0719"
+  },
+  {
+   "type": "line",
+   "x1": 375,
+   "y1": 293,
+   "x2": 398,
+   "y2": 306,
+   "width": 7,
+   "color": "#da0719"
+  },
+  {
+   "type": "text",
+   "text": "164cm\nチビ",
+   "x": 497.0,
+   "y": 354.0,
+   "box": [
+    490,
+    370,
+    150,
+    95
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 43.41,
+   "line": 1.4,
+   "color": "#f6f8f9",
+   "spacing": 0.046,
+   "scale_x": 1.0,
+   "fit_iou": 0.176
+  }
+ ],
+ "grow": 19
+}

@@ -1,0 +1,256 @@
+{
+ "id": "oywMby99ZZU",
+ "erase": [
+  {
+   "rect": [
+    11,
+    11,
+    177,
+    177
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    13,
+    13,
+    173,
+    173
+   ],
+   "colors": [
+    "#23ac38",
+    "#0079c4",
+    "#ffffff"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    210,
+    18,
+    355,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    5,
+    450,
+    565,
+    265
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    760,
+    60,
+    520,
+    640
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/familymart_sq_oywm.png",
+   "x": 13,
+   "y": 13,
+   "w": 173,
+   "h": 173
+  },
+  {
+   "type": "text",
+   "text": "低身長のカリスマが解説!!",
+   "x": 216.0,
+   "y": 48.5,
+   "size": 26.035,
+   "line": 1.0,
+   "box": [
+    207,
+    13,
+    359,
+    71
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "color": "#ffffff",
+   "rotate": -5,
+   "shadow": "0 0 6px rgba(0,0,0,.7)",
+   "tol": 18,
+   "scale_x": 1.133,
+   "skew": -4,
+   "spacing": 0.004,
+   "fit_iou": 0.18
+  },
+  {
+   "type": "text",
+   "line": 1.0,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "text": "今話題の",
+   "x": 11.5,
+   "y": 465.0,
+   "size": 139.953,
+   "rotate": -3,
+   "box": [
+    4,
+    448,
+    337,
+    143
+   ],
+   "scale_x": 0.609,
+   "spacing": 0.002,
+   "fit_iou": 0.291
+  },
+  {
+   "type": "text",
+   "text": "セットアップ",
+   "x": -1.5,
+   "y": 574.5,
+   "size": 149.64,
+   "line": 1.0,
+   "box": [
+    7,
+    548,
+    564,
+    172
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "rotate": -3,
+   "scale_x": 0.621,
+   "skew": -1.3,
+   "fit_iou": 0.244
+  },
+  {
+   "type": "text",
+   "text": "実",
+   "x": 754.0,
+   "y": 12.5,
+   "size": 272.995,
+   "line": 1.0,
+   "box": [
+    775,
+    58,
+    266,
+    263
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 0.946,
+   "skew": 5.2,
+   "rotate": -0.65,
+   "fit_iou": 0.493
+  },
+  {
+   "type": "text",
+   "text": "際",
+   "x": 967.5,
+   "y": 149.0,
+   "size": 279.706,
+   "line": 1.0,
+   "box": [
+    978,
+    148,
+    298,
+    293
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 1.047,
+   "rotate": 3.45,
+   "fit_iou": 0.404
+  },
+  {
+   "type": "text",
+   "text": "買",
+   "x": 710.0,
+   "y": 322.5,
+   "size": 279.155,
+   "line": 1.0,
+   "box": [
+    758,
+    358,
+    283,
+    283
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 1.055,
+   "rotate": 1.0,
+   "skew": 8.5,
+   "fit_iou": 0.486
+  },
+  {
+   "type": "text",
+   "text": "い",
+   "x": 988.0,
+   "y": 466.0,
+   "size": 229.038,
+   "line": 1.0,
+   "box": [
+    998,
+    515,
+    163,
+    174
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 0.859,
+   "rotate": 0.8,
+   "fit_iou": 0.5
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 1082.0,
+   "y": 441.5,
+   "size": 263.24,
+   "line": 1.0,
+   "box": [
+    1128,
+    468,
+    152,
+    232
+   ],
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.95), 4px 4px 10px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 1.589,
+   "rotate": -0.85,
+   "fit_iou": 0.278
+  }
+ ]
+}

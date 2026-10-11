@@ -1,0 +1,112 @@
+{
+ "id": "YEYOvWXjZAs",
+ "erase": [
+  {
+   "rect": [
+    150,
+    300,
+    985,
+    68
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    150,
+    366,
+    985,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    495,
+    222,
+    290,
+    58
+   ],
+   "colors": [
+    "#141414"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    564,
+    440,
+    152,
+    72
+   ],
+   "colors": [
+    "#fb0201",
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/jwanderson_black.png",
+   "x": 495,
+   "y": 222,
+   "w": 290,
+   "h": 58,
+   "color": "#141414"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_double.png",
+   "x": 566,
+   "y": 442,
+   "w": 148,
+   "h": 68,
+   "color": "#fb0201"
+  },
+  {
+   "type": "text",
+   "text": "今UNIQLOでシャツ買うならコレ",
+   "x": 655.0,
+   "y": 333.5,
+   "anchor": "cc",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "size": 53.04,
+   "color": "#ffffff",
+   "spacing": 0.12,
+   "scale_x": 1.075,
+   "fit_iou": 0.433,
+   "tol": 10,
+   "lock": [
+    "skew",
+    "rotate"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "~3000円以下で買えるデニムも紹介~",
+   "x": 651.5,
+   "y": 391.5,
+   "anchor": "cc",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "size": 39.55,
+   "color": "#ffffff",
+   "spacing": 0.126,
+   "scale_x": 1.051,
+   "fit_iou": 0.494,
+   "tol": 10,
+   "lock": [
+    "skew",
+    "rotate"
+   ]
+  }
+ ]
+}

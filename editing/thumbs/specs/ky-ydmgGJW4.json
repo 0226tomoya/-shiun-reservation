@@ -1,0 +1,639 @@
+{
+ "id": "ky-ydmgGJW4",
+ "erase": [
+  {
+   "rect": [
+    10,
+    29,
+    235,
+    196
+   ],
+   "colors": [
+    "#ffffff",
+    "#171717",
+    "#cfcfcf"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    250,
+    29,
+    235,
+    196
+   ],
+   "colors": [
+    "#ffffff",
+    "#171717",
+    "#cfcfcf"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    490,
+    29,
+    235,
+    196
+   ],
+   "colors": [
+    "#ffffff",
+    "#171717",
+    "#cfcfcf"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    130,
+    228,
+    235,
+    196
+   ],
+   "colors": [
+    "#ffffff",
+    "#171717",
+    "#cfcfcf"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    370,
+    228,
+    235,
+    196
+   ],
+   "colors": [
+    "#ffffff",
+    "#171717",
+    "#cfcfcf"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    1170,
+    25,
+    100,
+    485
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    30,
+    440,
+    1240,
+    280
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 31,
+   "w": 231,
+   "h": 191,
+   "fill": "#171717",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 31,
+   "w": 231,
+   "h": 156,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 161,
+   "w": 231,
+   "h": 26,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 23,
+   "y": 43,
+   "w": 34,
+   "h": 34,
+   "fill": "#cfcfcf",
+   "radius": 17
+  },
+  {
+   "type": "rect",
+   "x": 35,
+   "y": 49,
+   "w": 11,
+   "h": 11,
+   "fill": "#0c0c0c",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 32,
+   "y": 60,
+   "w": 17,
+   "h": 13,
+   "fill": "#0c0c0c",
+   "radius": "8px 8px 2px 2px"
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 30,
+   "y": 195,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 12,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": ">",
+   "x": 217,
+   "y": 193,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 13,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "2万円以下でオススメの\nローファーは?",
+   "x": 21.0,
+   "y": 104.5,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 19.01,
+   "line": 1.37,
+   "color": "#111111",
+   "box": [
+    17,
+    101,
+    222,
+    60
+   ],
+   "tol": 40,
+   "scale_x": 0.959,
+   "spacing": 0.002,
+   "fit_iou": 0.534
+  },
+  {
+   "type": "rect",
+   "x": 252,
+   "y": 31,
+   "w": 231,
+   "h": 191,
+   "fill": "#171717",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 252,
+   "y": 31,
+   "w": 231,
+   "h": 156,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 252,
+   "y": 161,
+   "w": 231,
+   "h": 26,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 263,
+   "y": 43,
+   "w": 34,
+   "h": 34,
+   "fill": "#cfcfcf",
+   "radius": 17
+  },
+  {
+   "type": "rect",
+   "x": 275,
+   "y": 49,
+   "w": 11,
+   "h": 11,
+   "fill": "#0c0c0c",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 272,
+   "y": 60,
+   "w": 17,
+   "h": 13,
+   "fill": "#0c0c0c",
+   "radius": "8px 8px 2px 2px"
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 270,
+   "y": 195,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 12,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": ">",
+   "x": 457,
+   "y": 193,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 13,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "自信がなくなった時に\nやっていることは?",
+   "x": 263.0,
+   "y": 105.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 19.0,
+   "line": 1.37,
+   "color": "#111111",
+   "box": [
+    257,
+    101,
+    222,
+    60
+   ],
+   "tol": 40,
+   "scale_x": 0.968,
+   "spacing": -0.006,
+   "skew": 0.7,
+   "fit_iou": 0.59
+  },
+  {
+   "type": "rect",
+   "x": 492,
+   "y": 31,
+   "w": 231,
+   "h": 191,
+   "fill": "#171717",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 492,
+   "y": 31,
+   "w": 231,
+   "h": 156,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 492,
+   "y": 161,
+   "w": 231,
+   "h": 26,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 503,
+   "y": 43,
+   "w": 34,
+   "h": 34,
+   "fill": "#cfcfcf",
+   "radius": 17
+  },
+  {
+   "type": "rect",
+   "x": 515,
+   "y": 49,
+   "w": 11,
+   "h": 11,
+   "fill": "#0c0c0c",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 512,
+   "y": 60,
+   "w": 17,
+   "h": 13,
+   "fill": "#0c0c0c",
+   "radius": "8px 8px 2px 2px"
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 510,
+   "y": 195,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 12,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": ">",
+   "x": 697,
+   "y": 193,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 13,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "最近の人生のテーマは？",
+   "x": 502.0,
+   "y": 104.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 19.07,
+   "line": 1.37,
+   "color": "#111111",
+   "box": [
+    497,
+    101,
+    222,
+    60
+   ],
+   "tol": 40,
+   "scale_x": 0.963,
+   "skew": 3,
+   "rotate": 0.5,
+   "spacing": 0.002,
+   "fit_iou": 0.589
+  },
+  {
+   "type": "rect",
+   "x": 132,
+   "y": 230,
+   "w": 231,
+   "h": 191,
+   "fill": "#171717",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 132,
+   "y": 230,
+   "w": 231,
+   "h": 156,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 132,
+   "y": 360,
+   "w": 231,
+   "h": 26,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 143,
+   "y": 242,
+   "w": 34,
+   "h": 34,
+   "fill": "#cfcfcf",
+   "radius": 17
+  },
+  {
+   "type": "rect",
+   "x": 155,
+   "y": 248,
+   "w": 11,
+   "h": 11,
+   "fill": "#0c0c0c",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 152,
+   "y": 259,
+   "w": 17,
+   "h": 13,
+   "fill": "#0c0c0c",
+   "radius": "8px 8px 2px 2px"
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 150,
+   "y": 394,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 12,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": ">",
+   "x": 337,
+   "y": 392,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 13,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "フォロワー増やすために\nすべきことは?",
+   "x": 139.0,
+   "y": 305.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 18.55,
+   "line": 1.37,
+   "color": "#111111",
+   "box": [
+    137,
+    300,
+    222,
+    60
+   ],
+   "tol": 40,
+   "scale_x": 0.999,
+   "skew": 3,
+   "spacing": -0.004,
+   "rotate": -0.15,
+   "fit_iou": 0.592
+  },
+  {
+   "type": "rect",
+   "x": 372,
+   "y": 230,
+   "w": 231,
+   "h": 191,
+   "fill": "#171717",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 372,
+   "y": 230,
+   "w": 231,
+   "h": 156,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 372,
+   "y": 360,
+   "w": 231,
+   "h": 26,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 383,
+   "y": 242,
+   "w": 34,
+   "h": 34,
+   "fill": "#cfcfcf",
+   "radius": 17
+  },
+  {
+   "type": "rect",
+   "x": 395,
+   "y": 248,
+   "w": 11,
+   "h": 11,
+   "fill": "#0c0c0c",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 392,
+   "y": 259,
+   "w": 17,
+   "h": 13,
+   "fill": "#0c0c0c",
+   "radius": "8px 8px 2px 2px"
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 390,
+   "y": 394,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 12,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": ">",
+   "x": 577,
+   "y": 392,
+   "font": "NotoSansJP",
+   "weight": 500,
+   "size": 13,
+   "color": "#ffffff",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "モテるためにコミュ力\nアップする方法は?",
+   "x": 380.0,
+   "y": 304.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 18.783,
+   "line": 1.37,
+   "color": "#111111",
+   "box": [
+    377,
+    300,
+    222,
+    60
+   ],
+   "tol": 40,
+   "scale_x": 0.984,
+   "spacing": 0.004,
+   "skew": 0.6,
+   "fit_iou": 0.641
+  },
+  {
+   "type": "text",
+   "text": "低身長のカリスマが答えます!!",
+   "x": 1220.5,
+   "y": 56.0,
+   "anchor": "ct",
+   "vertical": true,
+   "rotate": 3,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 30.703,
+   "color": "#ffffff",
+   "box": [
+    1170,
+    25,
+    100,
+    485
+   ],
+   "tol": 20,
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "scale_x": 1.171,
+   "fit_iou": 0.169
+  },
+  {
+   "type": "text",
+   "text": "質問コーナー",
+   "x": 72.5,
+   "y": 411.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 285.205,
+   "skew": -7,
+   "color": "#ffffff",
+   "shadow": "0 0 18px rgba(0,0,0,.35)",
+   "box": [
+    30,
+    440,
+    1240,
+    280
+   ],
+   "tol": 12,
+   "scale_x": 0.786,
+   "spacing": -0.102,
+   "rotate": -0.15,
+   "fit_iou": 0.594
+  }
+ ]
+}

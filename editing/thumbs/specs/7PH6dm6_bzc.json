@@ -1,0 +1,155 @@
+{
+ "id": "7PH6dm6_bzc",
+ "erase": [
+  {
+   "rect": [
+    130,
+    300,
+    1020,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    310,
+    371,
+    660,
+    42
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    29,
+    29,
+    159,
+    159
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    7,
+    7,
+    1266,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    7,
+    700,
+    1266,
+    13
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    7,
+    7,
+    12,
+    706
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1261,
+    7,
+    12,
+    706
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    31,
+    31,
+    155,
+    155
+   ],
+   "colors": [
+    "#901010",
+    "#701010",
+    "#f0f0f0",
+    "#701030"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 11,
+   "y": 11,
+   "w": 1259,
+   "h": 698,
+   "fill": "transparent",
+   "border": [
+    5,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_square_cifx.png",
+   "x": 31,
+   "y": 31,
+   "w": 155,
+   "h": 155
+  },
+  {
+   "type": "text",
+   "text": "低身長に似合うTシャツは無印のコレ",
+   "x": 147.5,
+   "y": 302.0,
+   "font": "Zen Kaku Gothic New",
+   "weight": 700,
+   "size": 65.08,
+   "color": "#ffffff",
+   "spacing": 0.124,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tol": 15,
+   "scale_x": 0.824,
+   "skew": -5.7,
+   "fit_iou": 0.586
+  },
+  {
+   "type": "text",
+   "text": "大人男性にオススメのパンツも紹介",
+   "x": 324.0,
+   "y": 366.0,
+   "font": "Zen Kaku Gothic New",
+   "weight": 700,
+   "size": 39.05,
+   "color": "#ffffff",
+   "spacing": 0.12,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tol": 15,
+   "scale_x": 0.911,
+   "skew": -1.8,
+   "fit_iou": 0.699
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "id": "hlH_2s-UkJ4",
+ "erase": [
+  {
+   "rect": [
+    578,
+    264,
+    123,
+    52
+   ],
+   "colors": [
+    "#c5c4c2",
+    "#050302"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    579,
+    404,
+    123,
+    57
+   ],
+   "colors": [
+    "#dba2a1",
+    "#e50f0f",
+    "#fee3e2"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    25,
+    326,
+    1230,
+    68
+   ],
+   "colors": [
+    "#fafafa"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_s.png",
+   "x": 578,
+   "y": 264,
+   "w": 123,
+   "h": 52
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_pair_s.png",
+   "x": 579,
+   "y": 404,
+   "w": 123,
+   "h": 57
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO:Cの新作パンツ、ぶっちゃけどうなの？",
+   "x": 35.0,
+   "y": 328.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 51.0,
+   "color": "#fafafa",
+   "spacing": 0.08,
+   "shadow": "0 0 6px rgba(0,0,0,.2)",
+   "tol": 14,
+   "box": [
+    25,
+    326,
+    1230,
+    68
+   ],
+   "scale_x": 1.007,
+   "skew": 3.7,
+   "fit_iou": 0.585
+  }
+ ]
+}

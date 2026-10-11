@@ -21,6 +21,8 @@
           "border":[4,"#fff"], "skew":0}
   image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1}
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
+  （runs の各要素は size_em で行の size に対する倍率も書ける）
+"front": [[[x,y],...], ...]   # 文字より前にある人物などの多角形。中は元の画素をそのまま上に戻す
 背景 = 元のサムネから erase の範囲と描いたレイヤーの範囲を消して埋めたもの（cv2.inpaint）。人物・写真は元のまま。
 採点 = 消した範囲（＝文字・図形の部分）での一致度（SSIM と色の差）。100 点満点。
 """
@@ -90,7 +92,9 @@ def text_html(L, i):
             s = ''
             for r in L['runs']:
                 st = ''
-                if r.get('size'):
+                if r.get('size_em'):
+                    st += f"font-size:{r['size_em']}em;"
+                elif r.get('size'):
                     st += f"font-size:{r['size']}px;"
                 if r.get('font'):
                     st += f"font-family:{fam(r['font'])};"
@@ -137,7 +141,8 @@ def text_html(L, i):
         layers = layers.replace('paint-order:stroke fill;', f"paint-order:stroke fill;filter:drop-shadow({L['shadow']});", 1)
     fill = L.get('fill')
     if fill and not L.get('runs'):
-        top = f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;{sh}\">{content(None)}</div>"
+        under = (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;{sh}\">{content('transparent')}</div>" if sh else '')
+        top = under + f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;\">{content(None)}</div>"
     else:
         top = f"<div style=\"{base}position:relative;color:{L.get('color', '#fff')};{sh}\">{content(None)}</div>"
     return f"<div id=\"L{i}\" style=\"{wrap}\">{layers}{top}</div>"
@@ -175,7 +180,7 @@ def layer_html(L, i):
 _LOADED = {}
 
 
-def render_layers(spec, page):
+def render_layers(spec, page, clip=None):
     """ページにはフォントを一度だけ読み込み、以後は中身だけ差し替える（毎回フォントを埋め込むと遅い）。"""
     fams = families_of(spec)
     st = _LOADED.setdefault(id(page), {'fams': set(), 'ready': False})
@@ -191,6 +196,13 @@ def render_layers(spec, page):
     body = ''.join(layer_html(L, i) for i, L in enumerate(spec.get('layers', [])))
     page.evaluate("html => { document.getElementById('root').innerHTML = html; }", body)
     page.evaluate('document.fonts.ready.then(() => 1)')
+    if clip:  # (x0, y0, x1, y1) の範囲だけ撮って全体の大きさの画像に戻す（fit を速くする）
+        x0, y0, x1, y1 = [int(v) for v in clip]
+        png = page.screenshot(omit_background=True, clip={'x': x0, 'y': y0, 'width': x1 - x0, 'height': y1 - y0})
+        part = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
+        im = np.zeros((H, W, 4), np.uint8)
+        im[y0:y0 + part.shape[0], x0:x0 + part.shape[1]] = part[:H - y0, :W - x0]
+        return im
     png = page.screenshot(omit_background=True, clip={'x': 0, 'y': 0, 'width': W, 'height': H})
     im = cv2.imdecode(np.frombuffer(png, np.uint8), cv2.IMREAD_UNCHANGED)
     return im  # BGRA
@@ -249,6 +261,7 @@ def erase_mask(spec, orig):
         x, y, w, h = int(max(0, x)), int(max(0, y)), int(w), int(h)
         if full or not cols:
             cv2.rectangle(mask, (x, y), (x + w, y + h), 255, -1)
+            raw[y:y + h, x:x + w] = True
             continue
         sub = lab[y:y + h, x:x + w]
         m = np.zeros(sub.shape[:2], bool)
@@ -271,6 +284,14 @@ def compose(spec, orig_bgr, rgba):
     bg = cv2.inpaint(orig_bgr, mask, 5, cv2.INPAINT_TELEA) if mask.any() else orig_bgr.copy()
     a = (alpha.astype(np.float32) / 255)[:, :, None]
     out = (rgba[:, :, :3].astype(np.float32) * a + bg.astype(np.float32) * (1 - a)).astype(np.uint8)
+    keep = np.zeros((H, W), np.uint8)
+    for poly in spec.get('front', []):  # 文字より前にある人物など: [[x,y],...] の多角形
+        cv2.fillPoly(keep, [np.array(poly, np.int32)], 255)
+    if keep.any():
+        out[keep > 0] = orig_bgr[keep > 0]
+        rgba[keep > 0, 3] = 0
+        if hasattr(erase_mask, 'raw'):
+            erase_mask.raw[keep > 0] = False
     return out, mask, bg
 
 

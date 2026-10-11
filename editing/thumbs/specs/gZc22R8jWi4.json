@@ -1,0 +1,147 @@
+{
+ "id": "gZc22R8jWi4",
+ "erase": [
+  [
+   8,
+   8,
+   125,
+   48
+  ],
+  [
+   920,
+   8,
+   355,
+   50
+  ],
+  [
+   160,
+   190,
+   965,
+   72
+  ],
+  [
+   110,
+   270,
+   1050,
+   235
+  ],
+  [
+   495,
+   505,
+   295,
+   40
+  ]
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 13.0,
+   "y": 0.5,
+   "font": "PlayfairDisplay",
+   "weight": 900,
+   "size": 48.562,
+   "color": "#ffffff",
+   "spacing": -0.014,
+   "scale_x": 0.862,
+   "rotate": 1.5,
+   "skew": 1,
+   "fit_iou": 0.607,
+   "strokes": [
+    [
+     0.8,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "26 Spring 2nd Collection",
+   "x": 920.5,
+   "y": 7.5,
+   "font": "LibreBaskerville",
+   "weight": 700,
+   "size": 43.32,
+   "color": "#ffffff",
+   "scale_x": 0.639,
+   "spacing": -0.028,
+   "skew": 2.6,
+   "fit_iou": 0.377,
+   "strokes": [
+    [
+     0.8,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "シンプルでカッコいい低身長メンズ",
+   "x": 166.5,
+   "y": 186.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 64.74,
+   "color": "#ffffff",
+   "spacing": 0.04,
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "scale_x": 0.892,
+   "skew": -1.3,
+   "fit_iou": 0.567,
+   "strokes": [
+    [
+     1.2,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "x": 106.5,
+   "y": 233.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 236.11,
+   "color": "#ffffff",
+   "spacing": -0.008,
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "scale_x": 0.942,
+   "rotate": 0.15,
+   "fit_iou": 0.624,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "skew": 2.9,
+   "runs": [
+    {
+     "text": "三種"
+    },
+    {
+     "text": "の",
+     "size": 189
+    },
+    {
+     "text": "神着"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "text": "February 28th Sat. 10pm - Release",
+   "x": 504.0,
+   "y": 510.0,
+   "font": "LibreBaskerville",
+   "weight": 700,
+   "size": 27.31,
+   "color": "#ffffff",
+   "scale_x": 0.544,
+   "spacing": 0.02,
+   "rotate": -0.15,
+   "fit_iou": 0.394,
+   "skew": 3
+  }
+ ]
+}

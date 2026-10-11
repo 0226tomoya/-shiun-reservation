@@ -1,0 +1,227 @@
+{
+ "id": "NTzYcUGO6w8",
+ "erase": [
+  {
+   "rect": [
+    35,
+    38,
+    181,
+    180
+   ],
+   "colors": [
+    "#fcf5f6",
+    "#7c0219"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    880,
+    40,
+    370,
+    225
+   ],
+   "colors": [
+    "#850808",
+    "#fbeeed"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    30,
+    262,
+    475,
+    105
+   ],
+   "colors": [
+    "#030302",
+    "#f2f0ec"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    5,
+    420,
+    1250,
+    282
+   ],
+   "colors": [
+    "#fefefd"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    12,
+    16,
+    1256,
+    8
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    12,
+    696,
+    1256,
+    9
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    12,
+    16,
+    9,
+    689
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1259,
+    16,
+    9,
+    689
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 14,
+   "y": 18,
+   "w": 1252,
+   "h": 685,
+   "fill": "transparent",
+   "border": [
+    5,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_redsquare.png",
+   "x": 35,
+   "y": 38,
+   "w": 181,
+   "h": 180
+  },
+  {
+   "type": "text",
+   "text": "2026春夏",
+   "x": 891.0,
+   "y": 38.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 85.287,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "spacing": -0.03,
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.987,
+   "skew": -1,
+   "fit_iou": 0.631
+  },
+  {
+   "type": "text",
+   "text": "展示会",
+   "x": 887.0,
+   "y": 123.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 127.14,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "spacing": 0.004,
+   "box": [
+    880,
+    132,
+    370,
+    133
+   ],
+   "scale_x": 0.917,
+   "skew": -0.6,
+   "fit_iou": 0.814
+  },
+  {
+   "type": "text",
+   "text": "MUJI Labo",
+   "x": 38.0,
+   "y": 232.0,
+   "font": "RobotoCondensed",
+   "weight": 700,
+   "size": 139.15,
+   "color": "#030302",
+   "strokes": [
+    [
+     2,
+     "#030302"
+    ],
+    [
+     3,
+     "#f2f0ec"
+    ]
+   ],
+   "spacing": -0.018,
+   "box": [
+    30,
+    262,
+    475,
+    105
+   ],
+   "scale_x": 0.808,
+   "skew": 0,
+   "fit_iou": 0.701,
+   "rotate": 0.5
+  },
+  {
+   "type": "text",
+   "text": "最高すぎた",
+   "x": -7.5,
+   "y": 381.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 292.204,
+   "color": "#fefefd",
+   "shadow": "2px 2px 6px rgba(0,0,0,.4)",
+   "spacing": -0.032,
+   "scale_x": 0.907,
+   "skew": 4.3,
+   "rotate": 0,
+   "fit_iou": 0.69,
+   "box": [
+    5,
+    420,
+    1250,
+    282
+   ]
+  }
+ ]
+}

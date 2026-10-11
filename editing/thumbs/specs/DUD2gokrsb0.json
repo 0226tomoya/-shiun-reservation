@@ -1,0 +1,177 @@
+{
+ "id": "DUD2gokrsb0",
+ "erase": [
+  {
+   "rect": [
+    1128,
+    10,
+    146,
+    297
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    380,
+    18,
+    465,
+    125
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    10,
+    440,
+    1270,
+    280
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_vertical_red.png",
+   "x": 1130,
+   "y": 12,
+   "w": 142,
+   "h": 293
+  },
+  {
+   "type": "text",
+   "text": "ユニクロUまじでいい!!",
+   "x": 379.0,
+   "y": 4.0,
+   "rotate": 8.35,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 79.44,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     1,
+     "#ffffff"
+    ]
+   ],
+   "box": [
+    380,
+    18,
+    465,
+    125
+   ],
+   "tol": 22,
+   "scale_x": 0.554,
+   "fit_iou": 0.138,
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "spacing": 0.0,
+   "skew": 0.3
+  },
+  {
+   "type": "text",
+   "text": "買うべき",
+   "x": 20.5,
+   "y": 685.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 219.29,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.5)",
+   "box": [
+    24,
+    499,
+    562,
+    207
+   ],
+   "tol": 14,
+   "scale_x": 0.666,
+   "spacing": -0.052,
+   "rotate": 7.3,
+   "skew": 1,
+   "fit_iou": 0.453
+  },
+  {
+   "type": "text",
+   "text": "名作",
+   "x": 575.0,
+   "y": 699.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 235.98,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.5)",
+   "box": [
+    584,
+    469,
+    382,
+    242
+   ],
+   "tol": 14,
+   "scale_x": 0.825,
+   "rotate": 0.15,
+   "fit_iou": 0.771
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "x": 941.5,
+   "y": 720.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 344.633,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.5)",
+   "box": [
+    969,
+    444,
+    207,
+    262
+   ],
+   "tol": 14,
+   "scale_x": 1.057,
+   "skew": -3,
+   "rotate": 0.15,
+   "fit_iou": 0.743
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1159.0,
+   "y": 696.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 129.802,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.5)",
+   "box": [
+    1169,
+    584,
+    107,
+    112
+   ],
+   "tol": 14,
+   "scale_x": 0.899,
+   "rotate": 0.35,
+   "skew": 0.6,
+   "fit_iou": 0.674
+  }
+ ]
+}

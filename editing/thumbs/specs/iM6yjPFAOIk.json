@@ -1,0 +1,325 @@
+{
+ "id": "iM6yjPFAOIk",
+ "erase": [
+  {
+   "rect": [
+    385,
+    104,
+    180,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    920,
+    14,
+    360,
+    58
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    350,
+    985,
+    112
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    20,
+    460,
+    1260,
+    260
+   ],
+   "colors": [
+    "#f50a00",
+    "#d40000",
+    "#9a0000",
+    "#b80000"
+   ],
+   "tol": 45
+  }
+ ],
+ "layers": [
+  {
+   "type": "line",
+   "x1": 402,
+   "y1": 120,
+   "x2": 478,
+   "y2": 186,
+   "width": 32,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 478,
+   "y1": 182,
+   "x2": 402,
+   "y2": 248,
+   "width": 32,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 472,
+   "y1": 120,
+   "x2": 548,
+   "y2": 186,
+   "width": 32,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 548,
+   "y1": 182,
+   "x2": 472,
+   "y2": 248,
+   "width": 32,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "低身長のカリスマが解説",
+   "x": 932.0,
+   "y": 16.5,
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 54.348,
+   "line": 1.0,
+   "box": [
+    925,
+    12,
+    355,
+    60
+   ],
+   "spacing": 0.008,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.6)",
+   "tol": 25,
+   "scale_x": 0.598,
+   "rotate": -3.0,
+   "skew": 3.3,
+   "fit_iou": 0.152
+  },
+  {
+   "type": "text",
+   "text": "低身長",
+   "x": 19.5,
+   "y": 348.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 106.97,
+   "line": 1.0,
+   "box": [
+    15,
+    350,
+    290,
+    112
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 12,
+   "scale_x": 0.904,
+   "rotate": 0.5,
+   "skew": -2.2,
+   "spacing": 0.004,
+   "fit_iou": 0.707
+  },
+  {
+   "type": "text",
+   "text": "でも",
+   "x": 316.0,
+   "y": 383.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 73.633,
+   "line": 1.0,
+   "box": [
+    314,
+    355,
+    132,
+    105
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 12,
+   "scale_x": 0.945,
+   "spacing": 0.04,
+   "rotate": 0,
+   "fit_iou": 0.642,
+   "skew": -5.6
+  },
+  {
+   "type": "text",
+   "text": "劇的",
+   "x": 452.5,
+   "y": 349.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 103.633,
+   "line": 1.0,
+   "box": [
+    448,
+    350,
+    203,
+    110
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 12,
+   "scale_x": 0.95,
+   "rotate": 0.65,
+   "spacing": -0.006,
+   "fit_iou": 0.659,
+   "skew": -0.6
+  },
+  {
+   "type": "text",
+   "text": "に",
+   "x": 642.5,
+   "y": 377.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 79.286,
+   "line": 1.0,
+   "box": [
+    649,
+    362,
+    66,
+    98
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 12,
+   "scale_x": 0.956,
+   "skew": 0,
+   "rotate": 0,
+   "fit_iou": 0.566,
+   "spacing": 0
+  },
+  {
+   "type": "text",
+   "text": "変わる",
+   "x": 717.5,
+   "y": 351.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 105.06,
+   "line": 1.0,
+   "box": [
+    712,
+    350,
+    275,
+    110
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 12,
+   "scale_x": 0.897,
+   "spacing": -0.006,
+   "rotate": 0.15,
+   "skew": -0.6,
+   "fit_iou": 0.665
+  },
+  {
+   "type": "text",
+   "text": "最強",
+   "x": 48.5,
+   "y": 447.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 262.393,
+   "line": 1.0,
+   "box": [
+    25,
+    460,
+    520,
+    260
+   ],
+   "fill": "linear-gradient(180deg,#f50a00 0%,#d40000 45%,#9a0000 100%)",
+   "shadow": "4px 4px 10px rgba(0,0,0,.6)",
+   "tol": 45,
+   "skew": -6,
+   "scale_x": 0.971,
+   "rotate": 0.35,
+   "fit_iou": 0.84,
+   "strokes": [
+    [
+     1,
+     "#d40000"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 553.5,
+   "y": 501.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 221.29,
+   "line": 1.0,
+   "box": [
+    540,
+    460,
+    190,
+    260
+   ],
+   "fill": "linear-gradient(180deg,#f50a00 0%,#d40000 45%,#9a0000 100%)",
+   "shadow": "4px 4px 10px rgba(0,0,0,.6)",
+   "tol": 45,
+   "skew": -6,
+   "scale_x": 0.889,
+   "rotate": 0.8,
+   "fit_iou": 0.828,
+   "strokes": [
+    [
+     1,
+     "#d40000"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "裏技",
+   "x": 742.5,
+   "y": 445.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 267.745,
+   "line": 1.0,
+   "box": [
+    725,
+    460,
+    540,
+    260
+   ],
+   "fill": "linear-gradient(180deg,#f50a00 0%,#d40000 45%,#9a0000 100%)",
+   "shadow": "4px 4px 10px rgba(0,0,0,.6)",
+   "tol": 45,
+   "skew": -6,
+   "scale_x": 0.984,
+   "spacing": -0.002,
+   "fit_iou": 0.796,
+   "strokes": [
+    [
+     1,
+     "#d40000"
+    ]
+   ]
+  }
+ ]
+}

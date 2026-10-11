@@ -1,0 +1,276 @@
+{
+ "id": "pZkTTq6qvsE",
+ "erase": [
+  {
+   "rect": [
+    12,
+    545,
+    1258,
+    58
+   ],
+   "colors": [
+    "#454850",
+    "#000000"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    65,
+    226,
+    125,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    320,
+    226,
+    126,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    574,
+    226,
+    130,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    832,
+    226,
+    127,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1087,
+    226,
+    129,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    20,
+    462,
+    1245,
+    143
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    376,
+    604,
+    525,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    450,
+    652,
+    378,
+    46
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 548,
+   "w": 1251,
+   "h": 53,
+   "fill": "#000",
+   "opacity": 0.5
+  },
+  {
+   "type": "text",
+   "text": "158cm",
+   "x": 73,
+   "y": 222,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    65,
+    226,
+    125,
+    52
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "165cm",
+   "x": 328,
+   "y": 222,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    320,
+    226,
+    126,
+    52
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "164cm",
+   "x": 582,
+   "y": 222,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    574,
+    226,
+    130,
+    52
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "167cm",
+   "x": 840,
+   "y": 222,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    832,
+    226,
+    127,
+    52
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "170cm",
+   "x": 1095,
+   "y": 222,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    1087,
+    226,
+    129,
+    52
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "身長別サイズ徹底比較",
+   "x": 27,
+   "y": 455,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    20,
+    462,
+    1245,
+    143
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "shiun 26 Spring 2nd Collection",
+   "x": 384,
+   "y": 600,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "size": 44,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    376,
+    604,
+    525,
+    60
+   ],
+   "tol": 25
+  },
+  {
+   "type": "text",
+   "text": "2026.2.28 sat 10pm - Release",
+   "x": 458,
+   "y": 650,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "size": 34,
+   "scale_x": 0.85,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    450,
+    652,
+    378,
+    46
+   ],
+   "tol": 25
+  }
+ ]
+}

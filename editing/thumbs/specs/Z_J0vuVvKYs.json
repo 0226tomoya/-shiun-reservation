@@ -1,0 +1,535 @@
+{
+ "id": "Z_J0vuVvKYs",
+ "erase": [
+  {
+   "rect": [
+    14,
+    11,
+    1253,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    701,
+    1253,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    11,
+    10,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1257,
+    11,
+    10,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    35,
+    32,
+    240,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    35,
+    77,
+    240,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    35,
+    122,
+    240,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    35,
+    167,
+    240,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    955,
+    40,
+    295,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    180,
+    645,
+    265,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    455,
+    642,
+    30,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    498,
+    645,
+    190,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    700,
+    642,
+    30,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    740,
+    645,
+    180,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    952,
+    642,
+    30,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    995,
+    640,
+    105,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    55,
+    528,
+    1170,
+    108
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 32
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 19,
+   "y": 16,
+   "w": 1243,
+   "h": 690,
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "COVERALL",
+   "x": 45.0,
+   "y": 32.5,
+   "font": "Jost",
+   "weight": 500,
+   "size": 35.63,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    35,
+    32,
+    240,
+    40
+   ],
+   "spacing": 0.076,
+   "skew": -8,
+   "scale_x": 0.95,
+   "fit_iou": 0.616
+  },
+  {
+   "type": "text",
+   "text": "SHIRT",
+   "x": 42.0,
+   "y": 79.0,
+   "font": "Jost",
+   "weight": 500,
+   "size": 34.013,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    35,
+    77,
+    240,
+    40
+   ],
+   "spacing": 0.1,
+   "skew": -8,
+   "scale_x": 0.962,
+   "fit_iou": 0.717
+  },
+  {
+   "type": "text",
+   "text": "EASY PANTS",
+   "x": 43.0,
+   "y": 124.0,
+   "font": "Jost",
+   "weight": 500,
+   "size": 35.63,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    35,
+    122,
+    240,
+    40
+   ],
+   "spacing": 0.1,
+   "skew": -8,
+   "scale_x": 0.924,
+   "fit_iou": 0.64
+  },
+  {
+   "type": "text",
+   "text": "JEANS",
+   "x": 47.0,
+   "y": 175.0,
+   "font": "Jost",
+   "weight": 500,
+   "size": 28.817,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    35,
+    167,
+    240,
+    40
+   ],
+   "spacing": 0.1,
+   "skew": -8,
+   "scale_x": 1.152,
+   "fit_iou": 0.501
+  },
+  {
+   "type": "text",
+   "text": "2026Fall",
+   "x": 965.5,
+   "y": 66.0,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 53.764,
+   "color": "#ffffff",
+   "tol": 45,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    955,
+    40,
+    295,
+    75
+   ],
+   "rotate": -5,
+   "scale_x": 1.047,
+   "spacing": -0.006,
+   "fit_iou": 0.062
+  },
+  {
+   "type": "text",
+   "text": "最近買ってよかったもの",
+   "x": 64.0,
+   "y": 517.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 102.4,
+   "color": "#ffffff",
+   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
+   "tol": 32,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "scale_x": 1.033,
+   "spacing": 0.002,
+   "fit_iou": 0.636
+  },
+  {
+   "type": "text",
+   "text": "Product Twelve",
+   "x": 185.0,
+   "y": 648.5,
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 36.315,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    180,
+    645,
+    265,
+    45
+   ],
+   "scale_x": 0.844,
+   "fit_iou": 0.632
+  },
+  {
+   "type": "text",
+   "text": "/",
+   "x": 462,
+   "y": 638,
+   "font": "Jost",
+   "weight": 400,
+   "size": 38,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    455,
+    642,
+    30,
+    50
+   ],
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "steven alan",
+   "x": 510.0,
+   "y": 644.0,
+   "font": "HomemadeApple",
+   "weight": 400,
+   "size": 42.709,
+   "color": "#ffffff",
+   "tol": 45,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    498,
+    645,
+    190,
+    45
+   ],
+   "scale_x": 0.723,
+   "spacing": -0.006,
+   "fit_iou": 0.21
+  },
+  {
+   "type": "text",
+   "text": "/",
+   "x": 708,
+   "y": 638,
+   "font": "Jost",
+   "weight": 400,
+   "size": 38,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    700,
+    642,
+    30,
+    50
+   ],
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "COMOLI",
+   "x": 748.0,
+   "y": 646.0,
+   "font": "Jost",
+   "weight": 400,
+   "size": 38.661,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    740,
+    645,
+    180,
+    45
+   ],
+   "spacing": 0.106,
+   "scale_x": 1.05,
+   "fit_iou": 0.411
+  },
+  {
+   "type": "text",
+   "text": "/",
+   "x": 960,
+   "y": 638,
+   "font": "Jost",
+   "weight": 400,
+   "size": 38,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    952,
+    642,
+    30,
+    50
+   ],
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 999.5,
+   "y": 644.0,
+   "font": "Jost",
+   "weight": 700,
+   "size": 42.324,
+   "color": "#ffffff",
+   "tol": 40,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    995,
+    640,
+    105,
+    50
+   ],
+   "runs": [
+    {
+     "text": "É"
+    },
+    {
+     "text": "TAT",
+     "size": 30
+    }
+   ],
+   "scale_x": 1.287,
+   "spacing": 0.006,
+   "fit_iou": 0.582
+  }
+ ]
+}

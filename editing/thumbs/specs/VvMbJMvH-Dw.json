@@ -1,0 +1,127 @@
+{
+ "id": "VvMbJMvH-Dw",
+ "erase": [
+  {
+   "rect": [
+    5,
+    405,
+    300,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    325,
+    405,
+    325,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    645,
+    405,
+    325,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    965,
+    405,
+    315,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "重",
+   "x": 154.5,
+   "y": 553.5,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 323.165,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "scale_x": 1.021,
+   "spacing": -0.008,
+   "fit_iou": 0.829
+  },
+  {
+   "type": "text",
+   "text": "大",
+   "x": 467.5,
+   "y": 551.5,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 314.517,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "scale_x": 1.07,
+   "spacing": -0.056,
+   "fit_iou": 0.8,
+   "rotate": -1.0
+  },
+  {
+   "type": "text",
+   "text": "発",
+   "x": 796.0,
+   "y": 551.5,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 320.474,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "scale_x": 1.036,
+   "rotate": -1.2,
+   "fit_iou": 0.766,
+   "spacing": 0.008
+  },
+  {
+   "type": "text",
+   "text": "表",
+   "x": 1122.5,
+   "y": 556.0,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 329.026,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "scale_x": 0.99,
+   "spacing": 0.014,
+   "rotate": -1.0,
+   "fit_iou": 0.758
+  }
+ ],
+ "grow": 19
+}

@@ -1,0 +1,140 @@
+{
+ "id": "nug9tc0kFzk",
+ "erase": [
+  {
+   "rect": [
+    25,
+    15,
+    223,
+    93
+   ],
+   "colors": [
+    "#bcbcbd",
+    "#070505"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    26,
+    126,
+    89,
+    104
+   ],
+   "colors": [
+    "#bebebe",
+    "#010101"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    1161,
+    17,
+    91,
+    92
+   ],
+   "colors": [
+    "#df222a",
+    "#fef0f2",
+    "#efabad"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    150,
+    318,
+    985,
+    58
+   ],
+   "colors": [
+    "#fbfafb"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    290,
+    375,
+    700,
+    42
+   ],
+   "colors": [
+    "#fbfafb"
+   ],
+   "tol": 12
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_wide.png",
+   "x": 25,
+   "y": 15,
+   "w": 223,
+   "h": 93
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/plusj_black.png",
+   "x": 26,
+   "y": 126,
+   "w": 89,
+   "h": 104
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square.png",
+   "x": 1161,
+   "y": 17,
+   "w": 91,
+   "h": 92
+  },
+  {
+   "type": "text",
+   "text": "ユニクロの新作アイテム、正直買いです",
+   "x": 161.5,
+   "y": 307.5,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 59.25,
+   "color": "#fbfafb",
+   "spacing": 0.184,
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "tol": 12,
+   "box": [
+    150,
+    318,
+    985,
+    58
+   ],
+   "scale_x": 0.772,
+   "skew": -4.6,
+   "fit_iou": 0.441
+  },
+  {
+   "type": "text",
+   "text": "~ 復刻コラボのMA-1忖度なしレビュー ~",
+   "x": 302.5,
+   "y": 371.0,
+   "font": "NotoSansJP",
+   "weight": 700,
+   "size": 31.69,
+   "color": "#fbfafb",
+   "spacing": 0.18,
+   "shadow": "0 0 8px rgba(0,0,0,.25)",
+   "tol": 12,
+   "box": [
+    290,
+    375,
+    700,
+    42
+   ],
+   "scale_x": 0.973,
+   "skew": -0.3,
+   "fit_iou": 0.574,
+   "rotate": -0.15
+  }
+ ]
+}

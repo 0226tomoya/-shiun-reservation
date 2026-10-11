@@ -1,0 +1,223 @@
+{
+ "id": "w1dTeJfTP4s",
+ "erase": [
+  {
+   "rect": [
+    9,
+    8,
+    160,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    200,
+    8,
+    159,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    926,
+    8,
+    160,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1115,
+    8,
+    160,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    35,
+    400,
+    1210,
+    102
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    0,
+    500,
+    1280,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    11,
+    10,
+    156,
+    153
+   ],
+   "colors": [
+    "#101010",
+    "#f0f0f0",
+    "#d0d0d0",
+    "#303030"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    202,
+    10,
+    155,
+    153
+   ],
+   "colors": [
+    "#101010",
+    "#f0f0f0",
+    "#d0d0d0",
+    "#303030"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    928,
+    10,
+    156,
+    153
+   ],
+   "colors": [
+    "#f01010",
+    "#101010",
+    "#f0f0f0",
+    "#d01010"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1117,
+    10,
+    156,
+    153
+   ],
+   "colors": [
+    "#f01010",
+    "#f0f0f0",
+    "#d01010",
+    "#f0b0b0"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_w1d.png",
+   "x": 11,
+   "y": 10,
+   "w": 156,
+   "h": 153
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_black_w1d.png",
+   "x": 202,
+   "y": 10,
+   "w": 155,
+   "h": 153
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_w1d.png",
+   "x": 928,
+   "y": 10,
+   "w": 156,
+   "h": 153
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_w1d.png",
+   "x": 1117,
+   "y": 10,
+   "w": 156,
+   "h": 153
+  },
+  {
+   "type": "text",
+   "text": "ユニクロのコスパ最強アイテム",
+   "x": 53.5,
+   "y": 391.0,
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "size": 108.45,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": 0.002,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 14,
+   "scale_x": 0.794,
+   "skew": -2.0,
+   "fit_iou": 0.351
+  },
+  {
+   "type": "text",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 14,
+   "text": "購入品",
+   "x": 20.5,
+   "y": 484.0,
+   "size": 214.406,
+   "box": [
+    5,
+    495,
+    605,
+    215
+   ],
+   "scale_x": 0.912,
+   "spacing": -0.028,
+   "skew": -1.6,
+   "fit_iou": 0.519
+  },
+  {
+   "type": "text",
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "tol": 14,
+   "text": "レビュー",
+   "x": 559.5,
+   "y": 465.5,
+   "size": 236.023,
+   "skew": -0.4,
+   "box": [
+    600,
+    495,
+    675,
+    215
+   ],
+   "scale_x": 0.894,
+   "spacing": -0.042,
+   "rotate": 1.15,
+   "fit_iou": 0.491
+  }
+ ]
+}

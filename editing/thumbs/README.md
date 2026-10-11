@@ -17,3 +17,11 @@
 - 手書き風は YuseiMagic / ZenKurenaido / KleeOne、筆記体の英字は GreatVibes / Allura / Parisienne
 - ロゴ（UNIQLO・GU・MUJI・UNIQLO:C・UNIQLO U など）は元サムネのきれいな所を切り抜いて assets/logos に置き、image で使い回す（erase は "full":true）
 - 人物・服・背景写真は元のまま（再現の対象は文字・図形・ロゴ・帯・枠）
+
+## 追加された機能（batch02 の要望）
+- runs の各要素に `size_em`（行の size に対する倍率）。fit で行の大きさを変えると一緒に変わる
+- 文字の後ろに人物が来る: 仕様の `"front": [[[x,y],[x,y],...]]`（人物の輪郭の多角形）。中は元の画素を上に戻す
+- 縁取りが黒で背景に紛れる: レイヤーに `"fit_color": "#文字色"`（fit はその色で形を合わせる）
+- `"full": true` の erase（ロゴ・帯）も形の一致に数える（正しい位置に置けば一致）。ロゴの色で erase を重ねる工夫は不要
+- グラデーション＋影は、影を下の層に分けた（文字が暗くならない）
+- 長い行で小さい仮名が混ざり fit がずれるときは、かたまりごとに別のレイヤーに分けて fit する

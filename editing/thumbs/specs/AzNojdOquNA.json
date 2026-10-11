@@ -1,0 +1,187 @@
+{
+ "id": "AzNojdOquNA",
+ "erase": [
+  {
+   "rect": [
+    10,
+    10,
+    1262,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    698,
+    1262,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    10,
+    14,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1255,
+    10,
+    14,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    60,
+    418,
+    1160,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    60,
+    285,
+    1160,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    515,
+    628,
+    250,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 18,
+   "y": 16,
+   "w": 1246,
+   "h": 690,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 65,
+   "y": 422,
+   "w": 1150,
+   "h": 4,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/auralee_white.png",
+   "x": 519,
+   "y": 632,
+   "w": 243,
+   "h": 42
+  },
+  {
+   "type": "text",
+   "text": "24万円",
+   "x": 52.0,
+   "y": 279.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 132.94,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    65,
+    295,
+    360,
+    128
+   ],
+   "tol": 25,
+   "scale_x": 0.869,
+   "spacing": -0.034,
+   "skew": 5.5,
+   "fit_iou": 0.639,
+   "rotate": 0.3
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 420.0,
+   "y": 321.5,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 90.68,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    424,
+    330,
+    80,
+    90
+   ],
+   "tol": 25,
+   "scale_x": 0.97,
+   "rotate": 0.2,
+   "skew": -0.3,
+   "fit_iou": 0.816
+  },
+  {
+   "type": "text",
+   "text": "レザーブルゾン",
+   "x": 487.5,
+   "y": 279.0,
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "size": 141.82,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    500,
+    285,
+    715,
+    135
+   ],
+   "tol": 25,
+   "scale_x": 0.79,
+   "spacing": -0.072,
+   "fit_iou": 0.558,
+   "skew": -0.7,
+   "rotate": -0.15
+  }
+ ]
+}

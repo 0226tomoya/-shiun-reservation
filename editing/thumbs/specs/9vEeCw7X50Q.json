@@ -1,0 +1,175 @@
+{
+ "id": "9vEeCw7X50Q",
+ "erase": [
+  {
+   "rect": [
+    24,
+    25,
+    1233,
+    10
+   ],
+   "colors": [
+    "#fdfefe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    24,
+    685,
+    1233,
+    10
+   ],
+   "colors": [
+    "#fdfefe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    24,
+    25,
+    10,
+    670
+   ],
+   "colors": [
+    "#fdfefe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1247,
+    25,
+    10,
+    670
+   ],
+   "colors": [
+    "#fdfefe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    40,
+    320,
+    1190,
+    80
+   ],
+   "colors": [
+    "#fafafa"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    330,
+    625,
+    620,
+    60
+   ],
+   "colors": [
+    "#faf9f9"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 27,
+   "y": 28,
+   "w": 546,
+   "h": 4,
+   "fill": "#fdfefe"
+  },
+  {
+   "type": "rect",
+   "x": 712,
+   "y": 28,
+   "w": 541,
+   "h": 4,
+   "fill": "#fdfefe"
+  },
+  {
+   "type": "rect",
+   "x": 27,
+   "y": 688,
+   "w": 1226,
+   "h": 4,
+   "fill": "#fdfefe"
+  },
+  {
+   "type": "rect",
+   "x": 27,
+   "y": 28,
+   "w": 4,
+   "h": 664,
+   "fill": "#fdfefe"
+  },
+  {
+   "type": "rect",
+   "x": 1250,
+   "y": 28,
+   "w": 4,
+   "h": 664,
+   "fill": "#fdfefe"
+  },
+  {
+   "type": "text",
+   "text": "低身長ディレクターの秋冬購入品紹介",
+   "x": 640,
+   "y": 328,
+   "anchor": "ct",
+   "box": [
+    40,
+    320,
+    1190,
+    80
+   ],
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 56,
+   "color": "#fafafa",
+   "spacing": 0.14,
+   "shadow": "1px 1px 4px rgba(0,0,0,.25)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "COMOLI  /",
+   "x": 350,
+   "y": 632,
+   "box": [
+    330,
+    625,
+    330,
+    60
+   ],
+   "font": "Josefin Sans",
+   "weight": 300,
+   "size": 46,
+   "color": "#faf9f9",
+   "spacing": 0.25,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "Barbour",
+   "x": 712,
+   "y": 630,
+   "box": [
+    700,
+    625,
+    250,
+    60
+   ],
+   "font": "Inter",
+   "weight": 700,
+   "size": 52,
+   "color": "#faf9f9",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  }
+ ]
+}

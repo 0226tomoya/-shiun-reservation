@@ -1,0 +1,246 @@
+{
+ "id": "27pgmTWaDw4",
+ "erase": [
+  {
+   "rect": [
+    8,
+    8,
+    125,
+    48
+   ],
+   "colors": [
+    "#0c0c0c"
+   ]
+  },
+  {
+   "rect": [
+    940,
+    8,
+    335,
+    50
+   ],
+   "colors": [
+    "#0c0c0c"
+   ]
+  },
+  {
+   "rect": [
+    260,
+    215,
+    765,
+    95
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    5,
+    305,
+    1270,
+    192
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    500,
+    496,
+    280,
+    35
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 14
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "shiun",
+   "x": 13.0,
+   "y": 1.0,
+   "font": "PlayfairDisplay",
+   "weight": 900,
+   "size": 50.0,
+   "color": "#0c0c0c",
+   "strokes": [
+    [
+     0.8,
+     "#0c0c0c"
+    ]
+   ],
+   "spacing": -0.02,
+   "box": [
+    8,
+    8,
+    125,
+    48
+   ],
+   "scale_x": 0.839,
+   "rotate": -0.35,
+   "fit_iou": 0.542
+  },
+  {
+   "type": "text",
+   "text": "26 Spring 1st Collection",
+   "x": 946.5,
+   "y": 5.5,
+   "font": "LibreBaskerville",
+   "weight": 700,
+   "size": 44.73,
+   "color": "#0c0c0c",
+   "scale_x": 0.6,
+   "spacing": -0.02,
+   "box": [
+    940,
+    8,
+    335,
+    50
+   ],
+   "skew": 0.8,
+   "fit_iou": 0.506,
+   "rotate": 0.15
+  },
+  {
+   "type": "text",
+   "text": "シンプルでカッコいい",
+   "x": 271.5,
+   "y": 203.5,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 98.462,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     1,
+     "#fdfdfd"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "spacing": 0.064,
+   "tol": 12,
+   "box": [
+    260,
+    215,
+    765,
+    95
+   ],
+   "scale_x": 0.75,
+   "skew": -4.4,
+   "fit_iou": 0.257,
+   "rotate": -0.15
+  },
+  {
+   "type": "text",
+   "x": 14.0,
+   "y": 276.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 196.25,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     2.5,
+     "#fdfdfd"
+    ]
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "spacing": -0.002,
+   "tol": 12,
+   "box": [
+    8,
+    305,
+    465,
+    195
+   ],
+   "text": "低身長",
+   "scale_x": 0.801,
+   "skew": -0.3,
+   "fit_iou": 0.559
+  },
+  {
+   "type": "text",
+   "x": 449.0,
+   "y": 317.2,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 173.84,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     2.5,
+     "#fdfdfd"
+    ]
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "spacing": -0.02,
+   "tol": 12,
+   "box": [
+    472,
+    340,
+    460,
+    160
+   ],
+   "text": "のための",
+   "scale_x": 0.716,
+   "rotate": -0.3,
+   "fit_iou": 0.269
+  },
+  {
+   "type": "text",
+   "x": 923.0,
+   "y": 284.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 188.07,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     2.5,
+     "#fdfdfd"
+    ]
+   ],
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "spacing": -0.008,
+   "tol": 12,
+   "box": [
+    928,
+    305,
+    345,
+    195
+   ],
+   "text": "春服",
+   "scale_x": 0.906,
+   "rotate": -0.95,
+   "fit_iou": 0.657
+  },
+  {
+   "type": "text",
+   "text": "January 24th Sat. 10pm - Release",
+   "x": 514.0,
+   "y": 496.5,
+   "font": "LibreBaskerville",
+   "weight": 700,
+   "size": 24.97,
+   "scale_x": 0.608,
+   "color": "#fdfdfd",
+   "tol": 14,
+   "box": [
+    500,
+    496,
+    280,
+    35
+   ],
+   "skew": -3,
+   "rotate": 1.0,
+   "fit_iou": 0.276
+  }
+ ]
+}

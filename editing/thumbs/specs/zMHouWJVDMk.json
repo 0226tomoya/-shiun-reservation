@@ -1,0 +1,209 @@
+{
+ "id": "zMHouWJVDMk",
+ "erase": [
+  {
+   "rect": [
+    35,
+    35,
+    260,
+    119
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    37,
+    37,
+    256,
+    115
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    50,
+    295,
+    1180,
+    72
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    310,
+    368,
+    665,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    15,
+    13,
+    1250,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    693,
+    1250,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    13,
+    14,
+    694
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1251,
+    13,
+    14,
+    694
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 21,
+   "y": 19,
+   "w": 1239,
+   "h": 683,
+   "fill": "transparent",
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_pair_fay.png",
+   "x": 37,
+   "y": 37,
+   "w": 256,
+   "h": 115
+  },
+  {
+   "type": "text",
+   "font": "Zen Kaku Gothic New",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 15,
+   "text": "今",
+   "x": 66.0,
+   "y": 303.0,
+   "size": 56.269,
+   "box": [
+    67,
+    295,
+    58,
+    72
+   ],
+   "skew": 3.0,
+   "scale_x": 1.004,
+   "fit_iou": 0.85
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 700,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 15,
+   "text": "UNIQLO",
+   "x": 131.5,
+   "y": 306.0,
+   "size": 64.092,
+   "box": [
+    134,
+    295,
+    304,
+    72
+   ],
+   "skew": 5.0,
+   "spacing": 0.224,
+   "scale_x": 0.874,
+   "rotate": -1.0,
+   "fit_iou": 0.657
+  },
+  {
+   "type": "text",
+   "font": "Zen Kaku Gothic New",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 15,
+   "text": "で買うべきアイテムはコレ",
+   "x": 449,
+   "y": 300,
+   "size": 62.995,
+   "box": [
+    445,
+    295,
+    770,
+    72
+   ],
+   "skew": -6.9,
+   "spacing": 0.024,
+   "scale_x": 1,
+   "rotate": -0.15,
+   "fit_iou": 0.59,
+   "no_init": true
+  },
+  {
+   "type": "text",
+   "text": "-夏まで着られるカバーオール-",
+   "x": 328.0,
+   "y": 371.0,
+   "font": "Zen Kaku Gothic New",
+   "weight": 900,
+   "size": 41.85,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": 0.1,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "tol": 15,
+   "scale_x": 0.983,
+   "skew": 0.7,
+   "fit_iou": 0.661
+  }
+ ]
+}

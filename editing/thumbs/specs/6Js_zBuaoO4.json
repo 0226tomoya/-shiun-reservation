@@ -1,0 +1,144 @@
+{
+ "id": "6Js_zBuaoO4",
+ "erase": [
+  {
+   "rect": [
+    30,
+    2,
+    116,
+    466
+   ],
+   "colors": [
+    "#fcfbf9"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    670,
+    350,
+    600,
+    120
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    460,
+    1260,
+    260
+   ],
+   "colors": [
+    "#fefefe"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 40,
+   "y": 11,
+   "w": 94,
+   "h": 446,
+   "fill": "rgba(0,0,0,0)",
+   "radius": 16,
+   "border": [
+    5,
+    "#fcfbf9"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "低身長男性必見",
+   "x": 85.5,
+   "y": 19.5,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 65.51,
+   "line": 1.0,
+   "spacing": -0.08,
+   "color": "#fcfbf9",
+   "strokes": [
+    [
+     3,
+     "#080604"
+    ]
+   ],
+   "scale_x": 0.948,
+   "box": [
+    45,
+    20,
+    85,
+    430
+   ],
+   "fit_iou": 0.643
+  },
+  {
+   "type": "text",
+   "x": 684.0,
+   "y": 324.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 129.16,
+   "color": "#fdfdfd",
+   "shadow": "3px 3px 8px rgba(0,0,0,.6)",
+   "spacing": -0.014,
+   "scale_x": 0.996,
+   "box": [
+    680,
+    355,
+    580,
+    100
+   ],
+   "runs": [
+    {
+     "text": "2025-26"
+    },
+    {
+     "text": "年",
+     "size": 84.27
+    }
+   ],
+   "fit_iou": 0.78
+  },
+  {
+   "type": "text",
+   "x": 25.0,
+   "y": 423.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 264.01,
+   "color": "#fefefe",
+   "spacing": -0.078,
+   "scale_x": 0.996,
+   "box": [
+    15,
+    468,
+    1250,
+    240
+   ],
+   "runs": [
+    {
+     "text": "買"
+    },
+    {
+     "text": "うべき",
+     "size": 186.12
+    },
+    {
+     "text": "冬服"
+    }
+   ],
+   "shadow": "2px 2px 8px rgba(0,0,0,.4)",
+   "fit_iou": 0.659
+  }
+ ],
+ "grow": 21
+}

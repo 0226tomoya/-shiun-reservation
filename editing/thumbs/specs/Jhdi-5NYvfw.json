@@ -1,0 +1,182 @@
+{
+ "id": "Jhdi-5NYvfw",
+ "erase": [
+  {
+   "rect": [
+    9,
+    10,
+    120,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    932,
+    10,
+    342,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    34,
+    274,
+    1206,
+    46
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    32,
+    324,
+    1214,
+    146
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    508,
+    470,
+    264,
+    42
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white.png",
+   "x": 11,
+   "y": 12,
+   "w": 114,
+   "h": 48
+  },
+  {
+   "type": "text",
+   "text": "26 Spring 3rd Collection",
+   "x": 936.5,
+   "y": 7.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 50.53,
+   "scale_x": 0.586,
+   "color": "#ffffff",
+   "box": [
+    932,
+    10,
+    342,
+    60
+   ],
+   "tol": 25,
+   "skew": 0.7,
+   "rotate": 0.15,
+   "fit_iou": 0.438
+  },
+  {
+   "type": "text",
+   "text": "春の主役のセットアップ、モデル級の美脚に魅せるデニム、真夏まで活躍するシャツ",
+   "x": 39.5,
+   "y": 274.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 38.65,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    34,
+    274,
+    1206,
+    46
+   ],
+   "tol": 22,
+   "scale_x": 0.817,
+   "skew": -1,
+   "fit_iou": 0.281
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "を",
+     "size": 110
+    },
+    {
+     "text": "武器"
+    },
+    {
+     "text": "に",
+     "size": 110
+    },
+    {
+     "text": "変える服"
+    }
+   ],
+   "x": 34.5,
+   "y": 307.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 143.58,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    32,
+    324,
+    1214,
+    146
+   ],
+   "tol": 22,
+   "scale_x": 0.862,
+   "spacing": 0.014,
+   "rotate": 0.15,
+   "fit_iou": 0.275
+  },
+  {
+   "type": "text",
+   "text": "March 28th Sat. 10pm - Release",
+   "x": 513.0,
+   "y": 470.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 31.961,
+   "scale_x": 0.562,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.4)",
+   "box": [
+    508,
+    470,
+    264,
+    42
+   ],
+   "tol": 25,
+   "rotate": -0.3,
+   "skew": -0.3,
+   "fit_iou": 0.332
+  }
+ ]
+}

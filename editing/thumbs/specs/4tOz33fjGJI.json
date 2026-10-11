@@ -1,0 +1,105 @@
+{
+ "id": "4tOz33fjGJI",
+ "erase": [
+  {
+   "rect": [
+    25,
+    10,
+    100,
+    390
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    412,
+    1160,
+    108
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 26
+  },
+  {
+   "rect": [
+    0,
+    515,
+    1280,
+    205
+   ],
+   "colors": [
+    "#ffd800"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "○○が好き♡",
+   "x": 74,
+   "y": 6,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Zen Maru Gothic",
+   "weight": 900,
+   "size": 66,
+   "color": "#ffffff",
+   "line": 1.0,
+   "lock": [
+    "skew",
+    "size",
+    "rotate"
+   ],
+   "scale_x": 0.808,
+   "spacing": 0.014,
+   "fit_iou": 0.343,
+   "no_init": true
+  },
+  {
+   "type": "text",
+   "text": "街ゆく女性にインタビュー",
+   "x": 563.5,
+   "y": 457.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 111.4,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "scale_x": 0.855,
+   "spacing": 0.02,
+   "fit_iou": 0.561
+  },
+  {
+   "type": "text",
+   "text": "デート服正解は?",
+   "x": 597.5,
+   "y": 598.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 192.81,
+   "color": "#ffd800",
+   "scale_x": 0.938,
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "spacing": -0.04,
+   "rotate": 0.15,
+   "fit_iou": 0.724
+  }
+ ],
+ "grow": 19
+}

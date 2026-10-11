@@ -1,0 +1,156 @@
+{
+ "id": "P0IQmfyHFSE",
+ "erase": [
+  {
+   "rect": [
+    20,
+    20,
+    1240,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    690,
+    1240,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    21,
+    20,
+    10,
+    680
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1249,
+    20,
+    10,
+    680
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    43,
+    42,
+    283,
+    128
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    75,
+    305,
+    1130,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    198,
+    370,
+    885,
+    45
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 25,
+   "y": 24,
+   "w": 1231,
+   "h": 673,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_wide_kana.png",
+   "x": 46,
+   "y": 45,
+   "w": 277,
+   "h": 123
+  },
+  {
+   "type": "text",
+   "text": "ユニクロのコスパ最強アイテム3選",
+   "x": 72.0,
+   "y": 296.5,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 64.98,
+   "color": "#ffffff",
+   "spacing": 0.2,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    75,
+    305,
+    1130,
+    62
+   ],
+   "tol": 16,
+   "scale_x": 0.934,
+   "skew": 2,
+   "fit_iou": 0.659
+  },
+  {
+   "type": "text",
+   "text": "-抜群にお洒落になれる春服を紹介します-",
+   "x": 203.0,
+   "y": 366.5,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 42.57,
+   "color": "#ffffff",
+   "spacing": 0.2,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    198,
+    370,
+    885,
+    45
+   ],
+   "tol": 16,
+   "scale_x": 0.906,
+   "skew": 1,
+   "fit_iou": 0.66
+  }
+ ]
+}

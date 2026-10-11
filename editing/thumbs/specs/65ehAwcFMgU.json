@@ -1,0 +1,241 @@
+{
+ "id": "65ehAwcFMgU",
+ "erase": [
+  {
+   "rect": [
+    17,
+    19,
+    1248,
+    14
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    17,
+    19,
+    14,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1250,
+    19,
+    14,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    40,
+    138,
+    319,
+    319
+   ],
+   "colors": [
+    "#7d0b18",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    919,
+    167,
+    317,
+    319
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    34,
+    40,
+    425,
+    80
+   ],
+   "colors": [
+    "#ffffff",
+    "#e8262b"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    850,
+    55,
+    410,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    478,
+    1270,
+    242
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 22,
+   "y": 24,
+   "w": 1236,
+   "h": 720,
+   "fill": "transparent",
+   "border": [
+    5,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_big.png",
+   "x": 42,
+   "y": 140,
+   "w": 315,
+   "h": 315
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_big.png",
+   "x": 921,
+   "y": 169,
+   "w": 313,
+   "h": 315
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "トレンド性"
+    },
+    {
+     "text": "◎",
+     "color": "#e8262b"
+    },
+    {
+     "text": "の新作"
+    }
+   ],
+   "x": 22.0,
+   "y": 51.0,
+   "rotate": -1.85,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 72.45,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "box": [
+    34,
+    40,
+    425,
+    80
+   ],
+   "tol": 30,
+   "scale_x": 0.666,
+   "skew": 1,
+   "spacing": -0.002,
+   "fit_iou": 0.153
+  },
+  {
+   "type": "text",
+   "text": "定番ニット&パンツ",
+   "x": 852.0,
+   "y": 55.5,
+   "rotate": -3,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 70.823,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "box": [
+    850,
+    55,
+    410,
+    85
+   ],
+   "tol": 30,
+   "scale_x": 0.651,
+   "spacing": -0.012,
+   "fit_iou": 0.226
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "今"
+    },
+    {
+     "text": "すぐ",
+     "size": 170
+    },
+    {
+     "text": "コレ買って"
+    }
+   ],
+   "x": -17.0,
+   "y": 714.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 244.28,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 14px rgba(0,0,0,.45)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    5,
+    478,
+    1270,
+    242
+   ],
+   "tol": 20,
+   "scale_x": 0.979,
+   "spacing": 0.014,
+   "skew": -3.3,
+   "rotate": -0.65,
+   "fit_iou": 0.321
+  }
+ ]
+}

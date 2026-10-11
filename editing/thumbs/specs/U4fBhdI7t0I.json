@@ -1,0 +1,155 @@
+{
+ "id": "U4fBhdI7t0I",
+ "erase": [
+  {
+   "rect": [
+    70,
+    320,
+    1140,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    553,
+    238,
+    176,
+    82
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    567,
+    407,
+    146,
+    69
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    8,
+    8,
+    1264,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "rect": [
+    8,
+    700,
+    1264,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "rect": [
+    8,
+    8,
+    12,
+    704
+   ],
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "rect": [
+    1260,
+    8,
+    12,
+    704
+   ],
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "rect": [
+    555,
+    240,
+    172,
+    78
+   ],
+   "colors": [
+    "#101010",
+    "#303030",
+    "#705070",
+    "#301030"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    569,
+    409,
+    142,
+    65
+   ],
+   "colors": [
+    "#f01010",
+    "#d01010",
+    "#f0f0f0",
+    "#909090"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 12,
+   "y": 12,
+   "w": 1256,
+   "h": 696,
+   "fill": "transparent",
+   "border": [
+    5,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloc_black_u4f.png",
+   "x": 555,
+   "y": 240,
+   "w": 172,
+   "h": 78
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_pair_u4f.png",
+   "x": 569,
+   "y": 409,
+   "w": 142,
+   "h": 65
+  },
+  {
+   "type": "text",
+   "text": "まるでドメブラ、ユニクロCの新作シャツ",
+   "x": 78.0,
+   "y": 328.0,
+   "font": "Zen Kaku Gothic New",
+   "weight": 700,
+   "size": 55.9,
+   "color": "#ffffff",
+   "spacing": 0.124,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.957,
+   "skew": 1.7,
+   "fit_iou": 0.695,
+   "tol": 18
+  }
+ ]
+}

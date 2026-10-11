@@ -1,0 +1,226 @@
+{
+ "id": "3W2f9CWzZ50",
+ "erase": [
+  {
+   "rect": [
+    14,
+    12,
+    1252,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    14,
+    695,
+    1252,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    12,
+    12,
+    695
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1253,
+    12,
+    12,
+    695
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    795,
+    362,
+    305,
+    65
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    220,
+    622,
+    820,
+    58
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 20,
+   "y": 17,
+   "w": 1241,
+   "h": 686,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長デザイナー"
+    },
+    {
+     "text": "の",
+     "size": 40
+    },
+    {
+     "text": "春服購入品紹介"
+    }
+   ],
+   "x": 155.0,
+   "y": 314.0,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 63.54,
+   "color": "#ffffff",
+   "spacing": 0.122,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.875,
+   "skew": 1.5,
+   "fit_iou": 0.496
+  },
+  {
+   "type": "text",
+   "text": "2026 Spring",
+   "x": 793.5,
+   "y": 358.0,
+   "rotate": -5.5,
+   "font": "Allura",
+   "weight": 400,
+   "size": 59.14,
+   "color": "#ffffff",
+   "box": [
+    795,
+    362,
+    305,
+    65
+   ],
+   "tol": 40,
+   "scale_x": 1.077,
+   "skew": -3,
+   "fit_iou": 0.14
+  },
+  {
+   "type": "text",
+   "text": "COMOLI",
+   "x": 225.0,
+   "y": 623.0,
+   "font": "Jost",
+   "weight": 300,
+   "size": 46.0,
+   "spacing": 0.294,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    220,
+    622,
+    248,
+    50
+   ],
+   "tol": 30,
+   "scale_x": 0.992,
+   "skew": 4,
+   "fit_iou": 0.376
+  },
+  {
+   "type": "text",
+   "text": "/ barbell object /",
+   "x": 482.5,
+   "y": 622.0,
+   "font": "Jost",
+   "weight": 400,
+   "size": 47.774,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    482,
+    622,
+    368,
+    58
+   ],
+   "tol": 30,
+   "scale_x": 1.021,
+   "skew": 2.7,
+   "rotate": 0.15,
+   "fit_iou": 0.333
+  },
+  {
+   "type": "text",
+   "text": "LIDИM",
+   "x": 865.0,
+   "y": 623.0,
+   "font": "Jost",
+   "weight": 400,
+   "size": 46.394,
+   "spacing": 0.12,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "box": [
+    862,
+    622,
+    178,
+    50
+   ],
+   "tol": 30,
+   "scale_x": 1.091,
+   "rotate": -0.5,
+   "fit_iou": 0.388
+  }
+ ]
+}

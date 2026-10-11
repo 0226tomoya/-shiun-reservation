@@ -1,0 +1,348 @@
+{
+ "id": "NlisiNUodtk",
+ "erase": [
+  {
+   "rect": [
+    15,
+    11,
+    180,
+    180
+   ],
+   "colors": [
+    "#1f2f87",
+    "#f1e724"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    25,
+    330,
+    405,
+    165
+   ],
+   "colors": [
+    "#fdfdfd"
+   ]
+  },
+  {
+   "rect": [
+    430,
+    330,
+    325,
+    140
+   ],
+   "colors": [
+    "#fdfdfd"
+   ]
+  },
+  {
+   "rect": [
+    1170,
+    10,
+    70,
+    445
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    280,
+    100,
+    330,
+    530
+   ],
+   "colors": [
+    "#e8e8e8"
+   ],
+   "tol": 60
+  },
+  {
+   "rect": [
+    18,
+    490,
+    230,
+    230
+   ],
+   "colors": [
+    "#fcd106"
+   ]
+  },
+  {
+   "rect": [
+    248,
+    490,
+    240,
+    230
+   ],
+   "colors": [
+    "#fcd106"
+   ]
+  },
+  {
+   "rect": [
+    572,
+    470,
+    160,
+    250
+   ],
+   "colors": [
+    "#fcd106"
+   ]
+  },
+  {
+   "rect": [
+    730,
+    470,
+    300,
+    250
+   ],
+   "colors": [
+    "#fcd106"
+   ]
+  },
+  {
+   "rect": [
+    1035,
+    470,
+    220,
+    250
+   ],
+   "colors": [
+    "#fcd106"
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_square.png",
+   "x": 17,
+   "y": 13,
+   "w": 176,
+   "h": 176
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 448,
+   "y": 345,
+   "anchor": "cc",
+   "font": "Lora",
+   "weight": 400,
+   "size": 610,
+   "color": "#050505",
+   "fixed": true,
+   "strokes": [
+    [
+     2,
+     "#e8e8e8"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "2026",
+   "x": 45.0,
+   "y": 292.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 202.497,
+   "color": "#fdfdfd",
+   "spacing": -0.068,
+   "scale_x": 0.897,
+   "rotate": -1.15,
+   "skew": -10,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    25,
+    330,
+    405,
+    165
+   ],
+   "fit_iou": 0.792
+  },
+  {
+   "type": "text",
+   "text": "年",
+   "x": 428.5,
+   "y": 387.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 81.67,
+   "color": "#fdfdfd",
+   "scale_x": 1.027,
+   "rotate": 0.5,
+   "skew": -10,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    425,
+    385,
+    80,
+    90
+   ],
+   "fit_iou": 0.742
+  },
+  {
+   "type": "text",
+   "text": "秋服",
+   "x": 517.0,
+   "y": 316.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 139.44,
+   "color": "#fdfdfd",
+   "scale_x": 0.891,
+   "spacing": 0.014,
+   "rotate": -0.5,
+   "skew": -10,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    495,
+    330,
+    260,
+    140
+   ],
+   "fit_iou": 0.787
+  },
+  {
+   "type": "text",
+   "text": "低身長ディレクターが解説",
+   "x": 1172,
+   "y": 10,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 37,
+   "color": "#111111",
+   "vertical": true,
+   "tol": 70,
+   "scale_x": 1,
+   "rotate": 0.5,
+   "skew": 1,
+   "spacing": 0,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "マ",
+   "x": 0.0,
+   "y": 469.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 231.55,
+   "color": "#fcd106",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    18,
+    490,
+    230,
+    230
+   ],
+   "scale_x": 1.086,
+   "fit_iou": 0.785
+  },
+  {
+   "type": "text",
+   "text": "ス",
+   "x": 237.0,
+   "y": 420.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 290.493,
+   "color": "#fcd106",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    248,
+    490,
+    240,
+    230
+   ],
+   "scale_x": 0.964,
+   "fit_iou": 0.736
+  },
+  {
+   "type": "text",
+   "text": "ト",
+   "x": 519.5,
+   "y": 405.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 293.258,
+   "color": "#fcd106",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    572,
+    470,
+    160,
+    250
+   ],
+   "scale_x": 0.83,
+   "fit_iou": 0.679
+  },
+  {
+   "type": "text",
+   "text": "バ",
+   "x": 761.0,
+   "y": 441.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 218.18,
+   "color": "#fcd106",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    730,
+    470,
+    300,
+    250
+   ],
+   "scale_x": 1.283,
+   "fit_iou": 0.606
+  },
+  {
+   "type": "text",
+   "text": "イ",
+   "x": 1025.5,
+   "y": 423.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 255.267,
+   "color": "#fcd106",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1035,
+    470,
+    220,
+    250
+   ],
+   "scale_x": 0.972,
+   "fit_iou": 0.751
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "id": "RFYW01E4IV8",
+ "erase": [
+  {
+   "rect": [
+    549,
+    219,
+    182,
+    84
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    548,
+    411,
+    183,
+    84
+   ],
+   "colors": [
+    "#000000",
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    34,
+    326,
+    1210,
+    70
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_kana_center.png",
+   "x": 552,
+   "y": 222,
+   "w": 176,
+   "h": 78
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_pair_black.png",
+   "x": 551,
+   "y": 414,
+   "w": 177,
+   "h": 78
+  },
+  {
+   "type": "text",
+   "text": "ユニクロU新作ブルゾン、これは買い",
+   "x": 37.0,
+   "y": 321.0,
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "size": 64.31,
+   "spacing": 0.2,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "box": [
+    34,
+    326,
+    1210,
+    70
+   ],
+   "tol": 20,
+   "scale_x": 0.944,
+   "skew": 2.3,
+   "fit_iou": 0.657
+  }
+ ]
+}

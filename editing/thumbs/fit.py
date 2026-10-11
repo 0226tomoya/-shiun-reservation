@@ -7,6 +7,7 @@
  2. 描いた形（不透明な部分）と外接矩形を合わせて大きさ・横の伸び・位置の初期値を出す
  3. 二つの形の重なり（IoU）が最大になるよう x, y, size, scale_x, spacing, rotate を座標ごとに詰める
 結果は SPEC.json に上書き（各レイヤーに "fit_iou" を書く）。
+縁取りの色が背景に紛れるときは、レイヤーに "fit_color": "#文字色" を書くとその色で合わせる。"lock": ["rotate",…] で動かさない値を指定。
 """
 import copy
 import json
@@ -24,7 +25,9 @@ def target_mask(orig, L, box, tol):
     x0, y0, x1, y1 = box
     lab = cv2.cvtColor(orig[y0:y1, x0:x1], cv2.COLOR_BGR2LAB).astype(np.float32)
     cols = []
-    if L.get('strokes'):
+    if L.get('fit_color'):
+        cols.append(L['fit_color'])
+    elif L.get('strokes'):
         cols.append(L['strokes'][-1][1])
     else:
         sp = {'layers': [L]}
@@ -52,8 +55,10 @@ def main():
         b = p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1194/chrome-linux/chrome')
         page = b.new_page(viewport={'width': R.W, 'height': R.H})
 
+        clipbox = [None]
+
         def alpha_of(L):
-            return R.render_layers({'layers': [L]}, page)[:, :, 3] > 128
+            return R.render_layers({'layers': [L]}, page, clip=clipbox[0])[:, :, 3] > 128
 
         for i, L in enumerate(spec['layers']):
             if L['type'] != 'text' or (only and i not in only) or L.get('fixed'):
@@ -78,6 +83,9 @@ def main():
                     box = [max(0, xs.min() - pad), max(0, ys.min() - pad), min(R.W, xs.max() + pad), min(R.H, ys.max() + pad)]
             box = [max(0, box[0]), max(0, box[1]), min(R.W, box[2]), min(R.H, box[3])]
             T = target_mask(orig, L, box, L.get('tol', 30))
+            # 以後は box を少し広げた範囲だけ撮る（はみ出した分は数えない＝ box を正しく取ること）
+            m_ = 60
+            clipbox[0] = [max(0, box[0] - m_), max(0, box[1] - m_), min(R.W, box[2] + m_), min(R.H, box[3] + m_)]
             if T.sum() < 50:
                 print(f'レイヤー {i}: 元の文字の色が見つからない（色か box を確認）')
                 continue
@@ -126,6 +134,7 @@ def main():
                                 break
                         if not moved:
                             break
+            clipbox[0] = None
             L['fit_iou'] = round(float(best), 3)
             spec['layers'][i] = L
             print(f'レイヤー {i}「{(L.get("text") or "".join(r["text"] for r in L.get("runs", [])))[:12]}」 IoU {best:.3f}')

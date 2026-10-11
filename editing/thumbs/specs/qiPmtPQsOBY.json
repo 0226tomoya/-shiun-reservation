@@ -1,0 +1,158 @@
+{
+ "id": "qiPmtPQsOBY",
+ "erase": [
+  {
+   "rect": [
+    69,
+    84,
+    357,
+    359
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    497,
+    202,
+    267,
+    268
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    847,
+    108,
+    385,
+    351
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    795,
+    20,
+    470,
+    90
+   ],
+   "colors": [
+    "#5a5556"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    915,
+    458,
+    350,
+    72
+   ],
+   "colors": [
+    "#fbfbfa"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    468,
+    1270,
+    252
+   ],
+   "colors": [
+    "#fefefe"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_2.png",
+   "x": 69,
+   "y": 84,
+   "w": 357,
+   "h": 359
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square.png",
+   "x": 497,
+   "y": 202,
+   "w": 267,
+   "h": 268
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_3.png",
+   "x": 847,
+   "y": 108,
+   "w": 385,
+   "h": 351
+  },
+  {
+   "type": "text",
+   "text": "低身長にオススメの〇〇",
+   "x": 800,
+   "y": 35,
+   "box": [
+    800,
+    25,
+    460,
+    80
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 40,
+   "color": "#5a5556",
+   "scale_x": 1.0,
+   "rotate": -3
+  },
+  {
+   "type": "text",
+   "text": "2025年秋冬",
+   "x": 1258,
+   "y": 462,
+   "anchor": "rt",
+   "box": [
+    915,
+    458,
+    350,
+    72
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 58,
+   "color": "#fbfbfa",
+   "strokes": [
+    [
+     4,
+     "#0d133a"
+    ]
+   ],
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "新作レビュー",
+   "x": 640,
+   "y": 470,
+   "anchor": "ct",
+   "box": [
+    10,
+    475,
+    1260,
+    240
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 225,
+   "color": "#fefefe",
+   "shadow": "3px 3px 10px rgba(0,0,0,.4)",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

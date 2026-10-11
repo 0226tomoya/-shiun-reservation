@@ -1,0 +1,301 @@
+{
+ "id": "UVCaGbnFNDA",
+ "erase": [
+  {
+   "rect": [
+    12,
+    520,
+    1258,
+    58
+   ],
+   "colors": [
+    "#4a5560",
+    "#606062",
+    "#000000"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    63,
+    218,
+    128,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    318,
+    218,
+    129,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    572,
+    218,
+    133,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    830,
+    218,
+    130,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1084,
+    218,
+    134,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    20,
+    435,
+    1245,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    450,
+    652,
+    380,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 523,
+   "w": 1251,
+   "h": 52,
+   "fill": "#000",
+   "opacity": 0.5
+  },
+  {
+   "type": "text",
+   "text": "158cm",
+   "x": 68.0,
+   "y": 220.5,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 51.078,
+   "scale_x": 0.887,
+   "spacing": -0.036,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    63,
+    218,
+    128,
+    60
+   ],
+   "tol": 25,
+   "rotate": -0.5,
+   "skew": 1.6,
+   "fit_iou": 0.43
+  },
+  {
+   "type": "text",
+   "text": "165cm",
+   "x": 323.0,
+   "y": 214.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 57.099,
+   "scale_x": 0.797,
+   "spacing": -0.028,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    318,
+    218,
+    129,
+    60
+   ],
+   "tol": 25,
+   "fit_iou": 0.449
+  },
+  {
+   "type": "text",
+   "text": "164cm",
+   "x": 577.0,
+   "y": 221.5,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 47.183,
+   "scale_x": 0.973,
+   "spacing": -0.03,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    572,
+    218,
+    133,
+    60
+   ],
+   "tol": 25,
+   "rotate": 0.15,
+   "skew": 0.3,
+   "fit_iou": 0.465
+  },
+  {
+   "type": "text",
+   "text": "167cm",
+   "x": 835.0,
+   "y": 224.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 46.516,
+   "scale_x": 0.989,
+   "spacing": -0.028,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    830,
+    218,
+    130,
+    60
+   ],
+   "tol": 25,
+   "skew": -0.3,
+   "fit_iou": 0.469
+  },
+  {
+   "type": "text",
+   "text": "170cm",
+   "x": 1089.5,
+   "y": 187.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 84.69,
+   "scale_x": 0.537,
+   "spacing": -0.03,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    1084,
+    218,
+    134,
+    60
+   ],
+   "tol": 25,
+   "fit_iou": 0.408
+  },
+  {
+   "type": "text",
+   "text": "身長別サイズ徹底比較",
+   "x": 10.5,
+   "y": 427.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 134.698,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    20,
+    435,
+    1245,
+    145
+   ],
+   "tol": 25,
+   "scale_x": 0.929,
+   "spacing": -0.006,
+   "skew": 1.3,
+   "fit_iou": 0.507
+  },
+  {
+   "type": "text",
+   "text": "shiun 26 Spring 3rd Collection",
+   "x": 386.0,
+   "y": 586.5,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "size": 55.43,
+   "scale_x": 0.677,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "tol": 25,
+   "skew": -0.7,
+   "fit_iou": 0.4
+  },
+  {
+   "type": "text",
+   "text": "2026.3.28 sat 10pm - Release",
+   "x": 455.5,
+   "y": 648.0,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "size": 42.889,
+   "scale_x": 0.67,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    450,
+    652,
+    380,
+    52
+   ],
+   "tol": 25,
+   "skew": 5,
+   "rotate": 0.15,
+   "fit_iou": 0.285
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "id": "pgOeRna1FNo",
+ "erase": [
+  {
+   "rect": [
+    12,
+    14,
+    1256,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    14,
+    10,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1257,
+    14,
+    10,
+    700
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    27,
+    28,
+    177,
+    178
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    24,
+    354,
+    675,
+    88
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    20,
+    350,
+    1240,
+    350
+   ],
+   "colors": [
+    "#fce40c"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1125,
+    40,
+    105,
+    420
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 17,
+   "y": 18,
+   "w": 1247,
+   "h": 720,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_m.png",
+   "x": 30,
+   "y": 31,
+   "w": 171,
+   "h": 172
+  },
+  {
+   "type": "text",
+   "text": "ユニクロ",
+   "x": 32.0,
+   "y": 435.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 73.93,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    24,
+    362,
+    259,
+    79
+   ],
+   "tol": 25,
+   "scale_x": 0.876,
+   "spacing": -0.014,
+   "rotate": 0.15,
+   "skew": 0.3,
+   "fit_iou": 0.632
+  },
+  {
+   "type": "text",
+   "text": "2026年",
+   "x": 305.0,
+   "y": 433.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 71.613,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    290,
+    363,
+    244,
+    77
+   ],
+   "tol": 25,
+   "scale_x": 0.999,
+   "rotate": 2.15,
+   "skew": 9,
+   "fit_iou": 0.445
+  },
+  {
+   "type": "text",
+   "text": "春服",
+   "x": 546.0,
+   "y": 432.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 82.064,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    541,
+    354,
+    157,
+    85
+   ],
+   "tol": 25,
+   "scale_x": 0.896,
+   "spacing": 0.026,
+   "fit_iou": 0.846
+  },
+  {
+   "type": "text",
+   "text": "これは",
+   "x": -18.5,
+   "y": 690.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 272.874,
+   "line": 1.0,
+   "color": "#fce40c",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    24,
+    449,
+    692,
+    248
+   ],
+   "tol": 40,
+   "scale_x": 0.882,
+   "skew": -0.3,
+   "fit_iou": 0.752
+  },
+  {
+   "type": "text",
+   "text": "買",
+   "x": 704.5,
+   "y": 679.5,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 367.34,
+   "line": 1.0,
+   "color": "#fce40c",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    714,
+    350,
+    302,
+    347
+   ],
+   "tol": 40,
+   "scale_x": 0.884,
+   "skew": 1,
+   "fit_iou": 0.838
+  },
+  {
+   "type": "text",
+   "text": "い",
+   "x": 989.5,
+   "y": 676.0,
+   "anchor": "lb",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 249.945,
+   "line": 1.0,
+   "color": "#fce40c",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "box": [
+    1004,
+    464,
+    252,
+    212
+   ],
+   "tol": 40,
+   "scale_x": 1.039,
+   "rotate": 4.0,
+   "skew": -0.6,
+   "fit_iou": 0.677
+  },
+  {
+   "type": "text",
+   "text": "大人男性必見",
+   "x": 1164.5,
+   "y": 54.0,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 67.5,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "box": [
+    1125,
+    40,
+    105,
+    420
+   ],
+   "tol": 30,
+   "scale_x": 0.901,
+   "spacing": -0.018,
+   "rotate": 1.15,
+   "fit_iou": 0.268
+  }
+ ]
+}

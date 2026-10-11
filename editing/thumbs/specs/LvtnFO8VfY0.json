@@ -1,0 +1,114 @@
+{
+ "id": "LvtnFO8VfY0",
+ "erase": [
+  {
+   "rect": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "colors": [
+    "#fbfbfb"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    445,
+    1265,
+    230
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    185,
+    672,
+    960,
+    46
+   ],
+   "colors": [
+    "#f4f4f3"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "低身長でも似合う",
+   "x": 656.5,
+   "y": 307.5,
+   "anchor": "ct",
+   "box": [
+    240,
+    320,
+    810,
+    145
+   ],
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 141.35,
+   "color": "#fbfbfb",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "spacing": -0.02,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 579.0,
+   "y": 410.5,
+   "anchor": "ct",
+   "box": [
+    10,
+    455,
+    1260,
+    215
+   ],
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 244.38,
+   "color": "#fdfdfd",
+   "shadow": "0 0 14px rgba(0,0,0,.8)",
+   "spacing": -0.058,
+   "runs": [
+    {
+     "text": "コート"
+    },
+    {
+     "text": "の",
+     "size": 150
+    },
+    {
+     "text": "教科書"
+    }
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "2025 AUTUMN & WINTER MEN’S FASHION",
+   "x": 676.0,
+   "y": 678.0,
+   "anchor": "ct",
+   "box": [
+    185,
+    678,
+    960,
+    36
+   ],
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 34.67,
+   "color": "#f4f4f3",
+   "spacing": 0.224,
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 19
+}

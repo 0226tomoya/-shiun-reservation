@@ -1,0 +1,121 @@
+{
+ "id": "Avz219ur5bM",
+ "erase": [
+  {
+   "rect": [
+    727,
+    12,
+    200,
+    216
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    10,
+    290,
+    1260,
+    110
+   ],
+   "colors": [
+    "#fdfdfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    395,
+    1250,
+    325
+   ],
+   "colors": [
+    "#fbf6a3",
+    "#cea64d",
+    "#d6bb63"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square_cropped.png",
+   "x": 727,
+   "y": 12,
+   "w": 200,
+   "h": 216
+  },
+  {
+   "type": "text",
+   "text": "プチプラで買うべき秋冬服",
+   "x": 640,
+   "y": 295,
+   "anchor": "ct",
+   "box": [
+    15,
+    295,
+    1255,
+    100
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 100,
+   "color": "#fdfdfc",
+   "strokes": [
+    [
+     6,
+     "#0f0e0f"
+    ]
+   ],
+   "spacing": -0.03,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 640,
+   "y": 395,
+   "anchor": "ct",
+   "box": [
+    20,
+    400,
+    1240,
+    300
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 270,
+   "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)",
+   "strokes": [
+    [
+     6,
+     "#5a3a18"
+    ]
+   ],
+   "shadow": "0 0 14px rgba(255,220,120,.6)",
+   "spacing": -0.04,
+   "runs": [
+    {
+     "text": "全",
+     "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
+    },
+    {
+     "text": "て",
+     "size": 170,
+     "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
+    },
+    {
+     "text": "分",
+     "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
+    },
+    {
+     "text": "かる!!",
+     "size": 170,
+     "fill": "linear-gradient(180deg,#fffbd0 0%,#f3dc8c 35%,#c49a3e 62%,#f6e3a0 100%)"
+    }
+   ],
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 21
+}

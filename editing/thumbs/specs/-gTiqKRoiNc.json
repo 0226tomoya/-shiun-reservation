@@ -1,0 +1,255 @@
+{
+ "id": "-gTiqKRoiNc",
+ "erase": [
+  {
+   "rect": [
+    22,
+    22,
+    158,
+    160
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    400,
+    25,
+    330,
+    70
+   ],
+   "colors": [
+    "#f7e513"
+   ],
+   "tol": 32
+  },
+  {
+   "rect": [
+    780,
+    25,
+    485,
+    70
+   ],
+   "colors": [
+    "#f7e513"
+   ],
+   "tol": 32
+  },
+  {
+   "rect": [
+    70,
+    245,
+    185,
+    50
+   ],
+   "colors": [
+    "#2a2a30"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    925,
+    225,
+    340,
+    60
+   ],
+   "colors": [
+    "#2a2a30"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    20,
+    325,
+    860,
+    95
+   ],
+   "colors": [
+    "#fcfcfb"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    15,
+    415,
+    925,
+    300
+   ],
+   "colors": [
+    "#fefefe"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    915,
+    265,
+    355,
+    450
+   ],
+   "colors": [
+    "#fefefe"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_katakana_red.png",
+   "x": 22,
+   "y": 22,
+   "w": 158,
+   "h": 160
+  },
+  {
+   "type": "text",
+   "text": "アパレルディ",
+   "x": 405,
+   "y": 28,
+   "box": [
+    400,
+    25,
+    330,
+    70
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 62,
+   "color": "#f7e513",
+   "strokes": [
+    [
+     3,
+     "#362c1d"
+    ]
+   ],
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "クターが厳選",
+   "x": 1258,
+   "y": 28,
+   "anchor": "rt",
+   "box": [
+    780,
+    25,
+    485,
+    70
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 62,
+   "color": "#f7e513",
+   "strokes": [
+    [
+     3,
+     "#362c1d"
+    ]
+   ],
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "これは最強!!",
+   "x": 75,
+   "y": 250,
+   "box": [
+    70,
+    248,
+    190,
+    50
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 30,
+   "color": "#2a2a30",
+   "scale_x": 1.0,
+   "rotate": -3
+  },
+  {
+   "type": "text",
+   "text": "〇〇は冬のマストアイテム",
+   "x": 930,
+   "y": 232,
+   "box": [
+    925,
+    228,
+    335,
+    55
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 28,
+   "color": "#2a2a30",
+   "scale_x": 1.0,
+   "rotate": 5
+  },
+  {
+   "type": "text",
+   "text": "ユニクロ 2025秋冬",
+   "x": 25,
+   "y": 330,
+   "box": [
+    20,
+    325,
+    860,
+    95
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 90,
+   "color": "#fcfcfb",
+   "strokes": [
+    [
+     5,
+     "#151311"
+    ]
+   ],
+   "spacing": -0.03,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "BEST",
+   "x": 20,
+   "y": 420,
+   "box": [
+    25,
+    425,
+    920,
+    290
+   ],
+   "font": "Inter",
+   "weight": 900,
+   "size": 360,
+   "color": "#fefefe",
+   "shadow": "3px 3px 8px rgba(0,0,0,.3)",
+   "spacing": -0.05,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "3",
+   "x": 920,
+   "y": 260,
+   "box": [
+    915,
+    270,
+    350,
+    440
+   ],
+   "font": "Inter",
+   "weight": 900,
+   "size": 540,
+   "color": "#fefefe",
+   "shadow": "3px 3px 8px rgba(0,0,0,.3)",
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

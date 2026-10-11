@@ -1,0 +1,36 @@
+{
+ "id": "b1D65j83cug",
+ "erase": [
+  {
+   "rect": [
+    20,
+    365,
+    1240,
+    350
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 9
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "お知らせ",
+   "x": -8.5,
+   "y": 341.0,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 360.06,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": -0.06,
+   "shadow": "0 0 24px rgba(0,0,0,.75)",
+   "tol": 9,
+   "scale_x": 0.93,
+   "skew": 2.7,
+   "fit_iou": 0.755
+  }
+ ]
+}

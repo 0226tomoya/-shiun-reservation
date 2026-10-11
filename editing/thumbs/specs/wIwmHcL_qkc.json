@@ -1,0 +1,217 @@
+{
+ "id": "wIwmHcL_qkc",
+ "erase": [
+  {
+   "rect": [
+    24,
+    18,
+    422,
+    204
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    12,
+    250,
+    465,
+    195
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    8,
+    445,
+    470,
+    265
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    765,
+    232,
+    512,
+    480
+   ],
+   "colors": [
+    "#fcdd07"
+   ],
+   "tol": 34
+  },
+  {
+   "rect": [
+    728,
+    30,
+    545,
+    150
+   ],
+   "colors": [
+    "#151515",
+    "#f9f9f8"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_double_red.png",
+   "x": 24,
+   "y": 18,
+   "w": 422,
+   "h": 204
+  },
+  {
+   "type": "text",
+   "x": -4.0,
+   "y": 240.5,
+   "box": [
+    15,
+    252,
+    460,
+    190
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 201.52,
+   "color": "#fcfcfc",
+   "strokes": [
+    [
+     7,
+     "#0a0a0a"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.5)",
+   "scale_x": 0.996,
+   "spacing": -0.182,
+   "skew": -7,
+   "runs": [
+    {
+     "text": "この",
+     "size": 173.29
+    },
+    {
+     "text": "冬"
+    }
+   ],
+   "fit_iou": 0.486
+  },
+  {
+   "type": "text",
+   "text": "No.1",
+   "x": 36.0,
+   "y": 405.0,
+   "box": [
+    8,
+    452,
+    460,
+    245
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 279.09,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     7,
+     "#0a0a0a"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.5)",
+   "spacing": -0.164,
+   "scale_x": 0.98,
+   "skew": -7.4,
+   "fit_iou": 0.738
+  },
+  {
+   "type": "text",
+   "text": "名作",
+   "x": 815.5,
+   "y": 218.5,
+   "box": [
+    778,
+    240,
+    497,
+    240
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 264.16,
+   "color": "#fcdd07",
+   "strokes": [
+    [
+     8,
+     "#181109"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.5)",
+   "scale_x": 0.988,
+   "spacing": -0.164,
+   "skew": -9.7,
+   "fit_iou": 0.649
+  },
+  {
+   "type": "text",
+   "text": "パンツ",
+   "x": 753.5,
+   "y": 470.5,
+   "box": [
+    750,
+    478,
+    520,
+    235
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 220.05,
+   "color": "#fcdd07",
+   "strokes": [
+    [
+     8,
+     "#181109"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.5)",
+   "scale_x": 0.984,
+   "spacing": -0.26,
+   "skew": 0.7,
+   "fit_iou": 0.453
+  },
+  {
+   "type": "text",
+   "text": "低身長男性必見!!",
+   "x": 742,
+   "y": 40,
+   "box": [
+    730,
+    35,
+    520,
+    135
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 54,
+   "color": "#151515",
+   "strokes": [
+    [
+     5,
+     "#f9f9f8"
+    ]
+   ],
+   "scale_x": 0.988,
+   "spacing": 0.04,
+   "rotate": 8,
+   "fit_iou": 0.198,
+   "fixed": true
+  }
+ ],
+ "grow": 25
+}

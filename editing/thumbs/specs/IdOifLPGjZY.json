@@ -1,0 +1,416 @@
+{
+ "id": "IdOifLPGjZY",
+ "erase": [
+  {
+   "rect": [
+    30,
+    32,
+    130,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    825,
+    25,
+    430,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    150,
+    512,
+    980,
+    118
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    275,
+    638,
+    730,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    12,
+    13,
+    1257,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    697,
+    1257,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    12,
+    13,
+    10,
+    694
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1258,
+    13,
+    10,
+    694
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 16,
+   "y": 17,
+   "w": 1249,
+   "h": 687,
+   "fill": "transparent",
+   "border": [
+    3,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "T-shirt\nShirt\nSlacks\nBoots",
+   "x": 39.0,
+   "y": 31.5,
+   "font": "Jost",
+   "weight": 500,
+   "size": 34.689,
+   "line": 1.48,
+   "color": "#ffffff",
+   "spacing": 0.202,
+   "tol": 16,
+   "scale_x": 0.842,
+   "rotate": 0.8,
+   "fit_iou": 0.439
+  },
+  {
+   "type": "text",
+   "text": "2026 Spring & Summer",
+   "x": 835.5,
+   "y": 28.5,
+   "font": "Sacramento",
+   "weight": 400,
+   "size": 36.92,
+   "color": "#ffffff",
+   "rotate": 9,
+   "tol": 22,
+   "scale_x": 1.183,
+   "spacing": -0.02,
+   "skew": 0.3,
+   "fit_iou": 0.092
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "最",
+   "x": 158.0,
+   "y": 513.0,
+   "size": 108.9,
+   "box": [
+    161,
+    512,
+    98,
+    118
+   ],
+   "skew": 0.6,
+   "scale_x": 0.918,
+   "rotate": -0.3,
+   "fit_iou": 0.945
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "近",
+   "x": 262.5,
+   "y": 512.0,
+   "size": 108.94,
+   "box": [
+    264,
+    512,
+    102,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.914,
+   "fit_iou": 0.919
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "買",
+   "x": 368.5,
+   "y": 513.0,
+   "size": 108.9,
+   "box": [
+    371,
+    512,
+    98,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.903,
+   "fit_iou": 0.96
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "っ",
+   "x": 468.0,
+   "y": 508.0,
+   "size": 114.83,
+   "box": [
+    476,
+    512,
+    66,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.665,
+   "rotate": -0.15,
+   "fit_iou": 0.73
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "て",
+   "x": 543.5,
+   "y": 517.0,
+   "size": 107.953,
+   "box": [
+    552,
+    512,
+    73,
+    118
+   ],
+   "skew": -2.1,
+   "scale_x": 0.807,
+   "rotate": 0.5,
+   "fit_iou": 0.744
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "よ",
+   "x": 628.0,
+   "y": 518.0,
+   "size": 104.7,
+   "box": [
+    634,
+    512,
+    71,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.804,
+   "rotate": 0.5,
+   "fit_iou": 0.861
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "か",
+   "x": 713.0,
+   "y": 522.0,
+   "size": 102.63,
+   "box": [
+    714,
+    512,
+    79,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.754,
+   "rotate": -0.2,
+   "fit_iou": 0.761
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "っ",
+   "x": 791.0,
+   "y": 508.0,
+   "size": 114.83,
+   "box": [
+    799,
+    512,
+    66,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.665,
+   "rotate": -0.15,
+   "fit_iou": 0.729
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "た",
+   "x": 872.0,
+   "y": 521.0,
+   "size": 102.873,
+   "box": [
+    876,
+    512,
+    76,
+    118
+   ],
+   "skew": 0.6,
+   "scale_x": 0.742,
+   "fit_iou": 0.753
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "も",
+   "x": 956.0,
+   "y": 522.0,
+   "size": 103.51,
+   "box": [
+    962,
+    512,
+    73,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.767,
+   "rotate": -1.65,
+   "fit_iou": 0.815
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "tol": 14,
+   "text": "の",
+   "x": 1042.5,
+   "y": 519.5,
+   "size": 102.57,
+   "box": [
+    1045,
+    512,
+    77,
+    118
+   ],
+   "skew": 0.9,
+   "scale_x": 0.754,
+   "rotate": -0.5,
+   "fit_iou": 0.905
+  },
+  {
+   "type": "text",
+   "text": "shiun / GUIDI / AULAREE / KAIKO",
+   "x": 283.0,
+   "y": 643.0,
+   "font": "Montserrat",
+   "weight": 400,
+   "italic": true,
+   "size": 38.92,
+   "color": "#ffffff",
+   "line": 1.0,
+   "spacing": 0.1,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tol": 16,
+   "scale_x": 0.937,
+   "skew": -0.4,
+   "rotate": -0.15,
+   "fit_iou": 0.198
+  }
+ ]
+}

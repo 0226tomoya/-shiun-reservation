@@ -1,0 +1,69 @@
+{
+ "id": "isp1aBS6dZ4",
+ "erase": [
+  {
+   "rect": [
+    7,
+    9,
+    245,
+    112
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    283,
+    320,
+    712,
+    80
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_kana_topleft.png",
+   "x": 10,
+   "y": 12,
+   "w": 239,
+   "h": 106
+  },
+  {
+   "type": "text",
+   "text": "結局こういうのでいい",
+   "x": 289.5,
+   "y": 316.0,
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "size": 70.41,
+   "spacing": 0.152,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     1,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "box": [
+    283,
+    320,
+    712,
+    80
+   ],
+   "tol": 25,
+   "scale_x": 0.884,
+   "skew": 3.3,
+   "rotate": 0.3,
+   "fit_iou": 0.171
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "id": "Z3_U5h9vQxQ",
+ "erase": [
+  {
+   "rect": [
+    14,
+    19,
+    1252,
+    8
+   ],
+   "colors": [
+    "#1a1a1a"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    691,
+    1252,
+    8
+   ],
+   "colors": [
+    "#1a1a1a"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    14,
+    19,
+    8,
+    680
+   ],
+   "colors": [
+    "#1a1a1a"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1258,
+    19,
+    8,
+    680
+   ],
+   "colors": [
+    "#1a1a1a"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1112,
+    36,
+    135,
+    135
+   ],
+   "colors": [
+    "#fffeec",
+    "#222222"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    295,
+    30,
+    690,
+    68
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 50
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 18,
+   "y": 23,
+   "w": 1244,
+   "h": 672,
+   "border": [
+    2,
+    "#1a1a1a"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_cream_square.png",
+   "x": 1116,
+   "y": 40,
+   "w": 127,
+   "h": 127
+  },
+  {
+   "type": "text",
+   "text": "shiun 26 FALL LOOK BOOK",
+   "x": 297.5,
+   "y": 19.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 69.708,
+   "color": "#111111",
+   "scale_x": 0.774,
+   "spacing": -0.02,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578
+  }
+ ]
+}

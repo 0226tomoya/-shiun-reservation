@@ -1,0 +1,112 @@
+{
+ "id": "gz1BzsJvEIQ",
+ "erase": [
+  {
+   "rect": [
+    5,
+    365,
+    910,
+    90
+   ],
+   "colors": [
+    "#fafafa"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    450,
+    1265,
+    265
+   ],
+   "colors": [
+    "#fdfdfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1025,
+    385,
+    240,
+    70
+   ],
+   "colors": [
+    "#f8f8f8"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "低身長でも似合うようになる",
+   "x": 12,
+   "y": 370,
+   "box": [
+    10,
+    372,
+    900,
+    80
+   ],
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 78,
+   "color": "#fafafa",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "spacing": -0.04,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 10,
+   "y": 455,
+   "box": [
+    5,
+    460,
+    1260,
+    250
+   ],
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "size": 240,
+   "color": "#fdfdfc",
+   "shadow": "0 0 12px rgba(0,0,0,.7)",
+   "spacing": -0.04,
+   "runs": [
+    {
+     "text": "ダウン"
+    },
+    {
+     "text": "の",
+     "size": 150
+    },
+    {
+     "text": "教科書"
+    }
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "2025年冬",
+   "x": 1032,
+   "y": 390,
+   "box": [
+    1030,
+    392,
+    230,
+    55
+   ],
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 56,
+   "color": "#f8f8f8",
+   "shadow": "0 0 10px rgba(0,0,0,.7)",
+   "spacing": -0.05,
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 17
+}

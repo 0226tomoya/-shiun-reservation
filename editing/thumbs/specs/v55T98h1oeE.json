@@ -1,0 +1,106 @@
+{
+ "id": "v55T98h1oeE",
+ "erase": [
+  {
+   "rect": [
+    130,
+    385,
+    1030,
+    110
+   ],
+   "colors": [
+    "#fdf5ee"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    0,
+    505,
+    440,
+    215
+   ],
+   "colors": [
+    "#fdf5ee"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    650,
+    505,
+    630,
+    215
+   ],
+   "colors": [
+    "#fdf5ee"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    436,
+    493,
+    217,
+    219
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_v55t.png",
+   "x": 439,
+   "y": 496,
+   "w": 211,
+   "h": 213
+  },
+  {
+   "type": "text",
+   "text": "¥15,000以下で完成する",
+   "x": 138.5,
+   "y": 390.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 81.32,
+   "color": "#fdf5ee",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 22,
+   "scale_x": 1.126,
+   "skew": 1,
+   "fit_iou": 0.523
+  },
+  {
+   "type": "text",
+   "text": "全身",
+   "x": 9.5,
+   "y": 478.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 201.071,
+   "color": "#fdf5ee",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 22,
+   "scale_x": 1.048,
+   "fit_iou": 0.852
+  },
+  {
+   "type": "text",
+   "text": "コーデ",
+   "x": 644.0,
+   "y": 479.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 189.51,
+   "color": "#fdf5ee",
+   "shadow": "0 0 14px rgba(0,0,0,.6)",
+   "tol": 22,
+   "scale_x": 1.1,
+   "spacing": 0.028,
+   "skew": -4.3,
+   "rotate": -0.15,
+   "fit_iou": 0.66
+  }
+ ]
+}

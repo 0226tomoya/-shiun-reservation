@@ -1,0 +1,453 @@
+{
+ "id": "srX4M-d0DUk",
+ "erase": [
+  {
+   "rect": [
+    15,
+    522,
+    1250,
+    55
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    62,
+    220,
+    130,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    317,
+    220,
+    131,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    571,
+    220,
+    135,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    829,
+    220,
+    132,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    1084,
+    220,
+    134,
+    56
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    18,
+    432,
+    1245,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    18,
+    520,
+    1245,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    355,
+    590,
+    570,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  },
+  {
+   "rect": [
+    447,
+    650,
+    385,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 24
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 522,
+   "w": 1250,
+   "h": 55,
+   "fill": "#000000",
+   "opacity": 0.5
+  },
+  {
+   "type": "text",
+   "text": "158cm",
+   "x": 129.0,
+   "y": 249.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 48.189,
+   "scale_x": 0.856,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "rotate": 0.5,
+   "fit_iou": 0.501
+  },
+  {
+   "type": "text",
+   "text": "165cm",
+   "x": 384.0,
+   "y": 248.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 50.974,
+   "scale_x": 0.836,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "spacing": 0.006,
+   "rotate": 0.5,
+   "fit_iou": 0.515
+  },
+  {
+   "type": "text",
+   "text": "164cm",
+   "x": 640.0,
+   "y": 250.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 47.392,
+   "scale_x": 0.912,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "spacing": 0.006,
+   "fit_iou": 0.486
+  },
+  {
+   "type": "text",
+   "text": "167cm",
+   "x": 895.5,
+   "y": 249.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 48.0,
+   "scale_x": 0.892,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "spacing": 0.002,
+   "rotate": 0.15,
+   "fit_iou": 0.519
+  },
+  {
+   "type": "text",
+   "text": "170cm",
+   "x": 1153.0,
+   "y": 244.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 700,
+   "size": 61.5,
+   "scale_x": 0.682,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "fit_iou": 0.428
+  },
+  {
+   "type": "text",
+   "text": "身",
+   "x": 84.0,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    22,
+    432,
+    124,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "長",
+   "x": 207.5,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    146,
+    432,
+    123,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "別",
+   "x": 328.5,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    266,
+    432,
+    125,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "サ",
+   "x": 459.0,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    400,
+    432,
+    118,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "イ",
+   "x": 567.0,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    523,
+    432,
+    88,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ズ",
+   "x": 694.0,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    632,
+    432,
+    124,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "徹",
+   "x": 821.5,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    759,
+    432,
+    125,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "底",
+   "x": 943.0,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    881,
+    432,
+    124,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "比",
+   "x": 1068.5,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    1006,
+    432,
+    125,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "較",
+   "x": 1193.5,
+   "y": 507,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 135,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "box": [
+    1130,
+    432,
+    127,
+    148
+   ]
+  },
+  {
+   "type": "text",
+   "text": "shiun 26 Summer 2nd Collection",
+   "x": 639.0,
+   "y": 616.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 400,
+   "size": 50.47,
+   "scale_x": 0.749,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "rotate": -0.15,
+   "fit_iou": 0.531
+  },
+  {
+   "type": "text",
+   "text": "2026.5.30 sat 10pm - Release",
+   "x": 641.0,
+   "y": 672.0,
+   "anchor": "cc",
+   "font": "Bodoni Moda",
+   "weight": 400,
+   "size": 42.889,
+   "scale_x": 0.668,
+   "color": "#ffffff",
+   "lock": [
+    "skew"
+   ],
+   "spacing": 0.002,
+   "fit_iou": 0.261
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "65zaIpnufwo",
+ "erase": [
+  [
+   3,
+   425,
+   467,
+   290
+  ],
+  [
+   466,
+   500,
+   110,
+   215
+  ],
+  [
+   572,
+   425,
+   708,
+   290
+  ]
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "チビ",
+   "x": -20.5,
+   "y": 396.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 282.14,
+   "color": "#fefefe",
+   "shadow": "3px 3px 8px rgba(0,0,0,.3)",
+   "spacing": -0.116,
+   "box": [
+    3,
+    425,
+    467,
+    290
+   ],
+   "scale_x": 0.873,
+   "rotate": -1.2,
+   "skew": 2.4,
+   "fit_iou": 0.711
+  },
+  {
+   "type": "text",
+   "text": "は",
+   "x": 446.5,
+   "y": 490.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 190.22,
+   "color": "#fefefe",
+   "shadow": "3px 3px 8px rgba(0,0,0,.3)",
+   "box": [
+    466,
+    500,
+    110,
+    215
+   ],
+   "scale_x": 0.634,
+   "skew": 0.3,
+   "fit_iou": 0.538
+  },
+  {
+   "type": "text",
+   "text": "辛いよ",
+   "x": 548.5,
+   "y": 400.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 281.942,
+   "color": "#fefefe",
+   "shadow": "3px 3px 8px rgba(0,0,0,.3)",
+   "spacing": -0.098,
+   "box": [
+    572,
+    425,
+    708,
+    290
+   ],
+   "scale_x": 0.949,
+   "skew": 4,
+   "fit_iou": 0.73
+  }
+ ]
+}

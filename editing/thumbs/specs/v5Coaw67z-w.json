@@ -1,0 +1,191 @@
+{
+ "id": "v5Coaw67z-w",
+ "erase": [
+  {
+   "rect": [
+    625,
+    25,
+    650,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    760,
+    105,
+    400,
+    180
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    598,
+    295,
+    92,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    5,
+    420,
+    570,
+    100
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    5,
+    522,
+    705,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "shiun LOOK"
+    },
+    {
+     "text": "撮影",
+     "font": "ShipporiMinchoB1",
+     "weight": 800
+    }
+   ],
+   "x": 648.0,
+   "y": 16.0,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 70.621,
+   "color": "#ffffff",
+   "spacing": -0.02,
+   "tol": 16,
+   "box": [
+    625,
+    25,
+    650,
+    75
+   ],
+   "scale_x": 1.218,
+   "skew": -5.5,
+   "fit_iou": 0.331
+  },
+  {
+   "type": "text",
+   "text": "Vlog",
+   "x": 753.0,
+   "y": 165.0,
+   "font": "GreatVibes",
+   "weight": 400,
+   "size": 176.2,
+   "color": "#ffffff",
+   "rotate": -10,
+   "tol": 16,
+   "box": [
+    760,
+    105,
+    400,
+    180
+   ],
+   "scale_x": 1.152,
+   "spacing": -0.002,
+   "fit_iou": 0.144
+  },
+  {
+   "type": "text",
+   "text": "&",
+   "x": 600.5,
+   "y": 269.0,
+   "font": "PlayfairDisplay",
+   "weight": 900,
+   "size": 107.41,
+   "color": "#ffffff",
+   "tol": 16,
+   "box": [
+    598,
+    295,
+    92,
+    85
+   ],
+   "scale_x": 0.828,
+   "fit_iou": 0.455
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "10分"
+    },
+    {
+     "text": "で",
+     "size": 68
+    },
+    {
+     "text": "完成する"
+    }
+   ],
+   "x": 27.0,
+   "y": 408.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 100.036,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "spacing": -0.054,
+   "tol": 30,
+   "box": [
+    5,
+    420,
+    570,
+    100
+   ],
+   "scale_x": 0.887,
+   "skew": -1,
+   "fit_iou": 0.539
+  },
+  {
+   "type": "text",
+   "text": "メンズメイク",
+   "x": 4.5,
+   "y": 500.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 196.23,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "spacing": -0.1,
+   "tol": 30,
+   "box": [
+    5,
+    522,
+    705,
+    190
+   ],
+   "scale_x": 0.663,
+   "fit_iou": 0.631
+  }
+ ]
+}

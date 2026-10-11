@@ -1,0 +1,552 @@
+{
+ "id": "sbJf07Bkd94",
+ "erase": [
+  {
+   "rect": [
+    970,
+    9,
+    300,
+    137
+   ],
+   "colors": [
+    "#e60012",
+    "#ffffff"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    5,
+    340,
+    1272,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    5,
+    480,
+    1270,
+    238
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_pair_red_large.png",
+   "x": 974,
+   "y": 13,
+   "w": 292,
+   "h": 129
+  },
+  {
+   "type": "text",
+   "x": 15,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "ユ",
+   "box": [
+    -27,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 137.9,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "ニ",
+   "box": [
+    95,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 260.8,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "ク",
+   "box": [
+    218,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 383.7,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "ロ",
+   "box": [
+    340,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 506.6,
+   "y": 349.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 95,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "の",
+   "box": [
+    471,
+    340,
+    160,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 597.8,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "コ",
+   "box": [
+    555,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 720.7,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "ス",
+   "box": [
+    677,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 843.5,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "パ",
+   "box": [
+    800,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 966.4,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "最",
+   "box": [
+    923,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 1089.3,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "強",
+   "box": [
+    1046,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 1212.2,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "〇",
+   "box": [
+    1169,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "x": 1335.1,
+   "y": 320.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 128,
+   "color": "#ffffff",
+   "spacing": -0.04,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "text": "〇",
+   "box": [
+    1292,
+    340,
+    208,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "リ",
+   "x": 17,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    -51,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ピ",
+   "x": 243.1,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    174,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "買",
+   "x": 469.2,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    400,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "い",
+   "x": 695.3,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    626,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "し",
+   "x": 921.4,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    852,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "て",
+   "x": 1147.5,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    1079,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ま",
+   "x": 1373.7,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    1305,
+    340,
+    363,
+    135
+   ]
+  },
+  {
+   "type": "text",
+   "text": "す",
+   "x": 1599.8,
+   "y": 460.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 238,
+   "color": "#ffffff",
+   "spacing": -0.05,
+   "shadow": "3px 3px 10px rgba(0,0,0,.55)",
+   "tol": 28,
+   "lock": [
+    "rotate",
+    "scale_x",
+    "skew"
+   ],
+   "scale_x": 1,
+   "box": [
+    1531,
+    340,
+    363,
+    135
+   ]
+  }
+ ]
+}

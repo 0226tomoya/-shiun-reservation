@@ -1,0 +1,263 @@
+{
+ "id": "2avOFva-G7M",
+ "erase": [
+  {
+   "rect": [
+    5,
+    3,
+    125,
+    52
+   ],
+   "colors": [
+    "#0c0c0c"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    915,
+    3,
+    360,
+    50
+   ],
+   "colors": [
+    "#0c0c0c"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    64,
+    270,
+    1152,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    505,
+    455,
+    275,
+    40
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    15,
+    270,
+    49,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 3
+  },
+  {
+   "rect": [
+    1216,
+    270,
+    50,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 3
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_black.png",
+   "x": 9,
+   "y": 6,
+   "w": 115,
+   "h": 46
+  },
+  {
+   "type": "text",
+   "text": "26 Summer 1st Collection",
+   "x": 921.5,
+   "y": -0.5,
+   "font": "PlayfairDisplay",
+   "weight": 700,
+   "size": 48.51,
+   "color": "#0c0c0c",
+   "scale_x": 0.613,
+   "tol": 40,
+   "rotate": 0.15,
+   "fit_iou": 0.431
+  },
+  {
+   "type": "text",
+   "text": "低身長",
+   "x": 24.5,
+   "y": 439.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 186.372,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    25,
+    272,
+    445,
+    185
+   ],
+   "scale_x": 0.824,
+   "fit_iou": 0.464
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 471.5,
+   "y": 449.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 146.24,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    470,
+    272,
+    125,
+    185
+   ],
+   "scale_x": 0.895,
+   "rotate": 3.25,
+   "fit_iou": 0.446
+  },
+  {
+   "type": "text",
+   "text": "夏",
+   "x": 556.5,
+   "y": 436.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 177.48,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    595,
+    272,
+    170,
+    185
+   ],
+   "scale_x": 1.025,
+   "skew": 0.3,
+   "fit_iou": 0.358
+  },
+  {
+   "type": "text",
+   "text": "が",
+   "x": 757.5,
+   "y": 453.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 164.29,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    765,
+    272,
+    115,
+    185
+   ],
+   "scale_x": 0.788,
+   "rotate": -2.0,
+   "fit_iou": 0.227
+  },
+  {
+   "type": "text",
+   "text": "変",
+   "x": 877.0,
+   "y": 451.5,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 178.537,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    880,
+    272,
+    170,
+    185
+   ],
+   "scale_x": 1.103,
+   "rotate": -3.0,
+   "skew": 6.2,
+   "fit_iou": 0.247
+  },
+  {
+   "type": "text",
+   "text": "わる",
+   "x": 1015.5,
+   "y": 455.0,
+   "anchor": "lb",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 200.76,
+   "color": "#ffffff",
+   "shadow": "0 0 20px rgba(0,0,0,.45)",
+   "line": 1.0,
+   "tol": 10,
+   "box": [
+    1050,
+    272,
+    210,
+    185
+   ],
+   "scale_x": 0.651,
+   "spacing": -0.066,
+   "rotate": -0.15,
+   "fit_iou": 0.353
+  },
+  {
+   "type": "text",
+   "text": "April 25th Sat. 10pm - Release",
+   "x": 511.5,
+   "y": 459.5,
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "size": 26.23,
+   "color": "#ffffff",
+   "scale_x": 0.726,
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "tol": 25,
+   "box": [
+    508,
+    455,
+    265,
+    40
+   ],
+   "fit_iou": 0.333,
+   "spacing": 0,
+   "rotate": 0.15,
+   "skew": 4.5
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "id": "V2oqdWJpn4w",
+ "erase": [
+  {
+   "rect": [
+    1078,
+    10,
+    185,
+    186
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    15,
+    280,
+    340
+   ],
+   "colors": [
+    "#fefefe"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    275,
+    260,
+    130,
+    180
+   ],
+   "colors": [
+    "#fdfcfc"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    10,
+    440,
+    1265,
+    280
+   ],
+   "colors": [
+    "#fffefe"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    590,
+    60,
+    220,
+    110
+   ],
+   "colors": [
+    "#555555"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gap_navy_square.png",
+   "x": 1078,
+   "y": 10,
+   "w": 185,
+   "h": 186
+  },
+  {
+   "type": "text",
+   "text": "え",
+   "x": 15,
+   "y": 20,
+   "box": [
+    10,
+    30,
+    240,
+    320
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 320,
+   "color": "#fefefe",
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 285,
+   "y": 265,
+   "box": [
+    280,
+    265,
+    120,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 180,
+   "color": "#fdfcfc",
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 20,
+   "y": 440,
+   "box": [
+    10,
+    450,
+    1260,
+    265
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 300,
+   "color": "#fffefe",
+   "shadow": "0 0 18px rgba(0,0,0,.45)",
+   "spacing": -0.05,
+   "runs": [
+    {
+     "text": "これ",
+     "size": 240
+    },
+    {
+     "text": "GAP!?"
+    }
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "カッコよ...",
+   "x": 598,
+   "y": 70,
+   "box": [
+    590,
+    60,
+    220,
+    110
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 30,
+   "color": "#555555",
+   "scale_x": 1.0,
+   "rotate": 12
+  }
+ ],
+ "grow": 21
+}

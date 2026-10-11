@@ -1,0 +1,131 @@
+{
+ "id": "xUjMZH_p5ig",
+ "erase": [
+  {
+   "rect": [
+    22,
+    12,
+    150,
+    490
+   ],
+   "colors": [
+    "#faebfa",
+    "#b574b2"
+   ],
+   "tol": 36
+  },
+  {
+   "rect": [
+    568,
+    468,
+    684,
+    64
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    530,
+    1270,
+    190
+   ],
+   "colors": [
+    "#fdfdfd"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "私はアリです♡",
+   "x": 96,
+   "y": 25,
+   "anchor": "ct",
+   "vertical": true,
+   "box": [
+    30,
+    15,
+    125,
+    485
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "size": 70,
+   "line": 1.0,
+   "color": "#faebfa",
+   "strokes": [
+    [
+     3,
+     "#d890d6"
+    ]
+   ],
+   "shadow": "0 0 10px #b04cb0",
+   "scale_x": 1.0
+  },
+  {
+   "type": "rect",
+   "x": 570,
+   "y": 470,
+   "w": 680,
+   "h": 60,
+   "fill": "#030202"
+  },
+  {
+   "type": "text",
+   "text": "街頭インタビュー",
+   "x": 910,
+   "y": 500,
+   "anchor": "cc",
+   "box": [
+    600,
+    475,
+    620,
+    52
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 54,
+   "color": "#fcfcfc",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "x": 640,
+   "y": 535,
+   "anchor": "ct",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 170,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "spacing": -0.04,
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "と",
+     "size": 120
+    },
+    {
+     "text": "付き合える?"
+    }
+   ],
+   "scale_x": 1.0
+  }
+ ],
+ "grow": 21
+}

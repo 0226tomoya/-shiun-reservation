@@ -1,0 +1,275 @@
+{
+ "id": "qokZxVNhJmo",
+ "erase": [
+  {
+   "rect": [
+    17,
+    20,
+    145,
+    146
+   ],
+   "colors": [
+    "#e61f27",
+    "#fef5f4"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    14,
+    184,
+    150,
+    64
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    1116,
+    19,
+    148,
+    147
+   ],
+   "colors": [
+    "#000000",
+    "#ffffff"
+   ],
+   "tol": 45
+  },
+  {
+   "rect": [
+    340,
+    335,
+    930,
+    80
+   ],
+   "colors": [
+    "#fafaf8"
+   ]
+  },
+  {
+   "rect": [
+    15,
+    350,
+    345,
+    365
+   ],
+   "colors": [
+    "#fdd103"
+   ]
+  },
+  {
+   "rect": [
+    320,
+    235,
+    190,
+    390
+   ],
+   "colors": [
+    "#8a8a8a"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    370,
+    440,
+    300,
+    270
+   ],
+   "colors": [
+    "#fdd103"
+   ]
+  },
+  {
+   "rect": [
+    705,
+    440,
+    270,
+    270
+   ],
+   "colors": [
+    "#fdd103"
+   ]
+  },
+  {
+   "rect": [
+    1020,
+    440,
+    255,
+    270
+   ],
+   "colors": [
+    "#fdd103"
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red.png",
+   "x": 19,
+   "y": 22,
+   "w": 141,
+   "h": 142
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_c_black.png",
+   "x": 16,
+   "y": 186,
+   "w": 146,
+   "h": 60
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_u_black.png",
+   "x": 1118,
+   "y": 21,
+   "w": 144,
+   "h": 143
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 425,
+   "y": 430,
+   "anchor": "cc",
+   "font": "Lora",
+   "weight": 400,
+   "size": 510,
+   "color": "#0a0a0a",
+   "strokes": [
+    [
+     2,
+     "#8a8a8a"
+    ]
+   ],
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "text": "低身長ディレクターがリピート買いした",
+   "x": 352.5,
+   "y": 338.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 59.44,
+   "color": "#fafaf8",
+   "shadow": "3px 3px 5px rgba(0,0,0,.6)",
+   "skew": -3.7,
+   "runs": [
+    {
+     "text": "低身長ディレクター"
+    },
+    {
+     "text": "が",
+     "size": 44
+    },
+    {
+     "text": "リピート買いした"
+    }
+   ],
+   "scale_x": 0.876,
+   "spacing": -0.002,
+   "fit_iou": 0.614,
+   "lock": [
+    "skew",
+    "rotate"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "神",
+   "x": 9.5,
+   "y": 303.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 370.998,
+   "color": "#fdd103",
+   "scale_x": 0.945,
+   "rotate": 0.65,
+   "skew": -0.3,
+   "fit_iou": 0.712,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    15,
+    350,
+    345,
+    365
+   ]
+  },
+  {
+   "type": "text",
+   "text": "パ",
+   "x": 377.5,
+   "y": 408.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 234.71,
+   "color": "#fdd103",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    370,
+    440,
+    300,
+    270
+   ],
+   "scale_x": 1.305,
+   "fit_iou": 0.594
+  },
+  {
+   "type": "text",
+   "text": "ン",
+   "x": 670.5,
+   "y": 383.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 277.82,
+   "color": "#fdd103",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    705,
+    440,
+    270,
+    270
+   ],
+   "scale_x": 1.088,
+   "fit_iou": 0.732
+  },
+  {
+   "type": "text",
+   "text": "ツ",
+   "x": 1010.0,
+   "y": 369.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 298.218,
+   "color": "#fdd103",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1020,
+    440,
+    255,
+    270
+   ],
+   "scale_x": 0.874,
+   "fit_iou": 0.655
+  }
+ ]
+}
