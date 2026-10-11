@@ -1,0 +1,438 @@
+{
+ "id": "N5vktmbfs8c",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    10,
+    5,
+    540,
+    140
+   ],
+   "colors": [
+    "#ffffff",
+    "#2a10f0"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    570,
+    30,
+    700,
+    190
+   ],
+   "colors": [
+    "#ffffff",
+    "#f0004e"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    388,
+    1280,
+    142
+   ],
+   "colors": [
+    "#fff200",
+    "#f0004e",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    530,
+    1280,
+    190
+   ],
+   "colors": [
+    "#f0004e",
+    "#ffffff"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "text": "そうなんだ…",
+   "x": 11.5,
+   "y": -3.7,
+   "size": 129.5,
+   "strokes": [
+    [
+     5,
+     "#2a10f0"
+    ]
+   ],
+   "shadow": "0 0 10px #2a10f0",
+   "m": [
+    15,
+    8,
+    520,
+    130,
+    "#ffffff",
+    25
+   ],
+   "scale_x": 0.681
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "text": "＼それ脈ナシのサイン!!／",
+   "x": 578.5,
+   "y": 162.5,
+   "size": 61.3,
+   "rotate": -12,
+   "strokes": [
+    [
+     5,
+     "#f0004e"
+    ]
+   ],
+   "shadow": "0 0 10px #f0004e",
+   "m": [
+    575,
+    40,
+    690,
+    175,
+    "#ffffff",
+    25
+   ],
+   "scale_x": 0.903,
+   "tgt": [
+    582,
+    40,
+    1212,
+    212
+   ]
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "聞",
+   "x": 17.0,
+   "y": 397.5,
+   "size": 100.3,
+   "m": [
+    18,
+    410,
+    102,
+    115,
+    "#fff200",
+    45
+   ],
+   "scale_x": 1.063
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "きたくても",
+   "x": 122.0,
+   "y": 419.0,
+   "size": 81.9,
+   "m": [
+    124,
+    425,
+    314,
+    100,
+    "#fff200",
+    45
+   ],
+   "scale_x": 0.776
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "聞",
+   "x": 443.0,
+   "y": 397.5,
+   "size": 100.3,
+   "m": [
+    444,
+    410,
+    102,
+    115,
+    "#fff200",
+    45
+   ],
+   "scale_x": 1.063
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "けない",
+   "x": 545.0,
+   "y": 419.0,
+   "size": 80.8,
+   "m": [
+    549,
+    425,
+    211,
+    100,
+    "#fff200",
+    45
+   ],
+   "scale_x": 0.903
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "女性",
+   "x": 760.5,
+   "y": 400.0,
+   "size": 98.4,
+   "m": [
+    762,
+    410,
+    216,
+    115,
+    "#fff200",
+    45
+   ],
+   "scale_x": 1.108
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "の",
+   "x": 977.0,
+   "y": 422.0,
+   "size": 70.0,
+   "m": [
+    979,
+    425,
+    67,
+    100,
+    "#fff200",
+    45
+   ],
+   "scale_x": 1.026
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#fff200",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#f0004e"
+    ],
+    [
+     12,
+     "#ffffff"
+    ]
+   ],
+   "text": "本音",
+   "x": 1047.5,
+   "y": 402.5,
+   "size": 96.0,
+   "m": [
+    1047,
+    410,
+    215,
+    115,
+    "#fff200",
+    45
+   ],
+   "scale_x": 1.125
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f0004e",
+   "palt": true,
+   "strokes": [
+    [
+     12,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f0004e"
+    ]
+   ],
+   "text": "彼女",
+   "x": 16.5,
+   "y": 548.5,
+   "size": 152.6,
+   "m": [
+    15,
+    548,
+    347,
+    167,
+    "#f0004e",
+    35
+   ],
+   "scale_x": 1.14,
+   "tgt": [
+    22,
+    562,
+    358,
+    705
+   ]
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f0004e",
+   "palt": true,
+   "strokes": [
+    [
+     12,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f0004e"
+    ]
+   ],
+   "text": "に",
+   "x": 365.0,
+   "y": 603.5,
+   "size": 88.1,
+   "m": [
+    363,
+    590,
+    75,
+    125,
+    "#f0004e",
+    35
+   ],
+   "scale_x": 0.815,
+   "tgt": [
+    372,
+    617,
+    430,
+    690
+   ]
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#f0004e",
+   "palt": true,
+   "strokes": [
+    [
+     12,
+     "#ffffff"
+    ],
+    [
+     15,
+     "#f0004e"
+    ]
+   ],
+   "text": "聞いてみた",
+   "x": 444.5,
+   "y": 543.5,
+   "size": 156.4,
+   "m": [
+    444,
+    548,
+    818,
+    167,
+    "#f0004e",
+    35
+   ],
+   "scale_x": 1.054,
+   "tgt": [
+    452,
+    562,
+    1256,
+    705
+   ]
+  }
+ ]
+}

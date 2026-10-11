@@ -1,0 +1,152 @@
+{
+ "id": "CoMYT3XMjkQ",
+ "erase": [
+  {
+   "rect": [
+    0,
+    10,
+    480,
+    125
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    95,
+    150,
+    120,
+    215
+   ],
+   "colors": [
+    "#d00010"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    10,
+    380,
+    960,
+    320
+   ],
+   "colors": [
+    "#d00010",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    960,
+    170,
+    245,
+    265
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "¥129,000",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#111111",
+   "palt": false,
+   "anchor": "cc",
+   "x": 234.0,
+   "y": 64.5,
+   "size": 63.800000000000004,
+   "shadow": "0 0 6px rgba(255,255,255,.9)",
+   "_t": [
+    2,
+    19,
+    466,
+    110
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 8,
+   "y": 118,
+   "w": 456,
+   "h": 9,
+   "fill": "#111111"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/arrow_red_curve_thpz.png",
+   "x": 106,
+   "y": 165,
+   "w": 88,
+   "h": 188
+  },
+  {
+   "type": "text",
+   "text": "¥5,499",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#d00010",
+   "palt": false,
+   "anchor": "cc",
+   "x": 488.5,
+   "y": 530.5,
+   "size": 169.58333333333334,
+   "spacing": -0.02,
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(255,255,255,.8)",
+   "_t": [
+    26,
+    389,
+    951,
+    672
+   ]
+  },
+  {
+   "type": "rect",
+   "x": 15,
+   "y": 661,
+   "w": 946,
+   "h": 38,
+   "fill": "#ffffff",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 22,
+   "y": 668,
+   "w": 932,
+   "h": 24,
+   "fill": "#d00010"
+  },
+  {
+   "type": "text",
+   "text": "!?",
+   "font": "Playfair Display",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": false,
+   "anchor": "cc",
+   "x": 1081.5,
+   "y": 302.0,
+   "size": 120.45,
+   "_t": [
+    972,
+    180,
+    1191,
+    424
+   ]
+  }
+ ]
+}

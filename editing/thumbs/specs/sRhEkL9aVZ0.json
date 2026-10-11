@@ -1,0 +1,218 @@
+{
+ "id": "sRhEkL9aVZ0",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    0,
+    628,
+    1280,
+    92
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    520,
+    600,
+    110,
+    30
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1150,
+    580,
+    80,
+    50
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    0,
+    200,
+    385
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    380,
+    1280,
+    250
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 628,
+   "w": 1280,
+   "h": 92,
+   "fill": "#222222"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/stevenalan_white_srhe.png",
+   "x": 40,
+   "y": 650,
+   "w": 205,
+   "h": 55
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/yaeca_white_srhe.png",
+   "x": 268,
+   "y": 645,
+   "w": 217,
+   "h": 60
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/adidas_white_srhe.png",
+   "x": 520,
+   "y": 608,
+   "w": 110,
+   "h": 100
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/niceness_white_srhe.png",
+   "x": 676,
+   "y": 650,
+   "w": 234,
+   "h": 50
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/confect_white_srhe.png",
+   "x": 940,
+   "y": 650,
+   "w": 178,
+   "h": 55
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/artesanos_white_srhe.png",
+   "x": 1150,
+   "y": 582,
+   "w": 78,
+   "h": 126
+  },
+  {
+   "type": "text",
+   "text": "春",
+   "x": -1.6,
+   "y": -16.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 188.9,
+   "color": "#ffffff",
+   "m": [
+    0,
+    0,
+    200,
+    192,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.015
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 6.5,
+   "y": 173.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 190.0,
+   "color": "#ffffff",
+   "m": [
+    0,
+    192,
+    200,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.962
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "x": -9.0,
+   "y": 322.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 301.2,
+   "color": "#ffffff",
+   "m": [
+    5,
+    385,
+    312,
+    240,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.914
+  },
+  {
+   "type": "text",
+   "text": "万円分",
+   "x": 320.0,
+   "y": 443.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 169.5,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    318,
+    460,
+    482,
+    168,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.948
+  },
+  {
+   "type": "text",
+   "text": "購入",
+   "x": 794.5,
+   "y": 352.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 253.7,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    798,
+    380,
+    478,
+    248,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.944
+  }
+ ]
+}

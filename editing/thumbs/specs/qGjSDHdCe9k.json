@@ -1,0 +1,127 @@
+{
+ "id": "qGjSDHdCe9k",
+ "erase": [
+  {
+   "rect": [
+    14,
+    10,
+    277,
+    277
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    555,
+    20,
+    715,
+    215
+   ],
+   "colors": [
+    "#ffffff",
+    "#141213"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    5,
+    545,
+    1275,
+    175
+   ],
+   "colors": [
+    "#ffffff",
+    "#141213",
+    "#fb025a"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/zozotown_black_qgjs.png",
+   "x": 14,
+   "y": 10,
+   "w": 277,
+   "h": 277
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "約"
+    },
+    {
+     "text": "10",
+     "font": "Montserrat",
+     "weight": 900,
+     "size_em": 1.25
+    },
+    {
+     "text": "万円分"
+    }
+   ],
+   "x": 566.5,
+   "y": -15.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 190.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "tgt": [
+    568,
+    30,
+    1260,
+    219
+   ],
+   "scale_x": 0.677
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "ZOZO",
+     "font": "Montserrat",
+     "weight": 700,
+     "size_em": 1.05
+    },
+    {
+     "text": "春服",
+     "color": "#fb025a"
+    },
+    {
+     "text": "購入品紹介"
+    }
+   ],
+   "x": 14.0,
+   "y": 537.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 158.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#141213"
+    ]
+   ],
+   "tgt": [
+    19,
+    557,
+    1270,
+    709
+   ],
+   "scale_x": 0.782
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "id": "b_AV3K7LLDI",
+ "erase": [
+  {
+   "rect": [
+    800,
+    0,
+    462,
+    190
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    418,
+    129,
+    193,
+    199
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    5,
+    800,
+    120
+   ],
+   "colors": [
+    "#ffffff",
+    "#333333"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    0,
+    475,
+    1280,
+    245
+   ],
+   "colors": [
+    "#ffffff",
+    "#333333"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    815,
+    212,
+    145,
+    240
+   ],
+   "colors": [
+    "#cccccc"
+   ],
+   "tol": 30
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/ines_uniqlo_whitepanel_bav3.png",
+   "x": 800,
+   "y": 0,
+   "w": 462,
+   "h": 190
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_bav3.png",
+   "x": 418,
+   "y": 129,
+   "w": 193,
+   "h": 199
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長"
+    },
+    {
+     "text": "でも",
+     "size_em": 0.78
+    },
+    {
+     "text": "似合う!!"
+    }
+   ],
+   "x": 11.0,
+   "y": 0.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 105.9,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "tgt": [
+    12,
+    14,
+    783,
+    116
+   ],
+   "scale_x": 0.913
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "コレ"
+    },
+    {
+     "text": "最高"
+    },
+    {
+     "text": "だわ",
+     "size_em": 0.95
+    }
+   ],
+   "x": -12.5,
+   "y": 456.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 233.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.7)",
+   "tgt": [
+    13,
+    487,
+    1267,
+    710
+   ],
+   "scale_x": 0.956
+  },
+  {
+   "type": "text",
+   "text": "？",
+   "x": 725.0,
+   "y": 169.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 270.5,
+   "color": "#cccccc",
+   "tgt": [
+    823,
+    220,
+    950,
+    446
+   ],
+   "scale_x": 1.174
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "wd5-yVcPhdY",
+ "erase": [
+  {
+   "rect": [
+    130,
+    600,
+    153,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    311,
+    600,
+    223,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    556,
+    600,
+    149,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    724,
+    600,
+    92,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    834,
+    600,
+    232,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1069,
+    600,
+    100,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    34,
+    33,
+    1212,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    34,
+    676,
+    1212,
+    10
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    34,
+    33,
+    12,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    1234,
+    33,
+    12,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    170,
+    250,
+    940,
+    220
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    375,
+    478,
+    535,
+    65
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 9,
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 38,
+   "w": 1202,
+   "h": 644,
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/comoli_white_wd5y.png",
+   "x": 130,
+   "y": 600,
+   "w": 153,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/kaptainsunshine_white_wd5y.png",
+   "x": 311,
+   "y": 600,
+   "w": 223,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/stevenalan_script_white_wd5y.png",
+   "x": 556,
+   "y": 600,
+   "w": 149,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/nike_white_wd5y.png",
+   "x": 724,
+   "y": 600,
+   "w": 92,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/crepuscule_white_wd5y.png",
+   "x": 834,
+   "y": 600,
+   "w": 232,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/robertpmiller_white_wd5y.png",
+   "x": 1069,
+   "y": 600,
+   "w": 100,
+   "h": 68
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "B"
+    },
+    {
+     "text": "EST",
+     "size_em": 0.82
+    },
+    {
+     "text": " B"
+    },
+    {
+     "text": "UY",
+     "size_em": 0.82
+    }
+   ],
+   "x": 176.0,
+   "y": 219.5,
+   "font": "BodoniModa",
+   "weight": 600,
+   "size": 260.5,
+   "color": "#ffffff",
+   "tgt": [
+    181,
+    262,
+    1098,
+    460
+   ],
+   "scale_x": 0.859,
+   "spacing": -0.05
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "最近"
+    },
+    {
+     "text": "の",
+     "size_em": 0.8
+    },
+    {
+     "text": "買って良かった服"
+    }
+   ],
+   "x": 379.0,
+   "y": 476.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 56.2,
+   "color": "#ffffff",
+   "palt": true,
+   "tgt": [
+    382,
+    484,
+    900,
+    538
+   ],
+   "scale_x": 0.91
+  }
+ ]
+}

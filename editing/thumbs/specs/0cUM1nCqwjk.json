@@ -1,0 +1,246 @@
+{
+ "id": "0cUM1nCqwjk",
+ "erase": [
+  {
+   "rect": [
+    8,
+    8,
+    300,
+    298
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    498,
+    8,
+    254,
+    102
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    498,
+    110,
+    197,
+    101
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    498,
+    213,
+    196,
+    101
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1055,
+    5,
+    220,
+    285
+   ],
+   "colors": [
+    "#2a2a2a"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    335,
+    1280,
+    385
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_0cum.png",
+   "x": 8,
+   "y": 8,
+   "w": 300,
+   "h": 298
+  },
+  {
+   "type": "rect",
+   "x": 501,
+   "y": 11,
+   "w": 247,
+   "h": 95,
+   "fill": "#fefefc",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 501,
+   "y": 113,
+   "w": 190,
+   "h": 95,
+   "fill": "#fefefc",
+   "radius": 6
+  },
+  {
+   "type": "rect",
+   "x": 501,
+   "y": 216,
+   "w": 189,
+   "h": 95,
+   "fill": "#fefefc",
+   "radius": 6
+  },
+  {
+   "type": "text",
+   "text": "新社会人",
+   "x": 510.9,
+   "y": 8.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 83.5,
+   "color": "#3e3e3e",
+   "palt": true,
+   "m": [
+    506,
+    15,
+    238,
+    88,
+    "#3e3e3e",
+    35
+   ],
+   "scale_x": 0.684
+  },
+  {
+   "type": "text",
+   "text": "入学式",
+   "x": 510.5,
+   "y": 113.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82.4,
+   "color": "#3e3e3e",
+   "palt": true,
+   "m": [
+    506,
+    117,
+    182,
+    88,
+    "#3e3e3e",
+    35
+   ],
+   "scale_x": 0.697
+  },
+  {
+   "type": "text",
+   "text": "結婚式",
+   "x": 510.8,
+   "y": 216.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 82.4,
+   "color": "#3e3e3e",
+   "palt": true,
+   "m": [
+    506,
+    220,
+    180,
+    88,
+    "#3e3e3e",
+    35
+   ],
+   "scale_x": 0.694
+  },
+  {
+   "type": "text",
+   "text": "コスパ",
+   "x": 1147.0,
+   "y": -1.0,
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 97.0,
+   "color": "#2a2a2a",
+   "tgt": [
+    1160,
+    16,
+    1268,
+    280
+   ],
+   "scale_x": 1.222
+  },
+  {
+   "type": "text",
+   "text": "最強",
+   "x": 1051.5,
+   "y": 43.0,
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 114.6,
+   "color": "#2a2a2a",
+   "tgt": [
+    1062,
+    50,
+    1168,
+    270
+   ],
+   "scale_x": 0.983
+  },
+  {
+   "type": "text",
+   "text": "スーツ買うなら",
+   "x": 11.0,
+   "y": 315.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 186.5,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "tgt": [
+    15,
+    345,
+    1255,
+    517
+   ],
+   "scale_x": 1.029
+  },
+  {
+   "type": "text",
+   "x": 2.5,
+   "y": 519.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 169.1,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "tgt": [
+    18,
+    540,
+    1263,
+    712
+   ],
+   "scale_x": 1.143,
+   "runs": [
+    {
+     "text": "UNIIQLO",
+     "font": "Montserrat",
+     "weight": 700
+    },
+    {
+     "text": "一択"
+    }
+   ]
+  }
+ ]
+}

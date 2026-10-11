@@ -1,0 +1,180 @@
+{
+ "id": "oZtYOlehxus",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    18,
+    15,
+    226,
+    224
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    295,
+    15,
+    226,
+    224
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    770,
+    20,
+    505,
+    215
+   ],
+   "colors": [
+    "#222222",
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    480,
+    1265,
+    235
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 22
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_ozty.png",
+   "x": 20,
+   "y": 17,
+   "w": 222,
+   "h": 220
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_ozty.png",
+   "x": 297,
+   "y": 17,
+   "w": 222,
+   "h": 220
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO U",
+   "x": 772.5,
+   "y": 1.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 92.9,
+   "color": "#222222",
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    775,
+    22,
+    500,
+    90,
+    "#222222",
+    30
+   ],
+   "scale_x": 1.078
+  },
+  {
+   "type": "text",
+   "text": "2024春夏",
+   "x": 774.0,
+   "y": 91.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 131.6,
+   "color": "#222222",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    775,
+    108,
+    500,
+    125,
+    "#222222",
+    30
+   ],
+   "scale_x": 0.857
+  },
+  {
+   "type": "text",
+   "text": "買うべき",
+   "x": 19.5,
+   "y": 456.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 231.1,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     12,
+     "#000000"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    25,
+    492,
+    672,
+    706
+   ],
+   "scale_x": 0.777
+  },
+  {
+   "type": "text",
+   "text": "TOP10",
+   "x": 680.5,
+   "y": 437.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 262.5,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     12,
+     "#000000"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    686,
+    497,
+    1256,
+    700
+   ],
+   "scale_x": 0.674
+  }
+ ]
+}

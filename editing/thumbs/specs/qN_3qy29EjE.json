@@ -33,9 +33,10 @@
     240
    ],
    "colors": [
-    "#ffffff"
+    "#ffffff",
+    "#353535"
    ],
-   "tol": 12
+   "tol": 14
   },
   {
    "rect": [
@@ -67,95 +68,125 @@
   {
    "type": "text",
    "text": "2万円台",
-   "x": 6.5,
-   "y": 10.5,
+   "x": 8.5,
+   "y": 1.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 99.6,
+   "size": 112.0,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "tgt": [
-    12,
-    22,
-    462,
-    118
+    14,
+    14,
+    459,
+    122
    ],
-   "scale_x": 1.277
+   "scale_x": 1.123,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "低身長OK",
-   "x": 726.0,
-   "y": 9.0,
+   "x": 717.0,
+   "y": 0.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 100.6,
+   "size": 114.2,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "tgt": [
-    727,
-    22,
-    1245,
-    118
+    718,
+    14,
+    1255,
+    123
    ],
-   "scale_x": 1.147
+   "scale_x": 1.047,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "オススメ革靴",
-   "x": 10.0,
-   "y": 550.0,
+   "x": 5.5,
+   "y": 538.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 133.2,
-   "color": "#ffffff",
+   "size": 142.6,
+   "color": "#353535",
    "palt": true,
-   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "shadow": "0 0 8px rgba(255,255,255,.7)",
    "tgt": [
-    16,
-    567,
-    983,
-    694
+    12,
+    556,
+    985,
+    692
    ],
-   "scale_x": 1.278
+   "scale_x": 1.202,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "2",
-   "x": 991.5,
-   "y": 444.0,
+   "x": 990.5,
+   "y": 436.0,
    "font": "Montserrat",
    "weight": 700,
-   "size": 274.1,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "size": 284.0,
+   "color": "#353535",
+   "shadow": "0 0 8px rgba(255,255,255,.7)",
    "tgt": [
-    993,
-    497,
-    1182,
-    692
+    992,
+    492,
+    1184,
+    694
    ],
-   "scale_x": 1.237
+   "scale_x": 1.207,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
    "text": "選",
    "x": 1194.5,
-   "y": 609.5,
+   "y": 587.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 82.2,
-   "color": "#ffffff",
-   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "size": 106.3,
+   "color": "#353535",
+   "shadow": "0 0 8px rgba(255,255,255,.7)",
    "tgt": [
     1196,
-    622,
-    1266,
-    697
+    604,
+    1268,
+    700
    ],
-   "scale_x": 0.873
+   "scale_x": 0.696,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",

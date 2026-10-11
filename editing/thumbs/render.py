@@ -286,7 +286,14 @@ def erase_mask(spec, orig, alpha=None):
             a = (alpha[y:y + h, x:x + w] > 8).astype(np.uint8) * 255
             g = int(e.get('grow', spec.get('grow', 11)))
             mask[y:y + h, x:x + w] = np.maximum(mask[y:y + h, x:x + w], cv2.dilate(a, np.ones((g, g), np.uint8)))
-            raw[y:y + h, x:x + w] |= alpha[y:y + h, x:x + w] > 128
+            # 採点の相手は「描いた文字の近く（15px 以内）にある、元の画像の文字色の画素」（描いた形そのものは使わない）
+            near = cv2.dilate(a, np.ones((31, 31), np.uint8)) > 0
+            sub = lab[y:y + h, x:x + w]
+            cm = np.zeros(sub.shape[:2], bool)
+            for c in ([hex2bgr(c) for c in e.get('colors', [])] or default_cols):
+                cl = cv2.cvtColor(np.uint8([[c]]), cv2.COLOR_BGR2LAB).astype(np.float32)[0, 0]
+                cm |= np.linalg.norm(sub - cl, axis=2) < e.get('tol', 28)
+            raw[y:y + h, x:x + w] |= cm & near
             continue
         if full or not cols:
             cv2.rectangle(mask, (x, y), (x + w, y + h), 255, -1)

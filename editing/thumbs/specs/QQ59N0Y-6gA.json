@@ -1,0 +1,202 @@
+{
+ "id": "QQ59N0Y-6gA",
+ "erase": [
+  {
+   "rect": [
+    27,
+    24,
+    1225,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    27,
+    684,
+    1225,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    27,
+    24,
+    12,
+    672
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1240,
+    24,
+    12,
+    672
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    82,
+    295,
+    1115,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    375,
+    400,
+    535,
+    36
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    330,
+    618,
+    620,
+    52
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 31,
+   "y": 29,
+   "w": 1217,
+   "h": 662,
+   "fill": "transparent",
+   "border": [
+    4,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "x": 89.0,
+   "y": 288.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 86.69,
+   "color": "#ffffff",
+   "spacing": 0.2,
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "一生モノ"
+    },
+    {
+     "text": "に",
+     "size_em": 0.7
+    },
+    {
+     "text": "出会いました"
+    }
+   ],
+   "box": [
+    82,
+    295,
+    1115,
+    90
+   ],
+   "tol": 20,
+   "scale_x": 1.009,
+   "skew": -0.7,
+   "fit_iou": 0.645
+  },
+  {
+   "type": "text",
+   "text": "2025SS FASHION REVIEW",
+   "x": 383.0,
+   "y": 403.0,
+   "font": "Jost",
+   "weight": 500,
+   "size": 30.0,
+   "color": "#ffffff",
+   "spacing": 0.3,
+   "line": 1.0,
+   "box": [
+    375,
+    400,
+    535,
+    36
+   ],
+   "tol": 30,
+   "scale_x": 0.943,
+   "skew": -1,
+   "rotate": -0.15,
+   "fit_iou": 0.577
+  },
+  {
+   "type": "text",
+   "text": "COMOLI / Steven Alan / BATONER",
+   "x": 334.0,
+   "y": 622.0,
+   "font": "Jost",
+   "weight": 400,
+   "italic": true,
+   "size": 41.11,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    330,
+    618,
+    620,
+    52
+   ],
+   "tol": 30,
+   "scale_x": 0.973,
+   "skew": 6,
+   "rotate": -0.15,
+   "fit_iou": 0.405
+  }
+ ],
+ "front": [
+  [
+   [
+    592,
+    0
+   ],
+   [
+    690,
+    0
+   ],
+   [
+    690,
+    45
+   ],
+   [
+    592,
+    45
+   ]
+  ]
+ ]
+}

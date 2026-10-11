@@ -1,0 +1,250 @@
+{
+ "id": "0J_USL03RFE",
+ "erase": [
+  {
+   "rect": [
+    44,
+    52,
+    170,
+    168
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    256,
+    52,
+    171,
+    168
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    807,
+    52,
+    166,
+    164
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1003,
+    40,
+    230,
+    190
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    20,
+    262,
+    915,
+    232
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    3,
+    500,
+    375,
+    210
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    395,
+    235,
+    880,
+    485
+   ],
+   "colors": [
+    "#a3894d",
+    "#d0be67",
+    "#f3ea8d",
+    "#9e7349"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_0jus.png",
+   "x": 44,
+   "y": 52,
+   "w": 170,
+   "h": 168
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_0jus.png",
+   "x": 256,
+   "y": 52,
+   "w": 171,
+   "h": 168
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_0jus.png",
+   "x": 807,
+   "y": 52,
+   "w": 166,
+   "h": 164
+  },
+  {
+   "type": "text",
+   "text": ":C",
+   "x": 1000.5,
+   "y": 9.5,
+   "font": "Montserrat",
+   "weight": 700,
+   "size": 238.883,
+   "color": "#050505",
+   "line": 1.0,
+   "box": [
+    1003,
+    40,
+    230,
+    190
+   ],
+   "tol": 35,
+   "scale_x": 0.944,
+   "spacing": 0.036,
+   "rotate": 0.65,
+   "fit_iou": 0.707
+  },
+  {
+   "type": "text",
+   "text": "絶対買い‼",
+   "x": 55.0,
+   "y": 244.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 234.26,
+   "color": "#ffffff",
+   "skew": -7.7,
+   "scale_x": 0.808,
+   "strokes": [
+    [
+     3,
+     "#333333"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    20,
+    262,
+    915,
+    232
+   ],
+   "fit_color": "#ffffff",
+   "tol": 15,
+   "rotate": -1.15,
+   "fit_iou": 0.656
+  },
+  {
+   "type": "text",
+   "text": "ユニクロC\n2025春夏",
+   "x": 15.0,
+   "y": 498.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 94.41,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#333333"
+    ]
+   ],
+   "line": 1.08,
+   "box": [
+    3,
+    500,
+    375,
+    210
+   ],
+   "fit_color": "#ffffff",
+   "tol": 15,
+   "scale_x": 0.819,
+   "spacing": 0.034,
+   "rotate": -1.75,
+   "skew": -1.3,
+   "fit_iou": 0.425
+  },
+  {
+   "type": "text",
+   "text": "BEST",
+   "x": 388.0,
+   "y": 439.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 265.544,
+   "fill": "linear-gradient(180deg,#a3894d 0%,#ebe389 40%,#f3ea8d 55%,#b59a55 80%,#9e7349 100%)",
+   "skew": -2.4,
+   "scale_x": 0.759,
+   "strokes": [
+    [
+     3,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    395,
+    490,
+    580,
+    225
+   ],
+   "fit_color": "#d8c870",
+   "tol": 45,
+   "spacing": -0.02,
+   "rotate": 0.1,
+   "fit_iou": 0.458
+  },
+  {
+   "type": "text",
+   "text": "4",
+   "x": 993.0,
+   "y": 88.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 587.35,
+   "fill": "linear-gradient(180deg,#a3894d 0%,#d0be67 25%,#f3ea8d 40%,#d3c269 55%,#a86e46 80%,#9e7349 100%)",
+   "skew": -10,
+   "strokes": [
+    [
+     3,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    950,
+    235,
+    320,
+    465
+   ],
+   "fit_color": "#d8c870",
+   "tol": 45,
+   "scale_x": 0.894,
+   "rotate": -2.55,
+   "fit_iou": 0.293
+  }
+ ]
+}

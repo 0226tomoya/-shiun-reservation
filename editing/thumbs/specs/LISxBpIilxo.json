@@ -1,0 +1,201 @@
+{
+ "id": "LISxBpIilxo",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    349,
+    35,
+    285,
+    311
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    645,
+    35,
+    307,
+    311
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    950,
+    30,
+    330,
+    330
+   ],
+   "colors": [
+    "#d0d0d0",
+    "#ffffff",
+    "#303030"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    360,
+    1280,
+    360
+   ],
+   "colors": [
+    "#ffffff",
+    "#940809"
+   ],
+   "tol": 40
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_lisx.png",
+   "x": 349,
+   "y": 35,
+   "w": 285,
+   "h": 311
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_lisx.png",
+   "x": 645,
+   "y": 35,
+   "w": 307,
+   "h": 311
+  },
+  {
+   "type": "text",
+   "text": "5",
+   "x": 947.0,
+   "y": -66.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 416.5,
+   "fill": "linear-gradient(180deg,#1a1a1a 0%,#9a9a9a 30%,#e0e0e0 50%,#555 75%,#111 100%)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    958,
+    42,
+    1175,
+    350
+   ],
+   "scale_x": 0.99
+  },
+  {
+   "type": "text",
+   "text": "選",
+   "x": 1150.0,
+   "y": 207.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 133.3,
+   "fill": "linear-gradient(180deg,#e0e0e0,#555 60%,#111)",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    1152,
+    228,
+    1270,
+    350
+   ],
+   "scale_x": 0.913
+  },
+  {
+   "type": "text",
+   "text": "プチプラに見えない!!",
+   "x": 40.0,
+   "y": 374.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 124.4,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     13,
+     "#940809"
+    ],
+    [
+     17,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    48,
+    388,
+    1205,
+    508
+   ],
+   "scale_x": 1.015
+  },
+  {
+   "type": "text",
+   "text": "アイテムの選び方",
+   "x": 17.0,
+   "y": 520.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 161.3,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     13,
+     "#940809"
+    ],
+    [
+     17,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    28,
+    540,
+    1250,
+    695
+   ],
+   "scale_x": 1.022
+  }
+ ]
+}

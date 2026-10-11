@@ -1,0 +1,278 @@
+{
+ "id": "8P7bK0qW7fM",
+ "erase": [
+  {
+   "rect": [
+    60,
+    55,
+    170,
+    170
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    30,
+    30,
+    1220,
+    20
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    30,
+    670,
+    1220,
+    20
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    30,
+    30,
+    20,
+    660
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1230,
+    30,
+    20,
+    660
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    80,
+    240,
+    1130,
+    280
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 35
+  }
+ ],
+ "grow": 4,
+ "front": [
+  [
+   [
+    455,
+    25
+   ],
+   [
+    730,
+    25
+   ],
+   [
+    730,
+    55
+   ],
+   [
+    455,
+    55
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 38,
+   "y": 38,
+   "w": 1203,
+   "h": 644,
+   "fill": "rgba(0,0,0,0)",
+   "border": [
+    2,
+    "#fffdf8"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_square_8p7b.png",
+   "x": 60,
+   "y": 55,
+   "w": 170,
+   "h": 170
+  },
+  {
+   "type": "text",
+   "text": "無印のシャツアウター",
+   "x": 231.0,
+   "y": 238.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 84.0,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.079
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "冬",
+   "x": 85.3,
+   "y": 315.8,
+   "size": 178.7,
+   "m": [
+    86,
+    338,
+    181,
+    172,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.013
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "の",
+   "x": 268.5,
+   "y": 372.6,
+   "size": 123.7,
+   "m": [
+    273,
+    399,
+    113,
+    103,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.997
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "マ",
+   "x": 376.0,
+   "y": 313.4,
+   "size": 183.3,
+   "m": [
+    389,
+    353,
+    168,
+    157,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.027
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "ス",
+   "x": 543.5,
+   "y": 313.1,
+   "size": 183.7,
+   "m": [
+    556,
+    338,
+    157,
+    172,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.978
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "ト",
+   "x": 702.8,
+   "y": 311.0,
+   "size": 186.1,
+   "m": [
+    754,
+    343,
+    112,
+    162,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.982
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "バ",
+   "x": 865.0,
+   "y": 313.8,
+   "size": 183.6,
+   "m": [
+    868,
+    334,
+    198,
+    172,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.109
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "イ",
+   "x": 1057.5,
+   "y": 313.8,
+   "size": 184.5,
+   "m": [
+    1066,
+    338,
+    129,
+    172,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.819
+  }
+ ]
+}

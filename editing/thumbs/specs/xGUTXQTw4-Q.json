@@ -1,0 +1,183 @@
+{
+ "id": "xGUTXQTw4-Q",
+ "erase": [
+  {
+   "rect": [
+    257,
+    199,
+    145,
+    144
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    435,
+    199,
+    146,
+    144
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    195
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 13
+  },
+  {
+   "rect": [
+    0,
+    370,
+    1280,
+    350
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 13
+  },
+  {
+   "rect": [
+    675,
+    215,
+    210,
+    130
+   ],
+   "colors": [
+    "#111111"
+   ],
+   "tol": 40
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_xgut.png",
+   "x": 257,
+   "y": 199,
+   "w": 145,
+   "h": 144
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_xgut.png",
+   "x": 435,
+   "y": 199,
+   "w": 146,
+   "h": 144
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "ユニクロ史上最高峰"
+    },
+    {
+     "text": "の",
+     "size_em": 0.7
+    }
+   ],
+   "x": 1.5,
+   "y": -11.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 176.2,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "tgt": [
+    8,
+    12,
+    1268,
+    180
+   ],
+   "scale_x": 0.755
+  },
+  {
+   "type": "text",
+   "text": "神",
+   "x": 11.0,
+   "y": 345.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 332.6,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "tgt": [
+    14,
+    388,
+    314,
+    704
+   ],
+   "scale_x": 0.953
+  },
+  {
+   "type": "text",
+   "text": "スラックス",
+   "x": 330.0,
+   "y": 375.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 289.5,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ],
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "tgt": [
+    334,
+    417,
+    1268,
+    690
+   ],
+   "scale_x": 0.727
+  },
+  {
+   "type": "text",
+   "text": "低身長でも\n似合う!!",
+   "x": 775,
+   "y": 278,
+   "anchor": "cc",
+   "rotate": -12,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 42,
+   "line": 1.15,
+   "align": "center",
+   "color": "#111111"
+  }
+ ]
+}
