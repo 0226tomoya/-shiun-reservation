@@ -30,7 +30,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 16
   },
   {
    "rect": [
@@ -42,14 +42,14 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 16
   },
   {
    "rect": [
     1185,
-    50,
+    5,
     80,
-    380
+    425
    ],
    "colors": [
     "#000000"
@@ -76,36 +76,189 @@
   },
   {
    "type": "text",
-   "text": "カッコ良すぎて",
-   "x": 10,
-   "y": 262,
    "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 130,
+   "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "spacing": -0.08
+   "scale_x": 0.978,
+   "text": "カ",
+   "x": 9,
+   "y": 333.0,
+   "anchor": "lc",
+   "size": 129.5,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "ヤバい服。",
-   "x": 10,
-   "y": 350,
    "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 335,
+   "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.9,
-   "spacing": -0.03
+   "scale_x": 0.884,
+   "text": "ッ",
+   "x": 123.3,
+   "y": 330.0,
+   "anchor": "lc",
+   "size": 124.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.978,
+   "text": "コ",
+   "x": 214.3,
+   "y": 324.0,
+   "anchor": "lc",
+   "size": 124.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.015,
+   "text": "良",
+   "x": 320.9,
+   "y": 321.0,
+   "anchor": "lc",
+   "size": 137.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.902,
+   "text": "す",
+   "x": 455.1,
+   "y": 318.0,
+   "anchor": "lc",
+   "size": 140.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.94,
+   "text": "ぎ",
+   "x": 581.0,
+   "y": 317.0,
+   "anchor": "lc",
+   "size": 129.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.865,
+   "text": "て",
+   "x": 705.1,
+   "y": 312.0,
+   "anchor": "lc",
+   "size": 124.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.02,
+   "text": "ヤ",
+   "x": 39,
+   "y": 545.5,
+   "anchor": "lc",
+   "size": 275.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.147,
+   "text": "バ",
+   "x": 283.7,
+   "y": 526.5,
+   "anchor": "lc",
+   "size": 253.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.104,
+   "text": "い",
+   "x": 550.3,
+   "y": 536.5,
+   "anchor": "lc",
+   "size": 281.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.02,
+   "text": "服",
+   "x": 856.3,
+   "y": 510.5,
+   "anchor": "lc",
+   "size": 309.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.998,
+   "text": "。",
+   "x": 1172.2,
+   "y": 534.5,
+   "anchor": "lc",
+   "size": 275.8,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "見つけちゃいました",
    "x": 1223,
-   "y": 56,
+   "y": 12,
    "anchor": "ct",
    "font": "Zen Kurenaido",
    "weight": 400,

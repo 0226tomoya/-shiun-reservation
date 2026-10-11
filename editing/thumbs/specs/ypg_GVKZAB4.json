@@ -48,7 +48,7 @@
    "weight": 400,
    "color": "#1a1a1a",
    "text": "低身長ってどう?",
-   "x": 34.0,
+   "x": 35.5,
    "y": 59.0,
    "size": 87.5,
    "tgt": [
@@ -65,7 +65,7 @@
     "#fff"
    ],
    "rotate": -2,
-   "scale_x": 1.408
+   "scale_x": 1.406
   },
   {
    "type": "line",
@@ -191,24 +191,17 @@
      "#ffffff"
     ]
    ],
-   "text": "男子の質問に",
-   "x": 21.0,
-   "y": 370.5,
-   "size": 137.8,
+   "text": "男",
+   "x": 16.0,
+   "y": 361.7,
+   "size": 149.8,
    "tgt": [
-    30,
-    385,
-    875,
-    512
+    25,
+    380,
+    150,
+    515
    ],
-   "m": [
-    0,
-    0,
-    1,
-    1,
-    "#fff"
-   ],
-   "scale_x": 1.049
+   "scale_x": 0.952
   },
   {
    "type": "text",
@@ -226,24 +219,381 @@
      "#ffffff"
     ]
    ],
-   "text": "正直に答えます!!",
-   "x": 22.5,
-   "y": 543.5,
-   "size": 152.2,
+   "text": "子",
+   "x": 176.0,
+   "y": 362.4,
+   "size": 151.7,
    "tgt": [
-    30,
+    180,
+    381,
+    319,
+    515
+   ],
+   "scale_x": 0.975
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "の",
+   "x": 330.5,
+   "y": 386.8,
+   "size": 121.5,
+   "tgt": [
+    337,
+    407,
+    451,
+    504
+   ],
+   "scale_x": 1.041
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "質",
+   "x": 465.0,
+   "y": 359.6,
+   "size": 149.3,
+   "tgt": [
+    472,
+    375,
+    603,
+    513
+   ],
+   "scale_x": 0.943
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "問",
+   "x": 625.0,
+   "y": 361.3,
+   "size": 150.0,
+   "tgt": [
+    631,
+    378,
+    761,
+    515
+   ],
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "に",
+   "x": 771.0,
+   "y": 387.6,
+   "size": 118.8,
+   "tgt": [
+    783,
+    406,
+    880,
+    504
+   ],
+   "scale_x": 1.011
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "正",
+   "x": 14.0,
+   "y": 545.1,
+   "size": 148.9,
+   "tgt": [
+    22,
+    565,
+    160,
+    693
+   ],
+   "scale_x": 1.031
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "直",
+   "x": 175.0,
+   "y": 542.6,
+   "size": 151.3,
+   "tgt": [
+    183,
+    555,
+    319,
+    698
+   ],
+   "scale_x": 1.001
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "に",
+   "x": 325.0,
+   "y": 570.4,
+   "size": 120.0,
+   "tgt": [
+    337,
+    588,
+    434,
+    687
+   ],
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "答",
+   "x": 448.5,
+   "y": 541.8,
+   "size": 152.1,
+   "tgt": [
+    455,
+    556,
+    590,
+    698
+   ],
+   "scale_x": 0.957
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "え",
+   "x": 599.0,
+   "y": 536.8,
+   "size": 156.0,
+   "tgt": [
+    616,
     557,
-    1142,
-    700
+    743,
+    689
    ],
-   "m": [
-    0,
-    0,
-    1,
-    1,
-    "#fff"
+   "scale_x": 1.008
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
    ],
-   "scale_x": 0.958
+   "text": "ま",
+   "x": 752.0,
+   "y": 539.4,
+   "size": 153.9,
+   "tgt": [
+    766,
+    558,
+    880,
+    692
+   ],
+   "scale_x": 0.924
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "す",
+   "x": 894.5,
+   "y": 543.9,
+   "size": 150.6,
+   "tgt": [
+    904,
+    559,
+    1035,
+    693
+   ],
+   "scale_x": 0.993
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "!",
+   "x": 1051.0,
+   "y": 527.6,
+   "size": 181.6,
+   "tgt": [
+    1062,
+    563,
+    1088,
+    696
+   ],
+   "scale_x": 0.597
+  },
+  {
+   "type": "text",
+   "font": "MPLUSRounded1c",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     11,
+     "#f00456"
+    ],
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "text": "!",
+   "x": 1107.5,
+   "y": 527.6,
+   "size": 181.6,
+   "tgt": [
+    1120,
+    563,
+    1147,
+    696
+   ],
+   "scale_x": 0.644
   }
  ]
 }

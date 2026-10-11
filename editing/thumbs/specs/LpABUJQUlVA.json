@@ -181,36 +181,13 @@
   },
   {
    "type": "text",
+   "text": "突撃‼",
+   "x": 1097,
+   "y": 96,
+   "anchor": "cc",
    "font": "NotoSansJP",
    "weight": 900,
-   "color": "#ffffff",
-   "rotate": 9,
-   "m": [
-    900,
-    12,
-    380,
-    175,
-    "#ffffff",
-    18
-   ],
-   "scale_x": 0.86,
-   "strokes": [
-    [
-     2,
-     "#ffffff"
-    ]
-   ],
-   "text": "突",
-   "x": 925.0,
-   "y": 66.4,
-   "anchor": "lc",
    "size": 163.0,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "NotoSansJP",
-   "weight": 900,
    "color": "#ffffff",
    "rotate": 9,
    "m": [
@@ -221,47 +198,13 @@
     "#ffffff",
     18
    ],
-   "scale_x": 0.693,
+   "scale_x": 0.737,
    "strokes": [
     [
      2,
      "#ffffff"
     ]
-   ],
-   "text": "撃",
-   "x": 1072.2,
-   "y": 95.4,
-   "anchor": "lc",
-   "size": 169.6,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "NotoSansJP",
-   "weight": 900,
-   "color": "#ffffff",
-   "rotate": 9,
-   "m": [
-    900,
-    12,
-    380,
-    175,
-    "#ffffff",
-    18
-   ],
-   "scale_x": 0.781,
-   "strokes": [
-    [
-     2,
-     "#ffffff"
-    ]
-   ],
-   "text": "‼",
-   "x": 1168.3,
-   "y": 113.4,
-   "anchor": "lc",
-   "size": 163.0,
-   "line": 1.0
+   ]
   },
   {
    "type": "text",
@@ -752,12 +695,12 @@
   {
    "type": "text",
    "text": "1",
-   "x": 70.0,
-   "y": 543.0,
+   "x": 67.0,
+   "y": 576.5,
    "anchor": "cc",
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 226.8,
+   "size": 330.7,
    "color": "#ffee01",
    "m": [
     0,
@@ -767,12 +710,18 @@
     "#ffee01",
     45
    ],
-   "scale_x": 0.901,
+   "scale_x": 0.697,
    "strokes": [
     [
      2,
      "#ffee01"
     ]
+   ],
+   "tgt": [
+    5,
+    460,
+    102,
+    701
    ]
   },
   {

@@ -50,6 +50,14 @@
  "layers": [
   {
    "type": "rect",
+   "x": 0,
+   "y": 595,
+   "w": 1280,
+   "h": 125,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
    "x": 1052,
    "y": 17,
    "w": 213,
@@ -90,29 +98,30 @@
   {
    "type": "text",
    "text": "初",
-   "x": 149,
-   "y": 583,
-   "font": "MPLUS1p",
+   "x": 128,
+   "y": 568,
+   "font": "Noto Sans JP",
    "weight": 900,
-   "size": 112.1,
+   "size": 85.8,
    "color": "#7f0119",
    "scale_x": 0.85
   },
   {
    "type": "text",
    "text": "の",
-   "x": 268,
-   "y": 626,
+   "x": 238,
+   "y": 596,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 74,
+   "size": 62.9,
    "color": "#ffffff",
    "strokes": [
     [
      5,
      "#000000"
     ]
-   ]
+   ],
+   "scale_x": 0.85
   },
   {
    "type": "text",
@@ -128,21 +137,83 @@
   },
   {
    "type": "text",
-   "text": "特化店舗",
-   "x": 872,
-   "y": 588,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 104,
    "color": "#ffffff",
-   "scale_x": 0.97,
+   "scale_x": 0.657,
    "palt": true,
    "strokes": [
     [
      6,
      "#000000"
     ]
-   ]
+   ],
+   "text": "特",
+   "x": 732,
+   "y": 493.5,
+   "anchor": "lc",
+   "size": 67.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.657,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "化",
+   "x": 796.6,
+   "y": 493.5,
+   "anchor": "lc",
+   "size": 67.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.657,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "店",
+   "x": 861.1,
+   "y": 493.5,
+   "anchor": "lc",
+   "size": 67.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "scale_x": 0.657,
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#000000"
+    ]
+   ],
+   "text": "舗",
+   "x": 925.7,
+   "y": 493.5,
+   "anchor": "lc",
+   "size": 67.4,
+   "line": 1.0
   },
   {
    "type": "text",

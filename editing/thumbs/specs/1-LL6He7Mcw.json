@@ -91,11 +91,11 @@
   {
    "type": "text",
    "text": "ファッション初心者",
-   "x": 13.3,
-   "y": 1.0,
+   "x": 16.3,
+   "y": 0.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 46.0,
+   "size": 42.3,
    "color": "#000000",
    "palt": true,
    "skew": -8,
@@ -107,7 +107,7 @@
     "#000000",
     45
    ],
-   "scale_x": 0.807,
+   "scale_x": 0.855,
    "tgt": [
     12,
     7,
@@ -118,11 +118,11 @@
   {
    "type": "text",
    "text": "〜中級者向け",
-   "x": 10.0,
-   "y": 54.0,
-   "font": "Noto Sans JP",
+   "x": 11.0,
+   "y": 49.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 48.1,
+   "size": 43.3,
    "color": "#000000",
    "palt": true,
    "skew": -8,
@@ -134,7 +134,7 @@
     "#000000",
     45
    ],
-   "scale_x": 0.848,
+   "scale_x": 0.882,
    "tgt": [
     9,
     60,
@@ -144,11 +144,11 @@
   },
   {
    "type": "text",
-   "x": 432.0,
-   "y": 325.0,
-   "font": "Noto Sans JP",
+   "x": 440.0,
+   "y": 322.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 111.4,
+   "size": 126.5,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 14px rgba(0,0,0,.6)",
@@ -160,7 +160,7 @@
     "#ffffff",
     16
    ],
-   "scale_x": 1.081,
+   "scale_x": 1.04,
    "tgt": [
     433,
     338,
@@ -180,15 +180,15 @@
   },
   {
    "type": "text",
-   "x": 143.5,
-   "y": 570.5,
-   "font": "Noto Sans JP",
+   "x": 151.5,
+   "y": 578.5,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 256.4,
+   "size": 246.1,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
-   "scale_x": 1.09,
+   "scale_x": 1.003,
    "text": "流",
    "anchor": "cc",
    "tgt": [
@@ -200,15 +200,15 @@
   },
   {
    "type": "text",
-   "x": 402.5,
-   "y": 571.0,
-   "font": "Noto Sans JP",
+   "x": 392.5,
+   "y": 584.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 258.5,
+   "size": 253.3,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
-   "scale_x": 1.069,
+   "scale_x": 0.983,
    "text": "行",
    "anchor": "cc",
    "tgt": [
@@ -220,15 +220,15 @@
   },
   {
    "type": "text",
-   "x": 639.0,
-   "y": 575.0,
-   "font": "Noto Sans JP",
+   "x": 647.0,
+   "y": 584.0,
+   "font": "MPLUS1p",
    "weight": 900,
    "size": 261.1,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
-   "scale_x": 1.04,
+   "scale_x": 0.957,
    "text": "る",
    "anchor": "cc",
    "tgt": [
@@ -240,15 +240,15 @@
   },
   {
    "type": "text",
-   "x": 885.5,
-   "y": 568.0,
-   "font": "Noto Sans JP",
+   "x": 892.5,
+   "y": 580.0,
+   "font": "MPLUS1p",
    "weight": 900,
    "size": 261.9,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
-   "scale_x": 1.059,
+   "scale_x": 0.974,
    "text": "夏",
    "anchor": "cc",
    "tgt": [
@@ -260,15 +260,15 @@
   },
   {
    "type": "text",
-   "x": 1142.0,
-   "y": 568.5,
-   "font": "Noto Sans JP",
+   "x": 1138.0,
+   "y": 585.5,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 263.0,
+   "size": 236.7,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 18px rgba(0,0,0,.6)",
-   "scale_x": 1.015,
+   "scale_x": 1.056,
    "text": "服",
    "anchor": "cc",
    "tgt": [
@@ -281,7 +281,7 @@
   {
    "type": "text",
    "text": "？",
-   "x": -13.0,
+   "x": -11.0,
    "y": 155.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
@@ -306,11 +306,11 @@
   {
    "type": "text",
    "text": "？",
-   "x": 318.0,
-   "y": 39.0,
+   "x": 336.0,
+   "y": 42.0,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 154.7,
+   "size": 148.5,
    "color": "#ffffff",
    "rotate": 8,
    "tgt": [
@@ -326,16 +326,16 @@
     1,
     "#ffffff"
    ],
-   "scale_x": 1.304
+   "scale_x": 1.2
   },
   {
    "type": "text",
    "text": "？",
-   "x": 746.5,
-   "y": 83.5,
+   "x": 743.5,
+   "y": 86.5,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 184.0,
+   "size": 173.0,
    "color": "#ffffff",
    "rotate": -6,
    "tgt": [
@@ -351,16 +351,16 @@
     1,
     "#ffffff"
    ],
-   "scale_x": 1.309
+   "scale_x": 1.414
   },
   {
    "type": "text",
    "text": "？",
-   "x": 1093.5,
-   "y": 16.0,
+   "x": 1084.5,
+   "y": 14.0,
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 181.5,
+   "size": 185.1,
    "color": "#ffffff",
    "rotate": 8,
    "tgt": [
@@ -376,7 +376,7 @@
     1,
     "#ffffff"
    ],
-   "scale_x": 1.219
+   "scale_x": 1.317
   }
  ]
 }

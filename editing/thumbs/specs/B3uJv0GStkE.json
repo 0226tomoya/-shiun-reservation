@@ -43,7 +43,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 16
   },
   {
    "rect": [
@@ -55,7 +55,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 16
   }
  ],
  "layers": [
@@ -129,15 +129,16 @@
   {
    "type": "text",
    "text": "買うべきパンツ3選",
-   "x": -4,
-   "y": 518,
+   "x": 0,
+   "y": 519,
    "font": "Noto Sans JP",
-   "weight": 800,
-   "size": 180,
+   "weight": 900,
+   "size": 176.4,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "spacing": -0.06
+   "spacing": -0.06,
+   "scale_x": 0.92
   }
  ]
 }
