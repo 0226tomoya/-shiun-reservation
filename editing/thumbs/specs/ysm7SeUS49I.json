@@ -1,0 +1,235 @@
+{
+ "id": "ysm7SeUS49I",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    945,
+    5,
+    335,
+    60
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    15,
+    235,
+    320,
+    140
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    310,
+    350,
+    665,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    10,
+    505,
+    1270,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "Men’s Fashion",
+   "x": 954.0,
+   "y": -1.7,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 59.7,
+   "color": "#ffffff",
+   "m": [
+    945,
+    5,
+    335,
+    55,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.775
+  },
+  {
+   "type": "text",
+   "text": "低身長男性は\n絶対見て!!",
+   "x": 17.0,
+   "y": 266.5,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 51.4,
+   "line": 1.05,
+   "color": "#ffffff",
+   "rotate": -7,
+   "align": "center",
+   "strokes": [
+    [
+     5,
+     "#111111"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    24,
+    244,
+    328,
+    366
+   ],
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "text": "2024",
+   "x": 317.5,
+   "y": 341.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 140.6,
+   "color": "#ffffff",
+   "m": [
+    312,
+    370,
+    300,
+    135,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.846,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    322,
+    375,
+    605,
+    481
+   ]
+  },
+  {
+   "type": "text",
+   "text": "年",
+   "x": 617.5,
+   "y": 380.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 101.4,
+   "color": "#ffffff",
+   "m": [
+    612,
+    385,
+    95,
+    120,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.84,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    621,
+    394,
+    700,
+    491
+   ]
+  },
+  {
+   "type": "text",
+   "text": "春夏",
+   "x": 719.5,
+   "y": 339.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 145.0,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    708,
+    352,
+    262,
+    152,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.838,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    721,
+    357,
+    960,
+    495
+   ]
+  },
+  {
+   "type": "text",
+   "text": "流行るアイテム13選",
+   "x": 16.5,
+   "y": 488.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 200.0,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    10,
+    505,
+    1270,
+    210,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.718,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    19,
+    514,
+    1265,
+    704
+   ]
+  }
+ ]
+}

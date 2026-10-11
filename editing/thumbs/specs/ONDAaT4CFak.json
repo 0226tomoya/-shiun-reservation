@@ -1,0 +1,420 @@
+{
+ "id": "ONDAaT4CFak",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    342
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    345,
+    1280,
+    375
+   ],
+   "colors": [
+    "#ffe21a"
+   ],
+   "tol": 45
+  }
+ ],
+ "front": [
+  [
+   [
+    560,
+    342
+   ],
+   [
+    575,
+    170
+   ],
+   [
+    600,
+    60
+   ],
+   [
+    640,
+    15
+   ],
+   [
+    700,
+    5
+   ],
+   [
+    745,
+    40
+   ],
+   [
+    750,
+    150
+   ],
+   [
+    760,
+    200
+   ],
+   [
+    800,
+    240
+   ],
+   [
+    850,
+    342
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "短足",
+   "x": 4.0,
+   "y": -17.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 176.4,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    6,
+    6,
+    349,
+    174
+   ],
+   "scale_x": 0.99
+  },
+  {
+   "type": "text",
+   "text": "服が似合わない",
+   "x": 1.5,
+   "y": 183.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 70.8,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    3,
+    190,
+    362,
+    259
+   ],
+   "scale_x": 0.733
+  },
+  {
+   "type": "text",
+   "text": "スタンドカラーが苦手",
+   "x": 2.0,
+   "y": 258.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 69.6,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    3,
+    266,
+    368,
+    334
+   ],
+   "scale_x": 0.559
+  },
+  {
+   "type": "text",
+   "text": "腕が短い",
+   "x": 362.0,
+   "y": -1.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 86.0,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    369,
+    3,
+    453,
+    334
+   ],
+   "vertical": true,
+   "scale_x": 1.015
+  },
+  {
+   "type": "text",
+   "text": "袖丈合わない",
+   "x": 455.5,
+   "y": 2.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 42.8,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    460,
+    4,
+    514,
+    256
+   ],
+   "vertical": true,
+   "scale_x": 1.289
+  },
+  {
+   "type": "text",
+   "text": "首が短い",
+   "x": 512.0,
+   "y": 2.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 57.3,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    515,
+    5,
+    564,
+    227
+   ],
+   "vertical": true,
+   "scale_x": 0.887
+  },
+  {
+   "type": "text",
+   "text": "着丈が",
+   "x": 740.5,
+   "y": -9.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 134.8,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    743,
+    5,
+    1114,
+    136
+   ],
+   "scale_x": 0.926
+  },
+  {
+   "type": "text",
+   "text": "長すぎる",
+   "x": 720.0,
+   "y": 131.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 100.4,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    725,
+    143,
+    1114,
+    239
+   ],
+   "scale_x": 1.068
+  },
+  {
+   "type": "text",
+   "text": "顔色が悪い",
+   "x": 792.0,
+   "y": 247.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 81.7,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    793,
+    256,
+    1104,
+    335
+   ],
+   "scale_x": 0.771
+  },
+  {
+   "type": "text",
+   "text": "顔がデカい",
+   "x": 1098.0,
+   "y": -3.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 67.5,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    1105,
+    0,
+    1199,
+    328
+   ],
+   "vertical": true,
+   "scale_x": 1.426
+  },
+  {
+   "type": "text",
+   "text": "着られている感",
+   "x": 1210.5,
+   "y": 1.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 47.1,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    1215,
+    2,
+    1274,
+    330
+   ],
+   "vertical": true,
+   "scale_x": 1.308
+  },
+  {
+   "type": "text",
+   "text": "低身長男性のファッションの悩み",
+   "x": 13.5,
+   "y": 346.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 71.0,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    14,
+    356,
+    1263,
+    424
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.246,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "小技で解決",
+   "x": 7.0,
+   "y": 427.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 252.9,
+   "color": "#ffe21a",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    12,
+    460,
+    1268,
+    701
+   ],
+   "shadow": "5px 5px 0 rgba(0,0,0,.85)",
+   "scale_x": 1.019,
+   "strokes": [
+    [
+     4,
+     "#ffe21a"
+    ]
+   ]
+  }
+ ]
+}

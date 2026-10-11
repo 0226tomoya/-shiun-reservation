@@ -1,0 +1,183 @@
+{
+ "id": "Y8CFlFGTX6Y",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    1019,
+    25,
+    228,
+    226
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    720,
+    60,
+    280,
+    170
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    55,
+    335,
+    1130,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    5,
+    475,
+    1275,
+    245
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_square_y8cf.png",
+   "x": 1019,
+   "y": 25,
+   "w": 228,
+   "h": 226
+  },
+  {
+   "type": "text",
+   "text": "MUJI",
+   "x": 726.4,
+   "y": 54.0,
+   "font": "Jost",
+   "weight": 300,
+   "size": 92.9,
+   "color": "#ffffff",
+   "italic": true,
+   "spacing": 0.05,
+   "m": [
+    720,
+    60,
+    280,
+    100,
+    "#ffffff",
+    25
+   ],
+   "scale_x": 1.301
+  },
+  {
+   "type": "text",
+   "text": "2024SS",
+   "x": 755.0,
+   "y": 163.5,
+   "font": "Jost",
+   "weight": 300,
+   "size": 63.3,
+   "color": "#ffffff",
+   "italic": true,
+   "spacing": 0.03,
+   "m": [
+    740,
+    165,
+    240,
+    65,
+    "#ffffff",
+    25
+   ],
+   "scale_x": 0.905
+  },
+  {
+   "type": "text",
+   "text": "新作",
+   "x": 68.5,
+   "y": 331.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 120.4,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    60,
+    340,
+    250,
+    125,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 1.008
+  },
+  {
+   "type": "text",
+   "text": "が",
+   "x": 313.0,
+   "y": 360.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 92.5,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    312,
+    370,
+    85,
+    95,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.919
+  },
+  {
+   "type": "text",
+   "text": "カッコよすぎて",
+   "x": 393.5,
+   "y": 334.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 116.6,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    398,
+    340,
+    780,
+    125,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 1.058
+  },
+  {
+   "type": "text",
+   "text": "4万円分購入",
+   "x": 13.5,
+   "y": 456.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 228.0,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    10,
+    478,
+    1268,
+    232,
+    "#ffffff",
+    18
+   ],
+   "scale_x": 0.987
+  }
+ ]
+}

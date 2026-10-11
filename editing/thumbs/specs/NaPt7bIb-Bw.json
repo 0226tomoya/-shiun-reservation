@@ -1,0 +1,148 @@
+{
+ "id": "NaPt7bIb-Bw",
+ "erase": [
+  {
+   "rect": [
+    6,
+    8,
+    251,
+    252
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    601,
+    186,
+    261,
+    232
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    887,
+    143,
+    260,
+    259
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    545,
+    35,
+    730,
+    120
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    0,
+    425,
+    1280,
+    295
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_napt.png",
+   "x": 6,
+   "y": 8,
+   "w": 251,
+   "h": 252
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_napt.png",
+   "x": 601,
+   "y": 186,
+   "w": 261,
+   "h": 232
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_napt.png",
+   "x": 887,
+   "y": 143,
+   "w": 260,
+   "h": 259
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "急いでえ"
+    },
+    {
+     "text": "ぇ",
+     "size_em": 1.2
+    },
+    {
+     "text": "ぇ",
+     "size_em": 1.05
+    },
+    {
+     "text": "!!"
+    }
+   ],
+   "x": 553.0,
+   "y": 16.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 101.1,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tgt": [
+    556,
+    48,
+    1266,
+    145
+   ],
+   "scale_x": 1.099,
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "完売間近!!",
+   "x": 15.5,
+   "y": 407.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 279.5,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tgt": [
+    21,
+    443,
+    1262,
+    710
+   ],
+   "scale_x": 0.948
+  }
+ ]
+}

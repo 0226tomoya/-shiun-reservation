@@ -21,6 +21,8 @@
           "border":[4,"#fff"], "skew":0}
   image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1}
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
+  "css_transform": "perspective(800px) rotateY(-20deg)" のような変形を足せる（遠近の文字）
+  erase の要素に {"poly":[[x,y],...], "colors":[..]} で斜めの範囲（多角形）も指定できる
   "hollow": true で中を塗らない縁だけの文字（strokes の 1 つ目の太さ・色が線）
   erase の要素 {"rect":[..],"by":"layers"} は、色ではなく描いた文字の形で消す（白文字の範囲の白い服を守る。ただし形がずれると元の文字が残る）
   "palt": true でかなの詰め（プロポーショナル）。runs の各要素に spacing（em）・dy（上下のずらし px）も書ける
@@ -133,6 +135,8 @@ def text_html(L, i):
         tf.append(f"skewX({L['skew']}deg)")
     if L.get('scale_x', 1) != 1 or L.get('scale_y', 1) != 1:
         tf.append(f"scale({L.get('scale_x', 1)},{L.get('scale_y', 1)})")
+    if L.get('css_transform'):  # 遠近など: 例 "perspective(800px) rotateY(-20deg)"
+        tf.append(L['css_transform'])
     anc = L.get('anchor', 'lt')
     ox = {'l': '0', 'c': '-50%', 'r': '-100%'}[anc[0]]
     oy = {'t': '0', 'c': '-50%', 'b': '-100%'}[anc[1]]
@@ -273,6 +277,13 @@ def erase_mask(spec, orig, alpha=None):
     lab = cv2.cvtColor(orig, cv2.COLOR_BGR2LAB).astype(np.float32)
     default_cols = layer_colors(spec)
     for e in spec.get('erase', []):
+        if isinstance(e, dict) and e.get('poly'):
+            # 斜めの範囲: 多角形の外接矩形で色を拾い、多角形の外は捨てる
+            P = np.array(e['poly'], np.int32)
+            x, y, w, h = cv2.boundingRect(P)
+            pm = np.zeros((H, W), np.uint8)
+            cv2.fillPoly(pm, [P], 255)
+            e = dict(e, rect=[x, y, w, h], _poly=pm)
         if isinstance(e, dict):
             x, y, w, h = e['rect']
             full = e.get('full', False)
@@ -306,6 +317,10 @@ def erase_mask(spec, orig, alpha=None):
             m |= np.linalg.norm(sub - cl, axis=2) < tol
         g = int(spec.get('grow', 11))
         mm = cv2.dilate(m.astype(np.uint8) * 255, np.ones((g, g), np.uint8))
+        if isinstance(e, dict) and '_poly' in e:
+            inside = e['_poly'][y:y + h, x:x + w] > 0
+            mm = mm * inside
+            m = m & inside
         mask[y:y + h, x:x + w] = np.maximum(mask[y:y + h, x:x + w], mm)
         raw[y:y + h, x:x + w] |= m
     erase_mask.raw = raw

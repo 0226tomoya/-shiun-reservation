@@ -1,0 +1,148 @@
+{
+ "id": "FF3fyJYMuMU",
+ "erase": [
+  {
+   "rect": [
+    25,
+    549,
+    139,
+    140
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    195,
+    549,
+    138,
+    140
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    476,
+    556,
+    784,
+    146
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    20,
+    418,
+    715,
+    82
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    20,
+    505,
+    715,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    375,
+    592,
+    62,
+    62
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  }
+ ],
+ "grow": 9,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_ff3f.png",
+   "x": 25,
+   "y": 549,
+   "w": 139,
+   "h": 140
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_ff3f.png",
+   "x": 195,
+   "y": 549,
+   "w": 138,
+   "h": 140
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/jwanderson_white_ff3f.png",
+   "x": 476,
+   "y": 556,
+   "w": 784,
+   "h": 146
+  },
+  {
+   "type": "line",
+   "x1": 27,
+   "y1": 513,
+   "x2": 727,
+   "y2": 513,
+   "width": 5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "24SS ",
+     "font": "Montserrat",
+     "weight": 900
+    },
+    {
+     "text": "発売前レビュー"
+    }
+   ],
+   "x": 30.5,
+   "y": 419.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 69.0,
+   "color": "#ffffff",
+   "palt": true,
+   "tgt": [
+    30,
+    426,
+    723,
+    493
+   ],
+   "scale_x": 1.052
+  },
+  {
+   "type": "text",
+   "text": "×",
+   "x": 368.5,
+   "y": 577.0,
+   "font": "Noto Sans JP",
+   "weight": 300,
+   "size": 74.6,
+   "color": "#ffffff",
+   "tgt": [
+    383,
+    600,
+    429,
+    646
+   ],
+   "scale_x": 0.996
+  }
+ ]
+}

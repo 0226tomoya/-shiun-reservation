@@ -1,0 +1,109 @@
+{
+ "id": "ymx6nibWXw8",
+ "erase": [
+  {
+   "rect": [
+    15,
+    180,
+    1250,
+    210
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    290,
+    380,
+    710,
+    115
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    260,
+    482,
+    1000,
+    72
+   ],
+   "colors": [
+    "#1a1a1a"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "大流行中のテック系",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 645.0,
+   "y": 279.5,
+   "size": 151.3,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "rotate": -2.5,
+   "skew": -10,
+   "_t": [
+    25,
+    190,
+    1256,
+    386
+   ],
+   "scale_x": 0.945
+  },
+  {
+   "type": "text",
+   "text": "ってどう着るの？",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "anchor": "cc",
+   "x": 647.5,
+   "y": 431.0,
+   "size": 93.4,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "rotate": -2.5,
+   "skew": -10,
+   "_t": [
+    300,
+    386,
+    992,
+    490
+   ],
+   "scale_x": 1.08
+  },
+  {
+   "type": "text",
+   "text": "How to wear TECH CARGO PANTS",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "palt": false,
+   "anchor": "cc",
+   "x": 763.0,
+   "y": 516.5,
+   "size": 34.7,
+   "italic": true,
+   "spacing": 0.35,
+   "rotate": -2.2,
+   "_t": [
+    268,
+    488,
+    1252,
+    550
+   ],
+   "scale_x": 1.093
+  }
+ ]
+}

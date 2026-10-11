@@ -1,0 +1,227 @@
+{
+ "id": "gPbC7MwxT70",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    15,
+    200,
+    360,
+    80
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    10,
+    280,
+    1270,
+    200
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    440,
+    600,
+    400,
+    80
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "低身長男性必見",
+   "x": 24.5,
+   "y": 200.5,
+   "size": 59.6,
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.83
+  },
+  {
+   "type": "rect",
+   "x": 21,
+   "y": 269,
+   "w": 346,
+   "h": 4,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "春",
+   "x": 12.0,
+   "y": 263.0,
+   "size": 193.9,
+   "tgt": [
+    20,
+    288,
+    183,
+    471
+   ],
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "の",
+   "x": 177.0,
+   "y": 305.5,
+   "size": 139.6,
+   "tgt": [
+    190,
+    345,
+    285,
+    445
+   ],
+   "scale_x": 0.859
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "最強",
+   "x": 276.0,
+   "y": 258.5,
+   "size": 196.0,
+   "tgt": [
+    288,
+    285,
+    724,
+    470
+   ],
+   "scale_x": 1.172
+  },
+  {
+   "type": "text",
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "ファッション",
+   "x": 712.5,
+   "y": 235.0,
+   "size": 225.2,
+   "tgt": [
+    726,
+    300,
+    1269,
+    465
+   ],
+   "scale_x": 0.418
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "shiun 24Spring 1st Collection",
+   "x": 457.5,
+   "y": 601.5,
+   "size": 39.7,
+   "tgt": [
+    459,
+    609,
+    820,
+    647
+   ],
+   "scale_x": 0.683
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "text": "2024.01.20 sat 22:00 - Release",
+   "x": 544.0,
+   "y": 656.0,
+   "size": 14.3,
+   "tgt": [
+    545,
+    658,
+    736,
+    671
+   ],
+   "scale_x": 1.021
+  }
+ ]
+}

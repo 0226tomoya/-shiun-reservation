@@ -1,0 +1,198 @@
+{
+ "id": "zRxYmrg3F2I",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    8,
+    8,
+    174,
+    176
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    216,
+    8,
+    171,
+    176
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    418,
+    8,
+    175,
+    176
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    485,
+    1280,
+    235
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    350,
+    880,
+    135
+   ],
+   "colors": [
+    "#222222",
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_shadow_zrxy.png",
+   "x": 8,
+   "y": 8,
+   "w": 174,
+   "h": 176
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_shadow_zrxy.png",
+   "x": 216,
+   "y": 8,
+   "w": 171,
+   "h": 176
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_shadow_zrxy.png",
+   "x": 418,
+   "y": 8,
+   "w": 175,
+   "h": 176
+  },
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 485,
+   "w": 1280,
+   "h": 235,
+   "fill": "#000000"
+  },
+  {
+   "type": "text",
+   "text": "コレさえあればOK!!",
+   "x": 18.0,
+   "y": 352.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 113.9,
+   "color": "#1e1e1e",
+   "skew": -12,
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 12px rgba(255,255,255,.9)",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    15,
+    368,
+    868,
+    470
+   ],
+   "scale_x": 0.814
+  },
+  {
+   "type": "text",
+   "text": "最強",
+   "x": 45.5,
+   "y": 477.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 207.4,
+   "fill": "linear-gradient(180deg,#c99a1c 0%,#f5e2a0 30%,#fcf6cc 50%,#f0d070 70%,#c88c40 100%)",
+   "skew": -8,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    28,
+    505,
+    345,
+    700
+   ],
+   "scale_x": 0.772
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 350.0,
+   "y": 543.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 129.9,
+   "fill": "linear-gradient(180deg,#c99a1c 0%,#f5e2a0 30%,#fcf6cc 50%,#f0d070 70%,#c88c40 100%)",
+   "skew": -8,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    350,
+    580,
+    445,
+    672
+   ],
+   "scale_x": 0.905
+  },
+  {
+   "type": "text",
+   "text": "ベーシック7選",
+   "x": 465.0,
+   "y": 475.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 210.9,
+   "fill": "linear-gradient(180deg,#c99a1c 0%,#f5e2a0 30%,#fcf6cc 50%,#f0d070 70%,#c88c40 100%)",
+   "skew": -8,
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    452,
+    505,
+    1270,
+    700
+   ],
+   "scale_x": 0.584
+  }
+ ]
+}

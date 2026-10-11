@@ -1,0 +1,207 @@
+{
+ "id": "lH-oU8P37mE",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    10,
+    8,
+    1000,
+    112
+   ],
+   "colors": [
+    "#000000"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    740,
+    210,
+    310,
+    115
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    10,
+    385,
+    632,
+    335
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    640,
+    556,
+    630,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    900,
+    525,
+    370,
+    35
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "MUJI Labo 24SS新作",
+   "x": 10.5,
+   "y": -4.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 108.9,
+   "color": "#000000",
+   "palt": true,
+   "m": [
+    10,
+    8,
+    1000,
+    112,
+    "#000000",
+    25
+   ],
+   "scale_x": 0.913,
+   "strokes": [
+    [
+     3,
+     "#000000"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "未発売アイテム",
+   "x": 785.5,
+   "y": 228.5,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 33.3,
+   "color": "#ffffff",
+   "rotate": -6,
+   "strokes": [
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    790,
+    218,
+    990,
+    262
+   ],
+   "scale_x": 0.903
+  },
+  {
+   "type": "text",
+   "text": "先行公開!!",
+   "x": 740.5,
+   "y": 266.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 52.8,
+   "color": "#ffffff",
+   "rotate": -6,
+   "strokes": [
+    [
+     5,
+     "#111111"
+    ]
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    750,
+    248,
+    1032,
+    318
+   ],
+   "scale_x": 1.202
+  },
+  {
+   "type": "text",
+   "text": "最高",
+   "x": 6.0,
+   "y": 350.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 327.1,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    20,
+    393,
+    642,
+    704
+   ],
+   "scale_x": 1.001
+  },
+  {
+   "type": "text",
+   "text": "すぎる!!",
+   "x": 639.5,
+   "y": 518.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 172.3,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    645,
+    537,
+    1258,
+    702
+   ],
+   "scale_x": 1.045
+  }
+ ]
+}

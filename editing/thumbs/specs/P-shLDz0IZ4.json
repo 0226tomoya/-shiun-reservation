@@ -1,0 +1,149 @@
+{
+ "id": "P-shLDz0IZ4",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    8,
+    8,
+    204,
+    208
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    225,
+    20,
+    730,
+    85
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    200,
+    355,
+    830,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    10,
+    505,
+    1270,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_pshl.png",
+   "x": 8,
+   "y": 8,
+   "w": 204,
+   "h": 208
+  },
+  {
+   "type": "text",
+   "text": "ファッション初心者さん必見!!",
+   "x": 232.5,
+   "y": 18.0,
+   "font": "YuseiMagic",
+   "weight": 400,
+   "size": 71.9,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#111111"
+    ]
+   ],
+   "skew": -8,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    233,
+    28,
+    945,
+    92
+   ],
+   "scale_x": 0.824
+  },
+  {
+   "type": "text",
+   "text": "GUで買うべき!!",
+   "x": 225.5,
+   "y": 337.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 141.8,
+   "color": "#ffffff",
+   "palt": true,
+   "skew": -10,
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "m": [
+    205,
+    360,
+    820,
+    140,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.839,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "春アイテム10選",
+   "x": 38.5,
+   "y": 484.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 209.5,
+   "color": "#ffffff",
+   "palt": true,
+   "skew": -10,
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "m": [
+    12,
+    510,
+    1268,
+    210,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.884,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ]
+  }
+ ]
+}

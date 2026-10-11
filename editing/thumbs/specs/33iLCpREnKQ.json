@@ -1,0 +1,186 @@
+{
+ "id": "33iLCpREnKQ",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    378,
+    46,
+    197,
+    198
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    734,
+    46,
+    198,
+    198
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    362,
+    368
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    365,
+    350,
+    355
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    920,
+    0,
+    360,
+    372
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    935,
+    378,
+    345,
+    342
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_shadow_33il_l.png",
+   "x": 378,
+   "y": 46,
+   "w": 197,
+   "h": 198
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_shadow_33il_r.png",
+   "x": 734,
+   "y": 46,
+   "w": 198,
+   "h": 198
+  },
+  {
+   "type": "text",
+   "text": "絶",
+   "x": 10.0,
+   "y": -35.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 367.4,
+   "color": "#ffffff",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    14,
+    12,
+    353,
+    362
+   ],
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "text": "対",
+   "x": 15.5,
+   "y": 323.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 360.0,
+   "color": "#ffffff",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    20,
+    370,
+    344,
+    712
+   ],
+   "scale_x": 0.937
+  },
+  {
+   "type": "text",
+   "text": "買",
+   "x": 915.5,
+   "y": -42.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 366.9,
+   "color": "#ffffff",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    926,
+    20,
+    1243,
+    356
+   ],
+   "scale_x": 0.915
+  },
+  {
+   "type": "text",
+   "text": "い",
+   "x": 919.5,
+   "y": 319.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 361.1,
+   "color": "#ffffff",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    953,
+    414,
+    1255,
+    686
+   ],
+   "scale_x": 0.973
+  }
+ ]
+}

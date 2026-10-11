@@ -1,0 +1,181 @@
+{
+ "id": "Cl-J5v94lBo",
+ "erase": [
+  {
+   "rect": [
+    52,
+    50,
+    140,
+    142
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    55,
+    536,
+    163,
+    132
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    34,
+    33,
+    1212,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    675,
+    1212,
+    11
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1234,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    195,
+    55,
+    1045,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    430,
+    578,
+    800,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  }
+ ],
+ "grow": 9,
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 38,
+   "w": 1203,
+   "h": 644,
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/zozotown_black_clj5.png",
+   "x": 52,
+   "y": 50,
+   "w": 140,
+   "h": 142
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/adidas_white_clj5.png",
+   "x": 55,
+   "y": 536,
+   "w": 163,
+   "h": 132
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "人気"
+    },
+    {
+     "text": "No.1",
+     "font": "Montserrat",
+     "weight": 700
+    },
+    {
+     "text": "スニーカー"
+    }
+   ],
+   "x": 201.0,
+   "y": 46.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 124.1,
+   "color": "#ffffff",
+   "palt": true,
+   "tgt": [
+    203,
+    61,
+    1227,
+    182
+   ],
+   "scale_x": 0.939
+  },
+  {
+   "type": "text",
+   "text": "adidas SAMBA Review",
+   "x": 438.0,
+   "y": 586.0,
+   "font": "JosefinSans",
+   "weight": 700,
+   "size": 76.2,
+   "color": "#ffffff",
+   "tgt": [
+    441,
+    586,
+    1223,
+    647
+   ],
+   "scale_x": 0.992
+  },
+  {
+   "type": "line",
+   "x1": 436,
+   "y1": 660.5,
+   "x2": 1222,
+   "y2": 660.5,
+   "width": 3,
+   "color": "#ffffff"
+  }
+ ]
+}

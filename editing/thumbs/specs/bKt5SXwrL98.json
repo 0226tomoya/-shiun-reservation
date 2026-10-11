@@ -1,0 +1,148 @@
+{
+ "id": "bKt5SXwrL98",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    16,
+    16,
+    258,
+    255
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    325,
+    35,
+    500,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
+  },
+  {
+   "rect": [
+    680,
+    160,
+    450,
+    530
+   ],
+   "colors": [
+    "#ffffff",
+    "#a0a0a0",
+    "#606060"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    945,
+    575,
+    280,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_bkt5.png",
+   "x": 16,
+   "y": 16,
+   "w": 258,
+   "h": 255
+  },
+  {
+   "type": "text",
+   "text": "ヤバすぎぃ!!",
+   "x": 332.0,
+   "y": 20.5,
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "size": 111.2,
+   "color": "#ffffff",
+   "palt": true,
+   "rotate": 4,
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    335,
+    45,
+    815,
+    165
+   ],
+   "scale_x": 0.77
+  },
+  {
+   "type": "text",
+   "text": "神",
+   "x": 681.0,
+   "y": 117.5,
+   "font": "ZenAntique",
+   "weight": 400,
+   "size": 526.7,
+   "color": "#ffffff",
+   "rotate": -4,
+   "shadow": "0 0 14px rgba(255,255,255,.6)",
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    708,
+    180,
+    1100,
+    668
+   ],
+   "scale_x": 0.801,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ボトムス",
+   "x": 937.5,
+   "y": 647.0,
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "size": 62.4,
+   "color": "#ffffff",
+   "rotate": -18,
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    956,
+    585,
+    1212,
+    698
+   ],
+   "scale_x": 1.107
+  }
+ ]
+}

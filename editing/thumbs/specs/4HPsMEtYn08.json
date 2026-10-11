@@ -131,12 +131,12 @@
   {
    "type": "text",
    "text": "169cm",
-   "x": 219.5,
-   "y": 63.5,
+   "x": 216.5,
+   "y": 65.5,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 155.2,
+   "size": 149.0,
    "color": "#ffffff",
    "hollow": true,
    "strokes": [
@@ -158,17 +158,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.852
+   "scale_x": 0.886
   },
   {
    "type": "text",
    "text": "以下\n必見",
-   "x": 500.0,
-   "y": 72.0,
+   "x": 494.0,
+   "y": 71.0,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 67.6,
+   "size": 62.2,
    "line": 0.95,
    "color": "#ffffff",
    "hollow": true,
@@ -191,17 +191,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.976
+   "scale_x": 1.054
   },
   {
    "type": "text",
    "text": "脚",
-   "x": 207.5,
-   "y": 305.5,
+   "x": 181.5,
+   "y": 302.5,
    "anchor": "cc",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
-   "size": 380.0,
+   "size": 361.0,
    "color": "#ececec",
    "tgt": [
     40,
@@ -216,17 +216,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.934
+   "scale_x": 0.999
   },
   {
    "type": "text",
    "text": "長",
-   "x": 432.0,
-   "y": 482.5,
+   "x": 433.0,
+   "y": 480.5,
    "anchor": "cc",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
-   "size": 283.4,
+   "size": 297.6,
    "color": "#ececec",
    "tgt": [
     290,
@@ -241,17 +241,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.111
+   "scale_x": 1.011
   },
   {
    "type": "text",
    "text": "加",
-   "x": 937.5,
+   "x": 934.5,
    "y": 124.0,
    "anchor": "cc",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
-   "size": 311.0,
+   "size": 301.7,
    "color": "#ececec",
    "tgt": [
     787,
@@ -266,17 +266,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.02
+   "scale_x": 1.01
   },
   {
    "type": "text",
    "text": "工",
-   "x": 1174.0,
-   "y": 192.5,
+   "x": 1163.0,
+   "y": 194.5,
    "anchor": "cc",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
-   "size": 280.0,
+   "size": 271.6,
    "color": "#ececec",
    "tgt": [
     1070,
@@ -291,17 +291,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.826
+   "scale_x": 0.95
   },
   {
    "type": "text",
-   "text": "デニム",
-   "x": 1028.0,
-   "y": 422.5,
-   "anchor": "cc",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
-   "size": 261.6,
    "color": "#ececec",
    "tgt": [
     771,
@@ -316,17 +311,75 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.712
+   "scale_x": 0.905,
+   "text": "デ",
+   "x": 741.6,
+   "y": 411.2,
+   "anchor": "lc",
+   "size": 268.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ececec",
+   "tgt": [
+    771,
+    320,
+    1279,
+    549
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.855,
+   "text": "ニ",
+   "x": 903.3,
+   "y": 444.2,
+   "anchor": "lc",
+   "size": 253.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ececec",
+   "tgt": [
+    771,
+    320,
+    1279,
+    549
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.888,
+   "text": "ム",
+   "x": 1079.8,
+   "y": 440.2,
+   "anchor": "lc",
+   "size": 248.1,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "25 Spring 1st Collection",
-   "x": 1096.0,
-   "y": 648.0,
+   "x": 1098.0,
+   "y": 649.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 700,
-   "size": 44.2,
+   "size": 40.7,
    "color": "#f6f6f6",
    "tgt": [
     934,
@@ -341,17 +394,17 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.692
+   "scale_x": 0.747
   },
   {
    "type": "text",
    "text": "2025.02.15 sat.22:00 — Release",
-   "x": 1135.0,
-   "y": 681.0,
+   "x": 1138.0,
+   "y": 685.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 400,
-   "size": 24.4,
+   "size": 26.4,
    "color": "#f6f6f6",
    "tgt": [
     1012,
@@ -366,7 +419,7 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.771
+   "scale_x": 0.725
   }
  ]
 }

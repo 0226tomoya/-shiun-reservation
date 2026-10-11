@@ -1,0 +1,227 @@
+{
+ "id": "Famdv6SMg8g",
+ "erase": [
+  {
+   "rect": [
+    184,
+    50,
+    208,
+    38
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    680,
+    51,
+    187,
+    31
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1043,
+    50,
+    147,
+    34
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    375,
+    1280,
+    345
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 5,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/comoli_black_famd.png",
+   "x": 184,
+   "y": 50,
+   "w": 208,
+   "h": 38
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/niceness_red_famd.png",
+   "x": 680,
+   "y": 51,
+   "w": 187,
+   "h": 31
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/lidnm_black_famd.png",
+   "x": 1043,
+   "y": 50,
+   "w": 147,
+   "h": 34
+  },
+  {
+   "type": "text",
+   "font": "ZenAntique",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "冬",
+   "x": 13.0,
+   "y": 345.7,
+   "size": 345.0,
+   "m": [
+    19,
+    393,
+    252,
+    321,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.766
+  },
+  {
+   "type": "text",
+   "font": "ZenAntique",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "服",
+   "x": 266.5,
+   "y": 344.0,
+   "size": 345.0,
+   "m": [
+    275,
+    399,
+    261,
+    310,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.801
+  },
+  {
+   "type": "text",
+   "font": "BodoniModa",
+   "weight": 700,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "2",
+   "x": 524.5,
+   "y": 327.1,
+   "size": 418.9,
+   "m": [
+    539,
+    382,
+    195,
+    326,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.881
+  },
+  {
+   "type": "text",
+   "font": "BodoniModa",
+   "weight": 700,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "0",
+   "x": 727.0,
+   "y": 325.9,
+   "size": 418.8,
+   "m": [
+    739,
+    388,
+    182,
+    324,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.747
+  },
+  {
+   "type": "text",
+   "font": "ZenAntique",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "万",
+   "x": 916.0,
+   "y": 459.0,
+   "size": 233.9,
+   "m": [
+    926,
+    496,
+    225,
+    210,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 1.053
+  },
+  {
+   "type": "text",
+   "font": "ZenAntique",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.3)",
+   "text": "円",
+   "x": 1135.0,
+   "y": 460.0,
+   "size": 234.1,
+   "m": [
+    1151,
+    496,
+    122,
+    210,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.639
+  }
+ ]
+}

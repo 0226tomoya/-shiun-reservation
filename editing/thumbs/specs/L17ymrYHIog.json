@@ -1,0 +1,39 @@
+{
+ "id": "L17ymrYHIog",
+ "erase": [
+  {
+   "rect": [
+    0,
+    525,
+    1265,
+    195
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "text",
+   "text": "ご報告があります",
+   "x": 0.5,
+   "y": 509.0,
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 191.4,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "scale_x": 0.887,
+   "tgt": [
+    13,
+    530,
+    1262,
+    715
+   ]
+  }
+ ]
+}

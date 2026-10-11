@@ -1,0 +1,476 @@
+{
+ "id": "8MPWE-IwQ6g",
+ "erase": [
+  {
+   "rect": [
+    906,
+    6,
+    163,
+    162
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1110,
+    6,
+    163,
+    162
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    115,
+    222,
+    710,
+    125
+   ],
+   "colors": [
+    "#d00010",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    30,
+    322,
+    915,
+    122
+   ],
+   "colors": [
+    "#d00010",
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    20,
+    425,
+    990,
+    295
+   ],
+   "colors": [
+    "#fff3d6",
+    "#e9c98f",
+    "#c9a560",
+    "#fff7cc",
+    "#c87d39",
+    "#a86a30"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_8mpw.png",
+   "x": 906,
+   "y": 6,
+   "w": 163,
+   "h": 162
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_8mpw.png",
+   "x": 1110,
+   "y": 6,
+   "w": 163,
+   "h": 162
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 471.0,
+   "y": 278.5,
+   "size": 115.6,
+   "runs": [
+    {
+     "text": "春夏"
+    },
+    {
+     "text": "に",
+     "size_em": 0.75
+    },
+    {
+     "text": "買うべき"
+    }
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "_t": [
+    125,
+    230,
+    814,
+    340
+   ],
+   "scale_x": 0.94
+  },
+  {
+   "type": "text",
+   "text": "U",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 72.0,
+   "y": 374.0,
+   "size": 111.5,
+   "_m": [
+    38,
+    328,
+    70,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.021
+  },
+  {
+   "type": "text",
+   "text": "N",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 158.0,
+   "y": 373.5,
+   "size": 114.5,
+   "_m": [
+    122,
+    328,
+    71,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.988
+  },
+  {
+   "type": "text",
+   "text": "I",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 218.5,
+   "y": 374.0,
+   "size": 113.2,
+   "_m": [
+    207,
+    328,
+    23,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "text": "Q",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 277.0,
+   "y": 371.0,
+   "size": 104.2,
+   "_m": [
+    240,
+    328,
+    76,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.962
+  },
+  {
+   "type": "text",
+   "text": "L",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 352.5,
+   "y": 374.0,
+   "size": 112.5,
+   "_m": [
+    326,
+    328,
+    56,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.982
+  },
+  {
+   "type": "text",
+   "text": "O",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 422.5,
+   "y": 374.0,
+   "size": 112.3,
+   "_m": [
+    384,
+    328,
+    76,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.94
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 504.0,
+   "y": 389.0,
+   "size": 73.9,
+   "_m": [
+    466,
+    328,
+    74,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.04
+  },
+  {
+   "type": "text",
+   "text": "ト",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 594.0,
+   "y": 376.0,
+   "size": 104.7,
+   "_m": [
+    571,
+    328,
+    55,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.825
+  },
+  {
+   "type": "text",
+   "text": "ッ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 690.5,
+   "y": 379.0,
+   "size": 87.9,
+   "_m": [
+    657,
+    328,
+    67,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.961
+  },
+  {
+   "type": "text",
+   "text": "プ",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 796.0,
+   "y": 375.0,
+   "size": 103.4,
+   "_m": [
+    752,
+    328,
+    94,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.978
+  },
+  {
+   "type": "text",
+   "text": "ス",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#d00010",
+   "palt": true,
+   "anchor": "cc",
+   "x": 893.0,
+   "y": 375.0,
+   "size": 93.8,
+   "_m": [
+    844,
+    328,
+    92,
+    112,
+    "#d00010",
+    45
+   ],
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.08
+  },
+  {
+   "type": "text",
+   "text": "BEST5",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": false,
+   "anchor": "cc",
+   "x": 482.5,
+   "y": 559.0,
+   "size": 369.0,
+   "fill": "linear-gradient(180deg,#fff3d6 0%,#e9c98f 22%,#c9a560 40%,#fff7cc 50%,#fffbe0 58%,#e0a050 75%,#c87d39 88%,#a86a30 100%)",
+   "strokes": [
+    [
+     4,
+     "#1a1008"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.6)",
+   "_t": [
+    30,
+    440,
+    945,
+    717
+   ],
+   "scale_x": 0.815
+  }
+ ],
+ "front": [
+  [
+   [
+    905,
+    465
+   ],
+   [
+    1010,
+    465
+   ],
+   [
+    1010,
+    650
+   ],
+   [
+    905,
+    650
+   ]
+  ]
+ ]
+}

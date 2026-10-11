@@ -1,0 +1,264 @@
+{
+ "id": "8PeJqboGfBE",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    50,
+    46,
+    155,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    222,
+    46,
+    160,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    412,
+    46,
+    159,
+    157
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    28,
+    26,
+    1223,
+    6
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    28,
+    688,
+    1223,
+    6
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    27,
+    26,
+    7,
+    668
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1244,
+    26,
+    7,
+    668
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    975,
+    40,
+    265,
+    650
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    40,
+    520,
+    520,
+    60
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    40,
+    575,
+    910,
+    105
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 28,
+   "w": 1219,
+   "h": 664,
+   "fill": "rgba(0,0,0,0)",
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_8pej.png",
+   "x": 50,
+   "y": 46,
+   "w": 155,
+   "h": 157
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_square_8pej.png",
+   "x": 222,
+   "y": 46,
+   "w": 160,
+   "h": 157
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlou_u_black_8pej.png",
+   "x": 412,
+   "y": 46,
+   "w": 159,
+   "h": 157
+  },
+  {
+   "type": "text",
+   "text": "超",
+   "x": 1042.4,
+   "y": 17.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 230.0,
+   "color": "#ffffff",
+   "skew": -12,
+   "m": [
+    975,
+    40,
+    265,
+    225,
+    "#ffffff",
+    16
+   ],
+   "scale_x": 0.896
+  },
+  {
+   "type": "text",
+   "text": "進",
+   "x": 1037.0,
+   "y": 233.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 214.9,
+   "color": "#ffffff",
+   "skew": -12,
+   "m": [
+    975,
+    262,
+    265,
+    205,
+    "#ffffff",
+    16
+   ],
+   "scale_x": 0.989
+  },
+  {
+   "type": "text",
+   "text": "化",
+   "x": 1035.0,
+   "y": 438.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 218.3,
+   "color": "#ffffff",
+   "skew": -12,
+   "m": [
+    975,
+    468,
+    265,
+    222,
+    "#ffffff",
+    16
+   ],
+   "scale_x": 0.987
+  },
+  {
+   "type": "text",
+   "text": "ドローストリングショルダーバッグ",
+   "x": 58.1,
+   "y": 520.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 55.5,
+   "color": "#ffffff",
+   "skew": -12,
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "m": [
+    40,
+    520,
+    520,
+    60,
+    "#ffffff",
+    20
+   ],
+   "scale_x": 0.6
+  },
+  {
+   "type": "text",
+   "text": "ユニクロNo.1バッグ",
+   "x": 71.5,
+   "y": 564.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 104.1,
+   "color": "#ffffff",
+   "skew": -12,
+   "palt": true,
+   "m": [
+    40,
+    575,
+    910,
+    105,
+    "#ffffff",
+    16
+   ],
+   "scale_x": 0.929
+  }
+ ]
+}

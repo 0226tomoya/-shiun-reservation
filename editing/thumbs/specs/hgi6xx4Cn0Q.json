@@ -11,7 +11,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 35
+   "tol": 22
   },
   {
    "rect": [
@@ -23,47 +23,484 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 35
+   "tol": 22
   }
  ],
  "layers": [
   {
    "type": "text",
-   "text": "WAMU VLOG",
-   "x": 646.5,
-   "y": 351.0,
-   "anchor": "cc",
-   "font": "Yusei Magic",
-   "weight": 400,
-   "size": 83.59,
-   "spacing": 0.044,
+   "font": "ZenMaruGothic",
+   "weight": 700,
    "color": "#ffffff",
    "lock": [
     "rotate",
     "skew"
    ],
-   "scale_x": 1.109,
+   "scale_x": 1.173,
    "fit_iou": 0.412,
-   "tol": 40
+   "tol": 40,
+   "text": "W",
+   "x": 374.3,
+   "y": 356.9,
+   "anchor": "lc",
+   "size": 66.5,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "~shiunのロケハンで群馬まで~",
-   "x": 643.0,
-   "y": 427.5,
-   "anchor": "cc",
-   "font": "Zen Maru Gothic",
-   "weight": 400,
-   "size": 40.409,
-   "spacing": 0.054,
+   "font": "ZenMaruGothic",
+   "weight": 700,
    "color": "#ffffff",
    "lock": [
     "rotate",
     "skew"
    ],
-   "scale_x": 0.984,
+   "scale_x": 1.128,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "A",
+   "x": 451.8,
+   "y": 349.9,
+   "anchor": "lc",
+   "size": 67.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.198,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "M",
+   "x": 507.8,
+   "y": 350.9,
+   "anchor": "lc",
+   "size": 80.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.98,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "U",
+   "x": 584.0,
+   "y": 350.9,
+   "anchor": "lc",
+   "size": 80.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.94,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "V",
+   "x": 678.6,
+   "y": 349.9,
+   "anchor": "lc",
+   "size": 78.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.884,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "L",
+   "x": 733.8,
+   "y": 355.9,
+   "anchor": "lc",
+   "size": 71.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.92,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "O",
+   "x": 792.3,
+   "y": 352.9,
+   "anchor": "lc",
+   "size": 76.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.94,
+   "fit_iou": 0.412,
+   "tol": 40,
+   "text": "G",
+   "x": 844.8,
+   "y": 346.9,
+   "anchor": "lc",
+   "size": 78.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.905,
    "fit_iou": 0.459,
-   "tol": 45
+   "tol": 45,
+   "text": "~",
+   "x": 358.8,
+   "y": 429.8,
+   "anchor": "lc",
+   "size": 33.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.94,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "s",
+   "x": 378.7,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 43.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.124,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "h",
+   "x": 401.1,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 35.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.869,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "i",
+   "x": 425.6,
+   "y": 426.8,
+   "anchor": "lc",
+   "size": 37.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.022,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "u",
+   "x": 437.2,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 39.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.041,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "n",
+   "x": 460.8,
+   "y": 426.8,
+   "anchor": "lc",
+   "size": 38.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.022,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "の",
+   "x": 485.3,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.964,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "ロ",
+   "x": 527.1,
+   "y": 426.8,
+   "anchor": "lc",
+   "size": 42.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.964,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "ケ",
+   "x": 569.0,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.042,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "ハ",
+   "x": 611.1,
+   "y": 426.8,
+   "anchor": "lc",
+   "size": 37.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.002,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "ン",
+   "x": 652.1,
+   "y": 426.8,
+   "anchor": "lc",
+   "size": 40.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.02,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "で",
+   "x": 693.0,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.964,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "群",
+   "x": 735.8,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.964,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "馬",
+   "x": 776.7,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 0.983,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "ま",
+   "x": 818.6,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.02,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "で",
+   "x": 860.4,
+   "y": 427.8,
+   "anchor": "lc",
+   "size": 41.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "scale_x": 1.083,
+   "fit_iou": 0.459,
+   "tol": 45,
+   "text": "~",
+   "x": 902.3,
+   "y": 428.8,
+   "anchor": "lc",
+   "size": 35.6,
+   "line": 1.0
   }
  ]
 }

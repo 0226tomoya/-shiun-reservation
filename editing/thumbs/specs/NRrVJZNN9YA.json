@@ -1,0 +1,201 @@
+{
+ "id": "NRrVJZNN9YA",
+ "erase": [
+  {
+   "rect": [
+    8,
+    9,
+    229,
+    229
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    288,
+    9,
+    230,
+    229
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1062,
+    0,
+    218,
+    185
+   ],
+   "colors": [
+    "#2d2d2d",
+    "#fde400"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    30,
+    298,
+    800,
+    140
+   ],
+   "colors": [
+    "#2a2a2a",
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    0,
+    445,
+    1280,
+    275
+   ],
+   "colors": [
+    "#ffe401",
+    "#2a2a2a"
+   ],
+   "tol": 20
+  }
+ ],
+ "grow": 11,
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_nrrv.png",
+   "x": 8,
+   "y": 9,
+   "w": 229,
+   "h": 229
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_nrrv.png",
+   "x": 288,
+   "y": 9,
+   "w": 230,
+   "h": 229
+  },
+  {
+   "type": "rect",
+   "x": 1070,
+   "y": -195,
+   "w": 370,
+   "h": 370,
+   "radius": 185,
+   "fill": "#2d2d2d",
+   "border": [
+    4,
+    "#fde400"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "定番",
+   "x": 1124.0,
+   "y": 9.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 61.8,
+   "color": "#fde400",
+   "tgt": [
+    1126,
+    16,
+    1265,
+    75
+   ],
+   "scale_x": 1.159
+  },
+  {
+   "type": "text",
+   "text": "アイテム",
+   "x": 1122.0,
+   "y": 82.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 38.2,
+   "color": "#fde400",
+   "tgt": [
+    1126,
+    88,
+    1265,
+    122
+   ],
+   "scale_x": 0.969
+  },
+  {
+   "type": "text",
+   "text": "全人類買うべき!?",
+   "x": 50.5,
+   "y": 309.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 110.4,
+   "color": "#2e2e2e",
+   "palt": true,
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.911,
+   "tgt": [
+    52,
+    322,
+    812,
+    428
+   ]
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "春"
+    },
+    {
+     "text": "の",
+     "size_em": 0.7
+    },
+    {
+     "text": "マストバイ"
+    },
+    {
+     "text": "2",
+     "font": "Montserrat",
+     "weight": 900,
+     "size_em": 1.15
+    },
+    {
+     "text": "選",
+     "size_em": 0.6
+    }
+   ],
+   "x": 15.0,
+   "y": 419.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 252.6,
+   "color": "#ffe401",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#ffe401"
+    ],
+    [
+     6,
+     "#2a2a2a"
+    ]
+   ],
+   "tgt": [
+    18,
+    466,
+    1264,
+    706
+   ],
+   "scale_x": 0.653
+  }
+ ]
+}

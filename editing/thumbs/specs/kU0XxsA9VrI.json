@@ -1,0 +1,125 @@
+{
+ "id": "kU0XxsA9VrI",
+ "erase": [
+  {
+   "rect": [
+    495,
+    5,
+    785,
+    95
+   ],
+   "colors": [
+    "#2a2a2a"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    480,
+    98,
+    800,
+    14
+   ],
+   "colors": [
+    "#2a2a2a"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    0,
+    505,
+    1280,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  }
+ ],
+ "grow": 9,
+ "layers": [
+  {
+   "type": "line",
+   "x1": 488,
+   "y1": 106.5,
+   "x2": 1280,
+   "y2": 106.5,
+   "width": 7,
+   "color": "#2a2a2a"
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "Clarks",
+     "font": "Montserrat",
+     "weight": 900,
+     "size_em": 1.1
+    },
+    {
+     "text": "で",
+     "size_em": 0.8
+    },
+    {
+     "text": "今買"
+    },
+    {
+     "text": "うべき",
+     "size_em": 0.8
+    },
+    {
+     "text": "靴"
+    }
+   ],
+   "x": 503.5,
+   "y": 2.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 80.2,
+   "color": "#2a2a2a",
+   "palt": true,
+   "m": [
+    495,
+    5,
+    785,
+    93,
+    "#2a2a2a",
+    35
+   ],
+   "scale_x": 0.992,
+   "strokes": [
+    [
+     1.5,
+     "#2a2a2a"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "ワラビー超えた",
+   "x": 0.0,
+   "y": 501.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 186.5,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "tgt": [
+    16,
+    522,
+    1264,
+    702
+   ],
+   "scale_x": 1.039,
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ]
+  }
+ ]
+}

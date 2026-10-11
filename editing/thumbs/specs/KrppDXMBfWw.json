@@ -1,0 +1,166 @@
+{
+ "id": "KrppDXMBfWw",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    110,
+    662,
+    328,
+    42
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    454,
+    662,
+    308,
+    42
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    780,
+    662,
+    410,
+    42
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    5,
+    465,
+    1275,
+    190
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 112,
+   "y": 664,
+   "w": 324,
+   "h": 37,
+   "fill": "#ffffff",
+   "radius": 7
+  },
+  {
+   "type": "rect",
+   "x": 456,
+   "y": 664,
+   "w": 305,
+   "h": 37,
+   "fill": "#ffffff",
+   "radius": 7
+  },
+  {
+   "type": "rect",
+   "x": 782,
+   "y": 664,
+   "w": 407,
+   "h": 37,
+   "fill": "#ffffff",
+   "radius": 7
+  },
+  {
+   "type": "text",
+   "text": "Llifeのセットアップ",
+   "x": 121.0,
+   "y": 667.0,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 30.9,
+   "color": "#2a2a2a",
+   "palt": true,
+   "m": [
+    115,
+    666,
+    318,
+    34,
+    "#202020",
+    40
+   ],
+   "scale_x": 1.159
+  },
+  {
+   "type": "text",
+   "text": "BOSEヘッドフォン",
+   "x": 463.4,
+   "y": 662.9,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 34.5,
+   "color": "#2a2a2a",
+   "palt": true,
+   "m": [
+    459,
+    666,
+    300,
+    34,
+    "#202020",
+    40
+   ],
+   "scale_x": 1.058
+  },
+  {
+   "type": "text",
+   "text": "古着のフライトジャケット",
+   "x": 788.6,
+   "y": 664.9,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 32.6,
+   "color": "#2a2a2a",
+   "palt": true,
+   "m": [
+    785,
+    666,
+    402,
+    34,
+    "#202020",
+    40
+   ],
+   "scale_x": 1.113
+  },
+  {
+   "type": "text",
+   "text": "最高すぎた購入品",
+   "x": 13.0,
+   "y": 452.5,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 173.3,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.937,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ]
+  }
+ ]
+}
