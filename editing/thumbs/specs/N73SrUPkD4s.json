@@ -246,13 +246,8 @@
   },
   {
    "type": "text",
-   "text": "万円分購入",
-   "x": 798.0,
-   "y": 514.0,
-   "anchor": "cc",
    "font": "Zen Old Mincho",
    "weight": 900,
-   "size": 187.8,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "m": [
@@ -269,7 +264,125 @@
     438,
     1225,
     610
-   ]
+   ],
+   "text": "万",
+   "x": 366.1,
+   "y": 513.7,
+   "anchor": "lc",
+   "size": 187.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    365,
+    430,
+    890,
+    182,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.92,
+   "tgt": [
+    374,
+    438,
+    1225,
+    610
+   ],
+   "text": "円",
+   "x": 538.8,
+   "y": 513.7,
+   "anchor": "lc",
+   "size": 187.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    365,
+    430,
+    890,
+    182,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.92,
+   "tgt": [
+    374,
+    438,
+    1225,
+    610
+   ],
+   "text": "分",
+   "x": 711.6,
+   "y": 513.7,
+   "anchor": "lc",
+   "size": 187.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    365,
+    430,
+    890,
+    182,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.92,
+   "tgt": [
+    374,
+    438,
+    1225,
+    610
+   ],
+   "text": "購",
+   "x": 884.4,
+   "y": 513.7,
+   "anchor": "lc",
+   "size": 187.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Zen Old Mincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    365,
+    430,
+    890,
+    182,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.92,
+   "tgt": [
+    374,
+    438,
+    1225,
+    610
+   ],
+   "text": "入",
+   "x": 1057.2,
+   "y": 513.7,
+   "anchor": "lc",
+   "size": 187.8,
+   "line": 1.0
   }
  ]
 }
