@@ -42,7 +42,7 @@
  "layers": [
   {
    "type": "text",
-   "text": "164cmの低身長アパレルディレクター",
+   "text": "１６４ｃｍの低身長アパレルディレクター",
    "x": 634.0,
    "y": 264.0,
    "anchor": "cc",
@@ -55,22 +55,11 @@
    "shadow": "0 0 10px rgba(0,0,0,.55)",
    "tol": 24,
    "scale_x": 1.065,
-   "fit_iou": 0.326
+   "fit_iou": 0.326,
+   "split": true
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "1週間コーデ"
-    },
-    {
-     "text": "ィ",
-     "size_em": 0.75
-    },
-    {
-     "text": "ネート"
-    }
-   ],
    "x": 669.5,
    "y": 360.5,
    "anchor": "cc",
@@ -83,7 +72,9 @@
    "shadow": "0 0 12px rgba(0,0,0,.55)",
    "tol": 24,
    "scale_x": 1.005,
-   "fit_iou": 0.487
+   "fit_iou": 0.487,
+   "text": "１週間コーディネート",
+   "split": true
   },
   {
    "type": "text",
