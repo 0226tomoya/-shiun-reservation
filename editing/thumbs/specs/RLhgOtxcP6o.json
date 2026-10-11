@@ -1,7 +1,124 @@
-{"id":"RLhgOtxcP6o",
- "erase":[{"rect":[0,0,1280,245],"colors":["#b40c0c","#ffffff","#0c0c0c"],"tol":35},{"rect":[0,607,1280,113],"full":true}],
- "layers":[
-  {"type":"rect","x":0,"y":607,"w":1280,"h":113,"fill":"#000000","opacity":0.48},
-  {"type":"text","x":15,"y":0,"font":"Noto Sans JP","weight":900,"size":230,"color":"#b40c0c","strokes":[[7,"#ffffff"],[6,"#0c0c0c"]],"line":1.0,"runs":[{"text":"絶対"},{"text":"に","size_em":0.7},{"text":"着るな⁉"}],"tbox":[5,2,1268,237],"box":[0,0,1280,245],"fit_color":"#b40c0c","tol":40},
-  {"type":"text","x":22,"y":605,"font":"Noto Sans JP","weight":700,"size":90,"color":"#ffffff","line":1.0,"runs":[{"text":"低身長男性"},{"text":"が","size_em":0.8},{"text":"着"},{"text":"ると","size_em":0.8},{"text":"失敗"},{"text":"する","size_em":0.8},{"text":"春服"}],"tbox":[22,617,1241,90],"box":[15,610,1255,105],"tol":20}
- ]}
+{
+ "id": "RLhgOtxcP6o",
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    245
+   ],
+   "colors": [
+    "#b40c0c",
+    "#ffffff",
+    "#0c0c0c"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    0,
+    607,
+    1280,
+    113
+   ],
+   "full": true
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 0,
+   "y": 607,
+   "w": 1280,
+   "h": 113,
+   "fill": "#000000",
+   "opacity": 0.48
+  },
+  {
+   "type": "text",
+   "x": 14.5,
+   "y": 2.0,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 214.09,
+   "color": "#b40c0c",
+   "strokes": [
+    [
+     7,
+     "#ffffff"
+    ],
+    [
+     6,
+     "#0c0c0c"
+    ]
+   ],
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "絶対"
+    },
+    {
+     "text": "に",
+     "size_em": 0.7
+    },
+    {
+     "text": "着るな⁉"
+    }
+   ],
+   "box": [
+    0,
+    0,
+    1280,
+    245
+   ],
+   "fit_color": "#b40c0c",
+   "tol": 40,
+   "scale_x": 0.893
+  },
+  {
+   "type": "text",
+   "x": 21.0,
+   "y": 609.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 95.36,
+   "color": "#ffffff",
+   "line": 1.0,
+   "runs": [
+    {
+     "text": "低身長男性"
+    },
+    {
+     "text": "が",
+     "size_em": 0.8
+    },
+    {
+     "text": "着"
+    },
+    {
+     "text": "ると",
+     "size_em": 0.8
+    },
+    {
+     "text": "失敗"
+    },
+    {
+     "text": "する",
+     "size_em": 0.8
+    },
+    {
+     "text": "春服"
+    }
+   ],
+   "box": [
+    15,
+    610,
+    1255,
+    105
+   ],
+   "tol": 20,
+   "scale_x": 0.932
+  }
+ ]
+}
