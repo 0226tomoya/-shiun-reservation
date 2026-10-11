@@ -1,0 +1,12 @@
+{"id":"QkaUnq-Gz3k","erase":[
+ {"rect":[12,12,216,218],"full":true},
+ {"rect":[860,90,410,160],"colors":["#2a2a2a"],"tol":30},
+ {"rect":[260,385,760,125],"colors":["#ffffff"],"tol":16},
+ {"rect":[20,515,1245,190],"colors":["#ffffff"],"tol":16}
+],
+"layers":[
+ {"type":"image","src":"assets/logos/adidas_black_qkau.png","x":12,"y":12,"w":216,"h":218},
+ {"type":"text","text":"これ知ってる?","x":1062,"y":168,"anchor":"cc","font":"Yusei Magic","weight":400,"size":62,"color":"#2a2a2a","rotate":14,"spacing":0.1},
+ {"type":"text","text":"アディダス新作","x":640,"y":447,"anchor":"cc","font":"Noto Sans JP","weight":800,"size":115,"color":"#ffffff","shadow":"0 0 8px rgba(0,0,0,.4)","m":[260,385,760,125,"#ffffff",10]},
+ {"type":"text","text":"買うべきスニーカー","x":640,"y":610,"anchor":"cc","font":"Noto Sans JP","weight":900,"size":175,"color":"#ffffff","shadow":"0 0 8px rgba(0,0,0,.4)","m":[20,515,1245,190,"#ffffff",10]}
+]}
