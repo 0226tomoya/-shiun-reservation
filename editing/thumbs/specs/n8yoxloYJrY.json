@@ -1,0 +1,130 @@
+{
+ "id": "n8yoxloYJrY",
+ "erase": [
+  {
+   "rect": [
+    18,
+    24,
+    118,
+    118
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    162,
+    24,
+    118,
+    118
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    306,
+    24,
+    118,
+    118
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    108,
+    328,
+    1065,
+    64
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    340,
+    398,
+    630,
+    52
+   ],
+   "colors": [
+    "#fcfcfc"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_n8yo.png",
+   "x": 18,
+   "y": 24,
+   "w": 118,
+   "h": 118
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_n8yo.png",
+   "x": 162,
+   "y": 24,
+   "w": 118,
+   "h": 118
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square_n8yo.png",
+   "x": 306,
+   "y": 24,
+   "w": 118,
+   "h": 118
+  },
+  {
+   "type": "text",
+   "text": "この夏ヘビロテ確定のTシャツはコレです。",
+   "anchor": "ct",
+   "x": 655.0,
+   "y": 332.0,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 52.0,
+   "color": "#ffffff",
+   "spacing": 0.176,
+   "line": 1.0,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "box": [
+    108,
+    328,
+    1065,
+    64
+   ],
+   "tol": 22,
+   "scale_x": 0.905,
+   "skew": -2.4,
+   "fit_iou": 0.641
+  },
+  {
+   "type": "text",
+   "text": "GU / UNIQLO / MUJI Labo",
+   "anchor": "ct",
+   "x": 658.0,
+   "y": 401.0,
+   "font": "PlayfairDisplay",
+   "weight": 400,
+   "italic": true,
+   "size": 38.192,
+   "color": "#ffffff",
+   "spacing": 0.2,
+   "line": 1.0,
+   "box": [
+    340,
+    398,
+    630,
+    52
+   ],
+   "tol": 22,
+   "scale_x": 0.999,
+   "skew": -2.6,
+   "fit_iou": 0.391
+  }
+ ]
+}

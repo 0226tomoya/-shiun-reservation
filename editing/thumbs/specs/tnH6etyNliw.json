@@ -1,0 +1,194 @@
+{
+ "id": "tnH6etyNliw",
+ "erase": [
+  {
+   "rect": [
+    10,
+    9,
+    140,
+    137
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    164,
+    10,
+    140,
+    137
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    188,
+    180,
+    113,
+    205
+   ],
+   "colors": [
+    "#c5c5c5",
+    "#909090",
+    "#707070"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    937,
+    180,
+    113,
+    205
+   ],
+   "colors": [
+    "#c5c5c5",
+    "#909090",
+    "#707070"
+   ],
+   "tol": 50
+  },
+  {
+   "rect": [
+    180,
+    415,
+    920,
+    145
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    565,
+    1280,
+    148
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_tnh6.png",
+   "x": 10,
+   "y": 9,
+   "w": 140,
+   "h": 137
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_tnh6.png",
+   "x": 164,
+   "y": 10,
+   "w": 140,
+   "h": 137
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 245.0,
+   "y": 291.5,
+   "anchor": "cc",
+   "font": "Libre Baskerville",
+   "weight": 400,
+   "size": 249.1,
+   "color": "#c5c5c5",
+   "m": [
+    188,
+    180,
+    113,
+    205,
+    "#c5c5c5",
+    30
+   ],
+   "scale_x": 1.582
+  },
+  {
+   "type": "text",
+   "text": "?",
+   "x": 995.0,
+   "y": 292.0,
+   "anchor": "cc",
+   "font": "Libre Baskerville",
+   "weight": 400,
+   "size": 246.5,
+   "color": "#c5c5c5",
+   "m": [
+    937,
+    180,
+    113,
+    205,
+    "#c5c5c5",
+    30
+   ],
+   "scale_x": 1.584
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "低身長メンズ"
+    },
+    {
+     "text": "が",
+     "size_em": 0.7
+    }
+   ],
+   "x": 642.9,
+   "y": 487.4,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 135.0,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "m": [
+    180,
+    415,
+    920,
+    145,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.915
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "春"
+    },
+    {
+     "text": "に",
+     "size_em": 0.8
+    },
+    {
+     "text": "揃えるべきアイテム"
+    }
+   ],
+   "x": 638.5,
+   "y": 635.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 135.7,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "m": [
+    0,
+    565,
+    1280,
+    148,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.859
+  }
+ ]
+}

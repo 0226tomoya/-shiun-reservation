@@ -1,0 +1,101 @@
+{
+ "id": "gfjdUyh6lvU",
+ "erase": [
+  {
+   "rect": [
+    0,
+    215,
+    820,
+    215
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    310,
+    385,
+    970,
+    225
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    580,
+    1280,
+    140
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": -80,
+   "y": 622,
+   "w": 1440,
+   "h": 60,
+   "fill": "#ffffff",
+   "rotate": -2.98
+  },
+  {
+   "type": "text",
+   "text": "COMOLI / NICENESS / Steven Alan / Bonfil / LIDNM",
+   "x": 640,
+   "y": 652,
+   "anchor": "cc",
+   "font": "Jost",
+   "weight": 500,
+   "size": 44,
+   "rotate": -2.98,
+   "fill": "linear-gradient(90deg,#9a8576 0%,#9a8576 6%,#222 9%,#222 52%,#7a5a3c 58%,#6a4c34 82%,#2a2420 86%,#2a2420 100%)"
+  },
+  {
+   "type": "text",
+   "x": 16,
+   "y": 197,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 212,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "runs": [
+    {
+     "text": "36",
+     "spacing": -0.09,
+     "size_em": 0.97
+    },
+    {
+     "text": "万円分",
+     "spacing": -0.075
+    }
+   ],
+   "scale_x": 0.95
+  },
+  {
+   "type": "text",
+   "text": "冬服爆買い",
+   "x": 318,
+   "y": 380,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 205,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "spacing": -0.08
+  }
+ ],
+ "grow": 17
+}

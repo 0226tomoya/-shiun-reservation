@@ -1,0 +1,109 @@
+{
+ "id": "iTahY29LF58",
+ "grow": 11,
+ "erase": [
+  {
+   "rect": [
+    88,
+    6,
+    296,
+    198
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    185,
+    205,
+    110,
+    505
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    895,
+    8,
+    120,
+    672
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1075,
+    8,
+    120,
+    410
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/hm_red_itah.png",
+   "x": 88,
+   "y": 6,
+   "w": 296,
+   "h": 198
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 800,
+   "vertical": true,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "にあったんだ。",
+   "x": 235.0,
+   "y": 477.0,
+   "size": 80.201,
+   "scale_x": 0.954,
+   "spacing": -0.02,
+   "fit_iou": 0.496
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 800,
+   "vertical": true,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "優しいシャツは",
+   "x": 955,
+   "y": 344,
+   "size": 94
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Serif JP",
+   "weight": 800,
+   "vertical": true,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "低身長に",
+   "x": 1135.0,
+   "y": 223.0,
+   "size": 105.799,
+   "scale_x": 0.942,
+   "rotate": -1.05,
+   "fit_iou": 0.485
+  }
+ ]
+}

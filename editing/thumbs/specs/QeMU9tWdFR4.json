@@ -1,0 +1,156 @@
+{
+ "id": "QeMU9tWdFR4",
+ "erase": [
+  {
+   "rect": [
+    11,
+    11,
+    249,
+    249
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    875,
+    15,
+    400,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    895,
+    105,
+    380,
+    48
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    760,
+    180,
+    510,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  },
+  {
+   "rect": [
+    0,
+    425,
+    1280,
+    290
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_square_qemu.png",
+   "x": 11,
+   "y": 11,
+   "w": 249,
+   "h": 249
+  },
+  {
+   "type": "text",
+   "text": "MUJI Labo",
+   "x": 1075.0,
+   "y": 54.0,
+   "anchor": "cc",
+   "font": "Oswald",
+   "weight": 700,
+   "size": 88.8,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "m": [
+    875,
+    15,
+    400,
+    85,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.062
+  },
+  {
+   "type": "text",
+   "text": "2025 SPRING/SUMMER",
+   "x": 1087.5,
+   "y": 130.5,
+   "anchor": "cc",
+   "font": "Oswald",
+   "weight": 700,
+   "size": 36.5,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "m": [
+    895,
+    105,
+    380,
+    48,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.028
+  },
+  {
+   "type": "text",
+   "text": "春夏新作",
+   "x": 1012.5,
+   "y": 241.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 134.3,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    760,
+    180,
+    510,
+    135,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.946
+  },
+  {
+   "type": "text",
+   "text": "最高すぎた",
+   "x": 645.0,
+   "y": 554.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 288.4,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "m": [
+    0,
+    425,
+    1280,
+    290,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.885
+  }
+ ]
+}

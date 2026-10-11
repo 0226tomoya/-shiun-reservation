@@ -30,46 +30,47 @@
   {
    "type": "text",
    "text": "低身長が今買うと",
-   "x": 147.0,
-   "y": 328.0,
+   "x": 151.0,
+   "y": 332.0,
    "font": "KaiseiTokumin",
    "weight": 800,
-   "size": 176.873,
+   "size": 171.85,
    "color": "#1e1e1e",
-   "spacing": -0.034,
+   "spacing": 0.006,
    "line": 1.0,
    "box": [
     140,
     350,
     1020,
-    165
+    160
    ],
-   "tol": 40,
-   "scale_x": 0.794,
+   "tol": 20,
+   "scale_x": 0.783,
    "skew": -1,
-   "fit_iou": 0.337
+   "fit_iou": 0.325,
+   "rotate": -0.3
   },
   {
    "type": "text",
    "text": "成功するメンズ服",
-   "x": 0.0,
-   "y": 493.0,
+   "x": 11.0,
+   "y": 498.5,
    "font": "KaiseiTokumin",
    "weight": 800,
-   "size": 206.27,
+   "size": 193.728,
    "color": "#1e1e1e",
-   "scale_x": 0.768,
+   "scale_x": 0.805,
    "line": 1.0,
    "box": [
     5,
-    515,
-    1270,
-    200
+    518,
+    1272,
+    197
    ],
-   "tol": 40,
-   "spacing": -0.002,
-   "skew": 1.8,
-   "fit_iou": 0.274
+   "tol": 20,
+   "spacing": 0.002,
+   "skew": 2.1,
+   "fit_iou": 0.302
   }
  ]
 }
