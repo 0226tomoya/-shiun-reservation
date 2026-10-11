@@ -1,1 +1,156 @@
-{"id": "HZ0L2ig3Uls", "erase": [{"rect": [30, 30, 1220, 18], "colors": ["#ffffff"], "tol": 12}, {"rect": [30, 672, 1220, 16], "colors": ["#ffffff"], "tol": 12}, {"rect": [30, 30, 18, 658], "colors": ["#ffffff"], "tol": 12}, {"rect": [1230, 30, 18, 658], "colors": ["#ffffff"], "tol": 12}, {"rect": [460, 150, 360, 90], "colors": ["#ffffff"], "tol": 10}, {"rect": [90, 240, 1100, 300], "colors": ["#ffffff"], "tol": 10}, {"rect": [90, 150, 1100, 390], "by": "layers", "colors": ["#ffffff"], "tol": 10}], "grow": 4, "front": [], "layers": [{"type": "rect", "x": 38, "y": 38, "w": 1203, "h": 644, "fill": "rgba(0,0,0,0)", "border": [2, "#fffffb"]}, {"type": "text", "font": "ZenOldMincho", "weight": 900, "color": "#ffffff", "skew": -25.0, "strokes": [[1, "#ffffff"]], "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "＼低身長必見‼／", "x": 467.0, "y": 175.5, "size": 54.4, "palt": true, "scale_x": 0.835, "rotate": -4.0}, {"type": "text", "font": "ZenOldMincho", "weight": 900, "color": "#ffffff", "skew": -25.0, "strokes": [[1, "#ffffff"]], "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "スタンドカラーブルゾン", "x": 141.0, "y": 290.2, "size": 102.5, "palt": true, "scale_x": 0.934, "rotate": -4.0}, {"type": "text", "font": "ZenOldMincho", "weight": 900, "color": "#ffffff", "skew": -25.0, "strokes": [[1, "#ffffff"]], "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "カッコよく着こなす方法", "x": 122.0, "y": 435.0, "size": 70.7, "palt": true, "scale_x": 1.359, "rotate": -4.0}]}
+{
+ "id": "HZ0L2ig3Uls",
+ "erase": [
+  {
+   "rect": [
+    30,
+    30,
+    1220,
+    18
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    30,
+    672,
+    1220,
+    16
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    30,
+    30,
+    18,
+    658
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    1230,
+    30,
+    18,
+    658
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    460,
+    150,
+    360,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  },
+  {
+   "rect": [
+    90,
+    240,
+    1100,
+    300
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 10
+  }
+ ],
+ "grow": 4,
+ "front": [],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 38,
+   "y": 38,
+   "w": 1203,
+   "h": 644,
+   "fill": "rgba(0,0,0,0)",
+   "border": [
+    2,
+    "#fffffb"
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "skew": -8,
+   "strokes": [
+    [
+     1,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "＼低身長必見‼／",
+   "x": 451.0,
+   "y": 170.5,
+   "size": 59.3,
+   "palt": true,
+   "scale_x": 0.852,
+   "rotate": -4.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "skew": -8,
+   "strokes": [
+    [
+     1,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "スタンドカラーブルゾン",
+   "x": 117.0,
+   "y": 291.2,
+   "size": 101.5,
+   "palt": true,
+   "scale_x": 0.953,
+   "rotate": -4.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "skew": -8,
+   "strokes": [
+    [
+     1,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "カッコよく着こなす方法",
+   "x": 103.0,
+   "y": 449.0,
+   "size": 81.3,
+   "palt": true,
+   "scale_x": 1.18,
+   "rotate": -4.0
+  }
+ ]
+}

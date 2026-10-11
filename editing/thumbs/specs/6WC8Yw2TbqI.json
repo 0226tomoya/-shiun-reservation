@@ -13,6 +13,15 @@
   },
   {
    "rect": [
+    4,
+    603,
+    150,
+    104
+   ],
+   "full": true
+  },
+  {
+   "rect": [
     0,
     595,
     1280,
@@ -71,36 +80,23 @@
    "color": "#ffffff"
   },
   {
-   "type": "text",
-   "text": "MUJI",
-   "x": 8,
-   "y": 588,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 80,
-   "color": "#7f0119",
-   "scale_x": 0.84
-  },
-  {
-   "type": "text",
-   "text": "無印良品",
-   "x": 18,
-   "y": 676,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 27,
-   "color": "#7f0119",
-   "spacing": 0.0
+   "type": "image",
+   "src": "assets/logos/muji_wordmark_maroon_6wc8.png",
+   "x": 4,
+   "y": 603,
+   "w": 150,
+   "h": 104
   },
   {
    "type": "text",
    "text": "初",
-   "x": 158,
-   "y": 598,
-   "font": "Noto Sans JP",
+   "x": 149,
+   "y": 583,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 101,
-   "color": "#7f0119"
+   "size": 112.1,
+   "color": "#7f0119",
+   "scale_x": 0.85
   },
   {
    "type": "text",

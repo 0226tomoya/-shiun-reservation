@@ -41,7 +41,7 @@
    "colors": [
     "#fdfdfc"
    ],
-   "tol": 30
+   "tol": 18
   },
   {
    "rect": [
@@ -53,7 +53,7 @@
    "colors": [
     "#fdee05"
    ],
-   "tol": 34
+   "tol": 26
   }
  ],
  "layers": [
@@ -120,8 +120,8 @@
   {
    "type": "text",
    "text": "UNIQLO and JW ANDERSON",
-   "x": 22,
-   "y": 347,
+   "x": 23,
+   "y": 345,
    "box": [
     10,
     345,
@@ -130,7 +130,7 @@
    ],
    "font": "Roboto Condensed",
    "weight": 700,
-   "size": 80.15,
+   "size": 83.4,
    "color": "#fdfdfc",
    "strokes": [
     [
@@ -139,15 +139,11 @@
     ]
    ],
    "spacing": 0.002,
-   "scale_x": 1.012,
+   "scale_x": 0.972,
    "fit_iou": 0.678
   },
   {
    "type": "text",
-   "text": "これは買い",
-   "x": 616,
-   "y": 404,
-   "anchor": "ct",
    "box": [
     15,
     440,
@@ -156,7 +152,6 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 272.44,
    "color": "#fdee05",
    "strokes": [
     [
@@ -164,9 +159,118 @@
      "#0e0d09"
     ]
    ],
-   "spacing": -0.05,
-   "scale_x": 0.996,
-   "fit_iou": 0.712
+   "scale_x": 0.916,
+   "fit_iou": 0.712,
+   "text": "こ",
+   "x": -18.5,
+   "y": 552.0,
+   "anchor": "lc",
+   "size": 277.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    15,
+    440,
+    1250,
+    275
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdee05",
+   "strokes": [
+    [
+     4,
+     "#0e0d09"
+    ]
+   ],
+   "scale_x": 0.916,
+   "fit_iou": 0.712,
+   "text": "れ",
+   "x": 235.3,
+   "y": 556.0,
+   "anchor": "lc",
+   "size": 277.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    15,
+    440,
+    1250,
+    275
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdee05",
+   "strokes": [
+    [
+     4,
+     "#0e0d09"
+    ]
+   ],
+   "scale_x": 0.916,
+   "fit_iou": 0.712,
+   "text": "は",
+   "x": 491.1,
+   "y": 557.0,
+   "anchor": "lc",
+   "size": 283.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    15,
+    440,
+    1250,
+    275
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdee05",
+   "strokes": [
+    [
+     4,
+     "#0e0d09"
+    ]
+   ],
+   "scale_x": 0.916,
+   "fit_iou": 0.712,
+   "text": "買",
+   "x": 743.9,
+   "y": 552.0,
+   "anchor": "lc",
+   "size": 299.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    15,
+    440,
+    1250,
+    275
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdee05",
+   "strokes": [
+    [
+     4,
+     "#0e0d09"
+    ]
+   ],
+   "scale_x": 1.076,
+   "fit_iou": 0.712,
+   "text": "い",
+   "x": 1005.7,
+   "y": 565.0,
+   "anchor": "lc",
+   "size": 245.2,
+   "line": 1.0
   }
  ],
  "grow": 17

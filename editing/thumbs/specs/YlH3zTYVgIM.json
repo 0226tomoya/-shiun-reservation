@@ -113,12 +113,12 @@
   {
    "type": "text",
    "text": "ssstein / COMOLI / ISSUETHINGS / A.PRESSE / EYEVAN 7285",
-   "x": 601.0,
+   "x": 600.0,
    "y": 652.5,
    "anchor": "cc",
    "font": "Oswald",
    "weight": 400,
-   "size": 50.9,
+   "size": 45.9,
    "color": "#ffffff",
    "tgt": [
     215,
@@ -133,17 +133,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.696
+   "scale_x": 0.782
   },
   {
    "type": "text",
-   "text": "ドメ",
-   "x": 210.5,
-   "y": 446.0,
-   "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 295.5,
    "color": "#ffffff",
    "m": [
     45,
@@ -153,17 +148,39 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.707
+   "scale_x": 0.825,
+   "text": "ド",
+   "x": 3.6,
+   "y": 440.5,
+   "anchor": "lc",
+   "size": 277.8,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "爆買",
-   "x": 715.0,
-   "y": 453.0,
-   "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 301.1,
+   "color": "#ffffff",
+   "m": [
+    45,
+    310,
+    363,
+    310,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.825,
+   "text": "メ",
+   "x": 200.5,
+   "y": 445.5,
+   "anchor": "lc",
+   "size": 266.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
    "color": "#ffffff",
    "m": [
     408,
@@ -173,23 +190,56 @@
     "#ffffff",
     8
    ],
-   "scale_x": 1.015,
+   "scale_x": 0.974,
    "tgt": [
     414,
     329,
     1012,
     613
-   ]
+   ],
+   "text": "爆",
+   "x": 403.4,
+   "y": 453.4,
+   "anchor": "lc",
+   "size": 307.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "m": [
+    408,
+    310,
+    697,
+    310,
+    "#ffffff",
+    8
+   ],
+   "scale_x": 0.971,
+   "tgt": [
+    414,
+    329,
+    1012,
+    613
+   ],
+   "text": "買",
+   "x": 687,
+   "y": 451.4,
+   "anchor": "lc",
+   "size": 306.8,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "い",
-   "x": 1125.0,
+   "x": 1081.0,
    "y": 451.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 288.6,
+   "size": 293.7,
    "color": "#ffffff",
    "m": [
     1105,
@@ -199,7 +249,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.809,
+   "scale_x": 0.944,
    "tgt": [
     1030,
     368,

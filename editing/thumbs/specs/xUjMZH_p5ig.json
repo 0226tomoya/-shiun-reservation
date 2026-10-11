@@ -34,7 +34,7 @@
    "colors": [
     "#fdfdfd"
    ],
-   "tol": 30
+   "tol": 18
   }
  ],
  "layers": [
@@ -96,9 +96,6 @@
   },
   {
    "type": "text",
-   "x": 623,
-   "y": 523,
-   "anchor": "ct",
    "box": [
     10,
     545,
@@ -107,7 +104,6 @@
    ],
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 167.9,
    "color": "#fdfdfd",
    "strokes": [
     [
@@ -115,21 +111,248 @@
      "#151615"
     ]
    ],
-   "spacing": -0.19,
-   "runs": [
-    {
-     "text": "低身長"
-    },
-    {
-     "text": "と",
-     "size": 125.27
-    },
-    {
-     "text": "付き合える?"
-    }
+   "scale_x": 0.92,
+   "fit_iou": 0.718,
+   "text": "低",
+   "x": 3.8,
+   "y": 612.5,
+   "anchor": "lc",
+   "size": 167.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
    ],
-   "scale_x": 1,
-   "fit_iou": 0.718
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.92,
+   "fit_iou": 0.718,
+   "text": "身",
+   "x": 149.8,
+   "y": 612.5,
+   "anchor": "lc",
+   "size": 174.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.94,
+   "fit_iou": 0.718,
+   "text": "長",
+   "x": 285.8,
+   "y": 614.5,
+   "anchor": "lc",
+   "size": 164.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 1.06,
+   "fit_iou": 0.718,
+   "text": "と",
+   "x": 424.8,
+   "y": 646.5,
+   "anchor": "lc",
+   "size": 112.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.92,
+   "fit_iou": 0.718,
+   "text": "付",
+   "x": 519.2,
+   "y": 613.5,
+   "anchor": "lc",
+   "size": 164.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.96,
+   "fit_iou": 0.718,
+   "text": "き",
+   "x": 646.2,
+   "y": 615.5,
+   "anchor": "lc",
+   "size": 171.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 1.02,
+   "fit_iou": 0.718,
+   "text": "合",
+   "x": 784.2,
+   "y": 610.5,
+   "anchor": "lc",
+   "size": 164.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.98,
+   "fit_iou": 0.718,
+   "text": "え",
+   "x": 914.2,
+   "y": 615.5,
+   "anchor": "lc",
+   "size": 171.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 0.94,
+   "fit_iou": 0.718,
+   "text": "る",
+   "x": 1043.1,
+   "y": 615.5,
+   "anchor": "lc",
+   "size": 174.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    10,
+    545,
+    1260,
+    170
+   ],
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#fdfdfd",
+   "strokes": [
+    [
+     6,
+     "#151615"
+    ]
+   ],
+   "scale_x": 1.08,
+   "fit_iou": 0.718,
+   "text": "?",
+   "x": 1174.1,
+   "y": 616.5,
+   "anchor": "lc",
+   "size": 184.7,
+   "line": 1.0
   }
  ]
 }
