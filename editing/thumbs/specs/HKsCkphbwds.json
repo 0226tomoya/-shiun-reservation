@@ -87,11 +87,11 @@
   {
    "type": "text",
    "x": -12.1,
-   "y": -30.7,
+   "y": -12.2,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 338.64,
+   "size": 335.914,
    "spacing": 0,
    "color": "#ffffff",
    "scale_x": 0.966,
@@ -110,16 +110,17 @@
     -2,
     327,
     345
-   ]
+   ],
+   "fit_iou": 0.726
   },
   {
    "type": "text",
-   "x": 314.3,
-   "y": -30.7,
+   "x": 314.8,
+   "y": -22.2,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 338.64,
+   "size": 333.238,
    "spacing": 0,
    "color": "#ffffff",
    "scale_x": 0.966,
@@ -138,12 +139,13 @@
     -3,
     329,
     345
-   ]
+   ],
+   "fit_iou": 0.546
   },
   {
    "type": "text",
-   "x": 640.8,
-   "y": -30.7,
+   "x": 636.8,
+   "y": -20.7,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
@@ -166,16 +168,17 @@
     -3,
     335,
     348
-   ]
+   ],
+   "fit_iou": 0.356
   },
   {
    "type": "text",
    "x": 967.2,
-   "y": -30.7,
+   "y": -26.7,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 338.64,
+   "size": 337.285,
    "spacing": 0,
    "color": "#ffffff",
    "scale_x": 0.966,
@@ -194,12 +197,13 @@
     27,
     297,
     302
-   ]
+   ],
+   "fit_iou": 0.723
   },
   {
    "type": "text",
-   "x": 5.4,
-   "y": 340.8,
+   "x": 9.4,
+   "y": 346.8,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
@@ -222,12 +226,13 @@
     371,
     345,
     344
-   ]
+   ],
+   "fit_iou": 0.79
   },
   {
    "type": "text",
-   "x": 323.7,
-   "y": 340.8,
+   "x": 353.2,
+   "y": 342.8,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
@@ -250,12 +255,13 @@
     387,
     282,
     315
-   ]
+   ],
+   "fit_iou": 0.598
   },
   {
    "type": "text",
-   "x": 642.0,
-   "y": 340.8,
+   "x": 642.5,
+   "y": 332.3,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
@@ -278,16 +284,17 @@
     381,
     301,
     318
-   ]
+   ],
+   "fit_iou": 0.632
   },
   {
    "type": "text",
    "x": 960.4,
-   "y": 340.8,
+   "y": 338.3,
    "anchor": "lt",
    "font": "Noto Serif JP",
    "weight": 900,
-   "size": 337.96,
+   "size": 346.12,
    "spacing": 0,
    "color": "#ffffff",
    "scale_x": 0.973,
@@ -306,7 +313,8 @@
     422,
     310,
     260
-   ]
+   ],
+   "fit_iou": 0.639
   }
  ]
 }
