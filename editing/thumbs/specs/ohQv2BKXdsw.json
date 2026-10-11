@@ -139,51 +139,51 @@
   {
    "type": "text",
    "text": "2026 Spring & Summer",
-   "x": 1032,
-   "y": 75,
+   "x": 1045.0,
+   "y": 81.5,
    "anchor": "cc",
    "font": "Sacramento",
    "weight": 400,
-   "size": 60,
-   "rotate": 9,
+   "size": 35.893,
+   "rotate": 9.15,
    "color": "#ffffff",
    "lock": [
     "skew"
    ],
    "tol": 25,
-   "scale_x": 1,
-   "fit_iou": 0.089,
+   "scale_x": 1.186,
+   "fit_iou": 0.074,
    "spacing": 0
   },
   {
    "type": "text",
    "text": "最近買ってよかったもの",
-   "x": 640,
-   "y": 573,
+   "x": 657.0,
+   "y": 567.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 100,
+   "size": 110.64,
    "color": "#ffffff",
    "lock": [
     "skew",
     "rotate"
    ],
    "tol": 6,
-   "scale_x": 1,
-   "spacing": 0,
-   "fit_iou": 0.402
+   "scale_x": 0.794,
+   "spacing": -0.02,
+   "fit_iou": 0.477
   },
   {
    "type": "text",
    "text": "AULAREE / barbell object / KANEMASA PHIL. / seya.",
-   "x": 640,
-   "y": 666,
+   "x": 641.0,
+   "y": 664.0,
    "anchor": "cc",
    "font": "Jost",
    "weight": 400,
    "italic": true,
-   "size": 32,
+   "size": 33.06,
    "spacing": 0.12,
    "color": "#ffffff",
    "lock": [
@@ -191,8 +191,8 @@
     "rotate"
    ],
    "tol": 12,
-   "scale_x": 1,
-   "fit_iou": 0.2
+   "scale_x": 1.013,
+   "fit_iou": 0.336
   }
  ]
 }
