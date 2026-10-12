@@ -8,16 +8,27 @@
     84,
     84
    ],
-   "full": true
+   "colors": [
+    "#872aa6",
+    "#e04a30",
+    "#961bdf",
+    "#e6a11c",
+    "#d11f66",
+    "#c80da9"
+   ],
+   "tol": 40
   },
   {
    "rect": [
-    183,
-    90,
-    90,
-    70
+    176,
+    86,
+    100,
+    80
    ],
-   "full": true
+   "colors": [
+    "#e10515"
+   ],
+   "tol": 45
   },
   {
    "rect": [
@@ -117,19 +128,19 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/instagram_grad_btfm.png",
-   "x": 5,
-   "y": 8,
-   "w": 84,
-   "h": 84
+   "src": "assets/logos/instagram_btfm.png",
+   "x": 7,
+   "y": 9,
+   "w": 81,
+   "h": 81
   },
   {
    "type": "image",
-   "src": "assets/logos/arrow_red_curve_btfm.png",
-   "x": 183,
+   "src": "assets/shapes/arrow_red_curve_btfm.png",
+   "x": 178,
    "y": 90,
-   "w": 90,
-   "h": 70
+   "w": 92,
+   "h": 71
   },
   {
    "type": "text",

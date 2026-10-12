@@ -1,1 +1,304 @@
-{"id": "bq14Ml3YPgc", "grow": 13, "erase": [{"rect": [1135, 8, 95, 520], "colors": ["#ffffff", "#111111"], "tol": 20}, {"rect": [1028, 78, 92, 620], "colors": ["#ffffff", "#111111"], "tol": 20}, {"rect": [238, 10, 85, 630], "colors": ["#ffffff", "#111111"], "tol": 20}, {"rect": [18, 185, 205, 425], "colors": ["#ffffff", "#111111"], "tol": 20}], "layers": [{"type": "text", "text": "お洒落でモテる", "x": 1178.5, "y": 14.5, "anchor": "ct", "vertical": true, "font": "Noto Serif JP", "weight": 900, "size": 76.2, "spacing": -0.04, "color": "#ffffff", "strokes": [[2, "#111111"]], "shadow": "4px 4px 0 rgba(0,0,0,.8)", "lock": ["skew", "rotate"], "box": [1135, 8, 95, 520], "tol": 20, "scale_x": 0.935, "fit_iou": 0.223, "rotate": 0, "fixed": true, "tgt": [1147, 17, 1216, 521], "m": [1135, 8, 95, 520, "#ffffff", 14]}, {"type": "text", "text": "カッコいい低身長が", "x": 1076.5, "y": 77.5, "anchor": "ct", "vertical": true, "font": "Kaisei Tokumin", "weight": 800, "size": 71.0, "spacing": -0.04, "color": "#ffffff", "strokes": [[2, "#111111"]], "shadow": "4px 4px 0 rgba(0,0,0,.8)", "lock": ["skew", "rotate"], "box": [1028, 78, 92, 620], "tol": 20, "scale_x": 1.003, "fit_iou": 0.197, "rotate": 0, "fixed": true, "tgt": [1038, 87, 1108, 690], "m": [1028, 78, 92, 620, "#ffffff", 14]}, {"type": "text", "text": "をかけてやっている", "x": 280.0, "y": 8.0, "anchor": "ct", "vertical": true, "font": "Kaisei Tokumin", "weight": 800, "size": 72.1, "spacing": -0.04, "color": "#ffffff", "strokes": [[2, "#111111"]], "shadow": "4px 4px 0 rgba(0,0,0,.8)", "lock": ["skew", "rotate"], "box": [238, 10, 85, 630], "tol": 20, "scale_x": 0.947, "fit_iou": 0.185, "rotate": 0, "fixed": true, "tgt": [248, 17, 311, 632], "m": [238, 10, 85, 630, "#ffffff", 14]}, {"type": "text", "text": "10", "x": 108.0, "y": 224.0, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 278.1, "skew": 0, "color": "#ffffff", "strokes": [[2, "#111111"]], "shadow": "4px 4px 0 rgba(0,0,0,.8)", "lock": ["rotate"], "box": [18, 185, 205, 165], "tol": 20, "scale_x": 0.609, "spacing": 0, "fit_iou": 0.147, "fixed": true, "tgt": [28, 193, 209, 345], "m": [18, 185, 205, 160, "#ffffff", 14], "italic": true}, {"type": "text", "text": "のこと", "x": 121.0, "y": 341.0, "anchor": "ct", "vertical": true, "font": "Noto Serif JP", "weight": 900, "size": 91.4, "spacing": -0.04, "color": "#ffffff", "strokes": [[2, "#111111"]], "shadow": "4px 4px 0 rgba(0,0,0,.8)", "lock": ["skew", "rotate"], "box": [60, 360, 110, 250], "tol": 20, "scale_x": 1.052, "fit_iou": 0.228, "rotate": 0, "fixed": true, "tgt": [85, 355, 166, 600], "m": [60, 345, 110, 265, "#ffffff", 14]}]}
+{
+ "id": "bq14Ml3YPgc",
+ "grow": 13,
+ "erase": [
+  {
+   "rect": [
+    1135,
+    8,
+    95,
+    520
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    1028,
+    78,
+    92,
+    620
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    238,
+    10,
+    85,
+    630
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    18,
+    185,
+    205,
+    425
+   ],
+   "colors": [
+    "#ffffff",
+    "#111111"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "お洒落でモテる",
+   "x": 1180.5,
+   "y": 30.5,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Noto Serif JP",
+   "weight": 900,
+   "size": 73.2,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1135,
+    8,
+    95,
+    520
+   ],
+   "tol": 20,
+   "scale_x": 0.791,
+   "fit_iou": 0.223,
+   "rotate": 0,
+   "fixed": true,
+   "tgt": [
+    1147,
+    17,
+    1216,
+    521
+   ],
+   "m": [
+    1135,
+    8,
+    95,
+    520,
+    "#ffffff",
+    14
+   ]
+  },
+  {
+   "type": "text",
+   "text": "カッコいい低身長が",
+   "x": 1073.5,
+   "y": 84.5,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "size": 62.6,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    1028,
+    78,
+    92,
+    620
+   ],
+   "tol": 20,
+   "scale_x": 0.943,
+   "fit_iou": 0.197,
+   "rotate": 0,
+   "fixed": true,
+   "tgt": [
+    1038,
+    87,
+    1108,
+    690
+   ],
+   "m": [
+    1028,
+    78,
+    92,
+    620,
+    "#ffffff",
+    14
+   ]
+  },
+  {
+   "type": "text",
+   "text": "をかけてやっている",
+   "x": 281.0,
+   "y": 26.0,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Kaisei Tokumin",
+   "weight": 800,
+   "size": 69.2,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    238,
+    10,
+    85,
+    630
+   ],
+   "tol": 20,
+   "scale_x": 0.966,
+   "fit_iou": 0.185,
+   "rotate": 0,
+   "fixed": true,
+   "tgt": [
+    248,
+    17,
+    311,
+    632
+   ],
+   "m": [
+    238,
+    10,
+    85,
+    630,
+    "#ffffff",
+    14
+   ]
+  },
+  {
+   "type": "text",
+   "text": "10",
+   "x": 107.0,
+   "y": 227.0,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 261.4,
+   "skew": 0,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
+   "lock": [
+    "rotate"
+   ],
+   "box": [
+    18,
+    185,
+    205,
+    165
+   ],
+   "tol": 20,
+   "scale_x": 0.697,
+   "spacing": 0,
+   "fit_iou": 0.147,
+   "fixed": true,
+   "tgt": [
+    28,
+    193,
+    209,
+    345
+   ],
+   "m": [
+    18,
+    185,
+    205,
+    160,
+    "#ffffff",
+    14
+   ],
+   "italic": true
+  },
+  {
+   "type": "text",
+   "text": "のこと",
+   "x": 115.0,
+   "y": 352.0,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "size": 87.6,
+   "spacing": -0.04,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     2,
+     "#111111"
+    ]
+   ],
+   "shadow": "4px 4px 0 rgba(0,0,0,.8)",
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    60,
+    360,
+    110,
+    250
+   ],
+   "tol": 20,
+   "scale_x": 0.891,
+   "fit_iou": 0.228,
+   "rotate": 0,
+   "fixed": true,
+   "tgt": [
+    85,
+    355,
+    166,
+    600
+   ],
+   "m": [
+    60,
+    345,
+    110,
+    265,
+    "#ffffff",
+    14
+   ]
+  }
+ ]
+}

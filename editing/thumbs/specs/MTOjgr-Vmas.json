@@ -3,12 +3,15 @@
  "erase": [
   {
    "rect": [
-    449,
-    259,
-    334,
-    160
+    440,
+    245,
+    355,
+    175
    ],
-   "full": true
+   "colors": [
+    "#e70012"
+   ],
+   "tol": 45
   },
   {
    "rect": [
@@ -59,11 +62,11 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/arrow_red_curve_mtoj.png",
-   "x": 449,
-   "y": 259,
-   "w": 334,
-   "h": 160
+   "src": "assets/shapes/arrow_red_curve_mtoj.png",
+   "x": 444,
+   "y": 249,
+   "w": 346,
+   "h": 165
   },
   {
    "type": "text",

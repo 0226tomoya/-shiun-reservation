@@ -115,12 +115,8 @@
   },
   {
    "type": "text",
-   "text": "無印のシャツアウター",
-   "x": 216.0,
-   "y": 235.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 85.7,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
@@ -132,7 +128,220 @@
     "#ffffff",
     14
    ],
-   "scale_x": 1.079
+   "scale_x": 0.993,
+   "text": "無",
+   "x": 227,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "text": "印",
+   "x": 313.5,
+   "y": 284.0,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "text": "の",
+   "x": 399.9,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.013,
+   "text": "シ",
+   "x": 488.1,
+   "y": 284.0,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "text": "ャ",
+   "x": 579.0,
+   "y": 284.0,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "text": "ツ",
+   "x": 660.8,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "text": "ア",
+   "x": 748.8,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 87.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.014,
+   "text": "ウ",
+   "x": 832.9,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.014,
+   "text": "タ",
+   "x": 920.7,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "m": [
+    225,
+    245,
+    880,
+    90,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.973,
+   "text": "ー",
+   "x": 1009.2,
+   "y": 283.0,
+   "anchor": "lc",
+   "size": 81.7,
+   "line": 1.0
   },
   {
    "type": "text",
@@ -261,9 +470,9 @@
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "text": "イ",
-   "x": 1029.5,
-   "y": 308.8,
-   "size": 188.2,
+   "x": 1027.5,
+   "y": 311.8,
+   "size": 184.4,
    "m": [
     1066,
     338,
@@ -272,7 +481,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.956
+   "scale_x": 0.994
   }
  ]
 }

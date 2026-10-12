@@ -3,12 +3,19 @@
  "erase": [
   {
    "rect": [
-    391,
-    91,
-    375,
-    262
+    360,
+    80,
+    440,
+    520
    ],
-   "full": true
+   "colors": [
+    "#c8242c",
+    "#b0242b",
+    "#8a1a22",
+    "#d03a40",
+    "#7a2428"
+   ],
+   "tol": 36
   },
   {
    "rect": [
@@ -50,11 +57,11 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/arrow_red_up_pt0q.png",
-   "x": 391,
-   "y": 91,
+   "src": "assets/shapes/arrow_red_up_pt0q.png",
+   "x": 397,
+   "y": 82,
    "w": 375,
-   "h": 262
+   "h": 488
   },
   {
    "type": "text",
