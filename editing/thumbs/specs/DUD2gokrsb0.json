@@ -70,11 +70,11 @@
    "anchor": "cc",
    "line": 1.0,
    "text": "ユニクロUまじでいい!!",
-   "x": 607.0,
-   "y": 71.5,
-   "size": 38,
+   "x": 601.0,
+   "y": 61.5,
+   "size": 42.7,
    "rotate": 12,
-   "scale_x": 1.0,
+   "scale_x": 1.015,
    "spacing": 0.02
   },
   {
@@ -114,14 +114,14 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.555,
+   "scale_x": 0.623,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "う",
-   "x": 208.8,
-   "y": 607.8,
+   "x": 190.8,
+   "y": 609.8,
    "anchor": "lc",
-   "size": 169.7
+   "size": 183.6
   },
   {
    "type": "text",
@@ -137,14 +137,14 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.73,
+   "scale_x": 0.851,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "べ",
-   "x": 317.7,
-   "y": 613.8,
+   "x": 306.7,
+   "y": 619.8,
    "anchor": "lc",
-   "size": 146.5
+   "size": 161.2
   },
   {
    "type": "text",
@@ -160,14 +160,14 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.73,
+   "scale_x": 0.82,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "き",
-   "x": 447.6,
-   "y": 619.8,
+   "x": 440.6,
+   "y": 616.8,
    "anchor": "lc",
-   "size": 159.5
+   "size": 169.1
   },
   {
    "type": "text",
@@ -183,14 +183,14 @@
     242
    ],
    "tol": 14,
-   "scale_x": 0.891,
+   "scale_x": 0.906,
    "rotate": 0.15,
    "fit_iou": 0.771,
    "text": "名",
-   "x": 572,
+   "x": 571,
    "y": 576.0,
    "anchor": "lc",
-   "size": 235.7
+   "size": 235.6
   },
   {
    "type": "text",
@@ -206,24 +206,24 @@
     242
    ],
    "tol": 14,
-   "scale_x": 0.841,
+   "scale_x": 0.824,
    "rotate": 0.15,
    "fit_iou": 0.771,
    "text": "作",
    "x": 770.7,
-   "y": 582.0,
+   "y": 581.0,
    "anchor": "lc",
-   "size": 226.2
+   "size": 230.7
   },
   {
    "type": "text",
    "text": "3",
-   "x": 964.5,
+   "x": 959.5,
    "y": 718.0,
    "anchor": "lb",
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 344.5,
+   "size": 344.4,
    "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.5)",
@@ -234,7 +234,7 @@
     262
    ],
    "tol": 14,
-   "scale_x": 0.876,
+   "scale_x": 0.93,
    "skew": -3,
    "rotate": 0.15,
    "fit_iou": 0.743
@@ -242,11 +242,11 @@
   {
    "type": "text",
    "text": "選",
-   "x": 1151.0,
+   "x": 1150.0,
    "y": 701.0,
    "anchor": "lb",
    "font": "NotoSansJP",
-   "weight": 900,
+   "weight": 800,
    "size": 142.8,
    "line": 1.0,
    "color": "#ffffff",
@@ -258,7 +258,7 @@
     112
    ],
    "tol": 14,
-   "scale_x": 0.899,
+   "scale_x": 0.917,
    "rotate": 0.35,
    "skew": 0.6,
    "fit_iou": 0.674

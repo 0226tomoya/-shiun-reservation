@@ -64,9 +64,9 @@
     "#f8dc14",
     45
    ],
-   "scale_x": 0.948,
+   "scale_x": 1.004,
    "text": "本",
-   "x": 787.5,
+   "x": 784.5,
    "y": 66.0,
    "anchor": "lc",
    "size": 111.1,
@@ -92,12 +92,12 @@
     "#f8dc14",
     45
    ],
-   "scale_x": 0.931,
+   "scale_x": 0.805,
    "text": "日",
-   "x": 892.1,
+   "x": 888.1,
    "y": 61.0,
    "anchor": "lc",
-   "size": 104.1,
+   "size": 126.0,
    "line": 1.0
   },
   {
@@ -122,38 +122,10 @@
    ],
    "scale_x": 0.878,
    "text": "発",
-   "x": 980.7,
-   "y": 69.0,
-   "anchor": "lc",
-   "size": 122.6,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "MPLUS1p",
-   "weight": 900,
-   "color": "#f8dc14",
-   "palt": true,
-   "strokes": [
-    [
-     7,
-     "#1a1000"
-    ]
-   ],
-   "m": [
-    775,
-    5,
-    500,
-    125,
-    "#f8dc14",
-    45
-   ],
-   "scale_x": 0.825,
-   "text": "売",
-   "x": 1094.3,
+   "x": 978.7,
    "y": 67.0,
    "anchor": "lc",
-   "size": 122.6,
+   "size": 130.1,
    "line": 1.0
   },
   {
@@ -176,12 +148,40 @@
     "#f8dc14",
     45
    ],
-   "scale_x": 0.808,
+   "scale_x": 0.858,
+   "text": "売",
+   "x": 1095.3,
+   "y": 67.0,
+   "anchor": "lc",
+   "size": 125.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#f8dc14",
+   "palt": true,
+   "strokes": [
+    [
+     7,
+     "#1a1000"
+    ]
+   ],
+   "m": [
+    775,
+    5,
+    500,
+    125,
+    "#f8dc14",
+    45
+   ],
+   "scale_x": 0.714,
    "text": "!",
    "x": 1194.8,
-   "y": 59.0,
+   "y": 74.0,
    "anchor": "lc",
-   "size": 104.1,
+   "size": 126.0,
    "line": 1.0
   },
   {
@@ -204,22 +204,18 @@
     "#f8dc14",
     45
    ],
-   "scale_x": 0.948,
+   "scale_x": 0.891,
    "text": "!",
-   "x": 1226.2,
-   "y": 71.0,
+   "x": 1222.2,
+   "y": 67.0,
    "anchor": "lc",
-   "size": 104.1,
+   "size": 126.0,
    "line": 1.0
   },
   {
    "type": "text",
-   "text": "GU×UNDERCOVER",
-   "x": 53.5,
-   "y": 348.5,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 113.8,
    "color": "#000000",
    "palt": true,
    "strokes": [
@@ -236,7 +232,362 @@
     "#000000",
     30
    ],
-   "scale_x": 0.823
+   "scale_x": 0.96,
+   "text": "G",
+   "x": 11.5,
+   "y": 409.5,
+   "anchor": "lc",
+   "size": 135.2,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.96,
+   "text": "U",
+   "x": 119.7,
+   "y": 408.5,
+   "anchor": "lc",
+   "size": 116.0,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.727,
+   "text": "×",
+   "x": 198.7,
+   "y": 398.5,
+   "anchor": "lc",
+   "size": 130.2,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.822,
+   "text": "U",
+   "x": 253.9,
+   "y": 414.5,
+   "anchor": "lc",
+   "size": 118.4,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.839,
+   "text": "N",
+   "x": 322.9,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 116.1,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.759,
+   "text": "D",
+   "x": 393.7,
+   "y": 408.5,
+   "anchor": "lc",
+   "size": 123.0,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.856,
+   "text": "E",
+   "x": 459.3,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 116.1,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.873,
+   "text": "R",
+   "x": 518.0,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 116.1,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.839,
+   "text": "C",
+   "x": 583.3,
+   "y": 409.5,
+   "anchor": "lc",
+   "size": 116.1,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.839,
+   "text": "O",
+   "x": 647.0,
+   "y": 410.5,
+   "anchor": "lc",
+   "size": 116.1,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.853,
+   "text": "V",
+   "x": 719.7,
+   "y": 410.5,
+   "anchor": "lc",
+   "size": 113.8,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.96,
+   "text": "E",
+   "x": 781.6,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 109.3,
+   "line": 1.0,
+   "grp": "L6"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#000000",
+   "palt": true,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    5,
+    362,
+    910,
+    95,
+    "#000000",
+    30
+   ],
+   "scale_x": 0.907,
+   "text": "R",
+   "x": 845.3,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 109.3,
+   "line": 1.0,
+   "grp": "L6"
   },
   {
    "type": "text",
@@ -314,12 +665,12 @@
     "#d00303",
     60
    ],
-   "scale_x": 0.754,
+   "scale_x": 0.752,
    "text": "ト",
-   "x": 396.6,
-   "y": 582.0,
+   "x": 394.6,
+   "y": 585.0,
    "anchor": "lc",
-   "size": 221.1,
+   "size": 238.3,
    "line": 1.0
   },
   {
@@ -370,22 +721,22 @@
     "#d00303",
     60
    ],
-   "scale_x": 0.771,
+   "scale_x": 0.833,
    "text": "イ",
-   "x": 759.7,
-   "y": 585.0,
+   "x": 744.7,
+   "y": 588.0,
    "anchor": "lc",
-   "size": 221.1,
+   "size": 234.4,
    "line": 1.0
   },
   {
    "type": "text",
    "text": "3",
-   "x": 945.0,
-   "y": 329.5,
+   "x": 940.0,
+   "y": 318.5,
    "font": "ZenKakuGothicNew",
    "weight": 900,
-   "size": 356.6,
+   "size": 370.9,
    "fill": "linear-gradient(180deg,#eb0303,#a80202)",
    "strokes": [
     [
@@ -410,11 +761,11 @@
   {
    "type": "text",
    "text": "選",
-   "x": 1160.0,
-   "y": 518.5,
+   "x": 1123.0,
+   "y": 504.5,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 182.4,
+   "size": 201.1,
    "fill": "linear-gradient(180deg,#dc0303,#8c0202)",
    "strokes": [
     [
@@ -430,7 +781,7 @@
     "#c00303",
     50
    ],
-   "scale_x": 0.607
+   "scale_x": 0.708
   }
  ]
 }

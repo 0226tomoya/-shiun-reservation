@@ -123,9 +123,9 @@
    "color": "#ffffff",
    "palt": false,
    "anchor": "cc",
-   "x": 526.0,
-   "y": 66.0,
-   "size": 154.1,
+   "x": 525.0,
+   "y": 63.0,
+   "size": 163.3,
    "_m": [
     489,
     2,
@@ -135,7 +135,7 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.054
+   "scale_x": 0.97
   },
   {
    "type": "text",
@@ -147,7 +147,7 @@
    "anchor": "cc",
    "x": 591.5,
    "y": 60.0,
-   "size": 151.3,
+   "size": 166.4,
    "_m": [
     576,
     2,
@@ -157,7 +157,7 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.019
+   "scale_x": 0.958
   },
   {
    "type": "text",
@@ -168,8 +168,8 @@
    "palt": true,
    "anchor": "cc",
    "x": 65.0,
-   "y": 582.5,
-   "size": 237.6,
+   "y": 580.5,
+   "size": 242.4,
    "_m": [
     9,
     488,
@@ -206,14 +206,14 @@
   {
    "type": "text",
    "text": "万",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 371.5,
-   "y": 586.0,
-   "size": 219.5,
+   "x": 363.5,
+   "y": 589.0,
+   "size": 232.7,
    "_m": [
     257,
     488,
@@ -223,19 +223,19 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.933
+   "scale_x": 1.008
   },
   {
    "type": "text",
    "text": "円",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 567.0,
-   "y": 581.5,
-   "size": 209.2,
+   "x": 569.0,
+   "y": 589.5,
+   "size": 221.8,
    "_m": [
     476,
     488,
@@ -245,7 +245,7 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.959
+   "scale_x": 0.997
   },
   {
    "type": "text",
@@ -256,8 +256,8 @@
    "palt": true,
    "anchor": "cc",
    "x": 747.5,
-   "y": 611.5,
-   "size": 180.3,
+   "y": 612.5,
+   "size": 173.1,
    "_m": [
     660,
     488,
@@ -267,7 +267,7 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.929
+   "scale_x": 1.003
   },
   {
    "type": "text",
@@ -294,14 +294,14 @@
   {
    "type": "text",
    "text": "入",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 1161.0,
-   "y": 596.5,
-   "size": 205.1,
+   "x": 1160.0,
+   "y": 589.5,
+   "size": 221.5,
    "_m": [
     1051,
     488,
@@ -311,7 +311,7 @@
     15
    ],
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.106
+   "scale_x": 1.018
   }
  ]
 }

@@ -169,12 +169,8 @@
   },
   {
    "type": "text",
-   "text": "11",
-   "x": 13.5,
-   "y": 12.0,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 95.0,
    "color": "#151515",
    "strokes": [
     [
@@ -190,16 +186,51 @@
     "#151515",
     40
    ],
-   "scale_x": 1.071
+   "scale_x": 0.906,
+   "text": "1",
+   "x": 17.5,
+   "y": 57.5,
+   "anchor": "lc",
+   "size": 85.7,
+   "line": 1.0,
+   "grp": "L3"
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#151515",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    20,
+    30,
+    95,
+    75,
+    "#151515",
+    40
+   ],
+   "scale_x": 0.906,
+   "text": "1",
+   "x": 60.4,
+   "y": 57.5,
+   "anchor": "lc",
+   "size": 83.9,
+   "line": 1.0,
+   "grp": "L3"
   },
   {
    "type": "text",
    "text": "3",
-   "x": 132.0,
-   "y": 82.8,
+   "x": 111.0,
+   "y": 89.8,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 119.5,
+   "size": 99.0,
    "color": "#151515",
    "strokes": [
     [
@@ -215,16 +246,12 @@
     "#151515",
     40
    ],
-   "scale_x": 0.935
+   "scale_x": 0.929
   },
   {
    "type": "text",
-   "text": "発売",
-   "x": 27.5,
-   "y": 197.7,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 79.7,
    "color": "#151515",
    "strokes": [
     [
@@ -240,7 +267,42 @@
     "#151515",
     40
    ],
-   "scale_x": 1.003
+   "scale_x": 0.982,
+   "text": "発",
+   "x": 25.5,
+   "y": 250.2,
+   "anchor": "lc",
+   "size": 73.3,
+   "line": 1.0,
+   "grp": "L5"
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#151515",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "m": [
+    25,
+    210,
+    160,
+    75,
+    "#151515",
+    40
+   ],
+   "scale_x": 0.983,
+   "text": "売",
+   "x": 101.4,
+   "y": 248.2,
+   "anchor": "lc",
+   "size": 76.5,
+   "line": 1.0,
+   "grp": "L5"
   },
   {
    "type": "text",
@@ -256,9 +318,9 @@
    "rotate": -5,
    "palt": true,
    "text": "人気が高いアイテムはどれ??",
-   "x": 13.0,
-   "y": 365.5,
-   "size": 53.4,
+   "x": 41.0,
+   "y": 355.5,
+   "size": 64.6,
    "tgt": [
     20,
     300,
@@ -272,7 +334,7 @@
     1,
     "#000"
    ],
-   "scale_x": 1.336
+   "scale_x": 1.414
   },
   {
    "type": "text",
@@ -288,9 +350,9 @@
    "rotate": -5,
    "palt": true,
    "text": "GU美女社員のオススメは!?",
-   "x": 424.0,
-   "y": 418.0,
-   "size": 55.0,
+   "x": 364.0,
+   "y": 416.0,
+   "size": 66.6,
    "tgt": [
     430,
     360,
@@ -304,7 +366,7 @@
     1,
     "#000"
    ],
-   "scale_x": 1.218
+   "scale_x": 1.167
   },
   {
    "type": "text",

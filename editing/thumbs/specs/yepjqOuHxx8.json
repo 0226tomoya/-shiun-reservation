@@ -120,12 +120,8 @@
   },
   {
    "type": "text",
-   "text": ":C",
-   "x": 1041.0,
-   "y": -14.5,
    "font": "Montserrat",
    "weight": 700,
-   "size": 220.958,
    "color": "#0a0a0a",
    "line": 1.0,
    "box": [
@@ -135,10 +131,38 @@
     160
    ],
    "tol": 35,
-   "scale_x": 1.051,
-   "spacing": 0.004,
+   "scale_x": 1.044,
    "rotate": 0.15,
-   "fit_iou": 0.64
+   "fit_iou": 0.64,
+   "text": ":",
+   "x": 1065.6,
+   "y": 82.1,
+   "anchor": "cc",
+   "size": 179.0,
+   "grp": "L4"
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 700,
+   "color": "#0a0a0a",
+   "line": 1.0,
+   "box": [
+    1045,
+    25,
+    224,
+    160
+   ],
+   "tol": 35,
+   "scale_x": 0.967,
+   "rotate": 0.15,
+   "fit_iou": 0.64,
+   "text": "C",
+   "x": 1188.0,
+   "y": 96.4,
+   "anchor": "cc",
+   "size": 229.8,
+   "grp": "L4"
   },
   {
    "type": "rect",

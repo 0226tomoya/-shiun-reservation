@@ -55,6 +55,24 @@
  ],
  "layers": [
   {
+   "type": "rect",
+   "x": 551,
+   "y": 224,
+   "w": 160,
+   "h": 86,
+   "fill": "radial-gradient(farthest-side, rgba(255,255,255,.95) 72%, rgba(255,255,255,0))",
+   "radius": "30%"
+  },
+  {
+   "type": "rect",
+   "x": 553,
+   "y": 420,
+   "w": 160,
+   "h": 86,
+   "fill": "radial-gradient(farthest-side, rgba(255,255,255,.95) 72%, rgba(255,255,255,0))",
+   "radius": "30%"
+  },
+  {
    "type": "image",
    "src": "assets/logos/uniqlo_black_c_gnn.png",
    "x": 571,

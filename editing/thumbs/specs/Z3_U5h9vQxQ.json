@@ -97,21 +97,383 @@
   },
   {
    "type": "text",
-   "text": "shiun 26 FALL LOOK BOOK",
-   "x": 307.5,
-   "y": 21.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 71.1,
    "color": "#111111",
-   "scale_x": 0.773,
-   "spacing": -0.02,
+   "scale_x": 0.788,
    "tol": 50,
    "lock": [
     "skew",
     "rotate"
    ],
-   "fit_iou": 0.578
+   "fit_iou": 0.578,
+   "text": "s",
+   "x": 305.0,
+   "y": 59.8,
+   "anchor": "lc",
+   "size": 75.4,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "h",
+   "x": 327.4,
+   "y": 59.7,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "i",
+   "x": 355.6,
+   "y": 59.8,
+   "anchor": "lc",
+   "size": 72.4,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.772,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "u",
+   "x": 370.4,
+   "y": 60.8,
+   "anchor": "lc",
+   "size": 69.5,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.727,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "n",
+   "x": 399.8,
+   "y": 60.8,
+   "anchor": "lc",
+   "size": 73.8,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.773,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "2",
+   "x": 437.6,
+   "y": 59.4,
+   "anchor": "lc",
+   "size": 76.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.773,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "6",
+   "x": 468.2,
+   "y": 57.0,
+   "anchor": "lc",
+   "size": 78.4,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.757,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "F",
+   "x": 509.4,
+   "y": 59.9,
+   "anchor": "lc",
+   "size": 72.4,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.772,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "A",
+   "x": 535.1,
+   "y": 61.9,
+   "anchor": "lc",
+   "size": 69.5,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "L",
+   "x": 574.2,
+   "y": 60.9,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "L",
+   "x": 605.6,
+   "y": 59.9,
+   "anchor": "lc",
+   "size": 72.4,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "L",
+   "x": 646.9,
+   "y": 61.0,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "O",
+   "x": 679.8,
+   "y": 60.0,
+   "anchor": "lc",
+   "size": 73.8,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "O",
+   "x": 721.8,
+   "y": 60.0,
+   "anchor": "lc",
+   "size": 73.8,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.728,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "K",
+   "x": 762.8,
+   "y": 61.0,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.742,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "B",
+   "x": 811.5,
+   "y": 60.5,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "O",
+   "x": 847.5,
+   "y": 60.0,
+   "anchor": "lc",
+   "size": 73.8,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.712,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "O",
+   "x": 889.6,
+   "y": 60.0,
+   "anchor": "lc",
+   "size": 73.8,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 700,
+   "color": "#111111",
+   "scale_x": 0.728,
+   "tol": 50,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "fit_iou": 0.578,
+   "text": "K",
+   "x": 930.6,
+   "y": 61.1,
+   "anchor": "lc",
+   "size": 73.9,
+   "line": 1.0,
+   "grp": "L2"
   }
  ]
 }
