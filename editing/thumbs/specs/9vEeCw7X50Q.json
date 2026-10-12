@@ -491,7 +491,7 @@
   },
   {
    "type": "text",
-   "text": "COMOLI  /",
+   "text": "COMOLI",
    "x": 351,
    "y": 629,
    "box": [
@@ -507,6 +507,31 @@
    "spacing": 0.19,
    "scale_x": 0.974,
    "fit_iou": 0.395
+  },
+  {
+   "type": "text",
+   "text": "/",
+   "x": 656.0,
+   "y": 629.0,
+   "box": [
+    330,
+    625,
+    330,
+    60
+   ],
+   "font": "Josefin Sans",
+   "weight": 300,
+   "size": 58.2,
+   "color": "#faf9f9",
+   "spacing": 0,
+   "scale_x": 0.908,
+   "fit_iou": 0.395,
+   "tgt": [
+    657.0,
+    632.0,
+    674.0,
+    676.0
+   ]
   },
   {
    "type": "text",

@@ -1,333 +1,333 @@
 {
- "id": "ejBgt08OReI",
- "erase": [
-  {
-   "rect": [
-    618,
-    172,
-    604,
-    114
-   ],
-   "full": true
-  },
-  {
-   "rect": [
-    728,
-    292,
-    175,
-    174
-   ],
-   "full": true
-  },
-  {
-   "rect": [
-    944,
-    292,
-    173,
-    174
-   ],
-   "full": true
-  },
-  {
-   "rect": [
-    0,
-    10,
-    345,
-    240
-   ],
-   "colors": [
-    "#e00012",
-    "#ffffff"
-   ],
-   "tol": 25
-  },
-  {
-   "rect": [
-    425,
-    15,
-    845,
-    120
-   ],
-   "colors": [
-    "#111111",
-    "#ffffff"
-   ],
-   "tol": 18
-  },
-  {
-   "rect": [
-    0,
-    465,
-    1280,
-    255
-   ],
-   "colors": [
-    "#ffffff",
-    "#111111"
-   ],
-   "tol": 16
-  }
- ],
- "grow": 11,
- "layers": [
-  {
-   "type": "image",
-   "src": "assets/logos/jwanderson_black_ejbg.png",
-   "x": 618,
-   "y": 172,
-   "w": 604,
-   "h": 114
-  },
-  {
-   "type": "image",
-   "src": "assets/logos/uniqlo_kata_red_ejbg.png",
-   "x": 728,
-   "y": 292,
-   "w": 175,
-   "h": 174
-  },
-  {
-   "type": "image",
-   "src": "assets/logos/uniqlo_red_ejbg.png",
-   "x": 944,
-   "y": 292,
-   "w": 173,
-   "h": 174
-  },
-  {
-   "type": "line",
-   "x1": 30,
-   "y1": 240,
-   "x2": 320,
-   "y2": 95,
-   "width": 9,
-   "color": "#e00012"
-  },
-  {
-   "type": "text",
-   "text": "本日発売!!",
-   "x": 153,
-   "y": 110,
-   "anchor": "cc",
-   "rotate": -35,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 62.3,
-   "color": "#e00012",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ]
-   ],
-   "scale_x": 1.098
-  },
-  {
-   "type": "text",
-   "runs": [
-    {
-     "text": "マストバイ"
-    },
-    {
-     "text": "は",
-     "size_em": 0.75
-    },
-    {
-     "text": "コレだぁぁぁぁっ!!"
-    }
-   ],
-   "x": 839,
-   "y": 60,
-   "anchor": "cc",
-   "rotate": -5,
-   "skew": -8,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 60.2,
-   "color": "#111111",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ]
-   ],
-   "scale_x": 0.917
-  },
-  {
-   "type": "text",
-   "x": 6.5,
-   "y": 439.0,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 255.5,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "絶",
-   "tgt": [
-    17,
-    479,
-    259,
-    700
-   ],
-   "scale_x": 1.03
-  },
-  {
-   "type": "text",
-   "x": 277.0,
-   "y": 438.5,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 250.6,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "対",
-   "tgt": [
-    278,
-    479,
-    520,
-    700
-   ],
-   "scale_x": 1.018
-  },
-  {
-   "type": "text",
-   "x": 525.5,
-   "y": 443.0,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 251.3,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "買",
-   "tgt": [
-    544,
-    479,
-    771,
-    700
-   ],
-   "scale_x": 1.016
-  },
-  {
-   "type": "text",
-   "x": 788.0,
-   "y": 424.5,
-   "font": "NotoSansJP",
-   "weight": 900,
-   "size": 249.0,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "い",
-   "tgt": [
-    810,
-    491,
-    1120,
-    689
-   ],
-   "scale_x": 1.027
-  },
-  {
-   "type": "text",
-   "x": 1047.0,
-   "y": 449.0,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 236.5,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "!",
-   "tgt": [
-    1150,
-    479,
-    1204,
-    689
-   ],
-   "scale_x": 0.98
-  },
-  {
-   "type": "text",
-   "x": 1129.0,
-   "y": 417.0,
-   "font": "MPLUS1p",
-   "weight": 900,
-   "size": 286.9,
-   "color": "#ffffff",
-   "palt": true,
-   "strokes": [
-    [
-     4,
-     "#ffffff"
-    ],
-    [
-     3,
-     "#111111"
-    ]
-   ],
-   "shadow": "0 0 6px rgba(0,0,0,.4)",
-   "text": "!",
-   "tgt": [
-    1225,
-    479,
-    1278,
-    689
-   ],
-   "scale_x": 0.693
-  }
- ]
+"id": "ejBgt08OReI",
+"erase": [
+{
+"rect": [
+618,
+172,
+604,
+114
+],
+"full": true
+},
+{
+"rect": [
+728,
+292,
+175,
+174
+],
+"full": true
+},
+{
+"rect": [
+944,
+292,
+173,
+174
+],
+"full": true
+},
+{
+"rect": [
+0,
+10,
+345,
+240
+],
+"colors": [
+"#e00012",
+"#ffffff"
+],
+"tol": 25
+},
+{
+"rect": [
+425,
+15,
+845,
+120
+],
+"colors": [
+"#111111",
+"#ffffff"
+],
+"tol": 18
+},
+{
+"rect": [
+0,
+465,
+1280,
+255
+],
+"colors": [
+"#ffffff",
+"#111111"
+],
+"tol": 16
+}
+],
+"grow": 11,
+"layers": [
+{
+"type": "image",
+"src": "assets/logos/jwanderson_black_ejbg.png",
+"x": 618,
+"y": 172,
+"w": 604,
+"h": 114
+},
+{
+"type": "image",
+"src": "assets/logos/uniqlo_kata_red_ejbg.png",
+"x": 728,
+"y": 292,
+"w": 175,
+"h": 174
+},
+{
+"type": "image",
+"src": "assets/logos/uniqlo_red_ejbg.png",
+"x": 944,
+"y": 292,
+"w": 173,
+"h": 174
+},
+{
+"type": "line",
+"x1": 30,
+"y1": 240,
+"x2": 320,
+"y2": 95,
+"width": 9,
+"color": "#e00012"
+},
+{
+"type": "text",
+"text": "本日発売!!",
+"x": 153,
+"y": 110,
+"anchor": "cc",
+"rotate": -35,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 62.3,
+"color": "#e00012",
+"palt": true,
+"strokes": [
+[
+4,
+"#ffffff"
+]
+],
+"scale_x": 1.098
+},
+{
+"type": "text",
+"runs": [
+{
+"text": "マストバイ"
+},
+{
+"text": "は",
+"size_em": 0.75
+},
+{
+"text": "コレだぁぁぁぁっ!!"
+}
+],
+"x": 839,
+"y": 60,
+"anchor": "cc",
+"rotate": -5,
+"skew": -8,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 60.2,
+"color": "#111111",
+"palt": true,
+"strokes": [
+[
+4,
+"#ffffff"
+]
+],
+"scale_x": 0.917
+},
+{
+"type": "text",
+"x": 6.5,
+"y": 439.0,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 255.5,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "絶",
+"tgt": [
+17,
+479,
+259,
+700
+],
+"scale_x": 1.03
+},
+{
+"type": "text",
+"x": 277.0,
+"y": 438.5,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 250.6,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "対",
+"tgt": [
+278,
+479,
+520,
+700
+],
+"scale_x": 1.018
+},
+{
+"type": "text",
+"x": 525.5,
+"y": 443.0,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 251.3,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "買",
+"tgt": [
+544,
+479,
+771,
+700
+],
+"scale_x": 1.016
+},
+{
+"type": "text",
+"x": 788.0,
+"y": 424.5,
+"font": "NotoSansJP",
+"weight": 900,
+"size": 249.0,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "い",
+"tgt": [
+810,
+491,
+1120,
+689
+],
+"scale_x": 1.027
+},
+{
+"type": "text",
+"x": 1047.0,
+"y": 449.0,
+"font": "Noto Sans JP",
+"weight": 900,
+"size": 236.5,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "!",
+"tgt": [
+1150,
+479,
+1204,
+689
+],
+"scale_x": 0.98
+},
+{
+"type": "text",
+"x": 1129.0,
+"y": 417.0,
+"font": "MPLUS1p",
+"weight": 900,
+"size": 286.9,
+"color": "#ffffff",
+"palt": true,
+"strokes": [
+[
+7,
+"#ffffff"
+],
+[
+3,
+"#111111"
+]
+],
+"shadow": "0 0 6px rgba(0,0,0,.4)",
+"text": "!",
+"tgt": [
+1225,
+479,
+1278,
+689
+],
+"scale_x": 0.693
+}
+]
 }

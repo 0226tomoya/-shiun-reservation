@@ -7,3 +7,5 @@
 | 8 | 6F7yK5ZDFA0 | 78.1 | 82.5 | 1 文字ずつの 23 レイヤーを tune.py 2 周（NotoSansJP 800/600 も候補。6 文字が 800 に）|
 | 431 | LFfz_kQrwWY | 78.0 | 88.1 | 着手時点で既に 88.1（前の回の変更が反映済み）。触らず |
 | 69 | P0IQmfyHFSE | 77.7 | 86.0 | 見出し・副題の 2 行を split.py で 1 文字ずつ（36 レイヤー）→ tune.py（ZenKakuGothicNew 700/900・NotoSansJP 700/800 から 1 文字ずつ選ぶ） |
+| 52 | VC7Lz_BQ9U8 | 77.4 | 77.4 | 既に 1 文字ずつで形の一致 0.88。tune（MPLUS1p/ZenKaku 候補）・影の強弱はどれも下がったので据え置き。上の行の背景の集中線が erase に入るのが残りの差 |
+| 155 | BXIqxTI6pe4 | 77.3 | 81.1 | 1 文字ずつの 18 レイヤーを tune.py 2 周（2 周目に ZenKakuGothicNew 900 も候補。4 文字がそれに） |

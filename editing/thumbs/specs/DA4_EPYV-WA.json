@@ -27,9 +27,9 @@
     145
    ],
    "colors": [
-    "#f6f4f0"
+    "#ffffff"
    ],
-   "tol": 30
+   "tol": 14
   },
   {
    "rect": [
@@ -94,34 +94,35 @@
   {
    "type": "text",
    "text": "低身長男性必見!!",
-   "x": 414,
-   "y": 218,
+   "x": 414.0,
+   "y": 219.5,
    "box": [
     405,
     205,
     350,
     95
    ],
-   "font": "Yusei Magic",
-   "weight": 400,
-   "size": 51.6,
-   "color": "#f6f4f0",
-   "strokes": [
-    [
-     2,
-     "#6a5a4a"
-    ]
-   ],
-   "scale_x": 0.996,
-   "rotate": 4.6,
-   "spacing": -0.14,
-   "fit_iou": 0.157
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 51.5,
+   "color": "#ffffff",
+   "scale_x": 0.854,
+   "rotate": 3.0,
+   "spacing": 0.02,
+   "fit_iou": 0.157,
+   "shadow": "0 0 4px rgba(0,0,0,.45)",
+   "tgt": [
+    413,
+    228,
+    752,
+    293
+   ]
   },
   {
    "type": "text",
    "text": "UNIQLO and JW ANDERSON",
    "x": 23,
-   "y": 345,
+   "y": 347,
    "box": [
     10,
     345,
@@ -130,17 +131,18 @@
    ],
    "font": "Roboto Condensed",
    "weight": 700,
-   "size": 83.4,
+   "size": 80.1,
    "color": "#fdfdfc",
    "strokes": [
     [
-     4,
+     2,
      "#0c0909"
     ]
    ],
    "spacing": 0.002,
-   "scale_x": 0.972,
-   "fit_iou": 0.678
+   "scale_x": 1.011,
+   "fit_iou": 0.678,
+   "shadow": "0 0 6px rgba(0,0,0,.6)"
   },
   {
    "type": "text",
@@ -155,14 +157,14 @@
    "color": "#fdee05",
    "strokes": [
     [
-     4,
+     2,
      "#0e0d09"
     ]
    ],
-   "scale_x": 0.916,
+   "scale_x": 0.843,
    "fit_iou": 0.712,
    "text": "こ",
-   "x": -18.5,
+   "x": -6.5,
    "y": 552.0,
    "anchor": "lc",
    "size": 277.8,
@@ -181,15 +183,15 @@
    "color": "#fdee05",
    "strokes": [
     [
-     4,
+     2,
      "#0e0d09"
     ]
    ],
-   "scale_x": 0.916,
+   "scale_x": 0.898,
    "fit_iou": 0.712,
    "text": "れ",
-   "x": 235.3,
-   "y": 556.0,
+   "x": 238.3,
+   "y": 555.0,
    "anchor": "lc",
    "size": 277.8,
    "line": 1.0
@@ -207,17 +209,17 @@
    "color": "#fdee05",
    "strokes": [
     [
-     4,
+     2,
      "#0e0d09"
     ]
    ],
-   "scale_x": 0.916,
+   "scale_x": 0.861,
    "fit_iou": 0.712,
    "text": "は",
-   "x": 491.1,
-   "y": 557.0,
+   "x": 494.1,
+   "y": 556.0,
    "anchor": "lc",
-   "size": 283.3,
+   "size": 294.6,
    "line": 1.0
   },
   {
@@ -233,17 +235,17 @@
    "color": "#fdee05",
    "strokes": [
     [
-     4,
+     2,
      "#0e0d09"
     ]
    ],
-   "scale_x": 0.916,
+   "scale_x": 0.861,
    "fit_iou": 0.712,
    "text": "買",
-   "x": 743.9,
-   "y": 552.0,
+   "x": 749.9,
+   "y": 553.0,
    "anchor": "lc",
-   "size": 299.6,
+   "size": 305.6,
    "line": 1.0
   },
   {
@@ -259,14 +261,14 @@
    "color": "#fdee05",
    "strokes": [
     [
-     4,
+     2,
      "#0e0d09"
     ]
    ],
-   "scale_x": 1.076,
+   "scale_x": 1.098,
    "fit_iou": 0.712,
    "text": "い",
-   "x": 1005.7,
+   "x": 1002.7,
    "y": 565.0,
    "anchor": "lc",
    "size": 245.2,
