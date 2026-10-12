@@ -112,68 +112,709 @@
  ],
  "layers": [
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_1.png",
-   "x": 27,
-   "y": 48,
-   "w": 230,
-   "h": 209
+   "type": "rect",
+   "x": 30,
+   "y": 51,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_2.png",
-   "x": 27,
-   "y": 283,
-   "w": 230,
-   "h": 209
+   "type": "rect",
+   "x": 30,
+   "y": 203,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_3.png",
-   "x": 268,
-   "y": 48,
-   "w": 230,
-   "h": 209
+   "type": "rect",
+   "x": 30,
+   "y": 203,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_4.png",
-   "x": 268,
-   "y": 283,
-   "w": 230,
-   "h": 209
+   "type": "rect",
+   "x": 45,
+   "y": 63,
+   "w": 32,
+   "h": 32,
+   "fill": "#b1a5aa",
+   "radius": "50%"
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_5.png",
-   "x": 801,
-   "y": 48,
-   "w": 230,
-   "h": 209
+   "type": "text",
+   "text": "yuuta_jerry",
+   "x": 87.0,
+   "y": 72.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 14.9,
+   "color": "#262626",
+   "scale_x": 1.046
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_6.png",
-   "x": 801,
-   "y": 283,
-   "w": 230,
-   "h": 209
+   "type": "text",
+   "text": "低身長で足も24.5と小さ\nいので、\n良い革靴がなく困って\nます、、",
+   "x": 44.0,
+   "y": 108.0,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 15.5,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.073
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_7.png",
-   "x": 1043,
-   "y": 48,
-   "w": 230,
-   "h": 209
+   "type": "text",
+   "text": "返信",
+   "x": 43.5,
+   "y": 219.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 15.2,
+   "color": "#ffffff",
+   "scale_x": 0.925
   },
   {
-   "type": "image",
-   "src": "assets/logos/igcard_7mrq_8.png",
-   "x": 1043,
-   "y": 283,
-   "w": 230,
-   "h": 209
+   "type": "line",
+   "x1": 228,
+   "y1": 222,
+   "x2": 234,
+   "y2": 228,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 234,
+   "y1": 228,
+   "x2": 228,
+   "y2": 234,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 286,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 438,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 438,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 45,
+   "y": 298,
+   "w": 32,
+   "h": 32,
+   "fill": "#a7a397",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "benros123",
+   "x": 88.5,
+   "y": 307.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 16.0,
+   "color": "#262626",
+   "scale_x": 0.948
+  },
+  {
+   "type": "text",
+   "text": "shiunの最小サイズは、身\n長160cm以下の男性には\nそれでも大きすぎます",
+   "x": 44.5,
+   "y": 354.5,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 15.7,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.053
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 45.0,
+   "y": 456.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 14.0,
+   "color": "#ffffff",
+   "scale_x": 1.0
+  },
+  {
+   "type": "line",
+   "x1": 228,
+   "y1": 457,
+   "x2": 234,
+   "y2": 463,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 234,
+   "y1": 463,
+   "x2": 228,
+   "y2": 469,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 51,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 203,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 203,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 63,
+   "w": 32,
+   "h": 32,
+   "fill": "#28282c",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "hibiki___suzuki",
+   "x": 330.0,
+   "y": 72.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 16.0,
+   "color": "#262626",
+   "scale_x": 0.991
+  },
+  {
+   "type": "text",
+   "text": "夏のTシャツタックイン。\n死ぬほど似合わん問題。笑",
+   "x": 285.5,
+   "y": 129.5,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 15.7,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.03
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 286.0,
+   "y": 221.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 14.0,
+   "color": "#ffffff",
+   "scale_x": 1.038
+  },
+  {
+   "type": "line",
+   "x1": 469,
+   "y1": 222,
+   "x2": 475,
+   "y2": 228,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 475,
+   "y1": 228,
+   "x2": 469,
+   "y2": 234,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 286,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 438,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 271,
+   "y": 438,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 286,
+   "y": 298,
+   "w": 32,
+   "h": 32,
+   "fill": "#ada49a",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "sora_8319",
+   "x": 329.0,
+   "y": 307.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 17.2,
+   "color": "#262626",
+   "scale_x": 0.929
+  },
+  {
+   "type": "text",
+   "text": "どう頑張ってもどこか\nガキっぽくなっちゃう",
+   "x": 284.5,
+   "y": 362.0,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 17.4,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.042
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 286.0,
+   "y": 455.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 15.2,
+   "color": "#ffffff",
+   "scale_x": 0.923
+  },
+  {
+   "type": "line",
+   "x1": 469,
+   "y1": 457,
+   "x2": 475,
+   "y2": 463,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 475,
+   "y1": 463,
+   "x2": 469,
+   "y2": 469,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 804,
+   "y": 51,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 804,
+   "y": 203,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 804,
+   "y": 203,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 819,
+   "y": 63,
+   "w": 32,
+   "h": 32,
+   "fill": "#c8b7a2",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "coffeekworld",
+   "x": 861.0,
+   "y": 71.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 16.0,
+   "color": "#262626",
+   "scale_x": 0.938
+  },
+  {
+   "type": "text",
+   "text": "一つお聞きしたいのです\nが、低身長のレイヤードタ\nンクトップはわむうさん的\nには無しですか？",
+   "x": 817.5,
+   "y": 108.0,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 15.3,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.028
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 818.0,
+   "y": 219.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 15.2,
+   "color": "#ffffff",
+   "scale_x": 0.923
+  },
+  {
+   "type": "line",
+   "x1": 1002,
+   "y1": 222,
+   "x2": 1008,
+   "y2": 228,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1008,
+   "y1": 228,
+   "x2": 1002,
+   "y2": 234,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 806,
+   "y": 286,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 806,
+   "y": 438,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 806,
+   "y": 438,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 821,
+   "y": 298,
+   "w": 32,
+   "h": 32,
+   "fill": "#707f76",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "kaitu_0915",
+   "x": 863.5,
+   "y": 306.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 17.2,
+   "color": "#262626",
+   "scale_x": 0.941
+  },
+  {
+   "type": "text",
+   "text": "ショーツが難しすぎる",
+   "x": 821.0,
+   "y": 371.5,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 17.7,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.01
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 821,
+   "y": 453,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 14,
+   "color": "#ffffff",
+   "scale_x": 1.0
+  },
+  {
+   "type": "line",
+   "x1": 1004,
+   "y1": 457,
+   "x2": 1010,
+   "y2": 463,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1010,
+   "y1": 463,
+   "x2": 1004,
+   "y2": 469,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1046,
+   "y": 51,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 1046,
+   "y": 203,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 1046,
+   "y": 203,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 1061,
+   "y": 63,
+   "w": 32,
+   "h": 32,
+   "fill": "#221c19",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "mrth0710",
+   "x": 1103.0,
+   "y": 72.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 16.0,
+   "color": "#262626",
+   "scale_x": 0.971
+  },
+  {
+   "type": "text",
+   "text": "短パン履きたいけど履\nけない",
+   "x": 1059.0,
+   "y": 127.0,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 17.4,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.023
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 1059.0,
+   "y": 221.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 14.0,
+   "color": "#ffffff",
+   "scale_x": 1.038
+  },
+  {
+   "type": "line",
+   "x1": 1244,
+   "y1": 222,
+   "x2": 1250,
+   "y2": 228,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1250,
+   "y1": 228,
+   "x2": 1244,
+   "y2": 234,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 1047,
+   "y": 286,
+   "w": 224,
+   "h": 202,
+   "fill": "#ffffff",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 1047,
+   "y": 438,
+   "w": 224,
+   "h": 50,
+   "fill": "#262626",
+   "radius": 12
+  },
+  {
+   "type": "rect",
+   "x": 1047,
+   "y": 438,
+   "w": 224,
+   "h": 20,
+   "fill": "#262626"
+  },
+  {
+   "type": "rect",
+   "x": 1062,
+   "y": 298,
+   "w": 32,
+   "h": 32,
+   "fill": "#6b6363",
+   "radius": "50%"
+  },
+  {
+   "type": "text",
+   "text": "ruka1444",
+   "x": 1104.0,
+   "y": 307.0,
+   "font": "Inter",
+   "weight": 400,
+   "size": 16.0,
+   "color": "#262626",
+   "scale_x": 0.956
+  },
+  {
+   "type": "text",
+   "text": "サイズ感の関係でなん\nやかんやTシャツが1番\n選びにくい",
+   "x": 1060.0,
+   "y": 350.0,
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "size": 17.3,
+   "line": 1.32,
+   "color": "#262626",
+   "scale_x": 1.089
+  },
+  {
+   "type": "text",
+   "text": "返信",
+   "x": 1060.0,
+   "y": 456.0,
+   "font": "Noto Sans JP",
+   "weight": 400,
+   "size": 14.0,
+   "color": "#ffffff",
+   "scale_x": 1.038
+  },
+  {
+   "type": "line",
+   "x1": 1245,
+   "y1": 457,
+   "x2": 1251,
+   "y2": 463,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1251,
+   "y1": 463,
+   "x2": 1245,
+   "y2": 469,
+   "width": 2,
+   "color": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 206,
+   "y": 397,
+   "w": 18,
+   "h": 18,
+   "fill": "#f7c948",
+   "radius": "50%"
   },
   {
    "type": "text",
@@ -408,5 +1049,67 @@
    "spacing": 0.01,
    "fit_iou": 0.481
   }
+ ],
+ "front": [
+  [
+   [
+    800,
+    385
+   ],
+   [
+    812,
+    392
+   ],
+   [
+    830,
+    410
+   ],
+   [
+    848,
+    428
+   ],
+   [
+    858,
+    440
+   ],
+   [
+    865,
+    470
+   ],
+   [
+    870,
+    492
+   ],
+   [
+    800,
+    492
+   ]
+  ],
+  [
+   [
+    500,
+    428
+   ],
+   [
+    480,
+    440
+   ],
+   [
+    470,
+    455
+   ],
+   [
+    463,
+    470
+   ],
+   [
+    460,
+    492
+   ],
+   [
+    500,
+    492
+   ]
+  ]
  ]
 }

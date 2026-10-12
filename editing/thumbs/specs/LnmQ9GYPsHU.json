@@ -86,11 +86,11 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/gu_blue_square_tilted_lnmq.png",
-   "x": 12,
+   "src": "assets/logos/gu_blue_tilted_lnmq.png",
+   "x": 11,
    "y": 99,
-   "w": 417,
-   "h": 417
+   "w": 421,
+   "h": 419
   },
   {
    "type": "image",
@@ -278,5 +278,37 @@
    "shadow": "0 0 8px rgba(0,0,0,.5)",
    "scale_x": 1.0
   }
+ ],
+ "front": [
+  [
+   [
+    897,
+    476
+   ],
+   [
+    893,
+    476
+   ],
+   [
+    893,
+    499
+   ],
+   [
+    898,
+    497
+   ],
+   [
+    898,
+    494
+   ],
+   [
+    902,
+    489
+   ],
+   [
+    900,
+    478
+   ]
+  ]
  ]
 }

@@ -113,3 +113,73 @@
 - 写真の背景ごと切っているロゴ: shiun_white_*（240〜251 番台の多く）、uniqloc_black_*（purple・白シャツなどの写真背景）、nike_white_wd5y、newbalance_white_doup、newbalance_red_6df、yoke_white_*、kaneisa_script_white_owgj、stevenalan_script_white_wd5y、adidas_white_doup、adidas_black_qkau など。透過にして切り直すのが望ましい。
 - 2 枚組を間の背景ごと: uniqlo_pair_*・uniqlo_red_pair_*・uniqlou_pair_black_*（スキルの決まりでは 1 枚ずつ）。
 - 人物の髪がごく一部だけ端に入っているものは他にも多数（gu_blue_shadow_*、uniqlo_red_*、uniqlo_kata_red_* の一部）。上の表は目で見て明らかなものだけ。
+
+
+---
+
+# 2 回目（34 本。euYy・nczP・THpZ は担当が終わってから追加）
+
+作業前の spec: スクラッチパッドの `clean_bak/`（1 回目と同じ場所。1 回目で退避済みの ID は上書きしていない）。
+道具（スクラッチパッドの `clean_work/`）:
+- `logo2.py`・`run2.py`・`batch2.py`: その回のサムネからロゴの箱だけを切り直す。ロゴの色（箱の色・字の色と、その間のにじみ）以外の画素（人物・物・文字）は透過にして、人物・物は `front` 多角形で元の画素を戻す。白黒のロゴは中間の灰色も人物とみなす。黒い箱に重なる黒髪は手で多角形（fpoly）を指定する
+- `shopper.py`: ショッパー型。紙袋は rect（ロゴの外側の輪で色を測り、minAreaRect の角度）で描き、ロゴの箱だけを貼る
+- `brandcards.py`: 白い札のブランドカード。札は rect、ロゴは札の色からの距離を不透明度にして字の形だけ（写真・指は透過）
+- `arrows2.py`（1 回目の `arrow.py`）・チェック・汗・アバター: 元の色の範囲に形のパラメータを IoU で合わせ、cv2 の LINE_AA で描画（画素は使わない）
+- 文字の位置合わせは `helpers/snap_b16.py` だけ（fit.py は使っていない）。erase の "by":"layers" は足していない
+
+| ID | 前点 | 後点 | 差し替えたもの |
+|---|---|---|---|
+| nN0bxTWf9IE | 78.0 | 77.0 | 黒い曲がり矢印（写真の背景ごと）→ cv2 で描画 `assets/shapes/arrow_black_curve_nn0b.png`（erase は黒の色指定）。UNIQLO 2 枚はこの回の切り抜きで違反なし、そのまま |
+| CFzF147E7vc | 46.8 | 46.9 | 赤い矢印（他の回の `arrow_red_curve.png`）→ cv2 で描画 `assets/shapes/arrow_red_curve_cfzf.png`＋灰色のぼかし影 `arrow_red_curve_cfzf_shadow.png`。UNIQLO ロゴも他の回の `uniqlo_red_small.png` だったので、この回から切り直し `uniqlo_red_cfzf.png` |
+| uIQcReIKhhs | 69.5 | 69.5 | コメント欄の灰色のアバター（切り抜き）→ cv2 で円＋頭＋肩を描画 `assets/shapes/avatar_gray_uiqc.png`（3 か所） |
+| HcoTwn1KXDY | 84.7 | 81.0 | ブランドの札 10 枚（写真・手ごと）→ 札は rect（色を測る）、ロゴはこの回から字の形だけ透過で切り直し `*_card_hcot.png`（10 枚）。手前の指は透過にし、`front` で元の指を戻す |
+| aWYzUBHycTw | 78.4 | 74.8 | 赤いチェック（写真ごと）→ 2 本の太い帯を IoU で合わせて cv2 で描画 `assets/shapes/check_red_awyz.png`（erase は赤の色指定） |
+| 7Mrqw2dPfbo | 85.8 | 75.8 | インスタのコメントカード 8 枚（文字ごと）→ rect（白地＋黒い帯）、text（ユーザー名 Inter／本文 Noto Sans JP 500／返信）、line（＞）で作り直し。アバターは平均色の円、絵文字は黄色の円。手前の指・服は `front` |
+| GU2ON4koLmk | 61.1 | 55.1 | GU ロゴ（紙袋の写真・赤い文字ごと）→ 紙袋は rect、ロゴは箱だけ切り直し `gu_blue_tilted_gu2o.png`。汗の絵文字（切り抜き）→ cv2 で 3 粒の涙形を描画 `assets/shapes/sweat_drops_gu2o.png` |
+| w_Pdnt5SLgE | 71.3 | 65.6 | GU の紙袋（見出しの文字ごと）→ 紙袋は rect、ロゴは箱だけ（文字の所は透過）`gu_blue_wpdn.png` |
+| LnmQ9GYPsHU | 80.8 | 79.1 | 傾いた GU（「2024」の文字ごと）→ 箱の 4 隅の範囲だけ切り直し、文字の所は透過 `gu_blue_tilted_lnmq.png`。右の GU は人物の部分を透過＋`front` |
+| x1MIToUS3d4 | 66.3 | 65.9 | GU ロゴ（人物と文字入り）→ 切り直し、髪は透過＋`front`（白い文字は front にしない） |
+| fikkntDS3-k | 75.5 | 75.5 | UNIQLO・GU（商品の写真入り）→ 箱だけ切り直し |
+| kipVVE0CkUY | 82.7 | 80.0 | GU・MUJI の紙袋の写真ごと → 紙袋は rect、ロゴは箱だけ `gu_blue_kipv.png`・`muji_kipv.png` |
+| xq6qetN808c | 88.1 | 82.0 | UNIQLO（傾き）・MUJI・GU の紙袋の写真ごと → 紙袋は rect（傾き付き）、ロゴは箱だけ `uniqlo_red_tilted_xq6q.png`・`muji_xq6q.png`・`gu_blue_xq6q.png` |
+| DWDz1rp0LHQ | 74.8 | 74.0 | ZOZOTOWN（靴の写真入り）→ 箱だけ切り直し、靴は透過＋`front` |
+| L0qdsfyFxYY | 48.8 | 49.8 | UNIQLO・U（頭入り）→ 1 枚ずつ切り直し、頭は透過＋`front`。右上の小さい 2 枚組（手書き文字入り）→ 1 枚ずつ `uniqlo_black_small_l0qd`・`uniqlou_u_black_small_l0qd` |
+| OVCLGjU9Du4 | 86.9 | 86.9 | UNIQLO 2 枚（顔入り）→ 箱だけ切り直し |
+| nESPvxlUpKw | 48.5 | 44.4 | UNIQLO:C（写真ごと）→ UNIQLO の箱 `uniqlo_black_nesp` と「:C」の字だけ（背景透過）`uniqloc_colonc_nesp` に分割。右の縦 2 枚組（顔入り）→ 1 枚ずつ `uniqlo_red_nesp`・`uniqlo_kata_red_nesp`、顔は透過＋`front` |
+| SfZuXd01kvM | 56.4 | 53.7 | 6 枚（頭・顔入り）→ 切り直し。黒い箱に重なる黒髪は手で多角形を指定して透過＋`front`。:C は字の形だけ |
+| yepjqOuHxx8 | 56.6 | 55.8 | 4 枚（顔・頭入り）→ 切り直し、人物は透過＋`front` |
+| LISxBpIilxo | 53.4 | 50.8 | UNIQLO・GU（顔入り）→ 切り直し、人物は透過＋`front` |
+| dlI6Wq1yHj4 | 59.2 | 58.2 | UNIQLO・GU・MUJI（顔入り）→ 切り直し、人物は透過＋`front` |
+| SNDhAqvswRM | 85.5 | 85.3 | 4 枚（頭入り）→ 切り直し、頭は透過＋`front` |
+| oZtYOlehxus | 59.4 | 59.2 | UNIQLO・U（指入り）→ 切り直し、指は透過＋`front` |
+| OvZsUCoeZUQ | 60.2 | 56.8 | MUJI（人物入り）→ 切り直し＋`front`。MUJI Labo・IDÉE（写真の背景ごと）→ 黒い字と白い影を字の形だけ透過で切り直し（`mujilabo_ovzs`＋`_shadow`、`idee_ovzs`＋`_shadow`） |
+| 15jJQnnaPQk | 90.5 | 90.5 | MUJI（人物入り）→ 切り直し、人物は透過＋`front` |
+| FTPKbFQy-GI | 55.3 | 54.8 | UNIQLO・GU・MUJI・FamilyMart（頭入り）→ 切り直し、頭は透過＋`front`。FamilyMart は `familymart_ftpk.png` に改名 |
+| 24CweW03ryU | 66.0 | 65.8 | GU（頭入り）→ 切り直し＋`front` |
+| L-RPQSwVdyk | 64.9 | 64.4 | UNIQLO・GU（指入り）→ 切り直し＋`front` |
+| sjDyBj8NSDg | 78.6 | 78.0 | 4 枚（髪入り）→ 切り直し＋`front` |
+| w1dTeJfTP4s | 75.6 | 75.3 | 4 枚（頭入り）→ 切り直し＋`front` |
+| Df9CmIZ8EFA | 84.9 | 83.8 | ブランドの札 7 枚（髪・肌入り）→ 札は rect、ロゴは字の形だけ透過 `*_card_df9c.png`。髪・顔は手で多角形を指定して `front` |
+| euYyoHSr3B8 | 40.4 | 40.2 | 右上の UNIQLO 2 枚（頭入り）→ 切り直し＋`front`。下の傾いた小さい 2 枚（布入り）→ 4 隅の四角だけ切り直し |
+| nczPFDj6VqI | 71.9 | 71.6 | UNIQLO U の 2 枚組（頭入り）→ 切り直し、頭は手で多角形を指定して透過＋`front` |
+| THpZuGk5aZw | 45.5 | 45.5 | 赤い曲がり矢印（切り抜き）→ cv2 で描画 `assets/shapes/arrow_red_curve_thpz.png` |
+
+平均 68.6 → 66.9。点が下がったのは主に、(1) カード・紙袋を rect＋text で作り直した（7Mrq −10.0、xq6q −6.1、GU2O −6.0、w_Pd −5.7）、(2) 人物を透過にして `front` で戻したことで、人物の縁に背景の埋め跡が出た（nESP −4.1、OvZs −3.4、SfZu −2.7 など）。どれも違反のない版を採用した。
+
+- 削除した画像（どの spec も参照しておらず違反のもの、40 枚）: arrow_black_curve_nn0b.png、arrow_red_curve.png、arrow_red_curve_thpz.png、avatar_gray_uiqc.png、brandcard_hcot_1.png、brandcard_hcot_10.png、brandcard_hcot_2.png、brandcard_hcot_3.png、brandcard_hcot_4.png、brandcard_hcot_5.png、brandcard_hcot_6.png、brandcard_hcot_7.png、brandcard_hcot_8.png、brandcard_hcot_9.png、check_red_awyz.png、confect_white_df9c.png、cos_white_df9c.png、familymart_sq.png、gu_blue_bag_kipv.png、gu_blue_bag_wpdn.png、gu_blue_rot_gu2o.png、gu_blue_square_tilted_lnmq.png、idee_black_ovzs.png、igcard_7mrq_1.png、igcard_7mrq_2.png、igcard_7mrq_3.png、igcard_7mrq_4.png、igcard_7mrq_5.png、igcard_7mrq_6.png、igcard_7mrq_7.png、igcard_7mrq_8.png、muji_red_bag_kipv.png、muji_red_bag_xq6q.png、mujilabo_black_ovzs.png、sweat_emoji_gu2o.png、uniqlo_red_rot_xq6q.png、uniqlo_red_vpair_cut_nesp.png、uniqloc_black_nesp.png、uniqlou_pair_small_l0qd.png、uniqloc_nesp.png（1 回目の失敗作）
+- 名前を変えずに中身だけ作り直した画像は、上の表の各回の素材（どれもその回の spec だけが使っていることを grep で確認済み）。
+- 追加で削除: batoner/blurhms/el/haruta/wym_white_df9c.png、gu_blue_square_xq6q.png、uniqlo_red_small.png（未使用になった写真入りの札・他の回のロゴ。7 枚）。2 回目の削除は合計 47 枚
+
+## 触っていない違反（別の担当が作業中）
+| ID | 画像 | 中身 |
+|---|---|---|
+| r2Gsi3qOH2g | arrow_black_hand_r2gs.png | 矢印（写真の背景ごと） |
+| sWkYeQl8BRo | burst_black_swky1.png・burst_black_swky2.png | 黒い集中線の飾り（写真・髪ごと） |
+| r6Jxy2FETpM | warning_yellow_r6jx1.png・warning_yellow_r6jx2.png | 警告マーク（写真ごと） |
+| zGuc4mpBDJ0 | wym_lidnm_ecstaff.png | ロゴの下に「ECスタッフ」の文字 |
+| Nn5xhSpBtMc | gu_blue_square_nn5x.png | ロゴ＋「作」の文字・手 |
+| 3DDxA28X06s | gu_blue_3ddx.png | ロゴ＋服の写真 |
+| urUYLSsV3PI | gu_blue_square_uruy.png | ロゴ＋紙袋の写真 |
+| 8nQqWy24FYw | uniqlo_black_8nqq.png・uniqlou_black_8nqq.png | ロゴ＋紙袋の写真・人物 |
+| FWuJoYzSz8U | uniqlo_red_cut_fwuj.png・gu_blue_square_fwuj.png | 人物入り |
+| yW8RY0VbOHc | arrow_red_curve_yw8r.png | 赤い矢印の切り抜き |

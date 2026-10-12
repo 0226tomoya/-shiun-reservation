@@ -79,7 +79,7 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_red_small.png",
+   "src": "assets/logos/uniqlo_red_cfzf.png",
    "x": 35,
    "y": 34,
    "w": 143,
@@ -87,11 +87,19 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/arrow_red_curve.png",
-   "x": 771,
-   "y": 39,
-   "w": 123,
-   "h": 49
+   "src": "assets/shapes/arrow_red_curve_cfzf_shadow.png",
+   "x": 750,
+   "y": 19,
+   "w": 182,
+   "h": 86
+  },
+  {
+   "type": "image",
+   "src": "assets/shapes/arrow_red_curve_cfzf.png",
+   "x": 767,
+   "y": 36,
+   "w": 148,
+   "h": 52
   },
   {
    "type": "text",

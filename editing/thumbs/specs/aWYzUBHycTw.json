@@ -3,12 +3,15 @@
  "erase": [
   {
    "rect": [
-    905,
-    63,
-    281,
-    214
+    895,
+    55,
+    300,
+    240
    ],
-   "full": true
+   "colors": [
+    "#bc0a0a"
+   ],
+   "tol": 60
   },
   {
    "rect": [
@@ -62,11 +65,11 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/check_red_awyz.png",
-   "x": 905,
-   "y": 63,
-   "w": 281,
-   "h": 214
+   "src": "assets/shapes/check_red_awyz.png",
+   "x": 910,
+   "y": 61,
+   "w": 268,
+   "h": 234
   },
   {
    "type": "text",

@@ -88,60 +88,116 @@
  ],
  "layers": [
   {
-   "type": "image",
-   "src": "assets/logos/el_white_df9c.png",
+   "type": "rect",
    "x": 934,
-   "y": 17,
+   "y": 18,
    "w": 333,
-   "h": 333
+   "h": 331,
+   "fill": "#fefefc"
   },
   {
    "type": "image",
-   "src": "assets/logos/wym_white_df9c.png",
+   "src": "assets/logos/el_card_df9c.png",
+   "x": 1016,
+   "y": 76,
+   "w": 169,
+   "h": 216
+  },
+  {
+   "type": "rect",
    "x": 27,
-   "y": 24,
+   "y": 25,
    "w": 276,
-   "h": 276
+   "h": 274,
+   "fill": "#fdfdfe"
   },
   {
    "type": "image",
-   "src": "assets/logos/confect_white_df9c.png",
+   "src": "assets/logos/wym_card_df9c.png",
+   "x": 86,
+   "y": 136,
+   "w": 159,
+   "h": 48
+  },
+  {
+   "type": "rect",
    "x": 747,
    "y": 31,
    "w": 170,
-   "h": 170
+   "h": 170,
+   "fill": "#ffffff"
   },
   {
    "type": "image",
-   "src": "assets/logos/cos_white_df9c.png",
+   "src": "assets/logos/confect_card_df9c.png",
+   "x": 762,
+   "y": 80,
+   "w": 121,
+   "h": 104
+  },
+  {
+   "type": "rect",
    "x": 326,
    "y": 49,
    "w": 200,
-   "h": 113
+   "h": 113,
+   "fill": "#ffffff"
   },
   {
    "type": "image",
-   "src": "assets/logos/batoner_white_df9c.png",
+   "src": "assets/logos/cos_card_df9c.png",
+   "x": 382,
+   "y": 65,
+   "w": 138,
+   "h": 89
+  },
+  {
+   "type": "rect",
    "x": 348,
    "y": 213,
    "w": 210,
-   "h": 150
+   "h": 150,
+   "fill": "#ffffff"
   },
   {
    "type": "image",
-   "src": "assets/logos/haruta_white_df9c.png",
-   "x": 737,
-   "y": 239,
-   "w": 160,
-   "h": 160
+   "src": "assets/logos/batoner_card_df9c.png",
+   "x": 464,
+   "y": 244,
+   "w": 56,
+   "h": 87
+  },
+  {
+   "type": "rect",
+   "x": 738,
+   "y": 240,
+   "w": 159,
+   "h": 158,
+   "fill": "#fffefe"
   },
   {
    "type": "image",
-   "src": "assets/logos/blurhms_white_df9c.png",
+   "src": "assets/logos/haruta_card_df9c.png",
+   "x": 743,
+   "y": 246,
+   "w": 124,
+   "h": 83
+  },
+  {
+   "type": "rect",
    "x": 53,
-   "y": 332,
-   "w": 259,
-   "h": 122
+   "y": 333,
+   "w": 258,
+   "h": 121,
+   "fill": "#fefefc"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/blurhms_card_df9c.png",
+   "x": 136,
+   "y": 356,
+   "w": 164,
+   "h": 85
   },
   {
    "type": "rect",
@@ -212,5 +268,145 @@
    "skew": -0.3,
    "fit_iou": 0.673
   }
+ ],
+ "front": [
+  [
+   [
+    510,
+    205
+   ],
+   [
+    510,
+    240
+   ],
+   [
+    515,
+    262
+   ],
+   [
+    525,
+    280
+   ],
+   [
+    535,
+    295
+   ],
+   [
+    545,
+    312
+   ],
+   [
+    550,
+    330
+   ],
+   [
+    555,
+    350
+   ],
+   [
+    560,
+    370
+   ],
+   [
+    580,
+    370
+   ],
+   [
+    580,
+    205
+   ]
+  ],
+  [
+   [
+    730,
+    40
+   ],
+   [
+    738,
+    55
+   ],
+   [
+    748,
+    75
+   ],
+   [
+    758,
+    95
+   ],
+   [
+    765,
+    110
+   ],
+   [
+    770,
+    125
+   ],
+   [
+    775,
+    140
+   ],
+   [
+    780,
+    155
+   ],
+   [
+    782,
+    170
+   ],
+   [
+    778,
+    185
+   ],
+   [
+    772,
+    205
+   ],
+   [
+    730,
+    205
+   ]
+  ],
+  [
+   [
+    540,
+    45
+   ],
+   [
+    530,
+    55
+   ],
+   [
+    522,
+    70
+   ],
+   [
+    515,
+    85
+   ],
+   [
+    505,
+    100
+   ],
+   [
+    498,
+    115
+   ],
+   [
+    492,
+    128
+   ],
+   [
+    490,
+    140
+   ],
+   [
+    492,
+    168
+   ],
+   [
+    540,
+    168
+   ]
+  ]
  ]
 }

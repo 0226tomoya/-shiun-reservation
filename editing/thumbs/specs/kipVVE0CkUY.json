@@ -8,7 +8,11 @@
     302,
     303
    ],
-   "full": true
+   "colors": [
+    "#17298d",
+    "#fdef06"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -17,7 +21,11 @@
     291,
     290
    ],
-   "full": true
+   "colors": [
+    "#800019",
+    "#fef7fa"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -58,16 +66,34 @@
  ],
  "layers": [
   {
+   "type": "rect",
+   "x": 143.6,
+   "y": 181.9,
+   "w": 284.6,
+   "h": 298.9,
+   "fill": "#dfc6bb",
+   "rotate": -4.04
+  },
+  {
    "type": "image",
-   "src": "assets/logos/gu_blue_bag_kipv.png",
+   "src": "assets/logos/gu_blue_kipv.png",
    "x": 136,
    "y": 188,
    "w": 302,
    "h": 303
   },
   {
+   "type": "rect",
+   "x": 857.5,
+   "y": 227.5,
+   "w": 286.1,
+   "h": 287.1,
+   "fill": "#c8b496",
+   "rotate": -1.2
+  },
+  {
    "type": "image",
-   "src": "assets/logos/muji_red_bag_kipv.png",
+   "src": "assets/logos/muji_kipv.png",
    "x": 855,
    "y": 228,
    "w": 291,
@@ -414,5 +440,6 @@
    "anchor": "lc",
    "size": 206.9
   }
- ]
+ ],
+ "front": []
 }

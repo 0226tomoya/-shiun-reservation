@@ -43,18 +43,12 @@
     309
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.758
+   "scale_x": 0.725
   },
   {
    "type": "text",
-   "text": "Month",
-   "x": 659.0,
-   "y": 278.5,
-   "anchor": "cc",
    "font": "Cormorant Garamond",
    "weight": 600,
-   "size": 86.5,
    "tb": [
     540,
     777,
@@ -62,8 +56,89 @@
     311
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.994
+   "scale_x": 0.972,
+   "text": "M",
+   "x": 543.9,
+   "y": 278.4,
+   "anchor": "lc",
+   "size": 84.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    540,
+    777,
+    245,
+    311
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.054,
+   "text": "o",
+   "x": 617.0,
+   "y": 280.4,
+   "anchor": "lc",
+   "size": 81.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    540,
+    777,
+    245,
+    311
+   ],
+   "color": "#ffffff",
+   "scale_x": 0.994,
+   "text": "n",
+   "x": 658.7,
+   "y": 279.4,
+   "anchor": "lc",
+   "size": 86.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    540,
+    777,
+    245,
+    311
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.014,
+   "text": "t",
+   "x": 703.7,
+   "y": 279.4,
+   "anchor": "lc",
+   "size": 83.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    540,
+    777,
+    245,
+    311
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.055,
+   "text": "h",
+   "x": 731.7,
+   "y": 280.4,
+   "anchor": "lc",
+   "size": 81.3,
+   "line": 1.0
   },
   {
    "type": "rect",
@@ -89,8 +164,7 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.995
+   "scale_x": 1.015
   },
   {
    "type": "text",
@@ -108,7 +182,6 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "scale_x": 1.083
   },
   {
@@ -127,7 +200,6 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "scale_x": 0.973
   },
   {
@@ -146,7 +218,6 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "scale_x": 0.973
   },
   {
@@ -165,7 +236,6 @@
     473
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "scale_x": 1.055
   },
   {
@@ -184,8 +254,7 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.979
+   "scale_x": 0.999
   },
   {
    "type": "text",
@@ -195,7 +264,7 @@
    "anchor": "cc",
    "font": "Cormorant Garamond",
    "weight": 600,
-   "size": 169.9,
+   "size": 169.8,
    "tb": [
     759,
     832,
@@ -203,18 +272,12 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 0.995
+   "scale_x": 1.013
   },
   {
    "type": "text",
-   "text": "TYLE",
-   "x": 1014.5,
-   "y": 419.5,
-   "anchor": "cc",
    "font": "Cormorant Garamond",
    "weight": 600,
-   "size": 147.4,
    "tb": [
     836,
     1191,
@@ -222,8 +285,70 @@
     474
    ],
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "scale_x": 1.022
+   "scale_x": 1.063,
+   "text": "T",
+   "x": 836.0,
+   "y": 421.4,
+   "anchor": "lc",
+   "size": 147.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    836,
+    1191,
+    364,
+    474
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.002,
+   "text": "Y",
+   "x": 937.4,
+   "y": 420.4,
+   "anchor": "lc",
+   "size": 144.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    836,
+    1191,
+    364,
+    474
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.104,
+   "text": "L",
+   "x": 1024.2,
+   "y": 421.4,
+   "anchor": "lc",
+   "size": 144.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "tb": [
+    836,
+    1191,
+    364,
+    474
+   ],
+   "color": "#ffffff",
+   "scale_x": 1.042,
+   "text": "E",
+   "x": 1109.6,
+   "y": 420.4,
+   "anchor": "lc",
+   "size": 150.3,
+   "line": 1.0
   }
  ],
  "grow": 11

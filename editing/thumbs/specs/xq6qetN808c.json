@@ -8,7 +8,11 @@
     339,
     340
    ],
-   "full": true
+   "colors": [
+    "#ee1c25",
+    "#fefbfa"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -17,7 +21,11 @@
     282,
     232
    ],
-   "full": true
+   "colors": [
+    "#800019",
+    "#fdfbfa"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -26,7 +34,11 @@
     311,
     311
    ],
-   "full": true
+   "colors": [
+    "#17298b",
+    "#fdf004"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -43,24 +55,51 @@
  ],
  "layers": [
   {
-   "type": "image",
-   "src": "assets/logos/uniqlo_red_rot_xq6q.png",
-   "x": 11,
-   "y": 164,
-   "w": 339,
-   "h": 340
+   "type": "rect",
+   "x": 35.9,
+   "y": 191.0,
+   "w": 286.2,
+   "h": 285.3,
+   "fill": "#c1b0a0",
+   "rotate": -77.86
   },
   {
    "type": "image",
-   "src": "assets/logos/muji_red_bag_xq6q.png",
-   "x": 511,
+   "src": "assets/logos/uniqlo_red_tilted_xq6q.png",
+   "x": 11,
+   "y": 165,
+   "w": 338,
+   "h": 339
+  },
+  {
+   "type": "rect",
+   "x": 535.0,
+   "y": 243.0,
+   "w": 231.0,
+   "h": 277.0,
+   "fill": "#c8b496",
+   "rotate": -90.0
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/muji_xq6q.png",
+   "x": 512,
    "y": 266,
-   "w": 282,
+   "w": 278,
    "h": 232
   },
   {
+   "type": "rect",
+   "x": 928.1,
+   "y": 129.1,
+   "w": 306.5,
+   "h": 305.4,
+   "fill": "#f4e3de",
+   "rotate": -5.42
+  },
+  {
    "type": "image",
-   "src": "assets/logos/gu_blue_square_xq6q.png",
+   "src": "assets/logos/gu_blue_xq6q.png",
    "x": 937,
    "y": 129,
    "w": 311,
@@ -198,5 +237,6 @@
    "rotate": -0.5,
    "skew": 0.6
   }
- ]
+ ],
+ "front": []
 }
