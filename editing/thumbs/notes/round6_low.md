@@ -34,3 +34,8 @@
 | 91 | 27pgmTWaDw4 | 36.4 | 52.9 | 手書き風の 3 行を split→tune 2 周（上の黒字の shiun・英字の行は除外）。見た目はほぼ一致。残り: 元の黒いぼかし影の広がり |
 | 267 | g1k37XP-dyo | 36.2 | 48.0 | 斜体に見えたので skew -10 を付けて split→tune（42.9）したが、skew を 0 に戻して tune し直すと 48.0 → 元は斜体ではなかった（太いゴシックの角が斜めに見えただけ）。「失」は赤の画素から外接矩形を取り box.py（小さすぎた）。書体の混在（MPLUS1p）は +0.6 なので採らず |
 | 19 | uMARBnCQD_Y | 36.2 | 42.6 | 1 文字ずつのレイヤーに --fonts（KaiseiTokumin/ZenOldMincho/NotoSerifJP/ShipporiMinchoB1）付き tune 2 周（英字の行は除外）。見た目はほぼ一致、残りは白い背景の上の白い明朝の縁 |
+| 308 | IRda-I0hpRM | 34.3 | 41.0 | 黄の「絶対に着るな!!」の下の端が erase の外で背景に残っていた → 黄の erase を下へ 23px 広げる。黄の 2 行を split→tune 2 周（--fonts で DelaGothicOne/NotoSansJP/MPLUS1p）。下の白い 2 行も split すると字が散って「低身長男性」が二重になったので元に戻した（41.0、全部 split の 45.3 は崩れているので採らず） |
+| 462 | sDJBIgqaUKE | 34.1 | 49.0 | 黄の見出しの erase が "by":"layers" → 黄の色の erase（tol 45）に替え（31.5）、元にある黒い太縁を strokes [8,#000] で足し grow 21（33.1）→ 下の白い 2 行を split して全体を tune 2 周（49.0） |
+| 395 | MZmTmXDVIXU | 33.8 | 34.1 | 銀の「BEST11」が単色の灰だった → gradfit で元のクロームの縦の明暗を 12 点で入れた（+0.3）。tune は上がらず。erase の色から黒・濃灰を外すと 30.5（黒縁が残る）。残り: 黒縁の erase が黒いシルエットまで消して背景が大きく崩れる（area 0.74） |
+| 126 | NlEa5AILtZA | 33.8 | 37.1 | 字ごとのレイヤーで「コ」が size 298・横 0.36 に潰れ、「ンズコ」が崩れていた → 画素の地図で 12 字の外接矩形を取り box.py（34.0）→ --fonts 付き tune 2 周（37.1）。見た目は元とほぼ同じ並び。残り: 斜体の太い明朝の線の太さと、白い服の上の白字 |
+| 108 | 67DtJKx3BaU | 33.5 | 42.7 | 細い明朝の 1 文字ずつのレイヤーを --fonts ShipporiMincho:500 付きで tune 2 周（ほとんどの字が ShipporiMincho に、身・お・知 は ZenOldMincho 400 のまま）。5 書体を比べると 43.0 だが 4 書体が混ざるので採らず |

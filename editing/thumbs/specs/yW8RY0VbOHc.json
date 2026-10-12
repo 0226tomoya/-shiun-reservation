@@ -125,11 +125,11 @@
   },
   {
    "type": "text",
-   "x": 522.5,
-   "y": 89.0,
+   "x": 519.5,
+   "y": 87.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 124.6,
+   "size": 129.6,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "line": 1.0,
@@ -153,7 +153,11 @@
      "size_em": 0.75
     },
     {
-     "text": "ンの"
+     "text": "ン"
+    },
+    {
+     "text": "の",
+     "size_em": 0.85
     }
    ],
    "box": [
@@ -163,9 +167,9 @@
     125
    ],
    "tol": 20,
-   "scale_x": 0.986,
+   "scale_x": 0.966,
    "spacing": 0.018,
-   "skew": -4.9,
+   "skew": -10,
    "rotate": 0.15,
    "fit_iou": 0.446
   },
