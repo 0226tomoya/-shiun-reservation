@@ -29,15 +29,15 @@
  "layers": [
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "2",
-   "x": 1.0,
-   "y": -41.0,
-   "size": 229.3,
+   "x": 8.0,
+   "y": -49.0,
+   "size": 238.2,
    "box": [
     10,
     0,
@@ -45,7 +45,7 @@
     212
    ],
    "skew": 3.4,
-   "scale_x": 0.912,
+   "scale_x": 1.064,
    "rotate": 2.0,
    "fit_iou": 0.783
   },
@@ -73,15 +73,15 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "2",
-   "x": 246.0,
-   "y": -40.0,
-   "size": 229.2,
+   "x": 255.0,
+   "y": -49.0,
+   "size": 238.1,
    "box": [
     257,
     0,
@@ -89,7 +89,7 @@
     212
    ],
    "skew": 3.4,
-   "scale_x": 0.932,
+   "scale_x": 1.067,
    "rotate": 2.0,
    "fit_iou": 0.783
   },
@@ -145,8 +145,8 @@
    "tol": 15,
    "text": "上",
    "x": 692.0,
-   "y": -15.5,
-   "size": 207.4,
+   "y": -19.5,
+   "size": 211.4,
    "box": [
     697,
     0,
@@ -154,7 +154,7 @@
     212
    ],
    "skew": 3.7,
-   "scale_x": 0.864,
+   "scale_x": 0.846,
    "fit_iou": 0.838
   },
   {
@@ -165,9 +165,9 @@
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "半",
-   "x": 889.5,
-   "y": -20.5,
-   "size": 203.0,
+   "x": 885.5,
+   "y": -22.5,
+   "size": 206.9,
    "box": [
     890,
     0,
@@ -175,7 +175,7 @@
     212
    ],
    "skew": 3.4,
-   "scale_x": 0.913,
+   "scale_x": 0.931,
    "rotate": 1.85,
    "fit_iou": 0.828
   },
@@ -202,7 +202,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
@@ -218,15 +218,15 @@
    "skew": 0.3,
    "fit_iou": 0.642,
    "text": "買",
-   "x": 14.3,
-   "y": 595.0,
+   "x": 11.3,
+   "y": 597.0,
    "anchor": "lc",
-   "size": 223.1,
+   "size": 227.6,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
@@ -237,35 +237,35 @@
     299,
     220
    ],
-   "scale_x": 0.734,
+   "scale_x": 0.856,
    "rotate": 0,
    "skew": 0.3,
    "fit_iou": 0.642,
    "text": "っ",
-   "x": 191.4,
-   "y": 629.0,
+   "x": 180.4,
+   "y": 625.0,
    "anchor": "lc",
-   "size": 177.1,
+   "size": 180.6,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "て",
-   "x": 312.0,
-   "y": 542.5,
-   "size": 154.3,
+   "x": 299.0,
+   "y": 539.5,
+   "size": 160.5,
    "box": [
     318,
     500,
     131,
     220
    ],
-   "scale_x": 0.886,
+   "scale_x": 0.976,
    "rotate": -2.0,
    "skew": -0.6,
    "fit_iou": 0.784
@@ -278,9 +278,9 @@
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "よ",
-   "x": 443.0,
-   "y": 533.5,
-   "size": 159.3,
+   "x": 441.0,
+   "y": 531.5,
+   "size": 162.5,
    "box": [
     454,
     500,
@@ -319,16 +319,16 @@
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "っ",
-   "x": 730.0,
-   "y": 552.5,
-   "size": 141.7,
+   "x": 726.0,
+   "y": 550.5,
+   "size": 144.5,
    "box": [
     738,
     500,
     112,
     220
    ],
-   "scale_x": 0.867,
+   "scale_x": 0.884,
    "skew": 3,
    "rotate": -0.3,
    "fit_iou": 0.869
@@ -342,15 +342,15 @@
    "tol": 15,
    "text": "た",
    "x": 844.5,
-   "y": 534.0,
-   "size": 161.0,
+   "y": 532.0,
+   "size": 164.2,
    "box": [
     855,
     500,
     134,
     220
    ],
-   "scale_x": 0.913,
+   "scale_x": 0.894,
    "rotate": -0.65,
    "fit_iou": 0.802
   },
@@ -378,22 +378,22 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "の",
-   "x": 1128.0,
-   "y": 533.5,
-   "size": 158.6,
+   "x": 1124.0,
+   "y": 529.5,
+   "size": 168.1,
    "box": [
     1132,
     500,
     138,
     220
    ],
-   "scale_x": 0.922,
+   "scale_x": 0.904,
    "rotate": 0.3,
    "fit_iou": 0.889
   }
