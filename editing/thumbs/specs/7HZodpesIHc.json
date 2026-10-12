@@ -1,1 +1,472 @@
-{"id": "7HZodpesIHc", "erase": [{"rect": [55, 52, 107, 41], "colors": ["#ffffff", "#e8e8e8"], "tol": 30, "grow": 2}, {"rect": [254, 207, 406, 84], "full": true}, {"rect": [34, 33, 1212, 12], "colors": ["#ffffff"], "tol": 30}, {"rect": [34, 675, 1212, 11], "colors": ["#ffffff"], "tol": 30}, {"rect": [34, 33, 11, 653], "colors": ["#ffffff"], "tol": 30}, {"rect": [1234, 33, 11, 653], "colors": ["#ffffff"], "tol": 30}, {"rect": [670, 205, 355, 90], "colors": ["#ffffff"], "tol": 14}, {"rect": [60, 310, 1160, 165], "colors": ["#ffffff"], "tol": 14}, {"rect": [835, 578, 395, 85], "colors": ["#ffffff"], "tol": 16}], "grow": 9, "front": [[[845, 0], [1100, 0], [1100, 58], [845, 58]]], "layers": [{"type": "rect", "x": 39, "y": 38, "w": 1202, "h": 644, "border": [2, "#ffffff"]}, {"type": "image", "src": "assets/logos/shiun_white_7hzo.png", "x": 59, "y": 56, "w": 98, "h": 32}, {"type": "rect", "x": 256, "y": 209, "w": 403, "h": 80, "fill": "#ffffff"}, {"type": "text", "text": "低身長男性", "x": 256.5, "y": 201.0, "font": "KleeOne", "weight": 600, "size": 79.8, "color": "#111111", "palt": true, "m": [258, 211, 399, 76, "#111111", 60], "scale_x": 0.995}, {"type": "text", "font": "NotoSerifJP", "weight": 900, "color": "#ffffff", "palt": true, "scale_x": 1.02, "_tgt": [679, 215, 1016, 286], "text": "の", "x": 670.5, "y": 246.0, "anchor": "lc", "size": 83.4, "line": 1.0}, {"type": "text", "font": "NotoSerifJP", "weight": 900, "color": "#ffffff", "palt": true, "scale_x": 0.997, "_tgt": [679, 215, 1016, 286], "text": "た", "x": 760.4, "y": 246.0, "anchor": "lc", "size": 81.7, "line": 1.0}, {"type": "text", "font": "NotoSerifJP", "weight": 900, "color": "#ffffff", "palt": true, "scale_x": 1.0, "_tgt": [679, 215, 1016, 286], "text": "め", "x": 846.8, "y": 247.0, "anchor": "lc", "size": 83.4, "line": 1.0}, {"type": "text", "font": "NotoSerifJP", "weight": 900, "color": "#ffffff", "palt": true, "scale_x": 1.02, "_tgt": [679, 215, 1016, 286], "text": "の", "x": 936.1, "y": 246.0, "anchor": "lc", "size": 83.4, "line": 1.0}, {"type": "text", "text": "過", "x": 150.0, "y": 376.5, "font": "ShipporiMinchoB1", "weight": 800, "size": 166.6, "color": "#ffffff", "palt": true, "scale_x": 1.078, "anchor": "cc", "tgt": [69.0, 310.0, 231.0, 464.0]}, {"type": "text", "text": "去", "x": 320.0, "y": 378.5, "font": "ShipporiMinchoB1", "weight": 800, "size": 159.8, "color": "#ffffff", "palt": true, "scale_x": 1.073, "anchor": "cc", "tgt": [245.0, 309.0, 398.0, 464.0]}, {"type": "text", "text": "最", "x": 488.5, "y": 375.0, "font": "ShipporiMinchoB1", "weight": 800, "size": 169.7, "color": "#ffffff", "palt": true, "scale_x": 1.034, "anchor": "cc", "tgt": [414.0, 308.0, 570.0, 466.0]}, {"type": "text", "text": "高", "x": 662.0, "y": 375.5, "font": "ShipporiMinchoB1", "weight": 800, "size": 167.6, "color": "#ffffff", "palt": true, "scale_x": 1.034, "anchor": "cc", "tgt": [587.0, 308.0, 741.0, 465.0]}, {"type": "text", "text": "の", "x": 808.5, "y": 400.0, "font": "ZenOldMincho", "weight": 900, "size": 119.8, "color": "#ffffff", "palt": true, "scale_x": 1.104, "anchor": "cc", "tgt": [757.0, 363.0, 862.0, 452.0]}, {"type": "text", "text": "春", "x": 955.5, "y": 377.5, "font": "ShipporiMinchoB1", "weight": 800, "size": 170.7, "color": "#ffffff", "palt": true, "scale_x": 1.046, "anchor": "cc", "tgt": [879.0, 308.0, 1039.0, 466.0]}, {"type": "text", "text": "服", "x": 1129.0, "y": 375.5, "font": "ShipporiMinchoB1", "weight": 800, "size": 162.0, "color": "#ffffff", "palt": true, "scale_x": 1.077, "anchor": "cc", "tgt": [1049.0, 310.0, 1210.0, 464.0]}, {"type": "text", "text": "24Spring 2nd Collection", "x": 870.0, "y": 584.0, "font": "NotoSerifJP", "weight": 900, "size": 36.0, "color": "#ffffff", "scale_x": 0.775, "_tgt": [867, 586, 1217, 624]}, {"type": "text", "text": "2024.03.16 sat. 22:00 - Release", "x": 952.0, "y": 630.0, "font": "EBGaramond", "weight": 700, "size": 29.3, "color": "#ffffff", "scale_x": 0.693, "_tgt": [843, 631, 1216, 655]}]}
+{
+ "id": "7HZodpesIHc",
+ "erase": [
+  {
+   "rect": [
+    55,
+    52,
+    107,
+    41
+   ],
+   "colors": [
+    "#ffffff",
+    "#e8e8e8"
+   ],
+   "tol": 30,
+   "grow": 2
+  },
+  {
+   "rect": [
+    254,
+    207,
+    406,
+    84
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    34,
+    33,
+    1212,
+    12
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    675,
+    1212,
+    11
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    34,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    1234,
+    33,
+    11,
+    653
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    670,
+    205,
+    355,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    60,
+    310,
+    1160,
+    165
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    835,
+    578,
+    395,
+    85
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 16
+  }
+ ],
+ "grow": 9,
+ "front": [
+  [
+   [
+    845,
+    0
+   ],
+   [
+    1100,
+    0
+   ],
+   [
+    1100,
+    58
+   ],
+   [
+    845,
+    58
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 39,
+   "y": 38,
+   "w": 1202,
+   "h": 644,
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/shiun_white_7hzo.png",
+   "x": 59,
+   "y": 56,
+   "w": 98,
+   "h": 32
+  },
+  {
+   "type": "rect",
+   "x": 256,
+   "y": 209,
+   "w": 403,
+   "h": 80,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "低身長男性",
+   "x": 256.5,
+   "y": 201.0,
+   "font": "KleeOne",
+   "weight": 600,
+   "size": 79.8,
+   "color": "#111111",
+   "palt": true,
+   "m": [
+    258,
+    211,
+    399,
+    76,
+    "#111111",
+    60
+   ],
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.081,
+   "_tgt": [
+    679,
+    215,
+    1016,
+    286
+   ],
+   "text": "の",
+   "x": 667.5,
+   "y": 247.0,
+   "anchor": "lc",
+   "size": 85.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.997,
+   "_tgt": [
+    679,
+    215,
+    1016,
+    286
+   ],
+   "text": "た",
+   "x": 759.4,
+   "y": 247.0,
+   "anchor": "lc",
+   "size": 83.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.0,
+   "_tgt": [
+    679,
+    215,
+    1016,
+    286
+   ],
+   "text": "め",
+   "x": 845.8,
+   "y": 247.0,
+   "anchor": "lc",
+   "size": 85.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.081,
+   "_tgt": [
+    679,
+    215,
+    1016,
+    286
+   ],
+   "text": "の",
+   "x": 933.1,
+   "y": 247.0,
+   "anchor": "lc",
+   "size": 85.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "text": "過",
+   "x": 150.0,
+   "y": 376.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 166.6,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.078,
+   "anchor": "cc",
+   "tgt": [
+    69.0,
+    310.0,
+    231.0,
+    464.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "去",
+   "x": 320.0,
+   "y": 378.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 159.8,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.073,
+   "anchor": "cc",
+   "tgt": [
+    245.0,
+    309.0,
+    398.0,
+    464.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "最",
+   "x": 488.5,
+   "y": 375.0,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 169.7,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.034,
+   "anchor": "cc",
+   "tgt": [
+    414.0,
+    308.0,
+    570.0,
+    466.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "高",
+   "x": 662.0,
+   "y": 375.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 167.6,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.034,
+   "anchor": "cc",
+   "tgt": [
+    587.0,
+    308.0,
+    741.0,
+    465.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "の",
+   "x": 808.5,
+   "y": 400.0,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 119.8,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.104,
+   "anchor": "cc",
+   "tgt": [
+    757.0,
+    363.0,
+    862.0,
+    452.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "春",
+   "x": 955.5,
+   "y": 377.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 170.7,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.046,
+   "anchor": "cc",
+   "tgt": [
+    879.0,
+    308.0,
+    1039.0,
+    466.0
+   ]
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 1129.0,
+   "y": 377.5,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
+   "size": 165.2,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.055,
+   "anchor": "cc",
+   "tgt": [
+    1049.0,
+    310.0,
+    1210.0,
+    464.0
+   ]
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "color": "#ffffff",
+   "scale_x": 0.791,
+   "_tgt": [
+    867,
+    586,
+    1217,
+    624
+   ],
+   "text": "24Spring",
+   "x": 868,
+   "y": 602.5,
+   "anchor": "lc",
+   "size": 38.2,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "color": "#ffffff",
+   "scale_x": 0.76,
+   "_tgt": [
+    867,
+    586,
+    1217,
+    624
+   ],
+   "text": "2nd",
+   "x": 1007.3,
+   "y": 601.5,
+   "anchor": "lc",
+   "size": 39.0,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "KaiseiTokumin",
+   "weight": 800,
+   "color": "#ffffff",
+   "scale_x": 0.744,
+   "_tgt": [
+    867,
+    586,
+    1217,
+    624
+   ],
+   "text": "Collection",
+   "x": 1069.8,
+   "y": 601.5,
+   "anchor": "lc",
+   "size": 39.0,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "text": "2024.03.16 sat. 22:00 - Release",
+   "x": 952.0,
+   "y": 631.0,
+   "font": "EBGaramond",
+   "weight": 700,
+   "size": 28.1,
+   "color": "#ffffff",
+   "scale_x": 0.721,
+   "_tgt": [
+    843,
+    631,
+    1216,
+    655
+   ]
+  }
+ ]
+}

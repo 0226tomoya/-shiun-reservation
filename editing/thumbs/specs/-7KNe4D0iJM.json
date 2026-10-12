@@ -72,7 +72,8 @@
    "colors": [
     "#000000"
    ],
-   "tol": 50
+   "tol": 50,
+   "grow": 5
   },
   {
    "rect": [
@@ -84,7 +85,8 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 30,
+   "grow": 5
   },
   {
    "rect": [
@@ -96,7 +98,8 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 30,
+   "grow": 5
   }
  ],
  "layers": [
@@ -1316,5 +1319,5 @@
    "fit_iou": 0.513
   }
  ],
- "grow": 5
+ "grow": 11
 }

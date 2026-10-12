@@ -605,20 +605,20 @@
   },
   {
    "type": "text",
-   "x": 8.5,
-   "y": 441.0,
+   "x": 0.5,
+   "y": 429.0,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 250.4,
+   "size": 270.4,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -630,24 +630,25 @@
     259,
     700
    ],
-   "scale_x": 1.03
+   "scale_x": 1.03,
+   "notune": true
   },
   {
    "type": "text",
-   "x": 274.0,
-   "y": 441.5,
+   "x": 265.0,
+   "y": 430.5,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 245.6,
+   "size": 260.3,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -659,24 +660,25 @@
     520,
     700
    ],
-   "scale_x": 1.038
+   "scale_x": 1.059,
+   "notune": true
   },
   {
    "type": "text",
-   "x": 529.5,
-   "y": 447.0,
+   "x": 522.5,
+   "y": 438.0,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 246.3,
+   "size": 261.1,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -688,24 +690,25 @@
     771,
     700
    ],
-   "scale_x": 1.016
+   "scale_x": 1.016,
+   "notune": true
   },
   {
    "type": "text",
-   "x": 789.0,
-   "y": 416.5,
+   "x": 784.0,
+   "y": 404.5,
    "font": "NotoSansJP",
-   "weight": 800,
-   "size": 259.0,
+   "weight": 900,
+   "size": 279.7,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -717,7 +720,8 @@
     1120,
     689
    ],
-   "scale_x": 0.986
+   "scale_x": 0.947,
+   "notune": true
   },
   {
    "type": "text",
@@ -730,11 +734,11 @@
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -746,7 +750,8 @@
     1204,
     689
    ],
-   "scale_x": 0.98
+   "scale_x": 0.98,
+   "notune": true
   },
   {
    "type": "text",
@@ -759,11 +764,11 @@
    "palt": true,
    "strokes": [
     [
-     7,
+     3,
      "#ffffff"
     ],
     [
-     3,
+     4,
      "#111111"
     ]
    ],
@@ -775,7 +780,8 @@
     1278,
     689
    ],
-   "scale_x": 0.693
+   "scale_x": 0.693,
+   "notune": true
   }
  ]
 }

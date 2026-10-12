@@ -116,13 +116,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.982,
+   "scale_x": 0.962,
    "fit_iou": 0.521,
    "text": "服",
-   "x": 380.5,
-   "y": 41.0,
+   "x": 382.5,
+   "y": 40.0,
    "anchor": "lc",
-   "size": 46.9
+   "size": 45.0,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -148,10 +149,11 @@
    "scale_x": 0.885,
    "fit_iou": 0.521,
    "text": "好",
-   "x": 432.1,
-   "y": 46.0,
+   "x": 431.1,
+   "y": 47.0,
    "anchor": "lc",
-   "size": 60.1
+   "size": 61.3,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -174,13 +176,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.885,
+   "scale_x": 0.867,
    "fit_iou": 0.521,
    "text": "き",
    "x": 492.6,
    "y": 47.0,
    "anchor": "lc",
-   "size": 61.4
+   "size": 62.6,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -203,13 +206,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.943,
+   "scale_x": 0.924,
    "fit_iou": 0.521,
    "text": "な",
    "x": 554.2,
    "y": 48.0,
    "anchor": "lc",
-   "size": 57.9
+   "size": 57.9,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -238,7 +242,8 @@
    "x": 612.8,
    "y": 46.0,
    "anchor": "lc",
-   "size": 59.1
+   "size": 59.1,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -261,13 +266,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.924,
+   "scale_x": 0.942,
    "fit_iou": 0.521,
    "text": "絶",
    "x": 674.3,
    "y": 46.0,
    "anchor": "lc",
-   "size": 60.2
+   "size": 60.2,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -290,42 +296,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.924,
+   "scale_x": 0.906,
    "fit_iou": 0.521,
    "text": "対",
    "x": 736.9,
-   "y": 48.0,
-   "anchor": "lc",
-   "size": 57.9
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "strokes": [
-    [
-     3,
-     "#1a1a1a"
-    ]
-   ],
-   "shadow": "0 0 8px rgba(0,0,0,.5)",
-   "line": 1.0,
-   "box": [
-    365,
-    8,
-    912,
-    82
-   ],
-   "fit_color": "#ffffff",
-   "tol": 20,
-   "scale_x": 0.924,
-   "fit_iou": 0.521,
-   "text": "に",
-   "x": 797.5,
    "y": 47.0,
    "anchor": "lc",
-   "size": 55.5
+   "size": 59.1,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -348,13 +326,44 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 1.046,
+   "scale_x": 0.942,
+   "fit_iou": 0.521,
+   "text": "に",
+   "x": 796.5,
+   "y": 47.0,
+   "anchor": "lc",
+   "size": 55.5,
+   "grp": "P1"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "shadow": "0 0 8px rgba(0,0,0,.5)",
+   "line": 1.0,
+   "box": [
+    365,
+    8,
+    912,
+    82
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.025,
    "fit_iou": 0.521,
    "text": "知",
-   "x": 857.1,
-   "y": 44.0,
+   "x": 856.1,
+   "y": 46.0,
    "anchor": "lc",
-   "size": 53.4
+   "size": 55.5,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -377,13 +386,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.904,
+   "scale_x": 0.868,
    "fit_iou": 0.521,
    "text": "っ",
    "x": 923.6,
    "y": 51.0,
    "anchor": "lc",
-   "size": 49.0
+   "size": 50.0,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -410,9 +420,10 @@
    "fit_iou": 0.521,
    "text": "て",
    "x": 979.2,
-   "y": 47.0,
+   "y": 48.0,
    "anchor": "lc",
-   "size": 53.4
+   "size": 55.5,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -435,13 +446,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.944,
+   "scale_x": 0.963,
    "fit_iou": 0.521,
    "text": "お",
    "x": 1037.9,
    "y": 46.0,
    "anchor": "lc",
-   "size": 56.7
+   "size": 56.7,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -464,13 +476,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 0.885,
+   "scale_x": 0.92,
    "fit_iou": 0.521,
    "text": "く",
-   "x": 1100.5,
+   "x": 1099.5,
    "y": 47.0,
    "anchor": "lc",
-   "size": 46.9
+   "size": 48.8,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -493,13 +506,14 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 1.107,
+   "scale_x": 1.151,
    "fit_iou": 0.521,
    "text": "べ",
-   "x": 1159.0,
-   "y": 45.0,
+   "x": 1160.0,
+   "y": 43.0,
    "anchor": "lc",
-   "size": 46.9
+   "size": 45.0,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -528,7 +542,8 @@
    "x": 1217.6,
    "y": 46.0,
    "anchor": "lc",
-   "size": 62.6
+   "size": 62.6,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -549,10 +564,11 @@
    "rotate": 0.15,
    "fit_iou": 0.446,
    "text": "フ",
-   "x": 511.6,
-   "y": 152.5,
+   "x": 509.6,
+   "y": 153.5,
    "anchor": "lc",
-   "size": 131.9
+   "size": 134.5,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -568,15 +584,16 @@
     125
    ],
    "tol": 20,
-   "scale_x": 0.818,
+   "scale_x": 0.834,
    "skew": -10,
    "rotate": 0.15,
    "fit_iou": 0.446,
    "text": "ァ",
-   "x": 640.7,
-   "y": 157.5,
+   "x": 637.7,
+   "y": 158.5,
    "anchor": "lc",
-   "size": 105.1
+   "size": 109.3,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -592,7 +609,7 @@
     125
    ],
    "tol": 20,
-   "scale_x": 0.871,
+   "scale_x": 0.836,
    "skew": -10,
    "rotate": 0.15,
    "fit_iou": 0.446,
@@ -600,7 +617,8 @@
    "x": 735.8,
    "y": 163.5,
    "anchor": "lc",
-   "size": 115.5
+   "size": 120.1,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -621,10 +639,11 @@
    "rotate": 0.15,
    "fit_iou": 0.446,
    "text": "シ",
-   "x": 833.4,
+   "x": 832.4,
    "y": 155.5,
    "anchor": "lc",
-   "size": 140.1
+   "size": 142.9,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -640,15 +659,16 @@
     125
    ],
    "tol": 20,
-   "scale_x": 0.925,
+   "scale_x": 0.944,
    "skew": -10,
    "rotate": 0.15,
    "fit_iou": 0.446,
    "text": "ョ",
-   "x": 959.4,
-   "y": 168.5,
+   "x": 956.4,
+   "y": 167.5,
    "anchor": "lc",
-   "size": 109.0
+   "size": 111.2,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -669,10 +689,11 @@
    "rotate": 0.15,
    "fit_iou": 0.446,
    "text": "ン",
-   "x": 1055.0,
-   "y": 157.5,
+   "x": 1053.0,
+   "y": 155.5,
    "anchor": "lc",
-   "size": 148.4
+   "size": 154.3,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -696,7 +717,8 @@
    "x": 1176.3,
    "y": 174.0,
    "anchor": "lc",
-   "size": 107.9
+   "size": 107.9,
+   "grp": "P16"
   },
   {
    "type": "text",
@@ -718,7 +740,8 @@
    "x": 692,
    "y": 343.5,
    "anchor": "lc",
-   "size": 226.6
+   "size": 226.6,
+   "grp": "P23"
   },
   {
    "type": "text",
@@ -740,7 +763,8 @@
    "x": 889.4,
    "y": 346.5,
    "anchor": "lc",
-   "size": 217.9
+   "size": 217.9,
+   "grp": "P23"
   },
   {
    "type": "text",
@@ -770,7 +794,8 @@
    "x": 696.6,
    "y": 581.5,
    "anchor": "lc",
-   "size": 227.9
+   "size": 227.9,
+   "grp": "P25"
   },
   {
    "type": "text",
@@ -800,7 +825,8 @@
    "x": 813.6,
    "y": 581.5,
    "anchor": "lc",
-   "size": 227.6
+   "size": 227.6,
+   "grp": "P25"
   },
   {
    "type": "text",
@@ -822,15 +848,16 @@
    ],
    "fit_color": "#fce40c",
    "tol": 40,
-   "scale_x": 0.846,
+   "scale_x": 0.863,
    "rotate": 0.65,
    "skew": -0.3,
    "fit_iou": 0.549,
    "text": "選",
-   "x": 940.7,
-   "y": 609.5,
+   "x": 942.7,
+   "y": 610.5,
    "anchor": "lc",
-   "size": 177.5
+   "size": 170.4,
+   "grp": "P25"
   },
   {
    "type": "text",
@@ -860,7 +887,8 @@
    "x": 78.6,
    "y": 57.5,
    "anchor": "lc",
-   "size": 39.9
+   "size": 39.9,
+   "grp": "P28"
   },
   {
    "type": "text",
@@ -890,7 +918,8 @@
    "x": 124.6,
    "y": 55.5,
    "anchor": "lc",
-   "size": 33.2
+   "size": 33.2,
+   "grp": "P28"
   },
   {
    "type": "text",
@@ -920,7 +949,8 @@
    "x": 2.0,
    "y": 124.5,
    "anchor": "lc",
-   "size": 59.2
+   "size": 59.2,
+   "grp": "P30"
   },
   {
    "type": "text",
@@ -950,7 +980,8 @@
    "x": 43.4,
    "y": 122.5,
    "anchor": "lc",
-   "size": 72.8
+   "size": 72.8,
+   "grp": "P30"
   },
   {
    "type": "text",
@@ -980,7 +1011,8 @@
    "x": 91.9,
    "y": 119.5,
    "anchor": "lc",
-   "size": 74.3
+   "size": 74.3,
+   "grp": "P30"
   },
   {
    "type": "text",
@@ -1010,7 +1042,8 @@
    "x": 142.3,
    "y": 115.5,
    "anchor": "lc",
-   "size": 71.4
+   "size": 71.4,
+   "grp": "P30"
   },
   {
    "type": "text",
@@ -1040,16 +1073,13 @@
    "x": 187.1,
    "y": 107.5,
    "anchor": "lc",
-   "size": 59.2
+   "size": 59.2,
+   "grp": "P30"
   },
   {
    "type": "text",
-   "text": "低身長のメンズ必見‼",
-   "x": 45.5,
-   "y": 609.5,
-   "font": "YuseiMagic",
+   "font": "ZenKurenaido",
    "weight": 400,
-   "size": 60.2,
    "color": "#ffffff",
    "strokes": [
     [
@@ -1066,10 +1096,295 @@
    ],
    "fit_color": "#ffffff",
    "tol": 20,
-   "scale_x": 1.044,
+   "scale_x": 0.95,
    "skew": 1,
-   "spacing": 0.002,
-   "fit_iou": 0.215
+   "fit_iou": 0.215,
+   "text": "低",
+   "x": 57.7,
+   "y": 645.1,
+   "anchor": "cc",
+   "size": 71.4,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.657,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "身",
+   "x": 135.4,
+   "y": 646.6,
+   "anchor": "cc",
+   "size": 82.5,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.705,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "長",
+   "x": 204.9,
+   "y": 643.0,
+   "anchor": "cc",
+   "size": 81.0,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.925,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "の",
+   "x": 268.6,
+   "y": 647.3,
+   "anchor": "cc",
+   "size": 54.0,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.816,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "メ",
+   "x": 314.0,
+   "y": 644.9,
+   "anchor": "cc",
+   "size": 76.2,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.804,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "ン",
+   "x": 369.1,
+   "y": 641.4,
+   "anchor": "cc",
+   "size": 72.7,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.017,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "ズ",
+   "x": 423.9,
+   "y": 640.7,
+   "anchor": "cc",
+   "size": 58.7,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.888,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "必",
+   "x": 486.9,
+   "y": 642.5,
+   "anchor": "cc",
+   "size": 71.8,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 0.612,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "見",
+   "x": 564.1,
+   "y": 643.0,
+   "anchor": "cc",
+   "size": 77.0,
+   "grp": "L35",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenKurenaido",
+   "weight": 400,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#1a1a1a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    20,
+    598,
+    640,
+    95
+   ],
+   "fit_color": "#ffffff",
+   "tol": 20,
+   "scale_x": 1.078,
+   "skew": 1,
+   "fit_iou": 0.215,
+   "text": "‼",
+   "x": 628.9,
+   "y": 639.5,
+   "anchor": "cc",
+   "size": 82.7,
+   "grp": "L35",
+   "notune": true
   }
  ]
 }

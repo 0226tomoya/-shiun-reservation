@@ -125,12 +125,12 @@
   {
    "type": "text",
    "text": "158cm",
-   "x": 66.0,
+   "x": 64.0,
    "y": 210.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 64.59,
-   "scale_x": 0.713,
+   "size": 63.3,
+   "scale_x": 0.742,
    "spacing": -0.038,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -149,11 +149,11 @@
    "type": "text",
    "text": "165cm",
    "x": 317.5,
-   "y": 210.0,
+   "y": 209.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 62.388,
-   "scale_x": 0.707,
+   "size": 64.9,
+   "scale_x": 0.679,
    "spacing": 0.006,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -171,12 +171,12 @@
   {
    "type": "text",
    "text": "164cm",
-   "x": 577.0,
-   "y": 212.0,
+   "x": 574.0,
+   "y": 210.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 56.224,
-   "scale_x": 0.793,
+   "size": 57.3,
+   "scale_x": 0.809,
    "spacing": 0.008,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -194,11 +194,11 @@
   {
    "type": "text",
    "text": "167cm",
-   "x": 836.0,
-   "y": 212.0,
+   "x": 833.0,
+   "y": 208.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 55.055,
+   "size": 57.3,
    "scale_x": 0.801,
    "spacing": -0.004,
    "color": "#ffffff",
@@ -218,11 +218,11 @@
    "type": "text",
    "text": "170cm",
    "x": 1084.0,
-   "y": 213.0,
+   "y": 212.0,
    "font": "EBGaramond",
    "weight": 700,
-   "size": 60.49,
-   "scale_x": 0.748,
+   "size": 62.9,
+   "scale_x": 0.718,
    "spacing": 0.008,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -258,7 +258,8 @@
    "tol": 12,
    "scale_x": 0.969,
    "rotate": 0.8,
-   "fit_iou": 0.711
+   "fit_iou": 0.711,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -281,7 +282,8 @@
    "tol": 12,
    "scale_x": 0.911,
    "skew": -1,
-   "fit_iou": 0.656
+   "fit_iou": 0.656,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -304,7 +306,8 @@
    "tol": 12,
    "scale_x": 0.944,
    "rotate": 0.35,
-   "fit_iou": 0.806
+   "fit_iou": 0.806,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -328,7 +331,8 @@
    "scale_x": 0.866,
    "rotate": -0.95,
    "skew": 1,
-   "fit_iou": 0.703
+   "fit_iou": 0.703,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -350,7 +354,8 @@
    ],
    "tol": 12,
    "scale_x": 0.959,
-   "fit_iou": 0.782
+   "fit_iou": 0.782,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -374,7 +379,8 @@
    "scale_x": 0.902,
    "rotate": -2.0,
    "skew": -0.3,
-   "fit_iou": 0.76
+   "fit_iou": 0.76,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -398,7 +404,8 @@
    "scale_x": 0.919,
    "rotate": 0.15,
    "skew": -0.3,
-   "fit_iou": 0.736
+   "fit_iou": 0.736,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -422,7 +429,8 @@
    "scale_x": 0.951,
    "rotate": 1.0,
    "skew": -1,
-   "fit_iou": 0.718
+   "fit_iou": 0.718,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -445,7 +453,8 @@
    "tol": 12,
    "scale_x": 0.988,
    "rotate": 0.5,
-   "fit_iou": 0.831
+   "fit_iou": 0.831,
+   "grp": "P6"
   },
   {
    "type": "text",
@@ -467,17 +476,14 @@
    ],
    "tol": 12,
    "scale_x": 0.96,
-   "fit_iou": 0.772
+   "fit_iou": 0.772,
+   "grp": "P6"
   },
   {
    "type": "text",
-   "text": "shiun 26 Spring 3rd Collection",
-   "x": 387.0,
-   "y": 586.5,
    "font": "EBGaramond",
    "weight": 400,
-   "size": 53.61,
-   "scale_x": 0.803,
+   "scale_x": 0.787,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "box": [
@@ -489,18 +495,124 @@
    "tol": 12,
    "skew": -1.3,
    "fit_iou": 0.298,
-   "spacing": 0,
-   "rotate": 0.15
+   "rotate": 0.15,
+   "text": "shiun",
+   "x": 435.7,
+   "y": 615.9,
+   "anchor": "cc",
+   "size": 57.9,
+   "line": 1.0,
+   "grp": "L16"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 400,
+   "scale_x": 0.771,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "tol": 12,
+   "skew": -1.3,
+   "fit_iou": 0.298,
+   "rotate": 0.15,
+   "text": "26",
+   "x": 507.5,
+   "y": 616.3,
+   "anchor": "cc",
+   "size": 57.9,
+   "line": 1.0,
+   "grp": "L16"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 400,
+   "scale_x": 0.819,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "tol": 12,
+   "skew": -1.3,
+   "fit_iou": 0.298,
+   "rotate": 0.15,
+   "text": "Spring",
+   "x": 591.4,
+   "y": 617.4,
+   "anchor": "cc",
+   "size": 54.5,
+   "line": 1.0,
+   "grp": "L16"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 400,
+   "scale_x": 0.771,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "tol": 12,
+   "skew": -1.3,
+   "fit_iou": 0.298,
+   "rotate": 0.15,
+   "text": "3rd",
+   "x": 680.7,
+   "y": 615.7,
+   "anchor": "cc",
+   "size": 56.8,
+   "line": 1.0,
+   "grp": "L16"
+  },
+  {
+   "type": "text",
+   "font": "EBGaramond",
+   "weight": 400,
+   "scale_x": 0.787,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "box": [
+    380,
+    590,
+    520,
+    60
+   ],
+   "tol": 12,
+   "skew": -1.3,
+   "fit_iou": 0.298,
+   "rotate": 0.15,
+   "text": "Collection",
+   "x": 804.1,
+   "y": 616.0,
+   "anchor": "cc",
+   "size": 57.9,
+   "line": 1.0,
+   "grp": "L16"
   },
   {
    "type": "text",
    "text": "2026.3.28 sat 10pm - Release",
-   "x": 454.0,
-   "y": 651.5,
+   "x": 459.0,
+   "y": 650.5,
    "font": "EBGaramond",
    "weight": 400,
-   "size": 42.17,
-   "scale_x": 0.787,
+   "size": 43.0,
+   "scale_x": 0.756,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "box": [

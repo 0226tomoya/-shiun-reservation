@@ -58,17 +58,71 @@
   },
   {
    "type": "text",
-   "text": "25 Autumn 2nd Collection",
-   "x": 920.0,
-   "y": 23.0,
    "font": "Playfair Display",
    "weight": 700,
-   "size": 42.6,
    "scale_x": 0.688,
    "color": "#ffffff",
    "tol": 10,
    "skew": 1,
-   "fit_iou": 0.247
+   "fit_iou": 0.247,
+   "text": "25",
+   "x": 929.6,
+   "y": 37.5,
+   "anchor": "cc",
+   "size": 43.5,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.716,
+   "color": "#ffffff",
+   "tol": 10,
+   "skew": 1,
+   "fit_iou": 0.247,
+   "text": "Autumn",
+   "x": 1007.9,
+   "y": 45.5,
+   "anchor": "cc",
+   "size": 40.9,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.688,
+   "color": "#ffffff",
+   "tol": 10,
+   "skew": 1,
+   "fit_iou": 0.247,
+   "text": "2nd",
+   "x": 1095.4,
+   "y": 44.5,
+   "anchor": "cc",
+   "size": 42.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.688,
+   "color": "#ffffff",
+   "tol": 10,
+   "skew": 1,
+   "fit_iou": 0.247,
+   "text": "Collection",
+   "x": 1196.9,
+   "y": 45.5,
+   "anchor": "cc",
+   "size": 42.6,
+   "line": 1.0,
+   "grp": "L1"
   },
   {
    "type": "text",
@@ -85,7 +139,8 @@
    "x": 138.4,
    "y": 424.5,
    "anchor": "lc",
-   "size": 100.9
+   "size": 100.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -102,7 +157,8 @@
    "x": 225.5,
    "y": 426.5,
    "anchor": "lc",
-   "size": 98.9
+   "size": 98.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -119,7 +175,8 @@
    "x": 315.0,
    "y": 438.5,
    "anchor": "lc",
-   "size": 75.7
+   "size": 75.7,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -136,7 +193,8 @@
    "x": 375.5,
    "y": 425.5,
    "anchor": "lc",
-   "size": 96.7
+   "size": 96.7,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -153,7 +211,8 @@
    "x": 464.6,
    "y": 425.5,
    "anchor": "lc",
-   "size": 109.0
+   "size": 109.0,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -170,7 +229,8 @@
    "x": 554.7,
    "y": 423.5,
    "anchor": "lc",
-   "size": 104.9
+   "size": 104.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -187,7 +247,8 @@
    "x": 642.8,
    "y": 426.5,
    "anchor": "lc",
-   "size": 93.0
+   "size": 93.0,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -204,7 +265,8 @@
    "x": 726.9,
    "y": 426.5,
    "anchor": "lc",
-   "size": 96.9
+   "size": 96.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -221,7 +283,8 @@
    "x": 819.4,
    "y": 435.5,
    "anchor": "lc",
-   "size": 74.2
+   "size": 74.2,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -238,7 +301,8 @@
    "x": 886.9,
    "y": 424.5,
    "anchor": "lc",
-   "size": 96.9
+   "size": 96.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -255,7 +319,8 @@
    "x": 969.0,
    "y": 424.5,
    "anchor": "lc",
-   "size": 104.9
+   "size": 104.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -272,7 +337,8 @@
    "x": 1057.2,
    "y": 424.5,
    "anchor": "lc",
-   "size": 104.9
+   "size": 104.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -289,7 +355,8 @@
    "x": 3.2,
    "y": 585.0,
    "anchor": "lc",
-   "size": 238.6
+   "size": 238.6,
+   "grp": "P17"
   },
   {
    "type": "text",
@@ -306,7 +373,8 @@
    "x": 206.3,
    "y": 580.0,
    "anchor": "lc",
-   "size": 215.2
+   "size": 215.2,
+   "grp": "P17"
   },
   {
    "type": "text",
@@ -323,7 +391,8 @@
    "x": 396.4,
    "y": 584.0,
    "anchor": "lc",
-   "size": 252.6
+   "size": 252.6,
+   "grp": "P17"
   },
   {
    "type": "text",
@@ -340,7 +409,8 @@
    "x": 599.2,
    "y": 629.0,
    "anchor": "lc",
-   "size": 116.2
+   "size": 116.2,
+   "grp": "P20"
   },
   {
    "type": "text",
@@ -357,7 +427,8 @@
    "x": 682.0,
    "y": 594.0,
    "anchor": "lc",
-   "size": 210.5
+   "size": 210.5,
+   "grp": "P20"
   },
   {
    "type": "text",
@@ -374,7 +445,8 @@
    "x": 867.1,
    "y": 581.0,
    "anchor": "lc",
-   "size": 238.4
+   "size": 238.4,
+   "grp": "P20"
   },
   {
    "type": "text",
@@ -391,7 +463,8 @@
    "x": 1067.2,
    "y": 584.0,
    "anchor": "lc",
-   "size": 233.9
+   "size": 233.9,
+   "grp": "P20"
   }
  ]
 }

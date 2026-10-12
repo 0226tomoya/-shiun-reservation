@@ -359,7 +359,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "も",
    "x": 996.0,
@@ -381,7 +380,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 20px rgba(0,0,0,.6)",
    "tol": 15,
    "text": "の",
    "x": 1124.0,
@@ -398,5 +396,5 @@
    "fit_iou": 0.889
   }
  ],
- "grow": 11
+ "grow": 5
 }

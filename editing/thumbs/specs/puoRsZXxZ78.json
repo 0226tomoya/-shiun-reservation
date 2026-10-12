@@ -108,7 +108,8 @@
    "tol": 30,
    "scale_x": 0.839,
    "skew": -5.6,
-   "fit_iou": 0.697
+   "fit_iou": 0.697,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -131,7 +132,8 @@
    "tol": 30,
    "scale_x": 0.857,
    "skew": -4.6,
-   "fit_iou": 0.713
+   "fit_iou": 0.713,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -154,7 +156,8 @@
    "tol": 30,
    "scale_x": 0.875,
    "skew": -5.6,
-   "fit_iou": 0.775
+   "fit_iou": 0.775,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -177,7 +180,8 @@
    "tol": 30,
    "scale_x": 0.919,
    "skew": -5.6,
-   "fit_iou": 0.616
+   "fit_iou": 0.616,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -200,7 +204,8 @@
    "tol": 30,
    "scale_x": 0.926,
    "skew": -5.6,
-   "fit_iou": 0.815
+   "fit_iou": 0.815,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -223,7 +228,8 @@
    "tol": 30,
    "scale_x": 0.895,
    "skew": -5.6,
-   "fit_iou": 0.785
+   "fit_iou": 0.785,
+   "grp": "P1"
   },
   {
    "type": "text",
@@ -246,17 +252,18 @@
    "tol": 30,
    "scale_x": 0.888,
    "skew": -5.6,
-   "fit_iou": 0.853
+   "fit_iou": 0.853,
+   "grp": "P1"
   },
   {
    "type": "text",
    "text": "Steven Alan| COMOLI / MAATEE&SONS",
-   "x": 231.0,
+   "x": 232.0,
    "y": 638.0,
    "font": "CormorantGaramond",
    "weight": 400,
    "italic": true,
-   "size": 41.0,
+   "size": 39.4,
    "color": "#ffffff",
    "spacing": 0.162,
    "line": 1.0,
@@ -267,7 +274,7 @@
     52
    ],
    "tol": 40,
-   "scale_x": 0.852,
+   "scale_x": 0.886,
    "fit_iou": 0.072
   }
  ]
