@@ -58,11 +58,11 @@
   {
    "type": "text",
    "text": "10/18販売開始",
-   "x": 4,
-   "y": -6,
+   "x": 0,
+   "y": -1,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 96,
+   "size": 92.2,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -71,7 +71,8 @@
      "#111111"
     ]
    ],
-   "shadow": "0 0 8px rgba(0,0,0,.6)"
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "scale_x": 1.02
   },
   {
    "type": "text",
@@ -94,35 +95,32 @@
   {
    "type": "text",
    "text": "UNIQLO and\nJW ANDERSON",
-   "x": 0,
-   "y": 330,
+   "x": 7,
+   "y": 342,
    "font": "Oswald",
    "weight": 500,
-   "size": 60,
+   "size": 55.2,
    "line": 0.92,
    "color": "#ffffff",
    "shadow": "0 0 6px rgba(0,0,0,.5)",
-   "scale_x": 0.86
+   "scale_x": 0.791
   },
   {
    "type": "text",
    "text": "2024AW COLLECTION",
-   "x": 0,
-   "y": 447,
+   "x": 8,
+   "y": 449,
    "font": "Oswald",
    "weight": 500,
-   "size": 31,
+   "size": 26.8,
    "color": "#ffffff",
    "shadow": "0 0 6px rgba(0,0,0,.5)",
-   "scale_x": 0.71
+   "scale_x": 0.768
   },
   {
    "type": "text",
-   "x": 3,
-   "y": 480,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 205,
    "palt": true,
    "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
    "strokes": [
@@ -132,16 +130,139 @@
     ]
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
-   "runs": [
-    {
-     "text": "新作コレ買え",
-     "spacing": -0.01
-    },
-    {
-     "text": "‼",
-     "size_em": 0.88
-    }
-   ]
+   "text": "新",
+   "x": 10,
+   "y": 593.5,
+   "anchor": "lc",
+   "size": 213.2,
+   "scale_x": 0.98,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "作",
+   "x": 220.0,
+   "y": 592.5,
+   "anchor": "lc",
+   "size": 209.1,
+   "scale_x": 0.921,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "コ",
+   "x": 425.9,
+   "y": 595.5,
+   "anchor": "lc",
+   "size": 166.0,
+   "scale_x": 1.102,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "レ",
+   "x": 595.8,
+   "y": 595.5,
+   "anchor": "lc",
+   "size": 181.1,
+   "scale_x": 0.941,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "買",
+   "x": 779.4,
+   "y": 592.5,
+   "anchor": "lc",
+   "size": 213.2,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "え",
+   "x": 989.3,
+   "y": 589.5,
+   "anchor": "lc",
+   "size": 217.3,
+   "scale_x": 0.92,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "palt": true,
+   "fill": "linear-gradient(180deg,#c49a3c 0%,#d6bc5e 25%,#ecec8c 50%,#e0d07a 70%,#c09040 100%)",
+   "strokes": [
+    [
+     2,
+     "#2a2410"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.8)",
+   "text": "‼",
+   "x": 1163.6,
+   "y": 607.5,
+   "anchor": "lc",
+   "size": 173.2,
+   "scale_x": 0.96,
+   "line": 1.0
   }
  ]
 }

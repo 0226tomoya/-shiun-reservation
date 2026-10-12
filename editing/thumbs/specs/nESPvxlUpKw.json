@@ -137,15 +137,10 @@
   },
   {
    "type": "text",
-   "text": "絶対買い",
-   "x": 55.5,
-   "y": 350.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 338.87,
-   "skew": -7,
+   "skew": -7.0,
    "line": 1.0,
-   "spacing": -0.04,
    "fill": "linear-gradient(180deg,#f0e8a0 0%,#ece171 30%,#1a0d00 42%,#5a3c05 58%,#cda830 75%,#f7f0b0 100%)",
    "strokes": [
     [
@@ -162,8 +157,103 @@
     1265,
     345
    ],
-   "scale_x": 0.942,
-   "fit_iou": 0.512
+   "scale_x": 0.867,
+   "fit_iou": 0.512,
+   "text": "絶",
+   "x": 33.7,
+   "y": 519.0,
+   "anchor": "lc",
+   "size": 359.2
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "skew": -7.0,
+   "line": 1.0,
+   "fill": "linear-gradient(180deg,#f0e8a0 0%,#ece171 30%,#1a0d00 42%,#5a3c05 58%,#cda830 75%,#f7f0b0 100%)",
+   "strokes": [
+    [
+     9,
+     "#120c02"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.6)",
+   "fit_color": "#ece171",
+   "tol": 50,
+   "box": [
+    10,
+    365,
+    1265,
+    345
+   ],
+   "scale_x": 1.017,
+   "fit_iou": 0.512,
+   "text": "対",
+   "x": 324.1,
+   "y": 532.0,
+   "anchor": "lc",
+   "size": 332.1
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "skew": -7.0,
+   "line": 1.0,
+   "fill": "linear-gradient(180deg,#f0e8a0 0%,#ece171 30%,#1a0d00 42%,#5a3c05 58%,#cda830 75%,#f7f0b0 100%)",
+   "strokes": [
+    [
+     9,
+     "#120c02"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.6)",
+   "fit_color": "#ece171",
+   "tol": 50,
+   "box": [
+    10,
+    365,
+    1265,
+    345
+   ],
+   "scale_x": 0.923,
+   "fit_iou": 0.512,
+   "text": "買",
+   "x": 647.6,
+   "y": 525.0,
+   "anchor": "lc",
+   "size": 345.7
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "skew": -7.0,
+   "line": 1.0,
+   "fill": "linear-gradient(180deg,#f0e8a0 0%,#ece171 30%,#1a0d00 42%,#5a3c05 58%,#cda830 75%,#f7f0b0 100%)",
+   "strokes": [
+    [
+     9,
+     "#120c02"
+    ]
+   ],
+   "shadow": "6px 6px 6px rgba(0,0,0,.6)",
+   "fit_color": "#ece171",
+   "tol": 50,
+   "box": [
+    10,
+    365,
+    1265,
+    345
+   ],
+   "scale_x": 1.017,
+   "fit_iou": 0.512,
+   "text": "い",
+   "x": 954.0,
+   "y": 535.0,
+   "anchor": "lc",
+   "size": 305.0
   }
  ]
 }

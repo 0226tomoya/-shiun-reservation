@@ -142,14 +142,15 @@
   {
    "type": "text",
    "text": "ドライバーズニット待ってました‼",
-   "x": 36,
-   "y": 36,
-   "font": "Noto Sans JP",
+   "x": 16,
+   "y": 26,
+   "font": "ZenKakuGothicNew",
    "weight": 900,
-   "size": 78,
+   "size": 85.8,
    "color": "#ffffff",
    "palt": true,
-   "shadow": "0 0 8px rgba(0,0,0,.35)"
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.92
   },
   {
    "type": "image",
@@ -161,15 +162,15 @@
   },
   {
    "type": "text",
-   "x": 10,
-   "y": 415,
-   "font": "Noto Sans JP",
-   "weight": 800,
-   "size": 210,
+   "x": 27,
+   "y": 427,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 193.2,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "scale_x": 0.93,
+   "scale_x": 0.967,
    "runs": [
     {
      "text": "冬",
@@ -193,13 +194,14 @@
   {
    "type": "text",
    "text": "GU 2024 Autumn/Winter",
-   "x": 640,
-   "y": 648,
+   "x": 641,
+   "y": 658,
    "anchor": "ct",
    "font": "Jost",
    "weight": 400,
-   "size": 64,
-   "color": "#ffffff"
+   "size": 58.9,
+   "color": "#ffffff",
+   "scale_x": 1.02
   }
  ]
 }

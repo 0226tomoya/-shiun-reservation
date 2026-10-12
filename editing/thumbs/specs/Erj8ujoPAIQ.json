@@ -29,9 +29,6 @@
  "layers": [
   {
    "type": "text",
-   "x": 592.0,
-   "y": 268.0,
-   "anchor": "ct",
    "box": [
     50,
     280,
@@ -40,33 +37,168 @@
    ],
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 152.92,
    "color": "#fcfcfc",
    "shadow": "2px 2px 8px rgba(0,0,0,.35)",
-   "spacing": -0.024,
-   "scale_x": 1.0,
-   "runs": [
-    {
-     "text": "大人"
-    },
-    {
-     "text": "の",
-     "size": 124.98
-    },
-    {
-     "text": "秋冬"
-    },
-    {
-     "text": "コーデ",
-     "size": 124.98
-    }
+   "scale_x": 1.04,
+   "fit_iou": 0.508,
+   "text": "大",
+   "x": 47.9,
+   "y": 351.5,
+   "anchor": "lc",
+   "size": 149.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
    ],
-   "fit_iou": 0.508
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 1.061,
+   "fit_iou": 0.508,
+   "text": "人",
+   "x": 200.1,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 152.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 1.0,
+   "fit_iou": 0.508,
+   "text": "の",
+   "x": 349.4,
+   "y": 364.5,
+   "anchor": "lc",
+   "size": 127.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 1.04,
+   "fit_iou": 0.508,
+   "text": "秋",
+   "x": 468.7,
+   "y": 352.5,
+   "anchor": "lc",
+   "size": 149.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 0.846,
+   "fit_iou": 0.508,
+   "text": "冬",
+   "x": 629.9,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 156.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 0.941,
+   "fit_iou": 0.508,
+   "text": "コ",
+   "x": 781.2,
+   "y": 347.5,
+   "anchor": "lc",
+   "size": 145.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 0.865,
+   "fit_iou": 0.508,
+   "text": "ー",
+   "x": 932.5,
+   "y": 352.5,
+   "anchor": "lc",
+   "size": 127.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "box": [
+    50,
+    280,
+    1170,
+    160
+   ],
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#fcfcfc",
+   "shadow": "2px 2px 8px rgba(0,0,0,.35)",
+   "scale_x": 1.058,
+   "fit_iou": 0.508,
+   "text": "デ",
+   "x": 1072.8,
+   "y": 356.5,
+   "anchor": "lc",
+   "size": 148.5,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "2025-26 Autumn&Winter Men’s Outfits 13",
-   "x": 638.0,
+   "x": 635.0,
    "y": 429.0,
    "anchor": "ct",
    "box": [
@@ -77,11 +209,11 @@
    ],
    "font": "Jost",
    "weight": 500,
-   "size": 36.18,
+   "size": 36.0,
    "color": "#f8f9fa",
    "spacing": 0.066,
    "shadow": "1px 1px 4px rgba(0,0,0,.35)",
-   "scale_x": 1.0,
+   "scale_x": 0.994,
    "fit_iou": 0.352
   }
  ],

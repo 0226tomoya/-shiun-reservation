@@ -51,15 +51,15 @@
   {
    "type": "text",
    "text": "COMOLI / NICENESS / Steven Alan / Bonfil / LIDNM",
-   "x": 578,
-   "y": 600,
+   "x": 640.0,
+   "y": 651.5,
    "anchor": "cc",
    "font": "Jost",
    "weight": 500,
-   "size": 35.6,
+   "size": 41.1,
    "rotate": -2.98,
    "fill": "linear-gradient(90deg,#9a8576 0%,#9a8576 6%,#222 9%,#222 52%,#7a5a3c 58%,#6a4c34 82%,#2a2420 86%,#2a2420 100%)",
-   "scale_x": 0.938
+   "scale_x": 1.05
   },
   {
    "type": "text",
@@ -70,11 +70,12 @@
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "scale_x": 0.988,
    "text": "3",
-   "x": 9,
-   "y": 328.0,
+   "x": 8,
+   "y": 331.0,
    "anchor": "lc",
    "size": 213.8,
-   "line": 1.0
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -89,7 +90,8 @@
    "y": 320.0,
    "anchor": "lc",
    "size": 217.9,
-   "line": 1.0
+   "line": 1.0,
+   "rotate": 0.0
   },
   {
    "type": "text",
@@ -98,43 +100,46 @@
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 0.891,
+   "scale_x": 0.909,
    "text": "万",
-   "x": 257.8,
-   "y": 315.5,
-   "anchor": "lc",
-   "size": 199.3,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "palt": true,
-   "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 0.987,
-   "text": "円",
-   "x": 435.1,
-   "y": 304.5,
-   "anchor": "lc",
-   "size": 183.2,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "palt": true,
-   "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 0.944,
-   "text": "分",
-   "x": 615.4,
+   "x": 253.8,
    "y": 320.5,
    "anchor": "lc",
-   "size": 171.7,
-   "line": 1.0
+   "size": 199.3,
+   "line": 1.0,
+   "rotate": -3.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "scale_x": 0.967,
+   "text": "円",
+   "x": 436.1,
+   "y": 304.5,
+   "anchor": "lc",
+   "size": 186.9,
+   "line": 1.0,
+   "rotate": 0.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "scale_x": 1.02,
+   "text": "分",
+   "x": 613.4,
+   "y": 323.5,
+   "anchor": "lc",
+   "size": 161.4,
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -144,12 +149,13 @@
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "text": "冬",
-   "x": 331,
-   "y": 513.5,
+   "x": 327,
+   "y": 519.5,
    "anchor": "lc",
    "size": 200.9,
-   "scale_x": 0.921,
-   "line": 1.0
+   "scale_x": 0.958,
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -159,12 +165,13 @@
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "text": "服",
-   "x": 514.6,
-   "y": 499.5,
+   "x": 511.6,
+   "y": 508.5,
    "anchor": "lc",
-   "size": 188.8,
-   "scale_x": 1.04,
-   "line": 1.0
+   "size": 196.4,
+   "scale_x": 1.019,
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -175,11 +182,12 @@
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "text": "爆",
    "x": 704.2,
-   "y": 493.5,
+   "y": 501.5,
    "anchor": "lc",
-   "size": 205.0,
-   "scale_x": 0.96,
-   "line": 1.0
+   "size": 200.9,
+   "scale_x": 0.979,
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -189,12 +197,13 @@
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "text": "買",
-   "x": 897.8,
-   "y": 483.5,
+   "x": 895.8,
+   "y": 488.5,
    "anchor": "lc",
    "size": 205.0,
    "scale_x": 0.92,
-   "line": 1.0
+   "line": 1.0,
+   "rotate": -3.0
   },
   {
    "type": "text",
@@ -205,11 +214,12 @@
    "shadow": "0 0 10px rgba(0,0,0,.35)",
    "text": "い",
    "x": 1072.4,
-   "y": 481.5,
+   "y": 480.5,
    "anchor": "lc",
-   "size": 173.4,
-   "scale_x": 1.102,
-   "line": 1.0
+   "size": 176.9,
+   "scale_x": 1.08,
+   "line": 1.0,
+   "rotate": 0.0
   }
  ],
  "grow": 17

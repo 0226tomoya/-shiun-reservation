@@ -8,11 +8,7 @@
     181,
     180
    ],
-   "colors": [
-    "#fcf5f6",
-    "#7c0219"
-   ],
-   "tol": 35
+   "full": true
   },
   {
    "rect": [
@@ -427,7 +423,7 @@
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
    "scale_x": 0.907,
-   "skew": 4.3,
+   "skew": 0.0,
    "rotate": 0,
    "fit_iou": 0.69,
    "box": [
@@ -437,7 +433,7 @@
     282
    ],
    "text": "最",
-   "x": 0.7,
+   "x": 3.7,
    "y": 538.5,
    "anchor": "lc",
    "size": 298.0,
@@ -449,8 +445,8 @@
    "weight": 900,
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
-   "scale_x": 0.961,
-   "skew": 4.3,
+   "scale_x": 0.98,
+   "skew": 0.0,
    "rotate": 0,
    "fit_iou": 0.69,
    "box": [
@@ -460,10 +456,10 @@
     282
    ],
    "text": "高",
-   "x": 260.2,
-   "y": 541.5,
+   "x": 265.2,
+   "y": 540.5,
    "anchor": "lc",
-   "size": 292.2,
+   "size": 286.4,
    "line": 1.0
   },
   {
@@ -472,8 +468,8 @@
    "weight": 900,
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
-   "scale_x": 0.853,
-   "skew": 4.3,
+   "scale_x": 0.836,
+   "skew": 0.0,
    "rotate": 0,
    "fit_iou": 0.69,
    "box": [
@@ -483,10 +479,10 @@
     282
    ],
    "text": "す",
-   "x": 536.8,
+   "x": 539.8,
    "y": 543.5,
    "anchor": "lc",
-   "size": 292.2,
+   "size": 298.0,
    "line": 1.0
   },
   {
@@ -495,9 +491,9 @@
    "weight": 900,
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
-   "scale_x": 0.834,
-   "skew": 4.3,
-   "rotate": 0,
+   "scale_x": 0.737,
+   "skew": 0.0,
+   "rotate": -10.0,
    "fit_iou": 0.69,
    "box": [
     5,
@@ -506,10 +502,10 @@
     282
    ],
    "text": "ぎ",
-   "x": 797.3,
-   "y": 548.5,
+   "x": 807.3,
+   "y": 563.5,
    "anchor": "lc",
-   "size": 280.5,
+   "size": 297.3,
    "line": 1.0
   },
   {
@@ -519,7 +515,7 @@
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
    "scale_x": 0.871,
-   "skew": 4.3,
+   "skew": 0.0,
    "rotate": 0,
    "fit_iou": 0.69,
    "box": [
@@ -529,8 +525,8 @@
     282
    ],
    "text": "た",
-   "x": 1020.9,
-   "y": 544.5,
+   "x": 1022.9,
+   "y": 542.5,
    "anchor": "lc",
    "size": 292.2,
    "line": 1.0

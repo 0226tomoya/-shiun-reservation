@@ -42,7 +42,16 @@
    "rect": [
     0,
     660,
-    1280,
+    409,
+    60
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    827,
+    660,
+    453,
     60
    ],
    "full": true
@@ -65,6 +74,18 @@
     470,
     1262,
     192
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 14
+  },
+  {
+   "rect": [
+    505,
+    660,
+    270,
+    45
    ],
    "colors": [
     "#ffffff"
@@ -109,20 +130,28 @@
    "type": "rect",
    "x": 0,
    "y": 660,
-   "w": 1280,
+   "w": 409,
+   "h": 60,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "rect",
+   "x": 827,
+   "y": 660,
+   "w": 453,
    "h": 60,
    "fill": "#ffffff"
   },
   {
    "type": "text",
    "text": "shiun",
-   "x": 35.5,
-   "y": 16.0,
+   "x": 65.0,
+   "y": 26.5,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 700,
-   "size": 42.0,
-   "scale_x": 0.692,
+   "size": 53.2,
+   "scale_x": 0.816,
    "color": "#111111",
    "lock": [
     "skew",
@@ -141,13 +170,13 @@
   {
    "type": "text",
    "text": "26 Summer 2nd Collection",
-   "x": 988.0,
-   "y": 14.5,
+   "x": 1087.0,
+   "y": 26.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 700,
-   "size": 38.0,
-   "scale_x": 0.532,
+   "size": 49.1,
+   "scale_x": 0.605,
    "color": "#111111",
    "lock": [
     "skew",
@@ -165,14 +194,14 @@
   {
    "type": "text",
    "text": "May 30th Sat. 10pm - Release",
-   "x": 638.5,
-   "y": 687.0,
+   "x": 639.5,
+   "y": 680.0,
    "anchor": "cc",
    "font": "Playfair Display",
    "weight": 700,
-   "size": 36.959,
-   "scale_x": 0.594,
-   "color": "#111111",
+   "size": 29.8,
+   "scale_x": 0.658,
+   "color": "#ffffff",
    "lock": [
     "skew",
     "rotate"
@@ -189,8 +218,8 @@
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -199,20 +228,21 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 1.02,
+   "scale_x": 0.959,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "唯",
-   "x": 155.7,
-   "y": 420.0,
+   "x": 156.7,
+   "y": 418.0,
    "anchor": "lc",
-   "size": 78.4,
-   "line": 1.0
+   "size": 81.5,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "NotoSerifJP",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -221,15 +251,16 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.999,
+   "scale_x": 1.059,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "一",
-   "x": 233.7,
+   "x": 234.7,
    "y": 420.0,
    "anchor": "lc",
-   "size": 81.4,
-   "line": 1.0
+   "size": 73.3,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
@@ -247,16 +278,17 @@
    "fit_iou": 0.261,
    "no_init": true,
    "text": "無",
-   "x": 319.6,
+   "x": 318.6,
    "y": 415.0,
    "anchor": "lc",
-   "size": 82.9,
-   "line": 1.0
+   "size": 84.6,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "NotoSerifJP",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -265,20 +297,21 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 1.021,
+   "scale_x": 1.001,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "二",
-   "x": 400.6,
+   "x": 401.6,
    "y": 418.0,
    "anchor": "lc",
-   "size": 69.1,
-   "line": 1.0
+   "size": 66.3,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -287,15 +320,16 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.958,
+   "scale_x": 1.015,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "の",
    "x": 474.6,
-   "y": 432.0,
+   "y": 433.0,
    "anchor": "lc",
-   "size": 67.7,
-   "line": 1.0
+   "size": 63.6,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
@@ -309,15 +343,16 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 1.003,
+   "scale_x": 1.023,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "大",
-   "x": 542.5,
-   "y": 418.0,
+   "x": 540.5,
+   "y": 419.0,
    "anchor": "lc",
-   "size": 70.7,
-   "line": 1.0
+   "size": 73.5,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
@@ -331,20 +366,21 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 1.063,
+   "scale_x": 1.02,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "人",
-   "x": 626.5,
+   "x": 632.5,
    "y": 415.0,
    "anchor": "lc",
-   "size": 66.2,
-   "line": 1.0
+   "size": 59.6,
+   "line": 1.0,
+   "skew": -8.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "NotoSerifJP",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -353,20 +389,21 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.888,
+   "scale_x": 0.835,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "セ",
-   "x": 696.5,
-   "y": 418.0,
+   "x": 700.5,
+   "y": 417.0,
    "anchor": "lc",
-   "size": 93.3,
-   "line": 1.0
+   "size": 84.0,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -375,20 +412,44 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.816,
+   "scale_x": 0.783,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "ッ",
-   "x": 774.5,
+   "x": 773.5,
    "y": 423.0,
    "anchor": "lc",
-   "size": 88.2,
-   "line": 1.0
+   "size": 93.5,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 12px rgba(0,0,0,.5)",
+   "lock": [
+    "skew",
+    "rotate",
+    "size"
+   ],
+   "tol": 12,
+   "scale_x": 0.784,
+   "fit_iou": 0.261,
+   "no_init": true,
+   "text": "ト",
+   "x": 833.4,
+   "y": 416.0,
+   "anchor": "lc",
+   "size": 89.5,
+   "line": 1.0,
+   "skew": 0.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -400,39 +461,18 @@
    "scale_x": 0.834,
    "fit_iou": 0.261,
    "no_init": true,
-   "text": "ト",
-   "x": 835.4,
-   "y": 416.0,
-   "anchor": "lc",
-   "size": 81.4,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "color": "#ffffff",
-   "shadow": "0 0 12px rgba(0,0,0,.5)",
-   "lock": [
-    "skew",
-    "rotate",
-    "size"
-   ],
-   "tol": 12,
-   "scale_x": 0.887,
-   "fit_iou": 0.261,
-   "no_init": true,
    "text": "ア",
-   "x": 900.4,
-   "y": 419.0,
+   "x": 898.4,
+   "y": 417.0,
    "anchor": "lc",
-   "size": 95.0,
-   "line": 1.0
+   "size": 102.6,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -441,20 +481,21 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.816,
+   "scale_x": 0.783,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "ッ",
-   "x": 973.4,
+   "x": 971.4,
    "y": 423.0,
    "anchor": "lc",
-   "size": 88.2,
-   "line": 1.0
+   "size": 93.5,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "lock": [
@@ -463,25 +504,26 @@
     "size"
    ],
    "tol": 12,
-   "scale_x": 0.816,
+   "scale_x": 0.751,
    "fit_iou": 0.261,
    "no_init": true,
    "text": "プ",
-   "x": 1050.3,
-   "y": 415.0,
+   "x": 1051.3,
+   "y": 414.0,
    "anchor": "lc",
-   "size": 88.1,
-   "line": 1.0
+   "size": 95.1,
+   "line": 1.0,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "低",
-   "x": 97.0,
-   "y": 543.5,
+   "x": 98.0,
+   "y": 544.5,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 175.7,
+   "size": 172.2,
    "color": "#ffffff",
    "box": [
     9,
@@ -495,19 +537,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.838,
+   "scale_x": 0.888,
    "fit_iou": 0.483,
-   "spacing": 0.042
+   "spacing": 0.042,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "身",
-   "x": 255.5,
-   "y": 540.5,
+   "x": 257.5,
+   "y": 541.5,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 161.6,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 174.5,
    "color": "#ffffff",
    "box": [
     179,
@@ -521,19 +564,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.859,
+   "scale_x": 0.79,
    "spacing": -0.034,
-   "fit_iou": 0.394
+   "fit_iou": 0.394,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "長",
    "x": 404.0,
-   "y": 538.0,
+   "y": 539.0,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 179.0,
+   "size": 164.7,
    "color": "#ffffff",
    "box": [
     334,
@@ -547,19 +591,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.743,
+   "scale_x": 0.788,
    "fit_iou": 0.268,
-   "spacing": 0
+   "spacing": 0,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "の",
    "x": 552.0,
-   "y": 573.5,
+   "y": 575.5,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 137.8,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 129.5,
    "color": "#ffffff",
    "box": [
     495,
@@ -573,19 +618,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.95,
+   "scale_x": 1.007,
    "spacing": -0.014,
-   "fit_iou": 0.687
+   "fit_iou": 0.687,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "た",
-   "x": 672.0,
-   "y": 571.0,
+   "x": 667.0,
+   "y": 576.0,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 149.3,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 143.3,
    "color": "#ffffff",
    "box": [
     607,
@@ -599,19 +645,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.91,
+   "scale_x": 0.946,
    "spacing": 0,
-   "fit_iou": 0.501
+   "fit_iou": 0.501,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "め",
-   "x": 776.0,
-   "y": 573.5,
+   "x": 777.0,
+   "y": 572.5,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 143.6,
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "size": 129.2,
    "color": "#ffffff",
    "box": [
     722,
@@ -625,19 +672,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.955,
+   "scale_x": 0.898,
    "spacing": -0.04,
-   "fit_iou": 0.653
+   "fit_iou": 0.653,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "の",
    "x": 890.0,
-   "y": 573.0,
+   "y": 576.0,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 143.0,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 134.4,
    "color": "#ffffff",
    "box": [
     832,
@@ -651,9 +699,10 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.886,
+   "scale_x": 0.957,
    "spacing": 0.002,
-   "fit_iou": 0.463
+   "fit_iou": 0.463,
+   "skew": 0.0
   },
   {
    "type": "text",
@@ -661,9 +710,9 @@
    "x": 1014.5,
    "y": 541.0,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 174.4,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 177.9,
    "color": "#ffffff",
    "box": [
     942,
@@ -677,19 +726,20 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.76,
+   "scale_x": 0.699,
    "spacing": -0.092,
-   "fit_iou": 0.407
+   "fit_iou": 0.407,
+   "skew": 0.0
   },
   {
    "type": "text",
    "text": "服",
-   "x": 1177.0,
-   "y": 540.5,
+   "x": 1176.0,
+   "y": 542.5,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 158.8,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 165.2,
    "color": "#ffffff",
    "box": [
     1099,
@@ -703,9 +753,10 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.5)",
    "tol": 12,
-   "scale_x": 0.996,
+   "scale_x": 0.916,
    "spacing": 0.012,
-   "fit_iou": 0.591
+   "fit_iou": 0.591,
+   "skew": 0.0
   }
  ]
 }

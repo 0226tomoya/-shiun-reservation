@@ -36,11 +36,11 @@
   {
    "type": "text",
    "text": "ユニクロ×ホワイトマウンテニアリング",
-   "x": 6,
-   "y": 4,
+   "x": 15,
+   "y": 10,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 57,
+   "size": 57.0,
    "palt": true,
    "strokes": [
     [
@@ -59,7 +59,7 @@
    "y": 488,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 196,
+   "size": 207.8,
    "fill": "linear-gradient(180deg,#bdbdbd 0%,#ffffff 50%,#c4c4c4 100%)",
    "palt": true,
    "strokes": [
@@ -69,7 +69,8 @@
     ]
    ],
    "shadow": "-6px 8px 0 #3a3a3a",
-   "spacing": -0.02
+   "spacing": -0.02,
+   "scale_x": 0.92
   }
  ]
 }

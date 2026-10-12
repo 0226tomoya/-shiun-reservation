@@ -64,12 +64,13 @@
   {
    "type": "text",
    "text": "UNIQLO U 2024AW",
-   "x": 12,
+   "x": 9,
    "y": 0,
    "font": "Oswald",
    "weight": 400,
-   "size": 112,
-   "color": "#fffbd8"
+   "size": 123.2,
+   "color": "#fffbd8",
+   "scale_x": 0.94
   },
   {
    "type": "image",
@@ -81,16 +82,78 @@
   },
   {
    "type": "text",
-   "text": "ユニクロU",
-   "x": 16,
-   "y": 302,
-   "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 172,
+   "font": "NotoSansJP",
+   "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "scale_x": 1.035
+   "scale_x": 1.035,
+   "text": "ユ",
+   "x": 18,
+   "y": 393.0,
+   "anchor": "lc",
+   "size": 154.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 1.076,
+   "text": "ニ",
+   "x": 182.3,
+   "y": 393.0,
+   "anchor": "lc",
+   "size": 154.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.973,
+   "text": "ク",
+   "x": 360.1,
+   "y": 390.0,
+   "anchor": "lc",
+   "size": 158.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.952,
+   "text": "ロ",
+   "x": 501.6,
+   "y": 395.0,
+   "anchor": "lc",
+   "size": 154.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 1.056,
+   "text": "U",
+   "x": 655.0,
+   "y": 399.0,
+   "anchor": "lc",
+   "size": 172.0,
+   "line": 1.0
   },
   {
    "type": "rect",
@@ -130,16 +193,245 @@
   },
   {
    "type": "text",
-   "text": "買うべきアイテム",
-   "x": 6,
-   "y": 516,
-   "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 184,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "spacing": -0.02
+   "text": "買",
+   "x": 10,
+   "y": 612.0,
+   "anchor": "lc",
+   "size": 187.7,
+   "scale_x": 0.94,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "う",
+   "x": 179.3,
+   "y": 611.0,
+   "anchor": "lc",
+   "size": 198.7,
+   "scale_x": 0.92,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "べ",
+   "x": 339.4,
+   "y": 609.0,
+   "anchor": "lc",
+   "size": 165.6,
+   "scale_x": 1.08,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "き",
+   "x": 517.9,
+   "y": 619.0,
+   "anchor": "lc",
+   "size": 165.6,
+   "scale_x": 1.08,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "ア",
+   "x": 685.2,
+   "y": 610.0,
+   "anchor": "lc",
+   "size": 173.0,
+   "scale_x": 0.96,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "イ",
+   "x": 831.7,
+   "y": 609.0,
+   "anchor": "lc",
+   "size": 176.6,
+   "scale_x": 0.92,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "テ",
+   "x": 975.2,
+   "y": 608.0,
+   "anchor": "lc",
+   "size": 165.6,
+   "scale_x": 0.98,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "ム",
+   "x": 1119.0,
+   "y": 612.0,
+   "anchor": "lc",
+   "size": 165.6,
+   "scale_x": 0.98,
+   "line": 1.0
   }
+ ],
+ "front": [
+  [
+   [
+    70,
+    140
+   ],
+   [
+    65,
+    60
+   ],
+   [
+    75,
+    15
+   ],
+   [
+    100,
+    0
+   ],
+   [
+    150,
+    5
+   ],
+   [
+    162,
+    40
+   ],
+   [
+    160,
+    100
+   ],
+   [
+    150,
+    140
+   ]
+  ],
+  [
+   [
+    250,
+    140
+   ],
+   [
+    252,
+    60
+   ],
+   [
+    270,
+    25
+   ],
+   [
+    310,
+    15
+   ],
+   [
+    355,
+    25
+   ],
+   [
+    372,
+    60
+   ],
+   [
+    370,
+    140
+   ]
+  ],
+  [
+   [
+    620,
+    140
+   ],
+   [
+    625,
+    60
+   ],
+   [
+    640,
+    35
+   ],
+   [
+    680,
+    25
+   ],
+   [
+    725,
+    35
+   ],
+   [
+    738,
+    70
+   ],
+   [
+    735,
+    140
+   ]
+  ],
+  [
+   [
+    800,
+    140
+   ],
+   [
+    810,
+    40
+   ],
+   [
+    830,
+    10
+   ],
+   [
+    860,
+    0
+   ],
+   [
+    900,
+    0
+   ],
+   [
+    900,
+    140
+   ]
+  ]
  ]
 }

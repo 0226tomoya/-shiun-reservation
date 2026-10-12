@@ -1,1 +1,354 @@
-{"id": "g1k37XP-dyo", "grow": 9, "erase": [{"rect": [0, 0, 200, 295], "colors": ["#ffffff"], "tol": 30}, {"rect": [410, 12, 840, 135], "colors": ["#ffffff"], "tol": 28}, {"rect": [485, 152, 735, 185], "colors": ["#ffffff", "#e70103"], "tol": 40}, {"rect": [25, 538, 450, 122], "colors": ["#ffffff"], "tol": 30}, {"rect": [545, 438, 725, 236], "colors": ["#e70103"], "tol": 55}], "layers": [{"type": "line", "x1": 556, "y1": 448, "x2": 768, "y2": 661, "width": 16, "color": "#e70103"}, {"type": "line", "x1": 768, "y1": 448, "x2": 556, "y2": 661, "width": 16, "color": "#e70103"}, {"type": "line", "x1": 799, "y1": 448, "x2": 1029, "y2": 662, "width": 16, "color": "#e70103"}, {"type": "line", "x1": 1029, "y1": 448, "x2": 799, "y2": 662, "width": 16, "color": "#e70103"}, {"type": "line", "x1": 1044, "y1": 448, "x2": 1256, "y2": 664, "width": 16, "color": "#e70103"}, {"type": "line", "x1": 1256, "y1": 448, "x2": 1044, "y2": 664, "width": 16, "color": "#e70103"}, {"type": "text", "text": "N", "x": 100, "y": 102, "anchor": "cc", "font": "Dela Gothic One", "weight": 400, "size": 120, "color": "#ffffff"}, {"type": "text", "text": "G", "x": 88, "y": 195, "anchor": "cc", "font": "Dela Gothic One", "weight": 400, "size": 120, "color": "#ffffff"}, {"type": "line", "x1": 148, "y1": 14, "x2": 172, "y2": 62, "width": 6, "color": "#ffffff"}, {"type": "line", "x1": 165, "y1": 240, "x2": 117, "y2": 282, "width": 6, "color": "#ffffff"}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "低身長", "x": 616, "y": 74, "size": 128, "spacing": -0.02}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "が", "x": 874, "y": 80, "size": 112}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "着る", "x": 1048, "y": 76, "size": 124, "spacing": -0.06}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "と", "x": 1206, "y": 82, "size": 100}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#e70103", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "失", "x": 577, "y": 235, "size": 178}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "敗", "x": 751, "y": 235, "size": 178}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "する", "x": 955, "y": 249, "size": 128, "spacing": -0.05}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 8px rgba(0,0,0,.3)", "text": "服", "x": 1143, "y": 235, "size": 178}, {"type": "text", "text": "似合うアイテム選びも\n教えます!!", "x": 248, "y": 600, "anchor": "cc", "align": "center", "font": "Yomogi", "weight": 400, "size": 43, "line": 1.2, "spacing": 0.02, "color": "#ffffff"}]}
+{
+ "id": "g1k37XP-dyo",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    200,
+    295
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    410,
+    12,
+    840,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    485,
+    152,
+    735,
+    185
+   ],
+   "colors": [
+    "#ffffff",
+    "#e70103"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    25,
+    538,
+    450,
+    122
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    545,
+    438,
+    725,
+    236
+   ],
+   "colors": [
+    "#e70103"
+   ],
+   "tol": 55
+  }
+ ],
+ "layers": [
+  {
+   "type": "line",
+   "x1": 556,
+   "y1": 448,
+   "x2": 768,
+   "y2": 661,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "line",
+   "x1": 768,
+   "y1": 448,
+   "x2": 556,
+   "y2": 661,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "line",
+   "x1": 799,
+   "y1": 448,
+   "x2": 1029,
+   "y2": 662,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "line",
+   "x1": 1029,
+   "y1": 448,
+   "x2": 799,
+   "y2": 662,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "line",
+   "x1": 1044,
+   "y1": 448,
+   "x2": 1256,
+   "y2": 664,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "line",
+   "x1": 1256,
+   "y1": 448,
+   "x2": 1044,
+   "y2": 664,
+   "width": 16,
+   "color": "#e70103"
+  },
+  {
+   "type": "text",
+   "text": "N",
+   "x": 79,
+   "y": 76,
+   "anchor": "cc",
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 101.5,
+   "color": "#ffffff",
+   "scale_x": 1.123
+  },
+  {
+   "type": "text",
+   "text": "G",
+   "x": 64,
+   "y": 181,
+   "anchor": "cc",
+   "font": "Dela Gothic One",
+   "weight": 400,
+   "size": 127.2,
+   "color": "#ffffff",
+   "scale_x": 0.902
+  },
+  {
+   "type": "line",
+   "x1": 148,
+   "y1": 14,
+   "x2": 172,
+   "y2": 62,
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 165,
+   "y1": 240,
+   "x2": 117,
+   "y2": 282,
+   "width": 6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "低",
+   "x": 412.7,
+   "y": 70.1,
+   "anchor": "lc",
+   "size": 125.4,
+   "scale_x": 1.081,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "身",
+   "x": 551.1,
+   "y": 65.1,
+   "anchor": "lc",
+   "size": 130.5,
+   "scale_x": 1.037,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "長",
+   "x": 681.6,
+   "y": 65.1,
+   "anchor": "lc",
+   "size": 122.9,
+   "scale_x": 1.103,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "が",
+   "x": 871,
+   "y": 80,
+   "size": 102.9,
+   "skew": 0,
+   "scale_x": 1.101
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "着",
+   "x": 931.6,
+   "y": 65.8,
+   "anchor": "lc",
+   "size": 131.4,
+   "scale_x": 0.98,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "る",
+   "x": 1046.2,
+   "y": 70.8,
+   "anchor": "lc",
+   "size": 130.9,
+   "scale_x": 0.979,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "と",
+   "x": 1213,
+   "y": 78,
+   "size": 116.4,
+   "skew": 0,
+   "scale_x": 1.038
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#e70103",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "失",
+   "x": 579.0,
+   "y": 234.0,
+   "size": 172.5,
+   "skew": 0,
+   "scale_x": 0.957
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "敗",
+   "x": 751,
+   "y": 235,
+   "size": 174.4,
+   "skew": 0,
+   "scale_x": 1.018
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "す",
+   "x": 837.2,
+   "y": 256.1,
+   "anchor": "lc",
+   "size": 135.2,
+   "scale_x": 0.934,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "skew": 0,
+   "text": "る",
+   "x": 954.8,
+   "y": 256.1,
+   "anchor": "lc",
+   "size": 132.4,
+   "scale_x": 0.994,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "服",
+   "x": 1148,
+   "y": 254,
+   "size": 132.7,
+   "skew": 0,
+   "scale_x": 0.994
+  },
+  {
+   "type": "text",
+   "text": "似合うアイテム選びも\n教えます!!",
+   "x": 248,
+   "y": 600,
+   "anchor": "cc",
+   "align": "center",
+   "font": "Yomogi",
+   "weight": 400,
+   "size": 43,
+   "line": 1.2,
+   "spacing": 0.02,
+   "color": "#ffffff"
+  }
+ ]
+}
