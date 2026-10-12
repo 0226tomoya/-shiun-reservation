@@ -42,6 +42,87 @@
  "layers": [
   {
    "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.838,
+   "text": "低",
+   "x": 25,
+   "y": 232.5,
+   "anchor": "lc",
+   "size": 61.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.821,
+   "text": "身",
+   "x": 77.1,
+   "y": 232.5,
+   "anchor": "lc",
+   "size": 59.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.756,
+   "text": "長",
+   "x": 123.2,
+   "y": 232.5,
+   "anchor": "lc",
+   "size": 64.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "font": "NotoSerifJP",
    "weight": 900,
    "color": "#ffffff",
@@ -53,17 +134,100 @@
     1,
     "#fff"
    ],
-   "text": "低身長男性必見",
-   "x": 23.0,
-   "y": 200.5,
-   "size": 59.8,
    "tgt": [
     27,
     208,
     369,
     264
    ],
-   "scale_x": 0.838
+   "scale_x": 0.838,
+   "text": "男",
+   "x": 175.3,
+   "y": 232.5,
+   "anchor": "lc",
+   "size": 59.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.941,
+   "text": "性",
+   "x": 223.4,
+   "y": 233.5,
+   "anchor": "lc",
+   "size": 56.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.855,
+   "text": "必",
+   "x": 271.5,
+   "y": 234.5,
+   "anchor": "lc",
+   "size": 59.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    27,
+    208,
+    369,
+    264
+   ],
+   "scale_x": 0.804,
+   "text": "見",
+   "x": 324.7,
+   "y": 231.5,
+   "anchor": "lc",
+   "size": 58.6,
+   "line": 1.0
   },
   {
    "type": "rect",
@@ -144,13 +308,13 @@
     614,
     472
    ],
-   "scale_x": 0.809,
+   "scale_x": 0.808,
    "skew": -8,
    "text": "最",
    "x": 292.2,
-   "y": 362.0,
+   "y": 363.0,
    "anchor": "lc",
-   "size": 205.9,
+   "size": 205.8,
    "line": 1.0
   },
   {
@@ -221,16 +385,16 @@
     "#fff"
    ],
    "text": "ァ",
-   "x": 724.0,
-   "y": 285.0,
-   "size": 172.7,
+   "x": 727.0,
+   "y": 287.0,
+   "size": 168.5,
    "tgt": [
     722,
     365,
     809,
     459
    ],
-   "scale_x": 0.696,
+   "scale_x": 0.682,
    "skew": -8
   },
   {
@@ -299,7 +463,7 @@
     "#fff"
    ],
    "text": "ョ",
-   "x": 1045.5,
+   "x": 1039.5,
    "y": 282.0,
    "size": 180.5,
    "tgt": [
@@ -308,7 +472,7 @@
     1119,
     447
    ],
-   "scale_x": 0.631,
+   "scale_x": 0.682,
    "skew": -8
   },
   {
@@ -376,16 +540,16 @@
     "#fff"
    ],
    "text": "2024.01.20 sat 22:00 - Release",
-   "x": 550.0,
-   "y": 656.0,
-   "size": 15.6,
+   "x": 551.0,
+   "y": 658.0,
+   "size": 14.1,
    "tgt": [
     545,
     658,
     736,
     671
    ],
-   "scale_x": 0.916
+   "scale_x": 1.009
   }
  ]
 }

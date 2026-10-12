@@ -3,10 +3,19 @@
  "erase": [
   {
    "rect": [
+    36,
     35,
-    33,
-    260,
-    119
+    116,
+    115
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    177,
+    34,
+    116,
+    116
    ],
    "full": true
   },
@@ -58,11 +67,19 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_red_pair_fay.png",
-   "x": 37,
-   "y": 35,
-   "w": 256,
-   "h": 115
+   "src": "assets/logos/uniqlo_kata_red_fay.png",
+   "x": 38,
+   "y": 37,
+   "w": 112,
+   "h": 111
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_fay.png",
+   "x": 179,
+   "y": 36,
+   "w": 112,
+   "h": 112
   },
   {
    "type": "text",

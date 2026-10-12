@@ -107,7 +107,7 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_katakana_red_j9ix.png",
+   "src": "assets/logos/uniqlo_katakana_red_j9ix_r7c.png",
    "x": 15,
    "y": 22,
    "w": 263,
@@ -115,7 +115,7 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_red_square_j9ix.png",
+   "src": "assets/logos/uniqlo_red_square_j9ix_r7c.png",
    "x": 350,
    "y": 22,
    "w": 259,
@@ -275,14 +275,9 @@
   },
   {
    "type": "text",
-   "text": "標準丈",
-   "x": 661.5,
-   "y": 102.5,
-   "anchor": "cc",
    "vertical": true,
    "font": "Noto Sans JP",
    "weight": 700,
-   "size": 44.529,
    "color": "#ffffff",
    "lock": [
     "rotate",
@@ -296,18 +291,97 @@
    ],
    "tol": 25,
    "scale_x": 1.054,
-   "fit_iou": 0.76
+   "fit_iou": 0.76,
+   "text": "標",
+   "x": 660.5,
+   "y": 59.0,
+   "anchor": "cc",
+   "size": 44.5,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "丈短め",
-   "x": 1255.5,
-   "y": 103.0,
+   "vertical": true,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    634,
+    32,
+    56,
+    145
+   ],
+   "tol": 25,
+   "scale_x": 1.033,
+   "fit_iou": 0.76,
+   "text": "準",
+   "x": 661.5,
+   "y": 104.5,
    "anchor": "cc",
+   "size": 45.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "vertical": true,
    "font": "Noto Sans JP",
    "weight": 700,
-   "size": 44.783,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    634,
+    32,
+    56,
+    145
+   ],
+   "tol": 25,
+   "scale_x": 1.033,
+   "fit_iou": 0.76,
+   "text": "丈",
+   "x": 661.5,
+   "y": 147.0,
+   "anchor": "cc",
+   "size": 44.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    1229,
+    32,
+    51,
+    142
+   ],
+   "tol": 25,
+   "scale_x": 0.932,
+   "fit_iou": 0.816,
+   "text": "丈",
+   "x": 1254.6,
+   "y": 58.2,
+   "anchor": "cc",
+   "size": 44.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
    "color": "#ffffff",
    "lock": [
     "rotate",
@@ -321,12 +395,44 @@
    ],
    "tol": 25,
    "scale_x": 1.013,
-   "fit_iou": 0.816
+   "fit_iou": 0.816,
+   "text": "短",
+   "x": 1254.6,
+   "y": 102.0,
+   "anchor": "cc",
+   "size": 44.8,
+   "line": 1.0
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
+   "vertical": true,
+   "font": "NotoSansJP",
    "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    1229,
+    32,
+    51,
+    142
+   ],
+   "tol": 25,
+   "scale_x": 1.054,
+   "fit_iou": 0.816,
+   "text": "め",
+   "x": 1255.6,
+   "y": 147.8,
+   "anchor": "cc",
+   "size": 43.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "lock": [
@@ -335,22 +441,22 @@
    ],
    "tol": 25,
    "text": "今",
-   "x": 26.5,
-   "y": 350.0,
-   "size": 161.194,
+   "x": 23.5,
+   "y": 346.0,
+   "size": 161.2,
    "box": [
     32,
     325,
     145,
     175
    ],
-   "scale_x": 0.877,
+   "scale_x": 0.947,
    "fit_iou": 0.543
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "lock": [
@@ -359,9 +465,9 @@
    ],
    "tol": 25,
    "text": "話",
-   "x": 172.5,
-   "y": 300.5,
-   "size": 181.716,
+   "x": 176.5,
+   "y": 318.5,
+   "size": 170.8,
    "box": [
     172,
     325,
@@ -383,22 +489,22 @@
    ],
    "tol": 25,
    "text": "題",
-   "x": 318.0,
-   "y": 306.0,
-   "size": 163.241,
+   "x": 316.0,
+   "y": 307.0,
+   "size": 160.0,
    "box": [
     320,
     322,
     152,
     178
    ],
-   "scale_x": 0.958,
+   "scale_x": 0.996,
    "fit_iou": 0.569
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "lock": [
@@ -407,16 +513,16 @@
    ],
    "tol": 25,
    "text": "の",
-   "x": 462.0,
-   "y": 336.5,
-   "size": 130.37,
+   "x": 464.0,
+   "y": 342.5,
+   "size": 127.8,
    "box": [
     468,
     345,
     130,
     150
    ],
-   "scale_x": 1.017,
+   "scale_x": 0.936,
    "fit_iou": 0.743
   },
   {
@@ -431,16 +537,16 @@
    ],
    "tol": 25,
    "text": "新",
-   "x": 47.0,
-   "y": 500.5,
-   "size": 191.769,
+   "x": 46.0,
+   "y": 509.5,
+   "size": 180.3,
    "box": [
     40,
     495,
     160,
     210
    ],
-   "scale_x": 0.83,
+   "scale_x": 0.896,
    "fit_iou": 0.48
   },
   {
@@ -455,9 +561,9 @@
    ],
    "tol": 25,
    "text": "作",
-   "x": 197.0,
-   "y": 500.0,
-   "size": 165.96,
+   "x": 195.0,
+   "y": 499.0,
+   "size": 169.3,
    "box": [
     200,
     505,
@@ -469,8 +575,8 @@
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "NotoSerifJP",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "lock": [
@@ -480,21 +586,21 @@
    "tol": 25,
    "text": "デ",
    "x": 349.0,
-   "y": 476.5,
-   "size": 185.654,
+   "y": 475.5,
+   "size": 181.9,
    "box": [
     356,
     500,
     150,
     175
    ],
-   "scale_x": 0.88,
+   "scale_x": 0.862,
    "fit_iou": 0.559
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.4)",
    "lock": [
@@ -503,16 +609,16 @@
    ],
    "tol": 25,
    "text": "ニ",
-   "x": 485.0,
-   "y": 393.5,
-   "size": 302.993,
+   "x": 523.0,
+   "y": 373.5,
+   "size": 284.8,
    "box": [
     500,
     520,
     150,
     150
    ],
-   "scale_x": 0.514,
+   "scale_x": 0.473,
    "fit_iou": 0.147
   },
   {
@@ -527,17 +633,259 @@
    ],
    "tol": 25,
    "text": "ム",
-   "x": 633.5,
-   "y": 433.0,
-   "size": 246.4,
+   "x": 643.5,
+   "y": 402.0,
+   "size": 236.5,
    "box": [
     650,
     495,
     135,
     180
    ],
-   "scale_x": 0.549,
+   "scale_x": 0.593,
    "fit_iou": 0.277
   }
+ ],
+ "front": [
+  [
+   [
+    135,
+    22
+   ],
+   [
+    134,
+    33
+   ],
+   [
+    128,
+    40
+   ],
+   [
+    124,
+    63
+   ],
+   [
+    126,
+    84
+   ],
+   [
+    137,
+    110
+   ],
+   [
+    137,
+    116
+   ],
+   [
+    128,
+    134
+   ],
+   [
+    127,
+    170
+   ],
+   [
+    140,
+    193
+   ],
+   [
+    158,
+    201
+   ],
+   [
+    162,
+    205
+   ],
+   [
+    166,
+    226
+   ],
+   [
+    167,
+    253
+   ],
+   [
+    164,
+    263
+   ],
+   [
+    159,
+    263
+   ],
+   [
+    129,
+    279
+   ],
+   [
+    128,
+    284
+   ],
+   [
+    258,
+    284
+   ],
+   [
+    256,
+    267
+   ],
+   [
+    264,
+    265
+   ],
+   [
+    268,
+    260
+   ],
+   [
+    277,
+    260
+   ],
+   [
+    277,
+    250
+   ],
+   [
+    258,
+    247
+   ],
+   [
+    259,
+    235
+   ],
+   [
+    277,
+    236
+   ],
+   [
+    277,
+    229
+   ],
+   [
+    272,
+    229
+   ],
+   [
+    271,
+    225
+   ],
+   [
+    257,
+    219
+   ],
+   [
+    258,
+    203
+   ],
+   [
+    268,
+    203
+   ],
+   [
+    272,
+    200
+   ],
+   [
+    277,
+    200
+   ],
+   [
+    277,
+    106
+   ],
+   [
+    266,
+    104
+   ],
+   [
+    259,
+    98
+   ],
+   [
+    239,
+    92
+   ],
+   [
+    236,
+    89
+   ],
+   [
+    236,
+    82
+   ],
+   [
+    246,
+    75
+   ],
+   [
+    257,
+    75
+   ],
+   [
+    259,
+    69
+   ],
+   [
+    273,
+    69
+   ],
+   [
+    273,
+    54
+   ],
+   [
+    277,
+    53
+   ],
+   [
+    277,
+    22
+   ]
+  ],
+  [
+   [
+    350,
+    22
+   ],
+   [
+    350,
+    140
+   ],
+   [
+    359,
+    140
+   ],
+   [
+    361,
+    151
+   ],
+   [
+    367,
+    151
+   ],
+   [
+    370,
+    142
+   ],
+   [
+    378,
+    136
+   ],
+   [
+    394,
+    106
+   ],
+   [
+    397,
+    84
+   ],
+   [
+    389,
+    52
+   ],
+   [
+    376,
+    22
+   ]
+  ]
  ]
 }

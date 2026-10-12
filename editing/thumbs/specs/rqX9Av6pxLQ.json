@@ -34,25 +34,8 @@
  "layers": [
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "大人・低身長男性"
-    },
-    {
-     "text": "にも",
-     "size_em": 0.62
-    },
-    {
-     "text": "オススメ!!"
-    }
-   ],
-   "x": 875.5,
-   "y": 35.5,
-   "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 55.2,
-   "spacing": -0.03,
    "color": "#ffffff",
    "strokes": [
     [
@@ -60,14 +43,410 @@
      "#1a1a1a"
     ]
    ],
-   "scale_x": 1.046,
+   "scale_x": 0.904,
    "tgt": [
     491,
     13,
     1260,
     65
    ],
-   "shadow": "0 0 6px rgba(0,0,0,.5)"
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "大",
+   "x": 487.5,
+   "y": 60.1,
+   "anchor": "lc",
+   "size": 44.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 0.984,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "人",
+   "x": 590.5,
+   "y": 54.1,
+   "anchor": "lc",
+   "size": 46.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 0.885,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "・",
+   "x": 563.5,
+   "y": 13.1,
+   "anchor": "lc",
+   "size": 59.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.024,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "低",
+   "x": 641.5,
+   "y": 33.1,
+   "anchor": "lc",
+   "size": 51.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.067,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "身",
+   "x": 695.6,
+   "y": 36.1,
+   "anchor": "lc",
+   "size": 55.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.0,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "長",
+   "x": 753.6,
+   "y": 35.1,
+   "anchor": "lc",
+   "size": 60.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.045,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "男",
+   "x": 810.6,
+   "y": 35.1,
+   "anchor": "lc",
+   "size": 59.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.175,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "性",
+   "x": 868.6,
+   "y": 36.1,
+   "anchor": "lc",
+   "size": 57.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.045,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "に",
+   "x": 935.6,
+   "y": 42.1,
+   "anchor": "lc",
+   "size": 30.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 0.981,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "も",
+   "x": 974.7,
+   "y": 43.1,
+   "anchor": "lc",
+   "size": 36.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.044,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "オ",
+   "x": 1009.7,
+   "y": 36.1,
+   "anchor": "lc",
+   "size": 57.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.066,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "ス",
+   "x": 1064.8,
+   "y": 37.1,
+   "anchor": "lc",
+   "size": 57.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.0,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "ス",
+   "x": 1121.8,
+   "y": 36.1,
+   "anchor": "lc",
+   "size": 56.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 0.924,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "メ",
+   "x": 1175.8,
+   "y": 38.1,
+   "anchor": "lc",
+   "size": 57.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.087,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "!",
+   "x": 1227.8,
+   "y": 35.1,
+   "anchor": "lc",
+   "size": 54.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     4,
+     "#1a1a1a"
+    ]
+   ],
+   "scale_x": 1.004,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "text": "!",
+   "x": 1245.6,
+   "y": 36.1,
+   "anchor": "lc",
+   "size": 55.2,
+   "line": 1.0
   },
   {
    "type": "text",

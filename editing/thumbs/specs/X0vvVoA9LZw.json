@@ -186,20 +186,8 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "無印良品"
-    },
-    {
-     "text": "の",
-     "size_em": 0.8
-    }
-   ],
-   "x": 23.0,
-   "y": -5.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 144.2,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -217,16 +205,134 @@
     "#ffffff",
     10
    ],
-   "scale_x": 0.961
+   "scale_x": 0.976,
+   "text": "無",
+   "x": 24,
+   "y": 72.5,
+   "anchor": "lc",
+   "size": 150.0,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "革財布",
-   "x": 0.5,
-   "y": 149.0,
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    0,
+    710,
+    150,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.999,
+   "text": "印",
+   "x": 161.6,
+   "y": 75.5,
+   "anchor": "lc",
+   "size": 155.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    0,
+    710,
+    150,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.038,
+   "text": "良",
+   "x": 303.1,
+   "y": 80.5,
+   "anchor": "lc",
+   "size": 144.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 242.6,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    0,
+    710,
+    150,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.08,
+   "text": "品",
+   "x": 445.7,
+   "y": 72.5,
+   "anchor": "lc",
+   "size": 141.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    0,
+    710,
+    150,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 0.98,
+   "text": "の",
+   "x": 588.3,
+   "y": 95.5,
+   "anchor": "lc",
+   "size": 99.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -244,7 +350,71 @@
     "#ffffff",
     10
    ],
-   "scale_x": 0.961
+   "scale_x": 1.019,
+   "text": "革",
+   "x": 0.5,
+   "y": 286.5,
+   "anchor": "lc",
+   "size": 237.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    160,
+    710,
+    260,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.019,
+   "text": "財",
+   "x": 222.6,
+   "y": 279.5,
+   "anchor": "lc",
+   "size": 242.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#9a9a9a"
+    ]
+   ],
+   "shadow": "3px 3px 6px rgba(0,0,0,.35)",
+   "m": [
+    0,
+    160,
+    710,
+    260,
+    "#ffffff",
+    10
+   ],
+   "scale_x": 1.019,
+   "text": "布",
+   "x": 457.8,
+   "y": 287.5,
+   "anchor": "lc",
+   "size": 228.0,
+   "line": 1.0
   }
  ]
 }

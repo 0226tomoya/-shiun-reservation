@@ -8,7 +8,12 @@
     112,
     42
    ],
-   "full": true
+   "colors": [
+    "#ffffff",
+    "#e8e8e8"
+   ],
+   "tol": 30,
+   "grow": 2
   },
   {
    "rect": [
@@ -40,10 +45,10 @@
   {
    "type": "image",
    "src": "assets/logos/shiun_white_6bsb.png",
-   "x": 40,
-   "y": 36,
-   "w": 112,
-   "h": 42
+   "x": 44,
+   "y": 40,
+   "w": 105,
+   "h": 34
   },
   {
    "type": "text",
@@ -67,11 +72,11 @@
    "type": "text",
    "text": "長",
    "x": 292.0,
-   "y": 224.0,
+   "y": 225.0,
    "anchor": "cc",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 130.0,
+   "size": 132.5,
    "tb": [
     220,
     354,
@@ -79,7 +84,7 @@
     294
    ],
    "color": "#ffffff",
-   "scale_x": 0.982
+   "scale_x": 0.96
   },
   {
    "type": "text",
@@ -102,7 +107,7 @@
   {
    "type": "text",
    "text": "果",
-   "x": 548.0,
+   "x": 547.0,
    "y": 224.5,
    "anchor": "cc",
    "font": "ZenOldMincho",
@@ -115,7 +120,7 @@
     294
    ],
    "color": "#ffffff",
-   "scale_x": 0.974
+   "scale_x": 0.954
   },
   {
    "type": "text",
@@ -143,7 +148,7 @@
    "anchor": "cc",
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 259.2,
+   "size": 259.1,
    "tb": [
     358,
     601,
@@ -151,7 +156,7 @@
     568
    ],
    "color": "#ffffff",
-   "scale_x": 0.978
+   "scale_x": 0.977
   },
   {
    "type": "text",
@@ -205,7 +210,7 @@
     368
    ],
    "color": "#ffffff",
-   "scale_x": 0.853
+   "scale_x": 0.903
   },
   {
    "type": "text",
@@ -215,7 +220,7 @@
    "anchor": "cc",
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 117.0,
+   "size": 116.9,
    "tb": [
     987,
     1111,
@@ -223,17 +228,17 @@
     458
    ],
    "color": "#ffffff",
-   "scale_x": 0.968
+   "scale_x": 0.987
   },
   {
    "type": "text",
    "text": "ク",
    "x": 1047.5,
-   "y": 516.0,
+   "y": 517.0,
    "anchor": "cc",
    "font": "ShipporiMinchoB1",
    "weight": 800,
-   "size": 124.3,
+   "size": 126.8,
    "tb": [
     987,
     1111,
@@ -241,7 +246,7 @@
     574
    ],
    "color": "#ffffff",
-   "scale_x": 0.937
+   "scale_x": 0.918
   },
   {
    "type": "text",
@@ -263,12 +268,12 @@
   },
   {
    "type": "text",
-   "x": 1127.0,
-   "y": 103.0,
+   "x": 1125.0,
+   "y": 105.0,
    "anchor": "lt",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 58.3,
+   "size": 56.0,
    "tb": [
     1121,
     1181,
@@ -276,7 +281,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 0.893,
+   "scale_x": 1.003,
    "text": "低",
    "tgt": [
     1128,
@@ -324,7 +329,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 0.96,
+   "scale_x": 0.922,
    "text": "長",
    "tgt": [
     1128,
@@ -348,7 +353,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 0.911,
+   "scale_x": 0.929,
    "text": "男",
    "tgt": [
     1133,
@@ -360,11 +365,11 @@
   {
    "type": "text",
    "x": 1123.0,
-   "y": 329.0,
+   "y": 330.0,
    "anchor": "lt",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 57.2,
+   "size": 54.9,
    "tb": [
     1121,
     1181,
@@ -372,7 +377,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 1.001,
+   "scale_x": 1.041,
    "text": "性",
    "tgt": [
     1126,
@@ -384,11 +389,11 @@
   {
    "type": "text",
    "x": 1123.5,
-   "y": 393.0,
+   "y": 392.0,
    "anchor": "lt",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 43.1,
+   "size": 43.9,
    "tb": [
     1121,
     1181,
@@ -396,7 +401,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 1.283,
+   "scale_x": 1.278,
    "text": "の",
    "tgt": [
     1131,
@@ -407,12 +412,12 @@
   },
   {
    "type": "text",
-   "x": 1127.0,
+   "x": 1125.0,
    "y": 447.0,
    "anchor": "lt",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 48.8,
+   "size": 49.8,
    "tb": [
     1121,
     1181,
@@ -420,7 +425,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 1.008,
+   "scale_x": 1.111,
    "text": "た",
    "tgt": [
     1132,
@@ -432,11 +437,11 @@
   {
    "type": "text",
    "x": 1125.0,
-   "y": 502.5,
+   "y": 501.5,
    "anchor": "lt",
    "font": "Kaisei Tokumin",
    "weight": 800,
-   "size": 47.3,
+   "size": 49.2,
    "tb": [
     1121,
     1181,
@@ -444,7 +449,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 1.192,
+   "scale_x": 1.12,
    "text": "め",
    "tgt": [
     1131,
@@ -460,7 +465,7 @@
    "anchor": "lt",
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 44.7,
+   "size": 45.5,
    "tb": [
     1121,
     1181,
@@ -468,7 +473,7 @@
     610
    ],
    "color": "#ffffff",
-   "scale_x": 1.232,
+   "scale_x": 1.228,
    "text": "の",
    "tgt": [
     1131,

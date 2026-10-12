@@ -8,7 +8,11 @@
     158,
     43
    ],
-   "full": true
+   "colors": [
+    "#5a0a10"
+   ],
+   "tol": 45,
+   "grow": 2
   },
   {
    "rect": [
@@ -17,7 +21,11 @@
     155,
     43
    ],
-   "full": true
+   "colors": [
+    "#141414"
+   ],
+   "tol": 45,
+   "grow": 2
   },
   {
    "rect": [
@@ -26,7 +34,11 @@
     172,
     43
    ],
-   "full": true
+   "colors": [
+    "#141414"
+   ],
+   "tol": 45,
+   "grow": 2
   },
   {
    "rect": [
@@ -35,7 +47,11 @@
     180,
     43
    ],
-   "full": true
+   "colors": [
+    "#141414"
+   ],
+   "tol": 45,
+   "grow": 2
   },
   {
    "rect": [
@@ -44,7 +60,11 @@
     185,
     43
    ],
-   "full": true
+   "colors": [
+    "#141414"
+   ],
+   "tol": 45,
+   "grow": 2
   },
   {
    "rect": [
@@ -227,42 +247,42 @@
   {
    "type": "image",
    "src": "assets/logos/niceness_red_abv5.png",
-   "x": 68,
-   "y": 9,
-   "w": 158,
-   "h": 43
+   "x": 71,
+   "y": 18,
+   "w": 159,
+   "h": 38
   },
   {
    "type": "image",
    "src": "assets/logos/edifice_black_abv5.png",
-   "x": 322,
-   "y": 9,
-   "w": 155,
-   "h": 43
+   "x": 327,
+   "y": 17,
+   "w": 146,
+   "h": 27
   },
   {
    "type": "image",
    "src": "assets/logos/stevenalan_black_abv5.png",
-   "x": 567,
-   "y": 9,
-   "w": 172,
-   "h": 43
+   "x": 572,
+   "y": 10,
+   "w": 163,
+   "h": 44
   },
   {
    "type": "image",
    "src": "assets/logos/morphee_black_abv5.png",
-   "x": 802,
-   "y": 9,
-   "w": 180,
-   "h": 43
+   "x": 806,
+   "y": 19,
+   "w": 172,
+   "h": 37
   },
   {
    "type": "image",
    "src": "assets/logos/etsmateriaux_black_abv5.png",
-   "x": 1050,
-   "y": 9,
-   "w": 185,
-   "h": 43
+   "x": 1053,
+   "y": 17,
+   "w": 178,
+   "h": 23
   },
   {
    "type": "text",
@@ -304,11 +324,65 @@
   },
   {
    "type": "text",
-   "x": 23.5,
-   "y": 340.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 358.1,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    0,
+    388,
+    1225,
+    332
+   ],
+   "tol": 12,
+   "scale_x": 0.939,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "3",
+   "x": 22.5,
+   "y": 521.5,
+   "anchor": "lc",
+   "size": 350.9
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "line": 1.0,
+   "box": [
+    0,
+    388,
+    1225,
+    332
+   ],
+   "tol": 12,
+   "scale_x": 0.977,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "0",
+   "x": 199.0,
+   "y": 520.5,
+   "anchor": "lc",
+   "size": 350.9
+  },
+  {
+   "type": "text",
+   "x": 414.0,
+   "y": 356.5,
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 334.8,
    "color": "#ffffff",
    "line": 1.0,
    "box": [
@@ -319,32 +393,6 @@
    ],
    "tol": 12,
    "scale_x": 0.869,
-   "text": "30",
-   "strokes": [
-    [
-     5,
-     "#ffffff"
-    ]
-   ],
-   "shadow": "0 0 10px rgba(0,0,0,.35)"
-  },
-  {
-   "type": "text",
-   "x": 380.0,
-   "y": 366.5,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 321.8,
-   "color": "#ffffff",
-   "line": 1.0,
-   "box": [
-    0,
-    388,
-    1225,
-    332
-   ],
-   "tol": 12,
-   "scale_x": 0.964,
    "text": "万",
    "strokes": [
     [
@@ -356,11 +404,11 @@
   },
   {
    "type": "text",
-   "x": 701.5,
-   "y": 365.5,
+   "x": 702.5,
+   "y": 386.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 309.2,
+   "size": 279.0,
    "color": "#ffffff",
    "line": 1.0,
    "box": [
@@ -370,7 +418,7 @@
     332
    ],
    "tol": 12,
-   "scale_x": 0.989,
+   "scale_x": 1.091,
    "text": "円",
    "strokes": [
     [
@@ -382,11 +430,11 @@
   },
   {
    "type": "text",
-   "x": 1013.0,
-   "y": 429.5,
+   "x": 1004.0,
+   "y": 442.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 268.9,
+   "size": 247.7,
    "color": "#ffffff",
    "line": 1.0,
    "box": [
@@ -396,7 +444,7 @@
     332
    ],
    "tol": 12,
-   "scale_x": 0.905,
+   "scale_x": 1.036,
    "text": "分",
    "strokes": [
     [
