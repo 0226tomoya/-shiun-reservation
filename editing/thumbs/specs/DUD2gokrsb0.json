@@ -70,22 +70,22 @@
    "anchor": "cc",
    "line": 1.0,
    "text": "ユニクロUまじでいい!!",
-   "x": 606.5,
-   "y": 71.5,
-   "size": 40,
-   "rotate": 11,
+   "x": 607.5,
+   "y": 66.5,
+   "size": 38,
+   "rotate": 12,
    "scale_x": 1.0,
    "spacing": 0.02
   },
   {
    "type": "text",
    "text": "買",
-   "x": 3.5,
-   "y": 698.0,
+   "x": -1.5,
+   "y": 704.0,
    "anchor": "lb",
-   "font": "NotoSansJP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
-   "size": 237.0,
+   "size": 241.7,
    "line": 1.0,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.5)",
@@ -96,7 +96,7 @@
     214
    ],
    "tol": 12,
-   "scale_x": 0.859,
+   "scale_x": 0.876,
    "skew": -0.3,
    "fit_iou": 0.676
   },
@@ -114,18 +114,18 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.534,
+   "scale_x": 0.555,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "う",
    "x": 208.8,
    "y": 607.8,
    "anchor": "lc",
-   "size": 173.2
+   "size": 169.7
   },
   {
    "type": "text",
-   "font": "NotoSansJP",
+   "font": "MPLUS1p",
    "weight": 900,
    "line": 1.0,
    "color": "#ffffff",
@@ -137,14 +137,14 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.676,
+   "scale_x": 0.73,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "べ",
-   "x": 320.7,
-   "y": 605.8,
+   "x": 317.7,
+   "y": 613.8,
    "anchor": "lc",
-   "size": 152.6
+   "size": 146.5
   },
   {
    "type": "text",
@@ -160,18 +160,18 @@
     174
    ],
    "tol": 12,
-   "scale_x": 0.676,
+   "scale_x": 0.73,
    "skew": 8.2,
    "fit_iou": 0.355,
    "text": "き",
-   "x": 451.6,
-   "y": 617.8,
+   "x": 447.6,
+   "y": 619.8,
    "anchor": "lc",
-   "size": 166.1
+   "size": 159.5
   },
   {
    "type": "text",
-   "font": "NotoSansJP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "line": 1.0,
    "color": "#ffffff",
@@ -183,14 +183,14 @@
     242
    ],
    "tol": 14,
-   "scale_x": 0.909,
+   "scale_x": 0.891,
    "rotate": 0.15,
    "fit_iou": 0.771,
    "text": "名",
-   "x": 576,
-   "y": 579.0,
+   "x": 572,
+   "y": 576.0,
    "anchor": "lc",
-   "size": 226.6
+   "size": 235.7
   },
   {
    "type": "text",
@@ -218,7 +218,7 @@
   {
    "type": "text",
    "text": "3",
-   "x": 962.5,
+   "x": 964.5,
    "y": 718.0,
    "anchor": "lb",
    "font": "NotoSansJP",
@@ -234,7 +234,7 @@
     262
    ],
    "tol": 14,
-   "scale_x": 0.894,
+   "scale_x": 0.876,
    "skew": -3,
    "rotate": 0.15,
    "fit_iou": 0.743

@@ -64,3 +64,4 @@
 | 26 | GjAVle8LFls | 49.3 | 49.7 | 「5.5cmUP」が小さく右に UP が二重（元の UP を消し残し）→ 紺の erase 色を足し、矩形に snap して全体 tune。元は靴に重なる所だけ字が白く抜ける効果（クリップ機能が無く未再現） |
 | 212 | RLhgOtxcP6o | 49.2 | 50.3 | 頭が見出しの前に来る → 髪の front 多角形を追加（黒の erase で消えていた髪が戻る）。tune は -2.4 で戻した |
 | 444 | JYzRNtbISbw | 49.0 | 50.5 | 明朝 12 字を字ごとにフォント（ZenOld/KaiseiTokumin/ShipporiB1/NotoSerif）を選んで tune。残り: 元の黒いぼかし影が背景に残る・紙袋の上の白の erase |
+| 167 | aFgc4pL0_hU | 48.9 | 61.9 | 上の小さい行の字が白シャツに引かれて飛び飛びだった → chars.py の列（2 画に割れた か・い・バ を手でまとめ 21 字に一致）を tgt に snap。「ぶっちゃけレビュー」を split して tune |

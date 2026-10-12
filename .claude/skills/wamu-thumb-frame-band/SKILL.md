@@ -7,4 +7,6 @@ description: サムネの白い細枠・半透明の黒帯・白帯を作る・�
 - 白い細枠: `{"type":"rect","x":12,"y":12,"w":1256,"h":696,"fill":"transparent","border":[5,"#ffffff"]}`（大人型・shiun）。
 - 半透明の黒帯: `"fill":"#000000","opacity":0.51`（0.5 だと形の採点に入らない）。見出しの下半分に重ねる。
 - 白帯＋黒字（字間 0.3em）、黒帯＋白字のラベル。
+- 白い細枠は**5px が多い**（目で見て 3px と思っても測ると 5px）。measure.py で枠の太さと内側の距離を測ってから置く（5周目 high_1）。
+- 帯の上の文字は tune で崩れやすい（帯の色を文字と取り違える）。帯は lock して文字だけ動かす。
 詳細は `editing/knowledge/サムネの決まり_わむう2年分.md`、再現の仕様は `editing/thumbs/specs/ID.json`（点数は `editing/thumbs/summary.tsv`）。
