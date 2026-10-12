@@ -555,13 +555,13 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.846,
+   "scale_x": 0.884,
    "fit_iou": 0.176,
    "text": "1",
-   "x": 523,
-   "y": 414.5,
+   "x": 495,
+   "y": 378.5,
    "anchor": "lc",
-   "size": 35.2
+   "size": 38.4
   },
   {
    "type": "text",
@@ -575,53 +575,13 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.883,
+   "scale_x": 0.884,
    "fit_iou": 0.176,
    "text": "6",
    "x": 516.6,
-   "y": 370.5,
-   "anchor": "lc",
-   "size": 35.2
-  },
-  {
-   "type": "text",
-   "box": [
-    490,
-    370,
-    150,
-    95
-   ],
-   "font": "Yusei Magic",
-   "weight": 400,
-   "line": 1.0,
-   "color": "#f6f8f9",
-   "scale_x": 1.08,
-   "fit_iou": 0.176,
-   "text": "4",
-   "x": 543.3,
-   "y": 368.5,
-   "anchor": "lc",
-   "size": 36.0
-  },
-  {
-   "type": "text",
-   "box": [
-    490,
-    370,
-    150,
-    95
-   ],
-   "font": "Yusei Magic",
-   "weight": 400,
-   "line": 1.0,
-   "color": "#f6f8f9",
-   "scale_x": 0.975,
-   "fit_iou": 0.176,
-   "text": "c",
-   "x": 574.6,
    "y": 371.5,
    "anchor": "lc",
-   "size": 36.0
+   "size": 38.4
   },
   {
    "type": "text",
@@ -635,13 +595,53 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 1.037,
+   "scale_x": 0.96,
+   "fit_iou": 0.176,
+   "text": "4",
+   "x": 544.3,
+   "y": 367.5,
+   "anchor": "lc",
+   "size": 38.4
+  },
+  {
+   "type": "text",
+   "box": [
+    490,
+    370,
+    150,
+    95
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "line": 1.0,
+   "color": "#f6f8f9",
+   "scale_x": 0.94,
+   "fit_iou": 0.176,
+   "text": "c",
+   "x": 572.6,
+   "y": 372.5,
+   "anchor": "lc",
+   "size": 38.4
+  },
+  {
+   "type": "text",
+   "box": [
+    490,
+    370,
+    150,
+    95
+   ],
+   "font": "Yusei Magic",
+   "weight": 400,
+   "line": 1.0,
+   "color": "#f6f8f9",
+   "scale_x": 1.039,
    "fit_iou": 0.176,
    "text": "m",
    "x": 597.2,
    "y": 377.5,
    "anchor": "lc",
-   "size": 37.5
+   "size": 38.4
   },
   {
    "type": "text",
@@ -655,13 +655,13 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.975,
+   "scale_x": 0.978,
    "fit_iou": 0.176,
    "text": "チ",
-   "x": 499,
-   "y": 446.3,
+   "x": 503,
+   "y": 434.3,
    "anchor": "lc",
-   "size": 40.0
+   "size": 42.5
   },
   {
    "type": "text",
@@ -675,13 +675,13 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.921,
+   "scale_x": 0.978,
    "fit_iou": 0.176,
    "text": "ビ",
-   "x": 559.5,
-   "y": 441.3,
+   "x": 539.5,
+   "y": 445.3,
    "anchor": "lc",
-   "size": 48.7
+   "size": 43.2
   }
  ],
  "grow": 19

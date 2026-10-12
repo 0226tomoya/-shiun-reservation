@@ -8,7 +8,11 @@
     144,
     150
    ],
-   "full": true
+   "colors": [
+    "#fbc71e",
+    "#373327"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -17,7 +21,11 @@
     92,
     94
    ],
-   "full": true
+   "colors": [
+    "#f8c623",
+    "#3b341d"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -47,19 +55,19 @@
  "layers": [
   {
    "type": "image",
-   "src": "assets/logos/warning_yellow_r6jx1.png",
-   "x": 1136,
-   "y": 292,
-   "w": 144,
-   "h": 150
+   "src": "assets/shapes/warning_r6jx_1.png",
+   "x": 1124,
+   "y": 283,
+   "w": 189,
+   "h": 185
   },
   {
    "type": "image",
-   "src": "assets/logos/warning_yellow_r6jx2.png",
-   "x": 9,
-   "y": 612,
-   "w": 92,
-   "h": 94
+   "src": "assets/shapes/warning_r6jx_2.png",
+   "x": 3,
+   "y": 605,
+   "w": 106,
+   "h": 106
   },
   {
    "type": "text",

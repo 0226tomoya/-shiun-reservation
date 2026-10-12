@@ -26,7 +26,11 @@
     116,
     105
    ],
-   "full": true
+   "colors": [
+    "#282828",
+    "#ffffff"
+   ],
+   "tol": 40
   },
   {
    "rect": [
@@ -84,11 +88,11 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/arrow_black_hand_r2gs.png",
-   "x": 796,
-   "y": 170,
-   "w": 116,
-   "h": 105
+   "src": "assets/shapes/arrow_black_hand_r2gs.png",
+   "x": 777,
+   "y": 145,
+   "w": 156,
+   "h": 152
   },
   {
    "type": "text",

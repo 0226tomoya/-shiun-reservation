@@ -183,3 +183,33 @@
 | 8nQqWy24FYw | uniqlo_black_8nqq.png・uniqlou_black_8nqq.png | ロゴ＋紙袋の写真・人物 |
 | FWuJoYzSz8U | uniqlo_red_cut_fwuj.png・gu_blue_square_fwuj.png | 人物入り |
 | yW8RY0VbOHc | arrow_red_curve_yw8r.png | 赤い矢印の切り抜き |
+
+---
+
+# 3 回目（10 本。7 周目 A2 チーム）
+
+作業前の spec: スクラッチパッドの `r7a2_bak/clean/`。道具（スクラッチパッドの `r7a2_work/`）:
+- `simple.py`: ロゴの矩形を切り、手前の物のマスク（色・手で指定した多角形）だけを透過にして、`front` 多角形を返す（2 回目の `clean_work/logo2.py` の穴埋め・閉処理で字の中まで透過になる回があったので、閉処理なしの簡易版）
+- `hand_arrow.py`: 細い手書き風の矢印（2 次ベジェの軸＋開いた V の頭、白い光彩）。元の黒の範囲に IoU で合わせて cv2 で描く
+- `warn.py`: 警告マーク（角の丸い三角＋「！」の棒と点＋暗い縁）。三角と「！」を別々に IoU で合わせる
+- `burst.py`: 黒い集中線の飾り。元の黒（max<22）の輪郭を少ない頂点の多角形（approxPolyDP 1.2px）にして、単色で fillPoly（LINE_AA、4 倍描き）。写真・髪の画素は使っていない
+- 赤い矢印は 1・2 回目の `clean_work/arrow.py`（ベジェ＋三角の頭）
+- fit.py・tune は使っていない。erase の "by":"layers" は足していない
+
+| ID | 前点 | 後点 | 差し替えたもの |
+|---|---|---|---|
+| r2Gsi3qOH2g | 72.4 | 71.6 | 黒い手書き矢印（写真ごと）→ cv2 で描画（IoU 0.85、#282828、白い光彩 10px／ぼかし 4）`assets/shapes/arrow_black_hand_r2gs.png`。erase は full → 黒・白の色指定 |
+| sWkYeQl8BRo | 64.3 | 59.5 | 黒い集中線の飾り 2 つ（写真・髪ごと）→ 単色の多角形で描画 `assets/shapes/burst_black_swky_1.png`・`_2.png`。erase は full → 黒（tol 18）。点が下がったのは元の飾りの縁の灰色のにじみが残るため（縁を 1〜2px 太らせると逆に下がった） |
+| r6Jxy2FETpM | 56.9 | 54.4 | 警告マーク 2 つ（写真ごと）→ cv2 で描画（三角の IoU 0.97、黄 #fbc71e、「！」#373327、暗い縁 4px）`assets/shapes/warning_r6jx_1.png`・`_2.png`。erase は full → 黄・黒の色指定 |
+| zGuc4mpBDJ0 | 64.2 | 60.7 | WYM LIDNM（「ECスタッフ」の文字・黒帯ごと）→ 白い札と LIDNM の字だけ（背景透過）`assets/logos/wym_lidnm_zguc.png`、黒帯は rect、「ECスタッフ」は text（Noto Sans JP 900、33px）。**rect を足すと、色指定の無い erase（四角だけの要素）の既定の色にその rect の色（黒）が加わって、髪・服まで消える**ので、四角だけの erase には前の既定の色（レイヤーの色 6 つ）を明示した |
+| Nn5xhSpBtMc | 61.0 | 58.9 | GU（「作」の文字・手入り）→ 箱だけ切り直し `gu_blue_box_nn5x.png`。「作」の白と黒縁は透過（front にしない。文字は text レイヤーがある）、手と右端の人物は透過＋`front` |
+| 3DDxA28X06s | 48.7 | 48.3 | GU（ハンガー・ジーンズ入り）→ 箱（白縁込み）だけ切り直し `gu_blue_box_3ddx.png`、手前の物は透過＋`front` |
+| urUYLSsV3PI | 54.0 | 53.3 | GU（紙袋の持ち手入り）→ 箱だけ切り直し `gu_blue_box_uruy.png`、持ち手（G・B が 95 より明るい画素）は透過＋`front` |
+| 8nQqWy24FYw | 60.6 | 58.9 | UNIQLO・U の黒い箱（紙袋の写真・人物入り）→ 箱だけ切り直し `uniqlo_black_box_8nqq.png`・`uniqlou_black_box_8nqq.png`。紙袋は手で多角形、持ち手は中間の灰色（110〜232）で拾って透過＋`front`。右下の赤い UNIQLO は違反なしでそのまま |
+| FWuJoYzSz8U | 58.6 | 58.0 | UNIQLO・GU（人物の頭入り）→ 箱だけ切り直し `uniqlo_red_box_fwuj.png`・`gu_blue_box_fwuj.png`。頭は手で多角形（15 点）、ラックの黒い棒は暗い色で拾って透過＋`front` |
+| yW8RY0VbOHc | 49.4 | 49.3 | 赤い曲がり矢印（切り抜き）→ cv2 で描画（IoU 0.94、#da0e1b）`assets/shapes/arrow_red_curve_yw8r.png` |
+
+平均 59.0 → 57.3。どれも違反のない版を採用。
+
+- 削除した画像（どの spec も参照していないことを grep で確認、14 枚）: assets/logos/ の arrow_black_hand_r2gs、burst_black_swky1、burst_black_swky2、warning_yellow_r6jx1、warning_yellow_r6jx2、wym_lidnm_ecstaff、gu_blue_square_nn5x、gu_blue_3ddx、gu_blue_square_uruy、uniqlo_black_8nqq、uniqlou_black_8nqq、uniqlo_red_cut_fwuj、gu_blue_square_fwuj、arrow_red_curve_yw8r
+- これで 1 回目の一覧（ロゴ以外の切り抜き・人物入りロゴ）は全部片付いた。残りは「軽いもの」（写真の背景ごとのロゴ・2 枚組）だけ

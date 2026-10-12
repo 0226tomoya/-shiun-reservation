@@ -23,6 +23,7 @@ lay = [i for i, L in enumerate(spec['layers']) if L['type'] == 'text']
 if '--layers' in args:
     lay = [int(v) for v in args[args.index('--layers') + 1].split(',')]
 apply = '--apply' in args
+OLDIOU = os.environ.get('OLDIOU') == '1'
 noscale = '--noscale' in args
 fonts = None
 if '--fonts' in args:
@@ -45,6 +46,9 @@ def best(a, scales, Tm=Tm):
     pad = int(os.environ.get("PAD", 50))
     X0, Y0 = max(0, x0 - pad), max(0, y0 - pad)
     X1, Y1 = min(R.W, x1 + pad), min(R.H, y1 + pad)
+    smax = max(s * sx for s, sx in scales); g = max(0, smax - 1)
+    FX0, FY0 = max(0, int(x0 - pad - (x1 - x0) * g)), max(0, int(y0 - pad - (y1 - y0) * g))
+    FX1, FY1 = min(R.W, int(x1 + pad + (x1 - x0) * g)), min(R.H, int(y1 + pad + (y1 - y0) * g))
     res = None
     for s, sx in scales:
         tw, th = max(2, int(round(t.shape[1] * s * sx))), max(2, int(round(t.shape[0] * s)))
@@ -60,7 +64,12 @@ def best(a, scales, Tm=Tm):
         T = img.sum()
         A = tt.sum()
         # IoU relative to window target (approx; target includes other layers)
-        tw_ = Tm[wy0 + ml[1]:wy0 + ml[1] + th, wx0 + ml[0]:wx0 + ml[0] + tw].sum()
+        if OLDIOU:  # 旧: 置いた箱の中の元の文字だけで数える（縮めるほど得をする偏りがある）
+            tw_ = Tm[wy0 + ml[1]:wy0 + ml[1] + th, wx0 + ml[0]:wx0 + ml[0] + tw].sum()
+        else:  # 新: 固定の範囲（元の字の外接＋余白＋最大の拡大分）の元の文字を全部数える
+            # 置いた箱が固定範囲からはみ出た分の元の文字も足す
+            out = Tm[wy0 + ml[1]:wy0 + ml[1] + th, wx0 + ml[0]:wx0 + ml[0] + tw].sum() - Tm[max(FY0, wy0 + ml[1]):min(FY1, wy0 + ml[1] + th), max(FX0, wx0 + ml[0]):min(FX1, wx0 + ml[0] + tw)].sum()
+            tw_ = Tm[FY0:FY1, FX0:FX1].sum() + out
         iou = mv / (A + tw_ - mv + 1e-6)
         if res is None or iou > res[0]:
             res = (iou, s, sx, wx0 + ml[0] - x0, wy0 + ml[1] - y0, (x0, y0, x1, y1))
