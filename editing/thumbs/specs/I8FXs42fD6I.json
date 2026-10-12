@@ -42,15 +42,10 @@
  "layers": [
   {
    "type": "text",
-   "text": "ABEMA Prime",
-   "x": 3.0,
-   "y": 487.0,
    "font": "Noto Sans JP",
    "weight": 500,
-   "size": 217.8,
    "color": "#f8f8f8",
    "scale_x": 0.638,
-   "spacing": -0.02,
    "shadow": "3px 3px 8px rgba(0,0,0,.5)",
    "tol": 35,
    "lock": [
@@ -63,7 +58,247 @@
     790,
     180
    ],
-   "fixed": true
+   "fixed": true,
+   "text": "A",
+   "x": 3,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "B",
+   "x": 86.7,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "E",
+   "x": 176.6,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "M",
+   "x": 257.2,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "A",
+   "x": 369.7,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "P",
+   "x": 481.9,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "r",
+   "x": 569.1,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "i",
+   "x": 623.2,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "m",
+   "x": 660.4,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 500,
+   "color": "#f8f8f8",
+   "scale_x": 0.638,
+   "shadow": "3px 3px 8px rgba(0,0,0,.5)",
+   "tol": 35,
+   "lock": [
+    "skew",
+    "rotate"
+   ],
+   "box": [
+    0,
+    530,
+    790,
+    180
+   ],
+   "fixed": true,
+   "text": "e",
+   "x": 788.7,
+   "y": 606.0,
+   "anchor": "lc",
+   "size": 217.8,
+   "line": 1.0
   },
   {
    "type": "text",
