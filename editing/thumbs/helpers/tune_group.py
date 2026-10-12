@@ -8,6 +8,7 @@ python3 tune_group.py ID [--layers 3,4,5 | --grp L2] [--apply] [--spacing-only] 
   --spacing-only     大きさは変えず、字間と位置だけ（字間だけ直したいとき）
   --rots             行の傾き（度）も候補にする（各字の rotate にも足す）
   --fine             最後に各字を ±FINE px（既定 2）だけ個別に動かす（字の形は変えない）
+レイヤーの "notune": true は動かさない。
 環境変数: S0,S1（大きさの範囲 既定 0.92〜1.08）K0,K1（字間 既定 0.85〜1.15）PAD（探す余白 既定 40）EXCL（他のレイヤーを的から外す 既定 1）
 """
 import json, os, sys, math
@@ -120,6 +121,9 @@ with sync_playwright() as p:
     page = b.new_page(viewport={'width': R.W, 'height': R.H})
     alph = {j: alpha_of(page, Lj) for j, Lj in enumerate(spec['layers'])} if EXCL else {}
     for grp in groups:
+        grp = [i for i in grp if not spec['layers'][i].get('notune')]  # 手で直した字は動かさない
+        if len(grp) < 2:
+            continue
         T = Tm
         if EXCL:
             oth = np.zeros_like(Tm)

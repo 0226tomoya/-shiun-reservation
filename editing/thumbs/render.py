@@ -19,7 +19,7 @@
          }
   rect:  {"type":"rect","x":..,"y":..,"w":..,"h":..,"fill":"#000","opacity":0.6,"radius":0,"rotate":0,
           "border":[4,"#fff"], "skew":0}
-  image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1}
+  image: {"type":"image","src":"assets/logos/uniqlo.png","x":..,"y":..,"w":..,"h":..,"rotate":0,"opacity":1,"glow":[8,"#ffffff",2]}
   line:  {"type":"line","x1":..,"y1":..,"x2":..,"y2":..,"width":6,"color":"#f00"}
   "skew_y" で縦方向のせん断（右上がりの見出し）。rect の radius に "50%" で楕円・円
   "css_transform": "perspective(800px) rotateY(-20deg)" のような変形を足せる（遠近の文字）
@@ -197,7 +197,7 @@ def layer_html(L, i):
         mime = 'image/png' if p.lower().endswith('.png') else 'image/jpeg'
         uri = f"data:{mime};base64," + base64.b64encode(open(p, 'rb').read()).decode()
         return (f"<img id=\"L{i}\" src=\"{uri}\" style=\"position:absolute;left:{L['x']}px;top:{L['y']}px;width:{L['w']}px;"
-                f"height:{L.get('h', 'auto') if isinstance(L.get('h'), str) else str(L.get('h')) + 'px'};opacity:{L.get('opacity', 1)};{rot}\">")
+                f"height:{L.get('h', 'auto') if isinstance(L.get('h'), str) else str(L.get('h')) + 'px'};opacity:{L.get('opacity', 1)};{rot}{glow_css(L)}\">")
     if t == 'line':
         x1, y1, x2, y2 = L['x1'], L['y1'], L['x2'], L['y2']
         ln = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** .5
@@ -205,6 +205,15 @@ def layer_html(L, i):
         return (f"<div id=\"L{i}\" style=\"position:absolute;left:{x1}px;top:{y1 - L.get('width', 6) / 2}px;width:{ln}px;height:{L.get('width', 6)}px;"
                 f"background:{L.get('color', '#f00')};transform:rotate({ang}deg);transform-origin:0 50%;\"></div>")
     raise ValueError(t)
+
+
+def glow_css(L):
+    """image の光彩: "glow": [ぼかし px, 色, 重ねる回数(既定 1)]（ロゴの白い光彩など）。"""
+    g = L.get('glow')
+    if not g:
+        return ''
+    n = g[2] if len(g) > 2 else 1
+    return 'filter:' + ' '.join(f'drop-shadow(0 0 {g[0]}px {g[1]})' for _ in range(int(n))) + ';'
 
 
 _LOADED = {}

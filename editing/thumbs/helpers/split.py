@@ -1,10 +1,11 @@
 """Split text layer(s) into per-character layers at their rendered positions.
-python3 split.py ID i[,j...]
+python3 split.py ID i[,j...] [--words]
+--words: 1 字ずつではなく空白で区切った語ごとに分ける（size 40 未満の小さい英字の行など、1 字ずつだと崩れる行）。
 回転（rotate）・斜体（skew）の行も、変形をかけたまま 1 字ずつに分ける（anchor cc）。
 分けた字には "grp"（元のレイヤー番号）を付ける → helpers/tune_group.py で行ごとに動かせる。
 縦書き（"vertical": true）のレイヤーも 1 字ずつに分ける（縦書きのまま、anchor cc）。
 """
-import json, os, sys
+import json, os, re, sys
 import numpy as np
 TH = '/home/user/-shiun-reservation/editing/thumbs'
 sys.path.insert(0, TH)
@@ -12,6 +13,7 @@ import render as R
 
 vid = sys.argv[1]
 idx = [int(v) for v in sys.argv[2].split(',')]
+WORDS = '--words' in sys.argv  # 空白で区切って語ごとに分ける（小さい英字の行など）
 sp = os.path.join(TH, 'specs', vid + '.json')
 spec = json.load(open(sp))
 from playwright.sync_api import sync_playwright
@@ -26,6 +28,13 @@ with sync_playwright() as p:
         chars = []
         ln = 0
         for r in runs:
+            if WORDS:
+                for w in re.split(r'([ \u3000\n])', r['text']):
+                    if w:
+                        chars.append(dict(r, text=w, _ln=ln))
+                    if w == '\n':
+                        ln += 1
+                continue
             for ch in r['text']:
                 chars.append(dict(r, text=ch, _ln=ln))
                 if ch == '\n':

@@ -1,5 +1,6 @@
 """Light per-layer aligner (one render per layer per pass; no fit.py).
 python3 tune.py ID [--layers 0,1] [--apply] [--fonts 'NotoSansJP:900,DelaGothicOne:400'] [--noscale]
+レイヤーに "notune": true → 動かさない（手で直した字）。"fit_color": "#文字色"（"fit_tol": 40）→ その色の画素だけを的にする（白縁・光彩を外す）。
 """
 import json, os, sys, copy
 import cv2, numpy as np
@@ -28,6 +29,14 @@ noscale = '--noscale' in args
 fonts = None
 if '--fonts' in args:
     fonts = [f.split(':') for f in args[args.index('--fonts') + 1].split(',')]
+
+
+def color_mask(hexc, tol):
+    c = hexc.lstrip('#')
+    bgr = np.uint8([[[int(c[4:6], 16), int(c[2:4], 16), int(c[0:2], 16)]]])
+    lab = cv2.cvtColor(orig, cv2.COLOR_BGR2LAB).astype(np.float32)
+    cl = cv2.cvtColor(bgr, cv2.COLOR_BGR2LAB).astype(np.float32)[0, 0]
+    return (np.linalg.norm(lab - cl, axis=2) < tol).astype(np.uint8)
 
 
 def alpha_of(page, L):
@@ -88,6 +97,8 @@ with sync_playwright() as p:
             alph[j] = alpha_of(page, Lj)
     for i in lay:
         L = spec['layers'][i]
+        if L.get('notune'):  # 手で直した字: 自動で動かさない
+            print(f'L{i} notune'); continue
         T = Tm
         if EXCL:
             oth = np.zeros_like(Tm)
@@ -95,6 +106,8 @@ with sync_playwright() as p:
                 if j != i:
                     oth |= a_
             T = (Tm & (1 - cv2.dilate(oth, np.ones((3, 3), np.uint8)))).astype(np.uint8)
+        if L.get('fit_color'):  # 縁・光彩の色を的から外し、文字の色の画素だけで合わせる
+            T = (T & color_mask(L['fit_color'], L.get('fit_tol', 40))).astype(np.uint8)
         cands = [(L.get('font'), L.get('weight', 900))]
         if fonts:
             cands += [(f, int(w)) for f, w in fonts if (f, int(w)) != cands[0]]
