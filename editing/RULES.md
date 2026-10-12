@@ -69,3 +69,17 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 色味は SNS 用高画質の完成画像（例: ローファー 02）に合わせる。合わないものは寄せる（tools/snap_grade.py: 背景の明るさと色の偏りを参考に、黒を締める）
 
 30. 書き出し・XML を渡す前に `shiun-export-check` を通す。Slack #わむう_sns 1 年分（2025-10〜2026-10）の修正・ほめ言葉は `editing/knowledge/編集ルール集_わむうsns_1年分.md` にまとめた（原文は `editing/knowledge/slack_wamu_sns/`）。新しい修正が来たら同じ形で追記する。
+
+## 31. A24 修正版との比較から（10/12）
+編集者の修正版（`編集後.fcpxmld`）とこちらの版を比べた結果（`editing/knowledge/A24_修正版との差分/`）。次の所は、上のルールより優先する。
+- **7 を改める**: ローファーの ED は SNS 用高画質の 00001 を 0.74 倍・上下を切って使う。掲載用の 01 は ED 以外で使わない（shiun-product-card）。
+- **19 を改める**: 青柳さんの顔ぼかしはセンサー 1 つ（Blur、中心 y 0.83〜0.86、半径 85〜120、量 0.30〜0.40）（shiun-sizeblock-check）。
+- **20 の例外**: 中身（数字・文字）が今回と同じなら、他の回の複合クリップを流用してよい（A23 の靴のサイズ表、A25 の試着会のラベル）。
+- **24 を改める**: 本線の調整レイヤーは 6 カットに 1 本（shiun-color-per-clip）。
+- カット: 中身で本線の 8〜14% を削る候補を出す（shiun-cut-content-trim）。継ぎ目の無音は尾 0.075・頭 0.02 秒（shiun-cut-micro-trim）。差し込みの直前は「。」で切り、「〜がこちらです。どうぞ」は削る（shiun-sizeblock-join）。
+- 試着会は 1 人 25〜35 秒 × 人数、アイキャッチ 1.5 秒で挟む（shiun-trial-event-insert）。
+- インサート: E1 は 50% 以下、60 秒以内の再使用なし、発言と素材を対応させる（shiun-insert-material-mix）。色は素材ごと（shiun-color-per-clip）。
+- 身長別比較: 2 商品で同じ動画の組を使わない（shiun-sizeblock-check）。
+- BGM: ED のトークに +8dB をかけない、最後のフェードアウト 3.5〜4 秒（shiun-bgm-check）。
+- 書き出し: プロジェクトだけ・使っていない asset 0・一時フォルダのパス警告（shiun-export-project-only）。目次は shiun-timestamps。
+
