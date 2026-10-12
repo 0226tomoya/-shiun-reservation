@@ -33,3 +33,4 @@
 | 122 | O4T5bB3-G1c | 36.5 | 58.1 | 明朝の「低身長のための冬服」（runs）を split→tune 2 周（--fonts NotoSerifJP/ZenOldMincho/ShipporiMinchoB1）。見た目はほぼ一致 |
 | 91 | 27pgmTWaDw4 | 36.4 | 52.9 | 手書き風の 3 行を split→tune 2 周（上の黒字の shiun・英字の行は除外）。見た目はほぼ一致。残り: 元の黒いぼかし影の広がり |
 | 267 | g1k37XP-dyo | 36.2 | 48.0 | 斜体に見えたので skew -10 を付けて split→tune（42.9）したが、skew を 0 に戻して tune し直すと 48.0 → 元は斜体ではなかった（太いゴシックの角が斜めに見えただけ）。「失」は赤の画素から外接矩形を取り box.py（小さすぎた）。書体の混在（MPLUS1p）は +0.6 なので採らず |
+| 19 | uMARBnCQD_Y | 36.2 | 42.6 | 1 文字ずつのレイヤーに --fonts（KaiseiTokumin/ZenOldMincho/NotoSerifJP/ShipporiMinchoB1）付き tune 2 周（英字の行は除外）。見た目はほぼ一致、残りは白い背景の上の白い明朝の縁 |
