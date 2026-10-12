@@ -291,13 +291,13 @@
   {
    "type": "text",
    "text": "低身長",
-   "x": 26.0,
-   "y": 9.5,
+   "x": 22.0,
+   "y": 11.5,
    "vertical": true,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 235.21,
-   "scale_x": 0.573,
+   "size": 235.2,
+   "scale_x": 0.644,
    "color": "#b0b0af",
    "line": 1.0,
    "tol": 18,
@@ -341,11 +341,11 @@
      "weight": 700
     }
    ],
-   "x": 107.0,
-   "y": -20.0,
+   "x": 75.0,
+   "y": -16.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 111.484,
+   "size": 104.8,
    "color": "#141414",
    "spacing": -0.03,
    "tol": 40,
@@ -355,7 +355,7 @@
     810,
     98
    ],
-   "scale_x": 0.831,
+   "scale_x": 0.915,
    "rotate": 0.15,
    "skew": -0.9,
    "fit_iou": 0.502
@@ -363,8 +363,8 @@
   {
    "type": "text",
    "text": "わむう",
-   "x": 115.0,
-   "y": 76.0,
+   "x": 132.0,
+   "y": 77.0,
    "font": "ZenMaruGothic",
    "weight": 900,
    "size": 196.2,
@@ -383,7 +383,7 @@
     460,
     180
    ],
-   "scale_x": 0.893,
+   "scale_x": 0.857,
    "rotate": 0.5,
    "fit_iou": 0.198,
    "hollow": true,
@@ -399,11 +399,11 @@
   {
    "type": "text",
    "text": "に聞きたい",
-   "x": 582.5,
-   "y": 106.0,
+   "x": 583.5,
+   "y": 115.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 96.933,
+   "size": 82.1,
    "color": "#141414",
    "spacing": -0.012,
    "tol": 40,
@@ -413,17 +413,17 @@
     340,
     90
    ],
-   "scale_x": 0.694,
+   "scale_x": 0.81,
    "fit_iou": 0.409
   },
   {
    "type": "text",
    "text": "50",
-   "x": 952.5,
-   "y": -46.0,
+   "x": 934.5,
+   "y": -59.0,
    "font": "Inter",
    "weight": 900,
-   "size": 287.144,
+   "size": 315.9,
    "color": "#dc0202",
    "shadow": "7px 7px 0 #160808",
    "spacing": -0.02,
@@ -441,11 +441,11 @@
   {
    "type": "text",
    "text": "の質問",
-   "x": 1017.5,
-   "y": 231.0,
+   "x": 1023.5,
+   "y": 237.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 63.674,
+   "size": 55.0,
    "color": "#141414",
    "tol": 40,
    "box": [
@@ -454,7 +454,7 @@
     170,
     70
    ],
-   "scale_x": 0.818,
+   "scale_x": 0.902,
    "spacing": -0.006,
    "skew": 4,
    "fit_iou": 0.471
@@ -477,11 +477,11 @@
      "size": 24
     }
    ],
-   "x": 723.5,
-   "y": 245.0,
+   "x": 725.5,
+   "y": 244.0,
    "font": "Inter",
    "weight": 900,
-   "size": 47.139,
+   "size": 50.0,
    "color": "#141414",
    "spacing": -0.022,
    "tol": 40,
@@ -491,7 +491,7 @@
     275,
     48
    ],
-   "scale_x": 0.945,
+   "scale_x": 0.889,
    "skew": 2.9,
    "rotate": 0.15,
    "fit_iou": 0.571
