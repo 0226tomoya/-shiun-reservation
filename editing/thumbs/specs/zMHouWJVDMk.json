@@ -3,28 +3,6 @@
  "erase": [
   {
    "rect": [
-    35,
-    35,
-    260,
-    119
-   ],
-   "full": true
-  },
-  {
-   "rect": [
-    37,
-    37,
-    256,
-    115
-   ],
-   "colors": [
-    "#e60012",
-    "#ffffff"
-   ],
-   "tol": 60
-  },
-  {
-   "rect": [
     50,
     295,
     1180,
@@ -94,6 +72,24 @@
     "#ffffff"
    ],
    "tol": 30
+  },
+  {
+   "rect": [
+    38,
+    38,
+    113,
+    113
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    179,
+    38,
+    113,
+    113
+   ],
+   "full": true
   }
  ],
  "layers": [
@@ -105,17 +101,25 @@
    "h": 683,
    "fill": "transparent",
    "border": [
-    4,
+    5,
     "#ffffff"
    ]
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_red_pair_fay.png",
-   "x": 37,
-   "y": 37,
-   "w": 256,
-   "h": 115
+   "src": "assets/logos/red_logo0_zmho.png",
+   "x": 38,
+   "y": 38,
+   "w": 113,
+   "h": 113
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/red_logo1_zmho.png",
+   "x": 179,
+   "y": 38,
+   "w": 113,
+   "h": 113
   },
   {
    "type": "text",
@@ -123,12 +127,12 @@
    "weight": 900,
    "color": "#ffffff",
    "line": 1.0,
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "shadow": "0px 0px 4.8px rgba(0,0,0,0.24)",
    "tol": 15,
    "text": "今",
-   "x": 66.0,
+   "x": 65.0,
    "y": 303.0,
-   "size": 56.269,
+   "size": 56.3,
    "box": [
     67,
     295,
@@ -136,7 +140,7 @@
     72
    ],
    "skew": 3.0,
-   "scale_x": 1.004,
+   "scale_x": 1.024,
    "fit_iou": 0.85
   },
   {
@@ -145,12 +149,12 @@
    "weight": 700,
    "color": "#ffffff",
    "line": 1.0,
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "shadow": "0px 0px 4.8px rgba(0,0,0,0.24)",
    "tol": 15,
    "text": "UNIQLO",
-   "x": 131.5,
-   "y": 306.0,
-   "size": 64.092,
+   "x": 132.5,
+   "y": 302.0,
+   "size": 69.2,
    "box": [
     134,
     295,
@@ -159,7 +163,7 @@
    ],
    "skew": 5.0,
    "spacing": 0.224,
-   "scale_x": 0.874,
+   "scale_x": 0.804,
    "rotate": -1.0,
    "fit_iou": 0.657
   },
@@ -169,12 +173,12 @@
    "weight": 900,
    "color": "#ffffff",
    "line": 1.0,
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "shadow": "0px 0px 4.8px rgba(0,0,0,0.24)",
    "tol": 15,
    "text": "で買うべきアイテムはコレ",
-   "x": 449,
-   "y": 300,
-   "size": 62.995,
+   "x": 444,
+   "y": 298,
+   "size": 69.3,
    "box": [
     445,
     295,
@@ -183,7 +187,7 @@
    ],
    "skew": -6.9,
    "spacing": 0.024,
-   "scale_x": 1,
+   "scale_x": 0.92,
    "rotate": -0.15,
    "fit_iou": 0.59,
    "no_init": true
@@ -191,17 +195,17 @@
   {
    "type": "text",
    "text": "-夏まで着られるカバーオール-",
-   "x": 328.0,
-   "y": 371.0,
+   "x": 329.0,
+   "y": 370.0,
    "font": "Zen Kaku Gothic New",
    "weight": 900,
-   "size": 41.85,
+   "size": 44.4,
    "color": "#ffffff",
    "line": 1.0,
    "spacing": 0.1,
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "shadow": "0px 0px 4.8px rgba(0,0,0,0.24)",
    "tol": 15,
-   "scale_x": 0.983,
+   "scale_x": 0.924,
    "skew": 0.7,
    "fit_iou": 0.661
   }

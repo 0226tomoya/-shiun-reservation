@@ -419,7 +419,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "tgt": [
@@ -435,12 +435,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.813,
+   "scale_x": 0.829,
    "text": "長",
-   "x": 186.2,
-   "y": 574.6,
+   "x": 182.2,
+   "y": 576.6,
    "anchor": "lc",
-   "size": 246.1,
+   "size": 255.9,
    "line": 1.0
   },
   {
@@ -461,12 +461,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.828,
+   "scale_x": 0.778,
    "text": "が",
-   "x": 381.6,
-   "y": 604.1,
+   "x": 382.6,
+   "y": 602.1,
    "anchor": "lc",
-   "size": 170.5,
+   "size": 177.3,
    "line": 1.0
   },
   {
@@ -549,7 +549,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "tgt": [
@@ -567,11 +567,12 @@
    ],
    "scale_x": 0.829,
    "text": "靴",
-   "x": 1072.8,
-   "y": 575.6,
+   "x": 1067.8,
+   "y": 577.6,
    "anchor": "lc",
-   "size": 246.0,
+   "size": 250.9,
    "line": 1.0
   }
- ]
+ ],
+ "grow": 7
 }

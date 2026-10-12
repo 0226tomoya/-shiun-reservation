@@ -18,8 +18,7 @@
     130
    ],
    "colors": [
-    "#ffffff",
-    "#222222"
+    "#ffffff"
    ],
    "tol": 30
   },
@@ -57,12 +56,8 @@
   },
   {
    "type": "text",
-   "text": "低身長の方にもオススメ!!",
-   "x": 40.0,
-   "y": -15.0,
-   "font": "YuseiMagic",
-   "weight": 400,
-   "size": 123.444,
+   "font": "KleeOne",
+   "weight": 600,
    "color": "#ffffff",
    "strokes": [
     [
@@ -70,6 +65,120 @@
      "#2a2a2a"
     ]
    ],
+   "scale_x": 0.747,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "text": "低",
+   "x": 13.0,
+   "y": 55.9,
+   "anchor": "lc",
+   "size": 101.4,
+   "line": 1.0,
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ]
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.772,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "text": "身",
+   "x": 107.2,
+   "y": 52.9,
+   "anchor": "lc",
+   "size": 104.9,
+   "line": 1.0,
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ]
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 1.307,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "text": "長",
+   "x": 190.5,
+   "y": 53.4,
+   "anchor": "lc",
+   "size": 96.1,
+   "line": 1.0,
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ]
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 1.031,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "text": "の",
+   "x": 310.7,
+   "y": 67.4,
+   "anchor": "lc",
+   "size": 63.5,
+   "line": 1.0,
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ]
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.98,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
    "m": [
     0,
     8,
@@ -78,7 +187,236 @@
     "#ffffff",
     18
    ],
-   "scale_x": 0.683
+   "text": "方",
+   "x": 398.9,
+   "y": 54.4,
+   "anchor": "lc",
+   "size": 77.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.871,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "に",
+   "x": 488.7,
+   "y": 69.4,
+   "anchor": "lc",
+   "size": 68.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "も",
+   "x": 555.4,
+   "y": 62.4,
+   "anchor": "lc",
+   "size": 68.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "オ",
+   "x": 624.1,
+   "y": 44.4,
+   "anchor": "lc",
+   "size": 69.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "ス",
+   "x": 682.9,
+   "y": 53.4,
+   "anchor": "lc",
+   "size": 82.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "ス",
+   "x": 753.6,
+   "y": 53.4,
+   "anchor": "lc",
+   "size": 82.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.943,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "メ",
+   "x": 823.3,
+   "y": 58.4,
+   "anchor": "lc",
+   "size": 68.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "!",
+   "x": 906.1,
+   "y": 42.4,
+   "anchor": "lc",
+   "size": 68.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "KleeOne",
+   "weight": 600,
+   "color": "#ffffff",
+   "strokes": [
+    [
+     3,
+     "#2a2a2a"
+    ]
+   ],
+   "scale_x": 0.834,
+   "shadow": "0 0 6px rgba(0,0,0,.8)",
+   "m": [
+    0,
+    8,
+    1000,
+    115,
+    "#ffffff",
+    18
+   ],
+   "text": "!",
+   "x": 951.0,
+   "y": 42.4,
+   "anchor": "lc",
+   "size": 69.5,
+   "line": 1.0
   },
   {
    "type": "text",

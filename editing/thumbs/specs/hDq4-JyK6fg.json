@@ -1,1 +1,281 @@
-{"id": "hDq4-JyK6fg", "grow": 9, "erase": [{"rect": [26, 26, 1228, 9], "colors": ["#ffffff"], "tol": 15}, {"rect": [26, 26, 9, 668], "colors": ["#ffffff"], "tol": 15}, {"rect": [1245, 26, 9, 668], "colors": ["#ffffff"], "tol": 15}, {"rect": [26, 685, 1228, 9], "colors": ["#ffffff"], "tol": 15}, {"rect": [50, 50, 160, 190], "colors": ["#2a2b2f"], "tol": 40}, {"rect": [1145, 45, 90, 630], "colors": ["#ffffff"], "tol": 15}, {"rect": [180, 505, 910, 160], "colors": ["#ffffff"], "tol": 15}], "layers": [{"type": "rect", "x": 30, "y": 30, "w": 1220, "h": 661, "fill": "transparent", "border": [2, "#ffffff"]}, {"type": "text", "text": "COMOLI", "x": 55.5, "y": 69.0, "anchor": "lc", "font": "Jost", "weight": 400, "size": 32.4, "spacing": 0.1, "color": "#2a2b2f", "m": [50, 50, 170, 35, "#2a2b2f", 30], "scale_x": 1.141}, {"type": "text", "text": "AURALEE", "x": 56.5, "y": 113.0, "anchor": "lc", "font": "EB Garamond", "weight": 700, "size": 33.1, "spacing": 0.0, "color": "#2a2b2f", "m": [50, 92, 190, 38, "#2a2b2f", 30], "scale_x": 1.017}, {"type": "text", "text": "ssstein", "x": 60.5, "y": 157.0, "anchor": "lc", "font": "Montserrat", "weight": 500, "size": 41.2, "spacing": 0.03, "color": "#2a2b2f", "m": [50, 138, 170, 40, "#2a2b2f", 30], "scale_x": 0.925}, {"type": "text", "text": "ULTERIOR", "x": 57.5, "y": 208.0, "anchor": "lc", "font": "Inter", "weight": 700, "size": 34.7, "spacing": 0.0, "color": "#2a2b2f", "m": [50, 195, 150, 35, "#2a2b2f", 25], "scale_x": 0.819}, {"type": "text", "text": "セレクトショップ店長兼バイヤーの", "x": 1213.0, "y": 55.8, "anchor": "ct", "vertical": true, "font": "Noto Sans JP", "weight": 700, "size": 30.7, "spacing": 0.27, "color": "#ffffff", "m": [1190, 45, 45, 630, "#ffffff", 15], "scale_x": 1.015}, {"type": "text", "runs": [{"text": "私服"}, {"text": "を", "size_em": 0.75}, {"text": "見せてもらいました。"}], "x": 1167.1, "y": 56.5, "anchor": "ct", "vertical": true, "font": "Noto Sans JP", "weight": 700, "size": 30.1, "spacing": 0.24, "color": "#ffffff", "m": [1145, 45, 45, 470, "#ffffff", 15], "scale_x": 0.998}, {"type": "text", "runs": [{"text": "C", "size_em": 1}, {"text": "LOSET ", "size_em": 0.78}, {"text": "T", "size_em": 1}, {"text": "OUR", "size_em": 0.78}], "x": 635.5, "y": 689.0, "anchor": "cb", "font": "Italiana", "weight": 400, "size": 180.2, "spacing": -0.03, "color": "#ffffff", "m": [150, 480, 960, 200, "#ffffff", 14], "scale_x": 1.066}]}
+{
+ "id": "hDq4-JyK6fg",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    26,
+    26,
+    1228,
+    9
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    26,
+    26,
+    9,
+    668
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    1245,
+    26,
+    9,
+    668
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    26,
+    685,
+    1228,
+    9
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    50,
+    50,
+    160,
+    190
+   ],
+   "colors": [
+    "#2a2b2f"
+   ],
+   "tol": 40
+  },
+  {
+   "rect": [
+    1145,
+    45,
+    90,
+    630
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  },
+  {
+   "rect": [
+    180,
+    505,
+    910,
+    160
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 15
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 30,
+   "y": 30,
+   "w": 1220,
+   "h": 661,
+   "fill": "transparent",
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "COMOLI",
+   "x": 56.5,
+   "y": 69.0,
+   "anchor": "lc",
+   "font": "Jost",
+   "weight": 400,
+   "size": 31.8,
+   "spacing": 0.1,
+   "color": "#2a2b2f",
+   "m": [
+    50,
+    50,
+    170,
+    35,
+    "#2a2b2f",
+    30
+   ],
+   "scale_x": 1.141
+  },
+  {
+   "type": "text",
+   "text": "AURALEE",
+   "x": 56.5,
+   "y": 112.0,
+   "anchor": "lc",
+   "font": "EB Garamond",
+   "weight": 700,
+   "size": 34.4,
+   "spacing": 0.0,
+   "color": "#2a2b2f",
+   "m": [
+    50,
+    92,
+    190,
+    38,
+    "#2a2b2f",
+    30
+   ],
+   "scale_x": 0.976
+  },
+  {
+   "type": "text",
+   "text": "ssstein",
+   "x": 58.5,
+   "y": 157.0,
+   "anchor": "lc",
+   "font": "Montserrat",
+   "weight": 500,
+   "size": 41.2,
+   "spacing": 0.03,
+   "color": "#2a2b2f",
+   "m": [
+    50,
+    138,
+    170,
+    40,
+    "#2a2b2f",
+    30
+   ],
+   "scale_x": 0.944
+  },
+  {
+   "type": "text",
+   "text": "ULTERIOR",
+   "x": 56.5,
+   "y": 209.0,
+   "anchor": "lc",
+   "font": "Inter",
+   "weight": 700,
+   "size": 32.6,
+   "spacing": 0.0,
+   "color": "#2a2b2f",
+   "m": [
+    50,
+    195,
+    150,
+    35,
+    "#2a2b2f",
+    25
+   ],
+   "scale_x": 0.819
+  },
+  {
+   "type": "text",
+   "text": "セレクトショップ店長兼バイヤーの",
+   "x": 1212.0,
+   "y": 49.8,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 31.3,
+   "spacing": 0.27,
+   "color": "#ffffff",
+   "m": [
+    1190,
+    45,
+    45,
+    630,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 0.954
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "私服"
+    },
+    {
+     "text": "を",
+     "size_em": 0.75
+    },
+    {
+     "text": "見せてもらいました。"
+    }
+   ],
+   "x": 1167.1,
+   "y": 48.5,
+   "anchor": "ct",
+   "vertical": true,
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "size": 31.9,
+   "spacing": 0.24,
+   "color": "#ffffff",
+   "m": [
+    1145,
+    45,
+    45,
+    470,
+    "#ffffff",
+    15
+   ],
+   "scale_x": 0.938
+  },
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "C",
+     "size_em": 1
+    },
+    {
+     "text": "LOSET ",
+     "size_em": 0.78
+    },
+    {
+     "text": "T",
+     "size_em": 1
+    },
+    {
+     "text": "OUR",
+     "size_em": 0.78
+    }
+   ],
+   "x": 638.5,
+   "y": 689.0,
+   "anchor": "cb",
+   "font": "Italiana",
+   "weight": 400,
+   "size": 180.2,
+   "spacing": -0.03,
+   "color": "#ffffff",
+   "m": [
+    150,
+    480,
+    960,
+    200,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.066
+  }
+ ]
+}

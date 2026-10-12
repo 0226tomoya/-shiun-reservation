@@ -101,25 +101,9 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "低身長デザイナー"
-    },
-    {
-     "text": "の",
-     "size": 40
-    },
-    {
-     "text": "春服購入品紹介"
-    }
-   ],
-   "x": 145.0,
-   "y": 317.0,
    "font": "ZenKakuGothicNew",
    "weight": 700,
-   "size": 59.7,
    "color": "#ffffff",
-   "spacing": 0.122,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "lock": [
     "size"
@@ -131,9 +115,501 @@
     66
    ],
    "tol": 30,
-   "scale_x": 0.945,
+   "scale_x": 0.836,
    "skew": 1.5,
-   "fit_iou": 0.496
+   "fit_iou": 0.496,
+   "text": "低",
+   "x": 156.7,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 56.4,
+   "line": 1.0,
+   "tgt": [
+    158,
+    326,
+    204,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.916,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "身",
+   "x": 216.5,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 54.4,
+   "line": 1.0,
+   "tgt": [
+    220,
+    327,
+    266,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.883,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "長",
+   "x": 279.8,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 56.4,
+   "line": 1.0,
+   "tgt": [
+    282,
+    328,
+    328,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.846,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "デ",
+   "x": 342.6,
+   "y": 349.0,
+   "anchor": "lc",
+   "size": 57.4,
+   "line": 1.0,
+   "tgt": [
+    348,
+    326,
+    391,
+    375
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.845,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "ザ",
+   "x": 406.9,
+   "y": 349.0,
+   "anchor": "lc",
+   "size": 54.2,
+   "line": 1.0,
+   "tgt": [
+    409,
+    326,
+    452,
+    375
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.856,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "イ",
+   "x": 467.2,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 56.0,
+   "line": 1.0,
+   "tgt": [
+    472,
+    330,
+    506,
+    375
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.871,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "ナ",
+   "x": 529.0,
+   "y": 349.0,
+   "anchor": "lc",
+   "size": 56.0,
+   "line": 1.0,
+   "tgt": [
+    534,
+    330,
+    573,
+    375
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.683,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "ー",
+   "x": 591.8,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 68.2,
+   "line": 1.0,
+   "tgt": [
+    596,
+    349,
+    634,
+    357
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.932,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "の",
+   "x": 651.2,
+   "y": 353.5,
+   "anchor": "lc",
+   "size": 47.0,
+   "line": 1.0,
+   "tgt": [
+    655,
+    340,
+    691,
+    375
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.852,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "春",
+   "x": 702.8,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 57.5,
+   "line": 1.0,
+   "tgt": [
+    705,
+    326,
+    751,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.906,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "服",
+   "x": 764.1,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 56.3,
+   "line": 1.0,
+   "tgt": [
+    766,
+    328,
+    813,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.888,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "購",
+   "x": 826.4,
+   "y": 349.5,
+   "anchor": "lc",
+   "size": 57.5,
+   "line": 1.0,
+   "tgt": [
+    828,
+    326,
+    876,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.909,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "入",
+   "x": 889.2,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 54.1,
+   "line": 1.0,
+   "tgt": [
+    891,
+    329,
+    937,
+    377
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.846,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "品",
+   "x": 951.0,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 58.5,
+   "line": 1.0,
+   "tgt": [
+    955,
+    328,
+    998,
+    378
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.887,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "紹",
+   "x": 1011.8,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 58.6,
+   "line": 1.0,
+   "tgt": [
+    1014,
+    326,
+    1060,
+    379
+   ]
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 700,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "lock": [
+    "size"
+   ],
+   "box": [
+    148,
+    318,
+    985,
+    66
+   ],
+   "tol": 30,
+   "scale_x": 0.851,
+   "skew": 1.5,
+   "fit_iou": 0.496,
+   "text": "介",
+   "x": 1075.6,
+   "y": 350.0,
+   "anchor": "lc",
+   "size": 56.4,
+   "line": 1.0,
+   "tgt": [
+    1077,
+    326,
+    1123,
+    378
+   ]
   },
   {
    "type": "text",
@@ -159,11 +635,11 @@
   {
    "type": "text",
    "text": "COMOLI",
-   "x": 225.0,
-   "y": 624.0,
+   "x": 227.0,
+   "y": 623.0,
    "font": "Jost",
    "weight": 300,
-   "size": 46.9,
+   "size": 47.8,
    "spacing": 0.294,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -174,18 +650,18 @@
     50
    ],
    "tol": 30,
-   "scale_x": 0.972,
-   "skew": 4,
+   "scale_x": 0.953,
+   "skew": 0.0,
    "fit_iou": 0.376
   },
   {
    "type": "text",
    "text": "/ barbell object /",
-   "x": 478.5,
+   "x": 480.5,
    "y": 618.0,
    "font": "Jost",
    "weight": 400,
-   "size": 51.6,
+   "size": 52.6,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "box": [
@@ -195,19 +671,19 @@
     58
    ],
    "tol": 30,
-   "scale_x": 0.96,
-   "skew": 2.7,
+   "scale_x": 0.941,
+   "skew": 0.0,
    "rotate": 0.15,
    "fit_iou": 0.333
   },
   {
    "type": "text",
    "text": "LIDИM",
-   "x": 872.0,
-   "y": 623.0,
+   "x": 870.0,
+   "y": 622.0,
    "font": "Jost",
    "weight": 400,
-   "size": 47.3,
+   "size": 48.2,
    "spacing": 0.12,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -220,7 +696,8 @@
    "tol": 30,
    "scale_x": 1.004,
    "rotate": -0.5,
-   "fit_iou": 0.388
+   "fit_iou": 0.388,
+   "skew": 0.0
   }
  ]
 }

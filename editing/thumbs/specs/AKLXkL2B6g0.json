@@ -1,230 +1,230 @@
 {
-"id": "AKLXkL2B6g0",
-"erase": [
-{
-"rect": [
-500,
-240,
-285,
-90
-],
-"colors": [
-"#ffffff"
-],
-"tol": 20
-},
-{
-"rect": [
-80,
-350,
-1120,
-130
-],
-"colors": [
-"#ffffff"
-],
-"tol": 20
-}
-],
-"layers": [
-{
-"type": "text",
-"text": "1",
-"x": 521.5,
-"y": 266.0,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 134.2,
-"tb": [
-505,
-539,
-250,
-309
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.84
-},
-{
-"type": "text",
-"text": "Month",
-"x": 658.0,
-"y": 280.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 77.0,
-"tb": [
-540,
-777,
-245,
-311
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 1.125
-},
-{
-"type": "rect",
-"x": 508,
-"y": 321,
-"w": 220,
-"h": 3,
-"fill": "#ffffff"
-},
-{
-"type": "text",
-"text": "S",
-"x": 122.0,
-"y": 414.0,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 173.4,
-"tb": [
-87,
-160,
-355,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.995
-},
-{
-"type": "text",
-"text": "U",
-"x": 217.0,
-"y": 419.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 153.2,
-"tb": [
-163,
-273,
-369,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 1.021
-},
-{
-"type": "text",
-"text": "M",
-"x": 336.5,
-"y": 420.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 156.8,
-"tb": [
-271,
-402,
-369,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.994
-},
-{
-"type": "text",
-"text": "M",
-"x": 468.5,
-"y": 420.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 156.8,
-"tb": [
-403,
-534,
-369,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.994
-},
-{
-"type": "text",
-"text": "E",
-"x": 580.0,
-"y": 420.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 154.7,
-"tb": [
-538,
-619,
-369,
-473
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 1.055
-},
-{
-"type": "text",
-"text": "R",
-"x": 670.0,
-"y": 420.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 156.6,
-"tb": [
-618,
-729,
-369,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 1.0
-},
-{
-"type": "text",
-"text": "S",
-"x": 794.0,
-"y": 414.0,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 173.4,
-"tb": [
-759,
-832,
-355,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.995
-},
-{
-"type": "text",
-"text": "TYLE",
-"x": 1014.5,
-"y": 419.5,
-"anchor": "cc",
-"font": "Cormorant Garamond",
-"weight": 600,
-"size": 156.8,
-"tb": [
-836,
-1191,
-364,
-474
-],
-"color": "#ffffff",
-"shadow": "0 0 8px rgba(0,0,0,.3)",
-"scale_x": 0.983
-}
-],
-"grow": 11
+ "id": "AKLXkL2B6g0",
+ "erase": [
+  {
+   "rect": [
+    500,
+    240,
+    285,
+    90
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  },
+  {
+   "rect": [
+    80,
+    350,
+    1120,
+    130
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 20
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "text": "1",
+   "x": 521.5,
+   "y": 268.0,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 113.6,
+   "tb": [
+    505,
+    539,
+    250,
+    309
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.758
+  },
+  {
+   "type": "text",
+   "text": "Month",
+   "x": 659.0,
+   "y": 278.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 86.5,
+   "tb": [
+    540,
+    777,
+    245,
+    311
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.994
+  },
+  {
+   "type": "rect",
+   "x": 508,
+   "y": 321,
+   "w": 220,
+   "h": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "S",
+   "x": 123.0,
+   "y": 414.0,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 169.9,
+   "tb": [
+    87,
+    160,
+    355,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "text": "U",
+   "x": 217.0,
+   "y": 419.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 144.2,
+   "tb": [
+    163,
+    273,
+    369,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.083
+  },
+  {
+   "type": "text",
+   "text": "M",
+   "x": 335.5,
+   "y": 420.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 147.2,
+   "tb": [
+    271,
+    402,
+    369,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.973
+  },
+  {
+   "type": "text",
+   "text": "M",
+   "x": 467.5,
+   "y": 420.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 147.2,
+   "tb": [
+    403,
+    534,
+    369,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.973
+  },
+  {
+   "type": "text",
+   "text": "E",
+   "x": 580.0,
+   "y": 421.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 148.5,
+   "tb": [
+    538,
+    619,
+    369,
+    473
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.055
+  },
+  {
+   "type": "text",
+   "text": "R",
+   "x": 671.0,
+   "y": 421.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 150.3,
+   "tb": [
+    618,
+    729,
+    369,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.979
+  },
+  {
+   "type": "text",
+   "text": "S",
+   "x": 795.0,
+   "y": 414.0,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 169.9,
+   "tb": [
+    759,
+    832,
+    355,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 0.995
+  },
+  {
+   "type": "text",
+   "text": "TYLE",
+   "x": 1014.5,
+   "y": 419.5,
+   "anchor": "cc",
+   "font": "Cormorant Garamond",
+   "weight": 600,
+   "size": 147.4,
+   "tb": [
+    836,
+    1191,
+    364,
+    474
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "scale_x": 1.022
+  }
+ ],
+ "grow": 11
 }

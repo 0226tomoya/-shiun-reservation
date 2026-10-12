@@ -1,301 +1,301 @@
 {
-"id": "zIkC7ypKtck",
-"erase": [
-{
-"rect": [
-8,
-8,
-258,
-255
-],
-"full": true
-},
-{
-"rect": [
-475,
-105,
-800,
-14
-],
-"full": true
-},
-{
-"rect": [
-470,
-3,
-805,
-104
-],
-"colors": [
-"#810016",
-"#ffffff"
-],
-"tol": 25
-},
-{
-"rect": [
-0,
-405,
-1280,
-315
-],
-"colors": [
-"#ffffff"
-],
-"tol": 12
-}
-],
-"layers": [
-{
-"type": "image",
-"src": "assets/logos/muji_maroon_whiteborder_zikc.png",
-"x": 8,
-"y": 8,
-"w": 258,
-"h": 255
-},
-{
-"type": "rect",
-"x": 480,
-"y": 108,
-"w": 790,
-"h": 9,
-"fill": "#810016",
-"border": [
-2,
-"#ffffff"
-]
-},
-{
-"type": "text",
-"text": "",
-"x": 871.5,
-"y": 52.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 88.0,
-"tb": [
-476,
-1273,
-4,
-108
-],
-"runs": [
-{
-"text": "2024"
-},
-{
-"text": "年",
-"size_em": 0.72
-},
-{
-"text": " 秋冬新作服"
-}
-],
-"scale_x": 1.058,
-"color": "#810016",
-"strokes": [
-[
-4,
-"#ffffff"
-],
-[
-2,
-"#810016"
-]
-],
-"tbs": true,
-"palt": true
-},
-{
-"type": "rect",
-"x": 98,
-"y": 417,
-"w": 32,
-"h": 32,
-"fill": "#ffffff",
-"radius": 16
-},
-{
-"type": "rect",
-"x": 287,
-"y": 412,
-"w": 32,
-"h": 32,
-"fill": "#ffffff",
-"radius": 16
-},
-{
-"type": "rect",
-"x": 444,
-"y": 413,
-"w": 32,
-"h": 32,
-"fill": "#ffffff",
-"radius": 16
-},
-{
-"type": "rect",
-"x": 610,
-"y": 417,
-"w": 32,
-"h": 32,
-"fill": "#ffffff",
-"radius": 16
-},
-{
-"type": "text",
-"text": "大",
-"x": 96,
-"y": 596,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 243,
-"tb": [
--1,
-192,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.801
-},
-{
-"type": "text",
-"text": "当",
-"x": 279.5,
-"y": 579.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 229.2,
-"tb": [
-188,
-377,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.998
-},
-{
-"type": "text",
-"text": "た",
-"x": 462.0,
-"y": 575.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 238.4,
-"tb": [
-375,
-548,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.818
-},
-{
-"type": "text",
-"text": "り",
-"x": 614.5,
-"y": 576.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 241.9,
-"tb": [
-558,
-672,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.672
-},
-{
-"type": "text",
-"text": "だ",
-"x": 765.0,
-"y": 576.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 240.7,
-"tb": [
-674,
-854,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.788
-},
-{
-"type": "text",
-"text": "ら",
-"x": 921.5,
-"y": 577.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 243.0,
-"tb": [
-852,
-1001,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.804
-},
-{
-"type": "text",
-"text": "け",
-"x": 1089.5,
-"y": 578.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 237.4,
-"tb": [
-1004,
-1172,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.815
-},
-{
-"type": "text",
-"text": "!!",
-"x": 1224.5,
-"y": 573.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 244.3,
-"tb": [
-1172,
-1280,
-484,
-710
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.703
-}
-],
-"grow": 13
+ "id": "zIkC7ypKtck",
+ "erase": [
+  {
+   "rect": [
+    8,
+    8,
+    258,
+    255
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    475,
+    105,
+    800,
+    14
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    470,
+    3,
+    805,
+    104
+   ],
+   "colors": [
+    "#810016",
+    "#ffffff"
+   ],
+   "tol": 25
+  },
+  {
+   "rect": [
+    0,
+    405,
+    1280,
+    315
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_maroon_whiteborder_zikc.png",
+   "x": 8,
+   "y": 8,
+   "w": 258,
+   "h": 255
+  },
+  {
+   "type": "rect",
+   "x": 480,
+   "y": 108,
+   "w": 790,
+   "h": 9,
+   "fill": "#810016",
+   "border": [
+    2,
+    "#ffffff"
+   ]
+  },
+  {
+   "type": "text",
+   "text": "",
+   "x": 871.5,
+   "y": 52.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 88.0,
+   "tb": [
+    476,
+    1273,
+    4,
+    108
+   ],
+   "runs": [
+    {
+     "text": "2024"
+    },
+    {
+     "text": "年",
+     "size_em": 0.72
+    },
+    {
+     "text": " 秋冬新作服"
+    }
+   ],
+   "scale_x": 1.058,
+   "color": "#810016",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ],
+    [
+     2,
+     "#810016"
+    ]
+   ],
+   "tbs": true,
+   "palt": true
+  },
+  {
+   "type": "rect",
+   "x": 98,
+   "y": 417,
+   "w": 32,
+   "h": 32,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 287,
+   "y": 412,
+   "w": 32,
+   "h": 32,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 444,
+   "y": 413,
+   "w": 32,
+   "h": 32,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "rect",
+   "x": 610,
+   "y": 417,
+   "w": 32,
+   "h": 32,
+   "fill": "#ffffff",
+   "radius": 16
+  },
+  {
+   "type": "text",
+   "text": "大",
+   "x": 106,
+   "y": 590,
+   "anchor": "cc",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "size": 223.6,
+   "tb": [
+    -1,
+    192,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.753
+  },
+  {
+   "type": "text",
+   "text": "当",
+   "x": 294.5,
+   "y": 564.5,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 229.2,
+   "tb": [
+    188,
+    377,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.918
+  },
+  {
+   "type": "text",
+   "text": "た",
+   "x": 462.0,
+   "y": 576.0,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 252.7,
+   "tb": [
+    375,
+    548,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.818
+  },
+  {
+   "type": "text",
+   "text": "り",
+   "x": 615.5,
+   "y": 585.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 217.7,
+   "tb": [
+    558,
+    672,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.685
+  },
+  {
+   "type": "text",
+   "text": "だ",
+   "x": 763.0,
+   "y": 580.0,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 250.3,
+   "tb": [
+    674,
+    854,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.835
+  },
+  {
+   "type": "text",
+   "text": "ら",
+   "x": 926.5,
+   "y": 578.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 233.3,
+   "tb": [
+    852,
+    1001,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.756
+  },
+  {
+   "type": "text",
+   "text": "け",
+   "x": 1092.5,
+   "y": 576.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 232.7,
+   "tb": [
+    1004,
+    1172,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.799
+  },
+  {
+   "type": "text",
+   "text": "!!",
+   "x": 1229.5,
+   "y": 592.5,
+   "anchor": "cc",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "size": 219.9,
+   "tb": [
+    1172,
+    1280,
+    484,
+    710
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.647
+  }
+ ],
+ "grow": 13
 }

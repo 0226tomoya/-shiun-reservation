@@ -4,37 +4,37 @@
  "erase": [
   {
    "rect": [
-    12,
     13,
-    160,
-    67
+    11,
+    182,
+    66
    ],
    "full": true
   },
   {
    "rect": [
-    797,
-    13,
-    221,
-    71
+    798,
+    8,
+    218,
+    74
    ],
    "full": true
   },
   {
    "rect": [
-    709,
-    110,
-    259,
-    64
+    710,
+    113,
+    255,
+    61
    ],
    "full": true
   },
   {
    "rect": [
-    332,
-    308,
-    227,
-    62
+    334,
+    313,
+    223,
+    56
    ],
    "full": true
   },
@@ -138,99 +138,99 @@
   },
   {
    "type": "rect",
-   "x": 14,
-   "y": 15,
-   "w": 156,
-   "h": 63,
+   "x": 13,
+   "y": 11,
+   "w": 182,
+   "h": 66,
    "fill": "#ffffff"
   },
   {
    "type": "text",
    "text": "COMOLI",
-   "x": 120,
-   "y": 73,
+   "x": 107.5,
+   "y": 45.0,
    "anchor": "cc",
    "font": "Jost",
    "weight": 400,
-   "size": 24.3,
+   "size": 31.4,
    "spacing": 0.18,
    "color": "#111111",
-   "scale_x": 0.994
+   "scale_x": 1.019
   },
   {
    "type": "rect",
    "x": 798,
-   "y": 15,
+   "y": 8,
    "w": 218,
-   "h": 67,
+   "h": 74,
    "fill": "#ffffff"
   },
   {
    "type": "text",
    "text": "ANCELLM",
-   "x": 971,
-   "y": 120,
+   "x": 910.0,
+   "y": 42.5,
    "anchor": "cc",
    "font": "Jost",
    "weight": 400,
-   "size": 34.6,
+   "size": 33.3,
    "spacing": 0.1,
    "color": "#111111",
-   "scale_x": 1.082
+   "scale_x": 1.052
   },
   {
    "type": "rect",
-   "x": 711,
-   "y": 112,
-   "w": 256,
-   "h": 60,
+   "x": 710,
+   "y": 113,
+   "w": 255,
+   "h": 61,
    "fill": "#ffffff"
   },
   {
    "type": "text",
    "text": "UNIVERSAL PRODUCTS.®",
-   "x": 845,
-   "y": 171,
+   "x": 838.5,
+   "y": 143.5,
    "anchor": "cc",
    "font": "Montserrat",
    "weight": 600,
-   "size": 12.2,
+   "size": 14.9,
    "spacing": 0.06,
    "color": "#4f5468",
-   "scale_x": 0.902
+   "scale_x": 0.954
   },
   {
    "type": "rect",
    "x": 334,
-   "y": 310,
+   "y": 313,
    "w": 223,
-   "h": 58,
+   "h": 56,
    "fill": "#ffffff"
   },
   {
    "type": "text",
    "text": "barbell object",
-   "x": 395,
-   "y": 364,
+   "x": 446.0,
+   "y": 339.0,
    "anchor": "cc",
    "font": "Jost",
    "weight": 400,
-   "size": 22.8,
+   "size": 26.8,
    "spacing": 0.02,
    "color": "#333333",
-   "scale_x": 0.922
+   "scale_x": 1.088
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "text": "2",
-   "x": 4.9,
-   "y": 586.8,
+   "x": 14.9,
+   "y": 582.8,
    "anchor": "lc",
-   "size": 230.9,
-   "scale_x": 1.02,
+   "size": 244.8,
+   "scale_x": 1.124,
    "line": 1.0
   },
   {
@@ -239,11 +239,11 @@
    "weight": 900,
    "color": "#ffffff",
    "text": "7",
-   "x": 137.9,
+   "x": 136.9,
    "y": 581.8,
    "anchor": "lc",
-   "size": 204.2,
-   "scale_x": 1.102,
+   "size": 199.7,
+   "scale_x": 1.146,
    "line": 1.0
   },
   {
@@ -269,7 +269,7 @@
    "y": 587.8,
    "anchor": "lc",
    "size": 199.8,
-   "scale_x": 0.96,
+   "scale_x": 0.959,
    "line": 1.0
   },
   {
@@ -279,23 +279,23 @@
    "color": "#ffffff",
    "text": "分",
    "x": 671.5,
-   "y": 617.3,
+   "y": 618.3,
    "anchor": "lc",
-   "size": 163.0,
-   "scale_x": 1.061,
+   "size": 159.7,
+   "scale_x": 1.082,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "text": "購",
-   "x": 836.5,
+   "x": 837.5,
    "y": 594.8,
    "anchor": "lc",
-   "size": 217.6,
-   "scale_x": 1.0,
+   "size": 222.0,
+   "scale_x": 1.02,
    "line": 1.0
   },
   {
@@ -304,11 +304,11 @@
    "weight": 900,
    "color": "#ffffff",
    "text": "入",
-   "x": 1055.3,
-   "y": 603.8,
+   "x": 1053.3,
+   "y": 601.8,
    "anchor": "lc",
-   "size": 191.9,
-   "scale_x": 1.145,
+   "size": 199.6,
+   "scale_x": 1.122,
    "line": 1.0
   }
  ]

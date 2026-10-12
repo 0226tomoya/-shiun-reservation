@@ -141,15 +141,21 @@
   {
    "type": "text",
    "text": "OUR LEGACY",
-   "x": 186,
-   "y": 355,
+   "x": 177,
+   "y": 357,
    "font": "Roboto Condensed",
    "weight": 700,
-   "size": 173.4,
+   "size": 169.9,
    "color": "#ffffff",
    "spacing": -0.03,
    "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 1.055
+   "scale_x": 1.097,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -160,11 +166,17 @@
    "shadow": "0 0 6px rgba(0,0,0,.3)",
    "scale_x": 1.043,
    "text": "デ",
-   "x": 54,
-   "y": 587.0,
+   "x": 56,
+   "y": 586.0,
    "anchor": "lc",
-   "size": 135.6,
-   "line": 1.0
+   "size": 132.9,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -173,13 +185,19 @@
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 1.064,
+   "scale_x": 1.043,
    "text": "ビ",
-   "x": 204.4,
-   "y": 592.0,
+   "x": 207.4,
+   "y": 593.0,
    "anchor": "lc",
-   "size": 129.9,
-   "line": 1.0
+   "size": 124.7,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -188,28 +206,40 @@
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 0.999,
+   "scale_x": 1.059,
    "text": "ュ",
-   "x": 359.6,
+   "x": 361.6,
+   "y": 597.0,
+   "anchor": "lc",
+   "size": 114.4,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "scale_x": 1.059,
+   "text": "ー",
+   "x": 498.4,
    "y": 595.0,
    "anchor": "lc",
-   "size": 124.4,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "palt": true,
-   "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 0.999,
-   "text": "ー",
-   "x": 499.4,
-   "y": 594.0,
-   "anchor": "lc",
-   "size": 132.7,
-   "line": 1.0
+   "size": 119.4,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -220,11 +250,17 @@
    "shadow": "0 0 6px rgba(0,0,0,.3)",
    "scale_x": 0.999,
    "text": "し",
-   "x": 647.4,
-   "y": 596.0,
+   "x": 650.4,
+   "y": 600.0,
    "anchor": "lc",
-   "size": 138.2,
-   "line": 1.0
+   "size": 129.9,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   },
   {
    "type": "text",
@@ -233,43 +269,61 @@
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 0.999,
+   "scale_x": 0.919,
    "text": "ま",
-   "x": 789.2,
-   "y": 594.0,
-   "anchor": "lc",
-   "size": 153.6,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "palt": true,
-   "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 0.999,
-   "text": "し",
-   "x": 943.0,
-   "y": 596.0,
-   "anchor": "lc",
-   "size": 138.2,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "palt": true,
-   "shadow": "0 0 6px rgba(0,0,0,.3)",
-   "scale_x": 0.999,
-   "text": "た",
-   "x": 1079.8,
+   "x": 795.2,
    "y": 592.0,
    "anchor": "lc",
-   "size": 156.4,
-   "line": 1.0
+   "size": 150.5,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "scale_x": 0.999,
+   "text": "し",
+   "x": 946.0,
+   "y": 600.0,
+   "anchor": "lc",
+   "size": 129.9,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 6px rgba(0,0,0,.3)",
+   "scale_x": 0.959,
+   "text": "た",
+   "x": 1081.8,
+   "y": 593.0,
+   "anchor": "lc",
+   "size": 153.3,
+   "line": 1.0,
+   "strokes": [
+    [
+     1.5,
+     "#ffffff"
+    ]
+   ]
   }
  ]
 }

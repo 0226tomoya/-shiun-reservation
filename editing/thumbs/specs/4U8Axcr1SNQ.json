@@ -152,17 +152,23 @@
   },
   {
    "type": "text",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
+   "font": "ZenOldMincho",
+   "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "text": "始",
-   "x": 180.5,
-   "y": 118.0,
-   "anchor": "cc",
-   "size": 208.5,
+   "x": 79.0,
+   "y": 12.0,
+   "anchor": "lt",
+   "size": 215.9,
    "line": 1.0,
-   "scale_x": 1.0
+   "scale_x": 0.962,
+   "tgt": [
+    84,
+    32,
+    278,
+    223
+   ]
   },
   {
    "type": "text",
@@ -199,12 +205,18 @@
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
    "text": "。",
-   "x": 258.0,
-   "y": 667.0,
-   "anchor": "cc",
-   "size": 27.4,
+   "x": 212.5,
+   "y": 586.0,
+   "anchor": "lt",
+   "size": 105.1,
    "line": 1.0,
-   "scale_x": 0.846
+   "scale_x": 0.99,
+   "tgt": [
+    220,
+    658,
+    255,
+    693
+   ]
   },
   {
    "type": "text",

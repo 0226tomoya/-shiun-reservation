@@ -86,11 +86,11 @@
   {
    "type": "text",
    "text": "低身長デザイナーが徹底レビュー!!",
-   "x": 778,
-   "y": 50,
+   "x": 765,
+   "y": 78,
    "font": "KleeOne",
    "weight": 400,
-   "size": 34,
+   "size": 36.0,
    "color": "#1a1a1a",
    "rotate": -4,
    "spacing": 0,
@@ -100,7 +100,7 @@
     490,
     65
    ],
-   "scale_x": 1,
+   "scale_x": 1.02,
    "fit_iou": 0.066,
    "skew": 0,
    "fixed": true,
@@ -109,11 +109,11 @@
   {
    "type": "text",
    "text": "SNSでバズっている",
-   "x": 15.5,
-   "y": 177.5,
+   "x": 16.5,
+   "y": 180.5,
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 54.5,
+   "size": 50.1,
    "color": "#ffffff",
    "strokes": [
     [
@@ -128,7 +128,7 @@
     410,
     65
    ],
-   "scale_x": 0.88,
+   "scale_x": 0.95,
    "rotate": 1.8,
    "skew": 3,
    "fit_iou": 0.31,
@@ -152,13 +152,13 @@
     425,
     240
    ],
-   "scale_x": 0.9,
+   "scale_x": 0.918,
    "skew": -1,
    "rotate": 0.8,
    "fit_iou": 0.665,
    "tol": 30,
    "text": "大",
-   "x": 8.4,
+   "x": 5.4,
    "y": 361.5,
    "anchor": "lc",
    "size": 222.3,
@@ -303,14 +303,14 @@
     255
    ],
    "tol": 16,
-   "scale_x": 0.863,
+   "scale_x": 0.846,
    "rotate": 0.5,
    "fit_iou": 0.37,
    "text": "実",
    "x": 905.5,
    "y": 247.3,
    "anchor": "lc",
-   "size": 219.0,
+   "size": 223.4,
    "line": 1.0
   },
   {
@@ -332,14 +332,14 @@
     255
    ],
    "tol": 16,
-   "scale_x": 0.844,
+   "scale_x": 0.912,
    "rotate": 0.5,
    "fit_iou": 0.37,
    "text": "際",
-   "x": 1110.4,
+   "x": 1109.4,
    "y": 284.3,
    "anchor": "lc",
-   "size": 196.7,
+   "size": 184.9,
    "line": 1.0
   },
   {
@@ -412,9 +412,9 @@
    ],
    "shadow": "4px 4px 4px rgba(0,0,0,.5)",
    "text": "？",
-   "x": 1172.5,
-   "y": 579.5,
-   "size": 128.4,
+   "x": 1177.5,
+   "y": 575.5,
+   "size": 133.5,
    "box": [
     1205,
     580,
@@ -423,7 +423,7 @@
    ],
    "spacing": 0,
    "tol": 16,
-   "scale_x": 1.077,
+   "scale_x": 0.991,
    "rotate": 0.65,
    "skew": -1.2,
    "fit_iou": 0.389

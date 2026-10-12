@@ -1,1 +1,244 @@
-{"id": "cr8tcQVjyYc", "grow": 9, "erase": [{"rect": [34, 317, 169, 170], "full": true}, {"rect": [1077, 317, 171, 171], "full": true}, {"rect": [110, 30, 1060, 245], "colors": ["#ffffff"], "tol": 30}, {"rect": [145, 515, 990, 75], "colors": ["#ffffff"], "tol": 30}, {"rect": [360, 648, 560, 32], "colors": ["#ffffff"], "tol": 45}], "front": [[[530, 262], [533, 110], [560, 60], [620, 42], [690, 55], [716, 100], [712, 200], [700, 262]]], "layers": [{"type": "image", "src": "assets/logos/uniqlo_red_square_cr8t.png", "x": 37, "y": 320, "w": 163, "h": 164}, {"type": "image", "src": "assets/logos/gu_blue_square_cr8t.png", "x": 1080, "y": 320, "w": 165, "h": 165}, {"type": "text", "text": "L", "x": 180, "y": 190, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": -30, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "O", "x": 292, "y": 140, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": -20, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "O", "x": 445, "y": 105, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": -10, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "K", "x": 590, "y": 88, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": -2, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "B", "x": 734, "y": 92, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": 4, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "O", "x": 865, "y": 117, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": 12, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "O", "x": 1000, "y": 155, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": 22, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "K", "x": 1097, "y": 195, "anchor": "cc", "font": "Playfair Display", "weight": 900, "size": 158, "rotate": 32, "color": "#ffffff", "scale_x": 1.1}, {"type": "text", "text": "UNIQLO・GU を使った33の冬コーデ !!", "x": 637, "y": 553, "anchor": "cc", "font": "Klee One", "weight": 400, "size": 61, "spacing": -0.01, "color": "#ffffff"}, {"type": "text", "text": "2024-25 WINTER MEN’S FASHION", "x": 640, "y": 664, "anchor": "cc", "font": "Lora", "weight": 700, "size": 26, "spacing": 0.16, "color": "#ffffff"}]}
+{
+ "id": "cr8tcQVjyYc",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    34,
+    317,
+    169,
+    170
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1077,
+    317,
+    171,
+    171
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    110,
+    30,
+    1060,
+    245
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    145,
+    515,
+    990,
+    75
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    360,
+    648,
+    560,
+    32
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 45
+  }
+ ],
+ "front": [
+  [
+   [
+    530,
+    262
+   ],
+   [
+    533,
+    110
+   ],
+   [
+    560,
+    60
+   ],
+   [
+    620,
+    42
+   ],
+   [
+    690,
+    55
+   ],
+   [
+    716,
+    100
+   ],
+   [
+    712,
+    200
+   ],
+   [
+    700,
+    262
+   ]
+  ]
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_square_cr8t.png",
+   "x": 37,
+   "y": 320,
+   "w": 163,
+   "h": 164
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_square_cr8t.png",
+   "x": 1080,
+   "y": 320,
+   "w": 165,
+   "h": 165
+  },
+  {
+   "type": "text",
+   "text": "L",
+   "x": 163,
+   "y": 178,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 128.0,
+   "rotate": -30,
+   "color": "#ffffff",
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "text": "O",
+   "x": 290,
+   "y": 133,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 142.6,
+   "rotate": -20,
+   "color": "#ffffff",
+   "scale_x": 0.931
+  },
+  {
+   "type": "text",
+   "text": "O",
+   "x": 422,
+   "y": 110,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 128.0,
+   "rotate": -10,
+   "color": "#ffffff",
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "text": "K",
+   "x": 563,
+   "y": 94,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 180.7,
+   "rotate": -2,
+   "color": "#ffffff",
+   "scale_x": 0.931
+  },
+  {
+   "type": "text",
+   "text": "B",
+   "x": 727,
+   "y": 86,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 145.4,
+   "rotate": 4,
+   "color": "#ffffff",
+   "scale_x": 1.012
+  },
+  {
+   "type": "text",
+   "text": "O",
+   "x": 845,
+   "y": 104,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 130.8,
+   "rotate": 12,
+   "color": "#ffffff",
+   "scale_x": 0.992
+  },
+  {
+   "type": "text",
+   "text": "O",
+   "x": 975,
+   "y": 137,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 133.7,
+   "rotate": 22,
+   "color": "#ffffff",
+   "scale_x": 1.032
+  },
+  {
+   "type": "text",
+   "text": "K",
+   "x": 1098,
+   "y": 182,
+   "anchor": "cc",
+   "font": "Playfair Display",
+   "weight": 900,
+   "size": 130.8,
+   "rotate": 32,
+   "color": "#ffffff",
+   "scale_x": 0.972
+  },
+  {
+   "type": "text",
+   "text": "UNIQLO・GU を使った33の冬コーデ !!",
+   "x": 666,
+   "y": 550,
+   "anchor": "cc",
+   "font": "Klee One",
+   "weight": 400,
+   "size": 63.0,
+   "spacing": -0.01,
+   "color": "#ffffff",
+   "scale_x": 0.846
+  },
+  {
+   "type": "text",
+   "text": "2024-25 WINTER MEN’S FASHION",
+   "x": 643,
+   "y": 665,
+   "anchor": "cc",
+   "font": "Lora",
+   "weight": 700,
+   "size": 25.4,
+   "spacing": 0.16,
+   "color": "#ffffff",
+   "scale_x": 1.037
+  }
+ ]
+}

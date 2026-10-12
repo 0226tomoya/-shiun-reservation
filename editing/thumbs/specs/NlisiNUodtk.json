@@ -128,8 +128,8 @@
   {
    "type": "text",
    "text": "?",
-   "x": 444,
-   "y": 336,
+   "x": 446,
+   "y": 338,
    "anchor": "cc",
    "font": "Lora",
    "weight": 400,
@@ -142,7 +142,7 @@
      "#e8e8e8"
     ]
    ],
-   "scale_x": 0.92
+   "scale_x": 0.846
   },
   {
    "type": "text",
@@ -172,13 +172,13 @@
   {
    "type": "text",
    "text": "年",
-   "x": 434.5,
+   "x": 433.5,
    "y": 387.5,
    "font": "Noto Sans JP",
    "weight": 900,
    "size": 81.7,
    "color": "#fdfdfd",
-   "scale_x": 0.926,
+   "scale_x": 0.945,
    "rotate": 0.5,
    "skew": -10,
    "lock": [
@@ -248,15 +248,15 @@
   {
    "type": "text",
    "text": "低身長ディレクターが解説",
-   "x": 1183,
-   "y": 25,
+   "x": 1187,
+   "y": 24,
    "font": "KleeOne",
    "weight": 600,
-   "size": 33.3,
+   "size": 30.6,
    "color": "#111111",
    "vertical": true,
    "tol": 70,
-   "scale_x": 0.92,
+   "scale_x": 0.846,
    "rotate": 0.5,
    "skew": 1,
    "spacing": 0,
@@ -265,7 +265,7 @@
   {
    "type": "text",
    "text": "マ",
-   "x": 20.0,
+   "x": 22.0,
    "y": 495.5,
    "font": "MPLUS1p",
    "weight": 900,
@@ -281,14 +281,14 @@
     230,
     230
    ],
-   "scale_x": 1.043,
+   "scale_x": 1.022,
    "fit_iou": 0.785
   },
   {
    "type": "text",
    "text": "ス",
-   "x": 265.0,
-   "y": 442.5,
+   "x": 262.0,
+   "y": 443.5,
    "font": "Noto Sans JP",
    "weight": 900,
    "size": 250.9,
@@ -303,17 +303,17 @@
     240,
     230
    ],
-   "scale_x": 0.907,
+   "scale_x": 0.925,
    "fit_iou": 0.736
   },
   {
    "type": "text",
    "text": "ト",
-   "x": 564.5,
-   "y": 435.5,
+   "x": 569.5,
+   "y": 439.5,
    "font": "MPLUS1p",
    "weight": 900,
-   "size": 242.8,
+   "size": 233.1,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -325,17 +325,17 @@
     160,
     250
    ],
-   "scale_x": 0.703,
+   "scale_x": 0.675,
    "fit_iou": 0.679
   },
   {
    "type": "text",
    "text": "バ",
-   "x": 771.0,
-   "y": 463.0,
+   "x": 772.0,
+   "y": 479.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 176.8,
+   "size": 159.1,
    "color": "#fcd106",
    "lock": [
     "skew",
@@ -347,13 +347,13 @@
     300,
     250
    ],
-   "scale_x": 1.497,
+   "scale_x": 1.617,
    "fit_iou": 0.606
   },
   {
    "type": "text",
    "text": "イ",
-   "x": 1038.5,
+   "x": 1044.5,
    "y": 411.5,
    "font": "Noto Sans JP",
    "weight": 900,
@@ -369,7 +369,7 @@
     220,
     250
    ],
-   "scale_x": 0.822,
+   "scale_x": 0.789,
    "fit_iou": 0.751
   }
  ]

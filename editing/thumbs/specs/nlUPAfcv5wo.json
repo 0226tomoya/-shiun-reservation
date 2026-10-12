@@ -222,9 +222,9 @@
   {
    "type": "text",
    "text": "買",
-   "x": 11.5,
+   "x": 13.5,
    "y": -8.5,
-   "size": 213.981,
+   "size": 214.0,
    "box": [
     -7,
     6,
@@ -238,7 +238,7 @@
    "skew": -4.4,
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
-   "scale_x": 0.974,
+   "scale_x": 0.955,
    "fit_iou": 0.703
   },
   {
@@ -249,10 +249,6 @@
    "line": 1.0,
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
-   "text": "うべ",
-   "x": 279.5,
-   "y": 73.0,
-   "size": 120.081,
    "box": [
     299,
     68,
@@ -260,10 +256,38 @@
     144
    ],
    "skew": 4,
-   "scale_x": 0.53,
+   "scale_x": 0.618,
    "rotate": 0,
    "fit_iou": 0.263,
-   "spacing": -0.02
+   "text": "う",
+   "x": 210.6,
+   "y": 132.0,
+   "anchor": "lc",
+   "size": 129.9
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "box": [
+    299,
+    68,
+    129,
+    144
+   ],
+   "skew": 4,
+   "scale_x": 0.618,
+   "rotate": 0,
+   "fit_iou": 0.263,
+   "text": "べ",
+   "x": 324.0,
+   "y": 122.0,
+   "anchor": "lc",
+   "size": 106.1
   },
   {
    "type": "text",
@@ -274,9 +298,9 @@
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
    "text": "き",
-   "x": 416.5,
-   "y": 65.0,
-   "size": 136.976,
+   "x": 422.5,
+   "y": 66.0,
+   "size": 134.2,
    "box": [
     427,
     68,
@@ -284,7 +308,7 @@
     144
    ],
    "skew": -3,
-   "scale_x": 0.991,
+   "scale_x": 0.932,
    "fit_iou": 0.77
   },
   {
@@ -296,9 +320,9 @@
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
    "text": "サ",
-   "x": 553.0,
-   "y": 5.0,
-   "size": 174.639,
+   "x": 551.0,
+   "y": -5.0,
+   "size": 203.6,
    "box": [
     545,
     0,
@@ -306,7 +330,7 @@
     224
    ],
    "skew": -9.6,
-   "scale_x": 1.122,
+   "scale_x": 0.991,
    "rotate": -1.0,
    "fit_iou": 0.74
   },
@@ -319,9 +343,9 @@
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
    "text": "ン",
-   "x": 768.0,
-   "y": 0.0,
-   "size": 192.13,
+   "x": 789.0,
+   "y": 5.0,
+   "size": 180.7,
    "box": [
     726,
     0,
@@ -329,7 +353,7 @@
     224
    ],
    "skew": -9.6,
-   "scale_x": 0.813,
+   "scale_x": 0.688,
    "rotate": -5.0,
    "fit_iou": 0.505
   },
@@ -341,10 +365,6 @@
    "line": 1.0,
    "shadow": "5px 5px 6px rgba(0,0,0,.25)",
    "tol": 40,
-   "text": "ダル",
-   "x": 943.0,
-   "y": -6.0,
-   "size": 211.949,
    "box": [
     912,
     0,
@@ -354,30 +374,60 @@
    "skew": -16.4,
    "scale_x": 0.844,
    "rotate": -1.2,
-   "spacing": 0.024,
-   "fit_iou": 0.629
+   "fit_iou": 0.629,
+   "text": "ダ",
+   "x": 917.8,
+   "y": 93.5,
+   "anchor": "lc",
+   "size": 207.5
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffea01",
+   "line": 1.0,
+   "shadow": "5px 5px 6px rgba(0,0,0,.25)",
+   "tol": 40,
+   "box": [
+    912,
+    0,
+    370,
+    224
+   ],
+   "skew": -16.4,
+   "scale_x": 0.827,
+   "rotate": -1.2,
+   "fit_iou": 0.629,
+   "text": "ル",
+   "x": 1085.9,
+   "y": 104.5,
+   "anchor": "lc",
+   "size": 237.8
   },
   {
    "type": "text",
    "text": "低身長アパレルディレクターが厳選!!",
-   "x": 316.0,
-   "y": 261.0,
-   "size": 71.348,
+   "x": 333.0,
+   "y": 269.0,
+   "size": 34,
    "box": [
     320,
     210,
     590,
     109
    ],
-   "font": "Yusei Magic",
-   "weight": 400,
+   "font": "Klee One",
+   "weight": 600,
    "color": "#ffffff",
    "rotate": -4,
    "shadow": "0 0 8px rgba(0,0,0,.7)",
    "tol": 14,
-   "scale_x": 0.5,
-   "skew": -1,
-   "fit_iou": 0.092
+   "scale_x": 1.0,
+   "skew": 0,
+   "fit_iou": 0.092,
+   "spacing": 0.02,
+   "anchor": "lt"
   },
   {
    "type": "image",

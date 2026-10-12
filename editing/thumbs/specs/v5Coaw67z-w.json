@@ -66,24 +66,23 @@
   {
    "type": "text",
    "font": "PlayfairDisplay",
-   "weight": 700,
+   "weight": 400,
    "color": "#ffffff",
    "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 0.874,
+   "scale_x": 1.165,
    "skew": 0,
-   "fit_iou": 0.331,
-   "text": "s",
-   "x": 629,
-   "y": 51.5,
-   "anchor": "lc",
-   "size": 94.5,
-   "line": 1.0
+   "x": 626.5,
+   "y": 19.0,
+   "anchor": "lt",
+   "size": 79.8,
+   "line": 1.0,
+   "text": "shiun",
+   "tgt": [
+    633,
+    30,
+    860,
+    92
+   ]
   },
   {
    "type": "text",
@@ -91,175 +90,20 @@
    "weight": 700,
    "color": "#ffffff",
    "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.389,
+   "scale_x": 0.994,
    "skew": 0,
-   "fit_iou": 0.331,
-   "text": "h",
-   "x": 667.9,
-   "y": 47.5,
-   "anchor": "lc",
-   "size": 63.5,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.201,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "i",
-   "x": 725.8,
-   "y": 66.5,
-   "anchor": "lc",
-   "size": 57.1,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.052,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "u",
-   "x": 753.1,
-   "y": 56.5,
-   "anchor": "lc",
-   "size": 82.3,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.329,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "n",
-   "x": 803.6,
-   "y": 60.5,
-   "anchor": "lc",
-   "size": 71.0,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.047,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "L",
-   "x": 881.8,
-   "y": 65.5,
-   "anchor": "lc",
-   "size": 61.3,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 0.91,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "O",
-   "x": 927.0,
-   "y": 49.5,
-   "anchor": "lc",
-   "size": 96.2,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 0.91,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "O",
-   "x": 995.1,
-   "y": 49.5,
-   "anchor": "lc",
-   "size": 96.2,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "PlayfairDisplay",
-   "weight": 700,
-   "color": "#ffffff",
-   "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 1.003,
-   "skew": 0,
-   "fit_iou": 0.331,
-   "text": "K",
-   "x": 1066.2,
-   "y": 50.5,
-   "anchor": "lc",
-   "size": 69.4,
-   "line": 1.0
+   "x": 876.5,
+   "y": 12.0,
+   "anchor": "lt",
+   "size": 85.5,
+   "line": 1.0,
+   "text": "LOOK",
+   "tgt": [
+    881,
+    33,
+    1127,
+    91
+   ]
   },
   {
    "type": "text",
@@ -267,21 +111,20 @@
    "weight": 900,
    "color": "#ffffff",
    "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 0.989,
+   "scale_x": 0.928,
    "skew": 0,
-   "fit_iou": 0.331,
+   "x": 1127.0,
+   "y": 10.5,
+   "anchor": "lt",
+   "size": 78.4,
+   "line": 1.0,
    "text": "撮",
-   "x": 1127.4,
-   "y": 49.5,
-   "anchor": "lc",
-   "size": 76.0,
-   "line": 1.0
+   "tgt": [
+    1131,
+    28,
+    1197,
+    92
+   ]
   },
   {
    "type": "text",
@@ -289,21 +132,20 @@
    "weight": 900,
    "color": "#ffffff",
    "tol": 16,
-   "box": [
-    625,
-    25,
-    650,
-    75
-   ],
-   "scale_x": 0.989,
+   "scale_x": 0.921,
    "skew": 0,
-   "fit_iou": 0.331,
+   "x": 1199.0,
+   "y": 12.5,
+   "anchor": "lt",
+   "size": 75.6,
+   "line": 1.0,
    "text": "影",
-   "x": 1199.2,
-   "y": 50.5,
-   "anchor": "lc",
-   "size": 70.3,
-   "line": 1.0
+   "tgt": [
+    1203,
+    28,
+    1269,
+    92
+   ]
   },
   {
    "type": "text",

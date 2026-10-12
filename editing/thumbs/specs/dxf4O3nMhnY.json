@@ -51,32 +51,6 @@
   },
   {
    "rect": [
-    42,
-    44,
-    262,
-    121
-   ],
-   "colors": [
-    "#000000",
-    "#ffffff"
-   ],
-   "tol": 45
-  },
-  {
-   "rect": [
-    980,
-    44,
-    262,
-    121
-   ],
-   "colors": [
-    "#ff0000",
-    "#ffffff"
-   ],
-   "tol": 60
-  },
-  {
-   "rect": [
     75,
     335,
     1120,
@@ -98,6 +72,42 @@
     "#f0c80b"
    ],
    "tol": 40
+  },
+  {
+   "rect": [
+    985,
+    48,
+    111,
+    111
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1124,
+    48,
+    111,
+    111
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    46,
+    48,
+    112,
+    111
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    187,
+    48,
+    111,
+    111
+   ],
+   "full": true
   }
  ],
  "layers": [
@@ -108,24 +118,40 @@
    "w": 1242,
    "h": 681,
    "border": [
-    3,
+    5,
     "#ffffff"
    ]
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_u_pair_black.png",
-   "x": 46,
+   "src": "assets/logos/uniqlo_katakana_red_dxf4.png",
+   "x": 985,
    "y": 48,
-   "w": 252,
+   "w": 111,
    "h": 111
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_pair_red_large.png",
-   "x": 984,
+   "src": "assets/logos/uniqlo_red_dxf4.png",
+   "x": 1124,
    "y": 48,
-   "w": 252,
+   "w": 111,
+   "h": 111
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_black_dxf4.png",
+   "x": 46,
+   "y": 48,
+   "w": 112,
+   "h": 111
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqloU_black_dxf4.png",
+   "x": 187,
+   "y": 48,
+   "w": 111,
    "h": 111
   },
   {
@@ -158,11 +184,11 @@
   {
    "type": "text",
    "text": "日",
-   "x": 225.3,
-   "y": 328.0,
+   "x": 224.3,
+   "y": 329.0,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 138.6,
+   "size": 135.8,
    "color": "#ffffff",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -178,7 +204,7 @@
     203,
     145
    ],
-   "scale_x": 0.941,
+   "scale_x": 0.979,
    "no_init": true,
    "fit_iou": 0.398
   },
@@ -212,7 +238,7 @@
   {
    "type": "text",
    "text": "売",
-   "x": 477.8,
+   "x": 475.8,
    "y": 325.0,
    "font": "NotoSerifJP",
    "weight": 900,
@@ -232,7 +258,7 @@
     203,
     145
    ],
-   "scale_x": 0.941,
+   "scale_x": 0.96,
    "no_init": true,
    "fit_iou": 0.372
   },
@@ -267,10 +293,10 @@
    "type": "text",
    "text": "ニ",
    "x": 749.8,
-   "y": 299.0,
+   "y": 301.0,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 147.7,
+   "size": 144.7,
    "color": "#ffffff",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -286,7 +312,7 @@
     203,
     145
    ],
-   "scale_x": 0.941,
+   "scale_x": 0.96,
    "no_init": true,
    "fit_iou": 0.429
   },
@@ -321,10 +347,10 @@
    "type": "text",
    "text": "ロ",
    "x": 977.3,
-   "y": 284.0,
+   "y": 281.0,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 157.2,
+   "size": 160.3,
    "color": "#ffffff",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -340,7 +366,7 @@
     203,
     145
    ],
-   "scale_x": 0.906,
+   "scale_x": 0.888,
    "no_init": true,
    "fit_iou": 0.381
   },
@@ -348,10 +374,10 @@
    "type": "text",
    "text": "U",
    "x": 1109.0,
-   "y": 276.0,
+   "y": 288.0,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 147.4,
+   "size": 135.6,
    "color": "#ffffff",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -367,7 +393,7 @@
     161,
     145
    ],
-   "scale_x": 0.888,
+   "scale_x": 0.941,
    "no_init": true,
    "fit_iou": 0.409
   },
@@ -400,11 +426,11 @@
   },
   {
    "type": "text",
-   "x": 270.3,
-   "y": 452.0,
+   "x": 268.3,
+   "y": 450.0,
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 210.1,
+   "size": 214.3,
    "color": "#f0c80b",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -454,11 +480,11 @@
   },
   {
    "type": "text",
-   "x": 633.4,
-   "y": 504.2,
+   "x": 631.4,
+   "y": 508.2,
    "font": "NotoSerifJP",
    "weight": 900,
-   "size": 140.9,
+   "size": 135.3,
    "color": "#f0c80b",
    "skew": -10,
    "shadow": "3px 3px 8px rgba(0,0,0,.6)",
@@ -474,7 +500,7 @@
     208,
     225
    ],
-   "scale_x": 0.957,
+   "scale_x": 1.014,
    "text": "い",
    "no_init": true,
    "fit_iou": 0.286

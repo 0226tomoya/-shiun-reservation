@@ -102,28 +102,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "m": [
-    0,
-    5,
-    1280,
-    150,
-    "#ffffff",
-    12
-   ],
-   "scale_x": 1.014,
-   "text": "本",
-   "x": 4.4,
-   "y": 71.1,
-   "anchor": "lc",
-   "size": 145.2,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
+   "font": "Inter",
    "weight": 900,
    "color": "#ffffff",
    "m": [
@@ -135,11 +114,32 @@
     12
    ],
    "scale_x": 0.994,
-   "text": "当",
-   "x": 136.6,
-   "y": 69.1,
+   "text": "本",
+   "x": 2.4,
+   "y": 80.1,
    "anchor": "lc",
-   "size": 145.2,
+   "size": 151.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Inter",
+   "weight": 900,
+   "color": "#ffffff",
+   "m": [
+    0,
+    5,
+    1280,
+    150,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.974,
+   "text": "当",
+   "x": 135.6,
+   "y": 77.1,
+   "anchor": "lc",
+   "size": 151.0,
    "line": 1.0
   },
   {
@@ -176,9 +176,9 @@
     "#ffffff",
     12
    ],
-   "scale_x": 1.014,
+   "scale_x": 0.97,
    "text": "買",
-   "x": 395.9,
+   "x": 399.9,
    "y": 71.1,
    "anchor": "lc",
    "size": 148.0,
@@ -197,9 +197,9 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.976,
+   "scale_x": 0.956,
    "text": "っ",
-   "x": 534.1,
+   "x": 536.1,
    "y": 80.1,
    "anchor": "lc",
    "size": 128.1,
@@ -218,12 +218,12 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.994,
+   "scale_x": 1.034,
    "text": "て",
-   "x": 639.7,
-   "y": 76.1,
+   "x": 638.7,
+   "y": 77.1,
    "anchor": "lc",
-   "size": 136.6,
+   "size": 133.9,
    "line": 1.0
   },
   {
@@ -239,12 +239,12 @@
     "#ffffff",
     12
    ],
-   "scale_x": 1.053,
+   "scale_x": 1.137,
    "text": "良",
    "x": 766.9,
-   "y": 70.1,
+   "y": 67.1,
    "anchor": "lc",
-   "size": 133.8,
+   "size": 125.8,
    "line": 1.0
   },
   {
@@ -260,12 +260,12 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.995,
+   "scale_x": 1.075,
    "text": "か",
-   "x": 903.1,
-   "y": 71.1,
+   "x": 902.1,
+   "y": 69.1,
    "anchor": "lc",
-   "size": 139.5,
+   "size": 128.5,
    "line": 1.0
   },
   {
@@ -281,9 +281,9 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.92,
+   "scale_x": 0.936,
    "text": "っ",
-   "x": 1032.3,
+   "x": 1031.3,
    "y": 80.1,
    "anchor": "lc",
    "size": 130.7,
@@ -302,9 +302,9 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.976,
+   "scale_x": 0.996,
    "text": "た",
-   "x": 1135.4,
+   "x": 1133.4,
    "y": 73.1,
    "anchor": "lc",
    "size": 145.2,
@@ -335,13 +335,8 @@
   },
   {
    "type": "text",
-   "text": "BEST",
-   "x": 621.5,
-   "y": 584.0,
-   "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 303.3,
    "color": "#ffffff",
    "m": [
     295,
@@ -351,18 +346,88 @@
     "#ffffff",
     12
    ],
-   "scale_x": 0.872
+   "scale_x": 0.924,
+   "text": "B",
+   "x": 278.1,
+   "y": 583.7,
+   "anchor": "lc",
+   "size": 303.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "m": [
+    295,
+    468,
+    680,
+    252,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.942,
+   "text": "E",
+   "x": 456.9,
+   "y": 582.7,
+   "anchor": "lc",
+   "size": 303.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Inter",
+   "weight": 900,
+   "color": "#ffffff",
+   "m": [
+    295,
+    468,
+    680,
+    252,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.855,
+   "text": "S",
+   "x": 617.5,
+   "y": 602.7,
+   "anchor": "lc",
+   "size": 315.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Inter",
+   "weight": 900,
+   "color": "#ffffff",
+   "m": [
+    295,
+    468,
+    680,
+    252,
+    "#ffffff",
+    12
+   ],
+   "scale_x": 0.98,
+   "text": "T",
+   "x": 791.6,
+   "y": 585.7,
+   "anchor": "lc",
+   "size": 262.1,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "7",
-   "x": 1117.0,
-   "y": 454.0,
+   "x": 1112.5,
+   "y": 466.0,
    "anchor": "cc",
-   "font": "Noto Sans JP",
+   "font": "NotoSansJP",
    "weight": 900,
-   "size": 494.3,
+   "size": 571.0,
    "color": "#fff000",
+   "scale_x": 1.0,
    "m": [
     955,
     290,
@@ -370,8 +435,7 @@
     430,
     "#fff000",
     45
-   ],
-   "scale_x": 1.121
+   ]
   }
  ]
 }

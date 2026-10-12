@@ -46,25 +46,28 @@
      "text": "オススメ!!"
     }
    ],
-   "x": 866,
-   "y": 35,
+   "x": 875.5,
+   "y": 35.5,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 47.0,
+   "size": 55.2,
    "spacing": -0.03,
-   "color": "#202020",
+   "color": "#ffffff",
    "strokes": [
     [
-     3,
-     "#202020"
-    ],
-    [
-     8,
-     "#ffffff"
+     4,
+     "#1a1a1a"
     ]
    ],
-   "scale_x": 0.92
+   "scale_x": 1.046,
+   "tgt": [
+    491,
+    13,
+    1260,
+    65
+   ],
+   "shadow": "0 0 6px rgba(0,0,0,.5)"
   },
   {
    "type": "text",

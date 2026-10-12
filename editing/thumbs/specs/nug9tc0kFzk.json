@@ -29,17 +29,12 @@
   },
   {
    "rect": [
-    1161,
-    17,
-    91,
-    92
+    1163,
+    19,
+    87,
+    88
    ],
-   "colors": [
-    "#df222a",
-    "#fef0f2",
-    "#efabad"
-   ],
-   "tol": 35
+   "full": true
   },
   {
    "rect": [
@@ -85,20 +80,20 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_red_square.png",
-   "x": 1161,
-   "y": 17,
-   "w": 91,
-   "h": 92
+   "src": "assets/logos/uniqlo_red_nug9.png",
+   "x": 1163,
+   "y": 19,
+   "w": 87,
+   "h": 88
   },
   {
    "type": "text",
    "text": "ユニクロの新作アイテム、正直買いです",
    "x": 161.5,
-   "y": 307.5,
+   "y": 308.5,
    "font": "NotoSansJP",
    "weight": 700,
-   "size": 59.25,
+   "size": 58.1,
    "color": "#fbfafb",
    "spacing": 0.184,
    "shadow": "0 0 8px rgba(0,0,0,.25)",
@@ -109,7 +104,7 @@
     985,
     58
    ],
-   "scale_x": 0.772,
+   "scale_x": 0.787,
    "skew": -4.6,
    "fit_iou": 0.441
   },
@@ -120,7 +115,7 @@
    "y": 371.0,
    "font": "NotoSansJP",
    "weight": 700,
-   "size": 31.69,
+   "size": 31.7,
    "color": "#fbfafb",
    "spacing": 0.18,
    "shadow": "0 0 8px rgba(0,0,0,.25)",
