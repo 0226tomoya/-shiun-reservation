@@ -37,27 +37,27 @@
   },
   {
    "rect": [
-    70,
-    245,
-    185,
-    50
+    65,
+    212,
+    215,
+    80
    ],
    "colors": [
-    "#2a2a30"
+    "#ffffff"
    ],
-   "tol": 30
+   "tol": 35
   },
   {
    "rect": [
     925,
-    225,
-    340,
-    60
+    200,
+    345,
+    85
    ],
    "colors": [
-    "#2a2a30"
+    "#ffffff"
    ],
-   "tol": 30
+   "tol": 35
   },
   {
    "rect": [
@@ -360,8 +360,8 @@
   {
    "type": "text",
    "text": "これは最強!!",
-   "x": 143,
-   "y": 270,
+   "x": 8,
+   "y": 236,
    "box": [
     70,
     248,
@@ -370,19 +370,20 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 30.6,
-   "color": "#2a2a30",
-   "rotate": -3.25,
+   "size": 32.6,
+   "color": "#ffffff",
+   "rotate": -14.0,
    "nokana": true,
-   "spacing": -0.22,
-   "scale_x": 0.938,
-   "fit_iou": 0.373
+   "spacing": 0,
+   "scale_x": 0.968,
+   "fit_iou": 0.373,
+   "shadow": "0 0 5px rgba(0,0,0,.8)"
   },
   {
    "type": "text",
    "text": "〇〇は冬のマストアイテム",
-   "x": 897,
-   "y": 227,
+   "x": 982,
+   "y": 206,
    "box": [
     925,
     228,
@@ -391,13 +392,14 @@
    ],
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 46.0,
-   "color": "#2a2a30",
-   "rotate": 3.55,
+   "size": 38.7,
+   "color": "#ffffff",
+   "rotate": 6.0,
    "nokana": true,
-   "spacing": -0.28,
-   "scale_x": 0.987,
-   "fit_iou": 0.189
+   "spacing": 0,
+   "scale_x": 0.656,
+   "fit_iou": 0.189,
+   "shadow": "0 0 5px rgba(0,0,0,.8)"
   },
   {
    "type": "text",

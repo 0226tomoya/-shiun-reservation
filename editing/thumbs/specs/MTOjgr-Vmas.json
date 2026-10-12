@@ -73,7 +73,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     10,
     400,
@@ -87,20 +86,19 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.209,
+   "scale_x": 1.045,
    "text": "人",
-   "x": 10.4,
-   "y": 513.3,
+   "x": 11.4,
+   "y": 503.3,
    "anchor": "lc",
-   "size": 183.5,
+   "size": 210.1,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     10,
     400,
@@ -114,39 +112,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.057,
+   "scale_x": 1.056,
    "text": "生",
-   "x": 236.0,
-   "y": 497.3,
+   "x": 233.0,
+   "y": 496.3,
    "anchor": "lc",
-   "size": 208.1,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "tgt": [
-    10,
-    400,
-    1244,
-    606
-   ],
-   "m": [
-    0,
-    0,
-    1,
-    1,
-    "#fff"
-   ],
-   "scale_x": 0.968,
-   "text": "が",
-   "x": 452.6,
-   "y": 512.3,
-   "anchor": "lc",
-   "size": 179.1,
+   "size": 212.3,
    "line": 1.0
   },
   {
@@ -154,7 +125,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     10,
     400,
@@ -168,9 +138,35 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.014,
+   "scale_x": 0.892,
+   "text": "が",
+   "x": 451.6,
+   "y": 506.3,
+   "anchor": "lc",
+   "size": 204.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "color": "#ffffff",
+   "tgt": [
+    10,
+    400,
+    1244,
+    606
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.034,
    "text": "変",
-   "x": 620.8,
+   "x": 617.8,
    "y": 498.3,
    "anchor": "lc",
    "size": 225.4,
@@ -181,7 +177,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     10,
     400,
@@ -205,10 +200,9 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     10,
     400,
@@ -222,20 +216,19 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.911,
+   "scale_x": 1.004,
    "text": "る",
-   "x": 1061.0,
-   "y": 498.3,
+   "x": 1049.0,
+   "y": 499.3,
    "anchor": "lc",
-   "size": 225.3,
+   "size": 229.8,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -249,9 +242,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.003,
+   "scale_x": 0.983,
    "text": "低",
-   "x": 5.0,
+   "x": 6.0,
    "y": 664.8,
    "anchor": "lc",
    "size": 75.5,
@@ -259,10 +252,9 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -289,7 +281,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -303,7 +294,7 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.021,
+   "scale_x": 1.041,
    "text": "長",
    "x": 156.7,
    "y": 666.8,
@@ -316,7 +307,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -340,10 +330,9 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -357,12 +346,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.063,
+   "scale_x": 1.042,
    "text": "性",
    "x": 310.3,
    "y": 665.8,
    "anchor": "lc",
-   "size": 72.5,
+   "size": 75.5,
    "line": 1.0
   },
   {
@@ -370,7 +359,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -397,7 +385,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -421,10 +408,9 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -451,7 +437,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -465,9 +450,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.104,
+   "scale_x": 1.125,
    "text": "で",
-   "x": 595.0,
+   "x": 594.0,
    "y": 674.3,
    "anchor": "lc",
    "size": 56.5,
@@ -478,7 +463,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -494,10 +478,10 @@
    ],
    "scale_x": 0.982,
    "text": "カ",
-   "x": 658.2,
+   "x": 657.2,
    "y": 663.8,
    "anchor": "lc",
-   "size": 68.1,
+   "size": 69.5,
    "line": 1.0
   },
   {
@@ -505,7 +489,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -519,12 +502,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.943,
+   "scale_x": 0.906,
    "text": "ッ",
    "x": 726.0,
    "y": 666.3,
    "anchor": "lc",
-   "size": 62.8,
+   "size": 65.4,
    "line": 1.0
   },
   {
@@ -532,7 +515,6 @@
    "font": "MPLUS1p",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -546,9 +528,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.118,
+   "scale_x": 1.231,
    "text": "コ",
-   "x": 795.3,
+   "x": 790.3,
    "y": 669.8,
    "anchor": "lc",
    "size": 54.0,
@@ -556,10 +538,9 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -573,9 +554,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.907,
+   "scale_x": 0.961,
    "text": "よ",
-   "x": 857.1,
+   "x": 855.1,
    "y": 665.8,
    "anchor": "lc",
    "size": 73.8,
@@ -586,7 +567,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -600,9 +580,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.062,
+   "scale_x": 1.147,
    "text": "く",
-   "x": 917.9,
+   "x": 914.9,
    "y": 664.8,
    "anchor": "lc",
    "size": 71.0,
@@ -613,7 +593,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -640,7 +619,6 @@
    "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -654,20 +632,19 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.852,
+   "scale_x": 0.868,
    "text": "る",
-   "x": 1056.5,
+   "x": 1057.5,
    "y": 665.8,
    "anchor": "lc",
-   "size": 80.1,
+   "size": 78.4,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -681,12 +658,12 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.964,
+   "scale_x": 0.983,
    "text": "方",
    "x": 1127.3,
-   "y": 664.8,
+   "y": 663.8,
    "anchor": "lc",
-   "size": 75.5,
+   "size": 74.0,
    "line": 1.0
   },
   {
@@ -694,7 +671,6 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.3)",
    "tgt": [
     8,
     633,
@@ -708,9 +684,9 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.997,
+   "scale_x": 0.995,
    "text": "法",
-   "x": 1198.2,
+   "x": 1199.2,
    "y": 665.8,
    "anchor": "lc",
    "size": 78.2,
