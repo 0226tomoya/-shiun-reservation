@@ -123,7 +123,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 0.804,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -149,7 +150,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 0.881,
-   "skew": -6.0
+   "skew": -6.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -175,7 +177,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 0.914,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -201,7 +204,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 0.983,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -227,7 +231,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 1.31,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -253,7 +258,8 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 1.108,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -279,17 +285,18 @@
    ],
    "shadow": "0 0 12px rgba(0,0,0,.85)",
    "scale_x": 0.675,
-   "skew": 0.0
+   "skew": 0.0,
+   "grp": "P2"
   },
   {
    "type": "text",
    "text": "T",
-   "x": 344.0,
-   "y": 528.5,
+   "x": 343.0,
+   "y": 531.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 300.1,
+   "size": 306.1,
    "tb": [
     239,
     464,
@@ -298,7 +305,8 @@
    ],
    "fill": "linear-gradient(180deg,#b08030 0%,#f0d890 25%,#ffffff 45%,#d8b060 62%,#8a6020 85%,#c8a050 100%)",
    "shadow": "0 0 18px rgba(0,0,0,.7)",
-   "scale_x": 1.058
+   "scale_x": 1.079,
+   "grp": "P9"
   },
   {
    "type": "text",
@@ -317,17 +325,18 @@
    ],
    "fill": "linear-gradient(180deg,#b08030 0%,#f0d890 25%,#ffffff 45%,#d8b060 62%,#8a6020 85%,#c8a050 100%)",
    "shadow": "0 0 18px rgba(0,0,0,.7)",
-   "scale_x": 0.902
+   "scale_x": 0.902,
+   "grp": "P9"
   },
   {
    "type": "text",
    "text": "P",
    "x": 780.0,
-   "y": 545.5,
+   "y": 547.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 355.0,
+   "size": 362.1,
    "tb": [
     686,
     882,
@@ -336,7 +345,8 @@
    ],
    "fill": "linear-gradient(180deg,#b08030 0%,#f0d890 25%,#ffffff 45%,#d8b060 62%,#8a6020 85%,#c8a050 100%)",
    "shadow": "0 0 18px rgba(0,0,0,.7)",
-   "scale_x": 0.903
+   "scale_x": 0.885,
+   "grp": "P9"
   },
   {
    "type": "text",
@@ -355,17 +365,13 @@
    ],
    "fill": "linear-gradient(180deg,#b08030 0%,#f0d890 25%,#ffffff 45%,#d8b060 62%,#8a6020 85%,#c8a050 100%)",
    "shadow": "0 0 18px rgba(0,0,0,.7)",
-   "scale_x": 0.996
+   "scale_x": 0.996,
+   "grp": "P9"
   },
   {
    "type": "text",
-   "text": "ランキング",
-   "x": 1028.5,
-   "y": 153.0,
-   "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 54.5,
    "tb": [
     896,
     1149,
@@ -374,7 +380,98 @@
    ],
    "color": "#ffffff",
    "rotate": -3,
-   "scale_x": 0.901
+   "scale_x": 0.865,
+   "text": "ラ",
+   "x": 923.1,
+   "y": 152.6,
+   "anchor": "cc",
+   "size": 52.3,
+   "line": 1.0,
+   "grp": "L13"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "tb": [
+    896,
+    1149,
+    136,
+    204
+   ],
+   "color": "#ffffff",
+   "rotate": -3,
+   "scale_x": 0.937,
+   "text": "ン",
+   "x": 982.2,
+   "y": 155.1,
+   "anchor": "cc",
+   "size": 52.3,
+   "line": 1.0,
+   "grp": "L13"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "tb": [
+    896,
+    1149,
+    136,
+    204
+   ],
+   "color": "#ffffff",
+   "rotate": -3,
+   "scale_x": 0.937,
+   "text": "キ",
+   "x": 1036.5,
+   "y": 156.5,
+   "anchor": "cc",
+   "size": 55.6,
+   "line": 1.0,
+   "grp": "L13"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "tb": [
+    896,
+    1149,
+    136,
+    204
+   ],
+   "color": "#ffffff",
+   "rotate": -3,
+   "scale_x": 0.937,
+   "text": "ン",
+   "x": 1073.8,
+   "y": 157.0,
+   "anchor": "cc",
+   "size": 54.5,
+   "line": 1.0,
+   "grp": "L13"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "tb": [
+    896,
+    1149,
+    136,
+    204
+   ],
+   "color": "#ffffff",
+   "rotate": -3,
+   "scale_x": 0.883,
+   "text": "グ",
+   "x": 1123.8,
+   "y": 153.4,
+   "anchor": "cc",
+   "size": 52.3,
+   "line": 1.0,
+   "grp": "L13"
   },
   {
    "type": "line",

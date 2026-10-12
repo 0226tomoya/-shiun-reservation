@@ -64,11 +64,8 @@
   },
   {
    "type": "text",
-   "x": 14.0,
-   "y": -6.0,
-   "font": "Noto Sans JP",
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 110.4,
    "color": "#1a1a1a",
    "strokes": [
     [
@@ -77,25 +74,6 @@
     ]
    ],
    "palt": true,
-   "runs": [
-    {
-     "text": "秋冬"
-    },
-    {
-     "text": "は",
-     "size_em": 0.75
-    },
-    {
-     "text": "コレ"
-    },
-    {
-     "text": "だけ",
-     "size_em": 0.75
-    },
-    {
-     "text": "あればOK!!"
-    }
-   ],
    "m": [
     5,
     3,
@@ -104,16 +82,400 @@
     "#1a1a1a",
     30
    ],
-   "scale_x": 0.78
+   "scale_x": 0.876,
+   "text": "秋",
+   "x": 9.7,
+   "y": 53.4,
+   "anchor": "lc",
+   "size": 103.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "冬",
+   "x": 95.8,
+   "y": 51.4,
+   "anchor": "lc",
+   "size": 101.5,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "は",
+   "x": 182.5,
+   "y": 60.6,
+   "anchor": "lc",
+   "size": 77.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "コ",
+   "x": 252.2,
+   "y": 51.9,
+   "anchor": "lc",
+   "size": 99.5,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "レ",
+   "x": 333.8,
+   "y": 51.9,
+   "anchor": "lc",
+   "size": 99.5,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "だ",
+   "x": 418.4,
+   "y": 61.6,
+   "anchor": "lc",
+   "size": 77.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "け",
+   "x": 479.7,
+   "y": 61.7,
+   "anchor": "lc",
+   "size": 77.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "あ",
+   "x": 544.0,
+   "y": 52.0,
+   "anchor": "lc",
+   "size": 105.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "れ",
+   "x": 630.0,
+   "y": 55.0,
+   "anchor": "lc",
+   "size": 105.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "ば",
+   "x": 715.6,
+   "y": 52.9,
+   "anchor": "lc",
+   "size": 103.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.825,
+   "text": "O",
+   "x": 802.2,
+   "y": 53.0,
+   "anchor": "lc",
+   "size": 105.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "K",
+   "x": 872.8,
+   "y": 54.0,
+   "anchor": "lc",
+   "size": 103.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.876,
+   "text": "!",
+   "x": 931.1,
+   "y": 52.0,
+   "anchor": "lc",
+   "size": 105.7,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#1a1a1a",
+   "strokes": [
+    [
+     4,
+     "#ffffff"
+    ]
+   ],
+   "palt": true,
+   "m": [
+    5,
+    3,
+    990,
+    110,
+    "#1a1a1a",
+    30
+   ],
+   "scale_x": 0.808,
+   "text": "!",
+   "x": 957.0,
+   "y": 51.0,
+   "anchor": "lc",
+   "size": 101.5,
+   "line": 1.0,
+   "grp": "L1"
   },
   {
    "type": "text",
    "text": "＼初心者向け／",
-   "x": 158.5,
+   "x": 147.5,
    "y": 331.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 95.0,
+   "size": 93.1,
    "color": "#ffffff",
    "m": [
     152,
@@ -123,7 +485,7 @@
     "#ffffff",
     20
    ],
-   "scale_x": 0.901
+   "scale_x": 0.937
   },
   {
    "type": "text",

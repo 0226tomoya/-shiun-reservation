@@ -69,12 +69,45 @@
    "weight": 500,
    "color": "#f9f8f9",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "spacing": -0.016,
    "tol": 25,
-   "text": "低身長",
-   "x": 476.5,
-   "y": 212.5,
-   "size": 75.6,
+   "box": [
+    470,
+    215,
+    240,
+    85
+   ],
+   "scale_x": 1.0,
+   "fit_iou": 0.509,
+   "tgt": [
+    477,
+    220,
+    703,
+    296
+   ],
+   "m": [
+    474,
+    214,
+    232,
+    88,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "低",
+   "x": 475.5,
+   "y": 254.5,
+   "anchor": "lc",
+   "size": 78.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
    "box": [
     470,
     215,
@@ -97,7 +130,14 @@
     "#f9f8f9",
     18
    ],
-   "palt": true
+   "palt": true,
+   "text": "身",
+   "x": 555.4,
+   "y": 253.5,
+   "anchor": "lc",
+   "size": 74.1,
+   "line": 1.0,
+   "grp": "L1"
   },
   {
    "type": "text",
@@ -105,19 +145,52 @@
    "weight": 500,
    "color": "#f9f8f9",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "spacing": 0.0,
    "tol": 25,
-   "text": "だけど",
-   "x": 702.0,
-   "y": 238.4,
-   "size": 55.6,
+   "box": [
+    470,
+    215,
+    240,
+    85
+   ],
+   "scale_x": 0.979,
+   "fit_iou": 0.509,
+   "tgt": [
+    477,
+    220,
+    703,
+    296
+   ],
+   "m": [
+    474,
+    214,
+    232,
+    88,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "長",
+   "x": 627.3,
+   "y": 252.5,
+   "anchor": "lc",
+   "size": 72.6,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
    "box": [
     703,
     230,
     152,
     70
    ],
-   "scale_x": 0.931,
+   "scale_x": 1.303,
    "fit_iou": 0.352,
    "tgt": [
     707,
@@ -133,7 +206,15 @@
     "#f9f8f9",
     18
    ],
-   "palt": true
+   "palt": true,
+   "text": "だ",
+   "x": 681.0,
+   "y": 270.4,
+   "anchor": "lc",
+   "size": 55.5,
+   "line": 1.0,
+   "grp": "L2",
+   "notune": true
   },
   {
    "type": "text",
@@ -141,19 +222,92 @@
    "weight": 500,
    "color": "#f9f8f9",
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "spacing": -0.026,
    "tol": 25,
-   "text": "カッコいい",
-   "x": 819.5,
-   "y": 212.7,
-   "size": 85.7,
+   "box": [
+    703,
+    230,
+    152,
+    70
+   ],
+   "scale_x": 0.889,
+   "fit_iou": 0.352,
+   "tgt": [
+    707,
+    249,
+    850,
+    295
+   ],
+   "m": [
+    704,
+    243,
+    149,
+    58,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "け",
+   "x": 752.8,
+   "y": 269.4,
+   "anchor": "lc",
+   "size": 59.2,
+   "line": 1.0,
+   "grp": "L2",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
+   "box": [
+    703,
+    230,
+    152,
+    70
+   ],
+   "scale_x": 1.044,
+   "fit_iou": 0.352,
+   "tgt": [
+    707,
+    249,
+    850,
+    295
+   ],
+   "m": [
+    704,
+    243,
+    149,
+    58,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "ど",
+   "x": 795.5,
+   "y": 270.4,
+   "anchor": "lc",
+   "size": 51.9,
+   "line": 1.0,
+   "grp": "L2",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
    "box": [
     852,
     215,
     335,
     85
    ],
-   "scale_x": 0.879,
+   "scale_x": 1.108,
    "fit_iou": 0.264,
    "tgt": [
     857,
@@ -169,12 +323,176 @@
     "#f9f8f9",
     18
    ],
-   "palt": true
+   "palt": true,
+   "text": "カ",
+   "x": 840.5,
+   "y": 255.7,
+   "anchor": "lc",
+   "size": 78.7,
+   "line": 1.0,
+   "grp": "L3",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
+   "box": [
+    852,
+    215,
+    335,
+    85
+   ],
+   "scale_x": 0.999,
+   "fit_iou": 0.264,
+   "tgt": [
+    857,
+    229,
+    1181,
+    293
+   ],
+   "m": [
+    854,
+    223,
+    330,
+    76,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "ッ",
+   "x": 909.9,
+   "y": 258.7,
+   "anchor": "lc",
+   "size": 71.0,
+   "line": 1.0,
+   "grp": "L3",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
+   "box": [
+    852,
+    215,
+    335,
+    85
+   ],
+   "scale_x": 0.917,
+   "fit_iou": 0.264,
+   "tgt": [
+    857,
+    229,
+    1181,
+    293
+   ],
+   "m": [
+    854,
+    223,
+    330,
+    76,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "コ",
+   "x": 967.2,
+   "y": 259.7,
+   "anchor": "lc",
+   "size": 84.3,
+   "line": 1.0,
+   "grp": "L3",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
+   "box": [
+    852,
+    215,
+    335,
+    85
+   ],
+   "scale_x": 0.897,
+   "fit_iou": 0.264,
+   "tgt": [
+    857,
+    229,
+    1181,
+    293
+   ],
+   "m": [
+    854,
+    223,
+    330,
+    76,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "い",
+   "x": 1036.6,
+   "y": 258.7,
+   "anchor": "lc",
+   "size": 87.5,
+   "line": 1.0,
+   "grp": "L3",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "ZenMaruGothic",
+   "weight": 500,
+   "color": "#f9f8f9",
+   "shadow": "0 0 8px rgba(0,0,0,.4)",
+   "tol": 25,
+   "box": [
+    852,
+    215,
+    335,
+    85
+   ],
+   "scale_x": 0.897,
+   "fit_iou": 0.264,
+   "tgt": [
+    857,
+    229,
+    1181,
+    293
+   ],
+   "m": [
+    854,
+    223,
+    330,
+    76,
+    "#f9f8f9",
+    18
+   ],
+   "palt": true,
+   "text": "い",
+   "x": 1110.0,
+   "y": 258.7,
+   "anchor": "lc",
+   "size": 87.5,
+   "line": 1.0,
+   "grp": "L3",
+   "notune": true
   },
   {
    "type": "text",
    "text": "モ",
-   "x": 419.0,
+   "x": 417.0,
    "y": 286.9,
    "font": "ZenMaruGothic",
    "weight": 500,
@@ -195,16 +513,17 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.758
+   "scale_x": 0.788,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "テ",
-   "x": 550.0,
-   "y": 292.4,
+   "x": 548.0,
+   "y": 290.4,
    "font": "ZenMaruGothic",
    "weight": 500,
-   "size": 136.1,
+   "size": 141.5,
    "color": "#f9f8f9",
    "tgt": [
     547,
@@ -221,16 +540,17 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.828
+   "scale_x": 0.811,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "る",
-   "x": 638.0,
-   "y": 346.4,
+   "x": 637.0,
+   "y": 344.4,
    "font": "ZenMaruGothic",
    "weight": 500,
-   "size": 86.8,
+   "size": 88.5,
    "color": "#f9f8f9",
    "tgt": [
     661,
@@ -247,7 +567,8 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 1.171
+   "scale_x": 1.194,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -273,16 +594,17 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.884
+   "scale_x": 0.884,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "コ",
-   "x": 874.0,
-   "y": 298.3,
+   "x": 869.0,
+   "y": 297.3,
    "font": "ZenMaruGothic",
    "weight": 500,
-   "size": 139.7,
+   "size": 142.5,
    "color": "#f9f8f9",
    "tgt": [
     879,
@@ -299,16 +621,17 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.789
+   "scale_x": 0.821,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "ー",
-   "x": 1004.5,
-   "y": 307.1,
+   "x": 1009.5,
+   "y": 310.1,
    "font": "ZenMaruGothic",
    "weight": 500,
-   "size": 119.3,
+   "size": 114.5,
    "color": "#f9f8f9",
    "tgt": [
     983,
@@ -325,16 +648,17 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.882
+   "scale_x": 0.847,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "デ",
-   "x": 1100.5,
-   "y": 288.4,
+   "x": 1097.5,
+   "y": 287.4,
    "font": "ZenMaruGothic",
    "weight": 500,
-   "size": 144.5,
+   "size": 147.4,
    "color": "#f9f8f9",
    "tgt": [
     1106,
@@ -351,7 +675,8 @@
     18
    ],
    "shadow": "0 0 8px rgba(0,0,0,.4)",
-   "scale_x": 0.897
+   "scale_x": 0.897,
+   "grp": "P12"
   }
  ]
 }

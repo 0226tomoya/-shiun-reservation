@@ -71,13 +71,8 @@
   },
   {
    "type": "text",
-   "text": "●●",
-   "x": 162.5,
-   "y": 373.0,
-   "anchor": "cc",
-   "font": "Noto Sans JP",
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 156.4,
    "tb": [
     7,
     316,
@@ -91,17 +86,50 @@
      "#050505"
     ]
    ],
-   "scale_x": 1.018
+   "scale_x": 0.995,
+   "text": "●",
+   "x": 2.2,
+   "y": 380.3,
+   "anchor": "lc",
+   "size": 162.3,
+   "line": 1.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "tb": [
+    7,
+    316,
+    296,
+    446
+   ],
+   "color": "#d00002",
+   "strokes": [
+    [
+     8,
+     "#050505"
+    ]
+   ],
+   "scale_x": 0.995,
+   "text": "●",
+   "x": 161.1,
+   "y": 372.3,
+   "anchor": "lc",
+   "size": 162.3,
+   "line": 1.0,
+   "grp": "L2"
   },
   {
    "type": "text",
    "text": "着",
-   "x": 405.5,
-   "y": 358.5,
+   "x": 400.5,
+   "y": 357.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 163.1,
+   "size": 146.8,
    "tb": [
     321,
     480,
@@ -115,17 +143,17 @@
      "#050505"
     ]
    ],
-   "scale_x": 0.998
+   "scale_x": 0.958
   },
   {
    "type": "text",
    "text": "て",
    "x": 563.5,
-   "y": 345.5,
+   "y": 351.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 160.3,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 144.3,
    "tb": [
     489,
     627,
@@ -139,17 +167,17 @@
      "#050505"
     ]
    ],
-   "scale_x": 0.985
+   "scale_x": 0.926
   },
   {
    "type": "text",
    "text": "た",
-   "x": 724.0,
+   "x": 720.0,
    "y": 342.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 159.9,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 143.9,
    "tb": [
     649,
     795,
@@ -163,17 +191,17 @@
      "#050505"
     ]
    ],
-   "scale_x": 1.031
+   "scale_x": 0.949
   },
   {
    "type": "text",
    "text": "ら",
-   "x": 885.5,
-   "y": 332.5,
+   "x": 882.5,
+   "y": 335.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 161.3,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 145.2,
    "tb": [
     828,
     945,
@@ -192,12 +220,12 @@
   {
    "type": "text",
    "text": "時",
-   "x": 196.5,
-   "y": 582.5,
+   "x": 194.5,
+   "y": 585.5,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 248.7,
+   "size": 223.8,
    "tb": [
     76,
     317,
@@ -216,12 +244,12 @@
   {
    "type": "text",
    "text": "代",
-   "x": 452.0,
-   "y": 575.5,
+   "x": 438.0,
+   "y": 569.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 255.9,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 230.3,
    "tb": [
     324,
     570,
@@ -235,17 +263,17 @@
      "#050505"
     ]
    ],
-   "scale_x": 0.962
+   "scale_x": 1.039
   },
   {
    "type": "text",
    "text": "遅",
-   "x": 697.5,
+   "x": 692.5,
    "y": 558.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 256.0,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 235.5,
    "tb": [
     572,
     821,
@@ -264,12 +292,12 @@
   {
    "type": "text",
    "text": "れ",
-   "x": 947.0,
-   "y": 552.0,
+   "x": 941.0,
+   "y": 549.0,
    "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 251.8,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 226.6,
    "tb": [
     825,
     1068,
@@ -313,9 +341,9 @@
    "type": "text",
    "text": "?",
    "x": 1213.5,
-   "y": 528.5,
+   "y": 517.5,
    "anchor": "cc",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "size": 248.8,
    "tb": [
@@ -331,7 +359,7 @@
      "#050505"
     ]
    ],
-   "scale_x": 1.147
+   "scale_x": 1.055
   }
  ],
  "grow": 15

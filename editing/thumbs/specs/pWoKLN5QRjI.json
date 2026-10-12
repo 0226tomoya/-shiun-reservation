@@ -51,32 +51,6 @@
   },
   {
    "rect": [
-    559,
-    228,
-    163,
-    77
-   ],
-   "colors": [
-    "#000000",
-    "#ffffff"
-   ],
-   "tol": 45
-  },
-  {
-   "rect": [
-    559,
-    415,
-    163,
-    78
-   ],
-   "colors": [
-    "#e60012",
-    "#ffffff"
-   ],
-   "tol": 50
-  },
-  {
-   "rect": [
     100,
     325,
     1085,
@@ -86,6 +60,42 @@
     "#ffffff"
    ],
    "tol": 28
+  },
+  {
+   "rect": [
+    564,
+    233,
+    68,
+    67
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    650,
+    233,
+    67,
+    67
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    565,
+    420,
+    67,
+    68
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    649,
+    420,
+    68,
+    68
+   ],
+   "full": true
   }
  ],
  "layers": [
@@ -102,19 +112,35 @@
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_u_pair_black.png",
+   "src": "assets/logos/uniqlo_black_pwok.png",
    "x": 564,
    "y": 233,
-   "w": 153,
+   "w": 68,
    "h": 67
   },
   {
    "type": "image",
-   "src": "assets/logos/uniqlo_pair_red_small.png",
-   "x": 562,
-   "y": 418,
-   "w": 157,
-   "h": 72
+   "src": "assets/logos/uniqlou_u_black_pwok.png",
+   "x": 650,
+   "y": 233,
+   "w": 67,
+   "h": 67
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_kata_red_pwok.png",
+   "x": 565,
+   "y": 420,
+   "w": 67,
+   "h": 68
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/uniqlo_red_pwok.png",
+   "x": 649,
+   "y": 420,
+   "w": 68,
+   "h": 68
   },
   {
    "type": "text",
@@ -610,5 +636,6 @@
    "no_init": true,
    "fit_iou": 0.603
   }
- ]
+ ],
+ "grow": 5
 }

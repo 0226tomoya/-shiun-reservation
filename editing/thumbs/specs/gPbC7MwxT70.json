@@ -59,7 +59,7 @@
     369,
     264
    ],
-   "scale_x": 0.838,
+   "scale_x": 0.855,
    "text": "低",
    "x": 25,
    "y": 232.5,
@@ -86,12 +86,12 @@
     369,
     264
    ],
-   "scale_x": 0.821,
+   "scale_x": 0.82,
    "text": "身",
-   "x": 77.1,
-   "y": 232.5,
+   "x": 76.1,
+   "y": 231.5,
    "anchor": "lc",
-   "size": 59.8,
+   "size": 62.2,
    "line": 1.0
   },
   {
@@ -113,9 +113,9 @@
     369,
     264
    ],
-   "scale_x": 0.756,
+   "scale_x": 0.817,
    "text": "長",
-   "x": 123.2,
+   "x": 122.2,
    "y": 232.5,
    "anchor": "lc",
    "size": 64.5,
@@ -167,7 +167,7 @@
     369,
     264
    ],
-   "scale_x": 0.941,
+   "scale_x": 0.922,
    "text": "性",
    "x": 223.4,
    "y": 233.5,
@@ -221,12 +221,12 @@
     369,
     264
    ],
-   "scale_x": 0.804,
+   "scale_x": 0.82,
    "text": "見",
-   "x": 324.7,
-   "y": 231.5,
+   "x": 323.7,
+   "y": 232.5,
    "anchor": "lc",
-   "size": 58.6,
+   "size": 59.8,
    "line": 1.0
   },
   {
@@ -265,8 +265,8 @@
   },
   {
    "type": "text",
-   "font": "NotoSerifJP",
-   "weight": 900,
+   "font": "ShipporiMinchoB1",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "m": [
@@ -277,9 +277,9 @@
     "#fff"
    ],
    "text": "の",
-   "x": 187.0,
-   "y": 326.5,
-   "size": 116.3,
+   "x": 184.0,
+   "y": 320.5,
+   "size": 125.6,
    "tgt": [
     190,
     345,
@@ -311,10 +311,10 @@
    "scale_x": 0.808,
    "skew": -8,
    "text": "最",
-   "x": 292.2,
-   "y": 363.0,
+   "x": 291.2,
+   "y": 361.0,
    "anchor": "lc",
-   "size": 205.8,
+   "size": 209.9,
    "line": 1.0
   },
   {
@@ -336,13 +336,13 @@
     614,
     472
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.858,
    "skew": -8,
    "text": "強",
    "x": 445.8,
    "y": 369.0,
    "anchor": "lc",
-   "size": 194.2,
+   "size": 198.1,
    "line": 1.0
   },
   {
@@ -359,22 +359,22 @@
     "#fff"
    ],
    "text": "フ",
-   "x": 619.0,
-   "y": 258.5,
-   "size": 191.2,
+   "x": 616.0,
+   "y": 255.5,
+   "size": 195.0,
    "tgt": [
     614,
     313,
     722,
     454
    ],
-   "scale_x": 0.675,
+   "scale_x": 0.688,
    "skew": -8
   },
   {
    "type": "text",
-   "font": "ZenOldMincho",
-   "weight": 900,
+   "font": "KaiseiTokumin",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "m": [
@@ -385,16 +385,16 @@
     "#fff"
    ],
    "text": "ァ",
-   "x": 727.0,
-   "y": 287.0,
-   "size": 168.5,
+   "x": 725.0,
+   "y": 293.0,
+   "size": 158.4,
    "tgt": [
     722,
     365,
     809,
     459
    ],
-   "scale_x": 0.682,
+   "scale_x": 0.737,
    "skew": -8
   },
   {
@@ -463,7 +463,7 @@
     "#fff"
    ],
    "text": "ョ",
-   "x": 1039.5,
+   "x": 1037.5,
    "y": 282.0,
    "size": 180.5,
    "tgt": [
@@ -472,7 +472,7 @@
     1119,
     447
    ],
-   "scale_x": 0.682,
+   "scale_x": 0.695,
    "skew": -8
   },
   {
@@ -514,17 +514,104 @@
     1,
     "#fff"
    ],
-   "text": "shiun 24Spring 1st Collection",
-   "x": 456.5,
-   "y": 606.5,
-   "size": 33.7,
    "tgt": [
     459,
     609,
     820,
     647
    ],
-   "scale_x": 0.813
+   "scale_x": 0.813,
+   "text": "shiun",
+   "x": 457.5,
+   "y": 625.5,
+   "anchor": "lc",
+   "size": 32.4,
+   "line": 1.0,
+   "grp": "L18"
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    459,
+    609,
+    820,
+    647
+   ],
+   "scale_x": 0.78,
+   "text": "24Spring",
+   "x": 538.0,
+   "y": 625.5,
+   "anchor": "lc",
+   "size": 33.7,
+   "line": 1.0,
+   "grp": "L18"
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    459,
+    609,
+    820,
+    647
+   ],
+   "scale_x": 0.813,
+   "text": "1st",
+   "x": 653.8,
+   "y": 625.5,
+   "anchor": "lc",
+   "size": 32.4,
+   "line": 1.0,
+   "grp": "L18"
+  },
+  {
+   "type": "text",
+   "font": "PlayfairDisplay",
+   "weight": 600,
+   "color": "#ffffff",
+   "palt": false,
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "tgt": [
+    459,
+    609,
+    820,
+    647
+   ],
+   "scale_x": 0.813,
+   "text": "Collection",
+   "x": 693.8,
+   "y": 625.5,
+   "anchor": "lc",
+   "size": 33.7,
+   "line": 1.0,
+   "grp": "L18"
   },
   {
    "type": "text",
@@ -540,16 +627,16 @@
     "#fff"
    ],
    "text": "2024.01.20 sat 22:00 - Release",
-   "x": 551.0,
-   "y": 658.0,
-   "size": 14.1,
+   "x": 547.0,
+   "y": 656.0,
+   "size": 15.6,
    "tgt": [
     545,
     658,
     736,
     671
    ],
-   "scale_x": 1.009
+   "scale_x": 0.967
   }
  ]
 }

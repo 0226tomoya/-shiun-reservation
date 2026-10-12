@@ -65,10 +65,10 @@
    "type": "text",
    "text": "shiun",
    "x": 13.0,
-   "y": 1.0,
+   "y": 3.0,
    "font": "PlayfairDisplay",
    "weight": 900,
-   "size": 50.0,
+   "size": 48.0,
    "color": "#0c0c0c",
    "strokes": [
     [
@@ -83,7 +83,7 @@
     125,
     48
    ],
-   "scale_x": 0.839,
+   "scale_x": 0.873,
    "rotate": -0.35,
    "fit_iou": 0.542
   },
@@ -91,12 +91,12 @@
    "type": "text",
    "text": "26 Spring 1st Collection",
    "x": 946.5,
-   "y": 5.5,
+   "y": 6.5,
    "font": "LibreBaskerville",
    "weight": 700,
-   "size": 44.73,
+   "size": 43.8,
    "color": "#0c0c0c",
-   "scale_x": 0.6,
+   "scale_x": 0.612,
    "spacing": -0.02,
    "box": [
     940,
@@ -127,16 +127,17 @@
     765,
     95
    ],
-   "scale_x": 0.826,
+   "scale_x": 0.843,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "シ",
-   "x": 261.9,
+   "x": 260.9,
    "y": 260.5,
    "anchor": "lc",
    "size": 96.5,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -162,11 +163,12 @@
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "ン",
-   "x": 339.5,
+   "x": 338.5,
    "y": 259.5,
    "anchor": "lc",
-   "size": 98.5,
-   "line": 1.0
+   "size": 100.5,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -187,16 +189,17 @@
     765,
     95
    ],
-   "scale_x": 0.75,
+   "scale_x": 0.78,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "プ",
-   "x": 431.0,
-   "y": 259.5,
+   "x": 428.0,
+   "y": 258.5,
    "anchor": "lc",
-   "size": 88.8,
-   "line": 1.0
+   "size": 92.4,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -217,16 +220,17 @@
     765,
     95
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.91,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "ル",
    "x": 489.2,
-   "y": 256.5,
+   "y": 257.5,
    "anchor": "lc",
-   "size": 110.7,
-   "line": 1.0
+   "size": 106.3,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -252,11 +256,12 @@
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "で",
-   "x": 576.7,
+   "x": 577.7,
    "y": 270.5,
    "anchor": "lc",
-   "size": 79.7,
-   "line": 1.0
+   "size": 76.5,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -277,16 +282,17 @@
     765,
     95
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.91,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "カ",
    "x": 641.3,
-   "y": 257.5,
+   "y": 256.5,
    "anchor": "lc",
-   "size": 104.1,
-   "line": 1.0
+   "size": 102.0,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -307,16 +313,17 @@
     765,
     95
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.893,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "ッ",
-   "x": 713.9,
-   "y": 268.5,
+   "x": 712.9,
+   "y": 266.5,
    "anchor": "lc",
-   "size": 83.3,
-   "line": 1.0
+   "size": 85.0,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -337,16 +344,17 @@
     765,
     95
    ],
-   "scale_x": 0.827,
+   "scale_x": 0.86,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "コ",
-   "x": 777.5,
-   "y": 256.5,
+   "x": 773.5,
+   "y": 257.5,
    "anchor": "lc",
-   "size": 102.4,
-   "line": 1.0
+   "size": 104.4,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -367,16 +375,17 @@
     765,
     95
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.91,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "い",
    "x": 849.0,
-   "y": 260.5,
+   "y": 261.5,
    "anchor": "lc",
-   "size": 101.9,
-   "line": 1.0
+   "size": 97.8,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -397,16 +406,17 @@
     765,
     95
    ],
-   "scale_x": 0.875,
+   "scale_x": 0.91,
    "skew": -4.4,
    "fit_iou": 0.257,
    "rotate": -0.15,
    "text": "い",
    "x": 929.6,
-   "y": 260.5,
+   "y": 261.5,
    "anchor": "lc",
-   "size": 101.9,
-   "line": 1.0
+   "size": 97.8,
+   "line": 1.0,
+   "grp": "P2"
   },
   {
    "type": "text",
@@ -427,15 +437,16 @@
     465,
     195
    ],
-   "scale_x": 0.9,
+   "scale_x": 0.864,
    "skew": -0.3,
    "fit_iou": 0.559,
    "text": "低",
-   "x": 3.7,
-   "y": 386.5,
+   "x": 5.7,
+   "y": 385.5,
    "anchor": "lc",
-   "size": 196.1,
-   "line": 1.0
+   "size": 200.0,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -460,11 +471,12 @@
    "skew": -0.3,
    "fit_iou": 0.559,
    "text": "身",
-   "x": 178.6,
-   "y": 384.5,
+   "x": 176.6,
+   "y": 383.5,
    "anchor": "lc",
-   "size": 184.6,
-   "line": 1.0
+   "size": 188.3,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -493,7 +505,8 @@
    "y": 382.5,
    "anchor": "lc",
    "size": 188.4,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -514,15 +527,16 @@
     460,
     160
    ],
-   "scale_x": 0.835,
+   "scale_x": 0.868,
    "rotate": -0.3,
    "fit_iou": 0.269,
    "text": "の",
-   "x": 476,
-   "y": 412.2,
+   "x": 475,
+   "y": 413.2,
    "anchor": "lc",
-   "size": 156.8,
-   "line": 1.0
+   "size": 153.7,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -543,15 +557,16 @@
     460,
     160
    ],
-   "scale_x": 0.835,
+   "scale_x": 0.868,
    "rotate": -0.3,
    "fit_iou": 0.269,
    "text": "た",
-   "x": 589.0,
+   "x": 587.0,
    "y": 413.2,
    "anchor": "lc",
    "size": 143.9,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -572,15 +587,16 @@
     460,
     160
    ],
-   "scale_x": 0.835,
+   "scale_x": 0.868,
    "rotate": -0.3,
    "fit_iou": 0.269,
    "text": "め",
-   "x": 698.0,
+   "x": 697.0,
    "y": 412.2,
    "anchor": "lc",
-   "size": 150.1,
-   "line": 1.0
+   "size": 147.1,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -601,15 +617,16 @@
     460,
     160
    ],
-   "scale_x": 0.835,
+   "scale_x": 0.868,
    "rotate": -0.3,
    "fit_iou": 0.269,
    "text": "の",
    "x": 807.9,
-   "y": 411.2,
+   "y": 413.2,
    "anchor": "lc",
-   "size": 160.1,
-   "line": 1.0
+   "size": 153.7,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -634,11 +651,12 @@
    "rotate": -0.95,
    "fit_iou": 0.657,
    "text": "春",
-   "x": 935,
-   "y": 391.0,
+   "x": 934,
+   "y": 390.0,
    "anchor": "lc",
-   "size": 180.6,
-   "line": 1.0
+   "size": 184.2,
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
@@ -667,17 +685,18 @@
    "y": 382.0,
    "anchor": "lc",
    "size": 191.9,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P12"
   },
   {
    "type": "text",
    "text": "January 24th Sat. 10pm - Release",
-   "x": 514.0,
-   "y": 496.5,
+   "x": 511.0,
+   "y": 497.5,
    "font": "LibreBaskerville",
    "weight": 700,
-   "size": 24.97,
-   "scale_x": 0.608,
+   "size": 25.0,
+   "scale_x": 0.62,
    "color": "#fdfdfd",
    "tol": 14,
    "box": [

@@ -638,15 +638,11 @@
   },
   {
    "type": "text",
-   "text": "BEST",
-   "x": 391.0,
-   "y": 430.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 281.5,
    "fill": "linear-gradient(180deg,#a3894d 0%,#ebe389 40%,#f3ea8d 55%,#b59a55 80%,#9e7349 100%)",
    "skew": -10.0,
-   "scale_x": 0.869,
+   "scale_x": 0.834,
    "strokes": [
     [
      3,
@@ -662,10 +658,111 @@
    ],
    "fit_color": "#d8c870",
    "tol": 45,
-   "spacing": -0.06,
    "rotate": 0.1,
    "fit_iou": 0.458,
-   "shadow": "0 0 12px rgba(40,20,0,.7)"
+   "shadow": "0 0 12px rgba(40,20,0,.7)",
+   "text": "B",
+   "x": 451.6,
+   "y": 579.1,
+   "anchor": "cc",
+   "size": 281.1,
+   "grp": "L21"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#a3894d 0%,#ebe389 40%,#f3ea8d 55%,#b59a55 80%,#9e7349 100%)",
+   "skew": -10.0,
+   "scale_x": 0.834,
+   "strokes": [
+    [
+     3,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    395,
+    490,
+    580,
+    225
+   ],
+   "fit_color": "#d8c870",
+   "tol": 45,
+   "rotate": 0.1,
+   "fit_iou": 0.458,
+   "shadow": "0 0 12px rgba(40,20,0,.7)",
+   "text": "E",
+   "x": 595.2,
+   "y": 573.3,
+   "anchor": "cc",
+   "size": 281.1,
+   "grp": "L21"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#a3894d 0%,#ebe389 40%,#f3ea8d 55%,#b59a55 80%,#9e7349 100%)",
+   "skew": -10.0,
+   "scale_x": 0.886,
+   "strokes": [
+    [
+     3,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    395,
+    490,
+    580,
+    225
+   ],
+   "fit_color": "#d8c870",
+   "tol": 45,
+   "rotate": 0.1,
+   "fit_iou": 0.458,
+   "shadow": "0 0 12px rgba(40,20,0,.7)",
+   "text": "S",
+   "x": 731.4,
+   "y": 570.6,
+   "anchor": "cc",
+   "size": 281.1,
+   "grp": "L21"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#a3894d 0%,#ebe389 40%,#f3ea8d 55%,#b59a55 80%,#9e7349 100%)",
+   "skew": -10.0,
+   "scale_x": 0.834,
+   "strokes": [
+    [
+     3,
+     "#3a2a10"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    395,
+    490,
+    580,
+    225
+   ],
+   "fit_color": "#d8c870",
+   "tol": 45,
+   "rotate": 0.1,
+   "fit_iou": 0.458,
+   "shadow": "0 0 12px rgba(40,20,0,.7)",
+   "text": "T",
+   "x": 874.2,
+   "y": 563.8,
+   "anchor": "cc",
+   "size": 281.1,
+   "grp": "L21"
   },
   {
    "type": "text",

@@ -213,3 +213,32 @@
 
 - 削除した画像（どの spec も参照していないことを grep で確認、14 枚）: assets/logos/ の arrow_black_hand_r2gs、burst_black_swky1、burst_black_swky2、warning_yellow_r6jx1、warning_yellow_r6jx2、wym_lidnm_ecstaff、gu_blue_square_nn5x、gu_blue_3ddx、gu_blue_square_uruy、uniqlo_black_8nqq、uniqlou_black_8nqq、uniqlo_red_cut_fwuj、gu_blue_square_fwuj、arrow_red_curve_yw8r
 - これで 1 回目の一覧（ロゴ以外の切り抜き・人物入りロゴ）は全部片付いた。残りは「軽いもの」（写真の背景ごとのロゴ・2 枚組）だけ
+
+---
+
+# 4 回目（8 周目 E チーム・round8_mid と共有ロゴ）
+
+作業前の spec: スクラッチパッドの `r8m_bak/`（124 枚）、ロゴ画像の元は `r8m_work/*.png`。道具: `r8m_work/polyfix.py`（ロゴ画像の手で指定した多角形を透過にし、同じ多角形を 2px 広げて `front` に足す）。
+
+## 共有ロゴ（helpers/logo_check.py で同じ画像を複数の回が使っていたもの）
+| ID | 前点 | 後点 | 直したもの |
+|---|---|---|---|
+| 21ZkIjyYszw | 57.2 | 57.5 | 2hSZ のユニクロ・UNIQLO 2 枚（`uniqlo_kata_red_2hsz`・`uniqlo_red_2hsz`）を流用 → この回から 1 枚ずつ切り直し `uniqlo_kata_red_21zk.png`・`uniqlo_red_21zk.png`（赤い箱の外接 455,23,164×164／660,23,165×164）。元に薄い白っぽい光彩があるので `"glow": [10, "#c8c8c8", 1]`（白 6px は 57.4、[8,#e0e0e0,2] は 57.0） |
+| A7uVhThEF6c | 72.0 | 73.2 | 65eh の `uniqlo_red_big` を流用 → 切り直し `uniqlo_red_a7uv.png`（9,424,286×288）。光彩なし（周りは黒い服） |
+
+触っていない（別チームが作業中。報告のみ）:
+- pWoKLN5QRjI（round5_high_1）: `uniqlo_pair_red_small.png` を 6F7y と共有（pWoK 側 deltaE 7.9。しかも 2 枚組）
+- sh7V5Tk74eY（round5_high_1）・NlisiNUodtk（round8_low）: `gu_square.png` を SVON と共有（deltaE 1.7・3.0）
+- Z3_U5h9vQxQ（round5_high_1）・eIQ-bW8jHmA: `shiun_cream_square.png` を共有。どちらも deltaE 0.0（同じ素材の画が同じ位置）なので流用ではない見込み。eIQ は担当外で触っていない
+
+## round8_mid の 124 枚の画像素材（133 枚を一覧画像で目視）
+人物（頭・髪・耳）がロゴ画像に不透明のまま入っていたもの → 人物の多角形を透過にし、`front` で元の人物を戻した:
+| ID | 前点 | 後点 | 画像 |
+|---|---|---|---|
+| _lTNwqdAyDo | 56.0 | 55.7 | `gu_blue_shadow_ltnw.png`（右の頭・耳・肩） |
+| 4NefwmqkcyU | 59.0 | 58.9 | `uniqlo_kata_red_4nef.png`（右下の頭） |
+| Bm2xehCP02Y | 73.2 | 73.1 | `uniqlo_red_bm2x.png`（右の頭） |
+| kMPtCm2c8pI | 66.6 | 66.3 | `gu_blue_square_kmpt.png`（左下の黒いシルエットと白い光彩） |
+
+残した「軽いもの」（2 枚組。今回は直していない）: AL2TbJ0II6g の `uniqlou_pair_black_al2t`・`uniqlo_red_vpair_al2t`、RUUU の `uniqlo_fsh_vertical`（UNIQLO＋stylehinter の縦 2 枚組）、KFKH・X-5y の UNIQLO:C（箱＋「:C」の組。ロゴとしては 1 つ）。写真・カード・文字の切り抜きは見つからなかった（shapes/ の矢印・警告・集中線・汗は cv2 で描いたもの）。
+削除した画像: なし（`uniqlo_kata_red_2hsz`・`uniqlo_red_2hsz` は 2hSZ、`uniqlo_red_big` は 65eh がまだ使っている）。
