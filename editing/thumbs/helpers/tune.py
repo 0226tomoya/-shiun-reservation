@@ -31,6 +31,14 @@ if '--fonts' in args:
     fonts = [f.split(':') for f in args[args.index('--fonts') + 1].split(',')]
 
 
+HAND = ('klee', 'yusei', 'zenkurenaido', 'yomogi', 'hachimaru', 'caveat', 'gochihand', 'homemadeapple', 'permanentmarker', 'reeniebeanie', 'shadowsintolight', 'nothingyoucoulddo', 'dancingscript', 'kaushan', 'marckscript', 'mrdafoe', 'sacramento', 'satisfy', 'alexbrush', 'allura', 'greatvibes', 'parisienne', 'pinyon', 'cookie', 'badscript', 'mrssaintdelafield')  # 手書き・筆記体
+
+
+def is_hand(f):
+    f = (f or '').lower().replace(' ', '')
+    return any(h in f for h in HAND)
+
+
 def color_mask(hexc, tol):
     c = hexc.lstrip('#')
     bgr = np.uint8([[[int(c[4:6], 16), int(c[2:4], 16), int(c[0:2], 16)]]])
@@ -109,7 +117,7 @@ with sync_playwright() as p:
         if L.get('fit_color'):  # 縁・光彩の色を的から外し、文字の色の画素だけで合わせる
             T = (T & color_mask(L['fit_color'], L.get('fit_tol', 40))).astype(np.uint8)
         cands = [(L.get('font'), L.get('weight', 900))]
-        if fonts:
+        if fonts and not is_hand(L.get('font')):  # 手書き書体の層には書体候補を掛けない（太いゴシックが混ざる）
             cands += [(f, int(w)) for f, w in fonts if (f, int(w)) != cands[0]]
         bestr = None
         rots = [None]
