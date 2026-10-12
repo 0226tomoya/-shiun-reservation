@@ -221,11 +221,11 @@
   {
    "type": "text",
    "text": "COVERALL",
-   "x": 45.0,
-   "y": 32.5,
+   "x": 43.0,
+   "y": 33.5,
    "font": "Jost",
    "weight": 500,
-   "size": 35.63,
+   "size": 34.8,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -240,7 +240,7 @@
    ],
    "spacing": 0.076,
    "skew": -8,
-   "scale_x": 0.95,
+   "scale_x": 0.985,
    "fit_iou": 0.616
   },
   {
@@ -250,7 +250,7 @@
    "y": 79.0,
    "font": "Jost",
    "weight": 500,
-   "size": 34.013,
+   "size": 35.4,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -265,17 +265,17 @@
    ],
    "spacing": 0.1,
    "skew": -8,
-   "scale_x": 0.962,
+   "scale_x": 0.924,
    "fit_iou": 0.717
   },
   {
    "type": "text",
    "text": "EASY PANTS",
-   "x": 43.0,
-   "y": 124.0,
+   "x": 41.0,
+   "y": 123.0,
    "font": "Jost",
    "weight": 500,
-   "size": 35.63,
+   "size": 38.4,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -290,17 +290,17 @@
    ],
    "spacing": 0.1,
    "skew": -8,
-   "scale_x": 0.924,
+   "scale_x": 0.869,
    "fit_iou": 0.64
   },
   {
    "type": "text",
    "text": "JEANS",
    "x": 47.0,
-   "y": 175.0,
+   "y": 172.0,
    "font": "Jost",
    "weight": 500,
-   "size": 28.817,
+   "size": 34.2,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -315,17 +315,17 @@
    ],
    "spacing": 0.1,
    "skew": -8,
-   "scale_x": 1.152,
+   "scale_x": 0.975,
    "fit_iou": 0.501
   },
   {
    "type": "text",
    "text": "2026Fall",
-   "x": 1032.5,
-   "y": 76.0,
+   "x": 1046.5,
+   "y": 63.0,
    "font": "Sacramento",
    "weight": 400,
-   "size": 47.4,
+   "size": 48.3,
    "color": "#ffffff",
    "tol": 45,
    "lock": [
@@ -339,7 +339,7 @@
     75
    ],
    "rotate": -5,
-   "scale_x": 0.924,
+   "scale_x": 0.906,
    "spacing": -0.006,
    "fit_iou": 0.062
   },
@@ -434,10 +434,10 @@
     "skew",
     "rotate"
    ],
-   "scale_x": 1.094,
+   "scale_x": 1.115,
    "fit_iou": 0.636,
    "text": "て",
-   "x": 487.7,
+   "x": 486.7,
    "y": 576.0,
    "anchor": "lc",
    "size": 96.3,
@@ -454,10 +454,10 @@
     "skew",
     "rotate"
    ],
-   "scale_x": 1.111,
+   "scale_x": 1.089,
    "fit_iou": 0.636,
    "text": "よ",
-   "x": 588.7,
+   "x": 589.7,
    "y": 574.0,
    "anchor": "lc",
    "size": 98.3,
@@ -477,10 +477,10 @@
    "scale_x": 1.028,
    "fit_iou": 0.636,
    "text": "か",
-   "x": 696.7,
+   "x": 695.7,
    "y": 573.0,
    "anchor": "lc",
-   "size": 97.9,
+   "size": 99.9,
    "line": 1.0
   },
   {
@@ -494,7 +494,7 @@
     "skew",
     "rotate"
    ],
-   "scale_x": 0.988,
+   "scale_x": 0.987,
    "fit_iou": 0.636,
    "text": "っ",
    "x": 809.7,
@@ -567,10 +567,10 @@
    "type": "text",
    "text": "Product Twelve",
    "x": 185.0,
-   "y": 648.5,
+   "y": 649.5,
    "font": "Montserrat",
    "weight": 700,
-   "size": 36.315,
+   "size": 33.5,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -583,17 +583,17 @@
     265,
     45
    ],
-   "scale_x": 0.844,
+   "scale_x": 0.913,
    "fit_iou": 0.632
   },
   {
    "type": "text",
    "text": "/",
    "x": 462,
-   "y": 638,
+   "y": 639,
    "font": "Jost",
    "weight": 400,
-   "size": 38,
+   "size": 37.2,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -606,16 +606,17 @@
     30,
     50
    ],
-   "fixed": true
+   "fixed": true,
+   "scale_x": 0.846
   },
   {
    "type": "text",
    "text": "steven alan",
-   "x": 506.0,
-   "y": 645.0,
+   "x": 507.0,
+   "y": 643.0,
    "font": "HomemadeApple",
    "weight": 400,
-   "size": 39.3,
+   "size": 41.6,
    "color": "#ffffff",
    "tol": 45,
    "lock": [
@@ -628,18 +629,18 @@
     190,
     45
    ],
-   "scale_x": 0.694,
+   "scale_x": 0.651,
    "spacing": -0.006,
    "fit_iou": 0.21
   },
   {
    "type": "text",
    "text": "/",
-   "x": 708,
-   "y": 638,
+   "x": 705,
+   "y": 636,
    "font": "Jost",
    "weight": 400,
-   "size": 38,
+   "size": 39.6,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -652,16 +653,17 @@
     30,
     50
    ],
-   "fixed": true
+   "fixed": true,
+   "scale_x": 0.846
   },
   {
    "type": "text",
    "text": "COMOLI",
-   "x": 748.0,
+   "x": 745.0,
    "y": 646.0,
    "font": "Jost",
    "weight": 400,
-   "size": 38.661,
+   "size": 37.8,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -675,17 +677,17 @@
     45
    ],
    "spacing": 0.106,
-   "scale_x": 1.05,
+   "scale_x": 1.111,
    "fit_iou": 0.411
   },
   {
    "type": "text",
    "text": "/",
-   "x": 960,
-   "y": 638,
+   "x": 961,
+   "y": 636,
    "font": "Jost",
    "weight": 400,
-   "size": 38,
+   "size": 37.2,
    "color": "#ffffff",
    "tol": 40,
    "lock": [
@@ -698,7 +700,8 @@
     30,
     50
    ],
-   "fixed": true
+   "fixed": true,
+   "scale_x": 0.846
   },
   {
    "type": "text",

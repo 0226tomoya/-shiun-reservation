@@ -68,14 +68,8 @@
   },
   {
    "type": "text",
-   "text": "さりげなく個性を演出する大人シャツ",
-   "x": 644.0,
-   "y": 336.0,
-   "anchor": "cc",
-   "font": "Noto Sans JP",
-   "weight": 700,
-   "size": 48.31,
-   "spacing": 0.206,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "lock": [
     "rotate",
@@ -88,8 +82,414 @@
     970,
     58
    ],
-   "scale_x": 0.987,
-   "fit_iou": 0.687
+   "scale_x": 1.025,
+   "fit_iou": 0.687,
+   "text": "さ",
+   "x": 157.3,
+   "y": 337.4,
+   "anchor": "lc",
+   "size": 41.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.835,
+   "fit_iou": 0.687,
+   "text": "り",
+   "x": 217.8,
+   "y": 337.4,
+   "anchor": "lc",
+   "size": 44.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.929,
+   "fit_iou": 0.687,
+   "text": "げ",
+   "x": 272.3,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 49.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.929,
+   "fit_iou": 0.687,
+   "text": "な",
+   "x": 328.8,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 49.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.109,
+   "fit_iou": 0.687,
+   "text": "く",
+   "x": 386.3,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 45.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.026,
+   "fit_iou": 0.687,
+   "text": "個",
+   "x": 440.8,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 48.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.007,
+   "fit_iou": 0.687,
+   "text": "性",
+   "x": 500.3,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 48.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.967,
+   "fit_iou": 0.687,
+   "text": "を",
+   "x": 559.8,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 46.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.026,
+   "fit_iou": 0.687,
+   "text": "演",
+   "x": 614.3,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 47.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.005,
+   "fit_iou": 0.687,
+   "text": "出",
+   "x": 672.7,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 47.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.835,
+   "fit_iou": 0.687,
+   "text": "す",
+   "x": 734.2,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 48.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.872,
+   "fit_iou": 0.687,
+   "text": "る",
+   "x": 789.7,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 49.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.948,
+   "fit_iou": 0.687,
+   "text": "大",
+   "x": 847.2,
+   "y": 335.4,
+   "anchor": "lc",
+   "size": 49.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 700,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.108,
+   "fit_iou": 0.687,
+   "text": "人",
+   "x": 903.7,
+   "y": 338.4,
+   "anchor": "lc",
+   "size": 43.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 1.045,
+   "fit_iou": 0.687,
+   "text": "シ",
+   "x": 963.2,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 40.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.926,
+   "fit_iou": 0.687,
+   "text": "ャ",
+   "x": 1024.7,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 39.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "tol": 20,
+   "box": [
+    155,
+    308,
+    970,
+    58
+   ],
+   "scale_x": 0.891,
+   "fit_iou": 0.687,
+   "text": "ツ",
+   "x": 1081.2,
+   "y": 336.4,
+   "anchor": "lc",
+   "size": 43.5,
+   "line": 1.0
   }
  ]
 }

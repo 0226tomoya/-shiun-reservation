@@ -41,7 +41,10 @@
     1272,
     205
    ],
-   "by": "layers"
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 22
   }
  ],
  "layers": [
@@ -56,12 +59,12 @@
   {
    "type": "text",
    "text": "25 Autumn 1st Collection",
-   "x": 928.5,
-   "y": 11.5,
+   "x": 929.5,
+   "y": 14.5,
    "font": "Bodoni Moda",
    "weight": 700,
-   "size": 59.322,
-   "scale_x": 0.47,
+   "size": 55.8,
+   "scale_x": 0.498,
    "color": "#ffffff",
    "lock": [
     "rotate",
@@ -78,11 +81,11 @@
   {
    "type": "text",
    "text": "過去最高のラインナップ",
-   "x": 301.5,
-   "y": 443.5,
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 68.704,
+   "x": 302.5,
+   "y": 440.5,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 71.4,
    "spacing": 0.042,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.5)",
@@ -96,18 +99,13 @@
     690,
     70
    ],
-   "scale_x": 0.865,
+   "scale_x": 0.83,
    "fit_iou": 0.592
   },
   {
    "type": "text",
-   "text": "低身長",
-   "x": 3.0,
-   "y": 491.5,
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 207.7,
-   "spacing": -0.04,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -121,18 +119,71 @@
     205
    ],
    "tol": 14,
-   "scale_x": 0.807,
-   "fit_iou": 0.581
+   "scale_x": 0.924,
+   "fit_iou": 0.581,
+   "text": "低",
+   "x": 0,
+   "y": 609.0,
+   "anchor": "lc",
+   "size": 187.3,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "のための",
-   "x": 490.5,
-   "y": 568.5,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    8,
+    510,
+    490,
+    205
+   ],
+   "tol": 14,
+   "scale_x": 0.837,
+   "fit_iou": 0.581,
+   "text": "身",
+   "x": 171.9,
+   "y": 605.0,
+   "anchor": "lc",
+   "size": 198.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    8,
+    510,
+    490,
+    205
+   ],
+   "tol": 14,
+   "scale_x": 0.837,
+   "fit_iou": 0.581,
+   "text": "長",
+   "x": 327.8,
+   "y": 607.0,
+   "anchor": "lc",
+   "size": 202.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 134.45,
-   "spacing": -0.014,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -146,18 +197,97 @@
     125
    ],
    "tol": 14,
-   "scale_x": 0.871,
-   "fit_iou": 0.548
+   "scale_x": 0.888,
+   "fit_iou": 0.548,
+   "text": "の",
+   "x": 489.5,
+   "y": 642.0,
+   "anchor": "lc",
+   "size": 142.5,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "秋服",
-   "x": 925.5,
-   "y": 506.5,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    495,
+    585,
+    455,
+    125
+   ],
+   "tol": 14,
+   "scale_x": 0.978,
+   "fit_iou": 0.548,
+   "text": "た",
+   "x": 603.0,
+   "y": 644.0,
+   "anchor": "lc",
+   "size": 129.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    495,
+    585,
+    455,
+    125
+   ],
+   "tol": 14,
+   "scale_x": 0.885,
+   "fit_iou": 0.548,
+   "text": "め",
+   "x": 719.4,
+   "y": 645.0,
+   "anchor": "lc",
+   "size": 134.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 184.32,
-   "spacing": -0.006,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    495,
+    585,
+    455,
+    125
+   ],
+   "tol": 14,
+   "scale_x": 0.888,
+   "fit_iou": 0.548,
+   "text": "の",
+   "x": 831.9,
+   "y": 642.0,
+   "anchor": "lc",
+   "size": 142.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.5)",
    "lock": [
@@ -171,8 +301,40 @@
     200
    ],
    "tol": 14,
-   "scale_x": 0.986,
-   "fit_iou": 0.457
+   "scale_x": 0.907,
+   "fit_iou": 0.457,
+   "text": "秋",
+   "x": 947.5,
+   "y": 608.0,
+   "anchor": "lc",
+   "size": 188.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.5)",
+   "lock": [
+    "rotate",
+    "skew"
+   ],
+   "box": [
+    950,
+    515,
+    327,
+    200
+   ],
+   "tol": 14,
+   "scale_x": 0.907,
+   "fit_iou": 0.457,
+   "text": "服",
+   "x": 1113.2,
+   "y": 609.0,
+   "anchor": "lc",
+   "size": 184.3,
+   "line": 1.0
   }
  ]
 }

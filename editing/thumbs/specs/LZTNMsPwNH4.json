@@ -89,14 +89,15 @@
   {
    "type": "text",
    "text": "７コーデ提案!!",
-   "x": 226,
-   "y": 358,
+   "x": 258,
+   "y": 397,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 700,
-   "size": 60,
+   "size": 54.0,
    "spacing": 0,
-   "color": "#ffffff"
+   "color": "#ffffff",
+   "scale_x": 0.96
   },
   {
    "type": "rect",
@@ -109,14 +110,15 @@
   {
    "type": "text",
    "text": "全アイテム詳細アリ!!",
-   "x": 312,
-   "y": 450,
+   "x": 276,
+   "y": 500,
    "anchor": "cc",
    "font": "Noto Sans JP",
    "weight": 700,
-   "size": 62,
+   "size": 55.8,
    "spacing": 0,
-   "color": "#ffffff"
+   "color": "#ffffff",
+   "scale_x": 0.92
   },
   {
    "type": "text",
@@ -132,17 +134,17 @@
     ]
    ],
    "text": "神",
-   "x": 13.1,
+   "x": 11.1,
    "y": 595.7,
    "anchor": "lc",
-   "size": 188.3,
+   "size": 192.1,
    "line": 1.0
   },
   {
    "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "scale_x": 0.829,
+   "scale_x": 0.846,
    "fill": "linear-gradient(180deg,#b89a3c 0%,#d2cc8f 25%,#e8e0a0 50%,#e0c671 75%,#c0a860 100%)",
    "shadow": "0 4px 12px rgba(0,0,0,.8)",
    "strokes": [
@@ -152,7 +154,7 @@
     ]
    ],
    "text": "作",
-   "x": 191.2,
+   "x": 190.2,
    "y": 599.7,
    "anchor": "lc",
    "size": 180.3,
@@ -202,7 +204,7 @@
    "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "scale_x": 0.762,
+   "scale_x": 0.701,
    "fill": "linear-gradient(180deg,#b89a3c 0%,#d2cc8f 25%,#e8e0a0 50%,#e0c671 75%,#c0a860 100%)",
    "shadow": "0 4px 12px rgba(0,0,0,.8)",
    "strokes": [
@@ -212,8 +214,8 @@
     ]
    ],
    "text": "で",
-   "x": 715.3,
-   "y": 605.7,
+   "x": 718.3,
+   "y": 604.7,
    "anchor": "lc",
    "size": 169.3,
    "line": 1.0
@@ -222,7 +224,7 @@
    "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "scale_x": 0.914,
+   "scale_x": 0.987,
    "fill": "linear-gradient(180deg,#b89a3c 0%,#d2cc8f 25%,#e8e0a0 50%,#e0c671 75%,#c0a860 100%)",
    "shadow": "0 4px 12px rgba(0,0,0,.8)",
    "strokes": [
@@ -232,17 +234,17 @@
     ]
    ],
    "text": "し",
-   "x": 856.4,
-   "y": 610.7,
+   "x": 857.4,
+   "y": 618.7,
    "anchor": "lc",
-   "size": 158.8,
+   "size": 142.9,
    "line": 1.0
   },
   {
    "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "scale_x": 0.829,
+   "scale_x": 0.846,
    "fill": "linear-gradient(180deg,#b89a3c 0%,#d2cc8f 25%,#e8e0a0 50%,#e0c671 75%,#c0a860 100%)",
    "shadow": "0 4px 12px rgba(0,0,0,.8)",
    "strokes": [
@@ -255,14 +257,14 @@
    "x": 999.4,
    "y": 599.7,
    "anchor": "lc",
-   "size": 172.9,
+   "size": 169.4,
    "line": 1.0
   },
   {
    "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "scale_x": 1.03,
+   "scale_x": 1.071,
    "fill": "linear-gradient(180deg,#b89a3c 0%,#d2cc8f 25%,#e8e0a0 50%,#e0c671 75%,#c0a860 100%)",
    "shadow": "0 4px 12px rgba(0,0,0,.8)",
    "strokes": [
@@ -273,9 +275,9 @@
    ],
    "text": "‼",
    "x": 1151.5,
-   "y": 610.7,
+   "y": 612.7,
    "anchor": "lc",
-   "size": 169.4,
+   "size": 162.6,
    "line": 1.0
   }
  ]

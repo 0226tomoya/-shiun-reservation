@@ -214,6 +214,9 @@ def render_layers(spec, page, clip=None):
     """ページにはフォントを一度だけ読み込み、以後は中身だけ差し替える（毎回フォントを埋め込むと遅い）。"""
     fams = families_of(spec)
     st = _LOADED.setdefault(id(page), {'fams': set(), 'ready': False})
+    # 閉じたページの id が新しいページに再利用されることがあるので、土台が本当にあるか確かめる
+    if st['ready'] and not page.evaluate("!!document.getElementById('root')"):
+        st['fams'], st['ready'] = set(), False
     if not st['ready']:
         page.set_content(f"<html><head><style>html,body{{margin:0;width:{W}px;height:{H}px;"
                          f"overflow:hidden;background:transparent;}}</style></head><body><div id=root></div></body></html>")
