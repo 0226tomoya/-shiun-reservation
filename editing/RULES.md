@@ -82,4 +82,5 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 身長別比較: 2 商品で同じ動画の組を使わない（shiun-sizeblock-check）。
 - BGM: ED のトークに +8dB をかけない、最後のフェードアウト 3.5〜4 秒（shiun-bgm-check）。
 - 書き出し: プロジェクトだけ・使っていない asset 0・一時フォルダのパス警告（shiun-export-project-only）。目次は shiun-timestamps。
+- テロップ: 説明テロップは EC の説明文を材料に（「。」「僕」「超」なし、1 枚に 1 仕様）、見出しは 6〜7 割、出すのは話し始めの −1〜+3 秒、2 行は必ず y −440.734、仮置き（「(追加予定)」）は 0 本で渡す（shiun-telop-explain-source・heading-lane・timing・placeholder-check）。試着会はタイプライター（shiun-telop-trial-typewriter）。本人の「164cm 58kg / size S」ラベル（shiun-telop-self-label）。
 

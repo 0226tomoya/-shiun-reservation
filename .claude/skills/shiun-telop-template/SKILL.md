@@ -27,3 +27,11 @@ description: テロップ（字幕・強調・商品名・ラベル・身長別�
   5 本の合計: Design 38・Material 34・Silhouette 31・Detail 13・Color 11・Wash 4。
   Detail は小さな部品（リブ幅・ジップ・ボタン・ポケット位置・ウエスト）、Design は元ネタ・全体の作り（〜年代・踏襲・ミニマル・仕様）。
 - 字幕の文言は話し言葉の書き起こしではなく、商品説明の要約（例: 「経糸44番手、緯糸50番手の単糸を使用した綿100%の素材」）。
+
+## A24 修正版から（10/12）
+- 説明テロップの文の材料・字幕にしない文・表記の辞書 → shiun-telop-explain-source
+- 見出しを付ける・付けない（lane 3 の見出しなし） → shiun-telop-heading-lane
+- 出す時刻・長さ・2 行の位置 → shiun-telop-timing
+- 試着会のタイプライター → shiun-telop-trial-typewriter ／ 本人のサイズラベル → shiun-telop-self-label
+- 仮置きのチェック → shiun-telop-placeholder-check
+
