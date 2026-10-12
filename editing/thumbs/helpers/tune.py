@@ -13,6 +13,9 @@ args = sys.argv[1:]
 vid = args[0]
 sp = os.path.join(TH, 'specs', vid + '.json')
 spec = json.load(open(sp))
+if any(isinstance(e, dict) and e.get('by') == 'layers' for e in spec.get('erase', [])) and os.environ.get('FORCE') != '1':
+    print('erase に "by":"layers" がある: 字が自分の描いた形を追いかけて偽の点になるので動かさない。色の erase に替えてから（FORCE=1 で強制）')
+    sys.exit(2)
 orig = cv2.resize(cv2.imread(os.path.join(ORIG, vid + '.jpg')), (R.W, R.H))
 R.erase_mask(spec, orig, np.zeros((R.H, R.W), np.uint8))
 Tm = R.erase_mask.raw.astype(np.uint8)

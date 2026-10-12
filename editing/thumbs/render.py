@@ -14,7 +14,7 @@
           "color":"#fff" または "fill":"linear-gradient(180deg,#fff7c2,#d4a020)",
           "strokes":[[12,"#000"],[22,"#fff"]],   # 内側から外側へ（太さ px, 色）
           "shadow":"6px 6px 0 rgba(0,0,0,.6)", "spacing":0.0(em), "line":1.1, "rotate":0, "skew":0,
-          "scale_x":1.0, "vertical":false, "italic":false, "align":"left", "opacity":1,
+          "scale_x":1.0, "vertical":false, "italic":false, "align":"left", "opacity":1, "fill_opacity":0.5（塗りだけ半透明・縁はそのまま）,
           "runs":[{"text":"低身長","color":"#ff0","size":120}, ...]  # 部分ごとに色・大きさを変えるとき（text の代わり）
          }
   rect:  {"type":"rect","x":..,"y":..,"w":..,"h":..,"fill":"#000","opacity":0.6,"radius":0,"rotate":0,
@@ -158,6 +158,9 @@ def text_html(L, i):
         if hollow:  # 中を塗らない縁だけの文字（「？」の線画など）: 縁の太さ w をそのまま線の太さに
             layers += (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;-webkit-text-stroke:{w}px {c};\">{content('transparent')}</div>")
             continue
+        if L.get('fill_opacity') is not None:  # 半透明の塗り＋縁: 縁の層は中を塗らない（塗りが透けて背景が見える）
+            layers += (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;-webkit-text-stroke:{2 * w}px {c};\">{content('transparent')}</div>")
+            continue
         layers += (f"<div style=\"{base}position:absolute;left:0;top:0;color:{c};-webkit-text-stroke:{2 * w}px {c};"
                    f"paint-order:stroke fill;\">{content(c)}</div>")
     if L.get('shadow') and not sw:
@@ -175,6 +178,8 @@ def text_html(L, i):
         top = under + f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;\">{content(None)}</div>"
     else:
         top = f"<div style=\"{base}position:relative;color:{L.get('color', '#fff')};{sh}\">{content(None)}</div>"
+    if L.get('fill_opacity') is not None:
+        top = top.replace('position:relative;', f"position:relative;opacity:{L['fill_opacity']};", 1)
     return f"<div id=\"L{i}\" style=\"{wrap}\">{layers}{top}</div>"
 
 

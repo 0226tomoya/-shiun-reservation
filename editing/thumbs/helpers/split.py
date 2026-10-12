@@ -47,6 +47,7 @@ with sync_playwright() as p:
         R.render_layers(s, page)
         rects = page.evaluate("() => Array.from(document.querySelectorAll('#L0 > div:last-child span')).map(e => {const r=e.getBoundingClientRect(); return [r.left, r.top, r.width, r.height]})")
         base = {k: v for k, v in L.items() if k not in ('runs', 'text', 'x', 'y', 'anchor', 'spacing', 'size')}
+        mine = []
         for ch, rc in zip(chars, rects):
             if not ch['text'].strip():
                 continue
@@ -65,7 +66,16 @@ with sync_playwright() as p:
                     n[k] = ch[k]
             n['line'] = 1.0
             n['grp'] = (L.get('grp') or f'L{i}') + (f"_{ch['_ln']}" if ch['_ln'] else '')  # 同じ行の字（tune_group.py でまとめて動かす）
-            new_layers.append(n)
+            mine.append(n)
+        # 確認: 分けた字を全部重ねた形が、元の行の形と合っているか（回転・box/fixed 付きの行でずれることがある）
+        a0 = R.render_layers({'id': vid, 'layers': [L]}, page)[:, :, 3] > 128
+        a1 = R.render_layers({'id': vid, 'layers': mine}, page)[:, :, 3] > 128
+        iou = (a0 & a1).sum() / max(1, (a0 | a1).sum())
+        if iou < float(os.environ.get('MIN_IOU', 0.85)) and os.environ.get('FORCE') != '1':
+            print(f'L{i}: 分けた形が元の行と合わない（IoU {iou:.2f}）ので分けずに残す（FORCE=1 で強制）')
+            new_layers.append(L); continue
+        print(f'L{i}: {len(mine)} 字に分けた（元の行との IoU {iou:.2f}）')
+        new_layers.extend(mine)
     b.close()
 spec['layers'] = new_layers
 json.dump(spec, open(sp, 'w'), ensure_ascii=False, indent=1)
