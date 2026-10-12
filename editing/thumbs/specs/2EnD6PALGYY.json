@@ -47,7 +47,7 @@
    "tol": 45
   }
  ],
- "grow": 4,
+ "grow": 9,
  "layers": [
   {
    "type": "image",
@@ -147,22 +147,10 @@
    "type": "text",
    "font": "ZenOldMincho",
    "weight": 400,
-   "color": "rgba(255,255,255,.13)",
-   "fit_color": "#ffffff",
-   "text": "価",
-   "x": 74.3,
-   "y": 169.9,
-   "size": 285.1,
-   "scale_x": 1.037
-  },
-  {
-   "type": "text",
-   "font": "ZenOldMincho",
-   "weight": 400,
-   "color": "rgba(255,255,255,.14)",
+   "color": "#ffffff",
    "strokes": [
     [
-     1.5,
+     0.75,
      "#ffffff"
     ]
    ],
@@ -180,30 +168,18 @@
     25
    ],
    "scale_x": 1.037,
-   "hollow": true,
-   "grp": "P6"
+   "fill_opacity": 0.23,
+   "fit_tol": 20,
+   "notune": true
   },
   {
    "type": "text",
    "font": "ZenOldMincho",
    "weight": 700,
-   "color": "rgba(255,255,255,.13)",
-   "fit_color": "#ffffff",
-   "text": "格",
-   "x": 342.5,
-   "y": 158.3,
-   "size": 312.6,
-   "scale_x": 0.974,
-   "grp": "P6"
-  },
-  {
-   "type": "text",
-   "font": "ZenOldMincho",
-   "weight": 700,
-   "color": "rgba(255,255,255,.14)",
+   "color": "#ffffff",
    "strokes": [
     [
-     1.5,
+     0.75,
      "#ffffff"
     ]
    ],
@@ -221,30 +197,18 @@
     25
    ],
    "scale_x": 0.993,
-   "hollow": true,
-   "grp": "P8"
+   "fill_opacity": 0.23,
+   "fit_tol": 20,
+   "notune": true
   },
   {
    "type": "text",
    "font": "ZenOldMincho",
    "weight": 700,
-   "color": "rgba(255,255,255,.13)",
-   "fit_color": "#ffffff",
-   "text": "破",
-   "x": 640.0,
-   "y": 171.2,
-   "size": 291.2,
-   "scale_x": 1.018,
-   "grp": "P8"
-  },
-  {
-   "type": "text",
-   "font": "ZenOldMincho",
-   "weight": 700,
-   "color": "rgba(255,255,255,.14)",
+   "color": "#ffffff",
    "strokes": [
     [
-     1.5,
+     0.75,
      "#ffffff"
     ]
    ],
@@ -262,30 +226,18 @@
     25
    ],
    "scale_x": 1.018,
-   "hollow": true,
-   "grp": "P10"
+   "fill_opacity": 0.23,
+   "fit_tol": 20,
+   "notune": true
   },
   {
    "type": "text",
    "font": "ZenOldMincho",
    "weight": 700,
-   "color": "rgba(255,255,255,.13)",
-   "fit_color": "#ffffff",
-   "text": "壊",
-   "x": 937.0,
-   "y": 161.3,
-   "size": 311.6,
-   "scale_x": 0.951,
-   "grp": "P10"
-  },
-  {
-   "type": "text",
-   "font": "ZenOldMincho",
-   "weight": 700,
-   "color": "rgba(255,255,255,.14)",
+   "color": "#ffffff",
    "strokes": [
     [
-     1.5,
+     0.75,
      "#ffffff"
     ]
    ],
@@ -303,7 +255,9 @@
     25
    ],
    "scale_x": 0.951,
-   "hollow": true
+   "fill_opacity": 0.23,
+   "fit_tol": 20,
+   "notune": true
   },
   {
    "type": "rect",

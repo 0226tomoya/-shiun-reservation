@@ -17,8 +17,8 @@
  "layers": [
   {
    "type": "text",
-   "font": "Noto Serif JP",
-   "weight": 600,
+   "font": "NotoSerifJP",
+   "weight": 500,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.5)",
    "lock": [
@@ -27,9 +27,9 @@
    ],
    "tol": 18,
    "text": "ご",
-   "x": 59.0,
-   "y": 379.0,
-   "size": 145.4,
+   "x": 57.0,
+   "y": 375.0,
+   "size": 148.3,
    "box": [
     82,
     395,
@@ -161,8 +161,8 @@
   },
   {
    "type": "text",
-   "font": "Noto Serif JP",
-   "weight": 600,
+   "font": "NotoSerifJP",
+   "weight": 500,
    "color": "#ffffff",
    "shadow": "0 0 14px rgba(0,0,0,.5)",
    "lock": [
@@ -171,7 +171,7 @@
    ],
    "tol": 18,
    "text": "ま",
-   "x": 920.5,
+   "x": 918.5,
    "y": 377.5,
    "size": 147.2,
    "box": [
@@ -180,7 +180,7 @@
     116,
     132
    ],
-   "scale_x": 1.09,
+   "scale_x": 1.112,
    "fit_iou": 0.752
   },
   {
@@ -195,7 +195,7 @@
    ],
    "tol": 18,
    "text": "す",
-   "x": 1071.0,
+   "x": 1069.0,
    "y": 368.0,
    "size": 161.9,
    "box": [
@@ -204,7 +204,7 @@
     140,
     140
    ],
-   "scale_x": 0.935,
+   "scale_x": 0.954,
    "fit_iou": 0.601
   }
  ]

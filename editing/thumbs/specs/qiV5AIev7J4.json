@@ -3,15 +3,54 @@
  "erase": [
   {
    "rect": [
-    495,
-    135,
-    525,
-    375
+    488,
+    128,
+    112,
+    400
+   ],
+   "colors": [
+    "#828282",
+    "#a8a8a8"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    600,
+    128,
+    180,
+    162
+   ],
+   "colors": [
+    "#828282",
+    "#a8a8a8"
+   ],
+   "tol": 12
+  },
+  {
+   "rect": [
+    600,
+    290,
+    180,
+    235
    ],
    "colors": [
     "#a8a8a8"
    ],
-   "tol": 14
+   "tol": 12
+  },
+  {
+   "rect": [
+    780,
+    128,
+    272,
+    400
+   ],
+   "colors": [
+    "#828282",
+    "#a8a8a8"
+   ],
+   "tol": 12
   },
   {
    "rect": [
@@ -41,16 +80,11 @@
  "layers": [
   {
    "type": "text",
-   "text": "28",
-   "x": 497.5,
-   "y": 36.5,
-   "font": "CormorantGaramond",
+   "font": "PinyonScript",
    "weight": 400,
-   "italic": true,
-   "size": 545.7,
-   "color": "#b4b4b4",
-   "opacity": 0.6,
-   "spacing": -0.05,
+   "italic": false,
+   "color": "#dddddd",
+   "opacity": 0.52,
    "tol": 14,
    "box": [
     495,
@@ -58,10 +92,43 @@
     525,
     375
    ],
-   "scale_x": 1.156,
-   "rotate": 0,
-   "fit_iou": 0.072,
-   "skew": 0
+   "scale_x": 1.034,
+   "rotate": -12.0,
+   "skew": 0,
+   "text": "2",
+   "x": 538.5,
+   "y": 411.5,
+   "anchor": "lc",
+   "size": 450.6,
+   "line": 1.0,
+   "grp": "L0",
+   "notune": true
+  },
+  {
+   "type": "text",
+   "font": "PinyonScript",
+   "weight": 400,
+   "italic": false,
+   "color": "#dddddd",
+   "opacity": 0.52,
+   "tol": 14,
+   "box": [
+    495,
+    135,
+    525,
+    375
+   ],
+   "scale_x": 1.022,
+   "rotate": 0.0,
+   "skew": 0,
+   "text": "8",
+   "x": 785.6,
+   "y": 372.5,
+   "anchor": "lc",
+   "size": 518.6,
+   "line": 1.0,
+   "grp": "L0",
+   "notune": true
   },
   {
    "type": "text",
