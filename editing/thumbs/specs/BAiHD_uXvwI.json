@@ -1,132 +1,132 @@
 {
-"id": "BAiHD_uXvwI",
-"erase": [
-{
-"rect": [
-5,
-445,
-272,
-272
-],
-"full": true
-},
-{
-"rect": [
-255,
-485,
-1025,
-188
-],
-"full": true
-},
-{
-"rect": [
-265,
-435,
-1015,
-285
-],
-"colors": [
-"#d0a050",
-"#ffffff",
-"#b8863a"
-],
-"tol": 30
-}
-],
-"layers": [
-{
-"type": "rect",
-"x": 255,
-"y": 485,
-"w": 1025,
-"h": 188,
-"fill": "#0a0808"
-},
-{
-"type": "image",
-"src": "assets/logos/gu_blue_shadow_baih.png",
-"x": 5,
-"y": 445,
-"w": 272,
-"h": 272
-},
-{
-"type": "text",
-"text": "秋",
-"x": 391.0,
-"y": 564.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 302.4,
-"tb": [
-271,
-509,
-439,
-718
-],
-"fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
-"shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
-"scale_x": 0.81
-},
-{
-"type": "text",
-"text": "服",
-"x": 638.0,
-"y": 551.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 293.3,
-"tb": [
-511,
-769,
-439,
-718
-],
-"fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
-"shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
-"scale_x": 0.905
-},
-{
-"type": "text",
-"text": "新",
-"x": 895.5,
-"y": 556.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 286.4,
-"tb": [
-771,
-1016,
-439,
-718
-],
-"fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
-"shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
-"scale_x": 0.886
-},
-{
-"type": "text",
-"text": "作",
-"x": 1147.0,
-"y": 556.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 283.1,
-"tb": [
-1018,
-1274,
-439,
-718
-],
-"fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
-"shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
-"scale_x": 0.937
-}
-],
-"grow": 15
+ "id": "BAiHD_uXvwI",
+ "erase": [
+  {
+   "rect": [
+    5,
+    445,
+    272,
+    272
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    255,
+    485,
+    1025,
+    188
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    265,
+    435,
+    1015,
+    285
+   ],
+   "colors": [
+    "#d0a050",
+    "#ffffff",
+    "#b8863a"
+   ],
+   "tol": 30
+  }
+ ],
+ "layers": [
+  {
+   "type": "rect",
+   "x": 255,
+   "y": 485,
+   "w": 1025,
+   "h": 188,
+   "fill": "#0a0808"
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/gu_blue_shadow_baih.png",
+   "x": 5,
+   "y": 445,
+   "w": 272,
+   "h": 272
+  },
+  {
+   "type": "text",
+   "text": "秋",
+   "x": 395.0,
+   "y": 563.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 290.3,
+   "tb": [
+    271,
+    509,
+    439,
+    718
+   ],
+   "fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
+   "shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
+   "scale_x": 0.842
+  },
+  {
+   "type": "text",
+   "text": "服",
+   "x": 652.0,
+   "y": 550.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 299.2,
+   "tb": [
+    511,
+    769,
+    439,
+    718
+   ],
+   "fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
+   "shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
+   "scale_x": 0.851
+  },
+  {
+   "type": "text",
+   "text": "新",
+   "x": 896.5,
+   "y": 545.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 315.0,
+   "tb": [
+    771,
+    1016,
+    439,
+    718
+   ],
+   "fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
+   "shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
+   "scale_x": 0.815
+  },
+  {
+   "type": "text",
+   "text": "作",
+   "x": 1140.0,
+   "y": 561.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 266.1,
+   "tb": [
+    1018,
+    1274,
+    439,
+    718
+   ],
+   "fill": "linear-gradient(180deg,#b8863a 0%,#ffffff 32%,#d9a856 55%,#a8742a 72%,#ffffff 100%)",
+   "shadow": "4px 4px 0 #555, 0 0 14px rgba(0,0,0,.7)",
+   "scale_x": 0.862
+  }
+ ],
+ "grow": 15
 }

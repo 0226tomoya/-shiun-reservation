@@ -1,974 +1,991 @@
 {
-"id": "DOuPbCNtNtY",
-"erase": [
-{
-"rect": [
-25,
-24,
-230,
-128
-],
-"full": true
-},
-{
-"rect": [
-322,
-8,
-156,
-149
-],
-"full": true
-},
-{
-"rect": [
-798,
-23,
-198,
-125
-],
-"full": true
-},
-{
-"rect": [
-1029,
-40,
-231,
-106
-],
-"full": true
-},
-{
-"rect": [
-15,
-330,
-1255,
-122
-],
-"colors": [
-"#ffffff"
-],
-"tol": 18
-},
-{
-"rect": [
-5,
-455,
-1270,
-260
-],
-"colors": [
-"#ffffff"
-],
-"tol": 12
-}
-],
-"layers": [
-{
-"type": "image",
-"src": "assets/logos/newbalance_white_doup.png",
-"x": 25,
-"y": 24,
-"w": 230,
-"h": 128
-},
-{
-"type": "image",
-"src": "assets/logos/adidas_white_doup.png",
-"x": 322,
-"y": 8,
-"w": 156,
-"h": 149
-},
-{
-"type": "image",
-"src": "assets/logos/harrogate_white_doup.png",
-"x": 798,
-"y": 23,
-"w": 198,
-"h": 125
-},
-{
-"type": "image",
-"src": "assets/logos/brador_white_doup.png",
-"x": 1029,
-"y": 40,
-"w": 231,
-"h": 106
-},
-{
-"type": "line",
-"x1": 20,
-"y1": 443.0,
-"x2": 40,
-"y2": 440.27055150884496,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 40,
-"y1": 440.27055150884496,
-"x2": 60,
-"y2": 437.630593132154,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 60,
-"y1": 437.630593132154,
-"x2": 80,
-"y2": 435.08012486992715,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 80,
-"y1": 435.08012486992715,
-"x2": 100,
-"y2": 432.61914672216443,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 100,
-"y1": 432.61914672216443,
-"x2": 120,
-"y2": 430.2476586888658,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 120,
-"y1": 430.2476586888658,
-"x2": 140,
-"y2": 427.9656607700312,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 140,
-"y1": 427.9656607700312,
-"x2": 160,
-"y2": 425.77315296566076,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 160,
-"y1": 425.77315296566076,
-"x2": 180,
-"y2": 423.67013527575443,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 180,
-"y1": 423.67013527575443,
-"x2": 200,
-"y2": 421.6566077003122,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 200,
-"y1": 421.6566077003122,
-"x2": 220,
-"y2": 419.732570239334,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 220,
-"y1": 419.732570239334,
-"x2": 240,
-"y2": 417.89802289282,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 240,
-"y1": 417.89802289282,
-"x2": 260,
-"y2": 416.15296566077,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 260,
-"y1": 416.15296566077,
-"x2": 280,
-"y2": 414.4973985431842,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 280,
-"y1": 414.4973985431842,
-"x2": 300,
-"y2": 412.9313215400624,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 300,
-"y1": 412.9313215400624,
-"x2": 320,
-"y2": 411.4547346514048,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 320,
-"y1": 411.4547346514048,
-"x2": 340,
-"y2": 410.06763787721127,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 340,
-"y1": 410.06763787721127,
-"x2": 360,
-"y2": 408.7700312174818,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 360,
-"y1": 408.7700312174818,
-"x2": 380,
-"y2": 407.56191467221646,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 380,
-"y1": 407.56191467221646,
-"x2": 400,
-"y2": 406.4432882414152,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 400,
-"y1": 406.4432882414152,
-"x2": 420,
-"y2": 405.41415192507804,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 420,
-"y1": 405.41415192507804,
-"x2": 440,
-"y2": 404.47450572320497,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 440,
-"y1": 404.47450572320497,
-"x2": 460,
-"y2": 403.624349635796,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 460,
-"y1": 403.624349635796,
-"x2": 480,
-"y2": 402.8636836628512,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 480,
-"y1": 402.8636836628512,
-"x2": 500,
-"y2": 402.19250780437045,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 500,
-"y1": 402.19250780437045,
-"x2": 520,
-"y2": 401.6108220603538,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 520,
-"y1": 401.6108220603538,
-"x2": 540,
-"y2": 401.11862643080127,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 540,
-"y1": 401.11862643080127,
-"x2": 560,
-"y2": 400.7159209157128,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 560,
-"y1": 400.7159209157128,
-"x2": 580,
-"y2": 400.4027055150884,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 580,
-"y1": 400.4027055150884,
-"x2": 600,
-"y2": 400.1789802289282,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 600,
-"y1": 400.1789802289282,
-"x2": 620,
-"y2": 400.04474505723203,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 620,
-"y1": 400.04474505723203,
-"x2": 640,
-"y2": 400.0,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 640,
-"y1": 400.0,
-"x2": 660,
-"y2": 400.04474505723203,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 660,
-"y1": 400.04474505723203,
-"x2": 680,
-"y2": 400.1789802289282,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 680,
-"y1": 400.1789802289282,
-"x2": 700,
-"y2": 400.4027055150884,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 700,
-"y1": 400.4027055150884,
-"x2": 720,
-"y2": 400.7159209157128,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 720,
-"y1": 400.7159209157128,
-"x2": 740,
-"y2": 401.11862643080127,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 740,
-"y1": 401.11862643080127,
-"x2": 760,
-"y2": 401.6108220603538,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 760,
-"y1": 401.6108220603538,
-"x2": 780,
-"y2": 402.19250780437045,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 780,
-"y1": 402.19250780437045,
-"x2": 800,
-"y2": 402.8636836628512,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 800,
-"y1": 402.8636836628512,
-"x2": 820,
-"y2": 403.624349635796,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 820,
-"y1": 403.624349635796,
-"x2": 840,
-"y2": 404.47450572320497,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 840,
-"y1": 404.47450572320497,
-"x2": 860,
-"y2": 405.41415192507804,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 860,
-"y1": 405.41415192507804,
-"x2": 880,
-"y2": 406.4432882414152,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 880,
-"y1": 406.4432882414152,
-"x2": 900,
-"y2": 407.56191467221646,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 900,
-"y1": 407.56191467221646,
-"x2": 920,
-"y2": 408.7700312174818,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 920,
-"y1": 408.7700312174818,
-"x2": 940,
-"y2": 410.06763787721127,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 940,
-"y1": 410.06763787721127,
-"x2": 960,
-"y2": 411.4547346514048,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 960,
-"y1": 411.4547346514048,
-"x2": 980,
-"y2": 412.9313215400624,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 980,
-"y1": 412.9313215400624,
-"x2": 1000,
-"y2": 414.4973985431842,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1000,
-"y1": 414.4973985431842,
-"x2": 1020,
-"y2": 416.15296566077,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1020,
-"y1": 416.15296566077,
-"x2": 1040,
-"y2": 417.89802289282,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1040,
-"y1": 417.89802289282,
-"x2": 1060,
-"y2": 419.732570239334,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1060,
-"y1": 419.732570239334,
-"x2": 1080,
-"y2": 421.6566077003122,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1080,
-"y1": 421.6566077003122,
-"x2": 1100,
-"y2": 423.67013527575443,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1100,
-"y1": 423.67013527575443,
-"x2": 1120,
-"y2": 425.77315296566076,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1120,
-"y1": 425.77315296566076,
-"x2": 1140,
-"y2": 427.9656607700312,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1140,
-"y1": 427.9656607700312,
-"x2": 1160,
-"y2": 430.2476586888658,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1160,
-"y1": 430.2476586888658,
-"x2": 1180,
-"y2": 432.61914672216443,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1180,
-"y1": 432.61914672216443,
-"x2": 1200,
-"y2": 435.08012486992715,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1200,
-"y1": 435.08012486992715,
-"x2": 1220,
-"y2": 437.630593132154,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1220,
-"y1": 437.630593132154,
-"x2": 1240,
-"y2": 440.27055150884496,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "line",
-"x1": 1240,
-"y1": 440.27055150884496,
-"x2": 1260,
-"y2": 443.0,
-"width": 2.5,
-"color": "#ffffff"
-},
-{
-"type": "text",
-"text": "ア",
-"x": 65,
-"y": 395,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -7.3,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "パ",
-"x": 140,
-"y": 386,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -6.4,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "レ",
-"x": 212,
-"y": 378,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -5.5,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ル",
-"x": 284,
-"y": 372,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -4.6,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "デ",
-"x": 359,
-"y": 367,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -3.6,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ィ",
-"x": 424,
-"y": 373,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 48,
-"color": "#ffffff",
-"rotate": -2.8,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "レ",
-"x": 484,
-"y": 361,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -2.0,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ク",
-"x": 556,
-"y": 359,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -1.1,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "タ",
-"x": 631,
-"y": 358,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": -0.1,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ー",
-"x": 707,
-"y": 359,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 0.9,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "が",
-"x": 777,
-"y": 366,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 58,
-"color": "#ffffff",
-"rotate": 1.8,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "オ",
-"x": 847,
-"y": 363,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 2.6,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ス",
-"x": 922,
-"y": 367,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 3.6,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "ス",
-"x": 998,
-"y": 372,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 4.6,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "メ",
-"x": 1073,
-"y": 379,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 5.5,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "す",
-"x": 1145,
-"y": 387,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 6.4,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "る",
-"x": 1213,
-"y": 395,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 800,
-"size": 76,
-"color": "#ffffff",
-"rotate": 7.3,
-"shadow": "0 0 6px rgba(0,0,0,.4)"
-},
-{
-"type": "text",
-"text": "靴",
-"x": 135.5,
-"y": 571.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 249.3,
-"tb": [
-14,
-260,
-460,
-706
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.992
-},
-{
-"type": "text",
-"text": "全",
-"x": 388.0,
-"y": 568.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 248.0,
-"tb": [
-264,
-511,
-460,
-706
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.989
-},
-{
-"type": "text",
-"text": "部",
-"x": 640.0,
-"y": 568.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 250.3,
-"tb": [
-520,
-761,
-460,
-706
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.988
-},
-{
-"type": "text",
-"text": "紹",
-"x": 894.0,
-"y": 568.0,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 253.5,
-"tb": [
-771,
-1007,
-460,
-706
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.964
-},
-{
-"type": "text",
-"text": "介",
-"x": 1145.5,
-"y": 571.5,
-"anchor": "cc",
-"font": "Noto Sans JP",
-"weight": 900,
-"size": 250.4,
-"tb": [
-1022,
-1268,
-460,
-706
-],
-"color": "#ffffff",
-"shadow": "0 0 10px rgba(0,0,0,.4)",
-"scale_x": 0.988
-}
-],
-"grow": 13
+ "id": "DOuPbCNtNtY",
+ "erase": [
+  {
+   "rect": [
+    25,
+    24,
+    230,
+    128
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    322,
+    8,
+    156,
+    149
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    798,
+    23,
+    198,
+    125
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    1029,
+    40,
+    231,
+    106
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    15,
+    330,
+    1255,
+    122
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 18
+  },
+  {
+   "rect": [
+    5,
+    455,
+    1270,
+    260
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 12
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/newbalance_white_doup.png",
+   "x": 25,
+   "y": 24,
+   "w": 230,
+   "h": 128
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/adidas_white_doup.png",
+   "x": 322,
+   "y": 8,
+   "w": 156,
+   "h": 149
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/harrogate_white_doup.png",
+   "x": 798,
+   "y": 23,
+   "w": 198,
+   "h": 125
+  },
+  {
+   "type": "image",
+   "src": "assets/logos/brador_white_doup.png",
+   "x": 1029,
+   "y": 40,
+   "w": 231,
+   "h": 106
+  },
+  {
+   "type": "line",
+   "x1": 20,
+   "y1": 443.0,
+   "x2": 40,
+   "y2": 440.27055150884496,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 40,
+   "y1": 440.27055150884496,
+   "x2": 60,
+   "y2": 437.630593132154,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 60,
+   "y1": 437.630593132154,
+   "x2": 80,
+   "y2": 435.08012486992715,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 80,
+   "y1": 435.08012486992715,
+   "x2": 100,
+   "y2": 432.61914672216443,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 100,
+   "y1": 432.61914672216443,
+   "x2": 120,
+   "y2": 430.2476586888658,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 120,
+   "y1": 430.2476586888658,
+   "x2": 140,
+   "y2": 427.9656607700312,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 140,
+   "y1": 427.9656607700312,
+   "x2": 160,
+   "y2": 425.77315296566076,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 160,
+   "y1": 425.77315296566076,
+   "x2": 180,
+   "y2": 423.67013527575443,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 180,
+   "y1": 423.67013527575443,
+   "x2": 200,
+   "y2": 421.6566077003122,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 200,
+   "y1": 421.6566077003122,
+   "x2": 220,
+   "y2": 419.732570239334,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 220,
+   "y1": 419.732570239334,
+   "x2": 240,
+   "y2": 417.89802289282,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 240,
+   "y1": 417.89802289282,
+   "x2": 260,
+   "y2": 416.15296566077,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 260,
+   "y1": 416.15296566077,
+   "x2": 280,
+   "y2": 414.4973985431842,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 280,
+   "y1": 414.4973985431842,
+   "x2": 300,
+   "y2": 412.9313215400624,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 300,
+   "y1": 412.9313215400624,
+   "x2": 320,
+   "y2": 411.4547346514048,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 320,
+   "y1": 411.4547346514048,
+   "x2": 340,
+   "y2": 410.06763787721127,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 340,
+   "y1": 410.06763787721127,
+   "x2": 360,
+   "y2": 408.7700312174818,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 360,
+   "y1": 408.7700312174818,
+   "x2": 380,
+   "y2": 407.56191467221646,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 380,
+   "y1": 407.56191467221646,
+   "x2": 400,
+   "y2": 406.4432882414152,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 400,
+   "y1": 406.4432882414152,
+   "x2": 420,
+   "y2": 405.41415192507804,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 420,
+   "y1": 405.41415192507804,
+   "x2": 440,
+   "y2": 404.47450572320497,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 440,
+   "y1": 404.47450572320497,
+   "x2": 460,
+   "y2": 403.624349635796,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 460,
+   "y1": 403.624349635796,
+   "x2": 480,
+   "y2": 402.8636836628512,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 480,
+   "y1": 402.8636836628512,
+   "x2": 500,
+   "y2": 402.19250780437045,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 500,
+   "y1": 402.19250780437045,
+   "x2": 520,
+   "y2": 401.6108220603538,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 520,
+   "y1": 401.6108220603538,
+   "x2": 540,
+   "y2": 401.11862643080127,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 540,
+   "y1": 401.11862643080127,
+   "x2": 560,
+   "y2": 400.7159209157128,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 560,
+   "y1": 400.7159209157128,
+   "x2": 580,
+   "y2": 400.4027055150884,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 580,
+   "y1": 400.4027055150884,
+   "x2": 600,
+   "y2": 400.1789802289282,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 600,
+   "y1": 400.1789802289282,
+   "x2": 620,
+   "y2": 400.04474505723203,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 620,
+   "y1": 400.04474505723203,
+   "x2": 640,
+   "y2": 400.0,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 640,
+   "y1": 400.0,
+   "x2": 660,
+   "y2": 400.04474505723203,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 660,
+   "y1": 400.04474505723203,
+   "x2": 680,
+   "y2": 400.1789802289282,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 680,
+   "y1": 400.1789802289282,
+   "x2": 700,
+   "y2": 400.4027055150884,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 700,
+   "y1": 400.4027055150884,
+   "x2": 720,
+   "y2": 400.7159209157128,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 720,
+   "y1": 400.7159209157128,
+   "x2": 740,
+   "y2": 401.11862643080127,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 740,
+   "y1": 401.11862643080127,
+   "x2": 760,
+   "y2": 401.6108220603538,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 760,
+   "y1": 401.6108220603538,
+   "x2": 780,
+   "y2": 402.19250780437045,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 780,
+   "y1": 402.19250780437045,
+   "x2": 800,
+   "y2": 402.8636836628512,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 800,
+   "y1": 402.8636836628512,
+   "x2": 820,
+   "y2": 403.624349635796,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 820,
+   "y1": 403.624349635796,
+   "x2": 840,
+   "y2": 404.47450572320497,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 840,
+   "y1": 404.47450572320497,
+   "x2": 860,
+   "y2": 405.41415192507804,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 860,
+   "y1": 405.41415192507804,
+   "x2": 880,
+   "y2": 406.4432882414152,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 880,
+   "y1": 406.4432882414152,
+   "x2": 900,
+   "y2": 407.56191467221646,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 900,
+   "y1": 407.56191467221646,
+   "x2": 920,
+   "y2": 408.7700312174818,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 920,
+   "y1": 408.7700312174818,
+   "x2": 940,
+   "y2": 410.06763787721127,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 940,
+   "y1": 410.06763787721127,
+   "x2": 960,
+   "y2": 411.4547346514048,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 960,
+   "y1": 411.4547346514048,
+   "x2": 980,
+   "y2": 412.9313215400624,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 980,
+   "y1": 412.9313215400624,
+   "x2": 1000,
+   "y2": 414.4973985431842,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1000,
+   "y1": 414.4973985431842,
+   "x2": 1020,
+   "y2": 416.15296566077,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1020,
+   "y1": 416.15296566077,
+   "x2": 1040,
+   "y2": 417.89802289282,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1040,
+   "y1": 417.89802289282,
+   "x2": 1060,
+   "y2": 419.732570239334,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1060,
+   "y1": 419.732570239334,
+   "x2": 1080,
+   "y2": 421.6566077003122,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1080,
+   "y1": 421.6566077003122,
+   "x2": 1100,
+   "y2": 423.67013527575443,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1100,
+   "y1": 423.67013527575443,
+   "x2": 1120,
+   "y2": 425.77315296566076,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1120,
+   "y1": 425.77315296566076,
+   "x2": 1140,
+   "y2": 427.9656607700312,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1140,
+   "y1": 427.9656607700312,
+   "x2": 1160,
+   "y2": 430.2476586888658,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1160,
+   "y1": 430.2476586888658,
+   "x2": 1180,
+   "y2": 432.61914672216443,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1180,
+   "y1": 432.61914672216443,
+   "x2": 1200,
+   "y2": 435.08012486992715,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1200,
+   "y1": 435.08012486992715,
+   "x2": 1220,
+   "y2": 437.630593132154,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1220,
+   "y1": 437.630593132154,
+   "x2": 1240,
+   "y2": 440.27055150884496,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 1240,
+   "y1": 440.27055150884496,
+   "x2": 1260,
+   "y2": 443.0,
+   "width": 2.5,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "ア",
+   "x": 53,
+   "y": 394,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": -7.3,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "text": "パ",
+   "x": 128,
+   "y": 388,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": -6.4,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.06
+  },
+  {
+   "type": "text",
+   "text": "レ",
+   "x": 199,
+   "y": 384,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": -5.5,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "ル",
+   "x": 274,
+   "y": 372,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 69.9,
+   "color": "#ffffff",
+   "rotate": -4.6,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.94
+  },
+  {
+   "type": "text",
+   "text": "デ",
+   "x": 350,
+   "y": 366,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": -3.6,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "ィ",
+   "x": 426,
+   "y": 363,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 52.8,
+   "color": "#ffffff",
+   "rotate": -2.8,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.02
+  },
+  {
+   "type": "text",
+   "text": "レ",
+   "x": 499,
+   "y": 362,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": -2.0,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "ク",
+   "x": 576,
+   "y": 356,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 69.9,
+   "color": "#ffffff",
+   "rotate": -1.1,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "タ",
+   "x": 649,
+   "y": 353,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 73.0,
+   "color": "#ffffff",
+   "rotate": -0.1,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "ー",
+   "x": 722,
+   "y": 355,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": 0.9,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "が",
+   "x": 786,
+   "y": 366,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 52.2,
+   "color": "#ffffff",
+   "rotate": 1.8,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "オ",
+   "x": 850,
+   "y": 362,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 68.4,
+   "color": "#ffffff",
+   "rotate": 2.6,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "ス",
+   "x": 925,
+   "y": 366,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 73.0,
+   "color": "#ffffff",
+   "rotate": 3.6,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.98
+  },
+  {
+   "type": "text",
+   "text": "ス",
+   "x": 1000,
+   "y": 373,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 71.4,
+   "color": "#ffffff",
+   "rotate": 4.6,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.98
+  },
+  {
+   "type": "text",
+   "text": "メ",
+   "x": 1073,
+   "y": 380,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 77.5,
+   "color": "#ffffff",
+   "rotate": 5.5,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "す",
+   "x": 1149,
+   "y": 387,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 73.0,
+   "color": "#ffffff",
+   "rotate": 6.4,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.96
+  },
+  {
+   "type": "text",
+   "text": "る",
+   "x": 1225,
+   "y": 397,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 77.5,
+   "color": "#ffffff",
+   "rotate": 7.3,
+   "shadow": "0 0 6px rgba(0,0,0,.4)",
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "text": "靴",
+   "x": 134.5,
+   "y": 573.0,
+   "anchor": "cc",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "size": 249.3,
+   "tb": [
+    14,
+    260,
+    460,
+    706
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 1.012
+  },
+  {
+   "type": "text",
+   "text": "全",
+   "x": 389.0,
+   "y": 570.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 243.0,
+   "tb": [
+    264,
+    511,
+    460,
+    706
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.949
+  },
+  {
+   "type": "text",
+   "text": "部",
+   "x": 644.0,
+   "y": 567.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 245.3,
+   "tb": [
+    520,
+    761,
+    460,
+    706
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 1.008
+  },
+  {
+   "type": "text",
+   "text": "紹",
+   "x": 896.0,
+   "y": 571.0,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 243.4,
+   "tb": [
+    771,
+    1007,
+    460,
+    706
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 1.003
+  },
+  {
+   "type": "text",
+   "text": "介",
+   "x": 1144.5,
+   "y": 576.5,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 245.4,
+   "tb": [
+    1022,
+    1268,
+    460,
+    706
+   ],
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.4)",
+   "scale_x": 0.948
+  }
+ ],
+ "grow": 13
 }

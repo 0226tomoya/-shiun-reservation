@@ -59,24 +59,26 @@
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 323.165,
+   "size": 323.2,
    "color": "#ffffff",
    "lock": [
     "skew"
    ],
    "scale_x": 1.021,
    "spacing": -0.008,
-   "fit_iou": 0.829
+   "fit_iou": 0.829,
+   "skew": 0.0,
+   "shadow": "0 0 10px rgba(0,0,0,.35)"
   },
   {
    "type": "text",
    "text": "大",
-   "x": 467.5,
+   "x": 466.5,
    "y": 551.5,
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 314.517,
+   "size": 314.5,
    "color": "#ffffff",
    "lock": [
     "skew"
@@ -84,17 +86,19 @@
    "scale_x": 1.07,
    "spacing": -0.056,
    "fit_iou": 0.8,
-   "rotate": -1.0
+   "rotate": -1.0,
+   "skew": 0.0,
+   "shadow": "0 0 10px rgba(0,0,0,.35)"
   },
   {
    "type": "text",
    "text": "発",
-   "x": 796.0,
-   "y": 551.5,
+   "x": 800.0,
+   "y": 546.5,
    "anchor": "cc",
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 320.474,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "size": 320.5,
    "color": "#ffffff",
    "lock": [
     "skew"
@@ -102,7 +106,9 @@
    "scale_x": 1.036,
    "rotate": -1.2,
    "fit_iou": 0.766,
-   "spacing": 0.008
+   "spacing": 0.008,
+   "skew": 0.0,
+   "shadow": "0 0 10px rgba(0,0,0,.35)"
   },
   {
    "type": "text",
@@ -112,15 +118,17 @@
    "anchor": "cc",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 329.026,
+   "size": 329.0,
    "color": "#ffffff",
    "lock": [
     "skew"
    ],
-   "scale_x": 0.99,
+   "scale_x": 0.97,
    "spacing": 0.014,
    "rotate": -1.0,
-   "fit_iou": 0.758
+   "fit_iou": 0.758,
+   "skew": 0.0,
+   "shadow": "0 0 10px rgba(0,0,0,.35)"
   }
  ],
  "grow": 19
