@@ -62,6 +62,15 @@
    "rotate": -0.27
   },
   {
+   "type": "rect",
+   "x": 138,
+   "y": 500,
+   "w": 429,
+   "h": 115,
+   "fill": "#17298d",
+   "rotate": -0.27
+  },
+  {
    "type": "image",
    "src": "assets/logos/gu_blue_wpdn.png",
    "x": 138,
@@ -101,8 +110,8 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "scale_x": 0.76,
    "strokes": [
@@ -124,10 +133,10 @@
    "skew": -6.0,
    "fit_iou": 0.619,
    "text": "作",
-   "x": 697.8,
+   "x": 695.8,
    "y": 400.5,
    "anchor": "lc",
-   "size": 161.6
+   "size": 168.1
   },
   {
    "type": "text",
@@ -154,44 +163,14 @@
    "skew": -6.0,
    "fit_iou": 0.619,
    "text": "レ",
-   "x": 820.1,
-   "y": 417.5,
+   "x": 816.1,
+   "y": 404.5,
    "anchor": "lc",
-   "size": 164.7
+   "size": 195.7
   },
   {
    "type": "text",
    "font": "ZenKakuGothicNew",
-   "weight": 900,
-   "color": "#ffffff",
-   "scale_x": 0.702,
-   "strokes": [
-    [
-     3,
-     "#3a3a3a"
-    ]
-   ],
-   "line": 1.0,
-   "box": [
-    545,
-    330,
-    735,
-    165
-   ],
-   "fit_color": "#ffffff",
-   "tol": 15,
-   "rotate": 0.2,
-   "skew": -6.0,
-   "fit_iou": 0.619,
-   "text": "ビ",
-   "x": 938.4,
-   "y": 407.5,
-   "anchor": "lc",
-   "size": 168.7
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
    "weight": 900,
    "color": "#ffffff",
    "scale_x": 0.744,
@@ -213,9 +192,39 @@
    "rotate": 0.2,
    "skew": -6.0,
    "fit_iou": 0.619,
+   "text": "ビ",
+   "x": 935.4,
+   "y": 404.5,
+   "anchor": "lc",
+   "size": 175.4
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 800,
+   "color": "#ffffff",
+   "scale_x": 0.852,
+   "strokes": [
+    [
+     3,
+     "#3a3a3a"
+    ]
+   ],
+   "line": 1.0,
+   "box": [
+    545,
+    330,
+    735,
+    165
+   ],
+   "fit_color": "#ffffff",
+   "tol": 15,
+   "rotate": 0.2,
+   "skew": -6.0,
+   "fit_iou": 0.619,
    "text": "ュ",
-   "x": 1059.7,
-   "y": 411.5,
+   "x": 1051.7,
+   "y": 412.5,
    "anchor": "lc",
    "size": 140.2
   },
@@ -224,7 +233,7 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "scale_x": 0.776,
+   "scale_x": 0.807,
    "strokes": [
     [
      3,
@@ -244,17 +253,17 @@
    "skew": -6.0,
    "fit_iou": 0.619,
    "text": "ー",
-   "x": 1155.9,
+   "x": 1152.9,
    "y": 408.5,
    "anchor": "lc",
    "size": 162.2
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "scale_x": 0.874,
+   "scale_x": 0.926,
    "strokes": [
     [
      3,
@@ -273,17 +282,17 @@
    "skew": -6.0,
    "fit_iou": 0.577,
    "text": "絶",
-   "x": 18.3,
-   "y": 597.5,
+   "x": 15.3,
+   "y": 600.5,
    "anchor": "lc",
-   "size": 195.5
+   "size": 191.6
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "scale_x": 1.025,
+   "scale_x": 0.984,
    "strokes": [
     [
      3,
@@ -302,10 +311,10 @@
    "skew": -6.0,
    "fit_iou": 0.577,
    "text": "対",
-   "x": 204.2,
-   "y": 616.5,
+   "x": 197.2,
+   "y": 603.5,
    "anchor": "lc",
-   "size": 156.0
+   "size": 175.0
   },
   {
    "type": "text",
@@ -341,7 +350,7 @@
    "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
-   "scale_x": 0.93,
+   "scale_x": 0.875,
    "strokes": [
     [
      3,
@@ -360,17 +369,17 @@
    "skew": -14.0,
    "fit_iou": 0.577,
    "text": "い",
-   "x": 528.2,
-   "y": 609.5,
+   "x": 529.2,
+   "y": 608.5,
    "anchor": "lc",
-   "size": 200.3
+   "size": 208.3
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "scale_x": 0.892,
+   "scale_x": 0.856,
    "strokes": [
     [
      3,
@@ -390,16 +399,16 @@
    "fit_iou": 0.577,
    "text": "は",
    "x": 703.4,
-   "y": 616.5,
+   "y": 617.5,
    "anchor": "lc",
-   "size": 143.0
+   "size": 148.7
   },
   {
    "type": "text",
-   "font": "MPLUS1p",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
-   "scale_x": 0.874,
+   "scale_x": 0.982,
    "strokes": [
     [
      3,
@@ -418,17 +427,17 @@
    "skew": -6.0,
    "fit_iou": 0.577,
    "text": "コ",
-   "x": 848.8,
-   "y": 604.5,
+   "x": 817.8,
+   "y": 595.5,
    "anchor": "lc",
-   "size": 169.8
+   "size": 186.8
   },
   {
    "type": "text",
-   "font": "ZenKakuGothicNew",
+   "font": "NotoSansJP",
    "weight": 900,
    "color": "#ffffff",
-   "scale_x": 0.809,
+   "scale_x": 0.891,
    "strokes": [
     [
      3,
@@ -447,17 +456,17 @@
    "skew": -6.0,
    "fit_iou": 0.577,
    "text": "レ",
-   "x": 978.7,
-   "y": 612.5,
+   "x": 975.7,
+   "y": 593.5,
    "anchor": "lc",
-   "size": 203.8
+   "size": 195.6
   },
   {
    "type": "text",
    "font": "MPLUS1p",
    "weight": 900,
    "color": "#ffffff",
-   "scale_x": 0.554,
+   "scale_x": 0.587,
    "strokes": [
     [
      3,
@@ -477,9 +486,9 @@
    "fit_iou": 0.577,
    "text": "‼",
    "x": 1151.7,
-   "y": 606.5,
+   "y": 607.5,
    "anchor": "lc",
-   "size": 243.6
+   "size": 233.9
   },
   {
    "type": "text",

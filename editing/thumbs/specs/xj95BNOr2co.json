@@ -162,7 +162,8 @@
    "y": 126.7,
    "anchor": "lc",
    "size": 290.6,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -183,13 +184,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.047,
+   "scale_x": 1.026,
    "text": "対",
    "x": 361.7,
-   "y": 117.7,
+   "y": 118.7,
    "anchor": "lc",
-   "size": 251.0,
-   "line": 1.0
+   "size": 256.0,
+   "line": 1.0,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -210,13 +212,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.91,
+   "scale_x": 0.965,
    "text": "買",
-   "x": 666,
-   "y": 123.7,
+   "x": 660,
+   "y": 124.7,
    "anchor": "lc",
-   "size": 284.8,
-   "line": 1.0
+   "size": 290.3,
+   "line": 1.0,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -237,13 +240,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.132,
+   "scale_x": 1.224,
    "text": "い",
-   "x": 965.3,
-   "y": 120.7,
+   "x": 962.3,
+   "y": 124.7,
    "anchor": "lc",
-   "size": 231.0,
-   "line": 1.0
+   "size": 221.8,
+   "line": 1.0,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -264,13 +268,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.932,
+   "scale_x": 0.97,
    "text": "こ",
-   "x": -7.2,
+   "x": -9.2,
    "y": 629.7,
    "anchor": "lc",
    "size": 128.4,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P4"
   },
   {
    "type": "text",
@@ -297,7 +302,8 @@
    "y": 632.7,
    "anchor": "lc",
    "size": 133.5,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P4"
   },
   {
    "type": "text",
@@ -351,7 +357,8 @@
    "y": 619.5,
    "anchor": "lc",
    "size": 167.6,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -372,13 +379,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.963,
+   "scale_x": 0.944,
    "text": "だ",
    "x": 530.3,
-   "y": 616.0,
+   "y": 615.0,
    "anchor": "lc",
-   "size": 171.1,
-   "line": 1.0
+   "size": 174.5,
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -399,13 +407,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.021,
+   "scale_x": 0.941,
    "text": "け",
    "x": 674.6,
-   "y": 625.0,
+   "y": 620.0,
    "anchor": "lc",
-   "size": 154.9,
-   "line": 1.0
+   "size": 167.5,
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -426,40 +435,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.943,
+   "scale_x": 0.924,
    "text": "で",
-   "x": 821.0,
-   "y": 636.7,
-   "anchor": "lc",
-   "size": 127.4,
-   "line": 1.0
-  },
-  {
-   "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "color": "#ffffff",
-   "shadow": "3px 3px 6px rgba(0,0,0,.4)",
-   "tgt": [
-    700,
-    595,
-    1240,
-    706
-   ],
-   "m": [
-    0,
-    0,
-    1,
-    1,
-    "#fff"
-   ],
-   "scale_x": 1.1,
-   "text": "い",
-   "x": 936.7,
+   "x": 820.0,
    "y": 635.7,
    "anchor": "lc",
-   "size": 115.5,
-   "line": 1.0
+   "size": 132.5,
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -480,13 +463,42 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.121,
+   "scale_x": 1.056,
+   "text": "い",
+   "x": 935.7,
+   "y": 634.7,
+   "anchor": "lc",
+   "size": 124.9,
+   "line": 1.0,
+   "grp": "P7"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "3px 3px 6px rgba(0,0,0,.4)",
+   "tgt": [
+    700,
+    595,
+    1240,
+    706
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 1.055,
    "text": "い",
    "x": 1056.3,
-   "y": 635.7,
+   "y": 634.7,
    "anchor": "lc",
-   "size": 115.5,
-   "line": 1.0
+   "size": 124.9,
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -507,13 +519,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.04,
+   "scale_x": 1.125,
    "text": "!",
-   "x": 1170.9,
-   "y": 628.7,
+   "x": 1169.9,
+   "y": 633.7,
    "anchor": "lc",
-   "size": 172.5,
-   "line": 1.0
+   "size": 162.3,
+   "line": 1.0,
+   "grp": "P7"
   },
   {
    "type": "text",
@@ -534,13 +547,14 @@
     1,
     "#fff"
    ],
-   "scale_x": 1.026,
+   "scale_x": 1.11,
    "text": "!",
    "x": 1220.0,
-   "y": 628.7,
+   "y": 632.7,
    "anchor": "lc",
-   "size": 172.5,
-   "line": 1.0
+   "size": 159.0,
+   "line": 1.0,
+   "grp": "P7"
   }
  ]
 }

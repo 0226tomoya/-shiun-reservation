@@ -58,18 +58,75 @@
   },
   {
    "type": "text",
-   "text": "25 Winter 1st Collection",
-   "x": 953.0,
-   "y": 22.5,
    "font": "Playfair Display",
    "weight": 700,
-   "size": 41.1,
-   "scale_x": 0.717,
+   "scale_x": 0.746,
    "color": "#ffffff",
    "tol": 18,
    "skew": -4.5,
    "rotate": 0.3,
-   "fit_iou": 0.4
+   "fit_iou": 0.4,
+   "text": "25",
+   "x": 960.4,
+   "y": 46.6,
+   "anchor": "cc",
+   "size": 41.9,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.731,
+   "color": "#ffffff",
+   "tol": 18,
+   "skew": -4.5,
+   "rotate": 0.3,
+   "fit_iou": 0.4,
+   "text": "Winter",
+   "x": 1032.0,
+   "y": 46.9,
+   "anchor": "cc",
+   "size": 41.9,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.731,
+   "color": "#ffffff",
+   "tol": 18,
+   "skew": -4.5,
+   "rotate": 0.3,
+   "fit_iou": 0.4,
+   "text": "1st",
+   "x": 1101.9,
+   "y": 46.3,
+   "anchor": "cc",
+   "size": 41.1,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Playfair Display",
+   "weight": 700,
+   "scale_x": 0.703,
+   "color": "#ffffff",
+   "tol": 18,
+   "skew": -4.5,
+   "rotate": 0.3,
+   "fit_iou": 0.4,
+   "text": "Collection",
+   "x": 1196.9,
+   "y": 45.8,
+   "anchor": "cc",
+   "size": 41.9,
+   "line": 1.0,
+   "grp": "L1"
   },
   {
    "type": "text",
@@ -93,7 +150,8 @@
    "x": 6,
    "y": 596.0,
    "anchor": "lc",
-   "size": 193.3
+   "size": 193.3,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -117,7 +175,8 @@
    "x": 178.8,
    "y": 591.0,
    "anchor": "lc",
-   "size": 185.9
+   "size": 185.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -141,7 +200,8 @@
    "x": 335.5,
    "y": 591.0,
    "anchor": "lc",
-   "size": 200.8
+   "size": 200.8,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -165,7 +225,8 @@
    "x": 508.3,
    "y": 635.5,
    "anchor": "lc",
-   "size": 134.0
+   "size": 134.0,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -189,7 +250,8 @@
    "x": 607.0,
    "y": 638.5,
    "anchor": "lc",
-   "size": 126.4
+   "size": 126.4,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -213,7 +275,8 @@
    "x": 718.7,
    "y": 639.5,
    "anchor": "lc",
-   "size": 114.9
+   "size": 114.9,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -237,7 +300,8 @@
    "x": 821.4,
    "y": 635.5,
    "anchor": "lc",
-   "size": 134.0
+   "size": 134.0,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -261,7 +325,8 @@
    "x": 929.1,
    "y": 594.0,
    "anchor": "lc",
-   "size": 197.1
+   "size": 197.1,
+   "grp": "P5"
   },
   {
    "type": "text",
@@ -285,16 +350,13 @@
    "x": 1091.9,
    "y": 596.0,
    "anchor": "lc",
-   "size": 200.8
+   "size": 200.8,
+   "grp": "P5"
   },
   {
    "type": "text",
-   "text": "トレンド",
-   "x": 502.0,
-   "y": 465.5,
    "font": "ZenOldMincho",
    "weight": 900,
-   "size": 62.6,
    "rotate": 12,
    "color": "#d8d8d8",
    "shadow": "0 0 8px rgba(0,0,0,.6)",
@@ -307,16 +369,94 @@
     215,
     105
    ],
-   "skew": 2
+   "skew": 2,
+   "text": "ト",
+   "x": 521.8,
+   "y": 504.4,
+   "anchor": "cc",
+   "size": 66.4,
+   "line": 1.0,
+   "grp": "L11"
   },
   {
    "type": "text",
-   "text": "唯一無二",
-   "x": 721.0,
-   "y": 466.0,
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "rotate": 12,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.836,
+   "fit_iou": 0.486,
+   "box": [
+    495,
+    470,
+    215,
+    105
+   ],
+   "skew": 2,
+   "text": "レ",
+   "x": 573.3,
+   "y": 514.7,
+   "anchor": "cc",
+   "size": 66.4,
+   "line": 1.0,
+   "grp": "L11"
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "rotate": 12,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.836,
+   "fit_iou": 0.486,
+   "box": [
+    495,
+    470,
+    215,
+    105
+   ],
+   "skew": 2,
+   "text": "ン",
+   "x": 624.3,
+   "y": 526.2,
+   "anchor": "cc",
+   "size": 66.4,
+   "line": 1.0,
+   "grp": "L11"
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "rotate": 12,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.836,
+   "fit_iou": 0.486,
+   "box": [
+    495,
+    470,
+    215,
+    105
+   ],
+   "skew": 2,
+   "text": "ド",
+   "x": 675.4,
+   "y": 537.2,
+   "anchor": "cc",
+   "size": 66.4,
+   "line": 1.0,
+   "grp": "L11"
+  },
+  {
+   "type": "text",
    "font": "Noto Serif JP",
    "weight": 700,
-   "size": 69.4,
    "rotate": 11.0,
    "color": "#d8d8d8",
    "shadow": "0 0 8px rgba(0,0,0,.6)",
@@ -330,7 +470,88 @@
     105
    ],
    "skew": -0.6,
-   "spacing": 0.022
+   "text": "唯",
+   "x": 743.1,
+   "y": 509.0,
+   "anchor": "cc",
+   "size": 69.4,
+   "line": 1.0,
+   "grp": "L12"
+  },
+  {
+   "type": "text",
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "rotate": 11.0,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.854,
+   "fit_iou": 0.383,
+   "box": [
+    700,
+    470,
+    270,
+    105
+   ],
+   "skew": -0.6,
+   "text": "一",
+   "x": 802.5,
+   "y": 520.6,
+   "anchor": "cc",
+   "size": 69.4,
+   "line": 1.0,
+   "grp": "L12"
+  },
+  {
+   "type": "text",
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "rotate": 11.0,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.854,
+   "fit_iou": 0.383,
+   "box": [
+    700,
+    470,
+    270,
+    105
+   ],
+   "skew": -0.6,
+   "text": "無",
+   "x": 862.0,
+   "y": 532.1,
+   "anchor": "cc",
+   "size": 69.4,
+   "line": 1.0,
+   "grp": "L12"
+  },
+  {
+   "type": "text",
+   "font": "Noto Serif JP",
+   "weight": 700,
+   "rotate": 11.0,
+   "color": "#d8d8d8",
+   "shadow": "0 0 8px rgba(0,0,0,.6)",
+   "tol": 28,
+   "scale_x": 0.854,
+   "fit_iou": 0.383,
+   "box": [
+    700,
+    470,
+    270,
+    105
+   ],
+   "skew": -0.6,
+   "text": "二",
+   "x": 921.4,
+   "y": 543.7,
+   "anchor": "cc",
+   "size": 69.4,
+   "line": 1.0,
+   "grp": "L12"
   }
  ],
  "grow": 15

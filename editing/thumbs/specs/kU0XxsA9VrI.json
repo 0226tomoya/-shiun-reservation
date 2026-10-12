@@ -415,10 +415,10 @@
   },
   {
    "type": "text",
-   "x": 0.0,
-   "y": 495.0,
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "x": -1.0,
+   "y": 494.0,
+   "font": "NotoSansJP",
+   "weight": 800,
    "size": 195.1,
    "color": "#ffffff",
    "palt": true,
@@ -436,15 +436,15 @@
     166,
     698
    ],
-   "scale_x": 0.962
+   "scale_x": 0.981
   },
   {
    "type": "text",
-   "x": 165.5,
-   "y": 495.5,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 197.2,
+   "x": 163.5,
+   "y": 493.5,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 201.1,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -465,8 +465,8 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -484,10 +484,10 @@
    ],
    "scale_x": 1.048,
    "text": "ビ",
-   "x": 341.5,
+   "x": 339.5,
    "y": 602.5,
    "anchor": "lc",
-   "size": 180.6,
+   "size": 184.2,
    "line": 1.0
   },
   {
@@ -509,21 +509,21 @@
     676,
     694
    ],
-   "scale_x": 1.089,
+   "scale_x": 1.067,
    "text": "ー",
    "x": 507.1,
    "y": 611.5,
    "anchor": "lc",
-   "size": 165.9,
+   "size": 169.2,
    "line": 1.0
   },
   {
    "type": "text",
    "x": 694.0,
-   "y": 495.5,
-   "font": "Noto Sans JP",
-   "weight": 900,
-   "size": 192.8,
+   "y": 494.5,
+   "font": "NotoSansJP",
+   "weight": 800,
+   "size": 196.7,
    "color": "#ffffff",
    "palt": true,
    "shadow": "0 0 10px rgba(0,0,0,.4)",
@@ -540,14 +540,14 @@
     886,
     704
    ],
-   "scale_x": 1.024
+   "scale_x": 1.004
   },
   {
    "type": "text",
-   "x": 899.0,
-   "y": 496.0,
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "x": 897.0,
+   "y": 497.0,
+   "font": "NotoSansJP",
+   "weight": 800,
    "size": 195.5,
    "color": "#ffffff",
    "palt": true,
@@ -565,14 +565,14 @@
     1073,
     704
    ],
-   "scale_x": 1.049
+   "scale_x": 1.091
   },
   {
    "type": "text",
-   "x": 1089.0,
+   "x": 1086.0,
    "y": 498.5,
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "size": 191.7,
    "color": "#ffffff",
    "palt": true,
@@ -590,7 +590,7 @@
     1266,
     698
    ],
-   "scale_x": 0.99
+   "scale_x": 1.03
   }
  ]
 }

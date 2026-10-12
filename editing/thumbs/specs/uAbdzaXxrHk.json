@@ -199,7 +199,8 @@
    "skew": -1,
    "fit_iou": 0.186,
    "fixed": true,
-   "shadow": "0 0 4px rgba(0,0,0,.7)"
+   "shadow": "0 0 4px rgba(0,0,0,.7)",
+   "notune": true
   },
   {
    "type": "text",
@@ -439,7 +440,8 @@
    "y": 394.5,
    "anchor": "lc",
    "size": 31.6,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -463,7 +465,8 @@
    "y": 372.0,
    "anchor": "lc",
    "size": 104.9,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",

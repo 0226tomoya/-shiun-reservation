@@ -59,10 +59,10 @@
    "type": "text",
    "text": "10/18販売開始",
    "x": 0,
-   "y": -1,
+   "y": -2,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 92.2,
+   "size": 94.0,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -72,17 +72,12 @@
     ]
    ],
    "shadow": "0 0 8px rgba(0,0,0,.6)",
-   "scale_x": 1.02
+   "scale_x": 1.0
   },
   {
    "type": "text",
-   "text": "完売間近!?",
-   "x": 1243,
-   "y": 4,
-   "anchor": "ct",
    "font": "Klee One",
    "weight": 600,
-   "size": 68,
    "color": "#000000",
    "vertical": true,
    "strokes": [
@@ -90,32 +85,210 @@
      5,
      "#ffffff"
     ]
-   ]
+   ],
+   "text": "完",
+   "x": 1237.4,
+   "y": 41.0,
+   "anchor": "cc",
+   "size": 62.7,
+   "scale_x": 0.96,
+   "line": 1.0,
+   "grp": "L1"
   },
   {
    "type": "text",
-   "text": "UNIQLO and\nJW ANDERSON",
+   "font": "Klee One",
+   "weight": 600,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "売",
+   "x": 1237.9,
+   "y": 110.3,
+   "anchor": "cc",
+   "size": 62.7,
+   "scale_x": 0.96,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Klee One",
+   "weight": 600,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "間",
+   "x": 1238.4,
+   "y": 183.7,
+   "anchor": "cc",
+   "size": 62.7,
+   "scale_x": 1.04,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Klee One",
+   "weight": 600,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "近",
+   "x": 1237.9,
+   "y": 253.9,
+   "anchor": "cc",
+   "size": 62.7,
+   "scale_x": 0.96,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Klee One",
+   "weight": 600,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "!",
+   "x": 1247.4,
+   "y": 329.2,
+   "anchor": "cc",
+   "size": 67.9,
+   "scale_x": 1.0,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Klee One",
+   "weight": 600,
+   "color": "#000000",
+   "vertical": true,
+   "strokes": [
+    [
+     5,
+     "#ffffff"
+    ]
+   ],
+   "text": "?",
+   "x": 1236.4,
+   "y": 393.5,
+   "anchor": "cc",
+   "size": 67.9,
+   "scale_x": 1.04,
+   "line": 1.0,
+   "grp": "L1"
+  },
+  {
+   "type": "text",
+   "font": "Oswald",
+   "weight": 500,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.823,
+   "text": "UNIQLO",
+   "x": 6.8,
+   "y": 366.1,
+   "anchor": "lc",
+   "size": 53.0,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "Oswald",
+   "weight": 500,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.823,
+   "text": "and",
+   "x": 140.0,
+   "y": 365.9,
+   "anchor": "lc",
+   "size": 56.3,
+   "grp": "L2"
+  },
+  {
+   "type": "text",
+   "font": "Oswald",
+   "weight": 500,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.823,
+   "text": "JW",
+   "x": 7.5,
+   "y": 419.8,
+   "anchor": "lc",
+   "size": 53.0,
+   "grp": "L2_1"
+  },
+  {
+   "type": "text",
+   "font": "Oswald",
+   "weight": 500,
+   "line": 1.0,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.823,
+   "text": "ANDERSON",
+   "x": 60.5,
+   "y": 418.8,
+   "anchor": "lc",
+   "size": 53.0,
+   "grp": "L2_1"
+  },
+  {
+   "type": "text",
+   "font": "Oswald",
+   "weight": 500,
+   "color": "#ffffff",
+   "shadow": "0 0 6px rgba(0,0,0,.5)",
+   "scale_x": 0.799,
+   "text": "2024AW",
    "x": 7,
-   "y": 342,
-   "font": "Oswald",
-   "weight": 500,
-   "size": 55.2,
-   "line": 0.92,
-   "color": "#ffffff",
-   "shadow": "0 0 6px rgba(0,0,0,.5)",
-   "scale_x": 0.791
+   "y": 464.0,
+   "anchor": "lc",
+   "size": 26.3,
+   "line": 1.0,
+   "grp": "L3"
   },
   {
    "type": "text",
-   "text": "2024AW COLLECTION",
-   "x": 8,
-   "y": 449,
    "font": "Oswald",
    "weight": 500,
-   "size": 26.8,
    "color": "#ffffff",
    "shadow": "0 0 6px rgba(0,0,0,.5)",
-   "scale_x": 0.768
+   "scale_x": 0.799,
+   "text": "COLLECTION",
+   "x": 77.4,
+   "y": 464.0,
+   "anchor": "lc",
+   "size": 25.7,
+   "line": 1.0,
+   "grp": "L3"
   },
   {
    "type": "text",
@@ -136,7 +309,8 @@
    "anchor": "lc",
    "size": 213.2,
    "scale_x": 0.98,
-   "line": 1.0
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -152,12 +326,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "作",
-   "x": 220.0,
-   "y": 592.5,
+   "x": 216.0,
+   "y": 591.5,
    "anchor": "lc",
-   "size": 209.1,
-   "scale_x": 0.921,
-   "line": 1.0
+   "size": 213.3,
+   "scale_x": 0.958,
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -173,12 +348,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "コ",
-   "x": 425.9,
+   "x": 421.9,
    "y": 595.5,
    "anchor": "lc",
    "size": 166.0,
-   "scale_x": 1.102,
-   "line": 1.0
+   "scale_x": 1.124,
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -194,12 +370,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "レ",
-   "x": 595.8,
-   "y": 595.5,
+   "x": 592.8,
+   "y": 588.5,
    "anchor": "lc",
-   "size": 181.1,
-   "scale_x": 0.941,
-   "line": 1.0
+   "size": 188.3,
+   "scale_x": 0.979,
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -215,12 +392,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "買",
-   "x": 779.4,
+   "x": 783.4,
    "y": 592.5,
    "anchor": "lc",
    "size": 213.2,
-   "scale_x": 1.0,
-   "line": 1.0
+   "scale_x": 0.96,
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -236,12 +414,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "え",
-   "x": 989.3,
+   "x": 988.3,
    "y": 589.5,
    "anchor": "lc",
    "size": 217.3,
-   "scale_x": 0.92,
-   "line": 1.0
+   "scale_x": 0.938,
+   "line": 1.0,
+   "grp": "P13"
   },
   {
    "type": "text",
@@ -257,12 +436,13 @@
    ],
    "shadow": "0 0 10px rgba(0,0,0,.8)",
    "text": "‼",
-   "x": 1163.6,
-   "y": 607.5,
+   "x": 1162.6,
+   "y": 604.5,
    "anchor": "lc",
-   "size": 173.2,
-   "scale_x": 0.96,
-   "line": 1.0
+   "size": 180.1,
+   "scale_x": 0.941,
+   "line": 1.0,
+   "grp": "P13"
   }
  ]
 }

@@ -108,8 +108,8 @@
    "color": "#ffffff",
    "text": "身",
    "x": 205.0,
-   "y": 175.1,
-   "size": 207.4,
+   "y": 172.1,
+   "size": 211.5,
    "m": [
     206,
     199,
@@ -118,7 +118,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.856
+   "scale_x": 0.839
   },
   {
    "type": "text",
@@ -240,9 +240,9 @@
    "weight": 900,
    "color": "#ffffff",
    "text": "ン",
-   "x": 499.5,
+   "x": 495.5,
    "y": 386.5,
-   "size": 127.9,
+   "size": 125.3,
    "m": [
     505,
     412,
@@ -251,7 +251,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.696,
+   "scale_x": 0.812,
    "tgt": [
     508,
     415,
@@ -261,12 +261,8 @@
   },
   {
    "type": "text",
-   "text": "知らないと損する",
-   "x": 768.0,
-   "y": 206.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 84.2,
    "color": "#ffffff",
    "palt": true,
    "m": [
@@ -277,7 +273,175 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.76
+   "scale_x": 0.758,
+   "text": "知",
+   "x": 766,
+   "y": 247.5,
+   "anchor": "lc",
+   "size": 91.1,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.73,
+   "text": "ら",
+   "x": 836.0,
+   "y": 252.5,
+   "anchor": "lc",
+   "size": 84.2,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.715,
+   "text": "な",
+   "x": 890.2,
+   "y": 252.5,
+   "anchor": "lc",
+   "size": 84.2,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.715,
+   "text": "い",
+   "x": 946.8,
+   "y": 252.5,
+   "anchor": "lc",
+   "size": 84.2,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.715,
+   "text": "と",
+   "x": 1009.0,
+   "y": 253.5,
+   "anchor": "lc",
+   "size": 82.5,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.774,
+   "text": "損",
+   "x": 1063.3,
+   "y": 247.5,
+   "anchor": "lc",
+   "size": 91.1,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.73,
+   "text": "す",
+   "x": 1133.3,
+   "y": 253.5,
+   "anchor": "lc",
+   "size": 82.5,
+   "line": 1.0,
+   "grp": "L15"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    760,
+    220,
+    500,
+    82,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.715,
+   "text": "る",
+   "x": 1189.8,
+   "y": 252.5,
+   "anchor": "lc",
+   "size": 84.2,
+   "line": 1.0,
+   "grp": "L15"
   },
   {
    "type": "text",
@@ -285,7 +449,7 @@
    "weight": 900,
    "color": "#ffffff",
    "text": "5",
-   "x": 715.0,
+   "x": 717.0,
    "y": 250.9,
    "size": 263.3,
    "m": [
@@ -296,7 +460,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.779
+   "scale_x": 0.763
   },
   {
    "type": "text",

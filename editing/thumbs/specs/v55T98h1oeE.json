@@ -63,7 +63,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 0.923,
+   "scale_x": 0.96,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -74,8 +74,8 @@
    ],
    "rotate": 0.15,
    "text": "¥",
-   "x": 141.7,
-   "y": 432.5,
+   "x": 139.7,
+   "y": 431.5,
    "anchor": "lc",
    "size": 101.7,
    "line": 1.0
@@ -87,7 +87,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.446,
+   "scale_x": 1.224,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -98,8 +98,8 @@
    ],
    "rotate": 0.15,
    "text": "1",
-   "x": 203.6,
-   "y": 430.5,
+   "x": 195.6,
+   "y": 429.5,
    "anchor": "lc",
    "size": 106.2,
    "line": 1.0
@@ -111,7 +111,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.134,
+   "scale_x": 1.226,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -122,10 +122,10 @@
    ],
    "rotate": 0.15,
    "text": "5",
-   "x": 254.6,
+   "x": 251.6,
    "y": 431.5,
    "anchor": "lc",
-   "size": 106.8,
+   "size": 102.6,
    "line": 1.0
   },
   {
@@ -135,7 +135,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 0.593,
+   "scale_x": 0.604,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -146,8 +146,8 @@
    ],
    "rotate": 0.15,
    "text": ",",
-   "x": 314.0,
-   "y": 443.0,
+   "x": 313.0,
+   "y": 442.0,
    "anchor": "lc",
    "size": 82.3,
    "line": 1.0
@@ -159,7 +159,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 0.855,
+   "scale_x": 0.978,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -170,10 +170,10 @@
    ],
    "rotate": 0.15,
    "text": "0",
-   "x": 332.1,
-   "y": 432.5,
+   "x": 331.1,
+   "y": 430.5,
    "anchor": "lc",
-   "size": 98.4,
+   "size": 102.2,
    "line": 1.0
   },
   {
@@ -183,7 +183,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.073,
+   "scale_x": 0.967,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -195,9 +195,9 @@
    "rotate": 0.15,
    "text": "0",
    "x": 391.1,
-   "y": 432.5,
+   "y": 431.5,
    "anchor": "lc",
-   "size": 92.6,
+   "size": 102.0,
    "line": 1.0
   },
   {
@@ -207,7 +207,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.073,
+   "scale_x": 0.967,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -219,9 +219,9 @@
    "rotate": 0.15,
    "text": "0",
    "x": 449.5,
-   "y": 432.5,
+   "y": 431.5,
    "anchor": "lc",
-   "size": 92.6,
+   "size": 102.0,
    "line": 1.0
   },
   {
@@ -231,7 +231,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.051,
+   "scale_x": 0.948,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -243,19 +243,19 @@
    "rotate": 0.15,
    "text": "以",
    "x": 511.0,
-   "y": 439.5,
+   "y": 436.5,
    "anchor": "lc",
-   "size": 89.3,
+   "size": 98.2,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.073,
+   "scale_x": 1.094,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -266,10 +266,10 @@
    ],
    "rotate": 0.15,
    "text": "下",
-   "x": 607.0,
-   "y": 429.5,
+   "x": 601.0,
+   "y": 432.5,
    "anchor": "lc",
-   "size": 80.8,
+   "size": 90.7,
    "line": 1.0
   },
   {
@@ -290,20 +290,20 @@
    ],
    "rotate": 0.15,
    "text": "で",
-   "x": 695.1,
+   "x": 694.1,
    "y": 446.0,
    "anchor": "lc",
-   "size": 71.0,
+   "size": 72.4,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.051,
+   "scale_x": 0.989,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -314,20 +314,20 @@
    ],
    "rotate": 0.15,
    "text": "完",
-   "x": 772.9,
+   "x": 773.9,
    "y": 435.5,
    "anchor": "lc",
-   "size": 90.9,
+   "size": 94.6,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.073,
+   "scale_x": 1.094,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -338,7 +338,7 @@
    ],
    "rotate": 0.15,
    "text": "成",
-   "x": 869.0,
+   "x": 868.0,
    "y": 435.5,
    "anchor": "lc",
    "size": 89.3,
@@ -351,7 +351,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.051,
+   "scale_x": 0.948,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -362,10 +362,10 @@
    ],
    "rotate": 0.15,
    "text": "す",
-   "x": 962.0,
+   "x": 965.0,
    "y": 436.5,
    "anchor": "lc",
-   "size": 92.6,
+   "size": 94.5,
    "line": 1.0
   },
   {
@@ -375,7 +375,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.073,
+   "scale_x": 1.03,
    "skew": -0.7,
    "fit_iou": 0.585,
    "box": [
@@ -386,10 +386,10 @@
    ],
    "rotate": 0.15,
    "text": "る",
-   "x": 1054.0,
+   "x": 1056.0,
    "y": 436.5,
    "anchor": "lc",
-   "size": 92.6,
+   "size": 94.5,
    "line": 1.0
   },
   {
@@ -399,13 +399,13 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.027,
+   "scale_x": 1.006,
    "fit_iou": 0.852,
    "text": "全",
-   "x": 12.5,
-   "y": 588.0,
+   "x": 11.5,
+   "y": 587.0,
    "anchor": "lc",
-   "size": 197.1,
+   "size": 205.0,
    "line": 1.0
   },
   {
@@ -455,7 +455,7 @@
    "color": "#fdf5ee",
    "shadow": "0 0 14px rgba(0,0,0,.6)",
    "tol": 12,
-   "scale_x": 1.099,
+   "scale_x": 1.143,
    "skew": -4.6,
    "rotate": 0,
    "fit_iou": 0.662,
@@ -467,9 +467,9 @@
    ],
    "text": "ー",
    "x": 860.0,
-   "y": 592.0,
+   "y": 593.0,
    "anchor": "lc",
-   "size": 174.6,
+   "size": 167.6,
    "line": 1.0
   },
   {

@@ -42,7 +42,7 @@
   {
    "type": "text",
    "text": "B",
-   "x": 132.5,
+   "x": 133.5,
    "y": 311.0,
    "anchor": "cc",
    "font": "Playfair Display",
@@ -56,7 +56,8 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.26
+   "scale_x": 1.285,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -75,7 +76,8 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.34
+   "scale_x": 1.34,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -94,7 +96,8 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.545
+   "scale_x": 1.545,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -113,12 +116,13 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.249
+   "scale_x": 1.249,
+   "grp": "P0"
   },
   {
    "type": "text",
    "text": "B",
-   "x": 664.5,
+   "x": 665.5,
    "y": 311.0,
    "anchor": "cc",
    "font": "Playfair Display",
@@ -132,7 +136,8 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.26
+   "scale_x": 1.285,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -151,7 +156,8 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.356
+   "scale_x": 1.356,
+   "grp": "P0"
   },
   {
    "type": "text",
@@ -170,17 +176,18 @@
    ],
    "color": "#ffffff",
    "shadow": "0 0 10px rgba(0,0,0,.35)",
-   "scale_x": 1.283
+   "scale_x": 1.309,
+   "grp": "P0"
   },
   {
    "type": "text",
    "text": "2024SS",
-   "x": 296.5,
+   "x": 295.5,
    "y": 456.0,
    "anchor": "cc",
    "font": "Cinzel",
    "weight": 700,
-   "size": 42.7,
+   "size": 43.6,
    "tb": [
     190,
     406,
@@ -189,17 +196,17 @@
    ],
    "color": "#f2c51a",
    "spacing": 0.12,
-   "scale_x": 1.178
+   "scale_x": 1.131
   },
   {
    "type": "text",
    "text": "MEN’S",
    "x": 512.0,
-   "y": 453.0,
+   "y": 454.0,
    "anchor": "cc",
    "font": "Cinzel",
    "weight": 400,
-   "size": 33.5,
+   "size": 34.2,
    "tb": [
     430,
     605,
@@ -208,7 +215,7 @@
    ],
    "color": "#ffffff",
    "spacing": 0.12,
-   "scale_x": 1.418
+   "scale_x": 1.39
   },
   {
    "type": "text",
@@ -218,7 +225,7 @@
    "anchor": "cc",
    "font": "Cinzel",
    "weight": 400,
-   "size": 40.3,
+   "size": 41.1,
    "tb": [
     630,
     889,
@@ -227,7 +234,7 @@
    ],
    "color": "#ffffff",
    "spacing": 0.15,
-   "scale_x": 1.123
+   "scale_x": 1.101
   }
  ],
  "grow": 11
