@@ -332,7 +332,7 @@ def erase_mask(spec, orig, alpha=None):
         for c in cols:
             cl = cv2.cvtColor(np.uint8([[c]]), cv2.COLOR_BGR2LAB).astype(np.float32)[0, 0]
             m |= np.linalg.norm(sub - cl, axis=2) < tol
-        g = int(spec.get('grow', 11))
+        g = int(e.get('grow', spec.get('grow', 11)) if isinstance(e, dict) else spec.get('grow', 11))
         mm = cv2.dilate(m.astype(np.uint8) * 255, np.ones((g, g), np.uint8))
         if isinstance(e, dict) and '_poly' in e:
             inside = e['_poly'][y:y + h, x:x + w] > 0
