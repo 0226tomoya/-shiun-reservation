@@ -77,9 +77,9 @@
     1264,
     150
    ],
-   "scale_x": 1.052,
+   "scale_x": 1.072,
    "text": "¥",
-   "x": 707.2,
+   "x": 706.2,
    "y": 72.8,
    "anchor": "lc",
    "size": 150.4,
@@ -199,15 +199,15 @@
    "palt": false,
    "anchor": "cc",
    "x": 510.0,
-   "y": 308.5,
-   "size": 446.5,
+   "y": 311.5,
+   "size": 455.4,
    "_t": [
     403,
     141,
     627,
     490
    ],
-   "scale_x": 1.182
+   "scale_x": 1.158
   },
   {
    "type": "text",
@@ -232,14 +232,14 @@
   {
    "type": "text",
    "text": "の",
-   "font": "ZenKakuGothicNew",
-   "weight": 900,
+   "font": "NotoSansJP",
+   "weight": 800,
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 290.5,
-   "y": 627.5,
-   "size": 145.3,
+   "x": 289.5,
+   "y": 626.5,
+   "size": 139.5,
    "shadow": "0 0 12px rgba(0,0,0,.6)",
    "_t": [
     228,
@@ -247,7 +247,7 @@
     352,
     702
    ],
-   "scale_x": 1.001
+   "scale_x": 1.041
   },
   {
    "type": "text",
@@ -257,9 +257,9 @@
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 457.0,
-   "y": 595.0,
-   "size": 161.5,
+   "x": 456.0,
+   "y": 596.0,
+   "size": 177.6,
    "shadow": "0 0 12px rgba(0,0,0,.6)",
    "_t": [
     350,
@@ -267,7 +267,7 @@
     580,
     692
    ],
-   "scale_x": 1.169
+   "scale_x": 1.192
   },
   {
    "type": "text",
@@ -277,9 +277,9 @@
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 641.5,
-   "y": 579.5,
-   "size": 211.5,
+   "x": 639.5,
+   "y": 581.5,
+   "size": 215.7,
    "shadow": "0 0 12px rgba(0,0,0,.6)",
    "_t": [
     543,
@@ -287,7 +287,7 @@
     742,
     702
    ],
-   "scale_x": 1.07
+   "scale_x": 1.049
   },
   {
    "type": "text",
@@ -297,9 +297,9 @@
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 804.0,
+   "x": 805.0,
    "y": 576.0,
-   "size": 217.2,
+   "size": 243.7,
    "shadow": "0 0 12px rgba(0,0,0,.6)",
    "_t": [
     750,
@@ -307,7 +307,7 @@
     865,
     720
    ],
-   "scale_x": 0.768
+   "scale_x": 0.895
   },
   {
    "type": "text",
@@ -317,9 +317,9 @@
    "color": "#ffffff",
    "palt": true,
    "anchor": "cc",
-   "x": 988.5,
-   "y": 585.0,
-   "size": 210.9,
+   "x": 986.5,
+   "y": 591.0,
+   "size": 232.0,
    "shadow": "0 0 12px rgba(0,0,0,.6)",
    "_t": [
     860,
@@ -327,7 +327,7 @@
     1082,
     692
    ],
-   "scale_x": 1.122
+   "scale_x": 1.077
   },
   {
    "type": "text",
@@ -349,5 +349,6 @@
    ],
    "scale_x": 0.946
   }
- ]
+ ],
+ "grow": 5
 }

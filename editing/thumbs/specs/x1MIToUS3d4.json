@@ -286,7 +286,8 @@
    "y": 60.0,
    "anchor": "lc",
    "size": 88.3,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -314,7 +315,8 @@
    "y": 62.0,
    "anchor": "lc",
    "size": 109.8,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -342,7 +344,8 @@
    "y": 66.0,
    "anchor": "lc",
    "size": 105.8,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -370,7 +373,8 @@
    "y": 84.0,
    "anchor": "lc",
    "size": 95.4,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -398,7 +402,8 @@
    "y": 73.0,
    "anchor": "lc",
    "size": 116.2,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -426,7 +431,8 @@
    "y": 60.0,
    "anchor": "lc",
    "size": 95.4,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -454,7 +460,8 @@
    "y": 60.0,
    "anchor": "lc",
    "size": 93.7,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -482,7 +489,8 @@
    "y": 64.0,
    "anchor": "lc",
    "size": 79.2,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
@@ -510,19 +518,20 @@
    "y": 61.0,
    "anchor": "lc",
    "size": 81.0,
-   "line": 1.0
+   "line": 1.0,
+   "notune": true
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "カ",
-   "x": 7.5,
-   "y": 236.1,
-   "size": 192.4,
+   "x": -6.5,
+   "y": 217.1,
+   "size": 220.1,
    "m": [
     36,
     263,
@@ -531,7 +540,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.946,
+   "scale_x": 0.908,
    "skew": 0.0
   },
   {
@@ -542,9 +551,9 @@
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "ッ",
-   "x": 160.0,
-   "y": 259.5,
-   "size": 151.5,
+   "x": 159.0,
+   "y": 258.5,
+   "size": 154.4,
    "m": [
     197,
     312,
@@ -553,20 +562,20 @@
     "#ffffff",
     8
    ],
-   "scale_x": 1.021,
+   "scale_x": 1.001,
    "skew": 0.0
   },
   {
    "type": "text",
-   "font": "MPLUS1p",
+   "font": "NotoSansJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "ケ",
-   "x": 324.5,
-   "y": 223.2,
-   "size": 192.7,
+   "x": 308.5,
+   "y": 205.2,
+   "size": 203.5,
    "m": [
     326,
     239,
@@ -575,7 +584,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.791,
+   "scale_x": 0.922,
    "skew": -8.0
   },
   {
@@ -586,9 +595,9 @@
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "ぇ",
-   "x": 460.0,
-   "y": 230.2,
-   "size": 171.9,
+   "x": 450.0,
+   "y": 229.2,
+   "size": 175.3,
    "m": [
     464,
     262,
@@ -597,7 +606,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.704,
+   "scale_x": 0.821,
    "skew": -8.0
   },
   {
@@ -652,9 +661,9 @@
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "タ",
-   "x": 905.0,
+   "x": 903.0,
    "y": 159.5,
-   "size": 185.7,
+   "size": 185.6,
    "m": [
     938,
     199,
@@ -663,7 +672,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.994,
+   "scale_x": 1.014,
    "skew": 0.0
   },
   {
@@ -690,15 +699,15 @@
   },
   {
    "type": "text",
-   "font": "MPLUS1p",
+   "font": "NotoSansJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "見",
-   "x": 37.5,
-   "y": 405.1,
-   "size": 304.5,
+   "x": 21.5,
+   "y": 398.1,
+   "size": 310.6,
    "m": [
     42,
     414,
@@ -707,20 +716,20 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.878,
+   "scale_x": 0.967,
    "skew": -8.0
   },
   {
    "type": "text",
-   "font": "MPLUS1p",
+   "font": "NotoSansJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.35)",
    "rotate": -4,
    "text": "つ",
-   "x": 308.5,
-   "y": 464.3,
-   "size": 223.9,
+   "x": 270.5,
+   "y": 441.3,
+   "size": 246.3,
    "m": [
     327,
     504,
@@ -729,7 +738,7 @@
     "#ffffff",
     8
    ],
-   "scale_x": 0.855,
+   "scale_x": 0.96,
    "skew": -8.0
   },
   {
