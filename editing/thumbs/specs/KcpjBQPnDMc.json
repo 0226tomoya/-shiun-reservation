@@ -47,7 +47,8 @@
    "colors": [
     "#fcfcfb"
    ],
-   "tol": 16
+   "tol": 16,
+   "grow": 5
   },
   {
    "rect": [
@@ -199,7 +200,6 @@
    "weight": 700,
    "size": 59.1,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -226,7 +226,6 @@
    "weight": 700,
    "size": 76.3,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -253,7 +252,6 @@
    "weight": 700,
    "size": 58.5,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -280,7 +278,6 @@
    "weight": 800,
    "size": 66.1,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -307,7 +304,6 @@
    "weight": 700,
    "size": 60.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -334,7 +330,6 @@
    "weight": 700,
    "size": 70.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -361,7 +356,6 @@
    "weight": 800,
    "size": 61.7,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -388,7 +382,6 @@
    "weight": 800,
    "size": 62.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -415,7 +408,6 @@
    "weight": 700,
    "size": 41.8,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -442,7 +434,6 @@
    "weight": 900,
    "size": 56.4,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -469,7 +460,6 @@
    "weight": 800,
    "size": 66.7,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -496,7 +486,6 @@
    "weight": 700,
    "size": 72.5,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -523,7 +512,6 @@
    "weight": 700,
    "size": 62.1,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -550,7 +538,6 @@
    "weight": 700,
    "size": 69.0,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -577,7 +564,6 @@
    "weight": 700,
    "size": 53.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -604,7 +590,6 @@
    "weight": 700,
    "size": 66.0,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -631,7 +616,6 @@
    "weight": 700,
    "size": 78.3,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -658,7 +642,6 @@
    "weight": 700,
    "size": 86.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -685,7 +668,6 @@
    "weight": 700,
    "size": 78.2,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 6px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -711,7 +693,6 @@
    "weight": 800,
    "size": 157.6,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -739,7 +720,6 @@
    "weight": 800,
    "size": 144.9,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",
@@ -767,7 +747,6 @@
    "weight": 800,
    "size": 150.8,
    "color": "#fcfcfb",
-   "shadow": "2px 2px 8px rgba(0,0,0,.5)",
    "tol": 16,
    "lock": [
     "rotate",

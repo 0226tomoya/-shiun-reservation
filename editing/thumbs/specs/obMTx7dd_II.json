@@ -14,7 +14,8 @@
     "#000000",
     "#c8c8c8"
    ],
-   "tol": 40
+   "tol": 40,
+   "grow": 5
   },
   {
    "rect": [
@@ -90,7 +91,6 @@
    ],
    "scale_x": 1.248,
    "fill": "linear-gradient(180deg,#ffffff 0%,#ffffff 50%,#c8c8c8 100%)",
-   "shadow": "-3px 4px 0 #3a3a3a",
    "text": "ク",
    "x": 155.0,
    "y": 42.0,
