@@ -1,1 +1,261 @@
-{"id": "PNz_6MF4pCs", "grow": 9, "erase": [{"rect": [1042, 6, 234, 234], "full": true}, {"rect": [0, 0, 1040, 140], "colors": ["#ffffff"], "tol": 28}, {"rect": [12, 390, 265, 95], "colors": ["#ffffff"], "tol": 30}, {"rect": [0, 478, 1280, 240], "colors": ["#ffffff"], "tol": 28}], "layers": [{"type": "image", "src": "assets/logos/muji_red_square_pnz6.png", "x": 1045, "y": 9, "w": 228, "h": 228}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "color": "#ffffff", "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "無印良品週間購入品", "x": 521, "y": 66, "size": 136, "spacing": -0.13}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "color": "#ffffff", "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "SALE", "x": 143, "y": 445, "size": 62, "spacing": -0.03, "scale_x": 0.9}, {"type": "line", "x1": 22, "y1": 400, "x2": 64, "y2": 477, "width": 3, "color": "#ffffff"}, {"type": "line", "x1": 226, "y1": 477, "x2": 267, "y2": 400, "width": 3, "color": "#ffffff"}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "color": "#ffffff", "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "全品", "x": 226, "y": 594, "size": 245, "spacing": -0.08}, {"type": "text", "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "color": "#ffffff", "shadow": "0 0 10px rgba(0,0,0,.35)", "text": "10%OFF", "x": 864, "y": 596, "size": 270, "scale_x": 0.76, "spacing": -0.02}]}
+{
+ "id": "PNz_6MF4pCs",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    1042,
+    6,
+    234,
+    234
+   ],
+   "full": true
+  },
+  {
+   "rect": [
+    0,
+    0,
+    1040,
+    140
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    12,
+    390,
+    265,
+    95
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 30
+  },
+  {
+   "rect": [
+    0,
+    478,
+    1280,
+    240
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  }
+ ],
+ "layers": [
+  {
+   "type": "image",
+   "src": "assets/logos/muji_red_square_pnz6.png",
+   "x": 1045,
+   "y": 9,
+   "w": 228,
+   "h": 228
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "無",
+   "x": 4.5,
+   "y": 58.7,
+   "anchor": "lc",
+   "size": 125.1,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "印",
+   "x": 123.9,
+   "y": 55.7,
+   "anchor": "lc",
+   "size": 124.8,
+   "scale_x": 0.96,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "良",
+   "x": 236.2,
+   "y": 58.7,
+   "anchor": "lc",
+   "size": 120.0,
+   "scale_x": 1.04,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "品",
+   "x": 353.5,
+   "y": 57.7,
+   "anchor": "lc",
+   "size": 117.5,
+   "scale_x": 0.978,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "週",
+   "x": 464.8,
+   "y": 58.7,
+   "anchor": "lc",
+   "size": 122.4,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "間",
+   "x": 574.2,
+   "y": 57.7,
+   "anchor": "lc",
+   "size": 122.4,
+   "scale_x": 1.02,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "購",
+   "x": 686.5,
+   "y": 58.7,
+   "anchor": "lc",
+   "size": 122.4,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "入",
+   "x": 805.8,
+   "y": 57.7,
+   "anchor": "lc",
+   "size": 122.4,
+   "scale_x": 0.979,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "品",
+   "x": 922.1,
+   "y": 57.7,
+   "anchor": "lc",
+   "size": 117.5,
+   "scale_x": 0.978,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "SALE",
+   "x": 143,
+   "y": 433,
+   "size": 67.1,
+   "spacing": -0.03,
+   "scale_x": 0.845
+  },
+  {
+   "type": "line",
+   "x1": 22,
+   "y1": 400,
+   "x2": 64,
+   "y2": 477,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "line",
+   "x1": 226,
+   "y1": 477,
+   "x2": 267,
+   "y2": 400,
+   "width": 3,
+   "color": "#ffffff"
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "全",
+   "x": 4.6,
+   "y": 588.8,
+   "anchor": "lc",
+   "size": 225.7,
+   "scale_x": 1.04,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "品",
+   "x": 232,
+   "y": 585.8,
+   "anchor": "lc",
+   "size": 235.2,
+   "scale_x": 0.941,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 10px rgba(0,0,0,.35)",
+   "text": "10%OFF",
+   "x": 860,
+   "y": 583,
+   "size": 253.8,
+   "scale_x": 0.79,
+   "spacing": -0.02
+  }
+ ]
+}

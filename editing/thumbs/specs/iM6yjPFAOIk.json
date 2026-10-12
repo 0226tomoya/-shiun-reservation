@@ -93,11 +93,11 @@
   {
    "type": "text",
    "text": "低身長のカリスマが解説",
-   "x": 943.0,
-   "y": 23.5,
+   "x": 944.0,
+   "y": 29.5,
    "font": "Yusei Magic",
    "weight": 400,
-   "size": 44.0,
+   "size": 40.5,
    "line": 1.0,
    "box": [
     925,
@@ -109,7 +109,7 @@
    "color": "#ffffff",
    "shadow": "0 0 6px rgba(0,0,0,.6)",
    "tol": 25,
-   "scale_x": 0.698,
+   "scale_x": 0.754,
    "rotate": -3.0,
    "skew": 3.3,
    "fit_iou": 0.152
@@ -128,13 +128,13 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.904,
+   "scale_x": 0.867,
    "rotate": 0.5,
    "skew": -2.2,
    "fit_iou": 0.707,
    "text": "低",
-   "x": 18.5,
-   "y": 401.5,
+   "x": 21.5,
+   "y": 400.5,
    "anchor": "lc",
    "size": 102.7
   },
@@ -152,7 +152,7 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.94,
+   "scale_x": 0.958,
    "rotate": 0.5,
    "skew": -2.2,
    "fit_iou": 0.707,
@@ -164,7 +164,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "line": 1.0,
    "box": [
@@ -184,7 +184,7 @@
    "x": 211.7,
    "y": 402.5,
    "anchor": "lc",
-   "size": 102.6
+   "size": 104.7
   },
   {
    "type": "text",
@@ -200,7 +200,7 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.943,
+   "scale_x": 0.942,
    "rotate": 0,
    "fit_iou": 0.642,
    "skew": -5.6,
@@ -208,11 +208,11 @@
    "x": 312.3,
    "y": 420.0,
    "anchor": "lc",
-   "size": 72.1
+   "size": 70.7
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "MPLUS1p",
    "weight": 900,
    "line": 1.0,
    "box": [
@@ -224,15 +224,15 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.834,
+   "scale_x": 0.817,
    "rotate": 0,
    "fit_iou": 0.642,
    "skew": -5.6,
    "text": "も",
-   "x": 387.6,
-   "y": 417.0,
+   "x": 386.6,
+   "y": 424.0,
    "anchor": "lc",
-   "size": 78.0
+   "size": 74.9
   },
   {
    "type": "text",
@@ -248,12 +248,12 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 1.008,
+   "scale_x": 1.028,
    "rotate": 0.65,
    "fit_iou": 0.659,
    "skew": -0.6,
    "text": "劇",
-   "x": 455.2,
+   "x": 454.2,
    "y": 400.0,
    "anchor": "lc",
    "size": 99.5
@@ -285,11 +285,11 @@
   {
    "type": "text",
    "text": "に",
-   "x": 646.5,
-   "y": 384.5,
+   "x": 645.5,
+   "y": 382.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 68.5,
+   "size": 71.3,
    "line": 1.0,
    "box": [
     649,
@@ -300,7 +300,7 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.917,
+   "scale_x": 0.933,
    "skew": 0,
    "rotate": 0,
    "fit_iou": 0.566,
@@ -308,7 +308,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "line": 1.0,
    "box": [
@@ -320,13 +320,13 @@
    "color": "#ffffff",
    "shadow": "0 0 12px rgba(0,0,0,.7)",
    "tol": 12,
-   "scale_x": 0.93,
+   "scale_x": 0.949,
    "rotate": 0.15,
    "skew": -0.6,
    "fit_iou": 0.665,
    "text": "変",
-   "x": 715.2,
-   "y": 401.0,
+   "x": 716.2,
+   "y": 403.0,
    "anchor": "lc",
    "size": 105.1
   },
@@ -380,7 +380,7 @@
   },
   {
    "type": "text",
-   "font": "Noto Sans JP",
+   "font": "ZenKakuGothicNew",
    "weight": 900,
    "line": 1.0,
    "box": [
@@ -393,7 +393,7 @@
    "shadow": "4px 4px 10px rgba(0,0,0,.6)",
    "tol": 45,
    "skew": -6,
-   "scale_x": 0.971,
+   "scale_x": 0.952,
    "rotate": 0.35,
    "fit_iou": 0.84,
    "strokes": [
@@ -403,10 +403,10 @@
     ]
    ],
    "text": "最",
-   "x": 39.8,
-   "y": 578.0,
+   "x": 38.8,
+   "y": 582.0,
    "anchor": "lc",
-   "size": 257.2
+   "size": 262.3
   },
   {
    "type": "text",
@@ -442,10 +442,10 @@
    "type": "text",
    "text": "の",
    "x": 552.5,
-   "y": 514.5,
+   "y": 515.5,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 199.5,
+   "size": 195.5,
    "line": 1.0,
    "box": [
     540,
@@ -457,7 +457,7 @@
    "shadow": "4px 4px 10px rgba(0,0,0,.6)",
    "tol": 45,
    "skew": -6,
-   "scale_x": 0.998,
+   "scale_x": 1.018,
    "rotate": 0.8,
    "fit_iou": 0.828,
    "strokes": [

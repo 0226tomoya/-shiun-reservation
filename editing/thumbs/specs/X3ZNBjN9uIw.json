@@ -12,7 +12,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 20
   },
   {
    "rect": [
@@ -24,48 +24,112 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 30
+   "tol": 20
   }
  ],
  "layers": [
   {
    "type": "text",
    "text": "167cm以下限定",
-   "x": 643,
-   "y": 190,
+   "x": 638,
+   "y": 184,
    "anchor": "ct",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 89,
+   "size": 95.2,
    "color": "#ffffff",
-   "shadow": "0 0 8px rgba(0,0,0,.35)"
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.91
   },
   {
    "type": "text",
-   "x": 2,
-   "y": 275,
-   "font": "Shippori Mincho B1",
-   "weight": 800,
-   "size": 225,
+   "font": "NotoSerifJP",
+   "weight": 900,
    "color": "#ffffff",
    "palt": true,
-   "strokes": [
-    [
-     3,
-     "#ffffff"
-    ]
-   ],
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "spacing": -0.03,
-   "runs": [
-    {
-     "text": "最強秋"
-    },
-    {
-     "text": "コーデ",
-     "spacing": -0.13
-    }
-   ]
+   "scale_x": 1.0,
+   "text": "最",
+   "x": -3,
+   "y": 396.0,
+   "anchor": "lc",
+   "size": 224.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 1.019,
+   "text": "強",
+   "x": 215.6,
+   "y": 400.0,
+   "anchor": "lc",
+   "size": 224.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 1.019,
+   "text": "秋",
+   "x": 437.2,
+   "y": 399.0,
+   "anchor": "lc",
+   "size": 229.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.902,
+   "text": "コ",
+   "x": 631.9,
+   "y": 393.0,
+   "anchor": "lc",
+   "size": 272.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.796,
+   "text": "ー",
+   "x": 833.1,
+   "y": 388.0,
+   "anchor": "lc",
+   "size": 289.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "scale_x": 0.98,
+   "text": "デ",
+   "x": 1037.3,
+   "y": 395.0,
+   "anchor": "lc",
+   "size": 247.9,
+   "line": 1.0
   }
  ]
 }

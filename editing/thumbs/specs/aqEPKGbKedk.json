@@ -52,26 +52,8 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "UNIQLO ",
-     "font": "Montserrat",
-     "weight": 900
-    },
-    {
-     "text": "2024",
-     "font": "Montserrat",
-     "weight": 900
-    },
-    {
-     "text": "春夏"
-    }
-   ],
-   "x": 13.0,
-   "y": 371.5,
-   "font": "Noto Sans JP",
+   "font": "Montserrat",
    "weight": 900,
-   "size": 99.3,
    "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
    "color": "#c02024",
    "palt": true,
@@ -88,25 +70,326 @@
     828,
     486
    ],
-   "scale_x": 0.899
+   "scale_x": 0.845,
+   "text": "U",
+   "x": 17,
+   "y": 444.0,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "絶対買い"
-    },
-    {
-     "text": "BEST",
-     "font": "Montserrat",
-     "weight": 900
-    }
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
    ],
-   "x": 16.0,
-   "y": 493.0,
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.845,
+   "text": "N",
+   "x": 91.0,
+   "y": 434.0,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.881,
+   "text": "I",
+   "x": 151.8,
+   "y": 445.0,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.917,
+   "text": "Q",
+   "x": 180.0,
+   "y": 439.0,
+   "anchor": "lc",
+   "size": 109.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.845,
+   "text": "L",
+   "x": 263.7,
+   "y": 445.0,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "O",
+   "x": 319.9,
+   "y": 436.0,
+   "anchor": "lc",
+   "size": 101.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.881,
+   "text": "2",
+   "x": 415.4,
+   "y": 437.0,
+   "anchor": "lc",
+   "size": 109.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "0",
+   "x": 467.7,
+   "y": 436.0,
+   "anchor": "lc",
+   "size": 91.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "2",
+   "x": 537.6,
+   "y": 443.0,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "4",
+   "x": 584.9,
+   "y": 434.0,
+   "anchor": "lc",
+   "size": 97.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "春",
+   "x": 656.4,
+   "y": 440.5,
+   "anchor": "lc",
+   "size": 89.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    384,
+    828,
+    486
+   ],
+   "scale_x": 0.827,
+   "text": "夏",
+   "x": 744.7,
+   "y": 440.5,
+   "anchor": "lc",
+   "size": 93.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 193.7,
    "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
    "color": "#c02024",
    "palt": true,
@@ -123,16 +406,218 @@
     1140,
     703
    ],
-   "scale_x": 0.862
+   "scale_x": 0.862,
+   "text": "絶",
+   "x": 12,
+   "y": 600.5,
+   "anchor": "lc",
+   "size": 197.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.931,
+   "text": "対",
+   "x": 175.0,
+   "y": 598.5,
+   "anchor": "lc",
+   "size": 201.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.828,
+   "text": "買",
+   "x": 355.9,
+   "y": 600.5,
+   "anchor": "lc",
+   "size": 201.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.931,
+   "text": "い",
+   "x": 520.9,
+   "y": 598.5,
+   "anchor": "lc",
+   "size": 189.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.793,
+   "text": "B",
+   "x": 701.7,
+   "y": 609.5,
+   "anchor": "lc",
+   "size": 193.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.793,
+   "text": "E",
+   "x": 809.7,
+   "y": 612.5,
+   "anchor": "lc",
+   "size": 182.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.793,
+   "text": "S",
+   "x": 910.1,
+   "y": 611.5,
+   "anchor": "lc",
+   "size": 201.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Montserrat",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
+   "color": "#c02024",
+   "palt": true,
+   "strokes": [
+    [
+     3,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 0 10px rgba(0,0,0,.9)",
+   "tgt": [
+    18,
+    518,
+    1140,
+    703
+   ],
+   "scale_x": 0.81,
+   "text": "T",
+   "x": 1023.1,
+   "y": 593.5,
+   "anchor": "lc",
+   "size": 174.3,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "7",
-   "x": 1138.0,
-   "y": 385.0,
+   "x": 1144.0,
+   "y": 393.0,
    "font": "Montserrat",
    "weight": 900,
-   "size": 350.0,
+   "size": 315.0,
    "fill": "linear-gradient(180deg,#b01418 0%,#d84040 35%,#c02024 55%,#9a1418 100%)",
    "color": "#c02024",
    "strokes": [
@@ -148,7 +633,7 @@
     1256,
     703
    ],
-   "scale_x": 0.543
+   "scale_x": 0.521
   }
  ]
 }

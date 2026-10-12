@@ -46,12 +46,8 @@
  "layers": [
   {
    "type": "text",
-   "text": "ユニクロU秋冬新作",
-   "x": 4,
-   "y": -8,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 86,
    "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
    "palt": true,
    "strokes": [
@@ -59,7 +55,174 @@
      4,
      "#000000"
     ]
-   ]
+   ],
+   "scale_x": 0.762,
+   "text": "ユ",
+   "x": 10,
+   "y": 46.5,
+   "anchor": "lc",
+   "size": 85.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.88,
+   "text": "ニ",
+   "x": 91.4,
+   "y": 47.5,
+   "anchor": "lc",
+   "size": 78.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 1.011,
+   "text": "ク",
+   "x": 152.5,
+   "y": 45.5,
+   "anchor": "lc",
+   "size": 108.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.936,
+   "text": "ロ",
+   "x": 250.4,
+   "y": 47.5,
+   "anchor": "lc",
+   "size": 81.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.812,
+   "text": "U",
+   "x": 343.6,
+   "y": 51.5,
+   "anchor": "lc",
+   "size": 76.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.845,
+   "text": "秋",
+   "x": 390.4,
+   "y": 45.5,
+   "anchor": "lc",
+   "size": 96.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 1.05,
+   "text": "冬",
+   "x": 466.1,
+   "y": 48.5,
+   "anchor": "lc",
+   "size": 96.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.812,
+   "text": "新",
+   "x": 565.7,
+   "y": 45.5,
+   "anchor": "lc",
+   "size": 91.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     4,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.955,
+   "text": "作",
+   "x": 642.3,
+   "y": 44.5,
+   "anchor": "lc",
+   "size": 92.9,
+   "line": 1.0
   },
   {
    "type": "rect",
@@ -84,11 +247,8 @@
   },
   {
    "type": "text",
-   "x": 4,
-   "y": 488,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 200,
    "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
    "palt": true,
    "strokes": [
@@ -97,16 +257,133 @@
      "#000000"
     ]
    ],
-   "runs": [
-    {
-     "text": "絶対買いは",
-     "spacing": -0.06
-    },
-    {
-     "text": "●●",
-     "spacing": -0.06
-    }
-   ]
+   "scale_x": 0.939,
+   "text": "絶",
+   "x": 7,
+   "y": 608.5,
+   "anchor": "lc",
+   "size": 199.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 1.1,
+   "text": "対",
+   "x": 186.6,
+   "y": 610.5,
+   "anchor": "lc",
+   "size": 188.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.979,
+   "text": "買",
+   "x": 379.1,
+   "y": 607.5,
+   "anchor": "lc",
+   "size": 199.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.978,
+   "text": "い",
+   "x": 564.7,
+   "y": 606.5,
+   "anchor": "lc",
+   "size": 187.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.974,
+   "text": "は",
+   "x": 752.8,
+   "y": 625.5,
+   "anchor": "lc",
+   "size": 158.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.96,
+   "text": "●",
+   "x": 891.6,
+   "y": 603.5,
+   "anchor": "lc",
+   "size": 211.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#d8b358 0%,#fffbd0 22%,#fdf3b8 45%,#f3cc30 62%,#fdf4bd 80%,#f6e2a0 100%)",
+   "palt": true,
+   "strokes": [
+    [
+     5,
+     "#000000"
+    ]
+   ],
+   "scale_x": 0.98,
+   "text": "●",
+   "x": 1084.2,
+   "y": 607.5,
+   "anchor": "lc",
+   "size": 203.8,
+   "line": 1.0
   }
  ]
 }

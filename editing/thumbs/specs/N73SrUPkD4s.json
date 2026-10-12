@@ -220,7 +220,7 @@
   {
    "type": "text",
    "text": "41",
-   "x": 221.0,
+   "x": 222.0,
    "y": 467.0,
    "anchor": "cc",
    "font": "Zen Old Mincho",
@@ -236,7 +236,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 1.085,
+   "scale_x": 1.09,
    "tgt": [
     54,
     353,
@@ -246,7 +246,7 @@
   },
   {
    "type": "text",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -258,7 +258,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 1.074,
+   "scale_x": 1.053,
    "tgt": [
     374,
     438,
@@ -266,15 +266,15 @@
     610
    ],
    "text": "万",
-   "x": 348.1,
-   "y": 517.7,
+   "x": 350.1,
+   "y": 519.7,
    "anchor": "lc",
-   "size": 194.7,
+   "size": 198.6,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -286,7 +286,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.975,
+   "scale_x": 0.964,
    "tgt": [
     374,
     438,
@@ -294,15 +294,15 @@
     610
    ],
    "text": "円",
-   "x": 533.8,
-   "y": 511.7,
+   "x": 537.8,
+   "y": 514.7,
    "anchor": "lc",
-   "size": 195.3,
+   "size": 187.5,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -314,7 +314,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.976,
+   "scale_x": 1.119,
    "tgt": [
     374,
     438,
@@ -322,15 +322,15 @@
     610
    ],
    "text": "分",
-   "x": 705.6,
-   "y": 510.7,
+   "x": 692.6,
+   "y": 515.7,
    "anchor": "lc",
-   "size": 195.3,
+   "size": 182.395,
    "line": 1.0
   },
   {
    "type": "text",
-   "font": "Zen Old Mincho",
+   "font": "NotoSerifJP",
    "weight": 900,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
@@ -342,7 +342,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.957,
+   "scale_x": 0.991,
    "tgt": [
     374,
     438,
@@ -350,10 +350,10 @@
     610
    ],
    "text": "購",
-   "x": 875.4,
-   "y": 509.7,
+   "x": 878.4,
+   "y": 512.7,
    "anchor": "lc",
-   "size": 199.1,
+   "size": 187.2,
    "line": 1.0
   },
   {
@@ -370,7 +370,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.882,
+   "scale_x": 0.829,
    "tgt": [
     374,
     438,
@@ -378,10 +378,10 @@
     610
    ],
    "text": "入",
-   "x": 1041.2,
-   "y": 491.7,
+   "x": 1030.2,
+   "y": 483.7,
    "anchor": "lc",
-   "size": 227.3,
+   "size": 261.363,
    "line": 1.0
   }
  ]

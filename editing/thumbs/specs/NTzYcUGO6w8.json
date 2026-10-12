@@ -112,12 +112,8 @@
   },
   {
    "type": "text",
-   "text": "2026春夏",
-   "x": 891.0,
-   "y": 38.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 85.287,
    "color": "#850808",
    "strokes": [
     [
@@ -129,25 +125,26 @@
      "#fbeeed"
     ]
    ],
-   "spacing": -0.03,
    "box": [
     880,
     40,
     370,
     92
    ],
-   "scale_x": 0.987,
+   "scale_x": 0.835,
    "skew": -1,
-   "fit_iou": 0.631
+   "fit_iou": 0.631,
+   "text": "2",
+   "x": 889.1,
+   "y": 82.0,
+   "anchor": "lc",
+   "size": 86.9,
+   "line": 1.0
   },
   {
    "type": "text",
-   "text": "展示会",
-   "x": 887.0,
-   "y": 123.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 127.14,
    "color": "#850808",
    "strokes": [
     [
@@ -159,25 +156,247 @@
      "#fbeeed"
     ]
    ],
-   "spacing": 0.004,
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.835,
+   "skew": -1,
+   "fit_iou": 0.631,
+   "text": "0",
+   "x": 938.8,
+   "y": 82.0,
+   "anchor": "lc",
+   "size": 88.7,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.835,
+   "skew": -1,
+   "fit_iou": 0.631,
+   "text": "2",
+   "x": 991.6,
+   "y": 82.0,
+   "anchor": "lc",
+   "size": 86.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.872,
+   "skew": -1,
+   "fit_iou": 0.631,
+   "text": "6",
+   "x": 1040.3,
+   "y": 82.0,
+   "anchor": "lc",
+   "size": 86.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.89,
+   "skew": -1,
+   "fit_iou": 0.631,
+   "text": "春",
+   "x": 1102.0,
+   "y": 85.0,
+   "anchor": "lc",
+   "size": 69.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    40,
+    370,
+    92
+   ],
+   "scale_x": 0.854,
+   "skew": -1,
+   "fit_iou": 0.631,
+   "text": "夏",
+   "x": 1172.7,
+   "y": 84.0,
+   "anchor": "lc",
+   "size": 72.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
    "box": [
     880,
     132,
     370,
     133
    ],
-   "scale_x": 0.917,
+   "scale_x": 0.881,
    "skew": -0.6,
-   "fit_iou": 0.814
+   "fit_iou": 0.814,
+   "text": "展",
+   "x": 893.3,
+   "y": 192.0,
+   "anchor": "lc",
+   "size": 116.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    132,
+    370,
+    133
+   ],
+   "scale_x": 0.861,
+   "skew": -0.6,
+   "fit_iou": 0.814,
+   "text": "示",
+   "x": 1014.4,
+   "y": 189.0,
+   "anchor": "lc",
+   "size": 112.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#850808",
+   "strokes": [
+    [
+     2,
+     "#850808"
+    ],
+    [
+     5,
+     "#fbeeed"
+    ]
+   ],
+   "box": [
+    880,
+    132,
+    370,
+    133
+   ],
+   "scale_x": 0.899,
+   "skew": -0.6,
+   "fit_iou": 0.814,
+   "text": "会",
+   "x": 1127.4,
+   "y": 193.0,
+   "anchor": "lc",
+   "size": 114.4,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "MUJI Labo",
-   "x": 38.0,
-   "y": 232.0,
+   "x": 41.0,
+   "y": 247.0,
    "font": "RobotoCondensed",
    "weight": 700,
-   "size": 139.15,
+   "size": 117.8,
    "color": "#030302",
    "strokes": [
     [
@@ -196,22 +415,17 @@
     475,
     105
    ],
-   "scale_x": 0.808,
+   "scale_x": 0.943,
    "skew": 0,
    "fit_iou": 0.701,
    "rotate": 0.5
   },
   {
    "type": "text",
-   "text": "最高すぎた",
-   "x": -7.5,
-   "y": 381.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 292.204,
    "color": "#fefefd",
    "shadow": "2px 2px 6px rgba(0,0,0,.4)",
-   "spacing": -0.032,
    "scale_x": 0.907,
    "skew": 4.3,
    "rotate": 0,
@@ -221,7 +435,105 @@
     420,
     1250,
     282
-   ]
+   ],
+   "text": "最",
+   "x": 0.7,
+   "y": 538.5,
+   "anchor": "lc",
+   "size": 298.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#fefefd",
+   "shadow": "2px 2px 6px rgba(0,0,0,.4)",
+   "scale_x": 0.961,
+   "skew": 4.3,
+   "rotate": 0,
+   "fit_iou": 0.69,
+   "box": [
+    5,
+    420,
+    1250,
+    282
+   ],
+   "text": "高",
+   "x": 260.2,
+   "y": 541.5,
+   "anchor": "lc",
+   "size": 292.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#fefefd",
+   "shadow": "2px 2px 6px rgba(0,0,0,.4)",
+   "scale_x": 0.853,
+   "skew": 4.3,
+   "rotate": 0,
+   "fit_iou": 0.69,
+   "box": [
+    5,
+    420,
+    1250,
+    282
+   ],
+   "text": "す",
+   "x": 536.8,
+   "y": 543.5,
+   "anchor": "lc",
+   "size": 292.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#fefefd",
+   "shadow": "2px 2px 6px rgba(0,0,0,.4)",
+   "scale_x": 0.834,
+   "skew": 4.3,
+   "rotate": 0,
+   "fit_iou": 0.69,
+   "box": [
+    5,
+    420,
+    1250,
+    282
+   ],
+   "text": "ぎ",
+   "x": 797.3,
+   "y": 548.5,
+   "anchor": "lc",
+   "size": 280.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#fefefd",
+   "shadow": "2px 2px 6px rgba(0,0,0,.4)",
+   "scale_x": 0.871,
+   "skew": 4.3,
+   "rotate": 0,
+   "fit_iou": 0.69,
+   "box": [
+    5,
+    420,
+    1250,
+    282
+   ],
+   "text": "た",
+   "x": 1020.9,
+   "y": 544.5,
+   "anchor": "lc",
+   "size": 292.2,
+   "line": 1.0
   }
  ]
 }

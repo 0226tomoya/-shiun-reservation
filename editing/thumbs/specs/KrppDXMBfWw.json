@@ -73,11 +73,11 @@
   {
    "type": "text",
    "text": "Llifeのセットアップ",
-   "x": 121.0,
-   "y": 667.0,
+   "x": 213.0,
+   "y": 691.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 30.9,
+   "size": 25.0,
    "color": "#2a2a2a",
    "palt": true,
    "m": [
@@ -88,16 +88,16 @@
     "#202020",
     40
    ],
-   "scale_x": 1.159
+   "scale_x": 1.066
   },
   {
    "type": "text",
    "text": "BOSEヘッドフォン",
-   "x": 463.4,
-   "y": 662.9,
-   "font": "NotoSansJP",
+   "x": 452.4,
+   "y": 685.9,
+   "font": "ZenKakuGothicNew",
    "weight": 900,
-   "size": 34.5,
+   "size": 27.9,
    "color": "#2a2a2a",
    "palt": true,
    "m": [
@@ -108,16 +108,16 @@
     "#202020",
     40
    ],
-   "scale_x": 1.058
+   "scale_x": 1.016
   },
   {
    "type": "text",
    "text": "古着のフライトジャケット",
-   "x": 788.6,
-   "y": 664.9,
-   "font": "NotoSansJP",
+   "x": 834.6,
+   "y": 616.9,
+   "font": "ZenKakuGothicNew",
    "weight": 900,
-   "size": 32.6,
+   "size": 26.4,
    "color": "#2a2a2a",
    "palt": true,
    "m": [
@@ -128,16 +128,12 @@
     "#202020",
     40
    ],
-   "scale_x": 1.113
+   "scale_x": 1.004
   },
   {
    "type": "text",
-   "text": "最高すぎた購入品",
-   "x": 13.0,
-   "y": 452.5,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 173.3,
    "color": "#ffffff",
    "palt": true,
    "m": [
@@ -148,7 +144,7 @@
     "#ffffff",
     14
    ],
-   "scale_x": 0.937,
+   "scale_x": 1.013,
    "strokes": [
     [
      6,
@@ -160,7 +156,251 @@
     472,
     1264,
     640
-   ]
+   ],
+   "text": "最",
+   "x": 13,
+   "y": 546.0,
+   "anchor": "lc",
+   "size": 169.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "高",
+   "x": 178.4,
+   "y": 545.0,
+   "anchor": "lc",
+   "size": 173.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.914,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "す",
+   "x": 355.8,
+   "y": 558.0,
+   "anchor": "lc",
+   "size": 143.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.973,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "ぎ",
+   "x": 487.6,
+   "y": 557.0,
+   "anchor": "lc",
+   "size": 146.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.914,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "た",
+   "x": 633.0,
+   "y": 558.0,
+   "anchor": "lc",
+   "size": 146.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 1.012,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "購",
+   "x": 769.4,
+   "y": 544.0,
+   "anchor": "lc",
+   "size": 169.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.863,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "入",
+   "x": 953.8,
+   "y": 539.0,
+   "anchor": "lc",
+   "size": 152.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "m": [
+    5,
+    465,
+    1275,
+    190,
+    "#ffffff",
+    14
+   ],
+   "scale_x": 0.993,
+   "strokes": [
+    [
+     6,
+     "#ffffff"
+    ]
+   ],
+   "tgt": [
+    20,
+    472,
+    1264,
+    640
+   ],
+   "text": "品",
+   "x": 1102.2,
+   "y": 544.0,
+   "anchor": "lc",
+   "size": 169.8,
+   "line": 1.0
   }
  ]
 }

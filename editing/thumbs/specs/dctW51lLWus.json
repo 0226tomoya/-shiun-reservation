@@ -22,10 +22,10 @@
   },
   {
    "rect": [
-    752,
-    40,
-    480,
-    170
+    740,
+    5,
+    495,
+    205
    ],
    "colors": [
     "#000000"
@@ -54,7 +54,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 25
+   "tol": 18
   }
  ],
  "layers": [
@@ -77,13 +77,13 @@
   {
    "type": "text",
    "text": "完売間近",
-   "x": 755,
-   "y": 42,
+   "x": 754,
+   "y": 19,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 142,
+   "size": 151.9,
    "color": "#111111",
-   "scale_x": 0.86
+   "scale_x": 0.8
   },
   {
    "type": "text",
@@ -98,38 +98,123 @@
   },
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "急"
-    },
-    {
-     "text": "いで",
-     "size_em": 0.86
-    },
-    {
-     "text": "手"
-    },
-    {
-     "text": "に",
-     "size_em": 0.86
-    },
-    {
-     "text": "入"
-    },
-    {
-     "text": "れろ",
-     "size_em": 0.86
-    }
-   ],
-   "x": 8,
-   "y": 448,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 240,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.78,
-   "shadow": "0 0 8px rgba(0,0,0,.35)"
+   "scale_x": 0.841,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "急",
+   "x": 0,
+   "y": 576.5,
+   "anchor": "lc",
+   "size": 235.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.858,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "い",
+   "x": 176.2,
+   "y": 595.5,
+   "anchor": "lc",
+   "size": 182.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.764,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "で",
+   "x": 336.2,
+   "y": 596.5,
+   "anchor": "lc",
+   "size": 198.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.809,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "手",
+   "x": 477.6,
+   "y": 577.5,
+   "anchor": "lc",
+   "size": 221.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.81,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "に",
+   "x": 647.7,
+   "y": 590.5,
+   "anchor": "lc",
+   "size": 190.3,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.874,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "入",
+   "x": 791.2,
+   "y": 587.5,
+   "anchor": "lc",
+   "size": 212.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.779,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "れ",
+   "x": 962.4,
+   "y": 578.5,
+   "anchor": "lc",
+   "size": 218.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.749,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "text": "ろ",
+   "x": 1134.9,
+   "y": 586.5,
+   "anchor": "lc",
+   "size": 210.4,
+   "line": 1.0
   }
  ]
 }

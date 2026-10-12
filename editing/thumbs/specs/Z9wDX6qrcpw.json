@@ -90,15 +90,11 @@
   },
   {
    "type": "text",
-   "x": 68.5,
-   "y": 287.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 132.9,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.937,
-   "text": "低身長",
+   "scale_x": 1.012,
    "m": [
     58,
     290,
@@ -106,19 +102,65 @@
     150,
     "#ffffff",
     22
-   ]
+   ],
+   "text": "低",
+   "x": 63.5,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 132.9,
+   "line": 1.0
   },
   {
    "type": "text",
-   "x": 431.5,
-   "y": 288.5,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 128.9,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.899,
-   "text": "ロンTの",
+   "scale_x": 0.974,
+   "m": [
+    58,
+    290,
+    384,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "身",
+   "x": 190.0,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 135.6,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.013,
+   "m": [
+    58,
+    290,
+    384,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "長",
+   "x": 308.5,
+   "y": 358.0,
+   "anchor": "lc",
+   "size": 132.9,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.99,
    "m": [
     443,
     290,
@@ -126,19 +168,87 @@
     150,
     "#ffffff",
     22
-   ]
+   ],
+   "text": "ロ",
+   "x": 428.5,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 134.1,
+   "line": 1.0
   },
   {
    "type": "text",
-   "x": 838.5,
-   "y": 285.5,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 131.9,
    "color": "#ffffff",
    "palt": true,
-   "scale_x": 0.979,
-   "text": "選び方",
+   "scale_x": 1.01,
+   "m": [
+    443,
+    290,
+    395,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "ン",
+   "x": 548.6,
+   "y": 358.0,
+   "anchor": "lc",
+   "size": 134.1,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "MPLUS1p",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.991,
+   "m": [
+    443,
+    290,
+    395,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "T",
+   "x": 672.4,
+   "y": 358.0,
+   "anchor": "lc",
+   "size": 116.4,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "ZenKakuGothicNew",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.893,
+   "m": [
+    443,
+    290,
+    395,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "の",
+   "x": 745.5,
+   "y": 374.0,
+   "anchor": "lc",
+   "size": 109.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.999,
    "m": [
     839,
     290,
@@ -146,16 +256,66 @@
     150,
     "#ffffff",
     22
-   ]
+   ],
+   "text": "選",
+   "x": 835.5,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 134.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 0.999,
+   "m": [
+    839,
+    290,
+    383,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "び",
+   "x": 961.6,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 134.5,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "scale_x": 1.018,
+   "m": [
+    839,
+    290,
+    383,
+    150,
+    "#ffffff",
+    22
+   ],
+   "text": "方",
+   "x": 1087.9,
+   "y": 359.0,
+   "anchor": "lc",
+   "size": 131.9,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "5",
-   "x": 1017.0,
-   "y": 396.0,
+   "x": 997.0,
+   "y": 392.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 294.9,
+   "size": 306.7,
    "color": "#d4d4d4",
    "m": [
     1005,
@@ -165,16 +325,16 @@
     "#d8d8d8",
     25
    ],
-   "scale_x": 1.091
+   "scale_x": 1.113
   },
   {
    "type": "text",
    "text": "選",
-   "x": 1184.0,
-   "y": 597.0,
+   "x": 1191.0,
+   "y": 621.0,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 87.5,
+   "size": 77.2,
    "color": "#d4d4d4",
    "m": [
     1185,
@@ -184,7 +344,7 @@
     "#d8d8d8",
     25
    ],
-   "scale_x": 0.824
+   "scale_x": 0.961
   }
  ]
 }

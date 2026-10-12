@@ -106,13 +106,13 @@
   {
    "type": "text",
    "text": "本日発売!!",
-   "x": 163,
-   "y": 125,
+   "x": 146,
+   "y": 111,
    "anchor": "cc",
    "rotate": -35,
-   "font": "Noto Sans JP",
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 80,
+   "size": 66.2,
    "color": "#e00012",
    "palt": true,
    "strokes": [
@@ -120,7 +120,8 @@
      4,
      "#ffffff"
     ]
-   ]
+   ],
+   "scale_x": 0.978
   },
   {
    "type": "text",
@@ -136,14 +137,14 @@
      "text": "コレだぁぁぁぁっ!!"
     }
    ],
-   "x": 845,
-   "y": 75,
+   "x": 813,
+   "y": 67,
    "anchor": "cc",
    "rotate": -5,
    "skew": -8,
-   "font": "Noto Sans JP",
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 86,
+   "size": 69.7,
    "color": "#111111",
    "palt": true,
    "strokes": [
@@ -151,15 +152,16 @@
      4,
      "#ffffff"
     ]
-   ]
+   ],
+   "scale_x": 0.865
   },
   {
    "type": "text",
-   "x": 13.5,
-   "y": 450.0,
-   "font": "Noto Sans JP",
+   "x": 6.5,
+   "y": 439.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 232.3,
+   "size": 255.5,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -180,15 +182,15 @@
     259,
     700
    ],
-   "scale_x": 1.073
+   "scale_x": 1.03
   },
   {
    "type": "text",
-   "x": 275.0,
-   "y": 449.5,
-   "font": "Noto Sans JP",
+   "x": 277.0,
+   "y": 446.5,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 232.2,
+   "size": 241.2,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -209,15 +211,15 @@
     520,
     700
    ],
-   "scale_x": 1.086
+   "scale_x": 1.062
   },
   {
    "type": "text",
-   "x": 536.5,
-   "y": 439.0,
-   "font": "Noto Sans JP",
+   "x": 525.5,
+   "y": 443.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 241.6,
+   "size": 251.3,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -238,15 +240,15 @@
     771,
     700
    ],
-   "scale_x": 0.996
+   "scale_x": 1.016
   },
   {
    "type": "text",
-   "x": 778.0,
-   "y": 423.5,
-   "font": "Noto Sans JP",
+   "x": 788.0,
+   "y": 448.5,
+   "font": "NotoSansJP",
    "weight": 900,
-   "size": 262.1,
+   "size": 221.7,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -267,15 +269,15 @@
     1120,
     689
    ],
-   "scale_x": 1.373
+   "scale_x": 1.187
   },
   {
    "type": "text",
-   "x": 1125.5,
-   "y": 420.0,
+   "x": 1046.0,
+   "y": 415.0,
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 269.3,
+   "size": 273.5,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -296,15 +298,15 @@
     1204,
     689
    ],
-   "scale_x": 0.963
+   "scale_x": 0.872
   },
   {
    "type": "text",
-   "x": 1201.0,
-   "y": 420.0,
-   "font": "Noto Sans JP",
+   "x": 1126.0,
+   "y": 416.0,
+   "font": "MPLUS1p",
    "weight": 900,
-   "size": 269.3,
+   "size": 293.5,
    "color": "#ffffff",
    "palt": true,
    "strokes": [
@@ -325,7 +327,7 @@
     1278,
     689
    ],
-   "scale_x": 0.945
+   "scale_x": 0.711
   }
  ]
 }

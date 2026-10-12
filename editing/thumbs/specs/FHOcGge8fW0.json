@@ -1,1 +1,207 @@
-{"id": "FHOcGge8fW0", "grow": 9, "erase": [{"rect": [0, 0, 1280, 135], "colors": ["#ffffff"], "tol": 28}, {"rect": [15, 390, 945, 325], "colors": ["#ffffff"], "tol": 28}, {"rect": [955, 285, 325, 425], "colors": ["#ffffff"], "tol": 28}], "layers": [{"type": "text", "text": "買って良かった服", "x": 488, "y": 58, "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "size": 120, "spacing": 0.0, "color": "#ffffff"}, {"type": "rect", "x": 1004, "y": 12, "w": 5, "h": 112, "fill": "#ffffff"}, {"type": "text", "text": "2024年", "x": 1150, "y": 34, "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "size": 52, "spacing": 0.2, "color": "#ffffff"}, {"type": "text", "text": "下半期", "x": 1150, "y": 98, "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "size": 52, "spacing": 0.25, "color": "#ffffff"}, {"type": "text", "text": "BEST", "x": 482, "y": 535, "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "size": 408, "spacing": 0.01, "color": "#ffffff", "scale_x": 0.91}, {"type": "text", "text": "7", "x": 1113, "y": 455, "anchor": "cc", "font": "Noto Sans JP", "weight": 800, "size": 543, "color": "#ffffff"}]}
+{
+ "id": "FHOcGge8fW0",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    0,
+    0,
+    1280,
+    135
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    15,
+    390,
+    945,
+    325
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  },
+  {
+   "rect": [
+    955,
+    285,
+    325,
+    425
+   ],
+   "colors": [
+    "#ffffff"
+   ],
+   "tol": 28
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "買",
+   "x": 9,
+   "y": 58.0,
+   "anchor": "lc",
+   "size": 120.0,
+   "scale_x": 0.957,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "っ",
+   "x": 135,
+   "y": 66.0,
+   "anchor": "lc",
+   "size": 105.8,
+   "scale_x": 0.979,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "て",
+   "x": 248,
+   "y": 62.0,
+   "anchor": "lc",
+   "size": 112.8,
+   "scale_x": 1.04,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "良",
+   "x": 366,
+   "y": 59.0,
+   "anchor": "lc",
+   "size": 117.6,
+   "scale_x": 1.02,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "か",
+   "x": 488,
+   "y": 59.0,
+   "anchor": "lc",
+   "size": 117.5,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "っ",
+   "x": 622,
+   "y": 65.0,
+   "anchor": "lc",
+   "size": 105.8,
+   "scale_x": 0.92,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "た",
+   "x": 728,
+   "y": 61.0,
+   "anchor": "lc",
+   "size": 117.6,
+   "scale_x": 1.02,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "color": "#ffffff",
+   "text": "服",
+   "x": 850,
+   "y": 57.0,
+   "anchor": "lc",
+   "size": 120.0,
+   "scale_x": 1.0,
+   "line": 1.0
+  },
+  {
+   "type": "rect",
+   "x": 1004,
+   "y": 12,
+   "w": 5,
+   "h": 112,
+   "fill": "#ffffff"
+  },
+  {
+   "type": "text",
+   "text": "2024年",
+   "x": 1153,
+   "y": 33,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 52.0,
+   "spacing": 0.2,
+   "color": "#ffffff",
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "text": "下半期",
+   "x": 1153,
+   "y": 98,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "size": 50.7,
+   "spacing": 0.25,
+   "color": "#ffffff",
+   "scale_x": 0.978
+  },
+  {
+   "type": "text",
+   "text": "BEST",
+   "x": 471,
+   "y": 529,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 391.7,
+   "spacing": 0.01,
+   "color": "#ffffff",
+   "scale_x": 0.946
+  },
+  {
+   "type": "text",
+   "text": "7",
+   "x": 1113,
+   "y": 454,
+   "anchor": "cc",
+   "font": "Noto Sans JP",
+   "weight": 800,
+   "size": 479.8,
+   "color": "#ffffff",
+   "scale_x": 1.166
+  }
+ ]
+}

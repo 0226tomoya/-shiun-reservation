@@ -72,11 +72,11 @@
   {
    "type": "text",
    "text": "StyleHinter",
-   "x": 178.0,
-   "y": -4.0,
+   "x": 179.0,
+   "y": -8.0,
    "font": "Montserrat",
    "weight": 900,
-   "size": 150.6,
+   "size": 156.6,
    "color": "#ffffff",
    "shadow": "2px 2px 6px rgba(0,0,0,.3)",
    "spacing": -0.028,
@@ -86,22 +86,17 @@
     830,
     160
    ],
-   "scale_x": 0.945,
+   "scale_x": 0.907,
    "rotate": 0.15,
    "skew": -0.6,
    "fit_iou": 0.725
   },
   {
    "type": "text",
-   "text": "が選ぶ",
-   "x": 1004.0,
-   "y": 38.5,
    "font": "NotoSansJP",
    "weight": 900,
-   "size": 96.7,
    "color": "#ffffff",
    "shadow": "2px 2px 6px rgba(0,0,0,.3)",
-   "spacing": -0.044,
    "box": [
     1002,
     5,
@@ -110,16 +105,66 @@
    ],
    "scale_x": 0.994,
    "rotate": 1.0,
-   "fit_iou": 0.583
+   "fit_iou": 0.583,
+   "text": "が",
+   "x": 1006,
+   "y": 92.5,
+   "anchor": "lc",
+   "size": 87.0,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "2px 2px 6px rgba(0,0,0,.3)",
+   "box": [
+    1002,
+    5,
+    275,
+    160
+   ],
+   "scale_x": 0.974,
+   "rotate": 1.0,
+   "fit_iou": 0.583,
+   "text": "選",
+   "x": 1097.9,
+   "y": 94.5,
+   "anchor": "lc",
+   "size": 92.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "2px 2px 6px rgba(0,0,0,.3)",
+   "box": [
+    1002,
+    5,
+    275,
+    160
+   ],
+   "scale_x": 1.054,
+   "rotate": 1.0,
+   "fit_iou": 0.583,
+   "text": "ぶ",
+   "x": 1187.8,
+   "y": 93.5,
+   "anchor": "lc",
+   "size": 89.0,
+   "line": 1.0
   },
   {
    "type": "text",
    "text": "BEST",
-   "x": 306.0,
-   "y": 397.0,
+   "x": 304.0,
+   "y": 393.0,
    "font": "Montserrat",
    "weight": 900,
-   "size": 365.266,
+   "size": 350.7,
    "color": "#ffffff",
    "shadow": "2px 2px 8px rgba(0,0,0,.3)",
    "spacing": -0.12,
@@ -129,18 +174,18 @@
     530,
     250
    ],
-   "scale_x": 0.649,
+   "scale_x": 0.701,
    "skew": -1.3,
    "fit_iou": 0.587
   },
   {
    "type": "text",
    "text": "3",
-   "x": 895.5,
-   "y": 280.5,
+   "x": 897.5,
+   "y": 323.5,
    "font": "Montserrat",
    "weight": 900,
-   "size": 466.833,
+   "size": 420.1,
    "color": "#ffffff",
    "shadow": "2px 2px 8px rgba(0,0,0,.3)",
    "box": [
@@ -149,7 +194,7 @@
     445,
     340
    ],
-   "scale_x": 1.694,
+   "scale_x": 1.558,
    "rotate": 0.8,
    "fit_iou": 0.435
   }

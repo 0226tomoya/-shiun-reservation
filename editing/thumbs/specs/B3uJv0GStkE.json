@@ -78,12 +78,12 @@
   {
    "type": "text",
    "text": "169cm以下",
-   "x": 1100,
+   "x": 1078,
    "y": 16,
    "anchor": "ct",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 68,
+   "size": 61.2,
    "color": "#000000",
    "palt": true,
    "strokes": [
@@ -92,17 +92,17 @@
      "#ffffff"
     ]
    ],
-   "scale_x": 0.88
+   "scale_x": 0.748
   },
   {
    "type": "text",
    "text": "限定!?",
-   "x": 1102,
-   "y": 86,
+   "x": 1110,
+   "y": 91,
    "anchor": "ct",
    "font": "Noto Sans JP",
    "weight": 900,
-   "size": 120,
+   "size": 108.0,
    "color": "#000000",
    "palt": true,
    "strokes": [
@@ -111,20 +111,21 @@
      "#ffffff"
     ]
    ],
-   "scale_x": 0.85
+   "scale_x": 0.944
   },
   {
    "type": "text",
    "text": "UNIQLO U 24AW",
-   "x": 642,
-   "y": 410,
+   "x": 630,
+   "y": 397,
    "anchor": "ct",
-   "font": "Noto Sans JP",
-   "weight": 800,
-   "size": 110,
+   "font": "NotoSansJP",
+   "weight": 900,
+   "size": 121.0,
    "color": "#ffffff",
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "spacing": -0.02
+   "spacing": -0.02,
+   "scale_x": 0.91
   },
   {
    "type": "text",

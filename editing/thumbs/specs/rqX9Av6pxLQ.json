@@ -1,1 +1,150 @@
-{"id": "rqX9Av6pxLQ", "grow": 9, "erase": [{"rect": [470, 5, 805, 75], "colors": ["#202020", "#ffffff"], "tol": 35}, {"rect": [0, 395, 1015, 325], "colors": ["#ffffff", "#f70013", "#d00008", "#a00000"], "tol": 35}], "layers": [{"type": "text", "runs": [{"text": "大人・低身長男性"}, {"text": "にも", "size_em": 0.62}, {"text": "オススメ!!"}], "x": 874, "y": 42, "anchor": "cc", "font": "Shippori Mincho B1", "weight": 800, "size": 58, "spacing": -0.03, "color": "#202020", "strokes": [[3, "#202020"], [8, "#ffffff"]]}, {"type": "text", "runs": [{"text": "冬"}, {"text": "の", "size_em": 0.68}, {"text": "神作"}], "x": 500, "y": 561, "anchor": "cc", "font": "Noto Sans JP", "weight": 900, "size": 290, "spacing": -0.045, "fill": "linear-gradient(180deg,#ff1020 0%,#e00008 40%,#a80000 75%,#7c0000 100%)", "strokes": [[8, "#ffffff"]], "shadow": "0 4px 10px rgba(0,0,0,.6)"}]}
+{
+ "id": "rqX9Av6pxLQ",
+ "grow": 9,
+ "erase": [
+  {
+   "rect": [
+    470,
+    5,
+    805,
+    75
+   ],
+   "colors": [
+    "#202020",
+    "#ffffff"
+   ],
+   "tol": 35
+  },
+  {
+   "rect": [
+    0,
+    395,
+    1015,
+    325
+   ],
+   "colors": [
+    "#ffffff",
+    "#f70013",
+    "#d00008",
+    "#a00000"
+   ],
+   "tol": 35
+  }
+ ],
+ "layers": [
+  {
+   "type": "text",
+   "runs": [
+    {
+     "text": "大人・低身長男性"
+    },
+    {
+     "text": "にも",
+     "size_em": 0.62
+    },
+    {
+     "text": "オススメ!!"
+    }
+   ],
+   "x": 866,
+   "y": 35,
+   "anchor": "cc",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "size": 47.0,
+   "spacing": -0.03,
+   "color": "#202020",
+   "strokes": [
+    [
+     3,
+     "#202020"
+    ],
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "scale_x": 0.92
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#ff1020 0%,#e00008 40%,#a80000 75%,#7c0000 100%)",
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 4px 10px rgba(0,0,0,.6)",
+   "text": "冬",
+   "x": 0.5,
+   "y": 557.5,
+   "anchor": "lc",
+   "size": 267.1,
+   "scale_x": 0.979,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#ff1020 0%,#e00008 40%,#a80000 75%,#7c0000 100%)",
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 4px 10px rgba(0,0,0,.6)",
+   "text": "の",
+   "x": 260.5,
+   "y": 586.5,
+   "anchor": "lc",
+   "size": 201.1,
+   "scale_x": 1.04,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#ff1020 0%,#e00008 40%,#a80000 75%,#7c0000 100%)",
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 4px 10px rgba(0,0,0,.6)",
+   "text": "神",
+   "x": 466.6,
+   "y": 551.5,
+   "anchor": "lc",
+   "size": 261.5,
+   "scale_x": 1.04,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Noto Sans JP",
+   "weight": 900,
+   "fill": "linear-gradient(180deg,#ff1020 0%,#e00008 40%,#a80000 75%,#7c0000 100%)",
+   "strokes": [
+    [
+     8,
+     "#ffffff"
+    ]
+   ],
+   "shadow": "0 4px 10px rgba(0,0,0,.6)",
+   "text": "作",
+   "x": 741.5,
+   "y": 557.5,
+   "anchor": "lc",
+   "size": 267.1,
+   "scale_x": 0.938,
+   "line": 1.0
+  }
+ ]
+}

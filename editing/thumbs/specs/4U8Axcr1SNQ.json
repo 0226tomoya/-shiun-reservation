@@ -12,7 +12,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 35
+   "tol": 25
   },
   {
    "rect": [
@@ -24,7 +24,7 @@
    "colors": [
     "#ffffff"
    ],
-   "tol": 35
+   "tol": 25
   },
   {
    "rect": [
@@ -54,57 +54,157 @@
  "layers": [
   {
    "type": "text",
-   "runs": [
-    {
-     "text": "過去最高"
-    },
-    {
-     "text": "の",
-     "size_em": 0.62
-    },
-    {
-     "text": "秋"
-    },
-    {
-     "text": "が",
-     "size_em": 0.62
-    }
-   ],
-   "x": 358,
-   "y": 22,
-   "anchor": "ct",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 104,
    "color": "#ffffff",
-   "vertical": true,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "strokes": [
-    [
-     1.5,
-     "#ffffff"
-    ]
-   ]
+   "text": "過",
+   "x": 356.5,
+   "y": 67.5,
+   "anchor": "cc",
+   "size": 102.1,
+   "line": 1.0,
+   "scale_x": 1.02
   },
   {
    "type": "text",
-   "text": "始まる。",
-   "x": 180,
-   "y": 25,
-   "anchor": "ct",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "去",
+   "x": 359.5,
+   "y": 172.0,
+   "anchor": "cc",
+   "size": 115.5,
+   "line": 1.0,
+   "scale_x": 0.9
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "最",
+   "x": 356.5,
+   "y": 276.0,
+   "anchor": "cc",
+   "size": 103.3,
+   "line": 1.0,
+   "scale_x": 0.979
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "高",
+   "x": 357.5,
+   "y": 383.0,
+   "anchor": "cc",
+   "size": 99.0,
+   "line": 1.0,
+   "scale_x": 0.98
+  },
+  {
+   "type": "text",
+   "font": "NotoSerifJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "の",
+   "x": 357.5,
+   "y": 466.5,
+   "anchor": "cc",
+   "size": 49.4,
+   "line": 1.0,
+   "scale_x": 1.122
+  },
+  {
+   "type": "text",
    "font": "Shippori Mincho B1",
    "weight": 800,
-   "size": 205,
    "color": "#ffffff",
-   "vertical": true,
-   "spacing": 0.035,
    "shadow": "0 0 8px rgba(0,0,0,.3)",
-   "strokes": [
-    [
-     3,
-     "#ffffff"
-    ]
-   ]
+   "text": "秋",
+   "x": 359.0,
+   "y": 549.5,
+   "anchor": "cc",
+   "size": 103.1,
+   "line": 1.0,
+   "scale_x": 0.98
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "が",
+   "x": 360.0,
+   "y": 634.5,
+   "anchor": "cc",
+   "size": 53.8,
+   "line": 1.0,
+   "scale_x": 1.019
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "始",
+   "x": 180.5,
+   "y": 118.0,
+   "anchor": "cc",
+   "size": 208.5,
+   "line": 1.0,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "ま",
+   "x": 187.5,
+   "y": 325.5,
+   "anchor": "cc",
+   "size": 196.9,
+   "line": 1.0,
+   "scale_x": 1.06
+  },
+  {
+   "type": "text",
+   "font": "ZenOldMincho",
+   "weight": 900,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "る",
+   "x": 175.5,
+   "y": 537.0,
+   "anchor": "cc",
+   "size": 199.5,
+   "line": 1.0,
+   "scale_x": 1.0
+  },
+  {
+   "type": "text",
+   "font": "Shippori Mincho B1",
+   "weight": 800,
+   "color": "#ffffff",
+   "shadow": "0 0 8px rgba(0,0,0,.3)",
+   "text": "。",
+   "x": 258.0,
+   "y": 667.0,
+   "anchor": "cc",
+   "size": 27.4,
+   "line": 1.0,
+   "scale_x": 0.846
   },
   {
    "type": "text",
