@@ -1,5 +1,6 @@
 """Split text layer(s) into per-character layers at their rendered positions.
 python3 split.py ID i[,j...]
+縦書き（"vertical": true）のレイヤーも 1 字ずつに分ける（縦書きのまま、anchor cc）。
 """
 import json, os, sys
 import numpy as np
@@ -17,7 +18,7 @@ with sync_playwright() as p:
     page = b.new_page(viewport={'width': R.W, 'height': R.H})
     new_layers = []
     for i, L in enumerate(spec['layers']):
-        if i not in idx or L['type'] != 'text' or L.get('vertical'):
+        if i not in idx or L['type'] != 'text':
             new_layers.append(L); continue
         runs = L.get('runs') or [{'text': L['text']}]
         chars = []
@@ -34,7 +35,10 @@ with sync_playwright() as p:
                 continue
             sz = L.get('size', 80) * ch.get('size_em', 1) if not ch.get('size') else ch['size']
             n = dict(base)
-            n.update({'text': ch['text'], 'x': round(rc[0], 1), 'y': round(rc[1] + rc[3] / 2, 1), 'anchor': 'lc', 'size': round(sz, 1), 'scale_x': 1.0 if True else L.get('scale_x', 1)})
+            if L.get('vertical'):  # 縦書き: 1 字ずつ縦書きのまま、字の中心に置く（ー・括弧の向きを保つ）
+                n.update({'text': ch['text'], 'x': round(rc[0] + rc[2] / 2, 1), 'y': round(rc[1] + rc[3] / 2, 1), 'anchor': 'cc', 'size': round(sz, 1)})
+            else:
+                n.update({'text': ch['text'], 'x': round(rc[0], 1), 'y': round(rc[1] + rc[3] / 2, 1), 'anchor': 'lc', 'size': round(sz, 1)})
             # scale_x is baked into rect width; keep glyph scale
             n['scale_x'] = L.get('scale_x', 1)
             for k in ('color', 'fill', 'font', 'weight', 'strokes'):

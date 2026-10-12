@@ -80,10 +80,6 @@
    "palt": true,
    "rotate": -8,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "text": "って",
-   "x": 226.5,
-   "y": 23.5,
-   "size": 219.2,
    "tgt": [
     245,
     75,
@@ -97,7 +93,42 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.731
+   "scale_x": 0.731,
+   "text": "っ",
+   "x": 226.5,
+   "y": 144.0,
+   "anchor": "lc",
+   "size": 219.2,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "rotate": -8,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tgt": [
+    245,
+    75,
+    470,
+    250
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.731,
+   "text": "て",
+   "x": 349.6,
+   "y": 144.0,
+   "anchor": "lc",
+   "size": 219.2,
+   "line": 1.0
   },
   {
    "type": "text",
@@ -134,10 +165,6 @@
    "palt": true,
    "rotate": -8,
    "shadow": "0 0 8px rgba(0,0,0,.35)",
-   "text": "かった",
-   "x": 901.5,
-   "y": 38.5,
-   "size": 172.8,
    "tgt": [
     922,
     58,
@@ -151,7 +178,71 @@
     1,
     "#fff"
    ],
-   "scale_x": 0.73
+   "scale_x": 0.73,
+   "text": "か",
+   "x": 901.5,
+   "y": 133.5,
+   "anchor": "lc",
+   "size": 172.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "rotate": -8,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tgt": [
+    922,
+    58,
+    1265,
+    218
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.73,
+   "text": "っ",
+   "x": 1026.4,
+   "y": 133.5,
+   "anchor": "lc",
+   "size": 172.8,
+   "line": 1.0
+  },
+  {
+   "type": "text",
+   "font": "NotoSansJP",
+   "weight": 900,
+   "color": "#ffffff",
+   "palt": true,
+   "rotate": -8,
+   "shadow": "0 0 8px rgba(0,0,0,.35)",
+   "tgt": [
+    922,
+    58,
+    1265,
+    218
+   ],
+   "m": [
+    0,
+    0,
+    1,
+    1,
+    "#fff"
+   ],
+   "scale_x": 0.73,
+   "text": "た",
+   "x": 1129.6,
+   "y": 133.5,
+   "anchor": "lc",
+   "size": 172.8,
+   "line": 1.0
   }
  ]
 }
