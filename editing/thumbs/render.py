@@ -14,7 +14,7 @@
           "color":"#fff" または "fill":"linear-gradient(180deg,#fff7c2,#d4a020)",
           "strokes":[[12,"#000"],[22,"#fff"]],   # 内側から外側へ（太さ px, 色）
           "shadow":"6px 6px 0 rgba(0,0,0,.6)", "spacing":0.0(em), "line":1.1, "rotate":0, "skew":0,
-          "scale_x":1.0, "vertical":false, "italic":false, "align":"left", "opacity":1, "fill_opacity":0.5（塗りだけ半透明・縁はそのまま）,
+          "scale_x":1.0, "vertical":false, "italic":false, "align":"left", "opacity":1, "fill_opacity":0.5（塗りだけ半透明・縁はそのまま）, "glow":[12,"#ffffff",2]（光彩）, "fill_abs":[x0,y0,x1,y1]（fill のグラデを画面の絶対座標で張る）,
           "runs":[{"text":"低身長","color":"#ff0","size":120}, ...]  # 部分ごとに色・大きさを変えるとき（text の代わり）
          }
   rect:  {"type":"rect","x":..,"y":..,"w":..,"h":..,"fill":"#000","opacity":0.6,"radius":0,"rotate":0,
@@ -122,7 +122,7 @@ def text_html(L, i):
                 if color_css is None:
                     if r.get('fill') or (L.get('fill') and not r.get('color')):
                         r = dict(r, fill=r.get('fill') or L.get('fill'))
-                        st += f"background:{r['fill']};-webkit-background-clip:text;color:transparent;"
+                        st += f"background:{r['fill']};-webkit-background-clip:text;color:transparent;padding:0 .25em;margin:0 -.25em;"
                     else:
                         st += f"color:{r.get('color', L.get('color', '#fff'))};"
                 s += f"<span data-k=\"{k_}\" style=\"{st}\">{esc(r['text'])}</span>"
@@ -175,12 +175,13 @@ def text_html(L, i):
         top = f"<div style=\"{base}position:relative;color:transparent;\">{content('transparent')}</div>"
     elif fill and not L.get('runs'):
         under = (f"<div style=\"{base}position:absolute;left:0;top:0;color:transparent;{sh}\">{content('transparent')}</div>" if sh else '')
-        top = under + f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;\">{content(None)}</div>"
+        top = under + f"<div style=\"{base}position:relative;background:{fill};-webkit-background-clip:text;color:transparent;padding:0 .25em;margin:0 -.25em;\">{content(None)}</div>"
     else:
         top = f"<div style=\"{base}position:relative;color:{L.get('color', '#fff')};{sh}\">{content(None)}</div>"
     if L.get('fill_opacity') is not None:
         top = top.replace('position:relative;', f"position:relative;opacity:{L['fill_opacity']};", 1)
-    return f"<div id=\"L{i}\" style=\"{wrap}\">{layers}{top}</div>"
+    fa = f' data-fillabs="{",".join(str(v) for v in L["fill_abs"])}"' if L.get('fill_abs') else ''
+    return f"<div id=\"L{i}\"{fa} style=\"{wrap}{glow_css(L)}\">{layers}{top}</div>"
 
 
 def esc(s):
@@ -213,7 +214,7 @@ def layer_html(L, i):
 
 
 def glow_css(L):
-    """image の光彩: "glow": [ぼかし px, 色, 重ねる回数(既定 1)]（ロゴの白い光彩など）。"""
+    """image・text の光彩: "glow": [ぼかし px, 色, 重ねる回数(既定 1)]（ロゴの白い光彩など）。"""
     g = L.get('glow')
     if not g:
         return ''
@@ -242,6 +243,16 @@ def render_layers(spec, page, clip=None):
         st['fams'] |= new
     body = ''.join(layer_html(L, i) for i, L in enumerate(spec.get('layers', [])))
     page.evaluate("html => { document.getElementById('root').innerHTML = html; }", body)
+    # fill_abs: グラデを画面の絶対座標 [x0,y0,x1,y1] で張る（字ごとのレイヤーでも行全体で 1 本のグラデを共有する）
+    page.evaluate("""() => { for (const d of document.querySelectorAll('[data-fillabs]')) {
+        const [x0, y0, x1, y1] = d.dataset.fillabs.split(',').map(Number);
+        for (const e of d.querySelectorAll('div, span')) {
+            if (!getComputedStyle(e).backgroundImage.includes('gradient')) continue;
+            const r = e.getBoundingClientRect();
+            e.style.backgroundSize = `${x1 - x0}px ${y1 - y0}px`;
+            e.style.backgroundPosition = `${x0 - r.left}px ${y0 - r.top}px`;
+            e.style.backgroundRepeat = 'no-repeat';
+        } } }""")
     # 使うフォントを明示的に読み込み終えてから撮る（混んでいると読み込み前に撮って点がぶれた）
     page.evaluate("async fs => { for (const [f, w] of fs) { try { await document.fonts.load(`${w} 40px '${f}'`, 'あA1'); } catch (e) {} } await document.fonts.ready; return 1; }",
                   [[f, w] for f, w in sorted(fams)])

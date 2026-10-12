@@ -561,7 +561,8 @@
    "x": 495,
    "y": 378.5,
    "anchor": "lc",
-   "size": 38.4
+   "size": 38.4,
+   "notune": true
   },
   {
    "type": "text",
@@ -575,13 +576,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.993,
+   "scale_x": 0.884,
    "fit_iou": 0.176,
    "text": "6",
-   "x": 508.6,
-   "y": 413.5,
+   "x": 516.6,
+   "y": 371.5,
    "anchor": "lc",
-   "size": 42.2
+   "size": 38.4,
+   "notune": true
   },
   {
    "type": "text",
@@ -595,13 +597,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 1.058,
+   "scale_x": 0.96,
    "fit_iou": 0.176,
    "text": "4",
-   "x": 517.3,
-   "y": 375.5,
+   "x": 544.3,
+   "y": 367.5,
    "anchor": "lc",
-   "size": 31.8
+   "size": 38.4,
+   "notune": true
   },
   {
    "type": "text",
@@ -615,13 +618,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 1.096,
+   "scale_x": 0.94,
    "fit_iou": 0.176,
    "text": "c",
-   "x": 599.6,
-   "y": 420.5,
+   "x": 572.6,
+   "y": 372.5,
    "anchor": "lc",
-   "size": 36.9
+   "size": 38.4,
+   "notune": true
   },
   {
    "type": "text",
@@ -635,13 +639,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 1.055,
+   "scale_x": 1.039,
    "fit_iou": 0.176,
    "text": "m",
    "x": 597.2,
-   "y": 376.5,
+   "y": 377.5,
    "anchor": "lc",
-   "size": 38.4
+   "size": 38.4,
+   "notune": true
   },
   {
    "type": "text",
@@ -655,13 +660,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 1.14,
+   "scale_x": 0.978,
    "fit_iou": 0.176,
    "text": "チ",
-   "x": 489,
-   "y": 448.3,
+   "x": 503,
+   "y": 434.3,
    "anchor": "lc",
-   "size": 50.5
+   "size": 42.5,
+   "notune": true
   },
   {
    "type": "text",
@@ -675,13 +681,14 @@
    "weight": 400,
    "line": 1.0,
    "color": "#f6f8f9",
-   "scale_x": 0.918,
+   "scale_x": 0.978,
    "fit_iou": 0.176,
    "text": "ビ",
-   "x": 558.5,
-   "y": 440.3,
+   "x": 539.5,
+   "y": 445.3,
    "anchor": "lc",
-   "size": 52.3
+   "size": 43.2,
+   "notune": true
   }
  ],
  "grow": 19
