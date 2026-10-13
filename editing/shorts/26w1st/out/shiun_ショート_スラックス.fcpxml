@@ -43,7 +43,7 @@
     <library>
         <event name="shiun ショート">
             <project name="FLAT-FRONT STRAIGHT TROUSERS">
-                <sequence format="r1633" duration="3032029/30000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                <sequence format="r1633" duration="1242241/12000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
                     <spine>
                         <mc-clip ref="rM1" offset="0s" name="DSCF0032" start="969969/4000s" duration="17017/15000s">
                             <adjust-volume>
@@ -116,7 +116,7 @@
                             <asset-clip ref="rV2" name="DSCF0036" start="719719/60000s" offset="969969/4000s" duration="3003/1000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                            <asset-clip ref="r1636" lane="-1" offset="969969/4000s" name="ES_Cherry Blossom (Instrumental Version) - Nyck Caution" duration="3032029/30000s" format="r76" audioRole="music" start="0s">
+                            <asset-clip ref="r1636" lane="-1" offset="969969/4000s" name="ES_Cherry Blossom (Instrumental Version) - Nyck Caution" duration="1242241/12000s" format="r76" audioRole="music" start="0s">
                                 <adjust-volume amount="-28dB">
                                     <param name="amount">
                                         <fadeOut type="easeIn" duration="589589/720000s" />
@@ -3214,35 +3214,6 @@ Color : Heather Charcoal | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <title ref="r74" lane="3" offset="20449429/60000s" name="FLAT-FRONT STRAIGHT TROUSERS - 基本タイトル" start="216205990/60000s" duration="71071/12000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
-                                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3339660513/404" value="-3" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
-                                <text>
-                                    <text-style ref="ts90111">FLAT-FRONT STRAIGHT TROUSERS
-Color : Heather Charcoal | Size : XS, S, M
-¥ 11,000 - tax in</text-style>
-                                </text>
-                                <text-style-def id="ts90111">
-                                    <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
-                                </text-style-def>
-                                <text-style-def id="ts90112">
-                                    <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
-                                </text-style-def>
-                                <text-style-def id="ts90113">
-                                    <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
-                                </text-style-def>
-                                <text-style-def id="ts90114">
-                                    <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
-                                </text-style-def>
-                                <adjust-transform scale="0.7 0.7" />
-                            </title>
-                            <asset-clip ref="r193" lane="-1" offset="20449429/60000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
                         </mc-clip>
                         <mc-clip ref="rM1" offset="1824823/20000s" name="DSCF0032" start="20491471/60000s" duration="31031/30000s">
                             <adjust-volume>
@@ -3424,7 +3395,7 @@ Color : Heather Charcoal | Size : XS, S, M
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="5788783/60000s" name="DSCF0032" start="10547537/30000s" duration="11011/2400s">
+                        <mc-clip ref="rM1" offset="5788783/60000s" name="DSCF0032" start="10547537/30000s" duration="211211/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -3438,7 +3409,35 @@ Color : Heather Charcoal | Size : XS, S, M
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="3" offset="10547537/30000s" name="2026.10.31 sat 10pm - Release - 基本タイトル" start="108101994/30000s" duration="91091/20000s">
+                            <title ref="r74" lane="3" offset="10547537/30000s" name="FLAT-FRONT STRAIGHT TROUSERS - 基本タイトル" start="216205990/60000s" duration="1001/400s">
+                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
+                                <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
+                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
+                                <param name="配置" key="9999/999166631/999166633/2/354/3339660513/401" value="1 (水平方向に中央揃え)" />
+                                <param name="行間" key="9999/999166631/999166633/2/354/3339660513/404" value="-3" />
+                                <param name="配置" key="9999/999166631/999166633/2/354/3341122867/401" value="1 (水平方向に中央揃え)" />
+                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
+                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
+                                <text>
+                                    <text-style ref="ts90111">FLAT-FRONT STRAIGHT TROUSERS
+Color : Heather Charcoal | Size : XS, S, M
+¥ 11,000 - tax in</text-style>
+                                </text>
+                                <text-style-def id="ts90111">
+                                    <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
+                                </text-style-def>
+                                <text-style-def id="ts90112">
+                                    <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
+                                </text-style-def>
+                                <text-style-def id="ts90113">
+                                    <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
+                                </text-style-def>
+                                <text-style-def id="ts90114">
+                                    <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
+                                </text-style-def>
+                                <adjust-transform scale="0.7 0.7" />
+                            </title>
+                            <title ref="r74" lane="3" offset="2655653/7500s" name="2026.10.31 sat 10pm - Release - 基本タイトル" start="108101994/30000s" duration="91091/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.17325 -13.6782" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1.05 1.6092" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -3452,6 +3451,13 @@ Color : Heather Charcoal | Size : XS, S, M
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
                             </title>
+                            <asset-clip ref="r193" lane="-1" offset="10547537/30000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
+                            <asset-clip ref="rV2" name="DSCF0036" start="1008007/12000s" offset="10547537/30000s" duration="1001/400s" lane="3">
+                                <adjust-volume amount="-96dB" />
+                            </asset-clip>
+                            <asset-clip ref="rV2" name="DSCF0036" start="999999/10000s" offset="2655653/7500s" duration="91091/20000s" lane="3">
+                                <adjust-volume amount="-96dB" />
+                            </asset-clip>
                         </mc-clip>
                     </spine>
                 </sequence>

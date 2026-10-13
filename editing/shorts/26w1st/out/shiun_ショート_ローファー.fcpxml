@@ -66,15 +66,15 @@
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90113">
+                                    <text-style ref="ts90101">
 </text-style>
-                                    <text-style ref="ts90114">これが6cm盛った自</text-style>
-                                    <text-style ref="ts90113">分</text-style>
+                                    <text-style ref="ts90102">これが6cm盛った自</text-style>
+                                    <text-style ref="ts90101">分</text-style>
                                 </text>
-                                <text-style-def id="ts90113">
+                                <text-style-def id="ts90101">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90114">
+                                <text-style-def id="ts90102">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" kerning="1.75" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.75" />
@@ -944,13 +944,13 @@
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90115">COW LEATHER LOAFER
+                                    <text-style ref="ts90103">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 </text>
-                                <text-style-def id="ts90115">
+                                <text-style-def id="ts90103">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90116">
+                                <text-style-def id="ts90104">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
@@ -3065,36 +3065,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="7914907/20000s" name="税込み14,300円で作りました - 基本タイトル" start="216213998/60000s" duration="69069/20000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90101">
-</text-style>
-                                    <text-style ref="ts90102">税込み14,300円で作りまし</text-style>
-                                    <text-style ref="ts90101">た</text-style>
-                                </text>
-                                <text-style-def id="ts90101">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90102">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                             <title ref="r74" lane="3" offset="7914907/20000s" name="COW LEATHER LOAFER - 基本タイトル" start="216205990/60000s" duration="91091/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
@@ -3105,20 +3075,20 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90117">COW LEATHER LOAFER
+                                    <text-style ref="ts90105">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43
 ¥ 14,300 - tax in</text-style>
                                 </text>
-                                <text-style-def id="ts90117">
+                                <text-style-def id="ts90105">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90118">
+                                <text-style-def id="ts90106">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90119">
+                                <text-style-def id="ts90107">
                                     <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
-                                <text-style-def id="ts90120">
+                                <text-style-def id="ts90108">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
@@ -3184,36 +3154,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="24605581/60000s" name="shiunのオンラインストアで - 基本タイトル" start="216213998/60000s" duration="109109/60000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90103">
-</text-style>
-                                    <text-style ref="ts90104">shiunのオンラインストア</text-style>
-                                    <text-style ref="ts90103">で</text-style>
-                                </text>
-                                <text-style-def id="ts90103">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90104">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="1290289/15000s" name="DSCF0034" start="4937933/12000s" duration="31031/60000s">
                             <adjust-volume>
@@ -3244,36 +3184,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="24881857/60000s" name="以下の日程で発売します - 基本タイトル" start="216213998/60000s" duration="41041/20000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90105">
-</text-style>
-                                    <text-style ref="ts90106">以下の日程で発売しま</text-style>
-                                    <text-style ref="ts90105">す</text-style>
-                                </text>
-                                <text-style-def id="ts90105">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90106">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="163163/1875s" name="DSCF0034" start="1038037/2500s" duration="43043/60000s">
                             <adjust-volume>
@@ -3296,9 +3206,9 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-7" />
                                 <text>
-                                    <text-style ref="ts90121">2026.10.31 sat 10pm - Release</text-style>
+                                    <text-style ref="ts90109">2026.10.31 sat 10pm - Release</text-style>
                                 </text>
-                                <text-style-def id="ts90121">
+                                <text-style-def id="ts90109">
                                     <text-style font="Masqualero" fontSize="30" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-7" />
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
@@ -3333,36 +3243,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="157157/375s" name="低身長同士 - 基本タイトル" start="216213998/60000s" duration="67067/60000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90107">
-</text-style>
-                                    <text-style ref="ts90108">低身長同</text-style>
-                                    <text-style ref="ts90107">士</text-style>
-                                </text>
-                                <text-style-def id="ts90107">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90108">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="5382377/60000s" name="DSCF0034" start="25254229/60000s" duration="53053/60000s">
                             <adjust-volume>
@@ -3378,36 +3258,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="25254229/60000s" name="バレないように - 基本タイトル" start="216213998/60000s" duration="53053/60000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90109">
-</text-style>
-                                    <text-style ref="ts90110">バレないよう</text-style>
-                                    <text-style ref="ts90109">に</text-style>
-                                </text>
-                                <text-style-def id="ts90109">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90110">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="181181/2000s" name="DSCF0034" start="4251247/10000s" duration="13013/15000s">
                             <adjust-volume>
@@ -3423,36 +3273,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="4251247/10000s" name="身長を盛っていきましょう - 基本タイトル" start="216213998/60000s" duration="13013/10000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90111">
-</text-style>
-                                    <text-style ref="ts90112">身長を盛っていきましょ</text-style>
-                                    <text-style ref="ts90111">う</text-style>
-                                </text>
-                                <text-style-def id="ts90111">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90112">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="2743741/30000s" name="DSCF0034" start="8521513/20000s" duration="29029/60000s">
                             <adjust-volume>
