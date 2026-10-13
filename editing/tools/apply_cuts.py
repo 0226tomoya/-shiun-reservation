@@ -215,6 +215,36 @@ def main():
             a_, b_ = src_to_rough(t0), src_to_rough(row_t[end_r][1] - Fraction(1, 100))
             if a_ is not None and b_ is not None and b_ > a_:
                 cand.append(('価格の 2 回目（先に言った方）', ','.join(sorted(am)), a_, b_ + Fraction(1, 100)))
+        # 4) 締めのまとめ: 価格を言う直前に、その商品で説明済みの特徴を並べ直すかたまり（「そんな〜、」で挟まれた 3 文以上、
+        #    言葉の 5 割以上がその商品の前の発言にある）を削る。後ろの「そんな（ね）、」も一緒に（「そんな〜ローファーが」につながる）
+        def bigr(t):
+            t = re.sub(r'[、。\s]', '', t)
+            return [t[i:i + 2] for i in range(len(t) - 1)]
+        for i_, r in enumerate(rs):
+            if 'プライス' not in row_txt[r] and '価格' not in row_txt[r]:
+                continue
+            ra_ = src_to_rough(row_t[r][0])
+            if ra_ is None:
+                continue
+            ch0 = max([c for c in chapters_r if c <= ra_], default=Fraction(0))
+            j_ = i_ - 1  # 価格の直前の「そんな」
+            while j_ > i_ - 5 and j_ > 0 and not row_txt[rs[j_]].startswith('そんな'):
+                j_ -= 1
+            if not row_txt[rs[j_]].startswith('そんな'):
+                continue
+            k_ = j_ - 1  # その前の「そんな」まで戻る（最大 20 行）
+            while k_ > j_ - 20 and k_ > 0 and not row_txt[rs[k_]].startswith('そんな'):
+                k_ -= 1
+            if not row_txt[rs[k_]].startswith('そんな') or j_ - k_ < 4:
+                continue
+            block = rs[k_ + 1:j_ + 1]
+            n_sent = sum(row_txt[q].rstrip().endswith('。') for q in block)
+            earlier = ''.join(row_txt[q] for q in rs[:k_] if (src_to_rough(row_t[q][0]) or Fraction(-1)) >= ch0)
+            bg = bigr(''.join(row_txt[q] for q in block[:-1]))
+            ov = sum(b in earlier for b in bg) / max(1, len(bg))
+            a_, b_ = src_to_rough(row_t[block[0]][0]), src_to_rough(row_t[block[-1]][1] - Fraction(1, 100))
+            if n_sent >= 3 and ov >= 0.5 and a_ is not None and b_ is not None and Fraction(8) <= b_ - a_ <= 45:
+                cand.append(('締めのまとめ', f'言葉の重なり {ov:.0%}', a_, b_ + Fraction(1, 100)))
         # 3) 入らない差し込みの予告（スキル shiun-trial-event-insert / shiun-finish-cut の 3）:
         #    「この後に（短いバージョンで）差し込んでおきます」と言っていても、差し込む素材（plan.trial_event）が無いなら、
         #    予告の文（文の頭〜「ご覧ください」）と、続けて同じ話をしている文（別動画・長いバージョン・感想）を切る
