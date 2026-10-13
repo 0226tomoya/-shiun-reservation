@@ -167,28 +167,55 @@ def url(root_url, fname):
     if root_url.startswith('file://'):
         return 'file://' + quote(unquote(root_url[7:]) + fname)
     return root_url + quote(fname)
+# 実物の素材の情報（FCP で書き出した素材の XML から short_media_info.py で作る）。あれば asset をそのまま使う
+MINFO_PATH = os.environ.get('SHORT_MEDIA_INFO') or edl.get('media_info')
+MINFO = json.load(open(MINFO_PATH)) if MINFO_PATH and os.path.exists(MINFO_PATH) else {}
+src0 = {}  # 素材名 → 素材の頭の時刻（タイムコード）
+
+
+def real_asset(rid, key, fallback_attrs, fallback_src):
+    """実物の情報があればそれで asset を作る（頭の時刻・長さ・チャンネル・uid・format を実物と同じにする）"""
+    mi = MINFO.get(key)
+    if not mi:
+        el = ET.SubElement(resources, 'asset', dict(fallback_attrs, id=rid))
+        ET.SubElement(el, 'media-rep', {'kind': 'original-media', 'src': fallback_src})
+        src0[key] = Fr(0)
+        return el
+    attrs = dict(mi['asset'])
+    if mi.get('format'):
+        fid = 'rF' + rid
+        ET.SubElement(resources, 'format', dict(mi['format'], id=fid))
+        attrs['format'] = fid
+    el = ET.SubElement(resources, 'asset', dict(attrs, id=rid))
+    rep = ET.SubElement(el, 'media-rep', {'kind': 'original-media', 'src': mi['src'] or fallback_src})
+    if mi.get('bookmark'):
+        ET.SubElement(rep, 'bookmark').text = mi['bookmark']
+    src0[key] = parse_t(attrs.get('start'))
+    return el
+
+
 mc_of = {}
 n = 0
 for name, c in edl['clips'].items():
     n += 1
     vid = f'rV{n}'; aid = f'rA{n}'; mid = f'rM{n}'
     vdur = int(Fr(c['dur']) / SFD) * SFD  # 素材のコマ単位
-    a = ET.SubElement(resources, 'asset', {'id': vid, 'name': name, 'start': '0s', 'duration': ts(vdur), 'hasVideo': '1', 'format': fmt_src_id, 'videoSources': '1', 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'})
-    ET.SubElement(a, 'media-rep', {'kind': 'original-media', 'src': url(edl['media_root'], name + '.MOV')})
+    real_asset(vid, name, {'name': name, 'start': '0s', 'duration': ts(vdur), 'hasVideo': '1', 'format': fmt_src_id, 'videoSources': '1', 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'},
+               url(edl['media_root'], name + '.MOV'))
     if c.get('mic'):
-        b = ET.SubElement(resources, 'asset', {'id': aid, 'name': c['mic'][:-4], 'start': '0s', 'duration': ats(c['mic_dur']), 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '1', 'audioRate': '48000'})
-        ET.SubElement(b, 'media-rep', {'kind': 'original-media', 'src': url(edl['audio_root'], c['mic'])})
+        real_asset(aid, c['mic'][:-4], {'name': c['mic'][:-4], 'start': '0s', 'duration': ats(c['mic_dur']), 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '1', 'audioRate': '48000'},
+                   url(edl['audio_root'], c['mic']))
         # マルチカム: 映像を 0 に、マイクをずれぶん動かす（マイクの時刻 = 映像の時刻 + offset）
         med = ET.SubElement(resources, 'media', {'id': mid, 'name': name + ' マルチカム'})
         mc = ET.SubElement(med, 'multicam', {'format': seq_fmt, 'tcStart': '0s', 'tcFormat': 'NDF'})
         av = ET.SubElement(mc, 'mc-angle', {'name': name, 'angleID': f'V{n}'})
-        ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'duration': ts(vdur), 'audioRole': 'dialogue'})
+        ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'start': ts(src0[name]), 'duration': ts(vdur), 'audioRole': 'dialogue'})
         aa = ET.SubElement(mc, 'mc-angle', {'name': 'ピンマイク', 'angleID': f'A{n}'})
         off = c['offset']
         if off >= 0:
-            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': '0s', 'name': c['mic'][:-4], 'start': ats(off), 'duration': ats(c['mic_dur'] - off), 'audioRole': 'dialogue'})
+            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': '0s', 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]] + Fr(round(off * 48000), 48000)), 'duration': ats(c['mic_dur'] - off), 'audioRole': 'dialogue'})
         else:
-            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': ats(-off), 'name': c['mic'][:-4], 'duration': ats(c['mic_dur']), 'audioRole': 'dialogue'})
+            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': ats(-off), 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]]), 'duration': ats(c['mic_dur']), 'audioRole': 'dialogue'})
         mc_of[name] = (mid, f'V{n}', f'A{n}')
     else:
         mc_of[name] = (None, vid, None)
@@ -218,7 +245,7 @@ for s in edl['segments']:
         if limiter is not None:
             need(limiter.get('ref')); el.append(copy.deepcopy(limiter))
     else:
-        el = ET.SubElement(spine, 'asset-clip', {'ref': vang, 'offset': ts(tl), 'name': s['clip'], 'start': ts(a), 'duration': ts(b - a)})
+        el = ET.SubElement(spine, 'asset-clip', {'ref': vang, 'offset': ts(tl), 'name': s['clip'], 'start': ts(src0[s['clip']] + a), 'duration': ts(b - a)})
     placed.append((tl, tl + b - a, el, a))
     tl += b - a
 
@@ -289,7 +316,7 @@ for ins in edl.get('inserts', []):
     ref = vang if not mid else None
     if ref is None:
         continue
-    el = ET.Element('asset-clip', {'ref': ref, 'name': ins['clip'], 'start': ts(fr(ins['in']))})
+    el = ET.Element('asset-clip', {'ref': ref, 'name': ins['clip'], 'start': ts(src0[ins['clip']] + fr(ins['in']))})
     ET.SubElement(el, 'adjust-volume', {'amount': '-96dB'})
     if ins.get('scale'):
         ET.SubElement(el, 'adjust-transform', {'scale': f"{ins['scale']} {ins['scale']}", 'position': ins.get('position', '0 0')})
