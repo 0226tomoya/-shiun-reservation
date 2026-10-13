@@ -96,3 +96,4 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 中身で削る仕上げカットは自動で入れ、削った所を一覧で報告する（content_trim = "auto"。shiun-cut-content-trim）。
 - 説明テロップの文は 台本 → EC → 発言の要約 の順（plan.script。shiun-telop-explain-source）。色は英字大文字で 1 色 1 枚。
 - 後から届いた写真は部位を台帳に書いて、発言と合わせて使う（shiun-insert-explain-visual）。
+- カットの端が粗編集の境目から 2 コマ以内なら境目に合わせる。消すカットのチャプターマーカーは次に残るカットへ移す（shiun-cut-audit）。

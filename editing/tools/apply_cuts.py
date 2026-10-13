@@ -49,6 +49,16 @@ def fit_to_voice(a, b, items, mic, fd):
         _VM[mic] = voice_map(mic)
     vm = _VM[mic]
     H = Fraction(1, 100)
+    # 端が粗編集のカットの境目（2 コマ以内）なら境目に合わせて動かさない。
+    # （丸めで境目の手前に落ちると、前のカットの素材の続きで声を探して、次のカット＝別の話・チャプターの頭まで食い込むため）
+    bounds = sorted({T(e.get('offset')) for e in items} | {T(e.get('offset')) + T(e.get('duration')) for e in items})
+    nb_a = min(bounds, key=lambda x: abs(x - a))
+    nb_b = min(bounds, key=lambda x: abs(x - b))
+    a_fixed, b_fixed = abs(nb_a - a) <= 2 * fd, abs(nb_b - b) <= 2 * fd
+    if a_fixed:
+        a = nb_a
+    if b_fixed:
+        b = nb_b
 
     def voiced(t):
         i = int(t / H)
@@ -62,7 +72,7 @@ def fit_to_voice(a, b, items, mic, fd):
         return None, None, None
     # 前の終わり: そこから前に戻って、6 回（60ms）以上続く無音の直前の声の終わりを探す
     e, sa, off = src(a - fd)
-    if e is not None:
+    if e is not None and not a_fixed:
         sa = sa + fd
         k = sa
         while k > sa - 2 and voiced(k - H):  # 次の発言の頭が入っていたら、その頭まで戻す
@@ -78,7 +88,7 @@ def fit_to_voice(a, b, items, mic, fd):
             a = off
     # 次の頭: 粗編集のカットの頭ちょうどならそのまま、そうでなければ言い始めの 0.08 秒前
     e, sb, off = src(b)
-    if e is not None and abs(b - off) > fd:
+    if e is not None and abs(b - off) > fd and not b_fixed:
         k = sb
         while k < sb + 2 and not voiced(k):
             k += H
@@ -303,6 +313,7 @@ def main():
             k += 1
     new_items, new_subj = [], []
     removed = 0
+    carry = []
     for e, si in zip(items, mc_index):
         off, du, st = T(e.get('offset')), T(e.get('duration')), T(e.get('start'))
         pieces = [(off, off + du)]
@@ -319,7 +330,23 @@ def main():
             pieces = nxt
         if not pieces:
             removed += 1
+            # 丸ごと消すカットのチャプターマーカーは、次に残るカットの頭へ移す（商品の区切り＝アイキャッチの位置を失わない）
+            carry += [m for m in e if m.tag == 'chapter-marker']
             continue
+        # 残る範囲から外れたチャプターマーカーは、その後ろで最初に残る所へ寄せる
+        for m in e.findall('chapter-marker'):
+            ms = T(m.get('start'))
+            tl_ = off + (ms - st)
+            if not any(p0 <= tl_ < p1 for p0, p1 in pieces):
+                p_ = next(((p0, p1) for p0, p1 in pieces if p0 >= tl_), pieces[-1])
+                m.set('start', S(st + (p_[0] - off)))
+        if carry:
+            st0 = st + (pieces[0][0] - off)
+            for m in carry:
+                m2 = copy.deepcopy(m)
+                m2.set('start', S(st0))
+                e.insert(0, m2)
+            carry = []
         for p0, p1 in pieces:
             x = copy.deepcopy(e) if len(pieces) > 1 or (p0, p1) != (off, off + du) else e
             x.set('start', S(st + (p0 - off)))
