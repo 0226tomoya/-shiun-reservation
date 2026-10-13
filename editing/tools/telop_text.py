@@ -135,3 +135,35 @@ class ExplainSource:
             return re.sub(r'(\d+)ゲージ', r'\1G', t)
         self.used.add((best[1], best[2]))
         return tidy(best[2])
+
+    def assign(self, texts):
+        """区間の説明テロップ（要約）をまとめて材料の文に割り当てる。いちばんよく合う組から順に決める
+        （前から順に決めると、先のテロップが後のテロップに合う文を取ってしまう）。"""
+        scored = []
+        for i, text in enumerate(texts):
+            t = _n(text)
+            for k, pool in enumerate(self.pools):
+                bonus = 0.1 if k == 0 and len(self.pools) > 1 else 0
+                for sent, c in pool:
+                    r = SequenceMatcher(None, t, _n(tidy(c))).ratio()
+                    if r >= THRESH:
+                        scored.append((r + bonus, i, sent, c))
+        scored.sort(key=lambda x: -x[0])
+        out = [None] * len(texts)
+        for sc_, i, sent, c in scored:
+            if out[i] is not None:
+                continue
+            if any(sent == s0 and (c in c0 or c0 in c) for s0, c0 in self.used):
+                continue
+            self.used.add((sent, c))
+            out[i] = tidy(c)
+        res = []
+        for i, text in enumerate(texts):
+            if out[i] is not None:
+                res.append(out[i])
+            else:
+                t = text.rstrip('。')
+                for a, b in SPOKEN:
+                    t = t.replace(a, b)
+                res.append(re.sub(r'(\d+)ゲージ', r'\1G', t))
+        return res
