@@ -40,12 +40,12 @@ def to_src(old, tin, tout):
     tr = json.load(open(tin, encoding='utf-8'))
     segs = tr['segments'] if isinstance(tr, dict) else tr
     out = []
-    for s in segs:
+    for k, s in enumerate(segs):
         for w in s.get('words', []):
             for off, du, ref, st in so:
                 if off <= w['start'] < off + du:
                     a = st + (w['start'] - off)
-                    out.append([ref, round(a, 3), round(a + w['end'] - w['start'], 3), w['word']])
+                    out.append([ref, round(a, 3), round(a + w['end'] - w['start'], 3), w['word'], k + 1])
                     break
     json.dump(out, open(tout, 'w', encoding='utf-8'), ensure_ascii=False)
     print('素材の時刻の単語', len(out), '->', tout)

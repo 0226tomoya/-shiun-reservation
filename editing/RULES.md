@@ -90,3 +90,4 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 本人・試着した人の身長とサイズを言ったら「164cm 58kg / size S」（shiun-telop-self-label）。
 - ユーザー指定のインサートの区間にある自動のインサートは外す。当たらなくなった修正は止めずに記録する（shiun-overrides）。
 - 字幕の下で左下のクレジットが切り替わるときは、字幕も分けてそろえる（shiun-telop-timing）。
+- 身長別比較の直前は「〜の動画が」で止め、「こちらです。どうぞ。」は `apply_cuts.py --words` が自動で切る（shiun-finish-cut）。

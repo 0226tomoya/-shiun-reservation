@@ -124,7 +124,52 @@ def main():
         ra = o + (sa - st)
         rb = o + (min(sb, st + du) - st)
         cuts.append((round(ra / fd) * fd, round(rb / fd) * fd))
+    # 自動の仕上げカット（スキル shiun-finish-cut の「必ず切っていたもの」）: 身長別比較の直前は「〜の動画が」で止め、
+    # その後の「こちらです。どうぞ。」は削る（差し込む映像がその答えになる）。--words（remap_transcript.py --src）が要る
+    if '--words' in sys.argv and plan.get('subtitles'):
+        import os
+        import re
+        W = json.load(open(sys.argv[sys.argv.index('--words') + 1], encoding='utf-8'))
+        subs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(plan_path)), plan['subtitles']), encoding='utf-8'))
+        rows = {}
+        for w in W:
+            rows.setdefault(w[4], []).append(w)
+        auto = []
+        for ch, k in subs.get('size_compare_at', {}).items():
+            k = int(k)
+            r0 = next((r for r in range(k, k + 4) if '動画' in ''.join(w[3] for w in rows.get(r, []))), None)
+            if r0 is None:
+                continue
+            ws = [w for r in range(r0, r0 + 3) for w in rows.get(r, [])]
+            txt, pos = '', []
+            for w in ws:
+                pos.append(len(txt))
+                txt += w[3]
+            m = re.search(r'動画が、?(こちら(?:です)?(?:ね)?[、。]?(?:どうぞ[。、]?)?)', txt)
+            if not m:
+                continue
+            i0 = max(i for i, p_ in enumerate(pos) if p_ <= m.start(1))
+            i1 = max(i for i, p_ in enumerate(pos) if p_ < m.end(1))
+            auto.append((Fraction(str(ws[i0][1])), Fraction(str(ws[i1][2])), ch, m.group(1)))
+        for sa, sb, ch, said in auto:
+            for e in items:
+                if e.tag != 'mc-clip':
+                    continue
+                st, du = T(e.get('start')), T(e.get('duration'))
+                a_, b_ = max(sa, st), min(sb, st + du)
+                if b_ - a_ > Fraction(1, 20):
+                    o = T(e.get('offset'))
+                    cuts.append((round((o + a_ - st) / fd) * fd, round((o + b_ - st) / fd) * fd))
+            print('自動の仕上げカット（身長別の直前）:', ch, said, round(float(sa), 2), '〜', round(float(sb), 2))
     cuts.sort()
+    # 重なる・接するカットはまとめる
+    merged = []
+    for a, b in cuts:
+        if merged and a <= merged[-1][1] + fd:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], b))
+        else:
+            merged.append((a, b))
+    cuts = merged
     if mic:
         cuts = [fit_to_voice(a, b, items, mic, fd) for a, b in cuts]
     for a, b in cuts:
