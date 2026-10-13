@@ -1,11 +1,13 @@
 """説明テロップの文を EC の説明文に寄せる（スキル shiun-telop-explain-source）。
 
-    from telop_text import ExplainSource
-    src = ExplainSource(product)          # plan の products の 1 件（design / material / lines）
-    text = src.rewrite(text)              # 発言の要約 → EC の文（一致が低ければそのまま）
+    from telop_text import ExplainSource, load_script
+    script = load_script(PATH_TO_台本.md)  # {商品名: [文, ...]}
+    src = ExplainSource(product, script.get(product['name']))
+    text = src.rewrite(text)              # 発言の要約 → 台本の文 → EC の文（一致が低ければそのまま）
 
 決まり（A24 の修正版との比較で分かったもの。次の回でも同じ）:
-- 材料の順: EC の説明文（design / material）→ 台本（lines）→ 発言の要約。
+- 材料の順: 台本（ユーザー: 「基本テロップは台本から取ってる」）→ EC の説明文（design / material・plan の lines）→ 発言の要約。
+  台本の文はできるだけそのまま使う。どの文をどの発言の所に出すかは、発言（の要約）との一致で決める。
 - 要約と EC の文（文・読点で区切った連続する節）の一致が 0.35 以上なら EC の文を使う。
 - 1 枚に 1 つの仕様。同じ EC の節は 2 回使わない（使った節と重なる節は候補から外す）。
 - 節で切るときは、文として終わっている所で切る（「〜ので」「〜ため」「〜ことで」で止めない）。
@@ -47,11 +49,36 @@ def tidy(t):
     return t
 
 
-def candidates(product):
-    """EC の説明文・台本を、文と「読点で区切った連続する節」に分ける。"""
+def load_script(path):
+    """台本（Markdown）を商品ごとの文の並びにする。見出し「## 商品名 ¥価格（読み）」、本文は箇条書き。
+    色・素材の混率・寸法・価格の行は説明の文ではないので外す。「デザイン:」「素材:」の頭は落とす。"""
+    out, cur = {}, None
+    try:
+        lines = open(path, encoding='utf-8').read().split('\n')
+    except OSError:
+        return out
+    for ln in lines:
+        m = re.match(r'^##\s+(.+?)\s+¥', ln)
+        if m:
+            cur = m.group(1).strip()
+            out[cur] = []
+            continue
+        if cur is None or not ln.startswith('- '):
+            continue
+        t = ln[2:].strip()
+        if re.match(r'^(Color|Material|Size|着丈|ウエスト|¥)', t):
+            continue
+        t = re.sub(r'^(デザイン|素材|Design|Material)\s*[:：]\s*', '', t)
+        out[cur].append(t)
+    return out
+
+
+def candidates(product, texts=None):
+    """説明の文を、文と「読点で区切った連続する節」に分ける。texts が無ければ EC の説明文と plan の lines。"""
     out = []
-    texts = [product.get('design') or '', product.get('material') or '']
-    texts += [l[1] for l in (product.get('lines') or []) if len(l) > 1]
+    if texts is None:
+        texts = [product.get('design') or '', product.get('material') or '']
+        texts += [l[1] for l in (product.get('lines') or []) if len(l) > 1]
     for body in texts:
         for sent in re.split(r'(?<=[。])', body):
             sent = sent.strip()
@@ -67,14 +94,15 @@ def candidates(product):
 
 
 class ExplainSource:
-    def __init__(self, product):
-        self.cands = candidates(product or {})
+    def __init__(self, product, script=None):
+        self.pools = [candidates(product or {}, script)] if script else []
+        self.pools.append(candidates(product or {}))
         self.used = set()
 
-    def best(self, text):
+    def best(self, text, pool):
         t = _n(text)
         best = (0.0, None, None)
-        for sent, c in self.cands:
+        for sent, c in pool:
             if any(sent == s0 and (c in c0 or c0 in c) for s0, c0 in self.used):
                 continue
             r = SequenceMatcher(None, t, _n(tidy(c))).ratio()
@@ -83,8 +111,9 @@ class ExplainSource:
         return best
 
     def rewrite(self, text):
-        r, sent, c = self.best(text)
-        if c is None or r < THRESH:
-            return text
-        self.used.add((sent, c))
-        return tidy(c)
+        for pool in self.pools:  # 台本 → EC の順。先の材料で一致すればそれを使う
+            r, sent, c = self.best(text, pool)
+            if c is not None and r >= THRESH:
+                self.used.add((sent, c))
+                return tidy(c)
+        return text

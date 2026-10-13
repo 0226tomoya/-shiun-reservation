@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from assemble_lineup import Donor, T, S, norm  # noqa: E402
 from build_lineup import Templates, apply_template, set_transform  # noqa: E402
 from fcpxml_util import append_anchor  # noqa: E402
-from telop_text import ExplainSource  # noqa: E402
+from telop_text import ExplainSource, load_script  # noqa: E402
 
 LANE = {'photo_bg': 3, 'photo_fg': 4, 'center': 5, 'section': 6, 'subtitle': 7, 'ed_name': 8}
 
@@ -588,7 +588,7 @@ def main():
             ins_end = i0 + di
             mine = [x for x in SUBS if t0 <= x['t0'] < t1]
             # 説明テロップの文は EC の説明文に寄せる（スキル shiun-telop-explain-source）。気持ち・強調の発言はそのまま
-            ex_src = ExplainSource(pr)
+            ex_src = ExplainSource(pr, load_script(os.path.join(base, plan['script'])).get(pr['name']) if plan.get('script') else None)
             for x in mine:
                 if not x['face'] and x['style'] != 'emphasis':
                     x['text'] = ex_src.rewrite(x['text'])

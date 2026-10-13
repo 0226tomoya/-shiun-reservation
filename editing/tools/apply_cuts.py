@@ -215,10 +215,42 @@ def main():
             a_, b_ = src_to_rough(t0), src_to_rough(row_t[end_r][1] - Fraction(1, 100))
             if a_ is not None and b_ is not None and b_ > a_:
                 cand.append(('価格の 2 回目（先に言った方）', ','.join(sorted(am)), a_, b_ + Fraction(1, 100)))
+        # 3) 入らない差し込みの予告（スキル shiun-trial-event-insert / shiun-finish-cut の 3）:
+        #    「この後に（短いバージョンで）差し込んでおきます」と言っていても、差し込む素材（plan.trial_event）が無いなら、
+        #    予告の文（文の頭〜「ご覧ください」）と、続けて同じ話をしている文（別動画・長いバージョン・感想）を切る
+        if not plan.get('trial_event'):
+            for i_, r in enumerate(rs):
+                if '差し込' not in row_txt[r]:
+                    continue
+                j0 = i_
+                while j0 > 0 and i_ - j0 < 8 and not row_txt[rs[j0 - 1]].rstrip().endswith(('。', '？', '!', '！')):
+                    j0 -= 1
+                j1 = i_
+                while j1 + 1 < len(rs) and j1 - i_ < 8 and not row_txt[rs[j1]].rstrip().endswith(('。', '？', '！')):
+                    j1 += 1
+                # 続けて同じ話（別動画・長いバージョン・感想）をしている文も
+                while j1 + 1 < len(rs):
+                    k_ = j1 + 1
+                    sent = []
+                    while k_ < len(rs) and k_ - j1 <= 8:
+                        sent.append(rs[k_])
+                        if row_txt[rs[k_]].rstrip().endswith(('。', '？', '！')):
+                            break
+                        k_ += 1
+                    if re.search(r'別動画|バージョン|感想|差し込', ''.join(row_txt[q] for q in sent)):
+                        j1 = k_
+                    else:
+                        break
+                a_ = src_to_rough(row_t[rs[j0]][0])
+                b_ = src_to_rough(row_t[rs[j1]][1] - Fraction(1, 100))
+                if a_ is not None and b_ is not None and b_ > a_:
+                    cand.append(('入らない差し込みの予告', ''.join(row_txt[q] for q in rs[j0:j1 + 1])[:30], a_, b_ + Fraction(1, 100)))
+                    print('自動の仕上げカット（入らない差し込みの予告）:', ''.join(row_txt[q] for q in rs[j0:j1 + 1]))
         for kind, ch, a_, b_ in cand:
             print('中身で削る候補:', kind, ch, '粗編集', round(float(a_), 2), '〜', round(float(b_), 2), f'({float(b_ - a_):.1f} 秒)')
-        if ed.get('content_trim') == 'auto':
-            cuts += [(round(a_ / fd) * fd, round(b_ / fd) * fd) for _, _, a_, b_ in cand]
+        # 入らない差し込みの予告は必ず切る（予告だけ残ると視聴者が探す）。中身で削る候補は content_trim = "auto" のとき
+        cuts += [(round(a_ / fd) * fd, round(b_ / fd) * fd) for k_, _, a_, b_ in cand
+                 if k_ == '入らない差し込みの予告' or ed.get('content_trim') == 'auto']
     cuts.sort()
     # 重なる・接するカットはまとめる
     merged = []
