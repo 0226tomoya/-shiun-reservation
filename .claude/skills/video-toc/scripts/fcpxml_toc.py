@@ -163,6 +163,11 @@ def compute(markers, eyecatches, total, *, label="{n}人目", op=True, ed=True,
         chapters, leftover = pair_eyecatches(eyecatches, markers, tolerance)
         # 目次の時刻: basis に従う (ピンが無いアイキャッチはアイキャッチ終了)
         chapters = [((c[4] if basis == "eyecatch" else c[0]), c[1], c[2], c[3]) for c in chapters]
+        # 最初のアイキャッチより前のピン = OP 明け (OP ムービー等の直後でアイキャッチが無い)。目次に載せる
+        first_eye = min(e[0] for e in eyecatches) - Fraction(1, 2)
+        op_pins = [m for m in leftover if 0 < m[0] < first_eye]
+        leftover = [m for m in leftover if m not in op_pins]
+        chapters = [(m[0], m[1], "OP明け", True) for m in op_pins] + chapters
         dedup = []
         for c in chapters:
             if not dedup or int(c[0] * scale) != int(dedup[-1][0] * scale):
