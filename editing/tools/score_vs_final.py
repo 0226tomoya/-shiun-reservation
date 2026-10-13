@@ -1,7 +1,11 @@
 """自作のラインナップ動画を、完成版（編集者の修正版 XML ＝完成動画と同じ長さ・中身）と比べて 100 点で採点する。
 完成動画は修正版 XML をそのまま書き出したもの（長さ 2056.254 秒まで一致）なので、XML どうしを比べれば完成動画との差になる。
 
-    python3 score_vs_final.py OURS.fcpxml FINAL_FLAT.json [--detail]
+    python3 score_vs_final.py OURS.fcpxml FINAL_FLAT.json [--detail] [--exclude 開始-終了 ...]
+
+--exclude: 完成のタイムラインで「ユーザーが入れないと決めた区間」（秒）。何度でも指定できる。
+  完成側からその区間を除き（本線・編集点・テロップ・インサート・長さ）、自作側からは同じ素材（同じマルチカム・同じ素材の時刻）の所を除く。
+  回ごとの秒数は採点器に書かず、呼ぶ側が渡す。
 
 FINAL_FLAT は fcpxml_flat.py で修正版を平らにしたもの。
 項目（合計 100）:
@@ -138,19 +142,58 @@ def inserts(F):
             if x['lane'] >= 2 and x['kind'] in ('video', 'clip', 'asset-clip', 'ref-clip', 'mc-clip') and x['end'] > x['start'] >= 0]
 
 
+def named_segs(F):
+    return sorted((x['start'], x['end'], x['src_in'], x['src_in'] + x['end'] - x['start'], x.get('ref_name') or x.get('name') or '')
+                  for x in F if x['lane'] == 0 and x['kind'] in ('mc-clip', 'asset-clip', 'clip') and x['end'] > x['start'])
+
+
+def minus(segs, cut):
+    """[(tl0, tl1, s0, s1, name)] から、cut(tl0, tl1, s0, s1, name) が返す素材の区間 [(a, b)] を除いた残り"""
+    out = []
+    for a, b, s0, s1, n in segs:
+        pieces = [(s0, s1)]
+        for c0, c1 in cut(a, b, s0, s1, n):
+            nxt = []
+            for p0, p1 in pieces:
+                if c1 <= p0 or c0 >= p1:
+                    nxt.append((p0, p1))
+                    continue
+                if p0 < c0:
+                    nxt.append((p0, c0))
+                if c1 < p1:
+                    nxt.append((c1, p1))
+            pieces = nxt
+        for p0, p1 in pieces:
+            if p1 - p0 > 1e-6:
+                out.append((a + (p0 - s0), a + (p1 - s0), p0, p1, n))
+    return out
+
+
 def main():
     ours, fin = flat(sys.argv[1]), flat(sys.argv[2])
     detail = '--detail' in sys.argv
+    EX = []
+    for k, v in enumerate(sys.argv):
+        if v == '--exclude':
+            a, b = sys.argv[k + 1].split('-')
+            EX.append((float(a), float(b)))
+    in_ex = lambda t: any(a < t < b for a, b in EX)
+    NF, NO = named_segs(fin), named_segs(ours)
+    # 完成の除く区間の素材（マルチカムの名前・素材の時刻）
+    ex_src = [(n, s0 + max(0, a - t0), s0 + min(t1, b) - t0) for t0, t1, s0, s1, n in NF for a, b in EX if t0 < b and a < t1]
+    NFk = minus(NF, lambda t0, t1, s0, s1, n: [(s0 + max(0, a - t0), s0 + min(t1, b) - t0) for a, b in EX if t0 < b and a < t1])
+    NOk = minus(NO, lambda t0, t1, s0, s1, n: [(c0, c1) for m, c0, c1 in ex_src if m == n])
+    ex_ours_len = sum(t1 - t0 for t0, t1, s0, s1, n in NO) - sum(t1 - t0 for t0, t1, s0, s1, n in NOk)
     So, Sf = main_segs(ours), main_segs(fin)
     pts, notes = {}, []
     # 本線
-    srcO, srcF = [(c, d) for a, b, c, d in So], [(c, d) for a, b, c, d in Sf]
+    srcO, srcF = [(c, d) for a, b, c, d, n in NOk], [(c, d) for a, b, c, d, n in NFk]
     hit = inter(srcO, srcF)
     rec, prec = hit / max(1e-9, total(srcF)), hit / max(1e-9, total(srcO))
     pts['本線'] = (round(20 * rec + 10 * prec, 1), 30)
     notes.append(f'本線: 完成の素材 {total(srcF):.0f} 秒のうち {rec:.1%} を使用・自作の素材のうち {prec:.1%} が完成にもある')
     # 編集点（素材の時刻の継ぎ目）
-    cutsF = sorted({round(d, 3) for a, b, c, d in Sf} | {round(c, 3) for a, b, c, d in Sf})
+    cutsF = sorted({round(d, 3) for a, b, c, d in Sf if not in_ex(b)} | {round(c, 3) for a, b, c, d in Sf if not in_ex(a)})
     cutsO = sorted({d for a, b, c, d in So} | {c for a, b, c, d in So})
     import bisect
     def near(v, arr):
@@ -165,6 +208,7 @@ def main():
     spO = [(x['start'], x['end'], norm(x['text'])) for x in ours
            if x['kind'] == 'title' and norm(x.get('text')) and 'Adjustment' not in (x.get('ref_name') or '')]
     good = 0; miss = []
+    tF = [x for x in tF if not in_ex(x[3])]
     for s_, t, n, tl in tF:
         T_ = MO.to_tl(MF.key(tl), tl)
         if T_ is None:
@@ -200,6 +244,9 @@ def main():
     for a, b in union([(a, b) for a, b, n in iF]):
         t = a + step / 2
         while t < b:
+            if in_ex(t):
+                t += step
+                continue
             tot_c += step
             T_ = MO.to_tl(MF.key(t), t)
             if T_ is not None and covered(T_):
@@ -211,17 +258,22 @@ def main():
         key = re.sub(r'[_\-\s].*', '', n)[:6]
         t = a + step / 2
         while t < b:
+            if in_ex(t):
+                t += step
+                continue
             T_ = MO.to_tl(MF.key(t), t)
             if T_ is not None and key and any(key in n2 for n2 in names_at(T_)):
                 same += step
             t += step
-    same /= max(1e-9, sum(b - a for a, b, n in iF))
+    same /= max(1e-9, sum(b - a for a, b, n in iF) - sum(max(0, min(b, y) - max(a, x)) for a, b, n in iF for x, y in EX))
     pts['インサート'] = (round(10 * cov + 10 * same, 1), 20)
     notes.append(f'インサート: 完成の覆う時間のうち {cov:.1%} を自作も覆う・同じ素材 {same:.1%}')
     # 長さ
     LF, LO = max(x['end'] for x in fin), max(x['end'] for x in ours)
+    LF -= total([(max(0, a), min(LF, b)) for a, b in EX if b > a])
+    LO -= ex_ours_len
     pts['長さ'] = (round(max(0, 10 - abs(LF - LO) / 10), 1), 10)
-    notes.append(f'長さ: 完成 {LF:.1f} 秒・自作 {LO:.1f} 秒')
+    notes.append(f'長さ: 完成 {LF:.1f} 秒・自作 {LO:.1f} 秒' + (f'（除いた区間 {len(EX)} か所を引いた長さ）' if EX else ''))
     score = round(sum(v[0] for v in pts.values()), 1)
     res = {'score': score, 'parts': pts, 'notes': notes}
     if detail:
