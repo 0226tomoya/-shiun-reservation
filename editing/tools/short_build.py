@@ -14,7 +14,7 @@ python3 short_build.py edl.json out.fcpxml
  "media_root": "file:///…/本編/" ,   # 素材の場所（Mac で開いたとき relink しやすいように）
  "audio_root": "file:///…/音声/",
  "clips": {"DSCF0030": {"dur": 324.0, "fps": 24, "mic": "TX02_MIC035_….wav", "mic_dur": 328.44, "offset": 2.7284}},
- "segments": [{"clip": "DSCF0030", "in": 12.3, "out": 13.0}],        # 本線（素材の映像の秒）。順に並べる
+ "segments": [{"clip": "DSCF0030", "in": 12.3, "out": 13.0}],        # 本線（素材の映像の秒）。順に並べる。任意で "scale": 1.05, "position": "0 2.08"（画角そろえ）
  "inserts":  [{"clip": "DSCF0031", "in": 5.0, "out": 7.0, "at": 20.0, "lane": 2}],  # 本線の上に重ねる映像（音なし）
  "subs":     [{"text": "低身長のために", "at": 0.0, "dur": 1.6}],      # 字幕（タイムラインの秒）
  "cards":    [{"kind": "hook|product|product_side|price|release|height", "lines": ["…"], "at": 0, "dur": 3}],
@@ -192,6 +192,9 @@ for s in edl['segments']:
     mid, vang, aang = mc_of[s['clip']]
     if mid:
         el = ET.SubElement(spine, 'mc-clip', {'ref': mid, 'offset': ts(tl), 'name': s['clip'], 'start': ts(a), 'duration': ts(b - a)})
+        if s.get('scale') or s.get('position'):  # 画角をそろえる（任意。DTD の順で音の調整より前）
+            sc = s.get('scale', 1)
+            ET.SubElement(el, 'adjust-transform', {'position': s.get('position', '0 0'), 'scale': f'{sc} {sc}'})
         if mc_fades is not None:
             el.append(copy.deepcopy(mc_fades))
         ET.SubElement(el, 'mc-source', {'angleID': aang, 'srcEnable': 'audio'})
