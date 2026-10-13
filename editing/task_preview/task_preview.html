@@ -1,0 +1,136 @@
+<title>タスクプレビュー</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* 作業ボード: 上に全体の進み具合、下に手順ごとのバー、右（狭い画面では下）に最近の動き。データは db の boards コレクション */
+:root{
+  --bg:#f3f4f1; --panel:#ffffff; --ink:#1e2522; --mut:#69726d; --line:#dfe3dd;
+  --track:#e7eae4; --accent:#2c6a57; --doing:#c48a1c; --blocked:#b8463b; --todo:#a7aea8;
+  --ff:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --fm:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141816; --panel:#1b201d; --ink:#e7ebe6; --mut:#97a19b; --line:#2a312d;
+  --track:#262d29; --accent:#5fb595; --doing:#e2ab45; --blocked:#e07a6e; --todo:#5d6762; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141816; --panel:#1b201d; --ink:#e7ebe6; --mut:#97a19b; --line:#2a312d;
+  --track:#262d29; --accent:#5fb595; --doing:#e2ab45; --blocked:#e07a6e; --todo:#5d6762; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--ff);font-size:15px;line-height:1.6}
+.wrap{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:20px 40px;display:grid;gap:16px}
+header{display:grid;gap:6px}
+.eyebrow{font-size:12px;letter-spacing:.08em;color:var(--mut)}
+h1{margin:0;font-size:22px;font-weight:700;text-wrap:balance}
+.statusline{color:var(--mut);font-size:14px}
+.live{display:inline-flex;align-items:center;gap:6px;font-family:var(--fm);font-size:12px;color:var(--mut)}
+.pulse{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.stale .pulse{background:var(--todo)}
+@media (prefers-reduced-motion:no-preference){.pulse{animation:p 1.6s ease-in-out infinite}@keyframes p{50%{opacity:.35}}}
+.overall{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:10px}
+.overall .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.big{font-family:var(--fm);font-size:34px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1}
+.big small{font-size:16px;color:var(--mut)}
+.bar{height:10px;background:var(--track);border-radius:999px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);border-radius:999px;transition:width .6s ease}
+.overall .bar{height:14px}
+.grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:760px){.grid{grid-template-columns:1fr}}
+section h2{font-size:13px;letter-spacing:.06em;color:var(--mut);font-weight:500;margin:0 0 8px}
+ol.tasks{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+ol.tasks li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;min-width:0}
+.t-head{display:flex;align-items:center;gap:10px;min-width:0}
+.t-name{font-weight:700;flex:1;min-width:0}
+.pill{font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.s-done .pill{color:var(--accent)} .s-doing .pill{color:var(--doing)} .s-todo .pill{color:var(--todo)} .s-blocked .pill{color:var(--blocked)}
+.s-doing .bar>i{background:var(--doing)} .s-todo .bar>i{background:var(--todo)} .s-blocked .bar>i{background:var(--blocked)}
+.s-todo{opacity:.75}
+.t-pct{font-family:var(--fm);font-size:13px;font-variant-numeric:tabular-nums;color:var(--mut);min-width:3.2em;text-align:right}
+.t-detail{font-size:13px;color:var(--mut);overflow-wrap:anywhere}
+ul.log{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+ul.log li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:9px 14px;border-top:1px solid var(--line);font-size:13px}
+ul.log li:first-child{border-top:0}
+ul.log time{font-family:var(--fm);color:var(--mut);font-variant-numeric:tabular-nums}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:10px;padding:20px;color:var(--mut)}
+.others{display:flex;flex-wrap:wrap;gap:8px}
+.others button{font:inherit;font-size:13px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:4px 12px;cursor:pointer}
+.others button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.others button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="project">タスクプレビュー</div>
+    <h1 id="title">作業の様子</h1>
+    <div class="statusline" id="statusline">Claude が作業の進み具合をここに書き込むと、自動で最新の状態に変わります。</div>
+    <div class="live" id="live"><span class="pulse"></span><span id="ago">つないでいます…</span></div>
+  </header>
+
+  <div class="others" id="others" hidden></div>
+
+  <div class="overall" id="overall" hidden>
+    <div class="row"><div class="big" id="pct">0<small>%</small></div><div class="statusline" id="counts"></div></div>
+    <div class="bar" role="progressbar" aria-label="全体の進み具合" aria-valuemin="0" aria-valuemax="100" id="obar"><i style="width:0%"></i></div>
+  </div>
+
+  <div class="grid" id="main" hidden>
+    <section><h2>手順</h2><ol class="tasks" id="tasks"></ol></section>
+    <section><h2>最近の動き</h2><ul class="log" id="log"></ul></section>
+  </div>
+
+  <div class="empty" id="empty">まだ作業が登録されていません。Claude に「タスクプレビューに出して」と頼むと、手順ごとの進み具合がここに出ます。</div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const STATE = {done:'完了', doing:'作業中', todo:'これから', blocked:'止まっている'};
+let boards = [], current = null, lastUpdate = 0;
+
+function esc(s){return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function hhmm(ms){const d=new Date(ms);return d.toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'})}
+
+function render(){
+  const b = boards.find(x => x.id === current) || boards[0];
+  $('empty').hidden = !!b; $('overall').hidden = !b; $('main').hidden = !b;
+  const oth = $('others');
+  oth.hidden = boards.length < 2;
+  oth.innerHTML = boards.map(x => `<button type="button" data-id="${esc(x.id)}" aria-pressed="${b && x.id===b.id}">${esc(x.title || x.id)}</button>`).join('');
+  if (!b) return;
+  current = b.id; lastUpdate = b.updated_at || 0;
+  $('project').textContent = b.project || 'タスクプレビュー';
+  $('title').textContent = b.title || b.id;
+  $('statusline').textContent = b.status_line || '';
+  const tasks = Array.isArray(b.tasks) ? b.tasks : [];
+  const pct = tasks.length ? Math.round(tasks.reduce((s,t) => s + (t.state==='done' ? 100 : Math.max(0, Math.min(100, +t.progress || 0))), 0) / tasks.length) : 0;
+  $('pct').innerHTML = `${pct}<small>%</small>`;
+  $('obar').firstElementChild.style.width = pct + '%'; $('obar').setAttribute('aria-valuenow', pct);
+  const n = s => tasks.filter(t => t.state === s).length;
+  $('counts').textContent = `完了 ${n('done')} ／ 作業中 ${n('doing')} ／ これから ${n('todo')}` + (n('blocked') ? ` ／ 止まっている ${n('blocked')}` : '');
+  $('tasks').innerHTML = tasks.map(t => {
+    const p = t.state === 'done' ? 100 : Math.max(0, Math.min(100, +t.progress || 0));
+    return `<li class="s-${esc(t.state||'todo')}">
+      <div class="t-head"><span class="t-name">${esc(t.name)}</span><span class="pill">${STATE[t.state] || STATE.todo}</span><span class="t-pct">${p}%</span></div>
+      <div class="bar" role="progressbar" aria-label="${esc(t.name)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}"><i style="width:${p}%"></i></div>
+      ${t.detail ? `<div class="t-detail">${esc(t.detail)}</div>` : ''}</li>`;
+  }).join('');
+  const log = (Array.isArray(b.activity) ? b.activity : []).slice().sort((a,c) => (c.at||0)-(a.at||0)).slice(0, 15);
+  $('log').innerHTML = log.length ? log.map(a => `<li><time>${a.at ? hhmm(a.at) : ''}</time><span>${esc(a.text)}</span></li>`).join('') : '<li><time></time><span>まだありません</span></li>';
+  tick();
+}
+function tick(){
+  if (!lastUpdate) return;
+  const s = Math.max(0, Math.round((Date.now() - lastUpdate) / 1000));
+  const t = s < 60 ? `${s} 秒前に更新` : s < 3600 ? `${Math.floor(s/60)} 分前に更新` : `${hhmm(lastUpdate)} に更新`;
+  $('ago').textContent = t + '（自動で最新になります）';
+  $('live').classList.toggle('stale', s > 1800);
+}
+setInterval(tick, 1000);
+$('others').addEventListener('click', e => { const id = e.target.closest('button')?.dataset.id; if (id) { current = id; render(); } });
+
+(async () => {
+  const db = await claude.use('db');
+  if (!db) { $('ago').textContent = 'この表示ではデータを読めません（サインインして開いてください）'; $('live').classList.add('stale'); return; }
+  db.collection('boards').orderBy('updated_at', 'desc').limit(8).onSnapshot(snap => {
+    boards = snap.docs.map(d => ({id: d.id, ...d.data()}));
+    render();
+  }, err => { $('ago').textContent = 'データを読めませんでした: ' + (err && err.message || ''); $('live').classList.add('stale'); });
+})();
+</script>
