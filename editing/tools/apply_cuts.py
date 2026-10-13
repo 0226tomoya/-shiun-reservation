@@ -151,6 +151,7 @@ def main():
             i0 = max(i for i, p_ in enumerate(pos) if p_ <= m.start(1))
             i1 = max(i for i, p_ in enumerate(pos) if p_ < m.end(1))
             auto.append((Fraction(str(ws[i0][1])), Fraction(str(ws[i1][2])), ch, m.group(1)))
+        auto_end = {}
         for sa, sb, ch, said in auto:
             for e in items:
                 if e.tag != 'mc-clip':
@@ -160,7 +161,64 @@ def main():
                 if b_ - a_ > Fraction(1, 20):
                     o = T(e.get('offset'))
                     cuts.append((round((o + a_ - st) / fd) * fd, round((o + b_ - st) / fd) * fd))
+                    auto_end[ch] = max(auto_end.get(ch, Fraction(0)), o + b_ - st)
             print('自動の仕上げカット（身長別の直前）:', ch, said, round(float(sa), 2), '〜', round(float(sb), 2))
+
+        # ---- 中身で削る仕上げカットの候補（スキル shiun-cut-content-trim）----
+        # plan.edits.content_trim が "auto" のときだけ切る。それ以外は候補を書き出すだけ（ユーザーに選んでもらう）
+        def src_to_rough(t):
+            for e in items:
+                if e.tag == 'mc-clip':
+                    st, du = T(e.get('start')), T(e.get('duration'))
+                    if st <= t < st + du:
+                        return T(e.get('offset')) + (t - st)
+            # 語の終わりがカットの終わりを少し越える（言い終わりの後でカットしてある）ときは、そのカットの終わり
+            for e in items:
+                if e.tag == 'mc-clip':
+                    st, du = T(e.get('start')), T(e.get('duration'))
+                    if st + du <= t < st + du + Fraction(3, 10):
+                        return T(e.get('offset')) + du
+            return None
+        chapters_r = sorted(T(e.get('offset')) + T(m.get('start')) - T(e.get('start'))
+                            for e in items for m in e.findall('chapter-marker'))
+        row_txt = {r: ''.join(w[3] for w in ws_) for r, ws_ in rows.items()}
+        row_t = {r: (Fraction(str(ws_[0][1])), Fraction(str(ws_[-1][2]))) for r, ws_ in rows.items()}
+        cand = []
+        # 1) 身長別比較の後に残ったトーク（在庫・再販の念押しなど）: 差し込みの後〜次の商品（チャプター）まで。60 秒以内のときだけ
+        for ch, ra in auto_end.items():
+            nxt = next((c for c in chapters_r if c > ra + Fraction(1, 2)), None)
+            if nxt is not None and nxt - ra <= 60:
+                cand.append(('身長別の後のトーク', ch, ra, nxt))
+        # 2) 価格の 2 回目: 同じ金額を後で（10 行以上後、ED でも）もう一度言うなら、先に言った方の段落（価格の行〜「幸いです」の行、45 秒以内）を削る
+        def amounts(t):
+            t = t.replace(',', '').replace('，', '')
+            out = set(re.findall(r'(\d{3,6})円', t))
+            for m_ in re.finditer(r'(\d)万(\d{0,4})円', t):
+                out.add(str(int(m_.group(1)) * 10000 + (int(m_.group(2)) if m_.group(2) else 0)))
+            return out
+        rs = sorted(rows)
+        for i_, r in enumerate(rs):
+            if 'プライス' not in row_txt[r] and '価格' not in row_txt[r]:
+                continue
+            am = set().union(*(amounts(row_txt[q]) for q in rs[i_:i_ + 3]))
+            am = {a for a in am if int(a) >= 1000}
+            if not am:
+                continue
+            t0 = row_t[r][0]
+            # 「後で」は動画の順（行番号の順。素材の時刻は撮った順なので ED が先のこともある）で 10 行以上後
+            later = [q for q in rs if q >= r + 10 and amounts(row_txt[q]) & am]
+            if not later:
+                continue
+            end_r = next((q for q in rs[i_:i_ + 20] if row_t[q][0] - t0 <= 45 and row_txt[q].rstrip('。、').endswith('幸いです')), None)
+            if end_r is None:
+                continue
+            a_, b_ = src_to_rough(t0), src_to_rough(row_t[end_r][1] - Fraction(1, 100))
+            if a_ is not None and b_ is not None and b_ > a_:
+                cand.append(('価格の 2 回目（先に言った方）', ','.join(sorted(am)), a_, b_ + Fraction(1, 100)))
+        for kind, ch, a_, b_ in cand:
+            print('中身で削る候補:', kind, ch, '粗編集', round(float(a_), 2), '〜', round(float(b_), 2), f'({float(b_ - a_):.1f} 秒)')
+        if ed.get('content_trim') == 'auto':
+            cuts += [(round(a_ / fd) * fd, round(b_ / fd) * fd) for _, _, a_, b_ in cand]
     cuts.sort()
     # 重なる・接するカットはまとめる
     merged = []

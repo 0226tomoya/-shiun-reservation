@@ -91,3 +91,4 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - ユーザー指定のインサートの区間にある自動のインサートは外す。当たらなくなった修正は止めずに記録する（shiun-overrides）。
 - 字幕の下で左下のクレジットが切り替わるときは、字幕も分けてそろえる（shiun-telop-timing）。
 - 身長別比較の直前は「〜の動画が」で止め、「こちらです。どうぞ。」は `apply_cuts.py --words` が自動で切る（shiun-finish-cut）。
+- 中身で削る仕上げカットの候補（身長別の後のトーク・価格の 2 回目）は `apply_cuts.py` が出す。切るのは plan.edits.content_trim = "auto" のときだけ（shiun-cut-content-trim）。

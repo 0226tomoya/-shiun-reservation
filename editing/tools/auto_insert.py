@@ -414,7 +414,19 @@ def main():
                 x['t1'] = near_cut(want, want, want + Fraction(1, 2)) or snapf(want)
             if k + 1 < len(SUBS) and x['t1'] > SUBS[k + 1]['t0']:
                 x['t1'] = SUBS[k + 1]['t0']
-        seg_time = {k: seg_t(int(v)) for k, v in SPEC.get('price_at', {}).items()}
+        def price_row(v):
+            """価格を言った行。仕上げのカット（価格の 2 回目）で消えていたら、同じ金額を後で言い直した行（ED など）にする。"""
+            v = int(v)
+            if not tr[v - 1].get('removed'):
+                return v
+            def am(t):
+                t = t.replace(',', '')
+                out = set(re.findall(r'(\d{3,6})円', t))
+                out |= {str(int(a) * 10000 + (int(b) if b else 0)) for a, b in re.findall(r'(\d)万(\d{0,4})円', t)}
+                return {x for x in out if int(x) >= 1000}
+            want = set().union(*(am(tr[q - 1]['text']) for q in range(v, min(v + 3, len(tr) + 1))))
+            return next((q for q in range(v + 1, len(tr) + 1) if not tr[q - 1].get('removed') and am(tr[q - 1]['text']) & want), None)
+        seg_time = {k: seg_t(price_row(v)) for k, v in SPEC.get('price_at', {}).items() if price_row(v)}
 
     for s in sections:
         pr = pp.get(s['chapter'])
