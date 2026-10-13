@@ -464,6 +464,71 @@ def main():
             report.append((ch, person['who'], float(dur), [(c.get('lane'), c.get('name'), round(float(T(c.get('start'))), 2)) for c in x if c.tag == 'asset-clip']))
         blocks_at[id(before)] = (at, out_blocks)
 
+    # ---- 本人・試着した人のサイズラベル（スキル shiun-telop-self-label）----
+    # 本編で「164cm の僕が着ても」「Sサイズで」のように、着ている人の身長・サイズを言った所に、
+    # 身長・体重（size_compare.people の値）と着用サイズのラベルを出す。書式は過去データの本編のラベル（A19 の 164cm 58kg）。
+    # 着用サイズは、その発言か直前 2 行で言ったサイズ（なければ本人の既定 size_compare.self_size）。
+    import re as _re
+    lab_src = next((t for t in donor_for('../sources/A19_本編.fcpxml').root.iter('title')
+                    if t.get('name', '').endswith('kg - カスタム') and t.get('lane') == '4'), None)
+    self_who = sc.get('self', 'わむう')
+    people_h = {p['height'].split('cm')[0]: p for p in sc['people']}
+    sb_ranges = [(int(subs['size_compare_at'][ch]) - 2, int(subs['size_compare_at'][ch]) + 1) for ch in sc['products']]
+    n_self = 0
+    last_lab = {}  # 人ごとの直前のラベル（同じ人は 20 秒以内に重ねて出さない）
+    if lab_src is not None:
+        d19 = donor_for('../sources/A19_本編.fcpxml')
+        prod_t = sorted(Fraction(str(segs[int(v) - 1]['start'])) for v in subs.get('price_at', {}).values())
+        for i, sg in enumerate(segs):
+            if sg.get('removed') or any(a <= i + 1 <= b for a, b in sb_ranges):
+                continue
+            tx = sg['text']
+            m_h = _re.search(r'(1[4-9]\d)\s*(cm|センチ)', tx)
+            m_s = _re.match(r'^(僕は)?(XS|S|M|L)サイズで', tx)
+            who = None
+            if m_h and m_h.group(1) in people_h:
+                who = people_h[m_h.group(1)]
+            elif m_s:
+                who = next((p for p in sc['people'] if p['who'] == self_who), None)
+            if who is None:
+                continue
+            t0 = Fraction(str(sg['start']))
+            if t0 - last_lab.get(who['who'], Fraction(-100)) < 20 or not prod_t or t0 > max(prod_t) + 60:
+                continue
+            ctx = ' '.join(segs[k]['text'] for k in range(max(0, i - 2), i + 1))
+            sz = _re.findall(r'(XS|S|M|L)(?:から(?:XS|S|M|L))?サイズ', ctx)
+            size = sz[0] if sz else (sc.get('self_size', 'S') if who['who'] == self_who else who['sizes'][-1])
+            host = next(((e, st) for e, st in zip(items, starts) if e.tag == 'mc-clip' and st <= t0 < st + T(e.get('duration'))), None)
+            if host is None:
+                continue
+            e, st = host
+            a = st
+            want = a + 5
+            cut = next((s2 for s2 in starts if s2 >= want), a + 6)
+            dur = min(cut - a, Fraction(9))
+            for lane, text, dy in (('9', who['height'], 0), ('10', f'size {size}', -75)):
+                lb = d19.element(lab_src)
+                lb.set('lane', lane)
+                lb.set('offset', S(T(e.get('start'))))
+                lb.set('duration', S(dur))
+                lb.set('name', f'{text} - カスタム')
+                set_lines(lb, [text])
+                if dy:
+                    for prm in lb.iter('param'):
+                        if prm.get('name') == '位置':
+                            x_, y_ = (float(v) for v in prm.get('value').split())
+                            prm.set('value', f'{x_} {y_ + dy}')
+                n_ts[0] += 1
+                for tsd in lb.iter('text-style-def'):
+                    tsd.set('id', f"{tsd.get('id')}_sl{n_ts[0]}")
+                for ts in lb.iter('text-style'):
+                    if ts.get('ref'):
+                        ts.set('ref', f"{ts.get('ref')}_sl{n_ts[0]}")
+                e.append(lb)
+            last_lab[who['who']] = t0
+            n_self += 1
+    print('本人・試着した人のサイズラベル:', n_self)
+
     # ---- スパインに差し込み、後ろをずらす ----
     shifts = []  # (差し込み位置（元の時刻）, 長さ)
     new_items = []

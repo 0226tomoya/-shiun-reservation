@@ -195,7 +195,13 @@ def main():
         # 前の工程の小さな時刻のずれ（編集点の直しなど）を吸収: ±0.2 秒以内で一番近いもの
         hit = [(p, c, a) for p, c, a in children() if (c.get('name') or '').startswith(name) and abs(a - at) <= TOL]
         if not hit:
-            raise SystemExit(f'見つからない: {name} @ {float(at):.2f}')
+            # 前の工程の決まりが変わって少し動いたもの（字幕の頭の決め方など）は ±1 秒まで探す
+            hit = [(p, c, a) for p, c, a in children() if (c.get('name') or '').startswith(name) and abs(a - at) <= 1]
+        if not hit:
+            # 修正の中身を、前の工程の一般的な決まりがすでに満たしている（例: 商品名を言うカットから中央の商品名を出す）。止めずに記録する
+            print(f'当たらなかった修正（前の工程で済んでいる可能性）: {name} @ {float(at):.2f}')
+            bump('当たらなかった修正')
+            return []
         best = min(abs(a - at) for p, c, a in hit)
         return [h for h in hit if abs(h[2] - at) - best < Fraction(1, 100)]
 
@@ -290,6 +296,24 @@ def main():
             cl.append(copy.deepcopy(f))
         return cl
 
+    def make_room(t0, t1):
+        """ユーザーが指定したインサートの区間 [t0, t1] にある、前の工程が自動で置いたインサート（lane 3 以上の映像・その上の調整レイヤー）を外す。
+        前から続いているものは t0 で終える。前の工程の決まりが変わって名前や時刻が少し変わっても、ユーザーの指定が必ず勝つように。"""
+        for p_, c_, a_ in children():
+            if not (c_.tag in VIDEO_TAGS and lane(c_) >= 3 or is_adj(c_) and lane(c_) >= 4):
+                continue
+            e_ = a_ + T(c_.get('duration'))
+            if t0 - Fraction(1, 20) <= a_ < t1:
+                detach(p_, c_)
+                bump('場所を空けた自動インサート')
+            elif a_ < t0 < e_ - Fraction(1, 20):
+                c_.set('duration', S(t0 - a_))
+                bump('場所を空けた自動インサート')
+
+    for key_ in ('videos', 'stills', 'pairs', 'screens'):
+        for x_ in ov.get(key_, []):
+            make_room(snap(x_['t0']), snap(x_['t1']))
+
     for vd in ov.get('videos', []):
         t0, t1 = snap(vd['t0']), snap(vd['t1'])
         a = asset_of(vd['src'])
@@ -356,6 +380,24 @@ def main():
             ET.SubElement(tx, 'text-style').text = ln_ + ('\n' if k < len(lines) - 1 else '')
         attach(apply_template(tpl.get('product_label_bottom', 'any'), fake, tpl.res, doc_res, resources, 'product_label_bottom', {}), t0)
         bump('公式サイトの画面')
+
+    # ---- 5a) 横に並ぶクレジットに字幕をそろえる（スキル shiun-telop-timing）----
+    # 字幕の下で商品クレジット（左下）が 2 つ以上切り替わるときは、字幕も同じ数に分け、頭と終わりをクレジットにそろえる
+    credits = sorted((a, a + T(c.get('duration'))) for p, c, a in children()
+                     if c.tag == 'title' and (c.get('name') or '').startswith('product_label_bottom'))
+    for p, c, a in children():
+        if c.tag != 'title' or not (c.get('name') or '').startswith('subtitle'):
+            continue
+        b = a + T(c.get('duration'))
+        cr = [(x, y) for x, y in credits if x < b and a < y and min(b, y) - max(a, x) >= Fraction(1, 2)]
+        if len(cr) < 2:
+            continue
+        detach(p, c)
+        for x, y in cr:
+            n_ = copy.deepcopy(c)
+            n_.set('duration', S(y - x))
+            attach(n_, x)
+        bump('クレジットにそろえて分けた字幕')
 
     # ---- 5b) 素材の名前の変更（ユーザーがファイル名を変えた分。中身は同じ＝サイズで対応を確認済み）----
     if ov.get('rename_map'):

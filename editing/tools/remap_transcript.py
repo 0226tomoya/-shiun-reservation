@@ -5,6 +5,9 @@
 古い v1 の時刻 → その時刻に映っている本編（マルチカム）の素材の時刻 → 新しい v1 でその素材の時刻が映る時刻、と写す。
 切って無くなった単語は消し、全部の単語が消えた行は "removed": true にする（字幕は付けない）。
 行の番号は変えない（字幕の seg 番号がそのまま使える）。
+
+    python3 remap_transcript.py --src OLD_V1.fcpxml TRANSCRIPT_IN.json WORDS_SRC.json
+は、単語を素材の時刻に直して書き出す（assemble_lineup の --words に渡す）。
 """
 import json
 import sys
@@ -30,7 +33,27 @@ def spans(path):
     return out
 
 
+def to_src(old, tin, tout):
+    """文字起こしの単語を、素材（マルチカム）の時刻に直して [[ref, 頭, 終わり, 語], ...] で書き出す。
+    組み立て（assemble_lineup）が、各カットで何を話しているかを知るのに使う。"""
+    so = spans(old)
+    tr = json.load(open(tin, encoding='utf-8'))
+    segs = tr['segments'] if isinstance(tr, dict) else tr
+    out = []
+    for s in segs:
+        for w in s.get('words', []):
+            for off, du, ref, st in so:
+                if off <= w['start'] < off + du:
+                    a = st + (w['start'] - off)
+                    out.append([ref, round(a, 3), round(a + w['end'] - w['start'], 3), w['word']])
+                    break
+    json.dump(out, open(tout, 'w', encoding='utf-8'), ensure_ascii=False)
+    print('素材の時刻の単語', len(out), '->', tout)
+
+
 def main():
+    if sys.argv[1] == '--src':
+        return to_src(*sys.argv[2:5])
     old, new, tin, tout = sys.argv[1:5]
     so, sn = spans(old), spans(new)
     by_ref = {}

@@ -84,3 +84,9 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 書き出し: プロジェクトだけ・使っていない asset 0・一時フォルダのパス警告（shiun-export-project-only）。目次は shiun-timestamps。
 - テロップ: 説明テロップは EC の説明文を材料に（「。」「僕」「超」なし、1 枚に 1 仕様）、見出しは 6〜7 割、出すのは話し始めの −1〜+3 秒、2 行は必ず y −440.734、仮置き（「(追加予定)」）は 0 本で渡す（shiun-telop-explain-source・heading-lane・timing・placeholder-check）。試着会はタイプライター（shiun-telop-trial-typewriter）。本人の「164cm 58kg / size S」ラベル（shiun-telop-self-label）。
 
+## 32. A24 再現ループで道具に入れた決まり（10/13〜。記録は `editing/knowledge/A24_再現ループ記録.md`）
+- 説明テロップの文は `tools/telop_text.py` で EC の説明文・台本から選ぶ（shiun-telop-explain-source）。長さは文字数で（shiun-telop-timing）。
+- 中央の商品名は、商品の正式名を言うカットから。それまではコレクション名（shiun-product-credit）。
+- 本人・試着した人の身長とサイズを言ったら「164cm 58kg / size S」（shiun-telop-self-label）。
+- ユーザー指定のインサートの区間にある自動のインサートは外す。当たらなくなった修正は止めずに記録する（shiun-overrides）。
+- 字幕の下で左下のクレジットが切り替わるときは、字幕も分けてそろえる（shiun-telop-timing）。

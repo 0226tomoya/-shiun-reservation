@@ -1,6 +1,6 @@
 """粗編集（トークのジャンプカット＋チャプターマーカー）に、ラインナップの型を組み付ける。
 
-    python3 assemble_lineup.py ROUGH.fcpxml PLAN.json OUT.fcpxml
+    python3 assemble_lineup.py ROUGH.fcpxml PLAN.json OUT.fcpxml [--words WORDS_SRC.json]
 
 PLAN.json の例は editing/plans/A24_plan.json。やること:
   1. メインカメラの各カットに lane 1 の調整レイヤー（A19 のカラー調整＋区間ごとの構図プリセット）を付ける
@@ -228,12 +228,75 @@ def main():
 
     name_end = near_cut(Fraction(47, 10), Fraction(7, 10))
 
+    # ---- 各カットで話している言葉（--words: remap_transcript.py --src の出力。素材の時刻）----
+    WORDS = []
+    if '--words' in sys.argv:
+        WORDS = json.load(open(sys.argv[sys.argv.index('--words') + 1], encoding='utf-8'))
+    mc_items = [e for e in items if e.tag == 'mc-clip']
+
+    def clip_text(e):
+        a, b = T(e.get('start')), T(e.get('start')) + T(e.get('duration'))
+        return ''.join(w[3] for w in WORDS if w[0] == e.get('ref') and a <= Fraction(str(w[1])) < b)
+
+    import re as _re
+    KANA = _re.compile(r'[ァ-ヴー・A-Za-z]+$')
+    KANA_HEAD = _re.compile(r'^[ァ-ヴー・A-Za-z]+')
+
+    _ns_cache = {}
+
+    def name_statement(sec):
+        if id(sec) not in _ns_cache:
+            _ns_cache[id(sec)] = _name_statement(sec)
+        return _ns_cache[id(sec)]
+
+    def _name_statement(sec):
+        """商品の正式名を言うカット（スキル shiun-product-credit / A19・A24 の修正版）。
+        区間の頭 45 秒の中で、カタカナ（英字を含む。長音・小さい字は数えない）が 6 字以上続く最初の所＝「商品名は、カウレザーローファーでございます」。
+        カットをまたいで続く名前（「ソフト／グレイン／カーコートで」）もつなげて数える。
+        返り値: (名前を言い始めるカットの頭, 名前を言い終えた文の終わり＝「です・ます」のあるカットの終わり)"""
+        if not WORDS:
+            return None
+        cl = [e for e in mc_items if sec['t0'] <= T(e.get('offset')) < min(sec['t1'], sec['t0'] + 45)]
+        txt = [clip_text(e) for e in cl]
+        for i in range(len(cl)):
+            # このカットの中で始まるカタカナの連なり（前のカットから続くものは除く）
+            for m in _re.finditer(r'[ァ-ヴー・A-Za-z]+', txt[i]):
+                if m.start() == 0 and i > 0 and KANA.search(txt[i - 1]):
+                    continue
+                run, k = m.group(0), i
+                if m.end() == len(txt[i]):  # カットの終わりまで続く名前は、次のカットの頭のカタカナとつなげる
+                    while k + 1 < len(cl):
+                        h = KANA_HEAD.match(txt[k + 1])
+                        if not h:
+                            break
+                        run += h.group(0)
+                        k += 1
+                        if h.end() < len(txt[k]):
+                            break
+                if len(_re.sub(r'[ー・ァィゥェォャュョッヮ]', '', run)) >= 6:
+                    # 文の終わり（です・ます）までを名前の表示に
+                    end_k = next((q for q in range(k, min(k + 3, len(cl))) if _re.search(r'(です|ます)', txt[q])), k)
+                    e0, e1 = cl[i], cl[end_k]
+                    return T(e0.get('offset')), T(e1.get('offset')) + T(e1.get('duration'))
+        return None
+
     def intro_start(sec):
-        """A19 は区間の頭（アイキャッチの後）1.4〜2.3 秒、左上のコレクション名でトークを見せてから紹介インに入る。"""
+        """区間の頭（アイキャッチの後）は左上のコレクション名でトークを見せ、商品の正式名を言うカットから中央の商品名を出す。
+        名前が見つからなければ A19 の型（頭から 1.4〜2.3 秒後の編集点）。"""
+        ns = name_statement(sec)
+        if ns:
+            return ns[0]
         c = [x for x in CUTS if sec['t0'] + Fraction(14, 10) <= x <= sec['t0'] + Fraction(26, 10)]
         return min(c) if c else sec['t0']
 
     def intro_end(sec):
+        ns = name_statement(sec)
+        if ns:
+            # 名前を言い終えた文の終わりまで。短すぎる時（2.4 秒未満）は 2.4〜4 秒後の編集点、なければ 2.8 秒（カットの途中で切り替えてよい）
+            if ns[1] - ns[0] >= Fraction(12, 5):
+                return ns[1]
+            c = [x for x in CUTS if ns[0] + Fraction(12, 5) <= x <= ns[0] + 4]
+            return min(c) if c else snapf(ns[0] + Fraction(14, 5))
         return near_cut(intro_start(sec) + Fraction(str(plan.get('label_delay', 4.6))), Fraction(8, 10))
 
     # ---- テロップ生成のヘルパー ----
@@ -464,6 +527,7 @@ def main():
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')
         f.write(ET.tostring(root, encoding='utf-8'))
     print(f"sections: {[(s['chapter'], round(float(s['t0']), 1)) for s in sections]}")
+    print("商品名のカット:", [(s['chapter'], [round(float(v), 2) for v in (name_statement(s) or ())]) for s in sections if 'product' in s])
     print(f'log: {log}  inserts: {len(inserts)}  duration: {float(cur):.1f}s -> {out}')
 
 

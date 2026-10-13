@@ -26,6 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from assemble_lineup import Donor, T, S, norm  # noqa: E402
 from build_lineup import Templates, apply_template, set_transform  # noqa: E402
 from fcpxml_util import append_anchor  # noqa: E402
+from telop_text import ExplainSource  # noqa: E402
 
 LANE = {'photo_bg': 3, 'photo_fg': 4, 'center': 5, 'section': 6, 'subtitle': 7, 'ed_name': 8}
 
@@ -574,6 +575,18 @@ def main():
             # ---- 発話どおりの字幕と、説明（ラベル付き）の字幕の下だけのインサート ----
             ins_end = i0 + di
             mine = [x for x in SUBS if t0 <= x['t0'] < t1]
+            # 説明テロップの文は EC の説明文に寄せる（スキル shiun-telop-explain-source）。気持ち・強調の発言はそのまま
+            ex_src = ExplainSource(pr)
+            for x in mine:
+                if not x['face'] and x['style'] != 'emphasis':
+                    x['text'] = ex_src.rewrite(x['text'])
+                    # 長さは文字数で決める（スキル shiun-telop-timing）: 20 字以下 3〜6 秒、21〜35 字 7〜11 秒、36 字以上 9〜14 秒。
+                    # 言い終わりで消すと短すぎる。次の字幕の頭で切る（下の重なりの処理）
+                    n_ = len(x['text'].replace('\n', ''))
+                    want_d = Fraction(9, 2) if n_ <= 20 else (Fraction(9) if n_ <= 35 else Fraction(23, 2))
+                    if x['t1'] - x['t0'] < want_d:
+                        w_ = x['t0'] + want_d
+                        x['t1'] = near_cut(w_, w_ - 1, w_ + Fraction(3, 2)) or snapf(w_)
             tp = None
             if pr.get('price') and ec and pr['chapter'] in seg_time:
                 ps = seg_time[pr['chapter']]

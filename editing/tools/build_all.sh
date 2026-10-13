@@ -6,7 +6,8 @@ W=$1; MIC=$2; VID=$3; MODELS=$4
 cd "$(dirname "$0")/.."
 python3 -I tools/apply_cuts.py sources/A24_粗編集_素材入り.fcpxml plans/A24_plan.json sources/A24_粗編集_カット済み.fcpxml plans/A24_subject.json plans/A24_subject_cut.json --mic "$MIC"
 cp output/A24_v1.fcpxml "$W/A24_v1_prev.fcpxml"
-python3 -I tools/assemble_lineup.py sources/A24_粗編集_カット済み.fcpxml plans/A24_plan.json output/A24_v1.fcpxml
+python3 -I tools/remap_transcript.py --src "$W/A24_v1_old.fcpxml" plans/A24_transcript.json "$W/words_src.json"
+python3 -I tools/assemble_lineup.py sources/A24_粗編集_カット済み.fcpxml plans/A24_plan.json output/A24_v1.fcpxml --words "$W/words_src.json"
 python3 -I tools/remap_transcript.py "$W/A24_v1_old.fcpxml" output/A24_v1.fcpxml plans/A24_transcript.json plans/A24_transcript_cut.json
 python3 -I tools/auto_insert.py output/A24_v1.fcpxml plans/A24_plan.json "$W/b_a.fcpxml" | tail -1
 python3 -I tools/insert_size_compare.py "$W/b_a.fcpxml" plans/A24_plan.json "$W/b_b.fcpxml" --media-vid "$VID" --models "$MODELS" | tail -1
