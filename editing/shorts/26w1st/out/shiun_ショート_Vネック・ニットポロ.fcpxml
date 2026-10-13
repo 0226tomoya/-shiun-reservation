@@ -178,9 +178,6 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0031" start="839839/60000s" offset="433433/12000s" duration="3003/1250s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="97097/15000s" name="DSCF0030" start="79079/1875s" duration="21021/20000s">
                             <adjust-volume>
@@ -226,9 +223,6 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV3" name="DSCF0036" start="869869/30000s" offset="79079/1875s" duration="1001/500s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="451451/60000s" name="DSCF0030" start="2601599/60000s" duration="2002/1875s">
                             <adjust-volume>
@@ -415,7 +409,7 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="4107103/60000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
-                            <asset-clip ref="rV3" name="DSCF0036" start="1050049/15000s" offset="4107103/60000s" duration="1001/500s" lane="3">
+                            <asset-clip ref="rV2" name="DSCF0031" start="839839/60000s" offset="4107103/60000s" duration="989989/60000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
@@ -598,9 +592,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0031" start="959959/20000s" offset="407407/4000s" duration="1001/500s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="93093/4000s" name="DSCF0030" start="631631/6000s" duration="27027/20000s">
                             <adjust-volume>
@@ -1178,9 +1169,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                     <param name="遠近の量" key="7" value="0" />
                                 </filter-video>
                             </title>
-                            <asset-clip ref="rV3" name="DSCF0036" start="947947/12000s" offset="9020011/60000s" duration="37037/15000s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="197197/3750s" name="DSCF0030" start="581581/3750s" duration="31031/20000s">
                             <adjust-volume>
@@ -1226,9 +1214,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0031" start="1440439/60000s" offset="581581/3750s" duration="131131/60000s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="649649/12000s" name="DSCF0030" start="4727723/30000s" duration="61061/30000s">
                             <adjust-volume>
@@ -1319,7 +1304,7 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0031" start="577577/15000s" offset="299299/1875s" duration="11011/5000s" lane="3">
+                            <asset-clip ref="rV3" name="DSCF0036" start="1050049/15000s" offset="299299/1875s" duration="97097/30000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
@@ -1922,9 +1907,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV3" name="DSCF0036" start="1040039/10000s" offset="1258257/5000s" duration="3003/1250s" lane="3">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="5334329/60000s" name="DSCF0030" start="3046043/12000s" duration="71071/60000s">
                             <adjust-volume>
@@ -2590,7 +2572,7 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="23023/75s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
-                            <asset-clip ref="rV2" name="DSCF0031" start="1001/200s" offset="23023/75s" duration="23023/10000s" lane="3">
+                            <asset-clip ref="rV2" name="DSCF0031" start="1140139/30000s" offset="23023/75s" duration="23023/5000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
@@ -2681,7 +2663,7 @@ Color : CHARCOAL | Size : XS, S, M
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
                             </title>
-                            <asset-clip ref="rV3" name="DSCF0036" start="919919/10000s" offset="2013011/10000s" duration="91091/20000s" lane="3">
+                            <asset-clip ref="rV3" name="DSCF0036" start="919919/10000s" offset="2013011/10000s" duration="137137/30000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>

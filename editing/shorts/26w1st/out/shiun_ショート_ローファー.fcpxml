@@ -943,31 +943,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <title ref="r162" lane="4" offset="2299297/12000s" name="164cm / Size : 41 - カスタム" start="215997782/60000s" duration="17017/5000s">
-                                <param name="位置" key="9999/10199/10201/1/100/101" value="56.9125 -37.8" />
-                                <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
-                                <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="2 (右揃え)" />
-                                <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
-                                <text>
-                                    <text-style ref="ts90100">164cm / Size : 41</text-style>
-                                </text>
-                                <text-style-def id="ts90100">
-                                    <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="right" />
-                                </text-style-def>
-                                <adjust-transform position="20.0417 37.526" />
-                                <filter-video ref="r1642" name="ドロップシャドウ" enabled="0">
-                                    <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QAdIYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
-                                    <param name="不透明度" key="2" value="0.75" />
-                                    <param name="プリセット" key="8" value="3 (カスタム)" />
-                                    <param name="ぼかし" key="4" value="30" />
-                                    <param name="ブラー減衰" key="5" value="1" />
-                                    <param name="位置" key="3" value="0.5 0" />
-                                    <param name="遠近の量" key="7" value="0" />
-                                </filter-video>
-                            </title>
-                            <asset-clip ref="rV2" name="DSCF0036" start="983983/12000s" offset="2299297/12000s" duration="17017/5000s" lane="1">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="1224223/30000s" name="DSCF0034" start="3926923/20000s" duration="23023/20000s">
                             <adjust-volume>
@@ -1703,15 +1678,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <title ref="r162" lane="4" offset="8979971/30000s" name="164cm / Size : 41 - カスタム" start="215997782/60000s" duration="193193/30000s">
+                            <title ref="r162" lane="4" offset="8979971/30000s" name="164cm / Size : 41 - カスタム" start="215997782/60000s" duration="1001/400s">
                                 <param name="位置" key="9999/10199/10201/1/100/101" value="56.9125 -37.8" />
                                 <param name="調整" key="9999/10199/10201/1/100/105" value="1 1.4" />
                                 <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="2 (右揃え)" />
                                 <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
                                 <text>
-                                    <text-style ref="ts90101">164cm / Size : 41</text-style>
+                                    <text-style ref="ts90100">164cm / Size : 41</text-style>
                                 </text>
-                                <text-style-def id="ts90101">
+                                <text-style-def id="ts90100">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="right" />
                                 </text-style-def>
                                 <adjust-transform position="20.0417 37.526" />
@@ -1725,7 +1700,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                     <param name="遠近の量" key="7" value="0" />
                                 </filter-video>
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0036" start="1020019/60000s" offset="8979971/30000s" duration="193193/30000s" lane="1">
+                            <asset-clip ref="rV2" name="DSCF0036" start="1020019/60000s" offset="8979971/30000s" duration="1001/125s" lane="1">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
@@ -2088,9 +2063,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <asset-clip ref="rV2" name="DSCF0036" start="1110109/15000s" offset="10499489/30000s" duration="11011/2400s" lane="1">
-                                <adjust-volume amount="-96dB" />
-                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="1712711/20000s" name="DSCF0034" start="703703/2000s" duration="89089/60000s">
                             <adjust-volume>
@@ -2405,6 +2377,9 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="23742719/60000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
+                            <asset-clip ref="rV2" name="DSCF0036" start="1110109/15000s" offset="23742719/60000s" duration="103103/12000s" lane="1">
+                                <adjust-volume amount="-96dB" />
+                            </asset-clip>
                         </mc-clip>
                         <mc-clip ref="rM1" offset="299299/3000s" name="DSCF0034" start="5988983/15000s" duration="13013/15000s">
                             <adjust-volume>
