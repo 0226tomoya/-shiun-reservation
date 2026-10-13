@@ -314,3 +314,11 @@
   - 尾の余白は 0.12 秒（文末なら 0.18 秒）。
   - 確かめは `editing/tools/cut_check.py edl.json マイクのフォルダ [--asr]` で、頭・尾の切れを 0 件にする。
 - **インサートは文の切れ目で出し入れする**。「そんな〇〇に／なっています」のように、述語の直前でインサートが終わって本線に戻るのは不可（長尺で実際にあった）。1 つの文はひとつの画の上に置く。
+
+## 渡す前に必ず FCP の決まりで検証する（2026-10-13 4 本とも FCP で読み込めなかった）
+- `python3 editing/tools/validate_fcpxml.py 出力.fcpxml` が「OK」になるまで渡さない。XML として読めるかの確認だけでは足りない。
+- 読み込めなかった原因は 3 つあり、どれも short_build.py で直した。
+  1. BGM・効果音の asset-clip が参照する format（r76）を出力に写していなかった。
+  2. mc-clip の中で、つないだタイトル・インサートより前に filter-audio を置いていた。DTD の順は「mc-source → つなぐ物 → filter-audio」。
+  3. 画角を合わせる adjust-transform を mc-clip の直下に置いていた。mc-clip では、映像の mc-source の中に置く。
+- 素材の format は記録されたとおりに書く（縦撮りの DSCF は 1920x1080、24.00p）。パスの日本語は % で書く。

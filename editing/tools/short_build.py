@@ -22,6 +22,7 @@ python3 short_build.py edl.json out.fcpxml
  "bgm": true, "zoom_in": true
 }
 """
+from urllib.parse import quote, unquote
 import sys, json, copy, re, os, unicodedata
 import xml.etree.ElementTree as ET
 from fractions import Fraction as Fr
@@ -37,7 +38,9 @@ def fr(x):
 
 def ts(f):
     f = Fr(f)
-    return '0s' if f == 0 else f'{f.numerator}/{f.denominator}s'
+    if f == 0:
+        return '0s'
+    return f'{f.numerator}s' if f.denominator == 1 else f'{f.numerator}/{f.denominator}s'
 
 
 def ats(x):
@@ -142,7 +145,7 @@ def renumber_styles(el):
 def clone(key):
     el = copy.deepcopy(T[key])
     for e in el.iter():
-        for k in ('ref',):
+        for k in ('ref', 'format'):
             if e.get(k):
                 need(e.get(k))
     renumber_styles(el)
@@ -151,22 +154,35 @@ def clone(key):
 
 # 素材（映像・音声）
 fmt_src_id = 'rS1'
-ET.SubElement(resources, 'format', {'id': fmt_src_id, 'name': 'FFVideoFormatRateUndefined', 'frameDuration': '1/24s', 'width': '1080', 'height': '1920', 'colorSpace': '1-1-1 (Rec. 709)'})
+# 縦撮りの MOV は 1920x1080＋回転の情報で記録されている（型の DSCF 素材も format は 1920x1080）。実物は 24.00p
+SRC_FPS = edl.get('src_fps', 24)
+FMT_NAME = {24: ('FFVideoFormat1080p24', '100/2400s'), 23.976: ('FFVideoFormat1080p2398', '1001/24000s'),
+            29.97: ('FFVideoFormat1080p2997', '1001/30000s'), 30: ('FFVideoFormat1080p30', '100/3000s')}[SRC_FPS]
+SFD = parse_t(FMT_NAME[1])
+ET.SubElement(resources, 'format', {'id': fmt_src_id, 'name': FMT_NAME[0], 'frameDuration': FMT_NAME[1], 'width': '1920', 'height': '1080', 'colorSpace': '1-1-1 (Rec. 709)'})
+
+
+def url(root_url, fname):
+    """file:// の URL。日本語や空白は FCP の書き出しと同じく % で書く"""
+    if root_url.startswith('file://'):
+        return 'file://' + quote(unquote(root_url[7:]) + fname)
+    return root_url + quote(fname)
 mc_of = {}
 n = 0
 for name, c in edl['clips'].items():
     n += 1
     vid = f'rV{n}'; aid = f'rA{n}'; mid = f'rM{n}'
-    a = ET.SubElement(resources, 'asset', {'id': vid, 'name': name, 'start': '0s', 'duration': ts(fr(c['dur'])), 'hasVideo': '1', 'format': fmt_src_id, 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'})
-    ET.SubElement(a, 'media-rep', {'kind': 'original-media', 'src': edl['media_root'] + name + '.MOV'})
+    vdur = int(Fr(c['dur']) / SFD) * SFD  # 素材のコマ単位
+    a = ET.SubElement(resources, 'asset', {'id': vid, 'name': name, 'start': '0s', 'duration': ts(vdur), 'hasVideo': '1', 'format': fmt_src_id, 'videoSources': '1', 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'})
+    ET.SubElement(a, 'media-rep', {'kind': 'original-media', 'src': url(edl['media_root'], name + '.MOV')})
     if c.get('mic'):
         b = ET.SubElement(resources, 'asset', {'id': aid, 'name': c['mic'][:-4], 'start': '0s', 'duration': ats(c['mic_dur']), 'hasAudio': '1', 'audioSources': '1', 'audioChannels': '1', 'audioRate': '48000'})
-        ET.SubElement(b, 'media-rep', {'kind': 'original-media', 'src': edl['audio_root'] + c['mic']})
+        ET.SubElement(b, 'media-rep', {'kind': 'original-media', 'src': url(edl['audio_root'], c['mic'])})
         # マルチカム: 映像を 0 に、マイクをずれぶん動かす（マイクの時刻 = 映像の時刻 + offset）
         med = ET.SubElement(resources, 'media', {'id': mid, 'name': name + ' マルチカム'})
         mc = ET.SubElement(med, 'multicam', {'format': seq_fmt, 'tcStart': '0s', 'tcFormat': 'NDF'})
         av = ET.SubElement(mc, 'mc-angle', {'name': name, 'angleID': f'V{n}'})
-        ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'duration': ts(fr(c['dur'])), 'audioRole': 'dialogue'})
+        ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'duration': ts(vdur), 'audioRole': 'dialogue'})
         aa = ET.SubElement(mc, 'mc-angle', {'name': 'ピンマイク', 'angleID': f'A{n}'})
         off = c['offset']
         if off >= 0:
@@ -192,13 +208,13 @@ for s in edl['segments']:
     mid, vang, aang = mc_of[s['clip']]
     if mid:
         el = ET.SubElement(spine, 'mc-clip', {'ref': mid, 'offset': ts(tl), 'name': s['clip'], 'start': ts(a), 'duration': ts(b - a)})
-        if s.get('scale') or s.get('position'):  # 画角をそろえる（任意。DTD の順で音の調整より前）
-            sc = s.get('scale', 1)
-            ET.SubElement(el, 'adjust-transform', {'position': s.get('position', '0 0'), 'scale': f'{sc} {sc}'})
         if mc_fades is not None:
             el.append(copy.deepcopy(mc_fades))
         ET.SubElement(el, 'mc-source', {'angleID': aang, 'srcEnable': 'audio'})
-        ET.SubElement(el, 'mc-source', {'angleID': vang, 'srcEnable': 'video'})
+        vsrc = ET.SubElement(el, 'mc-source', {'angleID': vang, 'srcEnable': 'video'})
+        if s.get('scale') or s.get('position'):  # 画角をそろえる（任意）。mc-clip では映像の調整は映像の mc-source の中に置く
+            sc = s.get('scale', 1)
+            ET.SubElement(vsrc, 'adjust-transform', {'position': s.get('position', '0 0'), 'scale': f'{sc} {sc}'})
         if limiter is not None:
             need(limiter.get('ref')); el.append(copy.deepcopy(limiter))
     else:
@@ -288,6 +304,19 @@ if edl.get('bgm'):
 for rid, e in used.items():
     resources.insert(0, e)
 ET.indent(root, '    ')
+# クリップの子要素を DTD の順に並べ直す（つないだタイトル等の後に filter-audio が来ると FCP が読み込めない）
+ORDER = ['note', 'conform-rate', 'timeMap', 'adjust-crop', 'adjust-corners', 'adjust-conform', 'adjust-transform', 'adjust-blend',
+         'adjust-volume', 'adjust-panner', 'mc-source', None, 'marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+         'filter-video', 'filter-video-mask', 'filter-audio', 'metadata']
+for clip in root.iter():
+    if clip.tag in ('mc-clip', 'asset-clip', 'clip', 'ref-clip', 'sync-clip'):
+        kids = list(clip)
+        key = lambda e: ORDER.index(e.tag) if e.tag in ORDER else ORDER.index(None)
+        if [key(e) for e in kids] != sorted(key(e) for e in kids):
+            kids.sort(key=key)  # 安定ソートなので同じ種類の中の順は保つ
+            for e in list(clip):
+                clip.remove(e)
+            clip.extend(kids)
 xml = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n' + ET.tostring(root, encoding='unicode')
 open(out_path, 'w').write(xml)
 print(out_path, f'{float(total):.2f}s', len(edl['segments']), 'cuts', len(edl.get('subs', [])), 'subs')

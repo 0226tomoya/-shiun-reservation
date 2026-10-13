@@ -17,3 +17,6 @@ description: shiun の新作紹介ショート（「低身長のために〜を�
 11. **チェック**: 文字化け・画像バグ・最初の 1 秒に結論があるか・音なしで話が分かるか（shiun-export-check）。書き出しは高画質ファイルを Dropbox で渡す。
 
 出典: `editing/knowledge/shiun_ショートの決まり.md`（2026-01・05・08 月の販促ショートの編集データと完成動画 13 本の分析、10/13）。
+
+## 渡す前
+- `python3 editing/tools/validate_fcpxml.py` が OK になるまで渡さない（XML として読めるだけでは FCP で読み込めないことがある）。

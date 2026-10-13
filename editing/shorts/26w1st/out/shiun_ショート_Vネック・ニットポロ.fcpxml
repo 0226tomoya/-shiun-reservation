@@ -9,6 +9,7 @@
             </media-rep>
         </asset>
         <effect id="r1637" name="ズーム 01" uid="~/Titles.localized/KAMAKEN/ズームツール/Layer Creation/ズーム 01/ズーム 01.moti" src="file:///Users/modantaimusu/Library/Containers/com.apple.FinalCut/Data/Movies/Motion%20Templates.localized/Titles.localized/KAMAKEN/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%E3%83%84%E3%83%BC%E3%83%AB/Layer%20Creation/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%2001/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%2001.moti" />
+        <format id="r76" name="FFVideoFormatRateUndefined" />
         <asset id="r193" name="決定ボタンを押す32" uid="73AA06647E3A0658585700B0103390FE" start="0s" duration="49044/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" sig="73AA06647E3A0658585700B0103390FE" src="file:///Users/modantaimusu/Downloads/%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88/SE/%E6%B1%BA%E5%AE%9A%E3%83%9B%E3%82%99%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%9932.mp3">
                 <bookmark>Ym9va3ADAAAAAAUQQAAAAAEZMHx6G/HciBd8D7G4WXj8AMYeRX3695rk3ZGMRKEGAAAAAAAAAAAAAAAAAAAAAFACAAAgAAAAAQIAAGwJ5F+oqHWR54jSXT95re1ozEKcyxVUsmu2dg01LteeBAAAAAMDAAAAGAAoBQAAAAEBAABVc2VycwAAAAwAAAABAQAAbW9kYW50YWltdXN1CQAAAAEBAABEb3dubG9hZHMAAAAPAAAAAQEAAOOCqOODleOCp+OCr+ODiAACAAAAAQEAAFNFAAAhAAAAAQEAAOaxuuWumuODm+OCmeOCv+ODs+OCkuaKvOOBmTMyLm1wMwAAABgAAAABBgAAOAAAAEgAAABcAAAAcAAAAIgAAACUAAAACAAAAAQDAAAdQgAAAAAAAAgAAAAEAwAAo8wEAAAAAAAIAAAABAMAANbMBAAAAAAACAAAAAQDAADerzwAAAAAAAgAAAAEAwAA4K88AAAAAAAIAAAABAMAACewPAAAAAAAGAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAAAIAAAAAAQAAEHF/QcyK4UfGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcgWtGWAAAAkAAAAAQEAAEFBQjJDQkRGLTE0QkUtNEZBRi1CRjU4LTBEMDIyRjYwMEE2MRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADYAAAA/v///wEAAAAAAAAAEQAAAAQQAADAAAAAAAAAAAUQAABAAQAAAAAAABAQAABwAQAAAAAAAEAQAABgAQAAAAAAAAIgAAA8AgAAAAAAAAUgAACsAQAAAAAAABAgAAC8AQAAAAAAABEgAADwAQAAAAAAABIgAADQAQAAAAAAABMgAADgAQAAAAAAACAgAAAcAgAAAAAAADAgAABIAgAAAAAAAAHAAACQAQAAAAAAABHAAABIAAAAAAAAABLAAACgAQAAAAAAABDQAAAsAAAAAAAAAITwAAAEAAAAAAAAAA==</bookmark>
@@ -19,28 +20,28 @@
         <effect id="r74" name="基本タイトル" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti" />
         <effect id="r201" name="Limiter" uid="AudioUnit: 0x61756678000000c7454d4147" />
         <format id="r1633" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
-        <format id="rS1" name="FFVideoFormatRateUndefined" frameDuration="1/24s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
-        <asset id="rV1" name="DSCF0030" start="0s" duration="19440421/60000s" hasVideo="1" format="rS1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/本編/DSCF0030.MOV" />
+        <format id="rS1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="rV1" name="DSCF0030" start="0s" duration="324s" hasVideo="1" format="rS1" videoSources="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E6%9C%AC%E7%B7%A8/DSCF0030.MOV" />
         </asset>
         <asset id="rA1" name="TX02_MIC035_20261012_185819_orig" start="0s" duration="8211/25s" hasAudio="1" audioSources="1" audioChannels="1" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/音声/TX02_MIC035_20261012_185819_orig.wav" />
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E9%9F%B3%E5%A3%B0/TX02_MIC035_20261012_185819_orig.wav" />
         </asset>
         <media id="rM1" name="DSCF0030 マルチカム">
             <multicam format="r1633" tcStart="0s" tcFormat="NDF">
                 <mc-angle name="DSCF0030" angleID="V1">
-                    <asset-clip ref="rV1" offset="0s" name="DSCF0030" duration="19440421/60000s" audioRole="dialogue" />
+                    <asset-clip ref="rV1" offset="0s" name="DSCF0030" duration="324s" audioRole="dialogue" />
                 </mc-angle>
                 <mc-angle name="ピンマイク" angleID="A1">
                     <asset-clip ref="rA1" offset="0s" name="TX02_MIC035_20261012_185819_orig" start="130963/48000s" duration="15634157/48000s" audioRole="dialogue" />
                 </mc-angle>
             </multicam>
         </media>
-        <asset id="rV2" name="DSCF0031" start="0s" duration="3140137/20000s" hasVideo="1" format="rS1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/本編/DSCF0031.MOV" />
+        <asset id="rV2" name="DSCF0031" start="0s" duration="157s" hasVideo="1" format="rS1" videoSources="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E6%9C%AC%E7%B7%A8/DSCF0031.MOV" />
         </asset>
-        <asset id="rV3" name="DSCF0036" start="0s" duration="6659653/60000s" hasVideo="1" format="rS1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/本編/DSCF0036.MOV" />
+        <asset id="rV3" name="DSCF0036" start="0s" duration="111s" hasVideo="1" format="rS1" videoSources="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E6%9C%AC%E7%B7%A8/DSCF0036.MOV" />
         </asset>
     </resources>
     <library>
@@ -57,11 +58,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="659659/20000s" name="低身長しか見ないでください - 基本タイトル" start="3603600/1000s" duration="19019/7500s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.5 -440.7" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -103,7 +99,12 @@
                                     </param>
                                 </adjust-volume>
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="19019/7500s" name="DSCF0030" start="433433/12000s" duration="59059/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -113,11 +114,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="433433/12000s" name="158cmでも - 基本タイトル" start="216213998/60000s" duration="127127/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -178,7 +174,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="97097/15000s" name="DSCF0030" start="79079/1875s" duration="21021/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -188,11 +189,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="79079/1875s" name="ほどよく短丈で - 基本タイトル" start="216213998/60000s" duration="127127/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -223,7 +219,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="451451/60000s" name="DSCF0030" start="2601599/60000s" duration="2002/1875s">
                             <adjust-volume>
                                 <param name="amount">
@@ -248,11 +249,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="143143/2500s" name="ちょうどいいサイズ感で着れる - 基本タイトル" start="216213998/60000s" duration="187187/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -283,7 +279,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="117117/10000s" name="DSCF0030" start="1224223/20000s" duration="59059/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -293,11 +294,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1224223/20000s" name="Vネックニットを作りました - 基本タイトル" start="216213998/60000s" duration="59059/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -328,7 +324,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="41041/3000s" name="DSCF0030" start="4107103/60000s" duration="109109/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -338,11 +339,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="4107103/60000s" name="僕たち低身長男性 - 基本タイトル" start="216213998/60000s" duration="109109/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -397,7 +393,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             <asset-clip ref="rV2" name="DSCF0031" start="839839/60000s" offset="4107103/60000s" duration="89089/6000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="929929/60000s" name="DSCF0030" start="5538533/60000s" duration="137137/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -407,11 +408,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="5538533/60000s" name="一般的なニットだと - 基本タイトル" start="216213998/60000s" duration="137137/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -442,7 +438,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="533533/30000s" name="DSCF0030" start="227227/2400s" duration="107107/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -452,11 +453,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="227227/2400s" name="Sサイズでも - 基本タイトル" start="216213998/60000s" duration="107107/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -487,7 +483,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="391391/20000s" name="DSCF0030" start="407407/4000s" duration="11011/3750s">
                             <adjust-volume>
                                 <param name="amount">
@@ -497,11 +498,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="407407/4000s" name="着丈が長すぎたり - 基本タイトル" start="216213998/60000s" duration="17017/7500s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -562,7 +558,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1350349/60000s" name="DSCF0030" start="533533/5000s" duration="23023/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -572,11 +573,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="533533/5000s" name="狭すぎたりと - 基本タイトル" start="216213998/60000s" duration="23023/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -607,7 +603,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1442441/60000s" name="DSCF0030" start="6643637/60000s" duration="269269/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -617,11 +618,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="6643637/60000s" name="ちょうどよく着れるニットって - 基本タイトル" start="216213998/60000s" duration="73073/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -682,7 +678,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="57057/2000s" name="DSCF0030" start="7170163/60000s" duration="39039/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -692,11 +693,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="7170163/60000s" name="サイズ感や色に妥協をする - 基本タイトル" start="216213998/60000s" duration="83083/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -727,7 +723,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="609609/20000s" name="DSCF0030" start="3650647/30000s" duration="49049/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -752,11 +753,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1974973/15000s" name="高いブランドものも - 基本タイトル" start="216213998/60000s" duration="9009/4000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -787,7 +783,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2013011/60000s" name="DSCF0030" start="8035027/60000s" duration="33033/5000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -797,11 +798,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="8035027/60000s" name="プチプラのブランドも - 基本タイトル" start="216213998/60000s" duration="37037/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -892,7 +888,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2409407/60000s" name="DSCF0030" start="8445437/60000s" duration="47047/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -902,11 +903,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="8445437/60000s" name="どれもサイズがデカすぎる - 基本タイトル" start="216213998/60000s" duration="47047/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -937,7 +933,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2503501/60000s" name="DSCF0030" start="4283279/30000s" duration="47047/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -962,11 +963,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1448447/10000s" name="そこで - 基本タイトル" start="216213998/60000s" duration="53053/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -997,7 +993,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="867867/20000s" name="DSCF0030" start="1748747/12000s" duration="53053/7500s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1007,11 +1008,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1748747/12000s" name="158cmの - 基本タイトル" start="216213998/60000s" duration="13013/3750s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1124,7 +1120,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                     <param name="遠近の量" key="7" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="121121/2400s" name="DSCF0030" start="581581/3750s" duration="31031/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1134,11 +1135,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="581581/3750s" name="程よく短丈で - 基本タイトル" start="216213998/60000s" duration="31031/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1169,7 +1165,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1560559/30000s" name="DSCF0030" start="4727723/30000s" duration="61061/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1179,11 +1180,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="4727723/30000s" name="身幅は少しゆったりしている - 基本タイトル" start="216213998/60000s" duration="61061/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1214,7 +1210,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="27027/500s" name="DSCF0030" start="299299/1875s" duration="13013/6000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1224,11 +1225,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="299299/1875s" name="ちょうどいいサイズ感の - 基本タイトル" start="216213998/60000s" duration="13013/6000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1262,7 +1258,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             <asset-clip ref="rV3" name="DSCF0036" start="1050049/15000s" offset="299299/1875s" duration="97097/30000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="337337/6000s" name="DSCF0030" start="9716707/60000s" duration="2002/1875s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1272,11 +1273,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="9716707/60000s" name="Vネックニット - 基本タイトル" start="216213998/60000s" duration="2002/1875s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1307,7 +1303,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1718717/30000s" name="DSCF0030" start="629629/3750s" duration="121121/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1317,11 +1318,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="629629/3750s" name="生地もチクチク感は控えめ - 基本タイトル" start="216213998/60000s" duration="7007/2500s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1352,7 +1348,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="237237/4000s" name="DSCF0030" start="5104099/30000s" duration="47047/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1377,11 +1378,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="683683/4000s" name="そして、Vネックの開き具合も - 基本タイトル" start="216213998/60000s" duration="63063/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1412,7 +1408,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3794791/60000s" name="DSCF0030" start="703703/4000s" duration="1001/750s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1422,11 +1423,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="703703/4000s" name="浅めにしてるから - 基本タイトル" start="216213998/60000s" duration="1001/750s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1457,7 +1453,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3874871/60000s" name="DSCF0030" start="3560557/20000s" duration="49049/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1467,11 +1468,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="3560557/20000s" name="肌の露出が苦手な人にもオススメできる - 基本タイトル" start="216213998/60000s" duration="221221/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1502,7 +1498,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1324323/20000s" name="DSCF0030" start="5392387/30000s" duration="41041/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1527,11 +1528,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="11308297/60000s" name="低身長でかつ顔がデカい人間は - 基本タイトル" start="216213998/60000s" duration="2002/625s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1562,7 +1558,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="357357/5000s" name="DSCF0030" start="5752747/30000s" duration="9009/5000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1572,11 +1573,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="5752747/30000s" name="Vネックを着ると首が長く見えて - 基本タイトル" start="216213998/60000s" duration="77077/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1607,7 +1603,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="183183/2500s" name="DSCF0030" start="2905903/15000s" duration="37037/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1617,11 +1618,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2349347/12000s" name="小顔に見えやすいからオススメ - 基本タイトル" start="216213998/60000s" duration="17017/7500s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1652,7 +1648,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="769769/10000s" name="DSCF0030" start="11868857/60000s" duration="37037/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1677,11 +1678,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="4763759/20000s" name="他には替えが効かない - 基本タイトル" start="216213998/60000s" duration="73073/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1712,7 +1708,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1600599/20000s" name="DSCF0030" start="7220213/30000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1722,11 +1723,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="7220213/30000s" name="Vネックニット - 基本タイトル" start="216213998/60000s" duration="71071/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1757,7 +1753,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1218217/15000s" name="DSCF0030" start="2425423/10000s" duration="187187/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1767,11 +1768,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2425423/10000s" name="チャコールとサンドトープを作りました - 基本タイトル" start="216213998/60000s" duration="187187/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1802,7 +1798,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="337337/4000s" name="DSCF0030" start="1258257/5000s" duration="121121/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1812,11 +1813,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1258257/5000s" name="同じようなサイズ感で - 基本タイトル" start="216213998/60000s" duration="121121/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1847,7 +1843,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="647647/7500s" name="DSCF0030" start="3046043/12000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1857,11 +1858,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="3046043/12000s" name="ニットポロも作りました - 基本タイトル" start="216213998/60000s" duration="61061/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1892,7 +1888,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1750749/20000s" name="DSCF0030" start="3094091/12000s" duration="17017/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1917,11 +1918,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="7778771/30000s" name="ニットポロに関しては - 基本タイトル" start="216213998/60000s" duration="33033/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1973,7 +1969,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="7778771/30000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1800799/20000s" name="DSCF0030" start="1052051/4000s" duration="17017/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1983,11 +1984,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1052051/4000s" name="コットンベースの生地なので - 基本タイトル" start="216213998/60000s" duration="17017/10000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2018,7 +2014,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1834833/20000s" name="DSCF0030" start="199199/750s" duration="113113/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2028,11 +2029,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="199199/750s" name="全くチクチクせずに - 基本タイトル" start="216213998/60000s" duration="113113/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2063,7 +2059,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1404403/15000s" name="DSCF0030" start="2019017/7500s" duration="109109/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2073,11 +2074,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2019017/7500s" name="秋冬春と長い期間着ていただけます - 基本タイトル" start="216213998/60000s" duration="109109/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2108,7 +2104,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="583583/6000s" name="DSCF0030" start="1094093/4000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2118,11 +2119,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1094093/4000s" name="トレンドのVネックか - 基本タイトル" start="216213998/60000s" duration="37037/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2153,7 +2149,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="5946941/60000s" name="DSCF0030" start="5532527/20000s" duration="37037/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2163,11 +2164,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="5532527/20000s" name="定番のニットポロ - 基本タイトル" start="216213998/60000s" duration="37037/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2198,7 +2194,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="401401/4000s" name="DSCF0030" start="16725709/60000s" duration="1001/1250s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2208,11 +2209,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="16725709/60000s" name="どちらも - 基本タイトル" start="216213998/60000s" duration="1001/1250s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2243,7 +2239,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2023021/20000s" name="DSCF0030" start="671671/2400s" duration="47047/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2253,11 +2254,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="671671/2400s" name="低身長にしか似合わないサイズ感です - 基本タイトル" start="216213998/60000s" duration="47047/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2288,7 +2284,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="6257251/60000s" name="DSCF0030" start="17104087/60000s" duration="27027/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2298,11 +2299,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="17104087/60000s" name="こちらの2型 - 基本タイトル" start="216213998/60000s" duration="27027/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2333,7 +2329,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1584583/15000s" name="DSCF0030" start="4307303/15000s" duration="47047/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2343,11 +2344,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="4307303/15000s" name="低身長男性専用のブランド - 基本タイトル" start="216213998/60000s" duration="47047/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2378,7 +2374,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="163163/1500s" name="DSCF0030" start="1758757/6000s" duration="23023/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2388,11 +2389,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1758757/6000s" name="以下の日程で - 基本タイトル" start="216213998/60000s" duration="23023/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2423,7 +2419,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="6595589/60000s" name="DSCF0030" start="8857849/30000s" duration="41041/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2433,11 +2434,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="8857849/30000s" name="shiunにて発売します - 基本タイトル" start="216213998/60000s" duration="41041/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2468,7 +2464,12 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="839839/7500s" name="DSCF0030" start="23023/75s" duration="1001/600s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2478,11 +2479,6 @@ Color : CHARCOAL | Size : XS, S, M</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="23023/75s" name="WOOL BLEND V-NECK KNIT - 基本タイトル" start="216205990/60000s" duration="23023/10000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
@@ -2515,7 +2511,12 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M
                             <asset-clip ref="rV2" name="DSCF0031" start="1140139/30000s" offset="23023/75s" duration="23023/5000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1704703/15000s" name="DSCF0030" start="783783/2500s" duration="113113/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2525,11 +2526,6 @@ Color : CHARCOAL, SAND TAUPE | Size : XS, S, M
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="1884883/6000s" name="C/W KANOKO POLO - 基本タイトル" start="216205990/60000s" duration="23023/10000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
@@ -2559,7 +2555,12 @@ Color : CHARCOAL | Size : XS, S, M
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="1884883/6000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="277277/2400s" name="DSCF0030" start="19130111/60000s" duration="21021/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2584,11 +2585,6 @@ Color : CHARCOAL | Size : XS, S, M
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="2013011/10000s" name="2026.10.31 sat 10pm - Release - 基本タイトル" start="108101994/30000s" duration="91091/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.17325 -13.6782" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1.05 1.6092" />
@@ -2606,7 +2602,12 @@ Color : CHARCOAL | Size : XS, S, M
                             <asset-clip ref="rV3" name="DSCF0036" start="919919/10000s" offset="2013011/10000s" duration="137137/30000s" lane="3">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                     </spine>
                 </sequence>
             </project>

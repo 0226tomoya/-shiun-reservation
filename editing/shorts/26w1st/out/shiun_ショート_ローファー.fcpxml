@@ -9,6 +9,7 @@
             </media-rep>
         </asset>
         <effect id="r1637" name="ズーム 01" uid="~/Titles.localized/KAMAKEN/ズームツール/Layer Creation/ズーム 01/ズーム 01.moti" src="file:///Users/modantaimusu/Library/Containers/com.apple.FinalCut/Data/Movies/Motion%20Templates.localized/Titles.localized/KAMAKEN/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%E3%83%84%E3%83%BC%E3%83%AB/Layer%20Creation/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%2001/%E3%82%B9%E3%82%99%E3%83%BC%E3%83%A0%2001.moti" />
+        <format id="r76" name="FFVideoFormatRateUndefined" />
         <asset id="r193" name="決定ボタンを押す32" uid="73AA06647E3A0658585700B0103390FE" start="0s" duration="49044/48000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" sig="73AA06647E3A0658585700B0103390FE" src="file:///Users/modantaimusu/Downloads/%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88/SE/%E6%B1%BA%E5%AE%9A%E3%83%9B%E3%82%99%E3%82%BF%E3%83%B3%E3%82%92%E6%8A%BC%E3%81%9932.mp3">
                 <bookmark>Ym9va3ADAAAAAAUQQAAAAAEZMHx6G/HciBd8D7G4WXj8AMYeRX3695rk3ZGMRKEGAAAAAAAAAAAAAAAAAAAAAFACAAAgAAAAAQIAAGwJ5F+oqHWR54jSXT95re1ozEKcyxVUsmu2dg01LteeBAAAAAMDAAAAGAAoBQAAAAEBAABVc2VycwAAAAwAAAABAQAAbW9kYW50YWltdXN1CQAAAAEBAABEb3dubG9hZHMAAAAPAAAAAQEAAOOCqOODleOCp+OCr+ODiAACAAAAAQEAAFNFAAAhAAAAAQEAAOaxuuWumuODm+OCmeOCv+ODs+OCkuaKvOOBmTMyLm1wMwAAABgAAAABBgAAOAAAAEgAAABcAAAAcAAAAIgAAACUAAAACAAAAAQDAAAdQgAAAAAAAAgAAAAEAwAAo8wEAAAAAAAIAAAABAMAANbMBAAAAAAACAAAAAQDAADerzwAAAAAAAgAAAAEAwAA4K88AAAAAAAIAAAABAMAACewPAAAAAAAGAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAAAIAAAAAAQAAEHF/QcyK4UfGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAQAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcgWtGWAAAAkAAAAAQEAAEFBQjJDQkRGLTE0QkUtNEZBRi1CRjU4LTBEMDIyRjYwMEE2MRgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADYAAAA/v///wEAAAAAAAAAEQAAAAQQAADAAAAAAAAAAAUQAABAAQAAAAAAABAQAABwAQAAAAAAAEAQAABgAQAAAAAAAAIgAAA8AgAAAAAAAAUgAACsAQAAAAAAABAgAAC8AQAAAAAAABEgAADwAQAAAAAAABIgAADQAQAAAAAAABMgAADgAQAAAAAAACAgAAAcAgAAAAAAADAgAABIAgAAAAAAAAHAAACQAQAAAAAAABHAAABIAAAAAAAAABLAAACgAQAAAAAAABDQAAAsAAAAAAAAAITwAAAEAAAAAAAAAA==</bookmark>
@@ -19,25 +20,25 @@
         <effect id="r74" name="基本タイトル" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti" />
         <effect id="r201" name="Limiter" uid="AudioUnit: 0x61756678000000c7454d4147" />
         <format id="r1633" frameDuration="1001/60000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
-        <format id="rS1" name="FFVideoFormatRateUndefined" frameDuration="1/24s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)" />
-        <asset id="rV1" name="DSCF0034" start="0s" duration="12899887/30000s" hasVideo="1" format="rS1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/本編/DSCF0034.MOV" />
+        <format id="rS1" name="FFVideoFormat1080p24" frameDuration="100/2400s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+        <asset id="rV1" name="DSCF0034" start="0s" duration="430s" hasVideo="1" format="rS1" videoSources="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E6%9C%AC%E7%B7%A8/DSCF0034.MOV" />
         </asset>
         <asset id="rA1" name="TX02_MIC038_20261012_191814_orig" start="0s" duration="10761/25s" hasAudio="1" audioSources="1" audioChannels="1" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/音声/TX02_MIC038_20261012_191814_orig.wav" />
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E9%9F%B3%E5%A3%B0/TX02_MIC038_20261012_191814_orig.wav" />
         </asset>
         <media id="rM1" name="DSCF0034 マルチカム">
             <multicam format="r1633" tcStart="0s" tcFormat="NDF">
                 <mc-angle name="DSCF0034" angleID="V1">
-                    <asset-clip ref="rV1" offset="0s" name="DSCF0034" duration="12899887/30000s" audioRole="dialogue" />
+                    <asset-clip ref="rV1" offset="0s" name="DSCF0034" duration="430s" audioRole="dialogue" />
                 </mc-angle>
                 <mc-angle name="ピンマイク" angleID="A1">
                     <asset-clip ref="rA1" offset="40079/24000s" name="TX02_MIC038_20261012_191814_orig" duration="10761/25s" audioRole="dialogue" />
                 </mc-angle>
             </multicam>
         </media>
-        <asset id="rV2" name="DSCF0036" start="0s" duration="6659653/60000s" hasVideo="1" format="rS1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
-            <media-rep kind="original-media" src="file:///Volumes/shiun_short/本編/DSCF0036.MOV" />
+        <asset id="rV2" name="DSCF0036" start="0s" duration="111s" hasVideo="1" format="rS1" videoSources="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <media-rep kind="original-media" src="file:///Volumes/shiun_short/%E6%9C%AC%E7%B7%A8/DSCF0036.MOV" />
         </asset>
     </resources>
     <library>
@@ -54,11 +55,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="337337/3750s" name="これが6cm盛った自分 - 基本タイトル" start="3603600/1000s" duration="67067/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.5 -440.7" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -97,7 +93,12 @@
                                     </param>
                                 </adjust-volume>
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="67067/20000s" name="DSCF0034" start="379379/4000s" duration="43043/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -107,11 +108,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="379379/4000s" name="これが盛っていない自分 - 基本タイトル" start="216213998/60000s" duration="73073/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -142,7 +138,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="61061/15000s" name="DSCF0034" start="361361/3750s" duration="67067/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -182,11 +183,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1110109/60000s" name="こっそり背を伸ばしたい - 基本タイトル" start="216213998/60000s" duration="41041/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -247,7 +243,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="103103/12000s" name="DSCF0034" start="683683/30000s" duration="31031/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -272,11 +273,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="3003/25s" name="所詮人は第一印象が全て - 基本タイトル" start="216213998/60000s" duration="2002/625s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -337,7 +333,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="73073/5000s" name="DSCF0034" start="79079/625s" duration="37037/6000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -347,11 +348,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="79079/625s" name="低身長男性ほど - 基本タイトル" start="216213998/60000s" duration="109109/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -442,7 +438,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="623623/30000s" name="DSCF0034" start="537537/10000s" duration="1001/375s">
                             <adjust-volume>
                                 <param name="amount">
@@ -452,11 +453,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="537537/10000s" name="このソールの薄さで - 基本タイトル" start="216213998/60000s" duration="1001/375s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -487,7 +483,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="703703/30000s" name="DSCF0034" start="1740739/30000s" duration="187187/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -497,11 +498,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1740739/30000s" name="身長が6cm盛れる - 基本タイトル" start="216213998/60000s" duration="187187/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -532,7 +528,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="531531/20000s" name="DSCF0034" start="1874873/30000s" duration="21021/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -542,11 +543,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1874873/30000s" name="牛革のローファーを - 基本タイトル" start="216213998/60000s" duration="31031/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -577,7 +573,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="69069/2500s" name="DSCF0034" start="1274273/20000s" duration="61061/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -602,11 +603,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="257257/3750s" name="作りました - 基本タイトル" start="216213998/60000s" duration="11011/10000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -637,7 +633,12 @@
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1784783/60000s" name="DSCF0034" start="1700699/12000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -647,11 +648,6 @@
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1700699/12000s" name="このローファーは - 基本タイトル" start="216213998/60000s" duration="71071/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -703,7 +699,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="1700699/12000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="309309/10000s" name="DSCF0034" start="83083/500s" duration="41041/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -713,11 +714,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="83083/500s" name="アウトソールが - 基本タイトル" start="216213998/60000s" duration="41041/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -748,7 +744,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="121121/3750s" name="DSCF0034" start="5098093/30000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -758,11 +759,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="5098093/30000s" name="4.5cm - 基本タイトル" start="216213998/60000s" duration="37037/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -793,7 +789,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2049047/60000s" name="DSCF0034" start="699699/4000s" duration="67067/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -803,11 +804,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="699699/4000s" name="インソールが1.5cmと - 基本タイトル" start="216213998/60000s" duration="7007/2400s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -838,7 +834,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1058057/30000s" name="DSCF0034" start="10577567/60000s" duration="9009/5000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -863,11 +864,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2299297/12000s" name="合計6cm - 基本タイトル" start="216213998/60000s" duration="89089/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -898,7 +894,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2313311/60000s" name="DSCF0034" start="3926923/20000s" duration="23023/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -908,11 +909,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="3926923/20000s" name="自然に身長が盛れます - 基本タイトル" start="216213998/60000s" duration="23023/12000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -943,7 +939,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="119119/3000s" name="DSCF0034" start="5928923/30000s" duration="23023/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -968,11 +969,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="51051/250s" name="ソールの存在感を隠せるように - 基本タイトル" start="216213998/60000s" duration="229229/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1003,7 +999,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="177177/4000s" name="DSCF0034" start="499499/2400s" duration="19019/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1013,11 +1014,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="499499/2400s" name="やや細くなっているヒールと - 基本タイトル" start="216213998/60000s" duration="11011/3750s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1048,7 +1044,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2695693/60000s" name="DSCF0034" start="12575563/60000s" duration="11011/7500s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1088,11 +1089,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2211209/10000s" name="真ん中を - 基本タイトル" start="216213998/60000s" duration="37037/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1123,7 +1119,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="581581/12000s" name="DSCF0034" start="2685683/12000s" duration="17017/12000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1133,11 +1134,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2685683/12000s" name="くり抜いたソール - 基本タイトル" start="216213998/60000s" duration="17017/12000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1168,7 +1164,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="299299/6000s" name="DSCF0034" start="13910897/60000s" duration="1001/375s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1178,11 +1179,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="13910897/60000s" name="前のソールは - 基本タイトル" start="216213998/60000s" duration="107107/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1243,7 +1239,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="21021/400s" name="DSCF0034" start="14077063/60000s" duration="7007/3000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1253,11 +1254,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="7070063/30000s" name="効かせながらも - 基本タイトル" start="216213998/60000s" duration="77077/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1288,7 +1284,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="329329/6000s" name="DSCF0034" start="7218211/30000s" duration="67067/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1298,11 +1299,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="7218211/30000s" name="できるだけ薄く - 基本タイトル" start="216213998/60000s" duration="67067/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1333,7 +1329,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1120119/20000s" name="DSCF0034" start="16263247/60000s" duration="4004/1875s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1343,11 +1344,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="16263247/60000s" name="一番人の視線を集める - 基本タイトル" start="216213998/60000s" duration="4004/1875s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1378,7 +1374,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="697697/12000s" name="DSCF0034" start="2049047/7500s" duration="1001/1200s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1388,11 +1389,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="2049047/7500s" name="センター部分 ここは - 基本タイトル" start="216213998/60000s" duration="33033/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1423,7 +1419,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="707707/12000s" name="DSCF0034" start="16449433/60000s" duration="49049/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1448,11 +1449,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="16565549/60000s" name="一般的なローファーとは違い - 基本タイトル" start="216213998/60000s" duration="137137/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1483,7 +1479,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3724721/60000s" name="DSCF0034" start="8361353/30000s" duration="1001/500s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1493,11 +1494,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="8361353/30000s" name="ソールが見えないような - 基本タイトル" start="216213998/60000s" duration="1001/500s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1528,7 +1524,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3844841/60000s" name="DSCF0034" start="17058041/60000s" duration="37037/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1538,11 +1539,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="17058041/60000s" name="デザインにしました - 基本タイトル" start="216213998/60000s" duration="37037/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1573,7 +1569,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="261261/4000s" name="DSCF0034" start="8979971/30000s" duration="17017/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1583,11 +1584,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="8979971/30000s" name="なので見た目は - 基本タイトル" start="216213998/60000s" duration="17017/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1643,7 +1639,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             <asset-clip ref="rV2" name="DSCF0036" start="1020019/60000s" offset="8979971/30000s" duration="1001/125s" lane="1">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3986983/60000s" name="DSCF0034" start="18109091/60000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1653,11 +1654,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="18109091/60000s" name="普通の牛革ローファーですが - 基本タイトル" start="216213998/60000s" duration="51051/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1688,7 +1684,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2049047/30000s" name="DSCF0034" start="6105099/20000s" duration="7007/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1713,11 +1714,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="6125119/20000s" name="身長が6cmも盛れてしまう - 基本タイトル" start="216213998/60000s" duration="11011/4000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1748,7 +1744,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="131131/1875s" name="DSCF0034" start="6147141/20000s" duration="109109/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1773,11 +1774,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="18607589/60000s" name="そんなローファーになっています - 基本タイトル" start="216213998/60000s" duration="47047/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1808,7 +1804,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="293293/4000s" name="DSCF0034" start="6717711/20000s" duration="139139/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1818,11 +1819,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="6717711/20000s" name="脱ぎ履きしやすいように - 基本タイトル" start="216213998/60000s" duration="193193/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1853,7 +1849,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="2269267/30000s" name="DSCF0034" start="169169/500s" duration="9009/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1878,11 +1879,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="1020019/3000s" name="靴の内側に - 基本タイトル" start="216213998/60000s" duration="23023/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1913,7 +1909,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="4661657/60000s" name="DSCF0034" start="20539519/60000s" duration="163163/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1923,11 +1924,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="20539519/60000s" name="ゴムを採用しております - 基本タイトル" start="216213998/60000s" duration="163163/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -1958,7 +1954,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="241241/3000s" name="DSCF0034" start="10499489/30000s" duration="91091/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -1968,11 +1969,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="10499489/30000s" name="ローファー特有の - 基本タイトル" start="216213998/60000s" duration="91091/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2003,7 +1999,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1638637/20000s" name="DSCF0034" start="703703/2000s" duration="89089/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2013,11 +2014,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="703703/2000s" name="窮屈感もない - 基本タイトル" start="216213998/60000s" duration="89089/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2048,7 +2044,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1001/12s" name="DSCF0034" start="21304283/60000s" duration="19019/12000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2058,11 +2059,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="21304283/60000s" name="楽に履けて - 基本タイトル" start="216213998/60000s" duration="19019/12000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2093,7 +2089,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1020019/12000s" name="DSCF0034" start="22251229/60000s" duration="17017/6000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2103,11 +2104,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="22251229/60000s" name="インソールのクッション性もあり - 基本タイトル" start="216213998/60000s" duration="17017/6000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2138,7 +2134,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="351351/4000s" name="DSCF0034" start="22509487/60000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2148,11 +2149,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="22509487/60000s" name="歩いていても - 基本タイトル" start="216213998/60000s" duration="71071/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2183,7 +2179,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="667667/7500s" name="DSCF0034" start="11412401/30000s" duration="163163/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2193,11 +2194,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="2" offset="11412401/30000s" name="疲れにくい設計にしております - 基本タイトル" start="216213998/60000s" duration="163163/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -2228,7 +2224,12 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1834833/20000s" name="DSCF0034" start="23742719/60000s" duration="2002/625s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2238,11 +2239,6 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="23742719/60000s" name="COW LEATHER LOAFER - 基本タイトル" start="216205990/60000s" duration="31031/3750s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-2.04 35.3501" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
@@ -2275,7 +2271,12 @@ Color : BLACK | Size : 37, 39, 41, 43
                             <asset-clip ref="rV2" name="DSCF0036" start="1110109/15000s" offset="23742719/60000s" duration="103103/12000s" lane="1">
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="1898897/20000s" name="DSCF0034" start="5988983/15000s" duration="13013/15000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -2315,11 +2316,6 @@ Color : BLACK | Size : 37, 39, 41, 43
                             </adjust-volume>
                             <mc-source angleID="A1" srcEnable="audio" />
                             <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
                             <title ref="r74" lane="3" offset="25001977/60000s" name="2026.10.31 sat 10pm - Release - 基本タイトル" start="108101994/30000s" duration="91091/20000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.17325 -13.6782" />
                                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1.05 1.6092" />
@@ -2334,7 +2330,12 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
                             </title>
-                        </mc-clip>
+                        <filter-audio ref="r201" name="Limiter">
+                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
+                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
+                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
+                            </filter-audio>
+                            </mc-clip>
                         <mc-clip ref="rM1" offset="3010007/30000s" name="DSCF0034" start="8379371/20000s" duration="43043/30000s">
                             <adjust-volume>
                                 <param name="amount">
