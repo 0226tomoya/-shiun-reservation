@@ -357,3 +357,8 @@
 - 道具: `editing/tools/short_overlay.py`（ユーザーの XML ＋ `editing/shorts/26w1st/overlay_*.json` → 出力）、`short_cut_compare.py`（本線が 1 コマも変わっていないか）、`short_overlay_preview.py`（確認用の静止画）。
 - 画像の Mac の名前: ユーザーの XML の resources に SNS 用高画質・色調整済みの asset が全部入っているので、それを ref で使う（新しく asset を作らない）。`editing/plans/A24_sns_rename.json` は CHARCOAL（Vネック）の番号が 1 つずれていて、拡張子も違う（00003・00011 は .png）。ローファーの Mac のフォルダは `5.COW LEATHER LOAFER 2`（手元の `6.COW LEATHER LOAFER` とは中身が一部違う）。
 - 名前の正規化: ユーザーの XML はプロジェクト名・素材名の一部が NFD（「ポ」「ボ」「パ」が分かれている）。比べるときは NFC にそろえる。書き出すときは元の綴りのまま残す。
+
+## テロップの縁取り（アウトライン）は XML で作らない（2026-10-13 ユーザー指示）
+- FCPXML の text-style には縁取りの「ぼかし」の項目が無い（DTD で確認）。FCP の書き出しにも出ない。そのため XML で縁取りを付けても、読み込むとぼかし 0 になり、指定の「不透明度 25%・ブラー 10・幅 5」にならない。
+- ユーザーの指示で、XML のテロップには縁取りを付けない（`short_overlay.py --no-outline`、字幕の書式から strokeColor・strokeWidth を外す）。縁取りが要るときは、FCP 側（テンプレートか、テロップを全部選んでインスペクタ）で付ける。
+- 長尺（ラインナップ）でも同じ。テロップの縁取りの値を XML で写して「同じ」と判断しない。

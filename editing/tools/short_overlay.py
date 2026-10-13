@@ -67,7 +67,7 @@ def width(text):
 
 # ---------- 型（カーコート冒頭でユーザーが直した値をそのまま） ----------
 SUB_POS = '3.5 -415'
-SUB_STYLE = 'font="Klee" fontSize="28" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.25" strokeWidth="-5" baseline="405"'
+SUB_STYLE = 'font="Klee" fontSize="28" fontFace="Demibold" fontColor="1 1 1 1" bold="1" baseline="405"'  # 縁取りは付けない（XML ではぼかしが書けないため、ユーザー指示で削除）
 ADJ_TF = '<adjust-transform position="0 7.34375" scale="1.15 1.15" />'
 IMG_SCALE, IMG_POS = '1.5 1.5', '0.572917 0'  # SNS 用高画質（5:6）を縦いっぱいに
 SE_DUR = F(37037, 60000)
@@ -455,6 +455,9 @@ def main():
     event_body = ''.join('\n' + indent + p for p in keep) + '\n' + indent[:-4]
     res_add = ''.join('\n        ' + r for r in ctx.new_res)
     out = (text[:ctx.res_end].rstrip() + res_add + '\n    ' + text[ctx.res_end:ev_open_end] + event_body + text[ev_e:])
+    if '--no-outline' in args:
+        # 縁取り（アウトライン）を消す。FCPXML には縁取りのぼかしの項目が無く、FCP で読み込むとぼかし 0 になるため（ユーザー指示）
+        out = re.sub(r'\s(?:strokeColor|strokeWidth)="[^"]*"', '', out)
     open(out_path, 'w', encoding='utf-8').write(out)
     if '--log' in args:
         json.dump(logs, open(args[args.index('--log') + 1], 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

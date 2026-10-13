@@ -35,3 +35,6 @@ description: テロップ（字幕・強調・商品名・ラベル・身長別�
 - 試着会のタイプライター → shiun-telop-trial-typewriter ／ 本人のサイズラベル → shiun-telop-self-label
 - 仮置きのチェック → shiun-telop-placeholder-check
 
+
+## 縁取り（アウトライン）
+- FCPXML では縁取りの「ぼかし」が書けない（読み込むと 0 になる）。ユーザー指示で、XML のテロップには縁取りを付けない（strokeColor・strokeWidth を書かない）。縁取りは FCP 側で付ける。
