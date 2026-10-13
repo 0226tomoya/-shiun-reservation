@@ -54,6 +54,14 @@ ul.log time{font-family:var(--fm);color:var(--mut);font-variant-numeric:tabular-
 .others button{font:inherit;font-size:13px;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:4px 12px;cursor:pointer}
 .others button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
 .others button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.logbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;max-height:420px;overflow:auto;margin-top:8px}
+table.dlog{border-collapse:collapse;width:100%;font-size:12.5px}
+table.dlog td{padding:5px 10px;border-top:1px solid var(--line);vertical-align:top}
+table.dlog tr:first-child td{border-top:0}
+table.dlog td.tm{font-family:var(--fm);color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums}
+table.dlog td.sr{white-space:nowrap;color:var(--accent)}
+table.dlog td.tx{overflow-wrap:anywhere}
+#srcs{margin-top:4px}
 </style>
 
 <div class="wrap">
@@ -75,6 +83,12 @@ ul.log time{font-family:var(--fm);color:var(--mut);font-variant-numeric:tabular-
     <section><h2>手順</h2><ol class="tasks" id="tasks"></ol></section>
     <section><h2>最近の動き</h2><ul class="log" id="log"></ul></section>
   </div>
+
+  <section id="detail" hidden>
+    <h2>詳細ログ <span class="statusline" id="logcount"></span></h2>
+    <div class="others" id="srcs"></div>
+    <div class="logbox"><table class="dlog"><tbody id="dlog"></tbody></table></div>
+  </section>
 
   <div class="empty" id="empty">まだ作業が登録されていません。Claude に「タスクプレビューに出して」と頼むと、手順ごとの進み具合がここに出ます。</div>
 </div>
@@ -113,8 +127,17 @@ function render(){
   }).join('');
   const log = (Array.isArray(b.activity) ? b.activity : []).slice().sort((a,c) => (c.at||0)-(a.at||0)).slice(0, 15);
   $('log').innerHTML = log.length ? log.map(a => `<li><time>${a.at ? hhmm(a.at) : ''}</time><span>${esc(a.text)}</span></li>`).join('') : '<li><time></time><span>まだありません</span></li>';
+  const dl = Array.isArray(b.log_lines) ? b.log_lines : [];
+  $('detail').hidden = !dl.length;
+  const srcs = [...new Set(dl.map(l => l.src))];
+  $('srcs').innerHTML = ['すべて', ...srcs].map(s => `<button type="button" data-src="${esc(s)}" aria-pressed="${(srcFilter||'すべて')===s}">${esc(s)}</button>`).join('');
+  const shown = dl.filter(l => !srcFilter || srcFilter === 'すべて' || l.src === srcFilter);
+  $('logcount').textContent = `${shown.length} 行`;
+  $('dlog').innerHTML = shown.map(l => `<tr><td class="tm">${l.at ? new Date(l.at).toLocaleTimeString('ja-JP') : ''}</td><td class="sr">${esc(l.src)}</td><td class="tx">${esc(l.text)}</td></tr>`).join('');
   tick();
 }
+let srcFilter = null;
+document.addEventListener('click', e => { const s = e.target.closest('#srcs button')?.dataset.src; if (s) { srcFilter = s; render(); } });
 function tick(){
   if (!lastUpdate) return;
   const s = Math.max(0, Math.round((Date.now() - lastUpdate) / 1000));
