@@ -21,6 +21,8 @@ header{display:grid;gap:6px}
 .eyebrow{font-size:12px;letter-spacing:.08em;color:var(--mut)}
 h1{margin:0;font-size:22px;font-weight:700;text-wrap:balance}
 .statusline{color:var(--mut);font-size:14px}
+.now{font-size:17px;font-weight:700;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--doing);border-radius:8px;padding:10px 14px;line-height:1.5}
+.now::before{content:"いまの作業";display:block;font-size:11px;font-weight:500;letter-spacing:.08em;color:var(--doing);margin-bottom:2px}
 .live{display:inline-flex;align-items:center;gap:6px;font-family:var(--fm);font-size:12px;color:var(--mut)}
 .pulse{width:8px;height:8px;border-radius:50%;background:var(--accent)}
 .stale .pulse{background:var(--todo)}
@@ -66,9 +68,8 @@ table.dlog td.tx{overflow-wrap:anywhere}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow" id="project">タスクプレビュー</div>
     <h1 id="title">作業の様子</h1>
-    <div class="statusline" id="statusline">Claude が作業の進み具合をここに書き込むと、自動で最新の状態に変わります。</div>
+    <div class="now" id="statusline">Claude が作業の進み具合をここに書き込むと、自動で最新の状態に変わります。</div>
     <div class="live" id="live"><span class="pulse"></span><span id="ago">つないでいます…</span></div>
   </header>
 
@@ -109,7 +110,6 @@ function render(){
   oth.innerHTML = boards.map(x => `<button type="button" data-id="${esc(x.id)}" aria-pressed="${b && x.id===b.id}">${esc(x.title || x.id)}</button>`).join('');
   if (!b) return;
   current = b.id; lastUpdate = b.updated_at || 0;
-  $('project').textContent = b.project || 'タスクプレビュー';
   $('title').textContent = b.title || b.id;
   $('statusline').textContent = b.status_line || '';
   const tasks = Array.isArray(b.tasks) ? b.tasks : [];
