@@ -118,8 +118,8 @@ function render(){
 function tick(){
   if (!lastUpdate) return;
   const s = Math.max(0, Math.round((Date.now() - lastUpdate) / 1000));
-  const t = s < 60 ? `${s} 秒前に更新` : s < 3600 ? `${Math.floor(s/60)} 分前に更新` : `${hhmm(lastUpdate)} に更新`;
-  $('ago').textContent = t + '（自動で最新になります）';
+  const t = s < 60 ? `${s} 秒前` : s < 3600 ? `${Math.floor(s/60)} 分前` : `${hhmm(lastUpdate)}`;
+  $('ago').textContent = `Claude の最後の書き込み: ${t}（次に書き込むと、開いたままこの画面が変わります）`;
   $('live').classList.toggle('stale', s > 1800);
 }
 setInterval(tick, 1000);
