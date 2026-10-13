@@ -433,6 +433,7 @@ def main():
         if not pr or ('photos' not in pr and 'donor_assets' not in pr):
             continue
         t0, t1 = s['t0'], s['t1']
+        photos_base = None
         if 'donor_assets' in pr:
             da = pr['donor_assets']
             photos = donor_assets(da, 'photos')
@@ -440,6 +441,8 @@ def main():
             videos = donor_assets(da, 'videos') if da.get('videos') else []
         else:
             photos = folder(pr['photos']) + (folder(pr['photos2']) if pr.get('photos2') else [])
+            photos_base = list(photos)  # 紹介イン・価格の背景は SNS 用高画質から（寄り写真は説明の所だけ）
+            photos += [a for f_ in pr.get('photos_more', []) for a in folder(f_)]
             ec = folder(pr['ec'])
             videos = []
         # 1) 商品紹介イン（4.6 秒）: 左 掲載用 01、右 SNS 写真をぼかし
@@ -455,7 +458,7 @@ def main():
                     di = T(ch.get('duration'))
         if ec and photos:
             attach(still(ec[0], di, LANE['photo_fg'], '-44.4444 0', 'half'), i0)
-            attach(still(photos[min(5, len(photos) - 1)], di, LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), i0)
+            attach(still((photos_base or photos)[min(5, len(photos_base or photos) - 1)], di, LANE['photo_bg'], '44.4444 0', 'half', [blur_f]), i0)
             stats['intro'] += 1
         # 2) 字幕と B-roll（A19 の組み方）
         # - 字幕 3 本のかたまりごとに、続いた 1 つのインサート（中央値 16 秒）を敷く。トークの間は 15 秒前後空ける
@@ -599,6 +602,21 @@ def main():
                     if x['t1'] - x['t0'] < want_d:
                         w_ = x['t0'] + want_d
                         x['t1'] = near_cut(w_, w_ - 1, w_ + Fraction(3, 2)) or snapf(w_)
+            # 色の説明（見出し Color）は、英字大文字の色名を 1 語ずつ 1 枚に（スキル shiun-telop-explain-source）
+            cols_ = [c_.strip().upper() for c_ in (pr.get('color') or '').split(',') if c_.strip()]
+            if len(cols_) >= 2:
+                out_ = []
+                for x in mine:
+                    if x.get('label') == 'Color' and not x['face']:
+                        d_ = (x['t1'] - x['t0']) / len(cols_)
+                        # 切り替わりは編集点に（なければフレーム）
+                        bs_ = [x['t0']] + [near_cut(x['t0'] + d_ * k_, x['t0'] + d_ * k_ - d_ / 2, x['t0'] + d_ * k_ + d_ / 2)
+                                           or snapf(x['t0'] + d_ * k_) for k_ in range(1, len(cols_))] + [x['t1']]
+                        for k_, c_ in enumerate(cols_):
+                            out_.append(dict(x, text=c_, t0=bs_[k_], t1=bs_[k_ + 1]))
+                    else:
+                        out_.append(x)
+                mine = out_
             tp = None
             if pr.get('price') and ec and pr['chapter'] in seg_time:
                 ps = seg_time[pr['chapter']]
@@ -692,7 +710,7 @@ def main():
                 pe = (near_cut(tp + 3, tp + Fraction(25, 10), tp + 4) or near_cut(tp + 3, tp + 2, tp + 6)
                       or min([c for c in CUTS if tp + 3 <= c <= tp + 10], default=None) or snapf(tp + 3))
                 pd = pe - tp
-                attach(still((photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
+                attach(still((photos_base or photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
                 attach(still(ec[0], pd, LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
                 attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                              LANE['center'], pd), tp)
@@ -760,7 +778,7 @@ def main():
             pe = near_cut(tp + 3, tp + Fraction(25, 10), tp + 4) or near_cut(tp + 3, tp + 2, tp + 5) or snapf(tp + 3)
             pd = pe - tp
             # 全面をぼかした写真で覆い（左上の商品名ラベルを隠す。A18 の型）、中央に写真
-            attach(still((photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
+            attach(still((photos_base or photos or ec)[-1], pd, LANE['photo_bg'], '0 0', '2.2 2.2', [blur_f]), tp)
             attach(still(ec[0], pd, LANE['photo_fg'], '0 0', '1.05 1.05'), tp)
             attach(title('product_center', 'price', [pr['name'], f"Color : {pr['color']} | Size : {pr['sizes']}", pr['price'], ' - tax in'],
                          LANE['center'], pd), tp)

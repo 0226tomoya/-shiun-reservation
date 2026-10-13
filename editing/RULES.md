@@ -92,3 +92,7 @@ python3 -I tools/fidelity_full.py FLAT.json A19.json A23.json   # テロップ�
 - 字幕の下で左下のクレジットが切り替わるときは、字幕も分けてそろえる（shiun-telop-timing）。
 - 身長別比較の直前は「〜の動画が」で止め、「こちらです。どうぞ。」は `apply_cuts.py --words` が自動で切る（shiun-finish-cut）。
 - 中身で削る仕上げカットの候補（身長別の後のトーク・価格の 2 回目）は `apply_cuts.py` が出す。切るのは plan.edits.content_trim = "auto" のときだけ（shiun-cut-content-trim）。
+- 差し込む素材が無いときは、その予告の発言も切る（plan.trial_event = null。shiun-trial-event-insert）。
+- 中身で削る仕上げカットは自動で入れ、削った所を一覧で報告する（content_trim = "auto"。shiun-cut-content-trim）。
+- 説明テロップの文は 台本 → EC → 発言の要約 の順（plan.script。shiun-telop-explain-source）。色は英字大文字で 1 色 1 枚。
+- 後から届いた写真は部位を台帳に書いて、発言と合わせて使う（shiun-insert-explain-visual）。

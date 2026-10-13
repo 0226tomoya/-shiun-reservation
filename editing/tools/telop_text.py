@@ -22,6 +22,9 @@ DICT = [
     ('衿', '襟'), ('すっきり', 'スッキリ'), ('頃', 'ごろ'), ('周り', 'まわり'),
     ('機能素材', '機能性素材'), ('サンドトープ', 'SAND TAUPE'),
 ]
+# 発言の要約をテロップにするときの言い換え（修正版の書き方。スキル shiun-telop-explain-source の辞書）
+SPOKEN = [('を使用', 'を採用'), ('使用', '採用'), ('若干', 'やや'), ('少しだけ', '程よい'), ('真ん中部分', 'アウトソールの中央'),
+          ('周り', 'まわり'), ('頃', 'ごろ'), ('サンドトープ', 'SAND TAUPE')]
 LEAD = ('さらに、', 'さらに', 'ただ、', 'また、', 'そして、', 'なので、', '今回は')
 THRESH = 0.35
 # 節の切れ目で文が終わっていない（「〜ので」「〜ため」「〜ことで」で止まる）候補は使わない
@@ -90,6 +93,10 @@ def candidates(product, texts=None):
                     c = ''.join(parts[i:j])
                     if len(_n(c)) >= 8 and not tidy(c).endswith(DANGLING):
                         out.append((sent, c))
+                    # 「AをBにすることで」の B（名詞句）も候補にする（例: シルエットを「イタリアンローファーのようなシャープで上品なシルエット」にすることで）
+                    m = re.search(r'を(.{8,}?)にすることで', c)
+                    if m and j == i + 1:
+                        out.append((sent, m.group(1)))
     return out
 
 
@@ -111,9 +118,20 @@ class ExplainSource:
         return best
 
     def rewrite(self, text):
-        for pool in self.pools:  # 台本 → EC の順。先の材料で一致すればそれを使う
+        # 台本 → EC の順。台本には 0.1 の上乗せをして、一番よく合う文を使う（台本を第一に、でも合わない文は使わない）
+        best = None
+        for k, pool in enumerate(self.pools):
             r, sent, c = self.best(text, pool)
-            if c is not None and r >= THRESH:
-                self.used.add((sent, c))
-                return tidy(c)
-        return text
+            if c is None or r < THRESH:
+                continue
+            sc = r + (0.1 if k == 0 and len(self.pools) > 1 else 0)
+            if best is None or sc > best[0]:
+                best = (sc, sent, c)
+        if best is None:
+            # 材料に無い文は発言の要約のまま。ただし書き方（語の言い換え・「。」なし）は修正版にそろえる
+            t = text.rstrip('。')
+            for a, b in SPOKEN:
+                t = t.replace(a, b)
+            return re.sub(r'(\d+)ゲージ', r'\1G', t)
+        self.used.add((best[1], best[2]))
+        return tidy(best[2])
