@@ -326,3 +326,5 @@
   - 元の素材を FCP のイベントに入れ、イベントごと「書き出し → XML」してもらう。
   - `editing/tools/short_media_info.py` で media_info.json にし、edl の "media_info" に指定して short_build.py を回す。頭の時刻・長さ・チャンネル・uid・format・パスが実物と同じになる。
   - 縦撮りの DSCF は、FCP では 1080x1920・frameDuration 1000/24000s として読まれる。
+- **24.00p の素材には conform-rate scaleEnabled="0" を付ける**（ピンマイクがずれて聞こえた、2026-10-13）。付けないと FCP が 59.94p のマルチカム・タイムラインで「自動速度」をかけ、映像を 23.976 に 0.1% 遅くする。音（マイク）は遅くならないので、素材の後ろほどずれる（300 秒で約 0.3 秒）。型（A23）も全素材に conform-rate scaleEnabled="0" を付けている。
+- マルチカムのマイクの置き方は、offset を 59.94p のコマに揃え、端数は start（1/48000 秒）で持つ。

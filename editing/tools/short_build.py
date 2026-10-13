@@ -156,6 +156,7 @@ def clone(key):
 fmt_src_id = 'rS1'
 # 縦撮りの DSCF の MOV は、FCP では 1080x1920・24.00p（frameDuration 1000/24000s、name なし）として読まれる（実物の書き出しで確認）
 SRC_FPS = edl.get('src_fps', 24)
+CONFORM_RATE = {24: '24', 23.976: '23.98', 29.97: '29.97', 30: '30'}[SRC_FPS]
 SFD = {24: Fr(1, 24), 23.976: Fr(1001, 24000), 29.97: Fr(1001, 30000), 30: Fr(1, 30)}[SRC_FPS]
 ET.SubElement(resources, 'format', {'id': fmt_src_id, 'frameDuration': {24: '1000/24000s', 23.976: '1001/24000s', 29.97: '1001/30000s', 30: '1000/30000s'}[SRC_FPS], 'width': '1080', 'height': '1920', 'colorSpace': '1-1-1 (Rec. 709)'})
 
@@ -207,13 +208,16 @@ for name, c in edl['clips'].items():
         med = ET.SubElement(resources, 'media', {'id': mid, 'name': name + ' マルチカム'})
         mc = ET.SubElement(med, 'multicam', {'format': seq_fmt, 'tcStart': '0s', 'tcFormat': 'NDF'})
         av = ET.SubElement(mc, 'mc-angle', {'name': name, 'angleID': f'V{n}'})
-        ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'start': ts(src0[name]), 'duration': ts(vdur), 'audioRole': 'dialogue'})
+        vac = ET.SubElement(av, 'asset-clip', {'ref': vid, 'offset': '0s', 'name': name, 'start': ts(src0[name]), 'duration': ts(vdur), 'audioRole': 'dialogue'})
+        # 24.00p の素材を 59.94p に置くと、FCP は既定で「自動速度」をかけ 23.976 に 0.1% 遅くする（長いほど音とずれる）。型と同じく止める
+        ET.SubElement(vac, 'conform-rate', {'scaleEnabled': '0', 'srcFrameRate': CONFORM_RATE})
         aa = ET.SubElement(mc, 'mc-angle', {'name': 'ピンマイク', 'angleID': f'A{n}'})
-        off = c['offset']
-        if off >= 0:
-            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': '0s', 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]] + Fr(round(off * 48000), 48000)), 'duration': ats(c['mic_dur'] - off), 'audioRole': 'dialogue'})
-        else:
-            ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': ats(-off), 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]]), 'duration': ats(c['mic_dur']), 'audioRole': 'dialogue'})
+        # マイクの時刻 = 映像の時刻 + off。置く位置（offset）は 59.94p のコマに揃え、端数は start（1/48000 秒）で持つ
+        off = Fr(round(c['offset'] * 48000), 48000)
+        O = -(-max(Fr(0), -off) // FD) * FD
+        st = O + off
+        mdur = Fr(round(c['mic_dur'] * 48000), 48000) - st
+        ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': ts(O), 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]] + st), 'duration': ts(mdur), 'audioRole': 'dialogue'})
         mc_of[name] = (mid, f'V{n}', f'A{n}')
     else:
         mc_of[name] = (None, vid, None)
@@ -244,6 +248,7 @@ for s in edl['segments']:
             need(limiter.get('ref')); el.append(copy.deepcopy(limiter))
     else:
         el = ET.SubElement(spine, 'asset-clip', {'ref': vang, 'offset': ts(tl), 'name': s['clip'], 'start': ts(src0[s['clip']] + a), 'duration': ts(b - a)})
+        ET.SubElement(el, 'conform-rate', {'scaleEnabled': '0', 'srcFrameRate': CONFORM_RATE})
     placed.append((tl, tl + b - a, el, a))
     tl += b - a
 
@@ -315,6 +320,7 @@ for ins in edl.get('inserts', []):
     if ref is None:
         continue
     el = ET.Element('asset-clip', {'ref': ref, 'name': ins['clip'], 'start': ts(src0[ins['clip']] + fr(ins['in']))})
+    ET.SubElement(el, 'conform-rate', {'scaleEnabled': '0', 'srcFrameRate': CONFORM_RATE})
     ET.SubElement(el, 'adjust-volume', {'amount': '-96dB'})
     if ins.get('scale'):
         ET.SubElement(el, 'adjust-transform', {'scale': f"{ins['scale']} {ins['scale']}", 'position': ins.get('position', '0 0')})
