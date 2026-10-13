@@ -8,7 +8,7 @@ description: shiun ラインナップ動画（A24 など）の編集データを
    - apply_cuts（丸ごとカット。`--mic` で端を声に合わせる）→ assemble_lineup → remap_transcript → auto_insert → insert_size_compare → apply_overrides → 検証
 2. 直すのは XML ではなく作り方（tools・型・`editing/plans/A24_plan.json`）。直したら必ず 1 から流し直す。
 3. 最後に必ず通すもの（0 件になるまで渡さない）:
-   - `validate_fcpxml.py`（参照の誤り＝ FCP で読み込めないもの）
+   - `validate_fcpxml.py`（参照の誤り＝ FCP で読み込めないもの。build_all.sh は 1 件でもあれば止まる）
    - `audit_cuts.py`（自分が作った編集点の切り方）→ スキル shiun-cut-audit
    - `audit_inserts.py`（インサートの覆い方・字幕と発言）→ スキル shiun-insert-rules
    - `qa_timing.py`（フレームずれ・編集点とのずれ）

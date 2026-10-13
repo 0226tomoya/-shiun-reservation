@@ -12,7 +12,7 @@ python3 -I tools/remap_transcript.py "$W/A24_v1_old.fcpxml" output/A24_v1.fcpxml
 python3 -I tools/auto_insert.py output/A24_v1.fcpxml plans/A24_plan.json "$W/b_a.fcpxml" | tail -1
 python3 -I tools/insert_size_compare.py "$W/b_a.fcpxml" plans/A24_plan.json "$W/b_b.fcpxml" --media-vid "$VID" --models "$MODELS" | tail -1
 python3 -I tools/apply_overrides.py "$W/b_b.fcpxml" plans/A24_plan.json "$W/b_c.fcpxml"
-python3 -I tools/validate_fcpxml.py "$W/b_c.fcpxml" | tail -1
+python3 -I tools/validate_fcpxml.py "$W/b_c.fcpxml" > "$W/validate.txt"; tail -1 "$W/validate.txt"; head -1 "$W/validate.txt" | grep -q "^OK" || { echo "XML の参照の誤り（FCP で読み込めない）"; cat "$W/validate.txt"; exit 1; }
 python3 -I tools/audit_cuts.py "$W/b_c.fcpxml" "$MIC" "$W/b_cuts.json"
 python3 -I tools/audit_inserts.py "$W/b_c.fcpxml" plans/A24_transcript_cut.json --v1 output/A24_v1.fcpxml
 python3 -I tools/audit_telop_text.py "$W/b_c.fcpxml" || { echo "テロップの文字に問題あり（ローマ字の打ち残しなど）"; exit 1; }

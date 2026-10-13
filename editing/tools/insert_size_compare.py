@@ -475,6 +475,7 @@ def main():
     people_h = {p['height'].split('cm')[0]: p for p in sc['people']}
     sb_ranges = [(int(subs['size_compare_at'][ch]) - 2, int(subs['size_compare_at'][ch]) + 1) for ch in sc['products']]
     n_self = 0
+    n_self_v = [0]
     last_lab = {}  # 人ごとの直前のラベル（同じ人は 20 秒以内に重ねて出さない）
     if lab_src is not None:
         d19 = donor_for('../sources/A19_本編.fcpxml')
@@ -525,9 +526,47 @@ def main():
                     if ts.get('ref'):
                         ts.set('ref', f"{ts.get('ref')}_sl{n_ts[0]}")
                 e.append(lb)
+            # その人がその商品のこのサイズを着ている身長別の動画を、ラベルの間インサートで見せる（言っている体型が画で分かるように）
+            ch_ = max(((float(T(e2.get('offset')) + T(m2.get('start')) - T(e2.get('start'))), m2.get('value'))
+                       for e2 in items for m2 in e2.findall('chapter-marker')
+                       if T(e2.get('offset')) + T(m2.get('start')) - T(e2.get('start')) <= t0), default=(0, None))[1]
+            cfg_ = sc['products'].get(ch_)
+            clip_ = sc.get('clips', {}).get(who['who'], {}).get(size, {}).get(cfg_['wear']) if cfg_ and not who.get('pending') else None
+            if clip_ and vid_dir and os.path.exists(os.path.join(vid_dir, clip_)):
+                # その間の自動のインサート（lane 3 以上の映像・その上の調整レイヤー）は空ける
+                A0, A1 = a, a + dur
+                for e3, st3 in zip(items, starts):
+                    for c3 in list(e3):
+                        ln3 = c3.get('lane')
+                        if ln3 is None or not ln3.isdigit() or c3.get('offset') is None:
+                            continue
+                        is_v = c3.tag in ('video', 'asset-clip', 'clip', 'ref-clip') and int(ln3) >= 3
+                        is_adj = c3.tag == 'title' and (c3.get('name') or '').startswith('Adjustment') and int(ln3) >= 4
+                        if not (is_v or is_adj):
+                            continue
+                        b0 = st3 + T(c3.get('offset')) - T(e3.get('start'))
+                        b1 = b0 + T(c3.get('duration'))
+                        if b1 <= A0 or b0 >= A1:
+                            continue
+                        if b0 < A0:
+                            c3.set('duration', S(A0 - b0))
+                        elif b1 > A1:
+                            dd = A1 - b0
+                            c3.set('offset', S(T(c3.get('offset')) + dd))
+                            c3.set('start', S(T(c3.get('start') or '0s') + dd))
+                            c3.set('duration', S(b1 - A1))
+                        else:
+                            e3.remove(c3)
+                a_ = asset_for(who['who'], size, clip_)
+                v_ = ET.Element('asset-clip', ref=a_.get('id'), lane='3', name=clip_, offset=S(T(e.get('start'))),
+                                duration=S(dur), start=S(in_point(clip_, dur, ch_)), format=a_.get('format'), tcFormat='NDF', audioRole='dialogue')
+                ET.SubElement(v_, 'conform-rate', scaleEnabled='0', srcFrameRate='29.97')
+                ET.SubElement(v_, 'adjust-volume', amount='-96dB')
+                e.append(v_)
+                n_self_v[0] += 1
             last_lab[who['who']] = t0
             n_self += 1
-    print('本人・試着した人のサイズラベル:', n_self)
+    print('本人・試着した人のサイズラベル:', n_self, '（身長別の動画のインサート', n_self_v[0], '）')
 
     # ---- スパインに差し込み、後ろをずらす ----
     shifts = []  # (差し込み位置（元の時刻）, 長さ)

@@ -393,9 +393,15 @@ def main():
         if len(cr) < 2:
             continue
         detach(p, c)
-        for x, y in cr:
+        for k_, (x, y) in enumerate(cr):
             n_ = copy.deepcopy(c)
             n_.set('duration', S(y - x))
+            if k_:  # 書式 ID は複製ごとに一意に（同じ ID が 2 つあると FCP で読み込めない）
+                for tsd in n_.iter('text-style-def'):
+                    tsd.set('id', f"{tsd.get('id')}_cr{k_}")
+                for ts in n_.iter('text-style'):
+                    if ts.get('ref'):
+                        ts.set('ref', f"{ts.get('ref')}_cr{k_}")
             attach(n_, x)
         bump('クレジットにそろえて分けた字幕')
 

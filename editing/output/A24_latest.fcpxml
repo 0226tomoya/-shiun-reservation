@@ -24745,15 +24745,15 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
                 <text>
-                  <text-style ref="sim3_ts66">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67">売</text-style></text>
-                <text-style-def id="sim3_ts66">
+                  <text-style ref="sim3_ts66_cr1">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67_cr1">売</text-style></text>
+                <text-style-def id="sim3_ts66_cr1">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" kerning="1.6" alignment="center" lineSpacing="-5">
                     <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                       <param name="motionTextTracking" key="tracking" value="1.6" />
                     </param>
                   </text-style>
                 </text-style-def>
-                <text-style-def id="sim3_ts67">
+                <text-style-def id="sim3_ts67_cr1">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" alignment="center" lineSpacing="-5" />
                 </text-style-def>
                 <filter-video ref="rsim2" name="フェードアウト" enabled="0" />
@@ -24873,15 +24873,15 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
                 <text>
-                  <text-style ref="sim3_ts66">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67">売</text-style></text>
-                <text-style-def id="sim3_ts66">
+                  <text-style ref="sim3_ts66_cr2">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67_cr2">売</text-style></text>
+                <text-style-def id="sim3_ts66_cr2">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" kerning="1.6" alignment="center" lineSpacing="-5">
                     <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                       <param name="motionTextTracking" key="tracking" value="1.6" />
                     </param>
                   </text-style>
                 </text-style-def>
-                <text-style-def id="sim3_ts67">
+                <text-style-def id="sim3_ts67_cr2">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" alignment="center" lineSpacing="-5" />
                 </text-style-def>
                 <filter-video ref="rsim2" name="フェードアウト" enabled="0" />
@@ -24893,15 +24893,15 @@
                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-5" />
                 <text>
-                  <text-style ref="sim3_ts66">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67">売</text-style></text>
-                <text-style-def id="sim3_ts66">
+                  <text-style ref="sim3_ts66_cr3">身長が盛れる革靴シリーズは、ブーツ・サンダル・モカシン・Uチップと合計6000足以上を販</text-style><text-style ref="sim3_ts67_cr3">売</text-style></text>
+                <text-style-def id="sim3_ts66_cr3">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" kerning="1.6" alignment="center" lineSpacing="-5">
                     <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                       <param name="motionTextTracking" key="tracking" value="1.6" />
                     </param>
                   </text-style>
                 </text-style-def>
-                <text-style-def id="sim3_ts67">
+                <text-style-def id="sim3_ts67_cr3">
                   <text-style font="Klee" fontSize="32" fontFace="Medium" fontColor="1 1 1 1" alignment="center" lineSpacing="-5" />
                 </text-style-def>
                 <filter-video ref="rsim2" name="フェードアウト" enabled="0" />
@@ -31660,7 +31660,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <asset-clip ref="sc_6" lane="3" name="20261007_Y9901" offset="73182109/30000s" duration="13013/2400s" start="157157/5000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="32665633/60000s" name="A24_shiun26Winter1st ラインナップ動画" start="146503357/60000s" duration="77077/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -38653,52 +38653,7 @@
                 <filter-video ref="rsim2" name="フェードアウト" enabled="0" />
                 <filter-video ref="a19_r384" name="フェードイン" enabled="0" />
               </title>
-            <clip lane="3" offset="5412407/6000s" name="E1_20260903_6448" start="1/2s" duration="103103/20000s" format="r1298" tcFormat="NDF"><conform-rate scaleEnabled="0" srcFrameRate="59.94" /><adjust-volume amount="-96dB" /><video ref="r1343" offset="0s" duration="690690/60000s"><adjust-stabilization type="automatic" /></video><filter-video ref="a19_r371" name="カラー調整">
-                                    <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QA9IYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
-                                    <param name="制御の範囲" key="19" value="0 (SDR)" />
-                                    <param name="" key="20" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIG96eG1sc2NlbmU+Cjxvem1sIHZlcnNpb249IjUuMTUiPgoKPGZhY3RvcnkgaWQ9IjEiIHV1aWQ9IjE0NTA0OTJkODU0NTQ5Mzk4YzA3M2MxOGM2NDRhYWUxIj4KCTxkZXNjcmlwdGlvbj5DaGFubmVsPC9kZXNjcmlwdGlvbj4KCTxtYW51ZmFjdHVyZXI+QXBwbGU8L21hbnVmYWN0dXJlcj4KCTx2ZXJzaW9uPjE8L3ZlcnNpb24+CjwvZmFjdG9yeT4KCgo8cGFyYW1ldGVyIG5hbWU9IiIgaWQ9IjIwIiBmbGFncz0iNDI5NTAzMjg0OCI+Cgk8ZmxhZ3M+NDI5NTAzMjg0ODwvZmxhZ3M+Cgk8bnVtYmVyT2ZLZXlwb2ludHM+MDwvbnVtYmVyT2ZLZXlwb2ludHM+Cgk8ZGVmYXVsdFZhbD4qKioqKioqKio2SWVNYi1nT0xCb0ExMUkqRTYxLSpJNC1rZE03NU5aUWJCZFBxdE43NDNtTXFWZFJhSm1KMEZvUHItTTc0eFdPYUpYUjVBRyoqNDRjM3dFMW90SEdxSnROS0YtUWFCY09MTlpRaDI2MEo2WUE2KipjRWhKNzR0cFA0azYyRmNZOEg2ckdJbERJSkEqKioqKioqKi0qRSoqKioqKioqKkEqKioqKioqKioqKioqKioqKioqKktFKio8L2RlZmF1bHRWYWw+Cgk8ZGF0YVZhbHVlPioqKioqKioqKjZJZU1iLWdPTEJvQTExSSpFNjEtKkk0LWtkTTc1TlpRYkJkUHF0Tjc0M21NcVZkUmFKbUowRm9Qci1NNzR4V09hSlhSNUFHKio0NGMzd0Uxb3RIR3FKdE5LRi1RYUJjT0xOWlFoMjYwSjZZQTYqKmNFaEo3NHRwUDRrNjJGY1k4SDZyR0lsRElKQSoqKioqKioqLSpFKioqKioqKioqQSoqKioqKioqKioqKioqKioqKioqS0UqKjwvZGF0YVZhbHVlPgo8L3BhcmFtZXRlcj4KCjwvb3ptbD4K" />
-                                    <param name="Neutralization Data" key="23" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIG96eG1sc2NlbmU+Cjxvem1sIHZlcnNpb249IjUuMTUiPgoKPGZhY3RvcnkgaWQ9IjEiIHV1aWQ9IjRkMGU0OGQ4NGZjYTQyNGQ4MmFhOThhMDI3YzZlYzVjIj4KCTxkZXNjcmlwdGlvbj5DaGFubmVsPC9kZXNjcmlwdGlvbj4KCTxtYW51ZmFjdHVyZXI+QXBwbGU8L21hbnVmYWN0dXJlcj4KCTx2ZXJzaW9uPjE8L3ZlcnNpb24+CjwvZmFjdG9yeT4KCgo8cGFyYW1ldGVyIG5hbWU9Ik5ldXRyYWxpemF0aW9uIERhdGEiIGlkPSIyMyIgZmxhZ3M9IjQyOTkyMjcxODQiPgoJPGZsYWdzPjQyOTkyMjcxODQ8L2ZsYWdzPgoJPG51bWJlck9mS2V5cG9pbnRzPjA8L251bWJlck9mS2V5cG9pbnRzPgoJPGRlZmF1bHRWYWw+KioqKioqKioqU1llTWItZ09MQm9BMTFJKkU2MS0qSTQta2RNNzVOWlFiQmRQcXRONzQzbU1xVmRSYUptSjBGb1ByLU03NHhXT2FKWFI1QUcqKjQ0YzN3RTFvdEhHcUp0TktGLVFhQmNPTE5aUWgyNjBKNllBNiotY2tnQTVaSVlQYkpnUEJ3RTFrb0MxbCpGMlZBSTNGTUw0LVlPNGxrUTUta1E1LWtSNS1rUTUta1E1M1ZYUHF0b1FhM25SM3dFMXJCcFE0Sm1HNFpiTzRsZE5xVm9RcHBuTzQzWVByUm5KcTNtUExGY0thN2dNS0JmSTR4ZFBiRktScTNtUExGY0o1RmRQYkZRUEtaWVI0eGlOTEJJT0t0b0pXRlhQNDNuUXBobk80M1lQclJuSjRaaVIzZGNPS1JjUDRaYk81Rm5LYkJWUjVKbU1MRmRQcXRPTWI3ZE5xVm9QYUpuUXBWWlM1LWpRckptTkp0aE9LRm9QcXRaUXBSVlFhcG9PM1JuTzQzWVByUm42WWdNWmMwKipoNlQ2MDJXS1dGWFA0M25RcXRWUEtKTTc0QmdNTEJuTkxCVDItVkVFSUo2RjM3MVBxbGpRWUJqUWI3Wk1yRktNS2xwTkxDVzZtRlQyLVZFRUlKNkYzNzFQcWxqUVlCalFiN1pNckZLTUtscE5MQk1IWkJETWFkWk1yRSowKipGKi1jKjcqKmQqMTYqQmstNyoyaypIay1GKjNJKktrLXcqNkkqWmswWio5KipoazB3KkFZKm8qMVEqQ1Eqd1UxeCpFTS0zRTJSKkc2LTcqMmQqSEUtREUzTSpKZy1SVSoqKioqKioqNi0qKioqKioqKiowSSoqKioqKioqKioqKioqKioqKiozejwvZGVmYXVsdFZhbD4KCTxkYXRhVmFsdWU+KioqKioqKioqU1llTWItZ09MQm9BMTFJKkU2MS0qSTQta2RNNzVOWlFiQmRQcXRONzQzbU1xVmRSYUptSjBGb1ByLU03NHhXT2FKWFI1QUcqKjQ0YzN3RTFvdEhHcUp0TktGLVFhQmNPTE5aUWgyNjBKNllBNiotY2tnQTVaSVlQYkpnUEJ3RTFrb0MxbCpGMlZBSTNGTUw0LVlPNGxrUTUta1E1LWtSNS1rUTUta1E1M1ZYUHF0b1FhM25SM3dFMXJCcFE0Sm1HNFpiTzRsZE5xVm9RcHBuTzQzWVByUm5KcTNtUExGY0thN2dNS0JmSTR4ZFBiRktScTNtUExGY0o1RmRQYkZRUEtaWVI0eGlOTEJJT0t0b0pXRlhQNDNuUXBobk80M1lQclJuSjRaaVIzZGNPS1JjUDRaYk81Rm5LYkJWUjVKbU1MRmRQcXRPTWI3ZE5xVm9QYUpuUXBWWlM1LWpRckptTkp0aE9LRm9QcXRaUXBSVlFhcG9PM1JuTzQzWVByUm42WWdNWmMwKipoNlQ2MDJXS1dGWFA0M25RcXRWUEtKTTc0QmdNTEJuTkxCVDItVkVFSUo2RjM3MVBxbGpRWUJqUWI3Wk1yRktNS2xwTkxDVzZtRlQyLVZFRUlKNkYzNzFQcWxqUVlCalFiN1pNckZLTUtscE5MQk1IWkJETWFkWk1yRSowKipGKi1jKjcqKmQqMTYqQmstNyoyaypIay1GKjNJKktrLXcqNkkqWmswWio5KipoazB3KkFZKm8qMVEqQ1Eqd1UxeCpFTS0zRTJSKkc2LTcqMmQqSEUtREUzTSpKZy1SVSoqKioqKioqNi0qKioqKioqKiowSSoqKioqKioqKioqKioqKioqKiozejwvZGF0YVZhbHVlPgo8L3BhcmFtZXRlcj4KCjwvb3ptbD4K" />
-                                    <param name="トリガ補正" key="18" value="6" />
-                                    <param name="露出" key="3" value="-10" />
-                                    <param name="コントラスト" key="17" value="0" />
-                                    <param name="ブライトネス" key="2" value="0" />
-                                    <param name="ハイライト" key="7" value="-10" />
-                                    <param name="ブラックポイント" key="1" value="0" />
-                                    <param name="シャドウ" key="4" value="0" />
-                                    <param name="スーパーハイライト" key="25" value="0" />
-                                    <param name="サチュレーション" key="16" value="0" />
-                                    <param name="ハイライトの暖かみ" key="10" value="0" />
-                                    <param name="ハイライトの色合い" key="11" value="0" />
-                                    <param name="中間色調の暖かみ" key="12" value="0" />
-                                    <param name="中間色調の色合い" key="13" value="0" />
-                                    <param name="シャドウの暖かみ" key="14" value="0" />
-                                    <param name="シャドウの色合い" key="15" value="0" />
-                                </filter-video>
-                            </clip><title ref="a19_r367" lane="4" offset="5412407/6000s" name="Adjustment Layer" start="107999892/30000s" duration="103103/20000s">
-                                <adjust-transform position="0 0" scale="1.55 1.55" />
-                                <filter-video ref="a19_r371" name="カラー調整">
-                                    <data key="effectConfig">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwVFhdVJG51bGzTDQ4PEBIUV05TLmtleXNaTlMub2JqZWN0c1YkY2xhc3OhEYACoROAA4AEXXBsdWdpblZlcnNpb24QA9IYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNfEBNOU011dGFibGVEaWN0aW9uYXJ5oxocHVxOU0RpY3Rpb25hcnlYTlNPYmplY3QIERokKTI3SUxRU1lfZm55gIKEhoiKmJqfqrPJzdoAAAAAAAABAQAAAAAAAAAeAAAAAAAAAAAAAAAAAAAA4w==</data>
-                                    <param name="制御の範囲" key="19" value="0 (SDR)" />
-                                    <param name="" key="20" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIG96eG1sc2NlbmU+Cjxvem1sIHZlcnNpb249IjUuMTUiPgoKPGZhY3RvcnkgaWQ9IjEiIHV1aWQ9IjE0NTA0OTJkODU0NTQ5Mzk4YzA3M2MxOGM2NDRhYWUxIj4KCTxkZXNjcmlwdGlvbj5DaGFubmVsPC9kZXNjcmlwdGlvbj4KCTxtYW51ZmFjdHVyZXI+QXBwbGU8L21hbnVmYWN0dXJlcj4KCTx2ZXJzaW9uPjE8L3ZlcnNpb24+CjwvZmFjdG9yeT4KCgo8cGFyYW1ldGVyIG5hbWU9IiIgaWQ9IjIwIiBmbGFncz0iNDI5NTAzMjg0OCI+Cgk8ZmxhZ3M+NDI5NTAzMjg0ODwvZmxhZ3M+Cgk8bnVtYmVyT2ZLZXlwb2ludHM+MDwvbnVtYmVyT2ZLZXlwb2ludHM+Cgk8ZGVmYXVsdFZhbD4qKioqKioqKio2SWVNYi1nT0xCb0ExMUkqRTYxLSpJNC1rZE03NU5aUWJCZFBxdE43NDNtTXFWZFJhSm1KMEZvUHItTTc0eFdPYUpYUjVBRyoqNDRjM3dFMW90SEdxSnROS0YtUWFCY09MTlpRaDI2MEo2WUE2KipjRWhKNzR0cFA0azYyRmNZOEg2ckdJbERJSkEqKioqKioqKi0qRSoqKioqKioqKkEqKioqKioqKioqKioqKioqKioqKktFKio8L2RlZmF1bHRWYWw+Cgk8ZGF0YVZhbHVlPioqKioqKioqKjZJZU1iLWdPTEJvQTExSSpFNjEtKkk0LWtkTTc1TlpRYkJkUHF0Tjc0M21NcVZkUmFKbUowRm9Qci1NNzR4V09hSlhSNUFHKio0NGMzd0Uxb3RIR3FKdE5LRi1RYUJjT0xOWlFoMjYwSjZZQTYqKmNFaEo3NHRwUDRrNjJGY1k4SDZyR0lsRElKQSoqKioqKioqLSpFKioqKioqKioqQSoqKioqKioqKioqKioqKioqKioqS0UqKjwvZGF0YVZhbHVlPgo8L3BhcmFtZXRlcj4KCjwvb3ptbD4K" />
-                                    <param name="Neutralization Data" key="23" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIG96eG1sc2NlbmU+Cjxvem1sIHZlcnNpb249IjUuMTUiPgoKPGZhY3RvcnkgaWQ9IjEiIHV1aWQ9IjRkMGU0OGQ4NGZjYTQyNGQ4MmFhOThhMDI3YzZlYzVjIj4KCTxkZXNjcmlwdGlvbj5DaGFubmVsPC9kZXNjcmlwdGlvbj4KCTxtYW51ZmFjdHVyZXI+QXBwbGU8L21hbnVmYWN0dXJlcj4KCTx2ZXJzaW9uPjE8L3ZlcnNpb24+CjwvZmFjdG9yeT4KCgo8cGFyYW1ldGVyIG5hbWU9Ik5ldXRyYWxpemF0aW9uIERhdGEiIGlkPSIyMyIgZmxhZ3M9IjQyOTkyMjcxODQiPgoJPGZsYWdzPjQyOTkyMjcxODQ8L2ZsYWdzPgoJPG51bWJlck9mS2V5cG9pbnRzPjA8L251bWJlck9mS2V5cG9pbnRzPgoJPGRlZmF1bHRWYWw+KioqKioqKioqU1llTWItZ09MQm9BMTFJKkU2MS0qSTQta2RNNzVOWlFiQmRQcXRONzQzbU1xVmRSYUptSjBGb1ByLU03NHhXT2FKWFI1QUcqKjQ0YzN3RTFvdEhHcUp0TktGLVFhQmNPTE5aUWgyNjBKNllBNiotY2tnQTVaSVlQYkpnUEJ3RTFrb0MxbCpGMlZBSTNGTUw0LVlPNGxrUTUta1E1LWtSNS1rUTUta1E1M1ZYUHF0b1FhM25SM3dFMXJCcFE0Sm1HNFpiTzRsZE5xVm9RcHBuTzQzWVByUm5KcTNtUExGY0thN2dNS0JmSTR4ZFBiRktScTNtUExGY0o1RmRQYkZRUEtaWVI0eGlOTEJJT0t0b0pXRlhQNDNuUXBobk80M1lQclJuSjRaaVIzZGNPS1JjUDRaYk81Rm5LYkJWUjVKbU1MRmRQcXRPTWI3ZE5xVm9QYUpuUXBWWlM1LWpRckptTkp0aE9LRm9QcXRaUXBSVlFhcG9PM1JuTzQzWVByUm42WWdNWmMwKipoNlQ2MDJXS1dGWFA0M25RcXRWUEtKTTc0QmdNTEJuTkxCVDItVkVFSUo2RjM3MVBxbGpRWUJqUWI3Wk1yRktNS2xwTkxDVzZtRlQyLVZFRUlKNkYzNzFQcWxqUVlCalFiN1pNckZLTUtscE5MQk1IWkJETWFkWk1yRSowKipGKi1jKjcqKmQqMTYqQmstNyoyaypIay1GKjNJKktrLXcqNkkqWmswWio5KipoazB3KkFZKm8qMVEqQ1Eqd1UxeCpFTS0zRTJSKkc2LTcqMmQqSEUtREUzTSpKZy1SVSoqKioqKioqNi0qKioqKioqKiowSSoqKioqKioqKioqKioqKioqKiozejwvZGVmYXVsdFZhbD4KCTxkYXRhVmFsdWU+KioqKioqKioqU1llTWItZ09MQm9BMTFJKkU2MS0qSTQta2RNNzVOWlFiQmRQcXRONzQzbU1xVmRSYUptSjBGb1ByLU03NHhXT2FKWFI1QUcqKjQ0YzN3RTFvdEhHcUp0TktGLVFhQmNPTE5aUWgyNjBKNllBNiotY2tnQTVaSVlQYkpnUEJ3RTFrb0MxbCpGMlZBSTNGTUw0LVlPNGxrUTUta1E1LWtSNS1rUTUta1E1M1ZYUHF0b1FhM25SM3dFMXJCcFE0Sm1HNFpiTzRsZE5xVm9RcHBuTzQzWVByUm5KcTNtUExGY0thN2dNS0JmSTR4ZFBiRktScTNtUExGY0o1RmRQYkZRUEtaWVI0eGlOTEJJT0t0b0pXRlhQNDNuUXBobk80M1lQclJuSjRaaVIzZGNPS1JjUDRaYk81Rm5LYkJWUjVKbU1MRmRQcXRPTWI3ZE5xVm9QYUpuUXBWWlM1LWpRckptTkp0aE9LRm9QcXRaUXBSVlFhcG9PM1JuTzQzWVByUm42WWdNWmMwKipoNlQ2MDJXS1dGWFA0M25RcXRWUEtKTTc0QmdNTEJuTkxCVDItVkVFSUo2RjM3MVBxbGpRWUJqUWI3Wk1yRktNS2xwTkxDVzZtRlQyLVZFRUlKNkYzNzFQcWxqUVlCalFiN1pNckZLTUtscE5MQk1IWkJETWFkWk1yRSowKipGKi1jKjcqKmQqMTYqQmstNyoyaypIay1GKjNJKktrLXcqNkkqWmswWio5KipoazB3KkFZKm8qMVEqQ1Eqd1UxeCpFTS0zRTJSKkc2LTcqMmQqSEUtREUzTSpKZy1SVSoqKioqKioqNi0qKioqKioqKiowSSoqKioqKioqKioqKioqKioqKiozejwvZGF0YVZhbHVlPgo8L3BhcmFtZXRlcj4KCjwvb3ptbD4K" />
-                                    <param name="トリガ補正" key="18" value="6" />
-                                    <param name="露出" key="3" value="10" />
-                                    <param name="コントラスト" key="17" value="0" />
-                                    <param name="ブライトネス" key="2" value="20" />
-                                    <param name="ハイライト" key="7" value="0" />
-                                    <param name="ブラックポイント" key="1" value="0" />
-                                    <param name="シャドウ" key="4" value="0" />
-                                    <param name="スーパーハイライト" key="25" value="0" />
-                                    <param name="サチュレーション" key="16" value="0" />
-                                    <param name="ハイライトの暖かみ" key="10" value="10" />
-                                    <param name="ハイライトの色合い" key="11" value="8" />
-                                    <param name="中間色調の暖かみ" key="12" value="0" />
-                                    <param name="中間色調の色合い" key="13" value="0" />
-                                    <param name="シャドウの暖かみ" key="14" value="0" />
-                                    <param name="シャドウの色合い" key="15" value="0" />
-                                </filter-video>
-                            </title>
-                        <title ref="rsim1" lane="6" offset="5412407/6000s" name="section_label:any" start="88974886/24000s" duration="103103/20000s">
+            <title ref="rsim1" lane="6" offset="5412407/6000s" name="section_label:any" start="88974886/24000s" duration="103103/20000s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="874.699 -480.924" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
@@ -38800,7 +38755,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <asset-clip ref="sc_14" lane="3" name="20261007_Y9903" offset="5412407/6000s" duration="103103/20000s" start="3003/500s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="8957949/10000s" name="A24_shiun26Winter1st ラインナップ動画" start="18075057/20000s" duration="53053/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -39546,7 +39501,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <asset-clip ref="sc_14" lane="3" name="20261007_Y9903" offset="19722703/20000s" duration="323323/60000s" start="3003/500s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="28109081/30000s" name="A24_shiun26Winter1st ラインナップ動画" start="59326267/60000s" duration="13013/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -39780,7 +39735,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <asset-clip ref="sc_10" lane="3" name="20261007_Y9885" offset="1889888/1875s" duration="29029/5000s" start="361361/30000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="28497469/30000s" name="A24_shiun26Winter1st ラインナップ動画" start="20201181/20000s" duration="59059/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -44765,7 +44720,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        </mc-clip>
+                        <asset-clip ref="sc_22" lane="3" name="20261007_Y9899" offset="17890873/60000s" duration="167167/30000s" start="17017/2000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="6983977/6000s" name="A24_shiun26Winter1st ラインナップ動画" start="18006989/60000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
