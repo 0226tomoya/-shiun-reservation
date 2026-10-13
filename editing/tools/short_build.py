@@ -154,12 +154,10 @@ def clone(key):
 
 # 素材（映像・音声）
 fmt_src_id = 'rS1'
-# 縦撮りの MOV は 1920x1080＋回転の情報で記録されている（型の DSCF 素材も format は 1920x1080）。実物は 24.00p
+# 縦撮りの DSCF の MOV は、FCP では 1080x1920・24.00p（frameDuration 1000/24000s、name なし）として読まれる（実物の書き出しで確認）
 SRC_FPS = edl.get('src_fps', 24)
-FMT_NAME = {24: ('FFVideoFormat1080p24', '100/2400s'), 23.976: ('FFVideoFormat1080p2398', '1001/24000s'),
-            29.97: ('FFVideoFormat1080p2997', '1001/30000s'), 30: ('FFVideoFormat1080p30', '100/3000s')}[SRC_FPS]
-SFD = parse_t(FMT_NAME[1])
-ET.SubElement(resources, 'format', {'id': fmt_src_id, 'name': FMT_NAME[0], 'frameDuration': FMT_NAME[1], 'width': '1920', 'height': '1080', 'colorSpace': '1-1-1 (Rec. 709)'})
+SFD = {24: Fr(1, 24), 23.976: Fr(1001, 24000), 29.97: Fr(1001, 30000), 30: Fr(1, 30)}[SRC_FPS]
+ET.SubElement(resources, 'format', {'id': fmt_src_id, 'frameDuration': {24: '1000/24000s', 23.976: '1001/24000s', 29.97: '1001/30000s', 30: '1000/30000s'}[SRC_FPS], 'width': '1080', 'height': '1920', 'colorSpace': '1-1-1 (Rec. 709)'})
 
 
 def url(root_url, fname):

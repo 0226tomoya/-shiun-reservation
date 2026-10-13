@@ -1,7 +1,7 @@
 {
  "name": "shiun_ショート_カーコート",
- "media_root": "file:///Volumes/shiun_short/本編/",
- "audio_root": "file:///Volumes/shiun_short/音声/",
+ "media_root": "file:///Volumes/Tomoya編集用/26w1st/本編/",
+ "audio_root": "file:///Volumes/Tomoya編集用/26w1st/音声/",
  "clips": {
   "DSCF0035": {
    "dur": 509.0,
@@ -769,5 +769,6 @@
   "inserts_match": 4,
   "notes": "確認用 mp4 の静止画 28 枚で確認。本線は座りの胸上で人物が切れる所なし。つかみ＝全身の着用（DSCF0035 198〜203s）、素材・ドレープの文（そして〜このドレープ感）全体＝寄り（5.95〜12.85s、前身頃を手で持つ画を含む。13s から顔に手が行くのでその手前で終える）。素材 200s 以降（着丈の話から最後まで）は前半より頭の幅が約 5% 小さく、頭の上端が 3% 下がっている（静止画で測定）。その 51 カットに scale 1.05・position 0 2.08 を掛けてそろえた（position の単位は未確認）。カーコートの別撮りの全身・ディテールの素材は無いので、インサートは DSCF0035 の中だけ。インサートの出と終わりは文の切れ目に合わせた（158〜168cm の文は全身の素材がつかみと重なるので入れていない）。"
  },
- "zoom_in": true
+ "zoom_in": true,
+ "media_info": "/tmp/claude-0/-home-user--shiun-reservation/d72f7582-7e9c-5464-8148-e66e3d2158e4/scratchpad/short_src/media_info.json"
 }
