@@ -51,7 +51,9 @@ def adaptive_framing(mcs, subject, preset_of, chapter_of):
         if not L or min(L['ls'][2], L['rs'][2], L['lh'][2], L['rh'][2]) < 0.5:
             return None
         torso = (L['lh'][1] + L['rh'][1]) / 2 - (L['ls'][1] + L['rs'][1]) / 2
-        return (L['nose'][0], L['nose'][1], torso) if 0.05 < torso < 1.5 else None
+        hip = (L['lh'][1] + L['rh'][1]) / 2
+        knee = (L['lk'][1] + L['rk'][1]) / 2 if 'lk' in L and min(L['lk'][2], L['rk'][2]) >= 0.5 else None
+        return (L['nose'][0], L['nose'][1], torso, hip, knee) if 0.05 < torso < 1.5 else None
 
     blocks, cur, key0 = [], [], None
     for e, r in zip(mcs, subject):
@@ -79,6 +81,13 @@ def adaptive_framing(mcs, subject, preset_of, chapter_of):
         xt = 0.5 + (REF[0] - 0.5) * s0 + px0 * 10.8 / 1920
         yt = 0.5 + (REF[1] - 0.5) * s0 - py0 * 0.01
         s = max(1.0, REF[2] * s0 / torso)
+        kn = [v[4] for v in gs if v[4] is not None]
+        if (p, sc) in [(v_, FRAMING['tight'][1]) for v_ in VARIANTS['tight']] and kn:
+            # 寄り（トップス・アウター）: 頭の上に余白、下は太ももの中ほど（腰と膝の間）で切る（スキル shiun-tops-framing）
+            hip = statistics.median(v[3] for v in gs)
+            top, bot = y - 0.12, (hip + statistics.median(kn)) / 2
+            s = max(1.0, 1 / max(0.2, bot - top))
+            yt = (y - top) * s
         px = (xt - 0.5 - (x - 0.5) * s) / (10.8 / 1920)
         py = (0.5 + (y - 0.5) * s - yt) / 0.01
         lim_x, lim_y = (s - 1) / 2 * 1920 / 10.8, (s - 1) / 2 * 100
@@ -197,11 +206,24 @@ def main():
     for (t0, name), (t1, _) in zip(bounds, bounds[1:]):
         sections.append({'t0': t0, 't1': t1, 'chapter': name})
     prod_plan = {p['chapter']: p for p in plan['products']}
+
+    def framing_for(pr, k):
+        """商品の種類で画角を決める（スキル shiun-tops-framing: トップス・アウターは引きを使わず上半身を大きく、
+        パンツは脚まで入る中、靴・ベルトなど小物は全身の引き）。plan.framing.by_category が false なら、従来の交互。"""
+        fr = plan['framing']
+        if fr.get('by_category', True):
+            n = (pr.get('name') or '').upper()
+            if any(w in n for w in ('TROUSERS', 'PANTS', 'SLACKS', 'DENIM', 'SHORTS', 'SKIRT')):
+                return 'mid'
+            if any(w in n for w in ('LOAFER', 'BOOTS', 'SHOES', 'DERBY', 'SANDAL', 'MULE', 'MOCCASIN', 'BELT', 'BAG', 'CAP', 'SOCKS')):
+                return 'wide'
+            return 'tight'
+        return fr['products'][k % len(fr['products'])]
     k = 0
     for s in sections:
         if s['chapter'] in prod_plan:
             s['product'] = prod_plan[s['chapter']]
-            s['framing'] = plan['framing']['products'][k % len(plan['framing']['products'])]
+            s['framing'] = framing_for(s['product'], k)
             k += 1
         elif s['chapter'] == 'OP':
             s['framing'] = plan['framing']['op']

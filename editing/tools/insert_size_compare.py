@@ -507,18 +507,23 @@ def main():
             want = a + 5
             cut = next((s2 for s2 in starts if s2 >= want), a + 6)
             dur = min(cut - a, Fraction(9))
-            for lane, text, dy in (('9', who['height'], 0), ('10', f'size {size}', -75)):
+            # 身長・体重は左上、着用サイズは右上に左右対称で（同じ高さ）
+            for lane, text, mirror in (('9', who['height'], False), ('10', f'size {size}', True)):
                 lb = d19.element(lab_src)
                 lb.set('lane', lane)
                 lb.set('offset', S(T(e.get('start'))))
                 lb.set('duration', S(dur))
                 lb.set('name', f'{text} - カスタム')
                 set_lines(lb, [text])
-                if dy:
+                if mirror:
                     for prm in lb.iter('param'):
                         if prm.get('name') == '位置':
                             x_, y_ = (float(v) for v in prm.get('value').split())
-                            prm.set('value', f'{x_} {y_ + dy}')
+                            prm.set('value', f'{-x_} {y_}')
+                    for ts in lb.iter('text-style-def'):  # 右上は右揃え
+                        st_ = ts.find('text-style')
+                        if st_ is not None:
+                            st_.set('alignment', 'right')
                 n_ts[0] += 1
                 for tsd in lb.iter('text-style-def'):
                     tsd.set('id', f"{tsd.get('id')}_sl{n_ts[0]}")

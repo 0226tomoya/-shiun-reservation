@@ -171,6 +171,12 @@ def main():
         s = float(open(p + '.start').read())
         proxies.setdefault(name, []).append((s, s + probe_dur(p), p))
 
+    ADJ = []  # (頭, 終わり, 調整レイヤー)（タイムラインの時刻、lane 1）
+    for e_ in spine:
+        for c in e_:
+            if c.tag == 'title' and c.get('lane') == '1' and c.get('offset') is not None:
+                a_ = T(e_.get('offset')) + T(c.get('offset')) - T(e_.get('start'))
+                ADJ.append((a_, a_ + T(c.get('duration')), c))
     tmp = tempfile.mkdtemp(dir=os.path.dirname(os.path.abspath(out)))
     segs, missing = [], 0
     for k, e in enumerate(spine):
@@ -270,7 +276,8 @@ def main():
             ps, pp = src
             # 調整レイヤー（lane 1）の構図: 位置は画面の高さの 1%（540p で 5.4px）、拡大は中心から
             vf = []
-            adj = next((c for c in e if c.tag == 'title' and c.get('lane') == '1'), None)
+            # 調整レイヤーは何カットかにまたがってまとめてあることがある（apply_overrides）。その時刻を覆っているものを使う
+            adj = next((c for a_, b_, c in ADJ if a_ <= s + FD / 2 < b_), None)
             tr = adj.find('adjust-transform') if adj is not None else None
             if tr is not None:
                 x, y = (float(v) for v in (tr.get('position') or '0 0').split())
