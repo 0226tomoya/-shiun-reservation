@@ -339,6 +339,10 @@ if edl.get('bgm'):
 for rid, e in used.items():
     resources.insert(0, e)
 ET.indent(root, '    ')
+# ピン（人の判断が要る所）: 切る候補を切らずに残し、FCP の To Do マーカー（completed="0"）を打つ。value に理由
+for pin in edl.get('pins', []):
+    h, local = host(fr(pin['at']))
+    ET.SubElement(h, 'marker', {'start': ts(local), 'duration': ts(FD), 'value': '要判断: ' + pin['note'], 'completed': '0'})
 # クリップの子要素を DTD の順に並べ直す（つないだタイトル等の後に filter-audio が来ると FCP が読み込めない）
 ORDER = ['note', 'conform-rate', 'timeMap', 'adjust-crop', 'adjust-corners', 'adjust-conform', 'adjust-transform', 'adjust-blend',
          'adjust-volume', 'adjust-panner', 'mc-source', None, 'marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
