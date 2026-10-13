@@ -22,10 +22,10 @@ description: Final Cut Pro の書き出しファイル (.fcpxmld.zip / .fcpxmld 
 ## 手順
 
 1. アップロードされたファイルのパスを確認する (例: `/root/.claude/uploads/.../xxx.fcpxmld.zip`)。
-2. スクリプトを実行する (zip のままでよい。展開は一時ディレクトリで行われる):
+2. このスキルフォルダ内の `scripts/fcpxml_toc.py` を実行する (zip のままでよい。展開は一時ディレクトリで行われる):
 
    ```bash
-   python3 -I .claude/skills/video-toc/scripts/fcpxml_toc.py "<入力パス>" --debug
+   python3 -I <このスキルのフォルダ>/scripts/fcpxml_toc.py "<入力パス>" --debug
    ```
 
    - `--label "{n}人目"`: 見出しを変える ({n} が通し番号。例: `"{n}組目"`)
