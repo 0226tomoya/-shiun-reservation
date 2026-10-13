@@ -217,6 +217,10 @@ for name, c in edl['clips'].items():
         O = -(-max(Fr(0), -off) // FD) * FD
         st = O + off
         mdur = Fr(round(c['mic_dur'] * 48000), 48000) - st
+        # 角度の頭に空きがあるときは、型（FCP の書き出し）と同じく gap を前に置く。gap が無いと FCP は波形だけ offset の位置に描き、
+        # 再生はアングルの頭（0 秒）から鳴らすため、聞こえる音が offset ぶん（例: 1.7 秒）ずれる
+        if O > 0:
+            ET.SubElement(aa, 'gap', {'name': 'ギャップ', 'offset': '0s', 'start': '3600s', 'duration': ts(O)})
         ET.SubElement(aa, 'asset-clip', {'ref': aid, 'offset': ts(O), 'name': c['mic'][:-4], 'start': ts(src0[c['mic'][:-4]] + st), 'duration': ts(mdur), 'audioRole': 'dialogue'})
         mc_of[name] = (mid, f'V{n}', f'A{n}')
     else:
