@@ -1,7 +1,7 @@
 """ユーザーがカットを確定した FCPXML に、字幕・商品カード・商品画像・効果音・BGM・調整レイヤーを足す。
 本線（spine の mc-clip・asset-clip）には一切手を触れない。文字列のまま差し込むので、ユーザーの XML の書き方・順番はそのまま残る。
 
-    python3 short_overlay.py BASE.fcpxml overlay_A.json [overlay_B.json …] --out OUT.fcpxml [--only]
+    python3 short_overlay.py BASE.fcpxml overlay_A.json [overlay_B.json …] --out OUT.fcpxml [--only] [--log LOG.json]
 
 - BASE: ユーザーが FCP から書き出した Info.fcpxml（4 プロジェクト入り）
 - overlay_*.json: プロジェクトごとの指示（下）。複数渡すと 1 本の fcpxml にまとめる
@@ -34,6 +34,7 @@ from xml.sax.saxutils import escape
 
 FD = F(1001, 60000)  # 59.94p の 1 コマ
 N = lambda s: ud.normalize('NFC', s or '')
+NL = '\u2028'  # テロップの中の改行（差し込むときの字下げから守る）
 
 
 def T(s):
@@ -223,7 +224,7 @@ def title_sub(ctx, text, lane, off, dur):
 def title_card(ctx, lines, lane, off, dur, pos):
     """商品名・価格カード（ユーザーの商品名テロップ: Masqualero 45・調整 1 1.4・行間 −3・scale 0.7）"""
     a = ctx.tsid()
-    txt = escape('\n'.join(lines))
+    txt = escape(NL.join(lines))  # 文中の改行は字下げを足さないよう、差し込みの最後に戻す
     return f'''<title ref="{ctx.eff['基本タイトル']}" lane="{lane}" offset="{ts(off)}" name="{escape(lines[0])} - 基本タイトル" start="3600s" duration="{ts(dur)}">
     <param name="位置" key="9999/999166631/999166633/1/100/101" value="{pos}" />
     <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
@@ -414,7 +415,7 @@ def build_project(ctx, proj_text, ov, log):
             ct2 = head + block + ct[p:]
         else:
             ct2 = head + ''.join(adds[i]) + ct[p:]
-        out = out[:c['s']] + ct2 + out[c['e']:]
+        out = out[:c['s']] + ct2.replace(NL, '\n') + out[c['e']:]
     return out
 
 
@@ -422,7 +423,7 @@ def main():
     args = sys.argv[1:]
     out_path = args[args.index('--out') + 1]
     only = '--only' in args
-    files = [a for a in args if a.endswith('.json')]
+    files = [a for a in args if a.endswith('.json') and not (args.index(a) > 0 and args[args.index(a) - 1] == '--log')]
     base = [a for a in args if a.endswith('.fcpxml')][0]
     text = open(base, encoding='utf-8').read()
     ctx = Ctx(text)
@@ -455,7 +456,8 @@ def main():
     res_add = ''.join('\n        ' + r for r in ctx.new_res)
     out = (text[:ctx.res_end].rstrip() + res_add + '\n    ' + text[ctx.res_end:ev_open_end] + event_body + text[ev_e:])
     open(out_path, 'w', encoding='utf-8').write(out)
-    json.dump(logs, open(out_path + '.log.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    if '--log' in args:
+        json.dump(logs, open(args[args.index('--log') + 1], 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     for name, log in logs.items():
         from collections import Counter
         c = Counter(l['kind'].split(':')[0] for l in log)
