@@ -475,7 +475,7 @@ def main():
         cur += T(e.get('duration'))
     seq.set('duration', S(cur))
 
-    # ---- 4. BGM: カウントダウンの間は止め、その後から続きを流す。ED の一覧で +8dB（A19 の型）----
+    # ---- 4. BGM: カウントダウンの間は止め、明けはタイムラインの時刻から。+8dB はエンディングカードだけ・最後は 3.75 秒でフェードアウト（A24 修正版、shiun-bgm-check）----
     if bgm_src is not None:
         absol = {}
         acc = Fraction(0)
@@ -487,7 +487,7 @@ def main():
         cd_t1 = cd_t0 + T(cd.get('duration')) if cd is not None else None
         ed_t = next((t for t, v in chapters if v == 'ED'), None)
 
-        def bgm(host, local_off, start, dur, keys=()):
+        def bgm(host, local_off, start, dur, keys=(), fade_in=None, fade_out=Fraction(1425, 1000)):
             b = donor.element(bgm_src)
             b.set('lane', '-1')
             b.set('offset', S(local_off))
@@ -498,7 +498,9 @@ def main():
                     b.remove(kf)
             av = ET.Element('adjust-volume')
             prm = ET.SubElement(av, 'param', name='amount')
-            ET.SubElement(prm, 'fadeOut', type='easeIn', duration=S(Fraction(1425, 1000)))
+            if fade_in:
+                ET.SubElement(prm, 'fadeIn', type='easeIn', duration=S(fade_in))
+            ET.SubElement(prm, 'fadeOut', type='easeIn', duration=S(fade_out))
             if keys:
                 ka = ET.SubElement(prm, 'keyframeAnimation')
                 for t, v in keys:
@@ -512,16 +514,15 @@ def main():
         else:
             bgm(first_host, T(first_host.get('start')), Fraction(0), cd_t0)
             after = new_items[new_items.index(cd) + 1]
-            seg_start = cd_t0  # 曲の続きから
+            # カウントダウン明けは「タイムラインの時刻＝曲の時刻」から再開し、0.28 秒でフェードイン（shiun-bgm-check）
+            seg_start = cd_t1
             keys = []
-            if ed_t is not None:
-                # ED（チャプター）は挿入前の時刻なので、挿入分を足して絶対時刻にする
-                # ED チャプターは挿入前の時刻なので、ED より前に挿入した要素（カウントダウン・アイキャッチ）の長さを足す
-                ed_abs = min((absol[id(e)] + T(m.get('start')) - T(e.get('start')) for e in new_items
-                              for m in e.findall('chapter-marker') if m.get('value') == 'ED'), default=ed_t) + 1  # 一覧は ED の 1 秒後
-                local = lambda t: seg_start + (t - cd_t1)
-                keys = [(local(ed_abs - Fraction(13, 10)), '0dB'), (local(ed_abs), '8dB'), (local(ed_abs + Fraction(128, 10)), '8dB'), (local(ed_abs + Fraction(141, 10)), '0dB')]
-            bgm(after, T(after.get('start') or '0s'), seg_start, cur - cd_t1, keys)
+            # +8dB は、エンディングカード（声の無い最後の動画）の頭から 2.25 秒かけて上げる所だけ。ED のトークには掛けない
+            end_card = next((e for e in reversed(new_items) if norm(e.get('name')) == 'エンディング'), None)
+            if end_card is not None:
+                ec_t = absol[id(end_card)]
+                keys = [(ec_t, '0dB'), (ec_t + Fraction(9, 4), '8dB')]
+            bgm(after, T(after.get('start') or '0s'), seg_start, cur - cd_t1, keys, fade_in=Fraction(28, 100), fade_out=Fraction(15, 4))
 
     with open(out, 'wb') as f:
         f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n\n')

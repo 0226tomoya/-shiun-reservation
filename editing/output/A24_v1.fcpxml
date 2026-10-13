@@ -25272,8 +25272,8 @@
                 </text-style-def>
                 <adjust-transform scale="0.9 0.9" />
               </title>
-              <ref-clip ref="a19_r43" lane="-1" offset="96185089/30000s" name="BGM" duration="50967917/30000s" start="1952951/30000s">
-                                <adjust-volume><param name="amount"><fadeOut type="easeIn" duration="57/40s" /><keyframeAnimation><keyframe time="34291263/20000s" value="0dB" /><keyframe time="34317263/20000s" value="8dB" /><keyframe time="34573263/20000s" value="8dB" /><keyframe time="34599263/20000s" value="0dB" /></keyframeAnimation></param></adjust-volume></ref-clip>
+              <ref-clip ref="a19_r43" lane="-1" offset="96185089/30000s" name="BGM" duration="50967917/30000s" start="1194193/15000s">
+                                <adjust-volume><param name="amount"><fadeIn type="easeIn" duration="7/25s" /><fadeOut type="easeIn" duration="15/4s" /><keyframeAnimation><keyframe time="6637631/3750s" value="0dB" /><keyframe time="13292137/7500s" value="8dB" /></keyframeAnimation></param></adjust-volume></ref-clip>
                             <chapter-marker start="96185089/30000s" duration="1001/60000s" value="1.ローファー" posterOffset="11/60s" />
                         </mc-clip>
                         <mc-clip ref="r339" offset="1610609/20000s" name="A24_shiun26Winter1st ラインナップ動画" start="192461269/60000s" duration="53053/60000s">

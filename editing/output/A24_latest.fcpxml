@@ -16941,7 +16941,7 @@
             </media-rep>
         </asset>
         <media id="a19_r43" name="BGM" uid="CjvmbGYXSauDyl7gzZj0rg" modDate="2024-08-17 01:23:41 +0900">
-            <sequence format="a19_r33" duration="1407051690/720000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+            <sequence format="a19_r33" duration="4263793/2000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
                 <spine>
                     <asset-clip ref="a19_r44" offset="0s" name="ES_See You in My Dreams - William Claeson" start="6395234/720000s" duration="127913790/720000s" audioRole="music">
                         <adjust-volume amount="-17dB" />
@@ -16974,6 +16974,9 @@
                         <adjust-volume amount="-17dB" />
                     </asset-clip>
                     <asset-clip ref="a19_r44" offset="1279137900/720000s" name="ES_See You in My Dreams - William Claeson" start="6395234/720000s" duration="127913790/720000s" audioRole="music">
+                        <adjust-volume amount="-17dB" />
+                    </asset-clip>
+                <asset-clip ref="a19_r44" offset="46901723/24000s" name="ES_See You in My Dreams - William Claeson" start="6395234/720000s" duration="127913790/720000s" audioRole="music">
                         <adjust-volume amount="-17dB" />
                     </asset-clip>
                 </spine>
@@ -24245,8 +24248,8 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                            <ref-clip ref="a19_r43" lane="-1" offset="96185089/30000s" name="BGM" duration="56665609/30000s" start="1952951/30000s">
-                                <adjust-volume><param name="amount"><fadeOut type="easeIn" duration="57/40s" /><keyframeAnimation><keyframe time="114269173/60000s" value="0dB" /><keyframe time="114347173/60000s" value="8dB" /><keyframe time="115115173/60000s" value="8dB" /><keyframe time="115193173/60000s" value="0dB" /></keyframeAnimation></param></adjust-volume></ref-clip>
+                            <ref-clip ref="a19_r43" lane="-1" offset="96185089/30000s" name="BGM" duration="56665609/30000s" start="1194193/15000s">
+                                <adjust-volume><param name="amount"><fadeIn type="easeIn" duration="7/25s" /><fadeOut type="easeIn" duration="15/4s" /><keyframeAnimation><keyframe time="979979/500s" value="0dB" /><keyframe time="245276/125s" value="8dB" /></keyframeAnimation></param></adjust-volume></ref-clip>
                             <title ref="rsim1" lane="2" offset="96185089/30000s" name="collection_label:any" start="292599307/60000s" duration="329329/15000s">
                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="-956.953 485.985" />
                 <param name="調整" key="9999/999166631/999166633/1/100/105" value="1 1.4" />
