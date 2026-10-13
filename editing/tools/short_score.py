@@ -50,7 +50,7 @@ s_dur = max(0, 3 - len(bad_dur) * 0.5)
 gaps = [b['at'] - (a['at'] + a['dur']) for a, b in zip(subs, subs[1:])]
 over = sum(1 for g in gaps if g < -0.02)
 s_gap = 2 if over == 0 else 0
-romaji = [s['text'] for s in subs if re.search(r'(?<![A-Za-z])[a-z]{1,2}(?![A-Za-z])', s['text']) and re.search(r'[ぁ-んァ-ン一-龥]', s['text'])]
+romaji = [s['text'] for s in subs if re.search(r'(?<![A-Za-z0-9])[a-z]{1,2}(?![A-Za-z])', re.sub(r'\d+(\.\d+)?\s?(cm|kg|mm)', '', s['text'])) and re.search(r'[ぁ-んァ-ン一-龥]', s['text'])]
 s_rom = 3 if not romaji else 0
 part('字幕', s_cov + s_len2 + s_dur + s_gap + s_rom, 20, f'覆い {cover:.0%}・18 字超 {len(long)}・表示時間外れ {len(bad_dur)}・重なり {over}・打ち残し {romaji[:2]}')
 
@@ -87,7 +87,7 @@ s_vis = min(3, vc.get('framing', 0) * 0.6) + min(3, vc.get('inserts_match', 0) *
 part('画', s_ins + s_vis, 10, f'インサート {ins_t:.1f}s（{ins_t / total:.0%}）・目視 {vc or "まだ"}')
 
 # 7. 書き出し（10）: 仮置き・空の字幕・時刻の整合
-ph = [s['text'] for s in subs + [{'text': ' '.join(c['lines'])} for c in cards] if re.search(r'追加予定|仮|後ほど|TODO', s['text'])]
+ph = [s['text'] for s in subs + [{'text': ' '.join(c['lines'])} for c in cards] if re.search(r'追加予定|\(仮\)|（仮）|仮置き|後ほど|TODO', s['text'])]
 empty = [s for s in subs if not s['text'].strip()]
 out_of = [x for x in subs + cards if x['at'] + x['dur'] > total + 0.05]
 s_out = 10 - 4 * bool(ph) - 3 * bool(empty) - 3 * bool(out_of)
