@@ -11,6 +11,11 @@ FINAL_FLAT は fcpxml_flat.py で修正版を平らにしたもの。
   テロップ 25 … 完成のテロップ（字幕・説明・商品名など、調整レイヤー以外）の文を、自作が同じ時刻帯（素材の時刻）に同じ文で持つか
   インサート 20 … 完成のインサート（lane 2 以上の映像）が覆う時間を、自作も覆っているか（10）と、同じ素材を使っているか（10）
   長さ 10  … 全体の長さの差（10 秒ごとに 1 点引く）
+
+テロップ・インサートの時刻は、本線（いちばん長く使っているマルチカム）の素材の時刻に直して比べる（10/13 改め）。
+本線の外（身長別ブロック・試着会など）は「直前の本線のカットの素材の終わり＋そこからの秒数」で表す。
+こうしないと、片方にだけある区間（素材の無い試着会など）より後ろが全部ずれて、連鎖的に失点する。
+テロップは、同じ文のテロップがその時刻を覆っていても一致とする（完成のラベルは本線のカットごとに分かれているため）。
 """
 import json
 import os
@@ -78,6 +83,45 @@ def to_src(segs, t):
     return None
 
 
+class Mapper:
+    """タイムラインの時刻 ⇔ 本線の素材の時刻（本線の外は、直前の本線のカットの素材の終わり＋秒数）。"""
+
+    def __init__(self, F):
+        from collections import Counter
+        c = Counter()
+        for x in F:
+            if x['lane'] == 0 and x['kind'] == 'mc-clip':
+                c[x.get('ref_name') or x.get('name')] += x['end'] - x['start']
+        main = c.most_common(1)[0][0] if c else None
+        self.segs = sorted((x['start'], x['end'], x['src_in'], x['src_in'] + x['end'] - x['start']) for x in F
+                           if x['lane'] == 0 and x['kind'] == 'mc-clip' and (x.get('ref_name') or x.get('name')) == main and x['end'] > x['start'])
+        import bisect
+        self.bis = bisect
+        self.t0s = [a for a, b, c_, d in self.segs]
+
+    def key(self, t):
+        i = self.bis.bisect_right(self.t0s, t) - 1
+        if i >= 0:
+            a, b, s0, s1 = self.segs[i]
+            if t < b:
+                return ('m', s0 + (t - a))
+            return ('g', s1, t - b)
+        return ('g', None, t)
+
+    def to_tl(self, k, hint):
+        if k[0] == 'm':
+            c = [a + (k[1] - s0) for a, b, s0, s1 in self.segs if s0 - 1e-6 <= k[1] < s1]
+        elif k[1] is None:
+            return k[2]
+        else:
+            near = [abs(s1 - k[1]) for a, b, s0, s1 in self.segs if abs(s1 - k[1]) <= 1.0]
+            if not near:
+                return None
+            m = min(near)
+            c = [b + k[2] for a, b, s0, s1 in self.segs if abs(abs(s1 - k[1]) - m) < 0.05]
+        return min(c, key=lambda v: abs(v - hint)) if c else None
+
+
 def titles(F, segs):
     """調整レイヤー・空の文字以外のテロップ: [(素材の時刻, 文, 名前)]（本線の素材の時刻に直して比べる）"""
     out = []
@@ -116,11 +160,17 @@ def main():
     pts['編集点'] = (round(15 * ok / max(1, len(cutsF)), 1), 15)
     notes.append(f'編集点: 完成の継ぎ目 {len(cutsF)} のうち {ok}（{ok / max(1, len(cutsF)):.1%}）が 2 コマ以内')
     # テロップ
+    MF, MO = Mapper(fin), Mapper(ours)
     tF, tO = titles(fin, Sf), titles(ours, So)
+    spO = [(x['start'], x['end'], norm(x['text'])) for x in ours
+           if x['kind'] == 'title' and norm(x.get('text')) and 'Adjustment' not in (x.get('ref_name') or '')]
     good = 0; miss = []
-    for s, t, n, tl in tF:
-        cands = [u for s2, u, n2, tl2 in tO if s is not None and s2 is not None and abs(s2 - s) < 4] or \
-                [u for s2, u, n2, tl2 in tO if abs(tl2 - tl) < 4]
+    for s_, t, n, tl in tF:
+        T_ = MO.to_tl(MF.key(tl), tl)
+        if T_ is None:
+            cands = [u for s2, u, n2, tl2 in tO if s_ is not None and s2 is not None and abs(s2 - s_) < 4]
+        else:
+            cands = [u for a2, b2, u in spO if abs((a2 + b2) / 2 - T_) < 4 or a2 - 0.05 <= T_ <= b2 + 0.05]
         r = max([SequenceMatcher(None, t, u).ratio() for u in cands] or [0])
         good += r
         if r < 0.8:
@@ -133,12 +183,38 @@ def main():
     notes.append(f'テロップ: 完成 {len(tF)} 本・自作 {len(tO)} 本・文の一致 {good / max(1, len(tF)):.1%}・合わない {len(miss)}・仮置き {len(ph)}')
     # インサート
     iF, iO = inserts(fin), inserts(ours)
-    cov = inter([(a, b) for a, b, n in iO], [(a, b) for a, b, n in iF]) / max(1e-9, total([(a, b) for a, b, n in iF]))
+    # 完成のインサートを 0.1 秒ごとに、本線の素材の時刻を通して自作のタイムラインの時刻に移して比べる
+    uO = union([(a, b) for a, b, n in iO])
+    import bisect
+    u0 = [a for a, b in uO]
+    def covered(T_):
+        i = bisect.bisect_right(u0, T_) - 1
+        return i >= 0 and T_ < uO[i][1]
+    iO_s = sorted(iO)
+    o0 = [a for a, b, n in iO_s]
+    def names_at(T_):
+        i = bisect.bisect_right(o0, T_)
+        return [n2 for a2, b2, n2 in iO_s[max(0, i - 60):i] if a2 <= T_ < b2]
+    step = 0.1
+    tot_c = hit_c = 0.0
+    for a, b in union([(a, b) for a, b, n in iF]):
+        t = a + step / 2
+        while t < b:
+            tot_c += step
+            T_ = MO.to_tl(MF.key(t), t)
+            if T_ is not None and covered(T_):
+                hit_c += step
+            t += step
+    cov = hit_c / max(1e-9, tot_c)
     same = 0.0
     for a, b, n in iF:
         key = re.sub(r'[_\-\s].*', '', n)[:6]
-        if any(min(b, b2) - max(a, a2) > 0 and key and key in n2 for a2, b2, n2 in iO):
-            same += b - a
+        t = a + step / 2
+        while t < b:
+            T_ = MO.to_tl(MF.key(t), t)
+            if T_ is not None and key and any(key in n2 for n2 in names_at(T_)):
+                same += step
+            t += step
     same /= max(1e-9, sum(b - a for a, b, n in iF))
     pts['インサート'] = (round(10 * cov + 10 * same, 1), 20)
     notes.append(f'インサート: 完成の覆う時間のうち {cov:.1%} を自作も覆う・同じ素材 {same:.1%}')
