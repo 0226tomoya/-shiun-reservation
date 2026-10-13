@@ -42,10 +42,11 @@ vcache = {}
 
 def voiced(name):
     if name not in vcache:
-        x, hf, fe, fh = mic(name)
+        x, hf, _, _ = mic(name)
         n = len(x) // F
         db = lambda y: 10 * np.log10(np.mean(y[:n * F].reshape(n, F) ** 2, axis=1) + 1e-12)
-        vcache[name] = np.maximum(db(x) - fe, db(hf) - fh) > 8
+        e, h = db(x), db(hf)  # ノイズの底も 5ms の窓で測る（short_jetcut.py と同じ判定にする）
+        vcache[name] = np.maximum(e - np.percentile(e, 10), h - np.percentile(h, 10)) > 8
     return vcache[name]
 
 
