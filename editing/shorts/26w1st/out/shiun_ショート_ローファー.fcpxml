@@ -57,37 +57,7 @@
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="1350349/15000s" name="これが6cm盛った自分 - 基本タイトル" start="216213998/60000s" duration="77077/30000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90001">
-</text-style>
-                                    <text-style ref="ts90002">これが6cm盛った自</text-style>
-                                    <text-style ref="ts90001">分</text-style>
-                                </text>
-                                <text-style-def id="ts90001">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90002">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
-                            <title ref="r74" lane="3" offset="1350349/15000s" name="これが6cm盛った自分 - 基本タイトル" start="3603600/1000s" duration="81081/20000s">
+                            <title ref="r74" lane="3" offset="1350349/15000s" name="これが6cm盛った自分 - 基本タイトル" start="3603600/1000s" duration="77077/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0.5 -440.7" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181695/401" value="1 (水平方向に中央揃え)" />
@@ -96,15 +66,15 @@
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90115">
+                                    <text-style ref="ts90113">
 </text-style>
-                                    <text-style ref="ts90116">これが6cm盛った自</text-style>
-                                    <text-style ref="ts90115">分</text-style>
+                                    <text-style ref="ts90114">これが6cm盛った自</text-style>
+                                    <text-style ref="ts90113">分</text-style>
                                 </text>
-                                <text-style-def id="ts90115">
+                                <text-style-def id="ts90113">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90116">
+                                <text-style-def id="ts90114">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" kerning="1.75" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.75" />
@@ -197,15 +167,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90003">
+                                    <text-style ref="ts90001">
 </text-style>
-                                    <text-style ref="ts90004">これが盛っていない自</text-style>
-                                    <text-style ref="ts90003">分</text-style>
+                                    <text-style ref="ts90002">これが盛っていない自</text-style>
+                                    <text-style ref="ts90001">分</text-style>
                                 </text>
-                                <text-style-def id="ts90003">
+                                <text-style-def id="ts90001">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90004">
+                                <text-style-def id="ts90002">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -272,15 +242,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90005">
+                                    <text-style ref="ts90003">
 </text-style>
-                                    <text-style ref="ts90006">こっそり背を伸ばした</text-style>
-                                    <text-style ref="ts90005">い</text-style>
+                                    <text-style ref="ts90004">こっそり背を伸ばした</text-style>
+                                    <text-style ref="ts90003">い</text-style>
                                 </text>
-                                <text-style-def id="ts90005">
+                                <text-style-def id="ts90003">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90006">
+                                <text-style-def id="ts90004">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -332,15 +302,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90007">
+                                    <text-style ref="ts90005">
 </text-style>
-                                    <text-style ref="ts90008">男子だけ見てくださ</text-style>
-                                    <text-style ref="ts90007">い</text-style>
+                                    <text-style ref="ts90006">男子だけ見てくださ</text-style>
+                                    <text-style ref="ts90005">い</text-style>
                                 </text>
-                                <text-style-def id="ts90007">
+                                <text-style-def id="ts90005">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90008">
+                                <text-style-def id="ts90006">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -392,15 +362,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90009">
+                                    <text-style ref="ts90007">
 </text-style>
-                                    <text-style ref="ts90010">所詮人は第一印象が全</text-style>
-                                    <text-style ref="ts90009">て</text-style>
+                                    <text-style ref="ts90008">所詮人は第一印象が全</text-style>
+                                    <text-style ref="ts90007">て</text-style>
                                 </text>
-                                <text-style-def id="ts90009">
+                                <text-style-def id="ts90007">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90010">
+                                <text-style-def id="ts90008">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -437,15 +407,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90011">
+                                    <text-style ref="ts90009">
 </text-style>
-                                    <text-style ref="ts90012">まず会った瞬間</text-style>
-                                    <text-style ref="ts90011">に</text-style>
+                                    <text-style ref="ts90010">まず会った瞬間</text-style>
+                                    <text-style ref="ts90009">に</text-style>
                                 </text>
-                                <text-style-def id="ts90011">
+                                <text-style-def id="ts90009">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90012">
+                                <text-style-def id="ts90010">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -497,15 +467,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90013">
+                                    <text-style ref="ts90011">
 </text-style>
-                                    <text-style ref="ts90014">低身長男性ほ</text-style>
-                                    <text-style ref="ts90013">ど</text-style>
+                                    <text-style ref="ts90012">低身長男性ほ</text-style>
+                                    <text-style ref="ts90011">ど</text-style>
                                 </text>
-                                <text-style-def id="ts90013">
+                                <text-style-def id="ts90011">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90014">
+                                <text-style-def id="ts90012">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -557,15 +527,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90015">
+                                    <text-style ref="ts90013">
 </text-style>
-                                    <text-style ref="ts90016">会った瞬間の身長</text-style>
-                                    <text-style ref="ts90015">を</text-style>
+                                    <text-style ref="ts90014">会った瞬間の身長</text-style>
+                                    <text-style ref="ts90013">を</text-style>
                                 </text>
-                                <text-style-def id="ts90015">
+                                <text-style-def id="ts90013">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90016">
+                                <text-style-def id="ts90014">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -617,15 +587,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90017">
+                                    <text-style ref="ts90015">
 </text-style>
-                                    <text-style ref="ts90018">重視した方が絶対にい</text-style>
-                                    <text-style ref="ts90017">い</text-style>
+                                    <text-style ref="ts90016">重視した方が絶対にい</text-style>
+                                    <text-style ref="ts90015">い</text-style>
                                 </text>
-                                <text-style-def id="ts90017">
+                                <text-style-def id="ts90015">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90018">
+                                <text-style-def id="ts90016">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -692,15 +662,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90019">
+                                    <text-style ref="ts90017">
 </text-style>
-                                    <text-style ref="ts90020">このソールの薄さ</text-style>
-                                    <text-style ref="ts90019">で</text-style>
+                                    <text-style ref="ts90018">このソールの薄さ</text-style>
+                                    <text-style ref="ts90017">で</text-style>
                                 </text>
-                                <text-style-def id="ts90019">
+                                <text-style-def id="ts90017">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90020">
+                                <text-style-def id="ts90018">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -752,15 +722,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90021">
+                                    <text-style ref="ts90019">
 </text-style>
-                                    <text-style ref="ts90022">身長が6cm盛れ</text-style>
-                                    <text-style ref="ts90021">る</text-style>
+                                    <text-style ref="ts90020">身長が6cm盛れ</text-style>
+                                    <text-style ref="ts90019">る</text-style>
                                 </text>
-                                <text-style-def id="ts90021">
+                                <text-style-def id="ts90019">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90022">
+                                <text-style-def id="ts90020">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -827,15 +797,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90023">
+                                    <text-style ref="ts90021">
 </text-style>
-                                    <text-style ref="ts90024">牛革のローファー</text-style>
-                                    <text-style ref="ts90023">を</text-style>
+                                    <text-style ref="ts90022">牛革のローファー</text-style>
+                                    <text-style ref="ts90021">を</text-style>
                                 </text>
-                                <text-style-def id="ts90023">
+                                <text-style-def id="ts90021">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90024">
+                                <text-style-def id="ts90022">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -902,15 +872,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90025">
+                                    <text-style ref="ts90023">
 </text-style>
-                                    <text-style ref="ts90026">作りまし</text-style>
-                                    <text-style ref="ts90025">た</text-style>
+                                    <text-style ref="ts90024">作りまし</text-style>
+                                    <text-style ref="ts90023">た</text-style>
                                 </text>
-                                <text-style-def id="ts90025">
+                                <text-style-def id="ts90023">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90026">
+                                <text-style-def id="ts90024">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -947,15 +917,15 @@
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90027">
+                                    <text-style ref="ts90025">
 </text-style>
-                                    <text-style ref="ts90028">このローファー</text-style>
-                                    <text-style ref="ts90027">は</text-style>
+                                    <text-style ref="ts90026">このローファー</text-style>
+                                    <text-style ref="ts90025">は</text-style>
                                 </text>
-                                <text-style-def id="ts90027">
+                                <text-style-def id="ts90025">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90028">
+                                <text-style-def id="ts90026">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -974,13 +944,13 @@
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90117">COW LEATHER LOAFER
+                                    <text-style ref="ts90115">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 </text>
-                                <text-style-def id="ts90117">
+                                <text-style-def id="ts90115">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90118">
+                                <text-style-def id="ts90116">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
@@ -1013,15 +983,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90029">
+                                    <text-style ref="ts90027">
 </text-style>
-                                    <text-style ref="ts90030">アウトソール</text-style>
-                                    <text-style ref="ts90029">が</text-style>
+                                    <text-style ref="ts90028">アウトソール</text-style>
+                                    <text-style ref="ts90027">が</text-style>
                                 </text>
-                                <text-style-def id="ts90029">
+                                <text-style-def id="ts90027">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90030">
+                                <text-style-def id="ts90028">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1058,15 +1028,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90031">
+                                    <text-style ref="ts90029">
 </text-style>
-                                    <text-style ref="ts90032">4.5c</text-style>
-                                    <text-style ref="ts90031">m</text-style>
+                                    <text-style ref="ts90030">4.5c</text-style>
+                                    <text-style ref="ts90029">m</text-style>
                                 </text>
-                                <text-style-def id="ts90031">
+                                <text-style-def id="ts90029">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90032">
+                                <text-style-def id="ts90030">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1118,15 +1088,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90033">
+                                    <text-style ref="ts90031">
 </text-style>
-                                    <text-style ref="ts90034">インソールが1.5cm</text-style>
-                                    <text-style ref="ts90033">と</text-style>
+                                    <text-style ref="ts90032">インソールが1.5cm</text-style>
+                                    <text-style ref="ts90031">と</text-style>
                                 </text>
-                                <text-style-def id="ts90033">
+                                <text-style-def id="ts90031">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90034">
+                                <text-style-def id="ts90032">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1193,15 +1163,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90035">
+                                    <text-style ref="ts90033">
 </text-style>
-                                    <text-style ref="ts90036">合計6c</text-style>
-                                    <text-style ref="ts90035">m</text-style>
+                                    <text-style ref="ts90034">合計6c</text-style>
+                                    <text-style ref="ts90033">m</text-style>
                                 </text>
-                                <text-style-def id="ts90035">
+                                <text-style-def id="ts90033">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90036">
+                                <text-style-def id="ts90034">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1241,15 +1211,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90037">
+                                    <text-style ref="ts90035">
 </text-style>
-                                    <text-style ref="ts90038">自然に身長が盛れま</text-style>
-                                    <text-style ref="ts90037">す</text-style>
+                                    <text-style ref="ts90036">自然に身長が盛れま</text-style>
+                                    <text-style ref="ts90035">す</text-style>
                                 </text>
-                                <text-style-def id="ts90037">
+                                <text-style-def id="ts90035">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90038">
+                                <text-style-def id="ts90036">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1301,15 +1271,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90039">
+                                    <text-style ref="ts90037">
 </text-style>
-                                    <text-style ref="ts90040">ソールの存在感を隠せるよう</text-style>
-                                    <text-style ref="ts90039">に</text-style>
+                                    <text-style ref="ts90038">ソールの存在感を隠せるよう</text-style>
+                                    <text-style ref="ts90037">に</text-style>
                                 </text>
-                                <text-style-def id="ts90039">
+                                <text-style-def id="ts90037">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90040">
+                                <text-style-def id="ts90038">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1391,15 +1361,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90041">
+                                    <text-style ref="ts90039">
 </text-style>
-                                    <text-style ref="ts90042">やや細くなっているヒール</text-style>
-                                    <text-style ref="ts90041">と</text-style>
+                                    <text-style ref="ts90040">やや細くなっているヒール</text-style>
+                                    <text-style ref="ts90039">と</text-style>
                                 </text>
-                                <text-style-def id="ts90041">
+                                <text-style-def id="ts90039">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90042">
+                                <text-style-def id="ts90040">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1481,15 +1451,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90043">
+                                    <text-style ref="ts90041">
 </text-style>
-                                    <text-style ref="ts90044">真ん中</text-style>
-                                    <text-style ref="ts90043">を</text-style>
+                                    <text-style ref="ts90042">真ん中</text-style>
+                                    <text-style ref="ts90041">を</text-style>
                                 </text>
-                                <text-style-def id="ts90043">
+                                <text-style-def id="ts90041">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90044">
+                                <text-style-def id="ts90042">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1526,15 +1496,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90045">
+                                    <text-style ref="ts90043">
 </text-style>
-                                    <text-style ref="ts90046">くり抜いたソー</text-style>
-                                    <text-style ref="ts90045">ル</text-style>
+                                    <text-style ref="ts90044">くり抜いたソー</text-style>
+                                    <text-style ref="ts90043">ル</text-style>
                                 </text>
-                                <text-style-def id="ts90045">
+                                <text-style-def id="ts90043">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90046">
+                                <text-style-def id="ts90044">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1586,15 +1556,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90047">
+                                    <text-style ref="ts90045">
 </text-style>
-                                    <text-style ref="ts90048">前のソール</text-style>
-                                    <text-style ref="ts90047">は</text-style>
+                                    <text-style ref="ts90046">前のソール</text-style>
+                                    <text-style ref="ts90045">は</text-style>
                                 </text>
-                                <text-style-def id="ts90047">
+                                <text-style-def id="ts90045">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90048">
+                                <text-style-def id="ts90046">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1631,15 +1601,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90049">
+                                    <text-style ref="ts90047">
 </text-style>
-                                    <text-style ref="ts90050">疲れないクッション性</text-style>
-                                    <text-style ref="ts90049">を</text-style>
+                                    <text-style ref="ts90048">疲れないクッション性</text-style>
+                                    <text-style ref="ts90047">を</text-style>
                                 </text>
-                                <text-style-def id="ts90049">
+                                <text-style-def id="ts90047">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90050">
+                                <text-style-def id="ts90048">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1691,15 +1661,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90051">
+                                    <text-style ref="ts90049">
 </text-style>
-                                    <text-style ref="ts90052">効かせながら</text-style>
-                                    <text-style ref="ts90051">も</text-style>
+                                    <text-style ref="ts90050">効かせながら</text-style>
+                                    <text-style ref="ts90049">も</text-style>
                                 </text>
-                                <text-style-def id="ts90051">
+                                <text-style-def id="ts90049">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90052">
+                                <text-style-def id="ts90050">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1736,15 +1706,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90053">
+                                    <text-style ref="ts90051">
 </text-style>
-                                    <text-style ref="ts90054">できるだけ薄</text-style>
-                                    <text-style ref="ts90053">く</text-style>
+                                    <text-style ref="ts90052">できるだけ薄</text-style>
+                                    <text-style ref="ts90051">く</text-style>
                                 </text>
-                                <text-style-def id="ts90053">
+                                <text-style-def id="ts90051">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90054">
+                                <text-style-def id="ts90052">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1781,15 +1751,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90055">
+                                    <text-style ref="ts90053">
 </text-style>
-                                    <text-style ref="ts90056">そし</text-style>
-                                    <text-style ref="ts90055">て</text-style>
+                                    <text-style ref="ts90054">そし</text-style>
+                                    <text-style ref="ts90053">て</text-style>
                                 </text>
-                                <text-style-def id="ts90055">
+                                <text-style-def id="ts90053">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90056">
+                                <text-style-def id="ts90054">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1826,15 +1796,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90057">
+                                    <text-style ref="ts90055">
 </text-style>
-                                    <text-style ref="ts90058">一番人の視線を集め</text-style>
-                                    <text-style ref="ts90057">る</text-style>
+                                    <text-style ref="ts90056">一番人の視線を集め</text-style>
+                                    <text-style ref="ts90055">る</text-style>
                                 </text>
-                                <text-style-def id="ts90057">
+                                <text-style-def id="ts90055">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90058">
+                                <text-style-def id="ts90056">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1886,15 +1856,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90059">
+                                    <text-style ref="ts90057">
 </text-style>
-                                    <text-style ref="ts90060">センター部分 ここ</text-style>
-                                    <text-style ref="ts90059">は</text-style>
+                                    <text-style ref="ts90058">センター部分 ここ</text-style>
+                                    <text-style ref="ts90057">は</text-style>
                                 </text>
-                                <text-style-def id="ts90059">
+                                <text-style-def id="ts90057">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90060">
+                                <text-style-def id="ts90058">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -1946,15 +1916,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90061">
+                                    <text-style ref="ts90059">
 </text-style>
-                                    <text-style ref="ts90062">一般的なローファーとは違</text-style>
-                                    <text-style ref="ts90061">い</text-style>
+                                    <text-style ref="ts90060">一般的なローファーとは違</text-style>
+                                    <text-style ref="ts90059">い</text-style>
                                 </text>
-                                <text-style-def id="ts90061">
+                                <text-style-def id="ts90059">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90062">
+                                <text-style-def id="ts90060">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2006,15 +1976,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90063">
+                                    <text-style ref="ts90061">
 </text-style>
-                                    <text-style ref="ts90064">ソールが見えないよう</text-style>
-                                    <text-style ref="ts90063">な</text-style>
+                                    <text-style ref="ts90062">ソールが見えないよう</text-style>
+                                    <text-style ref="ts90061">な</text-style>
                                 </text>
-                                <text-style-def id="ts90063">
+                                <text-style-def id="ts90061">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90064">
+                                <text-style-def id="ts90062">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2051,15 +2021,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90065">
+                                    <text-style ref="ts90063">
 </text-style>
-                                    <text-style ref="ts90066">デザインにしまし</text-style>
-                                    <text-style ref="ts90065">た</text-style>
+                                    <text-style ref="ts90064">デザインにしまし</text-style>
+                                    <text-style ref="ts90063">た</text-style>
                                 </text>
-                                <text-style-def id="ts90065">
+                                <text-style-def id="ts90063">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90066">
+                                <text-style-def id="ts90064">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2126,15 +2096,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90067">
+                                    <text-style ref="ts90065">
 </text-style>
-                                    <text-style ref="ts90068">なので見た目</text-style>
-                                    <text-style ref="ts90067">は</text-style>
+                                    <text-style ref="ts90066">なので見た目</text-style>
+                                    <text-style ref="ts90065">は</text-style>
                                 </text>
-                                <text-style-def id="ts90067">
+                                <text-style-def id="ts90065">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90068">
+                                <text-style-def id="ts90066">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2174,15 +2144,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90069">
+                                    <text-style ref="ts90067">
 </text-style>
-                                    <text-style ref="ts90070">普通の牛革ローファーです</text-style>
-                                    <text-style ref="ts90069">が</text-style>
+                                    <text-style ref="ts90068">普通の牛革ローファーです</text-style>
+                                    <text-style ref="ts90067">が</text-style>
                                 </text>
-                                <text-style-def id="ts90069">
+                                <text-style-def id="ts90067">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90070">
+                                <text-style-def id="ts90068">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2249,15 +2219,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90071">
+                                    <text-style ref="ts90069">
 </text-style>
-                                    <text-style ref="ts90072">身長が6cmも盛れてしま</text-style>
-                                    <text-style ref="ts90071">う</text-style>
+                                    <text-style ref="ts90070">身長が6cmも盛れてしま</text-style>
+                                    <text-style ref="ts90069">う</text-style>
                                 </text>
-                                <text-style-def id="ts90071">
+                                <text-style-def id="ts90069">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90072">
+                                <text-style-def id="ts90070">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2309,15 +2279,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90073">
+                                    <text-style ref="ts90071">
 </text-style>
-                                    <text-style ref="ts90074">そんなローファーになっていま</text-style>
-                                    <text-style ref="ts90073">す</text-style>
+                                    <text-style ref="ts90072">そんなローファーになっていま</text-style>
+                                    <text-style ref="ts90071">す</text-style>
                                 </text>
-                                <text-style-def id="ts90073">
+                                <text-style-def id="ts90071">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90074">
+                                <text-style-def id="ts90072">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2354,15 +2324,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90075">
+                                    <text-style ref="ts90073">
 </text-style>
-                                    <text-style ref="ts90076">そして脱ぎ履きしやすいよう</text-style>
-                                    <text-style ref="ts90075">に</text-style>
+                                    <text-style ref="ts90074">そして脱ぎ履きしやすいよう</text-style>
+                                    <text-style ref="ts90073">に</text-style>
                                 </text>
-                                <text-style-def id="ts90075">
+                                <text-style-def id="ts90073">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90076">
+                                <text-style-def id="ts90074">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2429,15 +2399,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90077">
+                                    <text-style ref="ts90075">
 </text-style>
-                                    <text-style ref="ts90078">靴の内側</text-style>
-                                    <text-style ref="ts90077">に</text-style>
+                                    <text-style ref="ts90076">靴の内側</text-style>
+                                    <text-style ref="ts90075">に</text-style>
                                 </text>
-                                <text-style-def id="ts90077">
+                                <text-style-def id="ts90075">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90078">
+                                <text-style-def id="ts90076">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2474,15 +2444,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90079">
+                                    <text-style ref="ts90077">
 </text-style>
-                                    <text-style ref="ts90080">ゴムを採用しておりま</text-style>
-                                    <text-style ref="ts90079">す</text-style>
+                                    <text-style ref="ts90078">ゴムを採用しておりま</text-style>
+                                    <text-style ref="ts90077">す</text-style>
                                 </text>
-                                <text-style-def id="ts90079">
+                                <text-style-def id="ts90077">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90080">
+                                <text-style-def id="ts90078">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2534,15 +2504,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90081">
+                                    <text-style ref="ts90079">
 </text-style>
-                                    <text-style ref="ts90082">ローファー特有</text-style>
-                                    <text-style ref="ts90081">の</text-style>
+                                    <text-style ref="ts90080">ローファー特有</text-style>
+                                    <text-style ref="ts90079">の</text-style>
                                 </text>
-                                <text-style-def id="ts90081">
+                                <text-style-def id="ts90079">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90082">
+                                <text-style-def id="ts90080">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2594,15 +2564,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90083">
+                                    <text-style ref="ts90081">
 </text-style>
-                                    <text-style ref="ts90084">窮屈感もな</text-style>
-                                    <text-style ref="ts90083">い</text-style>
+                                    <text-style ref="ts90082">窮屈感もな</text-style>
+                                    <text-style ref="ts90081">い</text-style>
                                 </text>
-                                <text-style-def id="ts90083">
+                                <text-style-def id="ts90081">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90084">
+                                <text-style-def id="ts90082">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2654,15 +2624,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90085">
+                                    <text-style ref="ts90083">
 </text-style>
-                                    <text-style ref="ts90086">楽に履け</text-style>
-                                    <text-style ref="ts90085">て</text-style>
+                                    <text-style ref="ts90084">楽に履け</text-style>
+                                    <text-style ref="ts90083">て</text-style>
                                 </text>
-                                <text-style-def id="ts90085">
+                                <text-style-def id="ts90083">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90086">
+                                <text-style-def id="ts90084">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2699,15 +2669,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90087">
+                                    <text-style ref="ts90085">
 </text-style>
-                                    <text-style ref="ts90088">もちろんインソール</text-style>
-                                    <text-style ref="ts90087">の</text-style>
+                                    <text-style ref="ts90086">もちろんインソール</text-style>
+                                    <text-style ref="ts90085">の</text-style>
                                 </text>
-                                <text-style-def id="ts90087">
+                                <text-style-def id="ts90085">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90088">
+                                <text-style-def id="ts90086">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2744,15 +2714,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90089">
+                                    <text-style ref="ts90087">
 </text-style>
-                                    <text-style ref="ts90090">クッション性もあ</text-style>
-                                    <text-style ref="ts90089">り</text-style>
+                                    <text-style ref="ts90088">クッション性もあ</text-style>
+                                    <text-style ref="ts90087">り</text-style>
                                 </text>
-                                <text-style-def id="ts90089">
+                                <text-style-def id="ts90087">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90090">
+                                <text-style-def id="ts90088">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2789,15 +2759,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90091">
+                                    <text-style ref="ts90089">
 </text-style>
-                                    <text-style ref="ts90092">歩いていて</text-style>
-                                    <text-style ref="ts90091">も</text-style>
+                                    <text-style ref="ts90090">歩いていて</text-style>
+                                    <text-style ref="ts90089">も</text-style>
                                 </text>
-                                <text-style-def id="ts90091">
+                                <text-style-def id="ts90089">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90092">
+                                <text-style-def id="ts90090">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2834,15 +2804,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90093">
+                                    <text-style ref="ts90091">
 </text-style>
-                                    <text-style ref="ts90094">疲れにくい設計にしておりま</text-style>
-                                    <text-style ref="ts90093">す</text-style>
+                                    <text-style ref="ts90092">疲れにくい設計にしておりま</text-style>
+                                    <text-style ref="ts90091">す</text-style>
                                 </text>
-                                <text-style-def id="ts90093">
+                                <text-style-def id="ts90091">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90094">
+                                <text-style-def id="ts90092">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2894,15 +2864,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90095">
+                                    <text-style ref="ts90093">
 </text-style>
-                                    <text-style ref="ts90096">トレンド</text-style>
-                                    <text-style ref="ts90095">の</text-style>
+                                    <text-style ref="ts90094">トレンド</text-style>
+                                    <text-style ref="ts90093">の</text-style>
                                 </text>
-                                <text-style-def id="ts90095">
+                                <text-style-def id="ts90093">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90096">
+                                <text-style-def id="ts90094">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2942,15 +2912,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90097">
+                                    <text-style ref="ts90095">
 </text-style>
-                                    <text-style ref="ts90098">薄底のローファー見えす</text-style>
-                                    <text-style ref="ts90097">る</text-style>
+                                    <text-style ref="ts90096">薄底のローファー見えす</text-style>
+                                    <text-style ref="ts90095">る</text-style>
                                 </text>
-                                <text-style-def id="ts90097">
+                                <text-style-def id="ts90095">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90098">
+                                <text-style-def id="ts90096">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3002,15 +2972,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90099">
+                                    <text-style ref="ts90097">
 </text-style>
-                                    <text-style ref="ts90100">でも身長が6c</text-style>
-                                    <text-style ref="ts90099">m</text-style>
+                                    <text-style ref="ts90098">でも身長が6c</text-style>
+                                    <text-style ref="ts90097">m</text-style>
                                 </text>
-                                <text-style-def id="ts90099">
+                                <text-style-def id="ts90097">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90100">
+                                <text-style-def id="ts90098">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3047,15 +3017,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90101">
+                                    <text-style ref="ts90099">
 </text-style>
-                                    <text-style ref="ts90102">見える牛革ローファ</text-style>
-                                    <text-style ref="ts90101">ー</text-style>
+                                    <text-style ref="ts90100">見える牛革ローファ</text-style>
+                                    <text-style ref="ts90099">ー</text-style>
                                 </text>
-                                <text-style-def id="ts90101">
+                                <text-style-def id="ts90099">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90102">
+                                <text-style-def id="ts90100">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3107,15 +3077,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90103">
+                                    <text-style ref="ts90101">
 </text-style>
-                                    <text-style ref="ts90104">税込み14,300円で作りまし</text-style>
-                                    <text-style ref="ts90103">た</text-style>
+                                    <text-style ref="ts90102">税込み14,300円で作りまし</text-style>
+                                    <text-style ref="ts90101">た</text-style>
                                 </text>
-                                <text-style-def id="ts90103">
+                                <text-style-def id="ts90101">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90104">
+                                <text-style-def id="ts90102">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3135,20 +3105,20 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90119">COW LEATHER LOAFER
+                                    <text-style ref="ts90117">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43
 ¥ 14,300 - tax in</text-style>
                                 </text>
-                                <text-style-def id="ts90119">
+                                <text-style-def id="ts90117">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90120">
+                                <text-style-def id="ts90118">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90121">
+                                <text-style-def id="ts90119">
                                     <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
-                                <text-style-def id="ts90122">
+                                <text-style-def id="ts90120">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
@@ -3226,15 +3196,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90105">
+                                    <text-style ref="ts90103">
 </text-style>
-                                    <text-style ref="ts90106">shiunのオンラインストア</text-style>
-                                    <text-style ref="ts90105">で</text-style>
+                                    <text-style ref="ts90104">shiunのオンラインストア</text-style>
+                                    <text-style ref="ts90103">で</text-style>
                                 </text>
-                                <text-style-def id="ts90105">
+                                <text-style-def id="ts90103">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90106">
+                                <text-style-def id="ts90104">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3286,15 +3256,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90107">
+                                    <text-style ref="ts90105">
 </text-style>
-                                    <text-style ref="ts90108">以下の日程で発売しま</text-style>
-                                    <text-style ref="ts90107">す</text-style>
+                                    <text-style ref="ts90106">以下の日程で発売しま</text-style>
+                                    <text-style ref="ts90105">す</text-style>
                                 </text>
-                                <text-style-def id="ts90107">
+                                <text-style-def id="ts90105">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90108">
+                                <text-style-def id="ts90106">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3326,9 +3296,9 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-7" />
                                 <text>
-                                    <text-style ref="ts90123">2026.10.31 sat 10pm - Release</text-style>
+                                    <text-style ref="ts90121">2026.10.31 sat 10pm - Release</text-style>
                                 </text>
-                                <text-style-def id="ts90123">
+                                <text-style-def id="ts90121">
                                     <text-style font="Masqualero" fontSize="30" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-7" />
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
@@ -3375,15 +3345,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90109">
+                                    <text-style ref="ts90107">
 </text-style>
-                                    <text-style ref="ts90110">低身長同</text-style>
-                                    <text-style ref="ts90109">士</text-style>
+                                    <text-style ref="ts90108">低身長同</text-style>
+                                    <text-style ref="ts90107">士</text-style>
                                 </text>
-                                <text-style-def id="ts90109">
+                                <text-style-def id="ts90107">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90110">
+                                <text-style-def id="ts90108">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3420,15 +3390,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90111">
+                                    <text-style ref="ts90109">
 </text-style>
-                                    <text-style ref="ts90112">バレないよう</text-style>
-                                    <text-style ref="ts90111">に</text-style>
+                                    <text-style ref="ts90110">バレないよう</text-style>
+                                    <text-style ref="ts90109">に</text-style>
                                 </text>
-                                <text-style-def id="ts90111">
+                                <text-style-def id="ts90109">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90112">
+                                <text-style-def id="ts90110">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -3465,15 +3435,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90113">
+                                    <text-style ref="ts90111">
 </text-style>
-                                    <text-style ref="ts90114">身長を盛っていきましょ</text-style>
-                                    <text-style ref="ts90113">う</text-style>
+                                    <text-style ref="ts90112">身長を盛っていきましょ</text-style>
+                                    <text-style ref="ts90111">う</text-style>
                                 </text>
-                                <text-style-def id="ts90113">
+                                <text-style-def id="ts90111">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90114">
+                                <text-style-def id="ts90112">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
