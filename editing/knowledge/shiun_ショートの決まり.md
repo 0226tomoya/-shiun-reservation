@@ -322,3 +322,7 @@
   2. mc-clip の中で、つないだタイトル・インサートより前に filter-audio を置いていた。DTD の順は「mc-source → つなぐ物 → filter-audio」。
   3. 画角を合わせる adjust-transform を mc-clip の直下に置いていた。mc-clip では、映像の mc-source の中に置く。
 - 素材の format は記録されたとおりに書く（縦撮りの DSCF は 1920x1080、24.00p）。パスの日本語は % で書く。
+- **素材の asset は実物どおりに書く**（再接続できなかった、2026-10-13）。DSCF の MOV は撮影時刻のタイムコードから始まる（例 DSCF0030 は 19:08:30:21）。頭を 0 秒にすると FCP が「メディアの範囲が異なる」と再接続を拒む。
+  - 元の素材を FCP のイベントに入れ、イベントごと「書き出し → XML」してもらう。
+  - `editing/tools/short_media_info.py` で media_info.json にし、edl の "media_info" に指定して short_build.py を回す。頭の時刻・長さ・チャンネル・uid・format・パスが実物と同じになる。
+  - 縦撮りの DSCF は、FCP では 1080x1920・frameDuration 1000/24000s として読まれる。
