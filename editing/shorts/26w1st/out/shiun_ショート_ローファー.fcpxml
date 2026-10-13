@@ -43,7 +43,7 @@
     <library>
         <event name="shiun ショート">
             <project name="shiun_ショート_ローファー">
-                <sequence format="r1633" duration="6563557/60000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                <sequence format="r1633" duration="6247241/60000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
                     <spine>
                         <mc-clip ref="rM1" offset="0s" name="DSCF0034" start="337337/3750s" duration="67067/20000s">
                             <adjust-volume>
@@ -68,15 +68,15 @@
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90091">
+                                    <text-style ref="ts90089">
 </text-style>
-                                    <text-style ref="ts90092">これが6cm盛った自</text-style>
-                                    <text-style ref="ts90091">分</text-style>
+                                    <text-style ref="ts90090">これが6cm盛った自</text-style>
+                                    <text-style ref="ts90089">分</text-style>
                                 </text>
-                                <text-style-def id="ts90091">
+                                <text-style-def id="ts90089">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90092">
+                                <text-style-def id="ts90090">
                                     <text-style font="Klee" fontSize="35" fontFace="Demibold" fontColor="1 1 1 1" bold="1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="422.2" kerning="1.75" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.75" />
@@ -90,7 +90,7 @@
                                 <param name="ビルドイン" key="9999/3049847615/2/101" value="0" />
                                 <param name="拡大率" key="9999/3049847627/3049847630/2/1/14/8" value="120" />
                             </title>
-                            <asset-clip ref="r1636" lane="-1" offset="337337/3750s" name="ES_Cherry Blossom (Instrumental Version) - Nyck Caution" duration="6563557/60000s" format="r76" audioRole="music" start="0s">
+                            <asset-clip ref="r1636" lane="-1" offset="337337/3750s" name="ES_Cherry Blossom (Instrumental Version) - Nyck Caution" duration="6247241/60000s" format="r76" audioRole="music" start="0s">
                                 <adjust-volume amount="-28dB">
                                     <param name="amount">
                                         <fadeOut type="easeIn" duration="589589/720000s" />
@@ -457,7 +457,7 @@
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="537537/10000s" name="このソールの薄さで - 基本タイトル" start="216213998/60000s" duration="43043/12000s">
+                            <title ref="r74" lane="2" offset="537537/10000s" name="このソールの薄さで - 基本タイトル" start="216213998/60000s" duration="1001/375s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -488,7 +488,7 @@
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="703703/30000s" name="DSCF0034" start="853853/15000s" duration="11011/12000s">
+                        <mc-clip ref="rM1" offset="703703/30000s" name="DSCF0034" start="1740739/30000s" duration="187187/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -502,22 +502,7 @@
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                        </mc-clip>
-                        <mc-clip ref="rM1" offset="487487/20000s" name="DSCF0034" start="1740739/30000s" duration="187187/60000s">
-                            <adjust-volume>
-                                <param name="amount">
-                                    <fadeIn type="easeIn" duration="839/720000s" />
-                                    <fadeOut type="easeIn" duration="782/720000s" />
-                                </param>
-                            </adjust-volume>
-                            <mc-source angleID="A1" srcEnable="audio" />
-                            <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
-                            <title ref="r74" lane="2" offset="1740739/30000s" name="身長が6cm盛れる - 基本タイトル" start="216213998/60000s" duration="23023/6000s">
+                            <title ref="r74" lane="2" offset="1740739/30000s" name="身長が6cm盛れる - 基本タイトル" start="216213998/60000s" duration="187187/60000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -548,7 +533,7 @@
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="103103/3750s" name="DSCF0034" start="919919/15000s" duration="43043/60000s">
+                        <mc-clip ref="rM1" offset="531531/20000s" name="DSCF0034" start="1874873/30000s" duration="21021/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -562,22 +547,7 @@
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                        </mc-clip>
-                        <mc-clip ref="rM1" offset="1692691/60000s" name="DSCF0034" start="1874873/30000s" duration="21021/20000s">
-                            <adjust-volume>
-                                <param name="amount">
-                                    <fadeIn type="easeIn" duration="839/720000s" />
-                                    <fadeOut type="easeIn" duration="782/720000s" />
-                                </param>
-                            </adjust-volume>
-                            <mc-source angleID="A1" srcEnable="audio" />
-                            <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
-                            <title ref="r74" lane="2" offset="1874873/30000s" name="牛革のローファーを - 基本タイトル" start="216213998/60000s" duration="161161/60000s">
+                            <title ref="r74" lane="2" offset="1874873/30000s" name="牛革のローファーを - 基本タイトル" start="216213998/60000s" duration="31031/15000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -608,7 +578,7 @@
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="877877/30000s" name="DSCF0034" start="1274273/20000s" duration="61061/60000s">
+                        <mc-clip ref="rM1" offset="69069/2500s" name="DSCF0034" start="1274273/20000s" duration="61061/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -623,22 +593,7 @@
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="121121/4000s" name="DSCF0034" start="1300299/20000s" duration="37037/60000s">
-                            <adjust-volume>
-                                <param name="amount">
-                                    <fadeIn type="easeIn" duration="839/720000s" />
-                                    <fadeOut type="easeIn" duration="782/720000s" />
-                                </param>
-                            </adjust-volume>
-                            <mc-source angleID="A1" srcEnable="audio" />
-                            <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
-                        </mc-clip>
-                        <mc-clip ref="rM1" offset="463463/15000s" name="DSCF0034" start="257257/3750s" duration="11011/10000s">
+                        <mc-clip ref="rM1" offset="1718717/60000s" name="DSCF0034" start="257257/3750s" duration="11011/10000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -683,7 +638,7 @@
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="959959/30000s" name="DSCF0034" start="1700699/12000s" duration="71071/60000s">
+                        <mc-clip ref="rM1" offset="1784783/60000s" name="DSCF0034" start="1700699/12000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -736,20 +691,20 @@
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90093">COW LEATHER LOAFER
+                                    <text-style ref="ts90091">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 </text>
-                                <text-style-def id="ts90093">
+                                <text-style-def id="ts90091">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90094">
+                                <text-style-def id="ts90092">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
                             </title>
                             <asset-clip ref="r193" lane="-1" offset="1700699/12000s" name="決定ボタンを押す32" duration="37037/60000s" format="r76" audioRole="dialogue" />
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="663663/20000s" name="DSCF0034" start="83083/500s" duration="41041/30000s">
+                        <mc-clip ref="rM1" offset="309309/10000s" name="DSCF0034" start="83083/500s" duration="41041/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -794,7 +749,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2073071/60000s" name="DSCF0034" start="5098093/30000s" duration="37037/20000s">
+                        <mc-clip ref="rM1" offset="121121/3750s" name="DSCF0034" start="5098093/30000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -839,7 +794,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1092091/30000s" name="DSCF0034" start="699699/4000s" duration="67067/60000s">
+                        <mc-clip ref="rM1" offset="2049047/60000s" name="DSCF0034" start="699699/4000s" duration="67067/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -884,7 +839,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2251249/60000s" name="DSCF0034" start="10577567/60000s" duration="9009/5000s">
+                        <mc-clip ref="rM1" offset="1058057/30000s" name="DSCF0034" start="10577567/60000s" duration="9009/5000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -899,7 +854,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2359357/60000s" name="DSCF0034" start="2299297/12000s" duration="89089/60000s">
+                        <mc-clip ref="rM1" offset="1112111/30000s" name="DSCF0034" start="2299297/12000s" duration="89089/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -944,7 +899,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1224223/30000s" name="DSCF0034" start="3926923/20000s" duration="23023/20000s">
+                        <mc-clip ref="rM1" offset="2313311/60000s" name="DSCF0034" start="3926923/20000s" duration="23023/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -989,7 +944,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="503503/12000s" name="DSCF0034" start="5928923/30000s" duration="23023/30000s">
+                        <mc-clip ref="rM1" offset="119119/3000s" name="DSCF0034" start="5928923/30000s" duration="23023/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1004,7 +959,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2563561/60000s" name="DSCF0034" start="51051/250s" duration="229229/60000s">
+                        <mc-clip ref="rM1" offset="1214213/30000s" name="DSCF0034" start="51051/250s" duration="229229/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1049,7 +1004,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="93093/2000s" name="DSCF0034" start="499499/2400s" duration="19019/30000s">
+                        <mc-clip ref="rM1" offset="177177/4000s" name="DSCF0034" start="499499/2400s" duration="19019/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1094,7 +1049,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="707707/15000s" name="DSCF0034" start="12575563/60000s" duration="11011/7500s">
+                        <mc-clip ref="rM1" offset="2695693/60000s" name="DSCF0034" start="12575563/60000s" duration="11011/7500s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1109,7 +1064,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="243243/5000s" name="DSCF0034" start="13172159/60000s" duration="1001/1200s">
+                        <mc-clip ref="rM1" offset="927927/20000s" name="DSCF0034" start="13172159/60000s" duration="1001/1200s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1124,7 +1079,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1484483/30000s" name="DSCF0034" start="2211209/10000s" duration="37037/30000s">
+                        <mc-clip ref="rM1" offset="2833831/60000s" name="DSCF0034" start="2211209/10000s" duration="37037/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1169,7 +1124,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="19019/375s" name="DSCF0034" start="2685683/12000s" duration="17017/12000s">
+                        <mc-clip ref="rM1" offset="581581/12000s" name="DSCF0034" start="2685683/12000s" duration="17017/12000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1214,7 +1169,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="5005/96s" name="DSCF0034" start="13910897/60000s" duration="1001/375s">
+                        <mc-clip ref="rM1" offset="299299/6000s" name="DSCF0034" start="13910897/60000s" duration="1001/375s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1289,7 +1244,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="219219/4000s" name="DSCF0034" start="14077063/60000s" duration="7007/3000s">
+                        <mc-clip ref="rM1" offset="21021/400s" name="DSCF0034" start="14077063/60000s" duration="7007/3000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1334,7 +1289,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="137137/2400s" name="DSCF0034" start="7218211/30000s" duration="67067/60000s">
+                        <mc-clip ref="rM1" offset="329329/6000s" name="DSCF0034" start="7218211/30000s" duration="67067/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1379,7 +1334,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="291291/5000s" name="DSCF0034" start="16263247/60000s" duration="4004/1875s">
+                        <mc-clip ref="rM1" offset="1120119/20000s" name="DSCF0034" start="16263247/60000s" duration="4004/1875s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1424,7 +1379,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="181181/3000s" name="DSCF0034" start="2049047/7500s" duration="1001/1200s">
+                        <mc-clip ref="rM1" offset="697697/12000s" name="DSCF0034" start="2049047/7500s" duration="1001/1200s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1469,7 +1424,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="367367/6000s" name="DSCF0034" start="16449433/60000s" duration="49049/60000s">
+                        <mc-clip ref="rM1" offset="707707/12000s" name="DSCF0034" start="16449433/60000s" duration="49049/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1484,7 +1439,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="3722719/60000s" name="DSCF0034" start="16565549/60000s" duration="137137/60000s">
+                        <mc-clip ref="rM1" offset="112112/1875s" name="DSCF0034" start="16565549/60000s" duration="137137/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1529,7 +1484,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="241241/3750s" name="DSCF0034" start="8361353/30000s" duration="1001/500s">
+                        <mc-clip ref="rM1" offset="3724721/60000s" name="DSCF0034" start="8361353/30000s" duration="1001/500s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1574,7 +1529,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="497497/7500s" name="DSCF0034" start="677677/2400s" duration="91091/60000s">
+                        <mc-clip ref="rM1" offset="3844841/60000s" name="DSCF0034" start="17058041/60000s" duration="37037/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1588,7 +1543,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="677677/2400s" name="デザインにしました - 基本タイトル" start="216213998/60000s" duration="11011/4000s">
+                            <title ref="r74" lane="2" offset="17058041/60000s" name="デザインにしました - 基本タイトル" start="216213998/60000s" duration="37037/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -1619,22 +1574,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="4071067/60000s" name="DSCF0034" start="17058041/60000s" duration="37037/30000s">
-                            <adjust-volume>
-                                <param name="amount">
-                                    <fadeIn type="easeIn" duration="839/720000s" />
-                                    <fadeOut type="easeIn" duration="782/720000s" />
-                                </param>
-                            </adjust-volume>
-                            <mc-source angleID="A1" srcEnable="audio" />
-                            <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
-                        </mc-clip>
-                        <mc-clip ref="rM1" offset="4145141/60000s" name="DSCF0034" start="8979971/30000s" duration="17017/15000s">
+                        <mc-clip ref="rM1" offset="261261/4000s" name="DSCF0034" start="8979971/30000s" duration="17017/15000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1684,9 +1624,9 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="配置" key="9999/10199/10201/2/354/1002961760/401" value="2 (右揃え)" />
                                 <param name="Out Sequencing" key="9999/10199/10201/4/10233/201/202" value="0 (終了)" />
                                 <text>
-                                    <text-style ref="ts90100">164cm / Size : 41</text-style>
+                                    <text-style ref="ts90098">164cm / Size : 41</text-style>
                                 </text>
-                                <text-style-def id="ts90100">
+                                <text-style-def id="ts90098">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="right" />
                                 </text-style-def>
                                 <adjust-transform position="20.0417 37.526" />
@@ -1704,7 +1644,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1404403/20000s" name="DSCF0034" start="18109091/60000s" duration="37037/20000s">
+                        <mc-clip ref="rM1" offset="3986983/60000s" name="DSCF0034" start="18109091/60000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1749,7 +1689,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="9009/125s" name="DSCF0034" start="6105099/20000s" duration="7007/10000s">
+                        <mc-clip ref="rM1" offset="2049047/30000s" name="DSCF0034" start="6105099/20000s" duration="7007/10000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1764,7 +1704,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="727727/10000s" name="DSCF0034" start="6125119/20000s" duration="7007/7500s">
+                        <mc-clip ref="rM1" offset="517517/7500s" name="DSCF0034" start="6125119/20000s" duration="7007/7500s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1809,7 +1749,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2211209/30000s" name="DSCF0034" start="6147141/20000s" duration="109109/60000s">
+                        <mc-clip ref="rM1" offset="131131/1875s" name="DSCF0034" start="6147141/20000s" duration="109109/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1824,7 +1764,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1510509/20000s" name="DSCF0034" start="18607589/60000s" duration="47047/30000s">
+                        <mc-clip ref="rM1" offset="4305301/60000s" name="DSCF0034" start="18607589/60000s" duration="47047/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1869,7 +1809,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="4625621/60000s" name="DSCF0034" start="6717711/20000s" duration="9009/4000s">
+                        <mc-clip ref="rM1" offset="293293/4000s" name="DSCF0034" start="42042/125s" duration="7007/3750s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1883,7 +1823,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="6717711/20000s" name="そして脱ぎ履きしやすいように - 基本タイトル" start="216213998/60000s" duration="63063/20000s">
+                            <title ref="r74" lane="2" offset="42042/125s" name="脱ぎ履きしやすいように - 基本タイトル" start="216213998/60000s" duration="83083/30000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -1897,7 +1837,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <text>
                                     <text-style ref="ts90071">
 </text-style>
-                                    <text-style ref="ts90072">そして脱ぎ履きしやすいよう</text-style>
+                                    <text-style ref="ts90072">脱ぎ履きしやすいよう</text-style>
                                     <text-style ref="ts90071">に</text-style>
                                 </text>
                                 <text-style-def id="ts90071">
@@ -1914,7 +1854,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1190189/15000s" name="DSCF0034" start="169169/500s" duration="9009/10000s">
+                        <mc-clip ref="rM1" offset="4511507/60000s" name="DSCF0034" start="169169/500s" duration="9009/10000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1929,7 +1869,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="481481/6000s" name="DSCF0034" start="1020019/3000s" duration="23023/20000s">
+                        <mc-clip ref="rM1" offset="4565561/60000s" name="DSCF0034" start="1020019/3000s" duration="23023/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -1974,7 +1914,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="4883879/60000s" name="DSCF0034" start="20539519/60000s" duration="163163/60000s">
+                        <mc-clip ref="rM1" offset="463463/6000s" name="DSCF0034" start="20539519/60000s" duration="163163/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2019,7 +1959,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2523521/30000s" name="DSCF0034" start="10499489/30000s" duration="91091/60000s">
+                        <mc-clip ref="rM1" offset="4797793/60000s" name="DSCF0034" start="10499489/30000s" duration="91091/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2064,7 +2004,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1712711/20000s" name="DSCF0034" start="703703/2000s" duration="89089/60000s">
+                        <mc-clip ref="rM1" offset="407407/5000s" name="DSCF0034" start="703703/2000s" duration="89089/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2109,7 +2049,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2613611/30000s" name="DSCF0034" start="21304283/60000s" duration="19019/12000s">
+                        <mc-clip ref="rM1" offset="4977973/60000s" name="DSCF0034" start="21304283/60000s" duration="19019/12000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2154,7 +2094,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="5322317/60000s" name="DSCF0034" start="1374373/3750s" duration="51051/20000s">
+                        <mc-clip ref="rM1" offset="1268267/15000s" name="DSCF0034" start="22251229/60000s" duration="17017/6000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2168,7 +2108,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
-                            <title ref="r74" lane="2" offset="1374373/3750s" name="もちろんインソールの - 基本タイトル" start="216213998/60000s" duration="19019/15000s">
+                            <title ref="r74" lane="2" offset="22251229/60000s" name="インソールのクッション性もあり - 基本タイトル" start="216213998/60000s" duration="17017/6000s">
                                 <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
                                 <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
                                 <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
@@ -2182,8 +2122,8 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <text>
                                     <text-style ref="ts90083">
 </text-style>
-                                    <text-style ref="ts90084">もちろんインソール</text-style>
-                                    <text-style ref="ts90083">の</text-style>
+                                    <text-style ref="ts90084">インソールのクッション性もあ</text-style>
+                                    <text-style ref="ts90083">り</text-style>
                                 </text>
                                 <text-style-def id="ts90083">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
@@ -2198,53 +2138,8 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-transform position="0 3.7037" />
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
-                            <title ref="r74" lane="2" offset="1838837/5000s" name="クッション性もあり - 基本タイトル" start="216213998/60000s" duration="161161/60000s">
-                                <param name="位置" key="9999/999166631/999166633/1/100/101" value="0 -432.992" />
-                                <param name="平坦化" key="9999/999166631/999166633/2/351" value="1" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/3369181709/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/3369181709/404" value="-21" />
-                                <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
-                                <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-21" />
-                                <param name="サイズ" key="9999/999166631/999166633/5/999166635/3" value="28" />
-                                <param name="ベースライン" key="9999/999166631/999166633/5/999166635/6" value="405" />
-                                <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
-                                <param name="disableDRT" key="3733" value="1" />
-                                <text>
-                                    <text-style ref="ts90085">
-</text-style>
-                                    <text-style ref="ts90086">クッション性もあ</text-style>
-                                    <text-style ref="ts90085">り</text-style>
-                                </text>
-                                <text-style-def id="ts90085">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
-                                </text-style-def>
-                                <text-style-def id="ts90086">
-                                    <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
-                                        <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
-                                            <param name="motionTextTracking" key="tracking" value="1.4" />
-                                        </param>
-                                    </text-style>
-                                </text-style-def>
-                                <adjust-transform position="0 3.7037" />
-                                <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
-                            </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="547547/6000s" name="DSCF0034" start="22251229/60000s" duration="7007/5000s">
-                            <adjust-volume>
-                                <param name="amount">
-                                    <fadeIn type="easeIn" duration="839/720000s" />
-                                    <fadeOut type="easeIn" duration="782/720000s" />
-                                </param>
-                            </adjust-volume>
-                            <mc-source angleID="A1" srcEnable="audio" />
-                            <mc-source angleID="V1" srcEnable="video" />
-                            <filter-audio ref="r201" name="Limiter">
-                                <data key="effectState">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVtlZmZlY3RTdGF0ZYABrxAPCwwfICEiIyQlJicoKSorVSRudWxs0w0ODxAXHldOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzphESExQVFoACgAOABIAFgAaAB6YYGRobHB2ACIAJgAqAC4AMgA2ADld2ZXJzaW9uXG1hbnVmYWN0dXJlclRkYXRhVG5hbWVXc3VidHlwZVR0eXBlEAASRU1BR08QTEwAAAABAAAADQAAAEdBTUVUU1BQxwAAAAAAAAAAAAAAAAAAQAAAgD8AAABAAADApQAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAABYVW50aXRsZWQQxxJhdWZ40iwtLi9aJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiLjBYTlNPYmplY3QACAARABoAJAApADIANwBJAEwAWABaAGwAcgB5AIEAjACTAJoAnACeAKAAogCkAKYArQCvALEAswC1ALcAuQC7AMMA0ADVANoA4gDnAOkA7gE9AUYBSAFNAVIBXQFmAXMBdgAAAAAAAAIBAAAAAAAAADEAAAAAAAAAAAAAAAAAAAF/</data>
-                                <param name="Gain [dB]" key="1" value="+4.0" auxValue="240" />
-                                <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
-                            </filter-audio>
-                        </mc-clip>
-                        <mc-clip ref="rM1" offset="2779777/30000s" name="DSCF0034" start="22509487/60000s" duration="71071/60000s">
+                        <mc-clip ref="rM1" offset="873873/10000s" name="DSCF0034" start="22509487/60000s" duration="71071/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2270,15 +2165,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90087">
+                                    <text-style ref="ts90085">
 </text-style>
-                                    <text-style ref="ts90088">歩いていて</text-style>
-                                    <text-style ref="ts90087">も</text-style>
+                                    <text-style ref="ts90086">歩いていて</text-style>
+                                    <text-style ref="ts90085">も</text-style>
                                 </text>
-                                <text-style-def id="ts90087">
+                                <text-style-def id="ts90085">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90088">
+                                <text-style-def id="ts90086">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2289,7 +2184,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="3003/32s" name="DSCF0034" start="11412401/30000s" duration="163163/60000s">
+                        <mc-clip ref="rM1" offset="5314309/60000s" name="DSCF0034" start="11412401/30000s" duration="163163/60000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2315,15 +2210,15 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="フォント" key="9999/999166631/999166633/5/999166635/83" value="409 0" />
                                 <param name="disableDRT" key="3733" value="1" />
                                 <text>
-                                    <text-style ref="ts90089">
+                                    <text-style ref="ts90087">
 </text-style>
-                                    <text-style ref="ts90090">疲れにくい設計にしておりま</text-style>
-                                    <text-style ref="ts90089">す</text-style>
+                                    <text-style ref="ts90088">疲れにくい設計にしておりま</text-style>
+                                    <text-style ref="ts90087">す</text-style>
                                 </text>
-                                <text-style-def id="ts90089">
+                                <text-style-def id="ts90087">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" alignment="center" lineSpacing="-21" />
                                 </text-style-def>
-                                <text-style-def id="ts90090">
+                                <text-style-def id="ts90088">
                                     <text-style font="Klee" fontSize="28" fontFace="Medium" fontColor="1 1 1 1" strokeColor="0 0 0 0.5" strokeWidth="-3" baseline="405" kerning="1.4" alignment="center" lineSpacing="-21">
                                         <param name="MotionSimpleValues" key="MotionTextStyle:SimpleValues">
                                             <param name="motionTextTracking" key="tracking" value="1.4" />
@@ -2334,7 +2229,7 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1448447/15000s" name="DSCF0034" start="23742719/60000s" duration="2002/625s">
+                        <mc-clip ref="rM1" offset="57057/625s" name="DSCF0034" start="23742719/60000s" duration="2002/625s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2358,20 +2253,20 @@ Color : BLACK | Size : 37, 39, 41, 43</text-style>
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-3" />
                                 <text>
-                                    <text-style ref="ts90095">COW LEATHER LOAFER
+                                    <text-style ref="ts90093">COW LEATHER LOAFER
 Color : BLACK | Size : 37, 39, 41, 43
 ¥ 14,300 - tax in</text-style>
                                 </text>
-                                <text-style-def id="ts90095">
+                                <text-style-def id="ts90093">
                                     <text-style font="Masqualero" fontSize="45" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90096">
+                                <text-style-def id="ts90094">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-3" />
                                 </text-style-def>
-                                <text-style-def id="ts90097">
+                                <text-style-def id="ts90095">
                                     <text-style font="Masqualero" fontSize="40" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
-                                <text-style-def id="ts90098">
+                                <text-style-def id="ts90096">
                                     <text-style font="Masqualero" fontSize="25" fontColor="1 1 1 1" bold="1" alignment="center" />
                                 </text-style-def>
                                 <adjust-transform scale="0.7 0.7" />
@@ -2381,7 +2276,7 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <adjust-volume amount="-96dB" />
                             </asset-clip>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="299299/3000s" name="DSCF0034" start="5988983/15000s" duration="13013/15000s">
+                        <mc-clip ref="rM1" offset="59059/625s" name="DSCF0034" start="5988983/15000s" duration="13013/15000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2396,7 +2291,7 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="377377/3750s" name="DSCF0034" start="12299287/30000s" duration="13013/6000s">
+                        <mc-clip ref="rM1" offset="1430429/15000s" name="DSCF0034" start="12299287/30000s" duration="13013/6000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2411,7 +2306,7 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="1028027/10000s" name="DSCF0034" start="1658657/4000s" duration="47047/20000s">
+                        <mc-clip ref="rM1" offset="2925923/30000s" name="DSCF0034" start="1658657/4000s" duration="47047/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2432,15 +2327,15 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="配置" key="9999/999166631/999166633/2/354/999169573/401" value="1 (水平方向に中央揃え)" />
                                 <param name="行間" key="9999/999166631/999166633/2/354/999169573/404" value="-7" />
                                 <text>
-                                    <text-style ref="ts90099">2026.10.31 sat 10pm - Release</text-style>
+                                    <text-style ref="ts90097">2026.10.31 sat 10pm - Release</text-style>
                                 </text>
-                                <text-style-def id="ts90099">
+                                <text-style-def id="ts90097">
                                     <text-style font="Masqualero" fontSize="30" fontColor="1 1 1 1" bold="1" alignment="center" lineSpacing="-7" />
                                 </text-style-def>
                                 <adjust-transform scale="0.9 0.9" />
                             </title>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="2103101/20000s" name="DSCF0034" start="8379371/20000s" duration="43043/30000s">
+                        <mc-clip ref="rM1" offset="5992987/60000s" name="DSCF0034" start="8379371/20000s" duration="43043/30000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2455,7 +2350,7 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="6395389/60000s" name="DSCF0034" start="1262261/3000s" duration="23023/20000s">
+                        <mc-clip ref="rM1" offset="6079073/60000s" name="DSCF0034" start="1262261/3000s" duration="23023/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
@@ -2470,7 +2365,7 @@ Color : BLACK | Size : 37, 39, 41, 43
                                 <param name="Output Level [dB]" key="5" value="-2.0" auxValue="80" />
                             </filter-audio>
                         </mc-clip>
-                        <mc-clip ref="rM1" offset="3232229/30000s" name="DSCF0034" start="25502477/60000s" duration="33033/20000s">
+                        <mc-clip ref="rM1" offset="3074071/30000s" name="DSCF0034" start="25502477/60000s" duration="33033/20000s">
                             <adjust-volume>
                                 <param name="amount">
                                     <fadeIn type="easeIn" duration="839/720000s" />
