@@ -13,7 +13,8 @@ description: shiun ラインナップ動画（A24 など）の編集データを
    - `audit_inserts.py`（インサートの覆い方・字幕と発言）→ スキル shiun-insert-rules
    - `qa_timing.py`（フレームずれ・編集点とのずれ）
    - `fidelity_full.py`（テロップの値が過去データと同じか）→ スキル shiun-telop-template
-4. 出力は `editing/output/A24_latest.fcpxml`。コミットのメッセージの最後に共同作者の行を付ける。
+4. 撮影素材（身長別の Y98xx・K99xx など）は `fix_asset_tc.py` で asset の頭を実物のタイムコードに合わせる（`plans/A24_size_tc.json`。新しい素材は Dropbox の個別リンクに ffprobe を当てて `tc`・`rate` を足す。頭 0 秒のままだと FCP で「メディアの範囲が異なる」と出て再接続できない）。そのあと `preflight_fcpxml.py` が × 0 であること。
+5. 出力は `editing/output/A24_latest.fcpxml`。コミットのメッセージの最後に共同作者の行を付ける。
 
 ## Slack #わむう_sns 1 年分のラインナップの決まり（`editing/knowledge/編集ルール集_わむうsns_1年分.md` の 5 章）
 - ED は 2 分割: 左にコーデスナップ 5〜6 枚、右に話している映像＋コレクション名・発売日時。延期などのお知らせは ED の冒頭。再販告知もインサートで。

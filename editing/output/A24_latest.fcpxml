@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fcpxml>
-
 <fcpxml version="1.14">
     <resources>
         <format id="rs_f6000x4000" name="FFVideoFormatRateUndefined" width="6000" height="4000" colorSpace="1-13-1" /><format id="rs_f4000x6000" name="FFVideoFormatRateUndefined" width="4000" height="6000" colorSpace="1-13-1" /><format id="rs_f2000x3000" name="FFVideoFormatRateUndefined" width="2000" height="3000" colorSpace="1-13-1" /><format id="rs_f3000x2000" name="FFVideoFormatRateUndefined" width="3000" height="2000" colorSpace="1-13-1" /><asset id="r1" name="00001カー" uid="8C761769DE2AE5989BD679BECD470C99" start="0s" duration="0s" hasVideo="1" format="r2" videoSources="1">
@@ -17046,7 +17045,7 @@
         </media>
         <effect id="a19_r445" name="新規テンプレート" uid="~/Titles.localized/自己カテゴリ/テストテーマ/新規テンプレート/新規テンプレート.moti" src="file:///Users/modantaimusu/Library/Containers/com.apple.FinalCut/Data/Movies/Motion%20Templates.localized/Titles.localized/%E8%87%AA%E5%B7%B1%E3%82%AB%E3%83%86%E3%82%B3%E3%82%99%E3%83%AA/%E3%83%86%E3%82%B9%E3%83%88%E3%83%86%E3%83%BC%E3%83%9E/%E6%96%B0%E8%A6%8F%E3%83%86%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%83%88/%E6%96%B0%E8%A6%8F%E3%83%86%E3%83%B3%E3%83%95%E3%82%9A%E3%83%AC%E3%83%BC%E3%83%88.moti" />
         <effect id="a19_r383" name="フェードアウト" uid="~/Effects.localized/MP_テロップパック/03_フェード/フェードアウト/フェードアウト.moef" src="file:///Users/modantaimusu/Library/Containers/com.apple.FinalCut/Data/Movies/Motion%20Templates.localized/Effects.localized/MP_%E3%83%86%E3%83%AD%E3%83%83%E3%83%95%E3%82%9A%E3%83%8F%E3%82%9A%E3%83%83%E3%82%AF/03_%E3%83%95%E3%82%A7%E3%83%BC%E3%83%88%E3%82%99/%E3%83%95%E3%82%A7%E3%83%BC%E3%83%88%E3%82%99%E3%82%A2%E3%82%A6%E3%83%88/%E3%83%95%E3%82%A7%E3%83%BC%E3%83%88%E3%82%99%E3%82%A2%E3%82%A6%E3%83%88.moef" />
-        <asset id="sc_1" name="20261007_Y9887" start="0s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_1" name="20261007_Y9887" start="431267837/10000s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/S/20261007_Y9887.MP4">
                 </media-rep>
             <metadata>
@@ -17058,7 +17057,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_2" name="20261007_Y9883" start="0s" duration="3003/80s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_2" name="20261007_Y9883" start="1256738483/30000s" duration="3003/80s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/XS/20261007_Y9883.MP4">
                 </media-rep>
             <metadata>
@@ -17070,7 +17069,7 @@
                 </md>
             </metadata>
         </asset>
-        <effect id="sc_mask" name="シェイプマスク" uid="FFSuperEllipseMask" /><asset id="sc_3" name="20261007_Y9879" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <effect id="sc_mask" name="シェイプマスク" uid="FFSuperEllipseMask" /><asset id="sc_3" name="20261007_Y9879" start="1140900761/30000s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/S/20261007_Y9879.MP4">
                 </media-rep>
             <metadata>
@@ -17082,7 +17081,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_4" name="20261007_Y9875" start="0s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_4" name="20261007_Y9875" start="69803734/1875s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/XS/20261007_Y9875.MP4">
                 </media-rep>
             <metadata>
@@ -17094,7 +17093,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_5" name="20261007_Y9908" start="0s" duration="93093/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_5" name="20261007_Y9908" start="13080067/250s" duration="93093/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/M/20261007_Y9908.MP4">
                 </media-rep>
             <metadata>
@@ -17106,7 +17105,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_6" name="20261007_Y9901" start="0s" duration="87087/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_6" name="20261007_Y9901" start="1510930421/30000s" duration="87087/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/S/20261007_Y9901.MP4">
                 </media-rep>
             <metadata>
@@ -17118,7 +17117,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_7" name="20261007_Y9895" start="0s" duration="47047/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_7" name="20261007_Y9895" start="470446977/10000s" duration="47047/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/M/20261007_Y9895.MP4">
                 </media-rep>
             <metadata>
@@ -17130,7 +17129,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_8" name="20261007_Y9891" start="0s" duration="43043/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_8" name="20261007_Y9891" start="277207931/6000s" duration="43043/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/S/20261007_Y9891.MP4">
                 </media-rep>
             <metadata>
@@ -17142,7 +17141,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_9" name="20261009_K9920" start="0s" duration="11011/400s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_9" name="20261009_K9920" start="601217617/7500s" duration="11011/400s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/M/20261009_K9920.MP4">
                 </media-rep>
             <metadata>
@@ -17154,7 +17153,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_10" name="20261009_K9916" start="0s" duration="13013/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_10" name="20261009_K9916" start="792268477/10000s" duration="13013/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/S/20261009_K9916.MP4">
                 </media-rep>
             <metadata>
@@ -17166,7 +17165,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_11" name="20261007_Y9889" start="0s" duration="7007/200s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_11" name="20261007_Y9889" start="87744657/2000s" duration="7007/200s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/S/20261007_Y9889.MP4">
                 </media-rep>
             <metadata>
@@ -17178,7 +17177,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_12" name="20261007_Y9885" start="0s" duration="4004/125s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_12" name="20261007_Y9885" start="16997981/400s" duration="4004/125s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/XS/20261007_Y9885.MP4">
                 </media-rep>
             <metadata>
@@ -17190,7 +17189,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_13" name="20261007_Y9881" start="0s" duration="61061/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_13" name="20261007_Y9881" start="76717641/2000s" duration="61061/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/S/20261007_Y9881.MP4">
                 </media-rep>
             <metadata>
@@ -17202,7 +17201,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_14" name="20261007_Y9877" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_14" name="20261007_Y9877" start="376399023/10000s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/XS/20261007_Y9877.MP4">
                 </media-rep>
             <metadata>
@@ -17214,7 +17213,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_15" name="20261007_Y9910" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_15" name="20261007_Y9910" start="263802539/5000s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/M/20261007_Y9910.MP4">
                 </media-rep>
             <metadata>
@@ -17226,7 +17225,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_16" name="20261007_Y9903" start="0s" duration="61061/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_16" name="20261007_Y9903" start="508615107/10000s" duration="61061/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/S/20261007_Y9903.MP4">
                 </media-rep>
             <metadata>
@@ -17238,7 +17237,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_17" name="20261007_Y9897" start="0s" duration="11011/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_17" name="20261007_Y9897" start="1425693269/30000s" duration="11011/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/M/20261007_Y9897.MP4">
                 </media-rep>
             <metadata>
@@ -17250,7 +17249,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_18" name="20261007_Y9893" start="0s" duration="47047/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_18" name="20261007_Y9893" start="1397879483/30000s" duration="47047/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/S/20261007_Y9893.MP4">
                 </media-rep>
             <metadata>
@@ -17262,7 +17261,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_19" name="20261009_K9921" start="0s" duration="13013/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_19" name="20261009_K9921" start="241097857/3000s" duration="13013/500s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/M/20261009_K9921.MP4">
                 </media-rep>
             <metadata>
@@ -17274,7 +17273,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_20" name="20261009_K9918" start="0s" duration="27027/1000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_20" name="20261009_K9918" start="797649853/10000s" duration="27027/1000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/S/20261009_K9918.MP4">
                 </media-rep>
             <metadata>
@@ -17286,7 +17285,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_21" name="20261007_Y9886" start="0s" duration="73073/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_21" name="20261007_Y9886" start="429522093/10000s" duration="73073/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/S/20261007_Y9886.MP4">
                 </media-rep>
             <metadata>
@@ -17298,7 +17297,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_22" name="20261007_Y9882" start="0s" duration="51051/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_22" name="20261007_Y9882" start="1253399147/30000s" duration="51051/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E9%9D%92%E6%9F%B3%E3%81%95%E3%82%93%2039/XS/20261007_Y9882.MP4">
                 </media-rep>
             <metadata>
@@ -17310,7 +17309,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_23" name="20261007_Y9878" start="0s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_23" name="20261007_Y9878" start="1137285149/30000s" duration="3003/100s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/S/20261007_Y9878.MP4">
                 </media-rep>
             <metadata>
@@ -17322,7 +17321,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_24" name="20261007_Y9874" start="0s" duration="87087/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_24" name="20261007_Y9874" start="1110196087/30000s" duration="87087/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%81%B2%E3%81%B2%E3%82%99%E3%81%8D%E3%81%8F%E3%82%93%2037/XS/20261007_Y9874.MP4">
                 </media-rep>
             <metadata>
@@ -17334,7 +17333,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_25" name="20261007_Y9907" start="0s" duration="69069/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_25" name="20261007_Y9907" start="1563398837/30000s" duration="69069/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/M/20261007_Y9907.MP4">
                 </media-rep>
             <metadata>
@@ -17346,7 +17345,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_26" name="20261007_Y9899" start="0s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_26" name="20261007_Y9899" start="249646397/5000s" duration="67067/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%8F%E3%82%80%E3%81%86%2041/S/20261007_Y9899.MP4">
                 </media-rep>
             <metadata>
@@ -17358,7 +17357,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_27" name="20261007_Y9894" start="0s" duration="1001/40s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_27" name="20261007_Y9894" start="176018843/3750s" duration="1001/40s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/M/20261007_Y9894.MP4">
                 </media-rep>
             <metadata>
@@ -17370,7 +17369,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_28" name="20261007_Y9890" start="0s" duration="53053/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_28" name="20261007_Y9890" start="691307617/15000s" duration="53053/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%83%AC%E3%82%A4%E3%82%BF%E3%81%8F%E3%82%93%2043/S/20261007_Y9890.MP4">
                 </media-rep>
             <metadata>
@@ -17382,7 +17381,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_29" name="20261009_K9919" start="0s" duration="53053/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_29" name="20261009_K9919" start="120066947/1500s" duration="53053/2000s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/M/20261009_K9919.MP4">
                 </media-rep>
             <metadata>
@@ -17394,7 +17393,7 @@
                 </md>
             </metadata>
         </asset>
-        <asset id="sc_30" name="20261009_K9915" start="0s" duration="7007/250s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
+        <asset id="sc_30" name="20261009_K9915" start="2372863493/30000s" duration="7007/250s" hasVideo="1" format="r316" hasAudio="1" videoSources="1" audioSources="1" audioChannels="2" audioRate="48000">
             <media-rep kind="original-media" src="file:///Volumes/Tomoya%E7%B7%A8%E9%9B%86%E7%94%A8/A24%20shiun10%E6%9C%88%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%8A%E3%83%83%E3%83%95%E3%82%9A/%E3%82%B5%E3%82%A4%E3%82%B9%E3%82%99%E5%88%A5%28%E5%8B%95%E7%94%BB%29/%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC/S/20261009_K9915.MP4">
                 </media-rep>
             <metadata>
@@ -24276,7 +24275,7 @@
                                 <adjust-colorConform enabled="1" autoOrManual="manual" conformType="conformNone" peakNitsOfPQSource="1000" peakNitsOfSDRToPQSource="203" />
                             </mc-source>
                         </mc-clip>
-                        <asset-clip ref="a19_r11" offset="1952951/30000s" name="7" duration="435435/30000s" format="a19_r12" tcFormat="NDF" audioRole="dialogue">
+                        <asset-clip ref="a19_r11" offset="1952951/30000s" name="7" duration="435435/30000s" format="a19_r12" tcFormat="NDF" audioRole="dialogue" start="0s">
                             <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                             <adjust-volume>
                                 <param name="amount">
@@ -31735,7 +31734,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        <asset-clip ref="sc_6" lane="3" name="20261007_Y9901" offset="73182109/30000s" duration="13013/2400s" start="157157/5000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
+                        <asset-clip ref="sc_6" lane="3" name="20261007_Y9901" offset="73182109/30000s" duration="13013/2400s" start="1511873363/30000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="32665633/60000s" name="A24_shiun26Winter1st ラインナップ動画" start="146503357/60000s" duration="77077/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -36867,7 +36866,7 @@
                             </mc-source>
                         </mc-clip>
                         <title ref="a19_r369" offset="12403391/15000s" name="Adjustment Layer" start="481655174/120000s" duration="1129128/120000s">
-                            <asset-clip ref="sc_1" lane="1" offset="481655174/120000s" name="20261007_Y9887" start="1001/1000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_1" lane="1" offset="481655174/120000s" name="20261007_Y9887" start="431277847/10000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="51.1655 3.7722" scale="1.127 1.127" />
                                 <adjust-volume amount="-96dB" />
@@ -36898,7 +36897,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_1" lane="2" offset="481655174/120000s" name="20261007_Y9887" start="1001/1000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_1" lane="2" offset="481655174/120000s" name="20261007_Y9887" start="431277847/10000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="51.1655 3.7722" scale="1.127 1.127" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -36928,7 +36927,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="109.3" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="59.783 654.518" /><param name="調整" key="203" value="0.0947841 0.1576685" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
-                            <asset-clip ref="sc_2" lane="3" offset="481655174/120000s" name="20261007_Y9883" start="21021/2000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_2" lane="3" offset="481655174/120000s" name="20261007_Y9883" start="628526899/15000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="62.0967" />
@@ -36962,7 +36961,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_2" lane="4" offset="481655174/120000s" name="20261007_Y9883" start="21021/2000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_2" lane="4" offset="481655174/120000s" name="20261007_Y9883" start="628526899/15000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="-5.0096 2.52" scale="1.127 1.127" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -37226,7 +37225,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="3136133/3750s" name="Adjustment Layer" start="483040558/120000s" duration="1137136/120000s">
-                            <asset-clip ref="sc_3" lane="1" offset="241520279/60000s" name="20261007_Y9879" start="1001/400s" duration="1137136/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_3" lane="1" offset="241520279/60000s" name="20261007_Y9879" start="285243959/7500s" duration="1137136/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.099 1.3789" scale="1.061 1.061" />
                                 <adjust-volume amount="-96dB" />
@@ -37257,7 +37256,7 @@
                                     <param name="ミックス" key="99990" value="0.9" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_4" lane="2" offset="241520279/60000s" name="20261007_Y9875" start="67067/30000s" duration="1137136/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_4" lane="2" offset="241520279/60000s" name="20261007_Y9875" start="372308937/10000s" duration="1137136/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="63.2334" />
@@ -37522,7 +37521,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="6343337/7500s" name="Adjustment Layer" start="96860764/24000s" duration="1101100/120000s">
-                            <asset-clip ref="sc_5" lane="1" offset="242151910/60000s" name="20261007_Y9908" start="787787/30000s" duration="1101100/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_5" lane="1" offset="242151910/60000s" name="20261007_Y9908" start="1570395827/30000s" duration="1101100/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="58.3249 2.857" rotation="0.424865" scale="1.141 1.141" />
                                 <adjust-volume amount="-96dB" />
@@ -37553,7 +37552,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_6" lane="2" offset="242151910/60000s" name="20261007_Y9901" start="163163/7500s" duration="1101100/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_6" lane="2" offset="242151910/60000s" name="20261007_Y9901" start="1511583073/30000s" duration="1101100/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="65.9207" />
@@ -37818,7 +37817,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="8549541/10000s" name="Adjustment Layer" start="97117020/24000s" duration="1141140/120000s">
-                            <asset-clip ref="sc_7" lane="1" offset="242792550/60000s" name="20261007_Y9895" start="3003/2000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_7" lane="1" offset="242792550/60000s" name="20261007_Y9895" start="58807749/1250s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="54.9502 1.3459" scale="1.052 1.052" />
                                 <adjust-volume amount="-96dB" />
@@ -37849,7 +37848,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_8" lane="2" offset="242792550/60000s" name="20261007_Y9891" start="1001/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_8" lane="2" offset="242792550/60000s" name="20261007_Y9891" start="277213937/6000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="65.1368" />
@@ -38114,7 +38113,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="2161159/2500s" name="Adjustment Layer" start="242824582/60000s" duration="1149148/120000s">
-                            <asset-clip ref="sc_9" lane="1" offset="242824582/60000s" name="20261009_K9920" start="97097/30000s" duration="1149148/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_9" lane="1" offset="242824582/60000s" name="20261009_K9920" start="160331171/2000s" duration="1149148/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="46.7745 4.0076" rotation="0.6181" scale="1.059 1.059" />
                                 <adjust-volume amount="-96dB" />
@@ -38144,7 +38143,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_10" lane="2" offset="242824582/60000s" name="20261009_K9916" start="1001/1000s" duration="1149148/120000s" format="r316" tcFormat="DF" audioRole="dialogue">
+                            <asset-clip ref="sc_10" lane="2" offset="242824582/60000s" name="20261009_K9916" start="792278487/10000s" duration="1149148/120000s" format="r316" tcFormat="DF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="54.8501" />
@@ -38894,7 +38893,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        <asset-clip ref="sc_16" lane="3" name="20261007_Y9903" offset="5412407/6000s" duration="103103/20000s" start="3003/500s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
+                        <asset-clip ref="sc_16" lane="3" name="20261007_Y9903" offset="5412407/6000s" duration="103103/20000s" start="508675167/10000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="8957949/10000s" name="A24_shiun26Winter1st ラインナップ動画" start="18075057/20000s" duration="53053/30000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -39640,7 +39639,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        <asset-clip ref="sc_16" lane="3" name="20261007_Y9903" offset="19722703/20000s" duration="323323/60000s" start="3003/500s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
+                        <asset-clip ref="sc_16" lane="3" name="20261007_Y9903" offset="19722703/20000s" duration="323323/60000s" start="508675167/10000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="28109081/30000s" name="A24_shiun26Winter1st ラインナップ動画" start="59326267/60000s" duration="13013/10000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -39874,7 +39873,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        <asset-clip ref="sc_12" lane="3" name="20261007_Y9885" offset="1889888/1875s" duration="29029/5000s" start="361361/30000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
+                        <asset-clip ref="sc_12" lane="3" name="20261007_Y9885" offset="1889888/1875s" duration="29029/5000s" start="79700621/1875s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="28497469/30000s" name="A24_shiun26Winter1st ラインナップ動画" start="20201181/20000s" duration="59059/60000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -42996,7 +42995,7 @@
                             </title>
                             </mc-clip>
                         <title ref="a19_r369" offset="10967957/10000s" name="Adjustment Layer" start="240807567/60000s" duration="1145144/120000s">
-                            <asset-clip ref="sc_11" lane="1" offset="240807567/60000s" name="20261007_Y9889" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_11" lane="1" offset="240807567/60000s" name="20261007_Y9889" start="87746659/2000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="52.891 2.6893" scale="1.111 1.111" />
                                 <adjust-volume amount="-96dB" />
@@ -43027,7 +43026,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_11" lane="2" offset="240807567/60000s" name="20261007_Y9889" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_11" lane="2" offset="240807567/60000s" name="20261007_Y9889" start="87746659/2000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="52.891 2.6893" scale="1.111 1.111" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -43057,7 +43056,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="43.2" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="9.277 653.566" /><param name="調整" key="203" value="0.0899382 0.1881795" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
-                            <asset-clip ref="sc_12" lane="3" offset="240807567/60000s" name="20261007_Y9885" start="1001/500s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_12" lane="3" offset="240807567/60000s" name="20261007_Y9885" start="84993909/2000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="63.0345" />
@@ -43091,7 +43090,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_12" lane="4" offset="240807567/60000s" name="20261007_Y9885" start="1001/500s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_12" lane="4" offset="240807567/60000s" name="20261007_Y9885" start="84993909/2000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="-3.539 2.2778" scale="1.111 1.111" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -43355,7 +43354,7 @@
                             </title>
                             </title>
                         <title ref="a19_r369" offset="33190157/30000s" name="Adjustment Layer" start="483040558/120000s" duration="1119118/120000s">
-                            <asset-clip ref="sc_13" lane="1" offset="241520279/60000s" name="20261007_Y9881" start="127127/30000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_13" lane="1" offset="241520279/60000s" name="20261007_Y9881" start="575445871/15000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.7526 1.9207" scale="1.088 1.088" />
                                 <adjust-volume amount="-96dB" />
@@ -43386,7 +43385,7 @@
                                     <param name="ミックス" key="99990" value="0.9" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_14" lane="2" offset="241520279/60000s" name="20261007_Y9877" start="1001/1000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_14" lane="2" offset="241520279/60000s" name="20261007_Y9877" start="376409033/10000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="63.6581" />
@@ -43651,7 +43650,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="22313291/20000s" name="Adjustment Layer" start="96860764/24000s" duration="1127126/120000s">
-                            <asset-clip ref="sc_15" lane="1" offset="242151910/60000s" name="20261007_Y9910" start="73073/10000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_15" lane="1" offset="242151910/60000s" name="20261007_Y9910" start="527678151/10000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="55.6023 1.7596" scale="1.178 1.178" />
                                 <adjust-volume amount="-96dB" />
@@ -43682,7 +43681,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_16" lane="2" offset="242151910/60000s" name="20261007_Y9903" start="3003/500s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_16" lane="2" offset="242151910/60000s" name="20261007_Y9903" start="508675167/10000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="66.7393" />
@@ -43947,7 +43946,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="16875859/15000s" name="Adjustment Layer" start="97117020/24000s" duration="1141140/120000s">
-                            <asset-clip ref="sc_17" lane="1" offset="242792550/60000s" name="20261007_Y9897" start="1001/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_17" lane="1" offset="242792550/60000s" name="20261007_Y9897" start="1425723299/30000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.5952 0.9033" scale="1.073 1.073" />
                                 <adjust-volume amount="-96dB" />
@@ -43978,7 +43977,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_18" lane="2" offset="242792550/60000s" name="20261007_Y9893" start="1001/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_18" lane="2" offset="242792550/60000s" name="20261007_Y9893" start="1397909513/30000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="64.2698" />
@@ -44243,7 +44242,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="34037003/30000s" name="Adjustment Layer" start="242824582/60000s" duration="1159158/120000s">
-                            <asset-clip ref="sc_19" lane="1" offset="242824582/60000s" name="20261009_K9921" start="1001/1000s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_19" lane="1" offset="242824582/60000s" name="20261009_K9921" start="12055043/150s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="47.4011 3.6837" rotation="0.6181" scale="1.052 1.052" />
                                 <adjust-volume amount="-96dB" />
@@ -44273,7 +44272,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_20" lane="2" offset="242824582/60000s" name="20261009_K9918" start="1001/500s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_20" lane="2" offset="242824582/60000s" name="20261009_K9918" start="797669873/10000s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="55.646" />
@@ -44923,7 +44922,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </title>
-                        <asset-clip ref="sc_26" lane="3" name="20261007_Y9899" offset="17890873/60000s" duration="167167/30000s" start="17017/2000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
+                        <asset-clip ref="sc_26" lane="3" name="20261007_Y9899" offset="17890873/60000s" duration="167167/30000s" start="499377879/10000s" format="r316" tcFormat="NDF" audioRole="dialogue"><conform-rate scaleEnabled="0" srcFrameRate="29.97" /><adjust-volume amount="-96dB" /></asset-clip></mc-clip>
                         <mc-clip ref="r339" offset="6983977/6000s" name="A24_shiun26Winter1st ラインナップ動画" start="18006989/60000s" duration="37037/20000s">
                             <adjust-volume>
                                 <param name="amount">
@@ -48362,7 +48361,7 @@
                             </mc-source>
                         </mc-clip>
                         <title ref="a19_r369" offset="1674673/1250s" name="Adjustment Layer" start="240807567/60000s" duration="1145144/120000s">
-                            <asset-clip ref="sc_21" lane="1" offset="240807567/60000s" name="20261007_Y9886" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_21" lane="1" offset="240807567/60000s" name="20261007_Y9886" start="429532103/10000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.8566 3.3493" scale="1.093 1.093" />
                                 <adjust-volume amount="-96dB" />
@@ -48393,7 +48392,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_21" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_21" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="429532103/10000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.8566 3.3493" scale="1.093 1.093" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -48423,7 +48422,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="110.6" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="-69.051 683.582" /><param name="調整" key="203" value="0.1216001 0.1603867" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
-                            <asset-clip ref="sc_22" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_22" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="1253429177/30000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="64.239" />
@@ -48457,7 +48456,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                                 </asset-clip>
-                            <asset-clip ref="sc_22" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="1001/1000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_22" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="1253429177/30000s" duration="1145144/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="-1.7571 2.1348" scale="1.093 1.093" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a19_r371" name="カラー調整">
@@ -48721,7 +48720,7 @@
                             </title>
                             </title>
                         <title ref="a19_r369" offset="20239219/15000s" name="Adjustment Layer" start="483040558/120000s" duration="1119118/120000s">
-                            <asset-clip ref="sc_23" lane="1" offset="241520279/60000s" name="20261007_Y9878" start="1001/1000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_23" lane="1" offset="241520279/60000s" name="20261007_Y9878" start="1137315179/30000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.2952 0.8698" scale="1.059 1.059" />
                                 <adjust-volume amount="-96dB" />
@@ -48752,7 +48751,7 @@
                                     <param name="ミックス" key="99990" value="0.9" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_24" lane="2" offset="241520279/60000s" name="20261007_Y9874" start="73073/7500s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_24" lane="2" offset="241520279/60000s" name="20261007_Y9874" start="370162793/10000s" duration="1119118/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="62.9056" />
@@ -49017,7 +49016,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="5434429/4000s" name="Adjustment Layer" start="96860764/24000s" duration="1127126/120000s">
-                            <asset-clip ref="sc_25" lane="1" offset="242151910/60000s" name="20261007_Y9907" start="1001/1000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_25" lane="1" offset="242151910/60000s" name="20261007_Y9907" start="1563428867/30000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.4554 5.1256" scale="1.106 1.106" />
                                 <adjust-volume amount="-96dB" />
@@ -49048,7 +49047,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_26" lane="2" offset="242151910/60000s" name="20261007_Y9899" start="17017/2000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_26" lane="2" offset="242151910/60000s" name="20261007_Y9899" start="499377879/10000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="61.7166" />
@@ -49313,7 +49312,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="41039999/30000s" name="Adjustment Layer" start="97117020/24000s" duration="1141140/120000s">
-                            <asset-clip ref="sc_27" lane="1" offset="242792550/60000s" name="20261007_Y9894" start="1001/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_27" lane="1" offset="242792550/60000s" name="20261007_Y9894" start="704090387/15000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="55.3559 1.5304" scale="1.109 1.109" />
                                 <adjust-volume amount="-96dB" />
@@ -49344,7 +49343,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_28" lane="2" offset="242792550/60000s" name="20261007_Y9890" start="1001/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_28" lane="2" offset="242792550/60000s" name="20261007_Y9890" start="86415329/1875s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="65.8593" />
@@ -49609,7 +49608,7 @@
                             </title>
                         </title>
                         <title ref="a19_r369" offset="10331321/7500s" name="Adjustment Layer" start="242824582/60000s" duration="1159158/120000s">
-                            <asset-clip ref="sc_29" lane="1" offset="242824582/60000s" name="20261009_K9919" start="1001/1000s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_29" lane="1" offset="242824582/60000s" name="20261009_K9919" start="240136897/3000s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="48.0488 4.7683" rotation="0.6181" scale="1.049 1.049" />
                                 <adjust-volume amount="-96dB" />
@@ -49639,7 +49638,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_30" lane="2" offset="242824582/60000s" name="20261009_K9915" start="157157/30000s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_30" lane="2" offset="242824582/60000s" name="20261009_K9915" start="47460413/600s" duration="1159158/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="53.5327" />
@@ -54543,7 +54542,7 @@
                             </mc-source>
                         </mc-clip>
                         <title ref="a23_r164" offset="83083/50s" name="Adjustment Layer" start="240807567/60000s" duration="1129128/120000s">
-                            <asset-clip ref="sc_21" lane="1" offset="240807567/60000s" name="20261007_Y9886" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_21" lane="1" offset="240807567/60000s" name="20261007_Y9886" start="128889761/3000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="61.4463" />
@@ -54577,7 +54576,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_21" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_21" lane="2" offset="240807567/60000s" name="20261007_Y9886" start="128889761/3000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="53.0987 2.8815" scale="1.068 1.068" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a23_r173" name="基本3D">
@@ -54606,7 +54605,7 @@
                                     <param name="シャドウの色合い" key="15" value="0" />
                                 </filter-video>
                             <filter-video ref="sc_mask" name="シェイプマスク"><param name="湾曲" key="159" value="1" /><param name="減衰" key="158" value="104.5" /><param name="入力サイズ" key="205" value="3840 2160" /><param name="トランスフォーム" key="200"><param name="位置" key="201" value="8.759 692.748" /><param name="調整" key="203" value="0.1040608 0.1778263" /></param></filter-video><filter-video ref="a19_r456" name="ガウス"><param name="Amount" key="9999/986883370/100/986883376/2/100" value="0.3" /></filter-video></asset-clip>
-                            <asset-clip ref="sc_22" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_22" lane="3" offset="240807567/60000s" name="20261007_Y9882" start="626865239/15000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="64.7956" />
@@ -54619,7 +54618,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_22" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="331331/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_22" lane="4" offset="240807567/60000s" name="20261007_Y9882" start="626865239/15000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-transform position="-0.5465 1.6948" scale="1.068 1.068" />
                                 <adjust-volume amount="-96dB" /><filter-video ref="a23_r173" name="基本3D">
@@ -54888,7 +54887,7 @@
                             </title>
                             </title>
                         <title ref="a23_r164" offset="8355347/5000s" name="Adjustment Layer" start="483040558/120000s" duration="1129128/120000s">
-                            <asset-clip ref="sc_23" lane="1" offset="241520279/60000s" name="20261007_Y9878" start="27027/2500s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_23" lane="1" offset="241520279/60000s" name="20261007_Y9878" start="1137609473/30000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="61.7004" />
@@ -54901,7 +54900,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_24" lane="2" offset="241520279/60000s" name="20261007_Y9874" start="293293/15000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_24" lane="2" offset="241520279/60000s" name="20261007_Y9874" start="370260891/10000s" duration="1129128/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="64.53" />
@@ -55172,7 +55171,7 @@
                             </title>
                         </title>
                         <title ref="a23_r164" offset="4201197/2500s" name="Adjustment Layer" start="484289806/120000s" duration="1127126/120000s">
-                            <asset-clip ref="sc_25" lane="1" offset="242144903/60000s" name="20261007_Y9907" start="191191/15000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_25" lane="1" offset="242144903/60000s" name="20261007_Y9907" start="1563781219/30000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="60.9507" />
@@ -55185,7 +55184,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_26" lane="2" offset="242144903/60000s" name="20261007_Y9899" start="277277/15000s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_26" lane="2" offset="242144903/60000s" name="20261007_Y9899" start="187304117/3750s" duration="1127126/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="62.2725" />
@@ -55455,7 +55454,7 @@
                             </title>
                         </title>
                         <title ref="a23_r164" offset="101392291/60000s" name="Adjustment Layer" start="485559074/120000s" duration="1141140/120000s">
-                            <asset-clip ref="sc_27" lane="1" offset="242779537/60000s" name="20261007_Y9894" start="11011/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_27" lane="1" offset="242779537/60000s" name="20261007_Y9894" start="704240537/15000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="62.7767" />
@@ -55467,7 +55466,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_28" lane="2" offset="242779537/60000s" name="20261007_Y9890" start="11011/1000s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_28" lane="2" offset="242779537/60000s" name="20261007_Y9890" start="345736391/7500s" duration="1141140/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="65.4903" />
@@ -55738,7 +55737,7 @@
                             </title>
                         </title>
                         <title ref="a23_r164" offset="101962861/60000s" name="Adjustment Layer" start="242811569/60000s" duration="1223222/120000s">
-                            <asset-clip ref="sc_29" lane="1" offset="242811569/60000s" name="20261009_K9919" start="167167/15000s" duration="1223222/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_29" lane="1" offset="242811569/60000s" name="20261009_K9919" start="400278879/5000s" duration="1223222/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="56.8661" />
@@ -55751,7 +55750,7 @@
                                     <param name="回転" key="9999/10003/10007/1/100/109" value="-3 0 0 0 (回転を使用)" />
                                 </filter-video>
                             </asset-clip>
-                            <asset-clip ref="sc_30" lane="2" offset="242811569/60000s" name="20261009_K9915" start="461461/30000s" duration="1223222/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
+                            <asset-clip ref="sc_30" lane="2" offset="242811569/60000s" name="20261009_K9915" start="395554159/5000s" duration="1223222/120000s" format="r316" tcFormat="NDF" audioRole="dialogue">
                                 <conform-rate scaleEnabled="0" srcFrameRate="29.97" />
                                 <adjust-crop mode="trim">
                                     <trim-rect right="54.7828" />

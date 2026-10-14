@@ -17,4 +17,7 @@ python3 -I tools/audit_cuts.py "$W/b_c.fcpxml" "$MIC" "$W/b_cuts.json"
 python3 -I tools/audit_inserts.py "$W/b_c.fcpxml" plans/A24_transcript_cut.json --v1 output/A24_v1.fcpxml
 python3 -I tools/audit_telop_text.py "$W/b_c.fcpxml" || { echo "テロップの文字に問題あり（ローマ字の打ち残しなど）"; exit 1; }
 python3 -I tools/qa_timing.py "$W/b_c.fcpxml" 本編 | sed -n 2,8p
-cp "$W/b_c.fcpxml" output/A24_latest.fcpxml
+# 撮影素材の頭を実物のタイムコードに合わせる（FCP で再接続できるように。plans/A24_size_tc.json は ffprobe で読んだ値）
+python3 -I tools/fix_asset_tc.py "$W/b_c.fcpxml" plans/A24_size_tc.json "$W/b_d.fcpxml" --media-info plans/A24_media_info.json
+python3 -I tools/preflight_fcpxml.py "$W/b_d.fcpxml" --media-info plans/A24_media_info.json > "$W/preflight.txt" || { echo "渡す前の総点検で × あり"; cat "$W/preflight.txt"; exit 1; }; tail -1 "$W/preflight.txt"
+cp "$W/b_d.fcpxml" output/A24_latest.fcpxml
