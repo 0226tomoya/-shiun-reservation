@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'color_dur': 1.95, 'height_step': 1.034, 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
+P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'color_dur': 1.95, 'height_step': 1.034, 'ins_max': 4.6, 'detail_re': '生地|素材|丈感|着丈|北が|涼しく|ディテール|シルエット|ソール|インソール|本革', 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
 SENT_END = re.compile(r'[。！？!?]$|(ます|です|した|ない|ません|よね|けど|から|ので|ね|よ)$')
 
 
@@ -176,7 +176,27 @@ def predict(inp, p=P):
         stop = min([nxt] + [a for a, b in busy if a > subs[i][0]])
         if stop - subs[i][0] <= p['max_dur'] + 1:
             subs[i][1] = round(stop - subs[i][0], 3)
-    return {'subs': subs, 'cards': cards, 'se': se, 'bgm': [p['bgm']]}
+    # インサート: カードと同じ時間の画像／身長の発言の着用動画／詳細の発言の写真
+    ins = []
+    for c in cards:
+        if c[3] in ('product', 'sizetable', 'color', 'price', 'release'):
+            ins.append([c[0], c[1], 'CARD_' + c[3]])
+    for mm in re.finditer(r'(\d{3})cmの(僕|人|方)|どんな(体型|身長)', flat):
+        t = snap(at(mm.start()))
+        e = flat.find('。', mm.end())
+        t1 = at(e) if e >= 0 else t + 3
+        ins.append([t, round(min(max(t1 - t, 1.0), p['ins_max']), 3), 'WEAR'])
+    for mm in re.finditer(p['detail_re'], flat):
+        t = snap(at(mm.start()))
+        if any(a - 0.05 <= t < a + d for a, d, _ in ins):
+            continue
+        st = max(flat.rfind('。', 0, mm.start()), flat.rfind('、', 0, mm.start()))
+        t = snap(at(st + 1)) if st >= 0 and at(mm.start()) - at(st + 1) < 2.5 else t
+        e = flat.find('。', mm.end())
+        t1 = at(e) if e >= 0 else t + 2.5
+        ins.append([t, round(min(max(t1 - t, 1.0), p['ins_max']), 3), 'DETAIL'])
+    ins.sort()
+    return {'subs': subs, 'cards': cards, 'se': se, 'bgm': [p['bgm']], 'inserts': ins}
 
 
 if __name__ == '__main__':

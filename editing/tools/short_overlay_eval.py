@@ -2,7 +2,7 @@
     python3 short_overlay_eval.py GOLD_DIR [--grid]
 入力は正解から作る: 本線のカット（cuts）と、字幕の文を字幕の時間に字数で割り振った発言（words。文字起こしの代わり）。
   商品の呼び方（name_hint）は eval の HINT（台本・EC から人が渡すもの）。
-点（100 点）: 字幕の頭が正解の頭と 0.05 秒以内で一致する F1×40 + 字幕の終わりの F1×15（文字起こしの誤字に左右されないよう、文ではなく区切りで比べる）
+点（100 点）: 字幕の頭が正解の頭と 0.05 秒以内で一致する F1×35（以下、10/15 にインサート×20 を足して配分し直し: 字幕の終わり×10・カード×25・効果音×10） + 字幕の終わりの F1×15（文字起こしの誤字に左右されないよう、文ではなく区切りで比べる）
             + カードの種類ごとの最初の頭が 0.3 秒以内の割合×30 + 効果音の頭の F1（0.2 秒）×15
 2 つの回し方:
   再現: その動画だけで一番よい決まり（PARAMS）を探して点を出す（1 度できたものを再現できるか）
@@ -77,10 +77,19 @@ def score(pred, g, subs_only=False):
     hit = [1 if k in pk and abs(pk[k] - v) <= 0.3 else 0 for k, v in kinds.items() if k in ('product', 'price', 'release', 'sizetable', 'height', 'color')]
     ch = sum(hit) / max(len(hit), 1)
     sef = f1([x[0] for x in pred['se']], [x[0] for x in g['se']], 0.2) if g['se'] else 1.0
+    # インサート: 時間の重なり（0.1 秒刻み）の F1
+    def cover(xs, L):
+        import numpy as np
+        m = np.zeros(int(L * 10) + 1, bool)
+        for x in xs:
+            m[int(x[0] * 10):int((x[0] + x[1]) * 10)] = True
+        return m
+    gi, pi_ = cover(g['inserts'], g['length']), cover(pred.get('inserts', []), g['length'])
+    tp = (gi & pi_).sum(); insf = 2 * tp / max(gi.sum() + pi_.sum(), 1)
     if subs_only:  # 発言がカードの間に無い（正解の字幕から作った材料）→ 字幕だけで 100 点に換算
         return {'点': round((sf * 40 + tm * 15) / 55 * 100, 1), '字幕の頭F1': round(sf, 3), '字幕の終わりF1': round(tm, 3), 'カード': None, '効果音F1': None}
-    pts = sf * 40 + tm * 15 + ch * 30 + sef * 15
-    return {'点': round(pts, 1), '字幕の頭F1': round(sf, 3), '字幕の終わりF1': round(tm, 3), 'カード': round(ch, 3), '効果音F1': round(sef, 3)}
+    pts = sf * 35 + tm * 10 + ch * 25 + sef * 10 + insf * 20
+    return {'点': round(pts, 1), 'インサートF1': round(float(insf), 3), '字幕の頭F1': round(sf, 3), '字幕の終わりF1': round(tm, 3), 'カード': round(ch, 3), '効果音F1': round(sef, 3)}
 
 
 GRID = {'target': [9, 10, 11, 12, 13], 'max_chars': [16, 18, 22], 'min_chars': [4, 5, 6, 7, 8], 'lag': [0.1, 0.2, 0.3]}
