@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'max_merge': 0, 'merge_dur': 2.6,  # 先読みでまとめるのは 10/15 の評価で効かなかったので 0（切る） 'color_dur': 1.95, 'height_step': 1.034, 'ins_max': 4.6, 'detail_re': '生地|素材|丈感|着丈|北が|涼しく|ディテール|シルエット|ソール|インソール|本革', 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
+P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'max_merge': 0, 'merge_dur': 2.6, 'color_dur': 1.95, 'height_step': 1.034, 'ins_max': 4.6, 'detail_re': '生地|素材|丈感|着丈|北が|涼しく|ディテール|シルエット|ソール|インソール|本革', 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
 SENT_END = re.compile(r'[。！？!?]$|(ます|です|した|ない|ません|よね|けど|から|ので|ね|よ)$')
 
 
