@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'color_dur': 1.95, 'height_step': 1.034, 'ins_max': 4.6, 'detail_re': '生地|素材|丈感|着丈|北が|涼しく|ディテール|シルエット|ソール|インソール|本革', 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
+P = {'target': 11, 'max_chars': 22, 'max_dur': 4.0, 'min_dur': 0.6, 'card_dur': 2.0, 'price_dur': 5.5, 'release_dur': 4.5, 'size_dur': 4.6, 'lag': 0.2, 'word_lag': 0.0, 'snap_lo': -0.3, 'snap_hi': 0.35, 'bgm': ['ES_Bumfuzzle - Jobii', '-28dB'], 'chunk': 'cut', 'max_merge': 0, 'merge_dur': 2.6,  # 先読みでまとめるのは 10/15 の評価で効かなかったので 0（切る） 'color_dur': 1.95, 'height_step': 1.034, 'ins_max': 4.6, 'detail_re': '生地|素材|丈感|着丈|北が|涼しく|ディテール|シルエット|ソール|インソール|本革', 'min_chars': 6, 'min_punct': 3, 'gap_split': 0.0, 'chunk_snap': 0.35}
 SENT_END = re.compile(r'[。！？!?]$|(ます|です|した|ない|ません|よね|けど|から|ので|ね|よ)$')
 
 
@@ -42,6 +42,10 @@ def cut_chunks(cuts, tx, busy, p):
             continue
         n = len(cur[2]) + len(t)
         prev = cur[2].rstrip()
+        # 先読み: このカットで文が終わり、合わせても max_merge 字・merge_dur 秒以内なら 1 枚にまとめる
+        if not prev.endswith('。') and t.rstrip().endswith('。') and n <= p['max_merge'] and t0 + du - cur[0] <= p['merge_dur']:
+            cur[1] = t0 + du - cur[0]; cur[2] += t
+            continue
         mark = prev.endswith(('。', '、')) or (END_MARK.search(prev.rstrip('。、')) and len(prev) >= p['min_chars'])
         if len(cur[2]) >= p['target'] or n > p['max_chars'] or SENT_END.search(cur[2]) or mark or t0 + du - cur[0] > p['max_dur']:
             subs.append(cur); cur = [t0, du, t]
@@ -164,7 +168,7 @@ def predict(inp, p=P):
     if t_price is not None:
         cards.append([t_price, round(t_rel - t_price, 3), 'PRICE', 'price']); se.append([t_price])
     cards.append([t_rel, round(L - t_rel, 3), 'RELEASE', 'release'])
-    busy = [(c[0], c[0] + c[1]) for c in cards if c[3] != 'height']
+    busy = [(c[0], c[0] + c[1]) for c in cards if c[3] not in ('height', 'color')]  # 身長・色のラベルの間は字幕を出す（8 月の正解）
     # 字幕
     if p.get('chunk') == 'text':
         subs = text_chunks(words, cuts, busy, p)
