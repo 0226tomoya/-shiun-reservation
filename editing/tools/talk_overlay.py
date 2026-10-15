@@ -9,7 +9,7 @@ OVERLAY.json:
 時刻はタイムライン（プロジェクトの頭から）の秒。
 見た目（Paste の値。`editing/PASTE_DATABASE.md`・`editing/components/Paste_AI用テンプレ.fcpxml`）:
   WAMU   : 基本タイトル・Futura MediumItalic「WAMU」68 ／「164cm / 58kg」33・中央揃え・行間 −10・位置 813.9, 440.4（右上）・全編・lane 5
-  見出し : 基本タイトル・Masqualero bold 40 ／ 25・左揃え・行間 −5・位置 −956.953, 485.985（左上）・縮小 0.9・lane 4
+  見出し : 基本タイトル・Masqualero bold 40 ／ 25（日本語の行は Klee Demibold。Masqualero に日本語の字形が無いため）・左揃え・行間 −5・位置 −956.953, 485.985（左上）・縮小 0.9・lane 4
   字幕   : 基本タイトル・Klee Medium 32・白・字間 1.6・中央揃え・位置 1, −483.734（下）・lane 3。最後の 1 字は字間なしの別の text-style
   縁取り（strokeColor）は XML では書かない（ユーザーの決め。FCP 側のテンプレで付ける）
 """
@@ -132,9 +132,11 @@ def main():
                 [('WAMU\n', {**st, 'fontSize': '68'}), ('164cm / 58kg', {**st, 'fontSize': '33'})])
     for h in ov.get('headings', []):
         st = {'font': 'Masqualero', 'fontColor': '1 1 1 1', 'bold': '1', 'lineSpacing': '-5', 'alignment': 'left'}
-        runs = [(h['line1'] + ('\n' if h.get('line2') else ''), {**st, 'fontSize': '40'})]
+        jp = {'font': 'Klee', 'fontFace': 'Demibold', 'fontColor': '1 1 1 1', 'lineSpacing': '-5', 'alignment': 'left'}  # Masqualero に日本語の字形が無いので日本語は Klee
+        isjp = lambda t: any(ord(ch) > 0x2fff for ch in t)
+        runs = [(h['line1'] + ('\n' if h.get('line2') else ''), {**(jp if isjp(h['line1']) else st), 'fontSize': '40'})]
         if h.get('line2'):
-            runs.append((h['line2'], {**st, 'fontSize': '25'}))
+            runs.append((h['line2'], {**(jp if isjp(h['line2']) else st), 'fontSize': '25'}))
         o.title(h['start'], h['end'], 4, h['line1'][:20] + ' - 基本タイトル',
                 [('位置', '-956.953 485.985', KEY_POS), ('調整', '1 1.4', KEY_SCALE), ('平坦化', '1', KEY_FLAT), ('配置', '0 (左揃え)', KEY_ALIGN), ('行間', '-5', KEY_LS)],
                 runs, {'scale': '0.9 0.9'})
