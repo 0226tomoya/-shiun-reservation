@@ -19,11 +19,8 @@ from telop_shadow import SUB_TALK, TEL_LONG, LIST_LONG, halo, drop_effect, add_d
 HEAD_FONTS = ('Corporate Logo', 'Source Han Serif JP')
 
 
-def main():
-    src, out = sys.argv[1], sys.argv[2]
-    head = open(src, encoding='utf-8').read(400)
-    tree = ET.parse(src)
-    root = tree.getroot()
+def apply(root):
+    """root（fcpxml の要素）のテロップに影を付ける。返り値: (字幕, 長編のテロップ, 見出し・名前) の数"""
     res = root.find('resources')
     ids = {e.get('id') for e in root.iter() if e.get('id')}
 
@@ -50,6 +47,14 @@ def main():
                 a.update(halo(*op)); n_long += 1
         if any(ts.get('font', '').startswith(HEAD_FONTS) for ts in styles):
             add_drop_shadow(t, drop); n_head += 1
+    return n_sub, n_long, n_head
+
+
+def main():
+    src, out = sys.argv[1], sys.argv[2]
+    head = open(src, encoding='utf-8').read(400)
+    tree = ET.parse(src)
+    n_sub, n_long, n_head = apply(tree.getroot())
     tree.write(out, encoding='UTF-8', xml_declaration=True)
     body = open(out, encoding='utf-8').read()
     m = re.search(r'<!DOCTYPE[^>]*>', head)
