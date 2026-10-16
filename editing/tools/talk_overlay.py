@@ -14,7 +14,7 @@ OVERLAY.json（時刻はアイキャッチを入れる前のタイムライン�
   WAMU     : Paste のまま。基本タイトル・Futura MediumItalic「WAMU」68 ／「164cm / 58kg」33・文字の不透明度 0.5・中央揃え・行間 −10・
              位置 813.9, 440.4・下の行だけドロップシャドウ（Motion の既定: 黒 0.75・距離 5・角度 315）。
              下の行のアウトライン（幅 1.5・ブラー 10）とグローは FCPXML で書けないので付けない
-  見出し   : 基本タイトル・コーポレート・ロゴ Bold「〇〇さんに聞いてみた」35 ⏎ 「題」60（改行の字は 63）・白・中央揃え・位置 −711.829, 485.271
+  見出し   : 基本タイトル・川島さん本編はコーポレート・ロゴ Bold（FCPXML の「Corporate Logo」では読めず Helvetica 6 になった（A29 v2）ので Source Han Serif JP Heavy）「〇〇さんに聞いてみた」35 ⏎ 「題」60（改行の字は 63）・白・中央揃え・位置 −711.829, 485.271
   話題の箱 : 座布団01_07（MP_テロップパック）・Klee Medium 100・中央揃え・箱の不透明度 0.75・カスタム幅/高さ 8・オフセット −13.2 / −63・
              ポイント1 X 0.31688・ポイント2 X 0.81688・クリップの位置 −66.3611, 34.7593（見出しの下）
   名前     : 基本タイトル・コーポレート・ロゴ Bold「肩書き」35 ⏎「名前」70「さん」35・中央揃え・位置 600.501, −277.258・5.005 秒
@@ -51,7 +51,7 @@ ZABU_PARAMS = [
 ]
 EYE_DUR = Fr(84084, 60000)  # 1.4014 秒（川島さん本編の長さ）
 LANE = {'wamu': 2, 'title': 3, 'sub': 4, 'topic': 5, 'name': 6}
-CORP = {'font': 'Corporate Logo', 'fontFace': 'Bold', 'fontColor': '1 1 1 1', 'alignment': 'center'}
+CORP = {'font': 'Source Han Serif JP', 'fontFace': 'Heavy', 'bold': '1', 'fontColor': '1 1 1 1', 'alignment': 'center'}
 
 
 def T(s):
