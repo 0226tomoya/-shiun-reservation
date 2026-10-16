@@ -3,8 +3,8 @@
     python3 longform_consensus.py OUT.json PRED1.json PRED2.json PRED3.json [...]
 
 - 文のある部品（fact・opinion・vertical・tsukkomi・topic・color・coord・item_card・shiun_card・price）:
-  頭が ±3 秒以内で、文の近さ 0.3 以上（fact・opinion・vertical は種類が違ってもまとめる）のものを 1 つのかたまりにし、
-  過半数の案に出てくるかたまりだけ残す。残すのは頭が真ん中の案の部品、種類は多数決
+  頭が ±3 秒以内で、文の近さ 0.3 以上のものを 1 つのかたまりにし、過半数の案に出てくるかたまりだけ残す。残すのは頭が真ん中の案の部品、種類は多数決。
+  fact・opinion・vertical は種類が違ってもまとめ、文の近さは問わない（同じ発言でも言い回しが案ごとに違うため）。残す文はほかの案の文に一番近いもの
 - 時刻だけの部品（eyecatch・transition・insert:web・insert:cam・sfx:*）: 頭 ±2 秒（効果音は ±0.5 秒）で同じように
 - 1 つだけの部品（heading・item_label・op_profile・title_call・channel・closing・ending・bgm）: 部品の数が真ん中の案のものをそのまま
 """
@@ -56,13 +56,17 @@ def main():
                 break
             if ib in {g[0] for g in group} or FAMILY.get(eb['kind'], eb['kind']) != fam:
                 continue
-            if ea['kind'] in TEXT and SequenceMatcher(None, n(ea.get('text')), n(eb.get('text'))).ratio() < 0.3:
+            if ea['kind'] in TEXT and fam != 'tel' and SequenceMatcher(None, n(ea.get('text')), n(eb.get('text'))).ratio() < 0.3:
                 continue
             group.append((ib, eb))
             used.add(b)
         if len({g[0] for g in group}) >= need:
             st = statistics.median(e['start'] for _, e in group)
-            rep = min(group, key=lambda g: abs(g[1]['start'] - st))[1]
+            if fam == 'tel':
+                # 文は言い回しが案ごとに違うので、ほかの案の文に一番近い文（真ん中の文）を選ぶ
+                rep = max(group, key=lambda g: sum(SequenceMatcher(None, n(g[1].get('text')), n(h[1].get('text'))).ratio() for h in group if h is not g))[1]
+            else:
+                rep = min(group, key=lambda g: abs(g[1]['start'] - st))[1]
             rep = dict(rep)
             rep['kind'] = Counter(e['kind'] for _, e in group).most_common(1)[0][0]
             res.append(rep)
