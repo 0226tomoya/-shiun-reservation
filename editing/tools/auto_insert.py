@@ -525,6 +525,24 @@ def main():
                     best = (sc_, 'photo', ph_, None)
             return best
 
+        col_n = [1]  # 掲載用の 1 枚目（00001）は紹介インで使うので 2 枚目から
+
+        def color_stills(text):
+            """色名（字幕の文）に合う SNS用高画質の写真（完成 A24 の Color は 3/3 が SNS用高画質の「000NN商品名」）。
+            色ごとのフォルダ（photos / photos2 の名前に色名）があればその色の、無ければ商品の写真。1 枚目は紹介インで使うので外す。"""
+            if 'donor_assets' in pr:
+                return []
+            up = unicodedata.normalize('NFC', text or '').upper()
+            cols = [c_.strip().upper() for c_ in (pr.get('color') or '').split(',') if c_.strip()]
+            for c_ in cols:
+                if c_ in up:
+                    for key_ in ('photos', 'photos2'):
+                        if pr.get(key_) and pr[key_].upper().endswith(c_):
+                            got = folder(pr[key_])
+                            return got[1:] or got
+            base_ = photos_base or photos
+            return base_[1:] or base_
+
         def lay(a, b, sec, forced=(), cues=()):
             """インサートのかたまり [a, b] を敷く。forced（字幕の頭・終わり）では必ず切り替える（A19・A23 は 100%）。
             cues（字幕の時刻・文・ラベル）から、そのカットで話している部位に合う素材を選ぶ。"""
@@ -535,6 +553,16 @@ def main():
                 mid_ = (pa + pb) / 2
                 cue = next((c_ for c_ in cues if c_[0] <= mid_ < c_[1]), None)
                 text_, label_ = (cue[2], cue[3]) if cue else ('', sec)
+                cs_ = color_stills(text_) if label_ == 'Color' else []
+                if cs_:
+                    # 色の説明（見出し Color）: その色の SNS用高画質の写真を左右に 2 枚（紹介インと同じ置き方）
+                    k_ = col_n[0]
+                    col_n[0] += 2
+                    attach(still(cs_[k_ % len(cs_)], d, LANE['photo_fg'], '-44.4444 0', 'half'), pa)
+                    attach(still(cs_[(k_ + 1) % len(cs_)], d, LANE['photo_bg'], '44.4444 0', 'half'), pa)
+                    mix['photo'] += 1
+                    stats['broll'] += 1
+                    continue
                 pick = pick_insert(d, text_, label_)
                 if pick is not None and pick[1] == 'video':
                     _, _, n_, st_in = pick
