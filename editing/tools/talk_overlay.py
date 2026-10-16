@@ -21,13 +21,16 @@ OVERLAY.json（時刻はアイキャッチを入れる前のタイムライン�
   字幕     : 基本タイトル・游ゴシック Bold 45・ベースライン −8・白・中央揃え・行間 −21・頭に改行（1 行の字幕は下の行に出る）・
              位置 0, −432.992・クリップの位置 0, 3.7037。次の字幕まで出したまま（川島さん本編は 97.6% が隙間 0）
   アイキャッチ: 「わむうアイキャッチ」1.4014 秒（音つき）を本線に挿入。WAMU・見出し・話題の箱はアイキャッチの上には出さない
-  縁取り（strokeColor）は書かない
+  縁取り（strokeColor）は書かない。影は telop_shadow.py（字幕＝ぼかした縁取りの代わりの文字の影、見出し・名前＝ドロップシャドウのフィルタ）
 """
 import json
 import re
 import sys
 import xml.etree.ElementTree as ET
 from fractions import Fraction as Fr
+
+sys.path.insert(0, __file__.rsplit('/', 1)[0])
+from telop_shadow import SUB_TALK, halo, drop_effect, add_drop_shadow  # noqa: E402
 
 BASIC = '.../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti'
 ZABU_UID = '~/Titles.localized/MP_テロップパック/34_座布団/座布団01_07/座布団01_07.moti'
@@ -233,12 +236,14 @@ def main():
             o.title(a, b, LANE['wamu'], 'WAMU - 基本タイトル', basic_params('813.916 440.387', ls=-10),
                     [('WAMU', {**st, 'fontSize': '68', 'lineSpacing': '-10'}), ('\n', {**st, 'fontSize': '33', 'lineSpacing': '-10'}), ('164cm / 58kg', {**st, 'fontSize': '33'})],
                     {'position': '16.463 10.1298', 'scale': '0.8 0.8'})
+    drop = drop_effect(o.res, lambda: new_id(o.res, 'r'))
     tt = ov.get('title')
     if tt:
         for a, b in o.split_eye(o.map(tt['start']), total):
             e_ = o.title(a, b, LANE['title'], tt['line1'][:20] + ' - 基本タイトル', basic_params('-711.829 485.271'),
                          [(tt['line1'], {**CORP, 'fontSize': '35'}), ('\n', {**CORP, 'fontSize': '63'}), (tt['line2'], {**CORP, 'fontSize': '60'})])
             ET.SubElement(e_, 'adjust-blend', {'mode': '14 (オーバーレイ)'})  # 完成版 A6 の見出しと同じ合成モード
+            add_drop_shadow(e_, drop)
     for tp in ov.get('topics', []):
         for a, b in o.split_eye(o.map(tp['start']), o.map(tp['end'])):
             o.title(a, b, LANE['topic'], tp['text'][:20] + ' - 座布団01_07', [(k, v, key) for k, key, v in ZABU_PARAMS],
@@ -247,10 +252,12 @@ def main():
     nc = ov.get('name_card')
     if nc:
         a = o.map(nc['start'])
-        o.title(a, a + Fr(5005, 1000), LANE['name'], (nc.get('role') or nc['name'])[:20] + ' - 基本タイトル', basic_params('600.501 -277.258'),
+        e_ = o.title(a, a + Fr(5005, 1000), LANE['name'], (nc.get('role') or nc['name'])[:20] + ' - 基本タイトル', basic_params('600.501 -277.258'),
                 [(nc.get('role', '') + '\n', {**CORP, 'fontSize': '35'}), (nc['name'], {**CORP, 'fontSize': '70'}),
                  (nc.get('honorific', 'さん'), {**CORP, 'fontSize': '35'})])
-    sub_st = {'font': 'YuGothic', 'fontSize': '45', 'fontColor': '1 1 1 1', 'bold': '1', 'baseline': '-8', 'alignment': 'center', 'lineSpacing': '-21'}
+        add_drop_shadow(e_, drop)
+    sub_st = {'font': 'YuGothic', 'fontSize': '45', 'fontColor': '1 1 1 1', 'bold': '1', 'baseline': '-8', 'alignment': 'center', 'lineSpacing': '-21',
+              **halo(*SUB_TALK)}
     for s in ov.get('subs', []):
         for a, b in o.split_eye(o.map(s['start']), o.map(s['end'])):
             o.title(a, b, LANE['sub'], s['text'][:20] + ' - 基本タイトル', basic_params('0 -432.992', ls=-21),
