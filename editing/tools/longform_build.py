@@ -1,6 +1,7 @@
 """長編（ひとりで話す購入品・レビュー回）の部品の一覧（longform_events.py と同じ形の JSON）から、FCP で読み込める FCPXML を作る。
 
     python3 longform_build.py BASE.fcpxml EVENTS.json TEMPLATES.json OUT.fcpxml [--eyecatch-src file:///…/わむうアイキャッチ.mp4]
+        [--media DIR --media-root file:///Users/…/素材/]
 
 - BASE: カット済みの XML（本線だけ。完成版と同じ 1 本のプロジェクト）
 - EVENTS: {"events": [{"kind", "start", "end", "text"}]}（時刻はアイキャッチを入れる前のタイムラインの秒）
@@ -8,7 +9,10 @@
 - アイキャッチ（eyecatch）は本線に 1.4 秒の「わむうアイキャッチ」を差し込む（talk_overlay.py と同じ）。見出し・WAMU はアイキャッチの上に出さない
 - 影は apply_telop_shadow.py と同じ（縁取り 0.25 → ぼかした影、見出し → ドロップシャドウのフィルタ）
 - 効果音（sfx:*）は完成版と同じ素材（ユーザーの Downloads/エフェクト/SE など、完成版の asset のパスそのまま）を lane -1 に置く
-- 型の無い部品（インサート・BGM・商品番号の箱・冒頭プロフィール・エンディング）は、その時刻にマーカー「要素材: …」を打つ
+- 公式サイトの画面（insert:web）は、ec_media.py で集めた商品画像（縦 3:4）を左半分に置く（完成版 A6 と同じ: lane 5・位置 −51.3889, 0）。
+  画像は直前の商品カード（item_card）の商品、色のカード（color）と同じ時刻ならその色のモデル写真、無ければ全色を並べた写真。
+  --media は ec_media.py の出力（商品ごとのフォルダと manifest.json）、--media-root はユーザーの Mac でその中身を置く場所（file:// の URL）
+- 型の無い部品（撮影素材の寄り・BGM・商品番号の箱・冒頭プロフィール・エンディング）は、その時刻にマーカー「要素材: …」を打つ
 """
 import copy
 import json
@@ -111,6 +115,47 @@ def host(o, t):
     return c, T(c.get('start')) + min(t - off, du - o.fd)
 
 
+def load_media(d):
+    import glob
+    import os
+    out = []
+    for m in sorted(glob.glob(os.path.join(d, '*', 'manifest.json'))):
+        man = json.load(open(m))
+        man['dir'] = os.path.basename(os.path.dirname(m))
+        out.append(man)
+    return out
+
+
+def pick_image(media, t, ev):
+    """時刻 t の公式サイトの画面に使う画像 (商品フォルダ, ファイル名) を選ぶ"""
+    from difflib import SequenceMatcher
+    if not media:
+        return None
+    cards = [e for e in ev if e['kind'] == 'item_card' and e['start'] <= t + 1]
+    man = media[0]
+    if cards:
+        txt = cards[-1].get('text', '')
+        man = max(media, key=lambda m: SequenceMatcher(None, m.get('name') or '', txt).ratio())
+    col = next((e for e in ev if e['kind'] == 'color' and abs(e['start'] - t) < 1.5), None)
+    files = man['files']
+    if col:
+        code = (col.get('text') or '').split(' ')[0]
+        f = next((f for f in files if f['kind'] in ('main', 'color') and f['color'].startswith(code)), None) \
+            or next((f for f in files if f['kind'] == 'sub' and f.get('color') == code), None)
+        if f:
+            return man['dir'], f['file']
+    # 色の話でない所は、全色を並べた写真 → ほかの色なしの写真 → 色ごとの写真の順に、同じ商品で前に使っていないものを使う
+    order = [f for f in files if f['kind'] == 'sub' and not f.get('color')] + [f for f in files if f['kind'] in ('main', 'color', 'detail')]
+    used = USED.setdefault(man['dir'], set())
+    f = next((f for f in order if f['file'] not in used), order[0] if order else None)
+    if f:
+        used.add(f['file'])
+    return (man['dir'], f['file']) if f else None
+
+
+USED = {}
+
+
 def main():
     base, evp, tpp, out = sys.argv[1:5]
     eye_src = sys.argv[sys.argv.index('--eyecatch-src') + 1] if '--eyecatch-src' in sys.argv else 'file:///Users/modantaimusu/Downloads/わむうアイキャッチ.mp4'
@@ -138,6 +183,10 @@ def main():
         n[0] += 1
         return n[0]
     made, marks = {}, {}
+    media_dir = sys.argv[sys.argv.index('--media') + 1] if '--media' in sys.argv else None
+    media_root = sys.argv[sys.argv.index('--media-root') + 1] if '--media-root' in sys.argv else 'file:///Users/modantaimusu/Downloads/素材/'
+    media = load_media(media_dir) if media_dir else []
+    img_assets = {}
     for e in sorted(ev, key=lambda x: x['start']):
         k = e['kind']
         if k == 'eyecatch':
@@ -165,6 +214,32 @@ def main():
             c.insert(pos, cl)
             made[k] = made.get(k, 0) + 1
             continue
+        if k == 'insert:web' and media:
+            img = pick_image(media, e['start'], ev)
+            if img:
+                import os
+                from PIL import Image
+                from urllib.parse import quote
+                w, h = Image.open(os.path.join(media_dir, *img)).size
+                key = '/'.join(img)
+                if key not in img_assets:
+                    fid = new_id(o.res, 'r')
+                    ET.SubElement(o.res, 'format', {'id': fid, 'name': 'FFVideoFormatRateUndefined', 'width': str(w), 'height': str(h), 'colorSpace': '1-13-1'})
+                    aid = new_id(o.res, 'r')
+                    a_ = ET.SubElement(o.res, 'asset', {'id': aid, 'name': img[1].rsplit('.', 1)[0], 'start': '0s', 'duration': '0s', 'hasVideo': '1',
+                                                        'format': fid, 'videoSources': '1'})
+                    ET.SubElement(a_, 'media-rep', {'kind': 'original-media', 'src': media_root.rstrip('/') + '/' + quote(img[0]) + '/' + quote(img[1])})
+                    img_assets[key] = aid
+                c, local = host(o, a)
+                vv = ET.Element('video', {'ref': img_assets[key], 'lane': '5', 'offset': ts(local), 'name': img[1], 'start': '3600s',
+                                          'duration': ts(max(o.fd, o.fr(b) - o.fr(a)))})
+                ET.SubElement(vv, 'adjust-transform', {'position': '-51.3889 0'})
+                kids = list(c)
+                pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+                                                                         'filter-video', 'filter-video-mask', 'filter-audio', 'metadata')), len(kids))
+                c.insert(pos, vv)
+                made[k] = made.get(k, 0) + 1
+                continue
         if k not in tpl:
             if not k.startswith('sfx:') and k != 'bgm':
                 o.marker(a, f'要素材 {k}: {e.get("text", "")[:40]}')
