@@ -4,7 +4,9 @@
 
 WORKDIR/<動画>/Info.fcpxml（完成版）と WORKDIR/<動画>/gold.json（longform_events.py の出力）を読み、
 gold の部品と文が同じ <title> を探して、その種類の型にする（先に書いた動画を優先）。
-OUT.json: {種類: {"src": 動画, "title": <title> の XML, "effects": {id: <effect> の XML}, "lane": レーン}}
+OUT.json: {種類: {"src": 動画, "title": <title> の XML, "effects": {id: <effect> の XML}, "lane": レーン},
+           "sfx:種類": {"src": 動画, "clip": <asset-clip> の XML, "asset": <asset> の XML, "format": <format> の XML}}
+効果音は gold の sfx の名前（素材名）と同じ名前の asset-clip（本線につないだもの）を型にする。複合クリップ（クリック・シャッター）は別の回の asset-clip を探す
 """
 import json
 import sys
@@ -39,6 +41,30 @@ def main():
                 refs = {t.get('ref')} | {f.get('ref') for f in t.iter('filter-video')}
                 tpl[k] = {'src': v, 'title': ET.tostring(t, encoding='unicode'), 'lane': e.get('lane'),
                           'effects': {r: ET.tostring(eff[r], encoding='unicode') for r in refs if r in eff}}
+        assets = {a.get('id'): a for a in root.iter('asset')}
+        fmts = {f.get('id'): f for f in root.iter('format')}
+        for e in gold:
+            k = e['kind']
+            if not k.startswith('sfx:') or k == 'sfx:other' or k in tpl:
+                continue
+            same = lambda c: unicodedata.normalize('NFC', c.get('name') or '') == unicodedata.normalize('NFC', e['text'])
+            ac = next((c for c in root.iter('asset-clip') if same(c)), None)
+            if ac is None or ac.get('ref') not in assets:
+                rc = next((c for c in root.iter('ref-clip') if same(c)), None)
+                media = {m.get('id'): m for m in root.iter('media')}
+                if rc is None or rc.get('ref') not in media:
+                    continue
+                m = media[rc.get('ref')]
+                inner = {c.get('ref') for c in m.iter() if c.get('ref') in assets}
+                fs = {assets[i].get('format') for i in inner} | {x.get('format') for x in m.iter() if x.get('format')}
+                tpl[k] = {'src': v, 'clip': ET.tostring(rc, encoding='unicode'), 'media': ET.tostring(m, encoding='unicode'),
+                          'assets': [ET.tostring(assets[i], encoding='unicode') for i in inner],
+                          'formats': [ET.tostring(fmts[f], encoding='unicode') for f in fs if f in fmts]}
+                continue
+            a = assets[ac.get('ref')]
+            f = fmts.get(a.get('format') or ac.get('format'))
+            tpl[k] = {'src': v, 'clip': ET.tostring(ac, encoding='unicode'), 'asset': ET.tostring(a, encoding='unicode'),
+                      'format': ET.tostring(f, encoding='unicode') if f is not None else None}
     json.dump(tpl, open(out, 'w'), ensure_ascii=False, indent=1)
     print({k: v['src'] for k, v in tpl.items()})
     print('無い種類:', [k for k in KINDS if k not in tpl])

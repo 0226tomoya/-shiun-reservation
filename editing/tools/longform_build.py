@@ -7,7 +7,8 @@
 - TEMPLATES: longform_templates.py の出力（完成版のテロップの型）。書体・大きさ・位置・字間・フェードは型のまま、文と時刻だけ差し替える
 - アイキャッチ（eyecatch）は本線に 1.4 秒の「わむうアイキャッチ」を差し込む（talk_overlay.py と同じ）。見出し・WAMU はアイキャッチの上に出さない
 - 影は apply_telop_shadow.py と同じ（縁取り 0.25 → ぼかした影、見出し → ドロップシャドウのフィルタ）
-- 型の無い部品（効果音・インサート・BGM・商品番号の箱・冒頭プロフィール・エンディング）は、その時刻にマーカー「要素材: …」を打つ
+- 効果音（sfx:*）は完成版と同じ素材（ユーザーの Downloads/エフェクト/SE など、完成版の asset のパスそのまま）を lane -1 に置く
+- 型の無い部品（インサート・BGM・商品番号の箱・冒頭プロフィール・エンディング）は、その時刻にマーカー「要素材: …」を打つ
 """
 import copy
 import json
@@ -72,6 +73,44 @@ def fill(title, text, uniq):
             title.remove(d)
 
 
+def import_res(o, xml, idmap, uid_key='uid'):
+    """型の resource（format・asset・media）を resources へ入れる。同じ uid（format は name＋frameDuration）が既にあればそれを使う。
+    idmap: 型の id → 入れた先の id"""
+    e = ET.fromstring(xml)
+    old = e.get('id')
+    if old in idmap:
+        return idmap[old]
+    if e.tag == 'format':
+        have = next((f for f in o.res.findall('format') if f.get('name') == e.get('name') and f.get('frameDuration') == e.get('frameDuration')
+                     and f.get('width') == e.get('width')), None)
+    else:
+        have = next((r for r in o.res.findall(e.tag) if r.get(uid_key) and r.get(uid_key) == e.get(uid_key)), None)
+    if have is not None:
+        idmap[old] = have.get('id')
+        return have.get('id')
+    for x in e.iter():
+        for at in ('ref', 'format'):
+            if x is not e and x.get(at) in idmap:
+                x.set(at, idmap[x.get(at)])
+        if x is e and e.get('format') in idmap:
+            e.set('format', idmap[e.get('format')])
+    nid = new_id(o.res, 'r')
+    e.set('id', nid)
+    o.res.append(e)
+    idmap[old] = nid
+    return nid
+
+
+def host(o, t):
+    """t（挿入後の時刻）を含む本線のクリップと、その中の時刻。アイキャッチの上もそのまま付ける（talk_overlay の host はアイキャッチを飛ばす）"""
+    t = o.fr(t)
+    for off, du, c in o.items:
+        if off <= t < off + du:
+            return c, T(c.get('start')) + (t - off)
+    off, du, c = o.items[-1]
+    return c, T(c.get('start')) + min(t - off, du - o.fd)
+
+
 def main():
     base, evp, tpp, out = sys.argv[1:5]
     eye_src = sys.argv[sys.argv.index('--eyecatch-src') + 1] if '--eyecatch-src' in sys.argv else 'file:///Users/modantaimusu/Downloads/わむうアイキャッチ.mp4'
@@ -83,7 +122,7 @@ def main():
     # 型の effect を resources へ（uid が同じものがあれば使う）
     eff_map = {}
     for k, t in tpl.items():
-        for rid, x in t['effects'].items():
+        for rid, x in t.get('effects', {}).items():
             e = ET.fromstring(x)
             have = next((r for r in o.res.findall('effect') if r.get('uid') == e.get('uid')), None)
             if have is None:
@@ -104,6 +143,28 @@ def main():
         if k == 'eyecatch':
             continue
         a, b = o.map(e['start']), o.map(e['end'])
+        if k.startswith('sfx:') and k in tpl:
+            st = tpl[k]
+            idm = {}
+            for f in ([st['format']] if st.get('format') else []) + st.get('formats', []):
+                import_res(o, f, idm)
+            for a_ in ([st['asset']] if st.get('asset') else []) + st.get('assets', []):
+                import_res(o, a_, idm)
+            if st.get('media'):
+                import_res(o, st['media'], idm)
+            cl = ET.fromstring(st['clip'])
+            cl.set('ref', idm.get(cl.get('ref'), cl.get('ref')))
+            if cl.get('format') in idm:
+                cl.set('format', idm[cl.get('format')])
+            c, local = host(o, a)
+            cl.set('lane', '-1')
+            cl.set('offset', ts(local))
+            kids = list(c)
+            pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+                                                                     'filter-video', 'filter-video-mask', 'filter-audio', 'metadata')), len(kids))
+            c.insert(pos, cl)
+            made[k] = made.get(k, 0) + 1
+            continue
         if k not in tpl:
             if not k.startswith('sfx:') and k != 'bgm':
                 o.marker(a, f'要素材 {k}: {e.get("text", "")[:40]}')
@@ -117,7 +178,7 @@ def main():
                 if (k, f.get('ref')) in eff_map:
                     f.set('ref', eff_map[(k, f.get('ref'))])
             fill(t, e.get('text', ''), uniq)
-            c, local = o.host(x)
+            c, local = host(o, x)
             t.set('lane', str(LANES.get(k, 4)))
             t.set('offset', ts(local))
             t.set('duration', ts(max(o.fd, o.fr(y) - o.fr(x))))
