@@ -25,8 +25,30 @@ sys.path.insert(0, __file__.rsplit('/', 1)[0])
 from talk_overlay import Overlay, T, ts, new_id  # noqa: E402
 import apply_telop_shadow  # noqa: E402
 
-LANES = {'heading': 3, 'wamu': 2, 'topic': 5, 'fact': 4, 'opinion': 4, 'vertical': 5, 'price': 6, 'tsukkomi': 6, 'color': 6,
-         'item_card': 5, 'coord': 5, 'shiun_card': 6, 'title_call': 4, 'channel': 4, 'closing': 4}
+# 重なり順（下から）。同じ時刻に同じレーンが埋まっていれば上の空いたレーンへ
+LANES = {'wamu': 2, 'heading': 3, 'op_profile': 3, 'coord_bg': 4, 'insert:web': 5, 'item_label': 6, 'item_card': 6, 'coord': 7,
+         'fact': 7, 'opinion': 7, 'vertical': 7, 'title_call': 7, 'channel': 7, 'closing': 7, 'topic': 7,
+         'color': 8, 'shiun_card': 8, 'price': 9, 'tsukkomi': 9}
+OCC = {}
+
+
+def lane_block(k, rels, x, y):
+    """主の部品のレーン L と、L+rel の全部が [x, y) で空いている L を選んで埋める"""
+    ln = max(LANES.get(k, 7), 1 - min(rels + [0]))
+    free = lambda l: not any(a < y and x < b for a, b in OCC.get(l, []))
+    while not all(free(ln + r) for r in rels + [0]):
+        ln += 1
+    for r in rels + [0]:
+        OCC.setdefault(ln + r, []).append((x, y))
+    return ln
+
+
+def lane_for(k, x, y):
+    ln = LANES.get(k, 7)
+    while any(a < y and x < b for a, b in OCC.get(ln, [])):
+        ln += 1
+    OCC.setdefault(ln, []).append((x, y))
+    return ln
 NO_EYE = {'heading', 'wamu', 'topic'}  # アイキャッチの上には出さない
 
 
@@ -176,6 +198,7 @@ def place_compound(o, k, st, a, b, eff_map, text=None, uniq=None, fresh_uid=Fals
     c, local = host(o, a)
     cl.set('offset', ts(local))
     cl.set('duration', ts(min(dur, seq_d)))
+    cl.set('lane', str(lane_for(k, a, a + min(dur, seq_d))))
     cl.set('name', m.get('name'))
     kids = list(c)
     pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
@@ -275,8 +298,11 @@ def main():
         if k == 'eyecatch':
             continue
         a, b = o.map(e['start']), o.map(e['end'])
-        if k.startswith('sfx:') and k in tpl:
-            st = tpl[k]
+        kk = k
+        if k == 'bgm':
+            kk = 'bgm:' + (e.get('text') or '') if 'bgm:' + (e.get('text') or '') in tpl else next((x for x in tpl if x.startswith('bgm:')), None)
+        if kk and (kk.startswith('sfx:') or kk.startswith('bgm:') or kk == 'ending') and kk in tpl:
+            st = tpl[kk]
             idm = {}
             for f in ([st['format']] if st.get('format') else []) + st.get('formats', []):
                 import_res(o, f, idm)
@@ -289,7 +315,14 @@ def main():
             if cl.get('format') in idm:
                 cl.set('format', idm[cl.get('format')])
             c, local = host(o, a)
-            cl.set('lane', '-1')
+            if k in ('bgm', 'ending'):
+                full = T(cl.get('duration'))
+                if k == 'bgm':
+                    a_el = next((x for x in o.res if x.get('id') == cl.get('ref')), None)
+                    if a_el is not None and a_el.get('duration') and T(a_el.get('duration')) > 0:
+                        full = T(a_el.get('duration')) - T(cl.get('start') or '0s')
+                cl.set('duration', ts(min(max(o.fd, o.fr(b) - o.fr(a)), full)))
+            cl.set('lane', '-2' if k == 'bgm' else ('1' if k == 'ending' else '-1'))
             cl.set('offset', ts(local))
             kids = list(c)
             pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
@@ -314,7 +347,7 @@ def main():
                     ET.SubElement(a_, 'media-rep', {'kind': 'original-media', 'src': media_root.rstrip('/') + '/' + quote(img[0]) + '/' + quote(img[1])})
                     img_assets[key] = aid
                 c, local = host(o, a)
-                vv = ET.Element('video', {'ref': img_assets[key], 'lane': '5', 'offset': ts(local), 'name': img[1], 'start': '3600s',
+                vv = ET.Element('video', {'ref': img_assets[key], 'lane': str(lane_for(k, a, b)), 'offset': ts(local), 'name': img[1], 'start': '3600s',
                                           'duration': ts(max(o.fd, o.fr(b) - o.fr(a)))})
                 ET.SubElement(vv, 'adjust-transform', {'position': '-51.3889 0'})
                 kids = list(c)
@@ -340,6 +373,29 @@ def main():
                 o.marker(a, f'要素材 {k}: {e.get("text", "")[:40]}')
                 marks[k] = marks.get(k, 0) + 1
             continue
+        if k == 'coord' and 'coord_bg' in tpl:
+            bg = ET.fromstring(tpl['coord_bg']['title'])
+            bg.set('ref', eff_map[('coord_bg', bg.get('ref'))])
+            for f in bg.iter('filter-video'):
+                if ('coord_bg', f.get('ref')) in eff_map:
+                    f.set('ref', eff_map[('coord_bg', f.get('ref'))])
+            for d in bg.findall('text-style-def'):  # 背景には文が無いので id だけ付け直す
+                nid = f'lf{uniq()}'
+                for r in bg.iter('text-style'):
+                    if r.get('ref') == d.get('id'):
+                        r.set('ref', nid)
+                d.set('id', nid)
+            c, local = host(o, a)
+            bg.set('lane', str(lane_for('coord_bg', a, b)))
+            bg.set('offset', ts(local))
+            bg.set('duration', ts(max(o.fd, o.fr(b) - o.fr(a))))
+            bg.set('name', '背景 06 - coord')
+            kids = list(c)
+            pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+                                                                     'filter-video', 'filter-video-mask', 'filter-audio', 'metadata')), len(kids))
+            c.insert(pos, bg)
+        if k == 'channel' and 'shiun' in (e.get('text') or '') and 'channel:shiun' in tpl:
+            k = 'channel:shiun'
         spans = o.split_eye(a, min(b, total)) if k in NO_EYE else [(a, b)]
         for x, y in spans:
             t = ET.fromstring(tpl[k]['title'])
@@ -349,7 +405,41 @@ def main():
                     f.set('ref', eff_map[(k, f.get('ref'))])
             fill(t, e.get('text', ''), uniq)
             c, local = host(o, x)
-            t.set('lane', str(LANES.get(k, 4)))
+            withs = tpl[k].get('with', [])
+            ln = lane_block(k.split(':')[0], [w['rel'] for w in withs], x, y) if withs else lane_for(k, x, y)
+            t.set('lane', str(ln))
+            for w in withs:
+                idm = {}
+                for f in w.get('formats', []):
+                    import_res(o, f, idm)
+                for x_ in w.get('assets', []):
+                    import_res(o, x_, idm)
+                for rid, ex in w.get('effects', {}).items():
+                    ee = ET.fromstring(ex)
+                    have = next((r for r in o.res.findall('effect') if r.get('uid') == ee.get('uid')), None)
+                    if have is None:
+                        ee.set('id', new_id(o.res, 'r'))
+                        o.res.append(ee)
+                        have = ee
+                    idm[rid] = have.get('id')
+                el = ET.fromstring(w['xml'])
+                for z in el.iter():
+                    for at in ('ref', 'format'):
+                        if z.get(at) in idm:
+                            z.set(at, idm[z.get(at)])
+                for d in el.iter('text-style-def'):
+                    nid = f'lf{uniq()}'
+                    for r in el.iter('text-style'):
+                        if r.get('ref') == d.get('id'):
+                            r.set('ref', nid)
+                    d.set('id', nid)
+                el.set('lane', str(ln + w['rel']))
+                el.set('offset', ts(local))
+                el.set('duration', ts(max(o.fd, o.fr(y) - o.fr(x))))
+                kids = list(c)
+                pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+                                                                         'filter-video', 'filter-video-mask', 'filter-audio', 'metadata')), len(kids))
+                c.insert(pos, el)
             t.set('offset', ts(local))
             t.set('duration', ts(max(o.fd, o.fr(y) - o.fr(x))))
             t.set('name', (e.get('text', '').split('\n')[0][:24] or k) + ' - ' + k)

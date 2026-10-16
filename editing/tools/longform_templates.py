@@ -32,20 +32,45 @@ def main():
         by = defaultdict(list)
         for e in gold:
             by[n(e['text'])].append(e)
+        parent = {c: p for p in root.iter() for c in p}
+        assets = {a.get('id'): a for a in root.iter('asset')}
+        fmts = {f.get('id'): f for f in root.iter('format')}
         for t in root.iter('title'):
             txt = ''.join(x.text or '' for x in t.iter('text-style') if x.text)
             for e in by.get(n(txt), []):
                 k = e['kind']
-                if k not in KINDS or k in tpl:
+                if k == 'channel' and 'shiun' in txt:
+                    k = 'channel:shiun'
+                if (k not in KINDS and k != 'channel:shiun') or k in tpl:
                     continue
+                if k.startswith('channel'):
+                    # チャンネル紹介は、同じ時刻に並ぶ背景（ページスクロール・カスタム）と画像（新作・shiun ロゴ）も一緒に型にする
+                    p = parent.get(t)
+                    with_ = []
+                    for sib in (p if p is not None else []):
+                        if sib is t or not sib.get('lane') or int(sib.get('lane')) < 1 or sib.get('offset') != t.get('offset'):
+                            continue
+                        nm = sib.get('name') or ''
+                        if nm.startswith(('Adjustment Layer', 'WAMU')):
+                            continue
+                        rr = {x.get('ref') for x in sib.iter() if x.get('ref')}
+                        fs = {x.get('format') for x in sib.iter() if x.get('format')} | {assets[r].get('format') for r in rr if r in assets}
+                        with_.append({'rel': int(sib.get('lane')) - int(t.get('lane')), 'xml': ET.tostring(sib, encoding='unicode'),
+                                      'effects': {r: ET.tostring(eff[r], encoding='unicode') for r in rr if r in eff},
+                                      'assets': [ET.tostring(assets[r], encoding='unicode') for r in rr if r in assets],
+                                      'formats': [ET.tostring(fmts[f], encoding='unicode') for f in fs if f in fmts]})
                 refs = {t.get('ref')} | {f.get('ref') for f in t.iter('filter-video')}
                 tpl[k] = {'src': v, 'title': ET.tostring(t, encoding='unicode'), 'lane': e.get('lane'),
                           'effects': {r: ET.tostring(eff[r], encoding='unicode') for r in refs if r in eff}}
-        assets = {a.get('id'): a for a in root.iter('asset')}
-        fmts = {f.get('id'): f for f in root.iter('format')}
+                if k.startswith('channel'):
+                    tpl[k]['with'] = with_
         for e in gold:
             k = e['kind']
-            if not k.startswith('sfx:') or k == 'sfx:other' or k in tpl:
+            if k in ('bgm', 'ending'):
+                k = 'bgm:' + e['text'] if k == 'bgm' else 'ending'
+            elif not k.startswith('sfx:') or k == 'sfx:other':
+                continue
+            if k in tpl:
                 continue
             same = lambda c: unicodedata.normalize('NFC', c.get('name') or '') == unicodedata.normalize('NFC', e['text'])
             ac = next((c for c in root.iter('asset-clip') if same(c)), None)
@@ -65,6 +90,13 @@ def main():
             f = fmts.get(a.get('format') or ac.get('format'))
             tpl[k] = {'src': v, 'clip': ET.tostring(ac, encoding='unicode'), 'asset': ET.tostring(a, encoding='unicode'),
                       'format': ET.tostring(f, encoding='unicode') if f is not None else None}
+        # コーデの一覧の下の背景（背景 06）
+        if 'coord_bg' not in tpl:
+            bg = next((t for t in root.iter('title') if eff.get(t.get('ref')) is not None and eff[t.get('ref')].get('name') == '背景 06'), None)
+            if bg is not None:
+                refs = {bg.get('ref')} | {f.get('ref') for f in bg.iter('filter-video')}
+                tpl['coord_bg'] = {'src': v, 'title': ET.tostring(bg, encoding='unicode'), 'lane': bg.get('lane'),
+                                   'effects': {r: ET.tostring(eff[r], encoding='unicode') for r in refs if r in eff}}
         # 複合クリップの部品（商品番号の箱「本編 クリップ」・冒頭プロフィール）
         media = {m.get('id'): m for m in root.iter('media')}
         for e in gold:
