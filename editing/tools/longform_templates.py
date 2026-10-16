@@ -65,6 +65,23 @@ def main():
             f = fmts.get(a.get('format') or ac.get('format'))
             tpl[k] = {'src': v, 'clip': ET.tostring(ac, encoding='unicode'), 'asset': ET.tostring(a, encoding='unicode'),
                       'format': ET.tostring(f, encoding='unicode') if f is not None else None}
+        # 複合クリップの部品（商品番号の箱「本編 クリップ」・冒頭プロフィール）
+        media = {m.get('id'): m for m in root.iter('media')}
+        for e in gold:
+            k = e['kind']
+            if k not in ('item_label', 'op_profile') or k in tpl:
+                continue
+            rc = next((c for c in root.iter('ref-clip') if unicodedata.normalize('NFC', c.get('name') or '') == unicodedata.normalize('NFC', e['text'])
+                       and c.get('ref') in media), None)
+            if rc is None:
+                continue
+            m = media[rc.get('ref')]
+            refs = {x.get('ref') for x in m.iter() if x.get('ref')} | {f.get('ref') for f in rc.iter('filter-video')}
+            fs = {x.get('format') for x in m.iter() if x.get('format')} | {assets[r].get('format') for r in refs if r in assets}
+            tpl[k] = {'src': v, 'clip': ET.tostring(rc, encoding='unicode'), 'media': ET.tostring(m, encoding='unicode'),
+                      'effects': {r: ET.tostring(eff[r], encoding='unicode') for r in refs if r in eff},
+                      'assets': [ET.tostring(assets[r], encoding='unicode') for r in refs if r in assets],
+                      'formats': [ET.tostring(fmts[f], encoding='unicode') for f in fs if f in fmts]}
     json.dump(tpl, open(out, 'w'), ensure_ascii=False, indent=1)
     print({k: v['src'] for k, v in tpl.items()})
     print('無い種類:', [k for k in KINDS if k not in tpl])

@@ -56,6 +56,10 @@ def fill(title, text, uniq):
         tr = rows[min(i, len(rows) - 1)]
         if i > 0:
             new.append(('\n', nl or tr[0][1]))
+        if len(tr) >= 2 and not tr[0][0].strip():  # 行頭の空白だけの run（商品番号の箱の「   Item 1」）は別に残す
+            new.append((tr[0][0], tr[0][1]))
+            line = line.lstrip(' ')
+            tr = tr[1:]
         first, last = tr[0][1], tr[-1][1]
         tail1 = len(tr) >= 2 and len(tr[-1][0].strip()) == 1 and last != first
         if tail1 and len(line) > 1:
@@ -113,6 +117,84 @@ def host(o, t):
             return c, T(c.get('start')) + (t - off)
     off, du, c = o.items[-1]
     return c, T(c.get('start')) + min(t - off, du - o.fd)
+
+
+def place_compound(o, k, st, a, b, eff_map, text=None, uniq=None, fresh_uid=False):
+    """複合クリップの部品（商品番号の箱・冒頭プロフィール）を置く。text があれば中の最初のタイトルの文を差し替える"""
+    import uuid
+    idm = {}
+    for f in st.get('formats', []):
+        import_res(o, f, idm)
+    for x in st.get('assets', []):
+        import_res(o, x, idm)
+    for rid, x in st.get('effects', {}).items():
+        e = ET.fromstring(x)
+        have = next((r for r in o.res.findall('effect') if r.get('uid') == e.get('uid')), None)
+        if have is None:
+            e.set('id', new_id(o.res, 'r'))
+            o.res.append(e)
+            have = e
+        idm[rid] = have.get('id')
+    m = ET.fromstring(st['media'])
+    for x in m.iter():
+        for at in ('ref', 'format'):
+            if x.get(at) in idm:
+                x.set(at, idm[x.get(at)])
+    dur = max(o.fd, o.fr(b) - o.fr(a))
+    # 中の text-style-def の id を付け直す（同じ型を何度も入れても id がぶつからないように）
+    if uniq:
+        ren = {}
+        for d in m.iter('text-style-def'):
+            ren[d.get('id')] = f'lf{uniq()}'
+            d.set('id', ren[d.get('id')])
+        for r in m.iter('text-style'):
+            if r.get('ref') in ren:
+                r.set('ref', ren[r.get('ref')])
+    if text is not None:
+        t = next(m.iter('title'), None)
+        if t is not None:
+            fill(t, text, uniq)
+        seq = m.find('sequence')
+        seq.set('duration', ts(dur))
+        for c in seq.find('spine'):
+            c.set('duration', ts(dur))
+    if fresh_uid or text is not None or not any(r.get('uid') == m.get('uid') for r in o.res.findall('media')):
+        if fresh_uid or text is not None:
+            m.set('uid', uuid.uuid4().hex[:22])
+            m.set('name', (m.get('name') or k) + (' ' + str(uniq()) if uniq else ''))
+        m.set('id', new_id(o.res, 'r'))
+        o.res.append(m)
+        mid = m.get('id')
+    else:
+        mid = next(r for r in o.res.findall('media') if r.get('uid') == m.get('uid')).get('id')
+    cl = ET.fromstring(st['clip'])
+    cl.set('ref', mid)
+    for f in cl.iter('filter-video'):
+        if f.get('ref') in idm:
+            f.set('ref', idm[f.get('ref')])
+    seq_d = T(m.find('sequence').get('duration'))
+    c, local = host(o, a)
+    cl.set('offset', ts(local))
+    cl.set('duration', ts(min(dur, seq_d)))
+    cl.set('name', m.get('name'))
+    kids = list(c)
+    pos = next((j for j, kk in enumerate(kids) if kk.tag in ('marker', 'chapter-marker', 'keyword', 'rating', 'analysis-marker',
+                                                             'filter-video', 'filter-video-mask', 'filter-audio', 'metadata')), len(kids))
+    c.insert(pos, cl)
+    return cl
+
+
+def item_text(ev, k_ev, n_item):
+    """商品番号の箱の文: 「   Item N⏎ブランド⏎商品名⏎¥価格 | Color : 色」（その区間の最初の商品カード・色のカードから）"""
+    a, b = k_ev['start'] - 1, k_ev['end']
+    card = next((e for e in ev if e['kind'] == 'item_card' and a <= e['start'] < b), None)
+    col = next((e for e in ev if e['kind'] == 'color' and a <= e['start'] < b), None)
+    lines = (card.get('text', '') if card else '').split('\n')
+    brand = lines[0] if lines else ''
+    name = lines[1] if len(lines) > 1 else ''
+    price = next((l for l in lines if '¥' in l), '')
+    tail = price + (f' | Color : {col["text"]}' if col else '')
+    return f'   Item {n_item}\n{brand}\n{name}\n{tail}'.rstrip()
 
 
 def load_media(d):
@@ -187,6 +269,7 @@ def main():
     media_root = sys.argv[sys.argv.index('--media-root') + 1] if '--media-root' in sys.argv else 'file:///Users/modantaimusu/Downloads/素材/'
     media = load_media(media_dir) if media_dir else []
     img_assets = {}
+    n_item, seen_items = [0], set()
     for e in sorted(ev, key=lambda x: x['start']):
         k = e['kind']
         if k == 'eyecatch':
@@ -240,6 +323,18 @@ def main():
                 c.insert(pos, vv)
                 made[k] = made.get(k, 0) + 1
                 continue
+        if k in ('item_label', 'op_profile') and k in tpl:
+            if k == 'item_label':
+                n_item[0] += 0 if (e.get('text') or '').strip() in seen_items else 1
+                seen_items.add((e.get('text') or '').strip())
+                m_ = re.search(r'(\d+)', e.get('text') or '')
+                num = int(m_.group(1)) if m_ else n_item[0]
+                for x, y in o.split_eye(a, min(b, total)):
+                    place_compound(o, k, tpl[k], x, y, eff_map, text=item_text(ev, e, num), uniq=uniq)
+            else:
+                place_compound(o, k, tpl[k], a, b, eff_map, uniq=uniq)
+            made[k] = made.get(k, 0) + 1
+            continue
         if k not in tpl:
             if not k.startswith('sfx:') and k != 'bgm':
                 o.marker(a, f'要素材 {k}: {e.get("text", "")[:40]}')
