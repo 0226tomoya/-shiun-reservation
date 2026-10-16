@@ -254,17 +254,26 @@ def main():
             t += step
     cov = hit_c / max(1e-9, tot_c)
     same = 0.0
+    ins_miss = []  # --detail 用: 完成のインサートごとに、同じ素材で覆えた割合と、その時刻の自作の素材
     for a, b, n in iF:
         key = re.sub(r'[_\-\s].*', '', n)[:6]
         t = a + step / 2
+        s0 = n0 = 0.0
+        ours_n = set()
         while t < b:
             if in_ex(t):
                 t += step
                 continue
+            n0 += step
             T_ = MO.to_tl(MF.key(t), t)
-            if T_ is not None and key and any(key in n2 for n2 in names_at(T_)):
+            here = names_at(T_) if T_ is not None else []
+            ours_n.update(here)
+            if key and any(key in n2 for n2 in here):
                 same += step
+                s0 += step
             t += step
+        if n0 and s0 / n0 < 0.5:
+            ins_miss.append([round(a, 1), round(b - a, 1), n, round(s0 / n0, 2), sorted(ours_n)[:4]])
     same /= max(1e-9, sum(b - a for a, b, n in iF) - sum(max(0, min(b, y) - max(a, x)) for a, b, n in iF for x, y in EX))
     pts['インサート'] = (round(10 * cov + 10 * same, 1), 20)
     notes.append(f'インサート: 完成の覆う時間のうち {cov:.1%} を自作も覆う・同じ素材 {same:.1%}')
@@ -278,6 +287,7 @@ def main():
     res = {'score': score, 'parts': pts, 'notes': notes}
     if detail:
         res['titles_miss'] = miss[:80]
+        res['inserts_miss'] = ins_miss
     print(json.dumps(res, ensure_ascii=False, indent=1))
 
 
