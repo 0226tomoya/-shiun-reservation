@@ -53,9 +53,12 @@ L_shadow_soft = a.filter(ImageFilter.GaussianBlur(22))
 a = canvas(); ImageDraw.Draw(a).ellipse((sx + 40, sy + shoe.height - 12, sx + shoe.width - 20, sy + shoe.height + 8), fill=(20, 12, 6, 170))
 L_shadow_contact = a.filter(ImageFilter.GaussianBlur(6))
 
+SUB = 'ELEVATED  INSOLE  SHOES'   # サブタイトル（両側の罫線は文字の幅に合わせて伸び縮み）
+# 右の縦書きの候補。最初のものを表示し、残りは非表示のレイヤーで入れる
+VERTS = ['気づかれずに、背が伸びる。', 'さりげなく、六センチ。', '一足で、目線が変わる。']
 cap, small = f('CormorantGaramond-600.ttf', 19), f('CormorantGaramond-600.ttf', 17)
 def _cap(dr):
-    w = spaced(dr, W / 2, 138, 'ONE PAIR ,  SIX COORDINATES', cap, INK, 5, 'm')
+    w = spaced(dr, W / 2, 138, SUB, cap, INK, 5, 'm')
     dr.line((W / 2 - w / 2 - 150, 132, W / 2 - w / 2 - 22, 132), fill=INK, width=1)
     dr.line((W / 2 + w / 2 + 22, 132, W / 2 + w / 2 + 150, 132), fill=INK, width=1)
 L_cap = text_layer(_cap)
@@ -63,14 +66,14 @@ L_season = text_layer(lambda dr: spaced(dr, 40, 168, '2026  AUTUMN', small, INK,
 L_mens = text_layer(lambda dr: spaced(dr, W - 40, 168, "MEN'S  STYLE", small, INK, 4, 'r'))
 L_item = text_layer(lambda dr: spaced(dr, W - 40, H - 34, 'COW LEATHER U-TIP DERBY  ( +6cm )', small, INK, 3, 'r'))
 vf = f('ShipporiMincho-400.ttf', 24)
-def _vert(dr):
+def _vert(dr, text):
     x0, y = W - 52, 250
-    for ch in '一足で、六つの装い。':
+    for ch in text:
         if ch in '、。':
             dr.text((x0 + 15, y - 17), ch, font=vf, fill=INK, anchor='mt'); y += 20
         else:
             dr.text((x0, y), ch, font=vf, fill=INK, anchor='mt'); y += 34
-L_vert = text_layer(_vert)
+L_verts = [text_layer(lambda dr, t=t: _vert(dr, t)) for t in VERTS]
 logo = Image.open('/home/user/-shiun-reservation/editing/thumbs/assets/logos/shiun_black.png').convert('RGBA')
 logo = logo.crop(logo.getbbox()); lh = 26; logo = logo.resize((int(logo.width * lh / logo.height), lh), Image.LANCZOS)
 L_logo = canvas(); L_logo.alpha_composite(logo, (40, H - 30 - lh))
@@ -133,11 +136,14 @@ by['レイヤー 3 のコピー'].name = '靴（元の大きさ・位置）'
 add(L_shoe, '靴（92%・下へ）', by['Gemini_Generated_Image_gtgf75gtgf75gtgf'])
 top = by['Brown Leather Shoes']
 bb = L_cap.getbbox()
-ab.append(mk(L_cap.crop(bb), 'キャプション ONE PAIR, SIX COORDINATES（Cormorant Garamond SemiBold 19・字間 5）＋罫線', bb[1], bb[0]))
+ab.append(mk(L_cap.crop(bb), f'サブタイトル {" ".join(SUB.split())}（Cormorant Garamond SemiBold 19・字間 5）＋罫線', bb[1], bb[0]))
 for img, nm in ((L_season, '2026 AUTUMN（Cormorant Garamond SemiBold 17）'), (L_mens, "MEN'S STYLE（Cormorant Garamond SemiBold 17）"),
-                (L_vert, '縦書き 一足で、六つの装い。（しっぽり明朝 Regular 24）'), (L_item, '商品名 COW LEATHER U-TIP DERBY (+6cm)（Cormorant Garamond SemiBold 17）'),
+                (L_item, '商品名 COW LEATHER U-TIP DERBY (+6cm)（Cormorant Garamond SemiBold 17）'),
                 (L_logo, 'shiun ロゴ')):
     bb = img.getbbox(); ab.append(mk(img.crop(bb), nm, bb[1], bb[0]))
+for i, (img, t) in enumerate(zip(L_verts, VERTS)):
+    bb = img.getbbox(); lay = mk(img.crop(bb), f'縦書き{"" if i == 0 else "（候補・非表示）"} {t}（しっぽり明朝 Regular 24）', bb[1], bb[0])
+    lay.visible = i == 0; ab.insert(ab.index(by['Brown Leather Shoes']) + 1, lay)
 gr = mk(L_grain, '粒子（オーバーレイ）', 0, 0); gr.blend_mode = BlendMode.OVERLAY; gr.opacity = 255
 ab.append(gr)
 p.save(out)
