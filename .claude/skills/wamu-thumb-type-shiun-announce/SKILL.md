@@ -10,5 +10,6 @@ description: shiun（自社ブランド）のコレクション告知・ライ�
 - 細いペン字の和文は KleeOne 600（QeVJ はこれで 32→63 点）。
 - 白い細枠（2px）や傍点を使うことがある。
 - 発売は 22:00（10pm）。発売日・時刻は台本と照合（`shiun-product-credit`）。
+- 1 商品を主役に複数コーデを並べる雑誌の表紙型（A25）は `shiun-thumb-type-magazine-product`。構図は `shiun-thumb-golden-composition`。
 - 例: zegi2G4CpmQ（身長別サイズ比較）/ srX4M-d0DUk / qPrdpV5_Fok / QeVJJst1GrM
 詳細は `editing/knowledge/サムネの決まり_わむう2年分.md`、再現の仕様は `editing/thumbs/specs/ID.json`（点数は `editing/thumbs/summary.tsv`）。

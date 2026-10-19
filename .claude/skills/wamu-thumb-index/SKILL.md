@@ -11,5 +11,6 @@ description: わむうチャンネルの YouTube サムネを作る・再現す�
 5. ロゴ: `wamu-thumb-logo-placement` → `wamu-thumb-logo-uniqlo` / `wamu-thumb-logo-gu-muji-others`
 6. 部品: `wamu-thumb-handwritten-note` / `wamu-thumb-vertical-text` / `wamu-thumb-bouten` / `wamu-thumb-question-silhouette` / `wamu-thumb-arrows-lines-callouts` / `wamu-thumb-frame-band` / `wamu-thumb-text-behind-person`
 7. 道具と手順: `wamu-thumb-renderer-spec` → `wamu-thumb-headline-per-char` → `wamu-thumb-measure-helpers` → `wamu-thumb-erase-tuning` → `wamu-thumb-scoring-loop`
-8. 新しく作る: `wamu-thumb-new-from-scratch`、仕上げの確認: `wamu-thumb-final-check`、失敗集: `wamu-thumb-pitfalls`
+8. shiun の雑誌型・構図・PSD: `shiun-thumb-type-magazine-product`（1 商品 × 複数コーデ）/ `shiun-thumb-golden-composition`（フィボナッチ構図・黄金比）/ `shiun-thumb-vertical-copy`（明朝の縦書きコピー）/ `shiun-thumb-psd-export`（PSD で渡す）
+9. 新しく作る: `wamu-thumb-new-from-scratch`、仕上げの確認: `wamu-thumb-final-check`、失敗集: `wamu-thumb-pitfalls`
 詳細は `editing/knowledge/サムネの決まり_わむう2年分.md`、再現の仕様は `editing/thumbs/specs/ID.json`（点数は `editing/thumbs/summary.tsv`）。

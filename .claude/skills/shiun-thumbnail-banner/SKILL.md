@@ -17,3 +17,6 @@ description: サムネ・EC バナー・カウントダウン画像・Instagram 
 - ロゴは左上（か右上）の角に正方形 110〜185px、UNIQLO はカタカナ＋英字の赤 2 枚組。
 - 言葉: 「低身長」をほぼ毎回、「絶対買い」「マストバイ」「〇選」「BEST7」「〇〇」「●●」で伏せる、手書き風の注記は「!!」で終わる。
 - 作るときは `editing/thumbs/render.py` の仕様（JSON）で組み、似た型の `editing/thumbs/specs/ID.json` を下敷きにする。
+
+## shiun の雑誌の表紙型・構図・PSD（A25 で作った）
+- 型の値は `shiun-thumb-type-magazine-product`、フィボナッチ構図は `shiun-thumb-golden-composition`、縦書きのコピーは `shiun-thumb-vertical-copy`、PSD で渡すときは `shiun-thumb-psd-export`。経緯は `editing/knowledge/サムネ作成記録_A25.md`。
