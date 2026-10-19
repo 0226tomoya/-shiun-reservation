@@ -28,7 +28,8 @@ LAY = dict(M=55,            # 左右の余白
            SUB_Y=136,       # サブタイトルの基線（タイトルの下 34）
            RULE=89,         # サブタイトル両側の罫線の長さ
            VERT_TOP=275,    # 縦書きの 1 字目の上端 = 高さ × 0.382
-           VERT_END=615,    # 縦書きの最後の字の下端の上限 = 高さ × 0.854
+           VERT_END=615,
+           COL_GAP=34, STAGGER=60,  # 縦書きの列の間と、2 列目を下げる量    # 縦書きの最後の字の下端の上限 = 高さ × 0.854
            SHOE_S=0.92,     # 靴の倍率
            SHOE_PT=(690, 200),  # 靴の画像の中で目に合わせる点（U チップの縫い目の先）
            TITLE_K=0.9, TITLE_TOP=34)  # タイトルの倍率と上端
@@ -69,7 +70,7 @@ L_shadow_contact = a.filter(ImageFilter.GaussianBlur(6))
 
 SUB = 'ELEVATED  INSOLE  SHOES'   # サブタイトル（両側の罫線は文字の幅に合わせて伸び縮み）
 # 右の縦書きの候補。最初のものを表示し、残りは非表示のレイヤーで入れる
-VERTS = ['気づかれずに、背が伸びる。', 'さりげなく、六センチ。', '一足で、目線が変わる。']
+VERTS = ['あえて、/ブラウンという選択肢。']  # 「/」で列を分ける
 cap, small = f('CormorantGaramond-600.ttf', 19), f('CormorantGaramond-600.ttf', 17)
 def _cap(dr):
     y, R = LAY['SUB_Y'], LAY['RULE']
@@ -83,16 +84,23 @@ L_item = text_layer(lambda dr: spaced(dr, W - LAY['M'], H - 34, 'COW LEATHER U-T
 VS = 21  # 縦書きの字の大きさ（フィボナッチ数）
 vf = f('ShipporiMincho-400.ttf', VS)
 def _vert(dr, text):
-    # 0.382 の線から始めて、最後の字の下端が 0.854 の線（VERT_END）を越えないように字の送りを決める（最大 34）
-    x0, y = W - LAY['M'] - 12, LAY['VERT_TOP']
-    adv = [0.59 if ch in '、。' else 1 for ch in text]
-    step = min(34, (LAY['VERT_END'] - y - VS) / (sum(adv) - adv[-1]))
-    for ch, a in zip(text, adv):
-        if ch in '、。':
-            dr.text((x0 + VS * 0.62, y - VS * 0.7 * step / 34), ch, font=vf, fill=INK, anchor='mt')
-        else:
-            dr.text((x0, y), ch, font=vf, fill=INK, anchor='mt')
-        y += a * step
+    """縦書き。「/」で列を分け、右から左へ並べる（2 列目以降は STAGGER だけ下げる）。
+    句読点は字の枠の右上に置く。1 列が 0.854 の線（VERT_END）を越えるときだけ字の送りを縮める"""
+    cols = text.split('/')
+    adv = lambda c: 0.59 if c in '、。' else 1
+    y_top = LAY['VERT_TOP']
+    need = max(sum(adv(c) for c in col) + (k and LAY['STAGGER'] / 30) for k, col in enumerate(cols))
+    step = min(30, (LAY['VERT_END'] - y_top) / need)
+    for k, col in enumerate(cols):
+        x0, y = W - LAY['M'] - 12 - k * LAY['COL_GAP'], y_top + (LAY['STAGGER'] * step / 30 if k else 0)
+        for ch in col:
+            if ch in '、。':
+                dr.text((x0 + VS * 0.55, y - VS * 0.12), ch, font=vf, fill=INK, anchor='mt')
+            else:
+                dr.text((x0, y), ch, font=vf, fill=INK, anchor='mt')
+            y += adv(ch) * step
+
+
 L_verts = [text_layer(lambda dr, t=t: _vert(dr, t)) for t in VERTS]
 logo = Image.open('/home/user/-shiun-reservation/editing/thumbs/assets/logos/shiun_black.png').convert('RGBA')
 logo = logo.crop(logo.getbbox()); lh = 26; logo = logo.resize((int(logo.width * lh / logo.height), lh), Image.LANCZOS)
@@ -171,7 +179,7 @@ for img, nm in ((L_season, '2026 AUTUMN（Cormorant Garamond SemiBold 17）'), (
                 (L_logo, 'shiun ロゴ')):
     bb = img.getbbox(); ab.append(mk(img.crop(bb), nm, bb[1], bb[0]))
 for i, (img, t) in enumerate(zip(L_verts, VERTS)):
-    bb = img.getbbox(); lay = mk(img.crop(bb), f'縦書き{"" if i == 0 else "（候補・非表示）"} {t}（しっぽり明朝 Regular {VS}）', bb[1], bb[0])
+    bb = img.getbbox(); lay = mk(img.crop(bb), f'縦書き{"" if i == 0 else "（候補・非表示）"} {t.replace('/', '')}（しっぽり明朝 Regular {VS}）', bb[1], bb[0])
     lay.visible = i == 0; ab.insert(ab.index(by['Brown Leather Shoes']) + 1, lay)
 gr = mk(L_grain, '粒子（オーバーレイ）', 0, 0); gr.blend_mode = BlendMode.OVERLAY; gr.opacity = 255
 ab.append(gr)
