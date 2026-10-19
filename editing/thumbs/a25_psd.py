@@ -1,12 +1,18 @@
 """A25 サムネ v2 を PSD で書き出す。元の PSD（src.psd）を土台に、v2 で変えた所だけを入れる。
     python3 a25_psd.py 作業フォルダ（src.psd・L*.png がある所） OUT.psd
-元の文字レイヤー（Brown Leather Shoes・Coordinate）は打ち直せる文字のまま残す。足した文字は画のレイヤー（名前に書体を書く）"""
+元の文字レイヤー（Brown Leather Shoes・Coordinate）は打ち直せる文字のまま残す。足した文字は画のレイヤー（名前に書体を書く）
+
+Photoshop で「互換性がありません」と出て開けなかった原因（2026-10-19）:
+  1. psd-tools は保存し直すだけでスマートオブジェクトの埋め込みデータ（lnk2）の末尾（contentID）を落とす → 全体のタグブロックは元のバイトを戻す
+  2. frompil は RGB の PSD だと透明をマスクにし、レイヤー ID も付けない → fromarray で透明度付きにし、ID を振る
+検証は psd_tools_js/check.js（ag-psd）でも読む。予備に psd_tools_js/write.js で全部画の PSD も作れる"""
 import sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from psd_tools import PSDImage
 from psd_tools.api.layers import PixelLayer
-from psd_tools.constants import BlendMode
+from psd_tools.constants import BlendMode, Tag
+import struct
 
 d, out = sys.argv[1], sys.argv[2]
 W, H = 1280, 720
@@ -81,10 +87,16 @@ p = PSDImage.open(f'{d}/src.psd')
 ab = p[0]
 by = {l.name: l for l in ab}
 
+# グループの終わりの区切り（</Layer group>）も ID を持つので、全レコードの最大の次から振る
+_ids = iter(range(max(r.tagged_blocks.get_data(Tag.LAYER_ID, 0) for r in p._record.layer_and_mask_information.layer_info.layer_records) + 1, 10 ** 6))
+
 def mk(img, name, top, left):
-    """日本語の名前は、古い名前欄（Mac Roman）に入らないので、作ってから name で付ける（Unicode の名前欄に入る）"""
-    lay = PixelLayer.frompil(img, p, 'L', top=top, left=left)
+    """透明度付きの普通のレイヤーにする（frompil は RGB の PSD だと透明をマスクにしてしまい、Photoshop が嫌う形になる）。
+    日本語の名前は Unicode の名前欄に入れ、古い名前欄は英数字だけにする。レイヤー ID も振る"""
+    lay = PixelLayer.fromarray(np.asarray(img.convert('RGBA')), p, 'Layer', top=top, left=left)
     lay.name = name
+    lay._record.name = 'Layer'
+    lay._record.tagged_blocks.set_data(Tag.LAYER_ID, next(_ids))
     return lay
 
 
@@ -129,6 +141,23 @@ for img, nm in ((L_season, '2026 AUTUMN（Cormorant Garamond SemiBold 17）'), (
 gr = mk(L_grain, '粒子（オーバーレイ）', 0, 0); gr.blend_mode = BlendMode.OVERLAY; gr.opacity = 255
 ab.append(gr)
 p.save(out)
+
+
+def global_blocks(b):
+    """レイヤーとマスク情報の後ろにある、全体のタグブロックの位置（始まり・終わり）"""
+    o = 26; o += 4 + struct.unpack('>I', b[o:o + 4])[0]; o += 4 + struct.unpack('>I', b[o:o + 4])[0]
+    lm_end = o + 4 + struct.unpack('>I', b[o:o + 4])[0]
+    q = o + 8 + struct.unpack('>I', b[o + 4:o + 8])[0]
+    q += 4 + struct.unpack('>I', b[q:q + 4])[0]
+    return o, q, lm_end
+
+
+# psd-tools はスマートオブジェクトの埋め込みデータ（lnk2）の末尾（contentID）を落とすので、全体のタグブロックは元のバイトに戻す
+src, new = open(f'{d}/src.psd', 'rb').read(), open(out, 'rb').read()
+so, sq, se = global_blocks(src)
+no, nq, ne = global_blocks(new)
+body = new[no + 4:nq] + src[sq:se]
+open(out, 'wb').write(new[:no] + struct.pack('>I', len(body)) + body + new[ne:])
 print('saved', out)
 for l in PSDImage.open(out)[0]:
     print(' ', 'vis' if l.visible else 'HID', l.kind, l.name)
