@@ -223,7 +223,6 @@ def item_text(ev, k_ev, n_item):
 
 def load_media(d):
     import glob
-    import os
     out = []
     for m in sorted(glob.glob(os.path.join(d, '*', 'manifest.json'))):
         man = json.load(open(m))
@@ -358,7 +357,6 @@ def main():
         if k == 'insert:web' and media:
             img = pick_image(media, e['start'], ev)
             if img:
-                import os
                 from PIL import Image
                 from urllib.parse import quote
                 w, h = Image.open(os.path.join(media_dir, *img)).size
