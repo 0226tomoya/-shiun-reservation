@@ -121,8 +121,8 @@ def main():
             k = 'item_label'  # 「Item 1」の箱（座布団）を入れた複合クリップ。商品ごとに本編の間ずっと
         elif 'クリップ' in n and c['kind'] == 'ref-clip':
             k = 'insert:other'
-        elif 'Google Chrome' in n or 'fullpage' in n or 'thumbnail' in n:
-            k = 'insert:web'
+        elif 'Google Chrome' in n or 'fullpage' in n or 'thumbnail' in n or re.match(r'^(main|sub|feature|color|detail|snap)_|^page(_scroll)?\b', n):
+            k = 'insert:web'  # 後ろ半分は ec_media.py で集めた公式サイトの画像（longform_build.py が置く）
         elif re.match(r'^\d{8}_[A-Za-z]\d+', n):
             k = 'insert:cam'
         elif n == 'カスタム':

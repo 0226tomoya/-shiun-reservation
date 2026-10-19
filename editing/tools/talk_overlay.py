@@ -112,13 +112,19 @@ class Overlay:
     def insert_eyecatch(self, at_list, src):
         if not at_list:
             return []
-        vf = ET.SubElement(self.res, 'format', {'id': new_id(self.res, 'r'), 'name': 'FFVideoFormat1080p2398',
-                                                 'frameDuration': '1001/24000s', 'width': '1920', 'height': '1080', 'colorSpace': '1-1-1 (Rec. 709)'})
-        aid = new_id(self.res, 'r')
-        a = ET.SubElement(self.res, 'asset', {'id': aid, 'name': 'わむうアイキャッチ', 'start': '0s', 'duration': '34034/24000s',
-                                               'hasVideo': '1', 'format': vf.get('id'), 'videoSources': '1',
-                                               'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'})
-        ET.SubElement(a, 'media-rep', {'kind': 'original-media', 'src': src})
+        # 土台に FCP が書き出したアイキャッチの素材（uid 付き＝実物の情報）があればそれを使う
+        a = next((x for x in self.res.findall('asset') if x.get('name') == 'わむうアイキャッチ'), None)
+        if a is not None:
+            vf = next(f for f in self.res.findall('format') if f.get('id') == a.get('format'))
+            aid = a.get('id')
+        else:
+            vf = ET.SubElement(self.res, 'format', {'id': new_id(self.res, 'r'), 'name': 'FFVideoFormat1080p2398',
+                                                     'frameDuration': '1001/24000s', 'width': '1920', 'height': '1080', 'colorSpace': '1-1-1 (Rec. 709)'})
+            aid = new_id(self.res, 'r')
+            a = ET.SubElement(self.res, 'asset', {'id': aid, 'name': 'わむうアイキャッチ', 'start': '0s', 'duration': '34034/24000s',
+                                                   'hasVideo': '1', 'format': vf.get('id'), 'videoSources': '1',
+                                                   'hasAudio': '1', 'audioSources': '1', 'audioChannels': '2', 'audioRate': '48000'})
+            ET.SubElement(a, 'media-rep', {'kind': 'original-media', 'src': src})
         # 切り替わりに一番近い本線の継ぎ目に入れる（後ろから入れると前の時刻が変わらない）
         placed = []
         for t in sorted(at_list, reverse=True):
