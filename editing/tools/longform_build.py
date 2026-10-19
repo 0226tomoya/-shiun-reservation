@@ -1,7 +1,7 @@
 """長編（ひとりで話す購入品・レビュー回）の部品の一覧（longform_events.py と同じ形の JSON）から、FCP で読み込める FCPXML を作る。
 
     python3 longform_build.py BASE.fcpxml EVENTS.json TEMPLATES.json OUT.fcpxml [--eyecatch-src file:///…/わむうアイキャッチ.mp4]
-        [--media DIR --media-root file:///Users/…/素材/]
+        [--media DIR --media-root file:///Users/…/素材/] [--shiun-catalog editing/plans/shiun_catalog.json]
 
 - BASE: カット済みの XML（本線だけ。完成版と同じ 1 本のプロジェクト）
 - EVENTS: {"events": [{"kind", "start", "end", "text"}]}（時刻はアイキャッチを入れる前のタイムラインの秒）
@@ -16,6 +16,7 @@
 """
 import copy
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -261,8 +262,29 @@ def pick_image(media, t, ev):
 USED = {}
 
 
+def shiun_issues(text, catalog):
+    """カードの文の「shiun」の次の行（商品名）と値段を、shiun の商品一覧（ec_media.py --shiun-catalog）と比べる。
+    完成版は名前の「(+6cm)」などの括弧を外して書くので、括弧を外して比べる。返り値: 気になる点の一覧"""
+    names = {re.sub(r'\s*\(.*?\)\s*$', '', v['name']).upper(): v['price'] for v in catalog.values()}
+    lines = [x.strip() for x in text.split('\n')]
+    out = []
+    for i, x in enumerate(lines[:-1]):
+        if x.lower() != 'shiun' or lines[i + 1].startswith('※'):
+            continue
+        nm = re.sub(r'\s*\(.*?\)\s*$', '', lines[i + 1]).upper()
+        if nm not in names:
+            out.append(f'shiun の一覧に無い名前「{lines[i + 1]}」')
+            continue
+        m = next((re.search(r'¥\s*([\d,]+)', y) for y in lines[i + 1:i + 4] if '¥' in y), None)
+        if m and int(m.group(1).replace(',', '')) != names[nm]:
+            out.append(f'「{lines[i + 1]}」の値段 ¥{m.group(1)} が一覧（¥{names[nm]:,}）と違う')
+    return out
+
+
 def main():
     base, evp, tpp, out = sys.argv[1:5]
+    cat_p = sys.argv[sys.argv.index('--shiun-catalog') + 1] if '--shiun-catalog' in sys.argv else __file__.rsplit('/', 2)[0] + '/plans/shiun_catalog.json'
+    catalog = json.load(open(cat_p)) if os.path.exists(cat_p) else {}
     eye_src = sys.argv[sys.argv.index('--eyecatch-src') + 1] if '--eyecatch-src' in sys.argv else 'file:///Users/modantaimusu/Downloads/わむうアイキャッチ.mp4'
     head = open(base, encoding='utf-8').read(400)
     tree = ET.parse(base)
@@ -298,6 +320,9 @@ def main():
         if k == 'eyecatch':
             continue
         a, b = o.map(e['start']), o.map(e['end'])
+        for msg in (shiun_issues(e.get('text', ''), catalog) if catalog and k in ('shiun_card', 'coord', 'item_card') else []):
+            o.marker(a, '要確認 ' + msg)
+            print('要確認', round(e['start'], 1), msg)
         kk = k
         if k == 'bgm':
             kk = 'bgm:' + (e.get('text') or '') if 'bgm:' + (e.get('text') or '') in tpl else next((x for x in tpl if x.startswith('bgm:')), None)
