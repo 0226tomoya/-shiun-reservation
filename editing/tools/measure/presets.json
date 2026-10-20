@@ -1,0 +1,333 @@
+{
+ "_説明": "服の種類ごとの測る所。点の名前は measure_points.py が推す名前と同じ。kind v = 服の外の縦線（x: left/right）、h = 横線、path = 折れ線。label_pos: left/right = 服の外の左右、無し = 線の外側。store_key はストアのサイズ表の項目名（違うときだけ）。SHOES・ACCESSORY の点は measure_points.py では推さないので、目盛りの画を見て手で置く",
+ "BOTTOMS": {
+  "points": [
+   "bbox",
+   "ウエスト上端",
+   "ウエストL",
+   "ウエストR",
+   "股",
+   "腿L",
+   "裾",
+   "裾L外",
+   "裾L内"
+  ],
+  "items": [
+   {
+    "label": "総丈",
+    "kind": "v",
+    "from": "ウエスト上端",
+    "to": "裾",
+    "x": "left",
+    "tick_side": -1
+   },
+   {
+    "label": "股上",
+    "kind": "v",
+    "from": "ウエスト上端",
+    "to": "股",
+    "x": "right",
+    "tick_side": 1
+   },
+   {
+    "label": "股下",
+    "kind": "v",
+    "from": "股",
+    "to": "裾",
+    "x": "right",
+    "tick_side": 1
+   },
+   {
+    "label": "ウエスト",
+    "kind": "h",
+    "from": "ウエストL",
+    "to": "ウエストR",
+    "dy": 22,
+    "label_pos": "left",
+    "note": "平置きの片面の幅。ストアの表がウエスト周りなら半分にしない（数字は表のまま）"
+   },
+   {
+    "label": "ワタリ",
+    "kind": "h",
+    "from": "腿L",
+    "to": "股",
+    "label_pos": "left"
+   },
+   {
+    "label": "裾幅",
+    "kind": "h",
+    "from": "裾L外",
+    "to": "裾L内",
+    "dy": -14,
+    "label_pos": "left"
+   }
+  ],
+  "guides": [
+   {
+    "from": "股",
+    "to": {
+     "line": "股上"
+    },
+    "with": "股上",
+    "note": "股の高さの点線（股の点から右の股上の線の手前まで）"
+   }
+  ]
+ },
+ "TOPS": {
+  "points": [
+   "bbox",
+   "首横L",
+   "首横R",
+   "首中心",
+   "肩先L",
+   "肩先R",
+   "脇L",
+   "脇R",
+   "裾L",
+   "裾R",
+   "裾",
+   "袖口R"
+  ],
+  "items": [
+   {
+    "label": "着丈",
+    "kind": "v",
+    "from": "首横L",
+    "to": "裾",
+    "x": "left",
+    "tick_side": -1
+   },
+   {
+    "label": "肩幅",
+    "kind": "h",
+    "from": "肩先L",
+    "to": "肩先R",
+    "label_pos": "right"
+   },
+   {
+    "label": "身幅",
+    "kind": "h",
+    "from": "脇L",
+    "to": "脇R",
+    "dy": 8,
+    "label_pos": "right"
+   },
+   {
+    "label": "袖丈",
+    "path": [
+     "肩先R",
+     "袖口R"
+    ],
+    "offset": -60,
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裄丈",
+    "path": [
+     "首中心",
+     "肩先R",
+     "袖口R"
+    ],
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裾幅",
+    "kind": "h",
+    "from": "裾L",
+    "to": "裾R",
+    "dy": -14,
+    "label_pos": "right"
+   }
+  ],
+  "guides": []
+ },
+ "OUTER": {
+  "points": [
+   "bbox",
+   "首横L",
+   "首横R",
+   "首中心",
+   "肩先L",
+   "肩先R",
+   "脇L",
+   "脇R",
+   "裾L",
+   "裾R",
+   "裾",
+   "袖口R"
+  ],
+  "items": [
+   {
+    "label": "着丈",
+    "kind": "v",
+    "from": "首横L",
+    "to": "裾",
+    "x": "left",
+    "tick_side": -1
+   },
+   {
+    "label": "肩幅",
+    "kind": "h",
+    "from": "肩先L",
+    "to": "肩先R",
+    "label_pos": "right"
+   },
+   {
+    "label": "身幅",
+    "kind": "h",
+    "from": "脇L",
+    "to": "脇R",
+    "dy": 8,
+    "label_pos": "right"
+   },
+   {
+    "label": "袖丈",
+    "path": [
+     "肩先R",
+     "袖口R"
+    ],
+    "offset": -60,
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裄丈",
+    "path": [
+     "首中心",
+     "肩先R",
+     "袖口R"
+    ],
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裾幅",
+    "kind": "h",
+    "from": "裾L",
+    "to": "裾R",
+    "dy": -14,
+    "label_pos": "right"
+   }
+  ],
+  "guides": []
+ },
+ "SHIRT": {
+  "points": [
+   "bbox",
+   "首横L",
+   "首横R",
+   "首中心",
+   "肩先L",
+   "肩先R",
+   "脇L",
+   "脇R",
+   "裾L",
+   "裾R",
+   "裾",
+   "袖口R"
+  ],
+  "items": [
+   {
+    "label": "着丈",
+    "kind": "v",
+    "from": "首横L",
+    "to": "裾",
+    "x": "left",
+    "tick_side": -1
+   },
+   {
+    "label": "肩幅",
+    "kind": "h",
+    "from": "肩先L",
+    "to": "肩先R",
+    "label_pos": "right"
+   },
+   {
+    "label": "身幅",
+    "kind": "h",
+    "from": "脇L",
+    "to": "脇R",
+    "dy": 8,
+    "label_pos": "right"
+   },
+   {
+    "label": "袖丈",
+    "path": [
+     "肩先R",
+     "袖口R"
+    ],
+    "offset": -60,
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裄丈",
+    "path": [
+     "首中心",
+     "肩先R",
+     "袖口R"
+    ],
+    "tick_side": 1,
+    "label_pos": "right"
+   },
+   {
+    "label": "裾幅",
+    "kind": "h",
+    "from": "裾L",
+    "to": "裾R",
+    "dy": -14,
+    "label_pos": "right"
+   }
+  ],
+  "guides": []
+ },
+ "SHOES": {
+  "points": [
+   "bbox",
+   "かかと上",
+   "かかと下",
+   "つま先",
+   "かかと後ろ"
+  ],
+  "items": [
+   {
+    "label": "ヒール",
+    "kind": "v",
+    "from": "かかと上",
+    "to": "かかと下",
+    "x": "left",
+    "note": "商品名の (+6cm) の高さ。点は手で置く（中敷きの上端＝かかとの内側の高さ）"
+   },
+   {
+    "label": "全長",
+    "kind": "h",
+    "from": "かかと後ろ",
+    "to": "つま先",
+    "dy": 40,
+    "label_pos": "right",
+    "note": "ストアの表には無い。測った値を value に入れる"
+   }
+  ],
+  "guides": []
+ },
+ "ACCESSORY": {
+  "points": [
+   "bbox",
+   "端L",
+   "端R"
+  ],
+  "items": [
+   {
+    "label": "全長",
+    "kind": "h",
+    "from": "端L",
+    "to": "端R",
+    "dy": 40,
+    "label_pos": "right"
+   }
+  ],
+  "guides": []
+ }
+}

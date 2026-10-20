@@ -170,9 +170,9 @@ if __name__ == '__main__':
     write_sfx(sfx_path, dur)
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-i', src, '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', '60000/1001', '-i', '-',
                           '-i', sfx_path,
-                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v];' + ('[2:a]volume=8dB,apad[a]' if MUTE else '[0:a][2:a]amix=inputs=2:normalize=0:duration=first[a]'),
+                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v];' + (f'[2:a]volume=8dB,apad=whole_dur={dur:.3f}[a]' if MUTE else '[0:a][2:a]amix=inputs=2:normalize=0:duration=first[a]'),
                           '-map', '[v]', '-map', '[a]',
-                          '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-c:a', 'aac', '-b:a', '256k', '-shortest', out], stdin=subprocess.PIPE)
+                          '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-c:a', 'aac', '-b:a', '256k', '-t', f'{dur:.3f}', out], stdin=subprocess.PIPE)
     for i in range(n):
         p.stdin.write(frame(i / FPS).tobytes())
     p.stdin.close(); p.wait(); print('saved', out, n, 'frames')

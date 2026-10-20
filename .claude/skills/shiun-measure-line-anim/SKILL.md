@@ -4,7 +4,14 @@ description: 服の寸法（総丈・股上・股下・着丈・裄丈など）�
 ---
 # メジャーの線と数字のアニメーション（データ入力風）
 
-完成例は `editing/output/denim_measure/デニム股上股下_メジャー_v3_効果音のみ.mp4`。作るスクリプトは `editing/shorts/denim_measure/measure_anim.py`。
+完成例は `editing/output/denim_measure/デニム股上股下_メジャー_v3_効果音のみ.mp4`。
+
+**どの服でも作れる道具は `editing/tools/measure/`（使い方は同じフォルダの README.md）。** 新しく作るときはこちらを使う（デニム専用の `editing/shorts/denim_measure/measure_anim.py` は最初の版）。
+- 型（`presets.json`）: TOPS・OUTER・SHIRT（着丈・肩幅・身幅・袖丈・裄丈・裾幅）、BOTTOMS（総丈・股上・股下・ウエスト・ワタリ・裾幅）、SHOES（ヒール・全長）、ACCESSORY（全長）。
+- 点: `measure_points.py` が服の形から推す（GrabCut で切り抜き、股と脇は脚・袖と胴の間の空きを下からたどる）。確認用の画像の橙の「要確認」と、ずれた点は手で直す。袖が胴に付いて下がる形は脇・裾が画に見えないので、必ず手で置く。
+- 時刻: `transcribe_words.py` の words.json から自動（見出しの言葉 → 次の数字）。「股上と股下を足した総丈が 100cm」のように、言葉と数字の間に別の見出しが入る言い方は使わない。
+- 数字: 話した数字 → 無ければストアのサイズ表（`store`: 商品 ID とサイズ、`editing/knowledge/store_sizes.json`）。
+- 黒い服の上の線は自動で白。数字の箱は重なったら下へずらす。
 
 ## 手順
 1. **文字起こし**（faster-whisper large-v3、単語の時刻つき）。字幕のテロップは入れない（ユーザーの指示）。数字の言葉の時刻を拾う（例: 総丈 1.38 秒・100cm 1.98 秒）。
@@ -31,5 +38,6 @@ description: 服の寸法（総丈・股上・股下・着丈・裄丈など）�
 - 効果音だけの wav も一緒に渡す（Final Cut Pro で差し替えられるように）。
 
 ## 気をつけること
-- 書き出しで「No space left on device」が出ることがある。そのときは 670 コマ全部が入っているか（`ffprobe -count_frames`）と、音の長さを確かめる。容量が足りなければ、作り直せる派生ファイル（確認用の縮小動画・16kHz の音声）を消す。
+- 音は `apad=whole_dur=動画の長さ` と `-t` で切る。`apad` だけ＋`-shortest` だと ffmpeg が止まらず、ディスクがいっぱいになるまで書き続ける（デニムの v3 で「No space left on device」が出た原因）。
+- 書き出したら、コマ数（`ffprobe -count_frames`）と音の長さが動画と同じか確かめる。
 - 進み具合はタスクプレビュー（`task-preview`）の `boards/ai-measure` に書く。
