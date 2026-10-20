@@ -1,4 +1,4 @@
-"""デニムの股上・股下の解説動画に、メジャー風の線と数字（ゴシック）を重ねる。
+"""デニムの股上・股下の解説動画に、メジャー風の線と数字（ゴシック）を重ねる。v2 からは数字をデータ入力のように 1 字ずつ打ち込み、効果音（キー・確定・線のシュッ）を合成して混ぜる。
     python3 measure_anim.py IN.mp4 OUT.mp4 [--still 秒 OUT.png]
 線と数字は話す時刻（文字起こしの単語の時刻）に合わせて出す。字幕は入れない"""
 import sys, subprocess, math
@@ -46,21 +46,40 @@ def tape(d, x, y0, y1, p, side):
         d.line((x - 16, y1, x + 16, y1), fill=INK, width=3)
 
 
+TYPE_GAP, CARET_BLINK, CARET_HOLD = 0.075, 0.5, 0.75  # 1 字を打つ間隔、カーソルの点滅の周期、打ち終わってカーソルを残す長さ
+
+
+def typed(seg):
+    """入力する文字（数字＋cm）と、それぞれを打つ時刻"""
+    chars = list(str(seg['value'])) + ['c', 'm']
+    return chars, [seg['num'] + k * TYPE_GAP for k in range(len(chars))]
+
+
 def label(img, seg, t):
-    """「股上」と「27cm」。数字は 0 から数え上がり、全体は下から 12px 浮き上がりながら出る"""
-    k = ease((t - seg['num']) / FADE)
+    """データ入力の見た目: 見出し（股上など）が出て、数字と cm を 1 字ずつ打ち込む。
+    入力欄の下線が伸び、打っている間は縦棒のカーソルが点滅する。打ち終わると少ししてカーソルが消える"""
+    k = ease((t - seg['num'] + 0.15) / 0.2)
     if k <= 0: return
-    v = round(seg['value'] * ease((t - seg['num']) / COUNT))
+    chars, at = typed(seg)
+    n = sum(1 for a in at if t >= a)
     lay = Image.new('RGBA', (W, H), 0); d = ImageDraw.Draw(lay)
-    cy = (seg['y0'] + seg['y1']) / 2 + 12 * (1 - k)
-    num, unit = str(v), 'cm'
-    wn, wu = d.textlength(num, font=F_NUM), d.textlength(unit, font=F_UNIT)
-    w = wn + 6 + wu
-    x = seg['x'] + 34 if seg['side'] > 0 else seg['x'] - 34 - max(w, d.textlength(seg['label'], font=F_LABEL))
-    d.text((x, cy - 18), seg['label'], font=F_LABEL, fill=INK, anchor='ls')
+    cy = (seg['y0'] + seg['y1']) / 2
+    nd = len(str(seg['value']))
+    num, unit = ''.join(chars[:min(n, nd)]), ''.join(chars[nd:n])
+    full_w = d.textlength(str(seg['value']), font=F_NUM) + 6 + d.textlength('cm', font=F_UNIT)
+    x = seg['x'] + 34 if seg['side'] > 0 else seg['x'] - 34 - full_w
+    d.text((x, cy - 18), seg['label'], font=F_LABEL, fill=INK + (int(255 * k),), anchor='ls')
+    wn = d.textlength(num, font=F_NUM) if num else 0
     d.text((x, cy + 62), num, font=F_NUM, fill=INK, anchor='ls')
-    d.text((x + wn + 6, cy + 62), unit, font=F_UNIT, fill=INK, anchor='ls')
-    a = lay.getchannel('A').point(lambda q: int(q * k)); lay.putalpha(a)
+    if unit:
+        d.text((x + d.textlength(str(seg['value']), font=F_NUM) + 6, cy + 62), unit, font=F_UNIT, fill=INK, anchor='ls')
+    # 入力欄の下線（見出しと一緒に左から伸びる）
+    d.line((x, cy + 80, x + (full_w + 14) * k, cy + 80), fill=INK + (110,), width=2)
+    # カーソル
+    end = at[-1]
+    if t < end + CARET_HOLD and (t < end or ((t - end) % CARET_BLINK) < CARET_BLINK / 2):
+        cx = x + (wn if n <= nd else d.textlength(str(seg['value']), font=F_NUM) + 6 + d.textlength(unit, font=F_UNIT)) + 5
+        d.rectangle((cx, cy + 6, cx + 3, cy + 66), fill=INK)
     img.alpha_composite(lay)
 
 
@@ -82,6 +101,60 @@ def frame(t):
     return img
 
 
+SR = 48000
+SFX_DB = dict(key=-22, enter=-20, whoosh=-30)  # 効果音の大きさ（dBFS の目安）。声（−20 前後）より下に置く
+
+
+def _db(x, db):
+    return x / (np.abs(x).max() + 1e-9) * 10 ** (db / 20)
+
+
+def key_click(rng):
+    """キーを 1 回打つ音: 短い高めの雑音のはじき＋低い「コッ」"""
+    n = int(SR * 0.035); t = np.arange(n) / SR
+    noise = rng.normal(0, 1, n); noise = np.diff(np.concatenate([[0], noise]))  # 高い成分を残す
+    body = np.sin(2 * np.pi * rng.uniform(1700, 2100) * t) * 0.5 + np.sin(2 * np.pi * 180 * t) * 0.6
+    return _db((noise * 0.6 + body) * np.exp(-t / 0.006), SFX_DB['key'] + rng.uniform(-2, 1))
+
+
+def enter_beep():
+    """確定の「ピッ」: 柔らかい 2 つの高さの短い音"""
+    out = []
+    for f0, L in ((1568, 0.05), (2093, 0.09)):
+        t = np.arange(int(SR * L)) / SR
+        env = np.minimum(1, t / 0.004) * np.exp(-t / (L * 0.45))
+        out.append(np.sin(2 * np.pi * f0 * t) * env)
+    return _db(np.concatenate(out), SFX_DB['enter'])
+
+
+def whoosh(L):
+    """線が伸びるときのごく薄い「シュッ」: 帯域を絞った雑音を上げて下げる"""
+    rng = np.random.default_rng(7); n = int(SR * L); t = np.arange(n) / SR
+    x = rng.normal(0, 1, n)
+    k = np.ones(24) / 24; x = x - np.convolve(x, k, 'same')       # 低い成分を落とす
+    x = np.convolve(x, np.ones(4) / 4, 'same')                      # 高すぎる成分を落とす
+    env = np.sin(np.pi * np.clip(t / L, 0, 1)) ** 2
+    return _db(x * env, SFX_DB['whoosh'])
+
+
+def write_sfx(path, dur):
+    import wave
+    rng = np.random.default_rng(1)
+    track = np.zeros(int(SR * (dur + 1)))
+    def put(x, at):
+        i = int(at * SR); track[i:i + len(x)] += x[:len(track) - i]
+    for seg in (TOTAL, RISE, INSEAM):
+        put(whoosh(GROW + 0.1), seg['line'])
+        chars, at = typed(seg)
+        for a in at: put(key_click(rng), a)
+        put(enter_beep(), at[-1] + 0.12)
+    track = track[:int(SR * dur)]
+    pcm = (np.clip(track, -1, 1) * 32767).astype('<i2')
+    st = np.repeat(pcm[:, None], 2, 1)
+    with wave.open(path, 'wb') as w:
+        w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(st.tobytes())
+
+
 if __name__ == '__main__':
     src, out = sys.argv[1], sys.argv[2]
     if '--still' in sys.argv:
@@ -91,9 +164,13 @@ if __name__ == '__main__':
         b = Image.open(io.BytesIO(bg)).convert('RGBA'); b.alpha_composite(frame(t)); b.convert('RGB').save(sys.argv[i + 2]); sys.exit()
     dur = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src]))
     n = int(math.ceil(dur * FPS))
+    sfx_path = out.rsplit('.', 1)[0] + '_sfx.wav'
+    write_sfx(sfx_path, dur)
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-i', src, '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', '60000/1001', '-i', '-',
-                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v]', '-map', '[v]', '-map', '0:a',
-                          '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-c:a', 'copy', '-shortest', out], stdin=subprocess.PIPE)
+                          '-i', sfx_path,
+                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v];[0:a][2:a]amix=inputs=2:normalize=0:duration=first[a]',
+                          '-map', '[v]', '-map', '[a]',
+                          '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-c:a', 'aac', '-b:a', '256k', '-shortest', out], stdin=subprocess.PIPE)
     for i in range(n):
         p.stdin.write(frame(i / FPS).tobytes())
     p.stdin.close(); p.wait(); print('saved', out, n, 'frames')
