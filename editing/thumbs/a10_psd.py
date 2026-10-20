@@ -1,6 +1,9 @@
 """A10 サムネの改善（ややシンプルに、テンションはそのまま）。元の PSD を土台に、文字は打ち直せるまま残す。
     python3 a10_psd.py src.psd OUT.psd [OUT.png]
-変えた所: 後ろの大きな ○×（グループ 1）を消し、デニムの上に小さくはっきりした ○（白）× （赤）を置く／黒い塗りを 50% → 30%／下だけ暗くするグラデーション"""
+v1: 後ろの大きな ○×（グループ 1）を消し、デニムの上に小さくはっきりした ○（白）×（赤）を置く／黒い塗りを 50% → 30%／下だけ暗くするグラデーション
+v2（ユーザーの指示）: ○× は元のデザインのまま（はっきりさせるとカジュアルになる。デザインで留める）。
+    黒い塗りは背景だけに掛かっていて人物は明るくならない（背景が明るいと ○× と人物が沈む）ので元の 50% に戻す。残すのは下のグラデーションだけ
+    python3 a10_psd.py src.psd OUT.psd OUT.png --v1   … v1 を作り直すとき"""
 import sys, os
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
@@ -10,7 +13,8 @@ from psd_edit import Editor
 src, out = sys.argv[1], sys.argv[2]
 W, H = 1280, 720
 RED = (226, 36, 36)        # 右上の矢印と同じ赤
-LAY = dict(FILL=77,         # 黒い塗りの濃さ（0〜255。元は 128）
+V1 = '--v1' in sys.argv
+LAY = dict(FILL=77 if V1 else 128,   # 黒い塗りの濃さ（0〜255。元は 128）
            GRAD_FROM=380, GRAD_MAX=150,   # 下のグラデーション: この高さから下へ、最大の濃さ
            O=(300, 285), X=(1030, 290), R=100, STROKE=26)   # ○×の中心・半径・線の太さ
 SS = 4  # なめらかに描くための拡大率
@@ -50,13 +54,14 @@ def gradient():
 
 
 ed = Editor(src)
-ed.find('グループ 1').visible = False                 # 後ろの大きな ○×
 ed.find('べた塗り 1').opacity = LAY['FILL']          # 黒い塗り
 txt = ed.find('グループ 2')
 ed.add(gradient(), '下のグラデーション（文字を読みやすく）', before=txt)
-ed.add(mark('o'), '○（左のデニム・白）', before=txt)
-ed.add(mark('x'), '×（右のデニム・赤＋白縁）', before=txt)
+if V1:
+    ed.find('グループ 1').visible = False             # 後ろの大きな ○×
+    ed.add(mark('o'), '○（左のデニム・白）', before=txt)
+    ed.add(mark('x'), '×（右のデニム・赤＋白縁）', before=txt)
 q = ed.save(out)
 print('saved', out)
-if len(sys.argv) > 3:
+if len(sys.argv) > 3 and not sys.argv[3].startswith('--'):
     q.composite(force=True).convert('RGB').save(sys.argv[3])
