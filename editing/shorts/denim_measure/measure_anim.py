@@ -1,5 +1,5 @@
 """デニムの股上・股下の解説動画に、メジャー風の線と数字（ゴシック）を重ねる。v2 からは数字をデータ入力のように 1 字ずつ打ち込み、効果音（キー・確定・線のシュッ）を合成して混ぜる。
-    python3 measure_anim.py IN.mp4 OUT.mp4 [--still 秒 OUT.png]
+    python3 measure_anim.py IN.mp4 OUT.mp4 [--mute] [--still 秒 OUT.png]
 線と数字は話す時刻（文字起こしの単語の時刻）に合わせて出す。字幕は入れない"""
 import sys, subprocess, math
 import numpy as np
@@ -102,6 +102,7 @@ def frame(t):
 
 
 SR = 48000
+ENTER = False  # 打ち終わりの確定音（ピロン）。ユーザーの指示で外した
 SFX_DB = dict(key=-22, enter=-20, whoosh=-30)  # 効果音の大きさ（dBFS の目安）。声（−20 前後）より下に置く
 
 
@@ -147,7 +148,7 @@ def write_sfx(path, dur):
         put(whoosh(GROW + 0.1), seg['line'])
         chars, at = typed(seg)
         for a in at: put(key_click(rng), a)
-        put(enter_beep(), at[-1] + 0.12)
+        if ENTER: put(enter_beep(), at[-1] + 0.12)
     track = track[:int(SR * dur)]
     pcm = (np.clip(track, -1, 1) * 32767).astype('<i2')
     st = np.repeat(pcm[:, None], 2, 1)
@@ -157,6 +158,7 @@ def write_sfx(path, dur):
 
 if __name__ == '__main__':
     src, out = sys.argv[1], sys.argv[2]
+    MUTE = '--mute' in sys.argv  # 元の声を消して、音は効果音だけ（効果音は 8dB 上げる）
     if '--still' in sys.argv:
         i = sys.argv.index('--still'); t = float(sys.argv[i + 1])
         bg = subprocess.run(['ffmpeg', '-v', 'error', '-ss', str(t), '-i', src, '-frames:v', '1', '-f', 'image2pipe', '-vcodec', 'png', '-'], capture_output=True).stdout
@@ -168,7 +170,7 @@ if __name__ == '__main__':
     write_sfx(sfx_path, dur)
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-i', src, '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', '60000/1001', '-i', '-',
                           '-i', sfx_path,
-                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v];[0:a][2:a]amix=inputs=2:normalize=0:duration=first[a]',
+                          '-filter_complex', '[0:v][1:v]overlay=0:0:format=auto,format=yuv420p[v];' + ('[2:a]volume=8dB,apad[a]' if MUTE else '[0:a][2:a]amix=inputs=2:normalize=0:duration=first[a]'),
                           '-map', '[v]', '-map', '[a]',
                           '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', '-c:a', 'aac', '-b:a', '256k', '-shortest', out], stdin=subprocess.PIPE)
     for i in range(n):
