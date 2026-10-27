@@ -106,7 +106,7 @@ def main():
     cred = {x for a, b, el, h in items if el.tag == 'title' and (el.get('name') or '').startswith('product_label_bottom') for x in (a, b)}
     sub_off = [(a, b) for a, b, _ in subs if (a not in cuts and a not in cred) or (b not in cuts and b not in cred)]
 
-    print(f'シーケンス {1 / fd:.2f}fps・長さ {mmss(total)}・メインの編集点 {len(cuts)} か所')
+    print(f'シーケンス {float(1 / fd):.2f}fps・長さ {mmss(total)}・メインの編集点 {len(cuts)} か所')
     print(f'1. フレームずれ: {len(off_grid)} / {len(items)} 要素')
     print(f'2. インサートのかたまり {len(blocks)}: 頭か終わりが編集点とずれている {len(edge_off)}、'
           f'かたまりの中で編集点以外で切り替わる {len(inner_switch)} か所')

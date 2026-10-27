@@ -40,11 +40,23 @@ def flatten(path):
             lane = lane_abs + int(c.get('lane', 0))
             item = {'kind': c.tag, 'lane': lane, 'start': round(float(s_tl), 3), 'end': round(float(s_tl + du), 3),
                     'name': c.get('name'), 'ref_name': rname(c.get('ref')), 'src_in': round(float(st), 3), 'parent': parent}
-            if c.tag == 'title':
-                item['text'] = ''.join((x.text or '') for x in c.iter('text-style'))
-                ps = {p.get('name'): p.get('value') for p in c.findall('param')}
+            # 中身がテロップ 1 本だけの複合クリップ（編集者が商品名を包んだもの）は、画面上は同じなのでテロップとして扱う
+            ms = res[c.get('ref')].find('sequence/spine') if c.tag == 'ref-clip' and c.get('ref') in res else None
+            tt = c  # 文字と書式を読むテロップ（包みの複合クリップなら中のテロップ。効果・子は包みのまま）
+            if ms is not None and len(ms) == 1 and ms[0].tag == 'title' and not len([x for x in ms[0] if x.get('lane')]):
+                item.update(kind='title', ref_name=rname(ms[0].get('ref')), name=ms[0].get('name'))
+                tt = ms[0]
+            elif ms is not None:
+                # 写真・動画を並べた複合クリップ（商品カードなど）は中の素材（asset）の名前も持つ（採点で同じ素材か見るため）
+                inner = [x.get('name') for x in ms.iter() if x.tag in ('video', 'asset-clip') and int(x.get('lane', 0)) >= 0
+                         and x.get('ref') in res and res[x.get('ref')].tag == 'asset']
+                if inner:
+                    item['inner'] = inner
+            if tt.tag == 'title':
+                item['text'] = ''.join((x.text or '') for x in tt.iter('text-style'))
+                ps = {p.get('name'): p.get('value') for p in tt.findall('param')}
                 item['params'] = {k: v for k, v in ps.items() if k in ('位置', 'Position', 'Alignment', 'Size', 'Opacity', 'Layout Method')}
-                tsd = c.find('.//text-style-def/text-style')
+                tsd = tt.find('.//text-style-def/text-style')
                 if tsd is not None:
                     item['style'] = {k: tsd.get(k) for k in ('font', 'fontSize', 'fontFace', 'fontColor', 'strokeColor', 'strokeWidth', 'shadowColor', 'alignment', 'lineSpacing', 'kerning', 'bold')}
             item['effects'] = [rname(f.get('ref')) or f.get('name') for f in c.findall('filter-video')] + \

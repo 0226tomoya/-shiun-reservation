@@ -138,7 +138,8 @@ def titles(F, segs):
 
 
 def inserts(F):
-    return [(x['start'], x['end'], (x.get('name') or x.get('ref_name') or '')) for x in F
+    # 複合クリップ（商品カードなど）は中の素材名を「|」でつなぐ（どれかが同じなら同じ素材）
+    return [(x['start'], x['end'], '|'.join(x['inner']) if x.get('inner') else (x.get('name') or x.get('ref_name') or '')) for x in F
             if x['lane'] >= 2 and x['kind'] in ('video', 'clip', 'asset-clip', 'ref-clip', 'mc-clip') and x['end'] > x['start'] >= 0]
 
 
@@ -256,7 +257,8 @@ def main():
     same = 0.0
     ins_miss = []  # --detail 用: 完成のインサートごとに、同じ素材で覆えた割合と、その時刻の自作の素材
     for a, b, n in iF:
-        key = re.sub(r'[_\-\s].*', '', n)[:6]
+        # 複合クリップの中の名前は 4 字以上のものだけ（「01」のような短い名前は何にでも当たる）
+        keys = [k_ for k_ in (re.sub(r'[_\-\s].*', '', n_)[:6] for n_ in n.split('|')) if k_ and ('|' not in n or len(k_) >= 4)]
         t = a + step / 2
         s0 = n0 = 0.0
         ours_n = set()
@@ -268,7 +270,7 @@ def main():
             T_ = MO.to_tl(MF.key(t), t)
             here = names_at(T_) if T_ is not None else []
             ours_n.update(here)
-            if key and any(key in n2 for n2 in here):
+            if any(k_ in n2 for k_ in keys for n2 in here):
                 same += step
                 s0 += step
             t += step

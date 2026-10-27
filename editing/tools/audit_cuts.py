@@ -59,9 +59,12 @@ def main():
     r = ET.parse(edit).getroot()
     p = [p for p in r.iter('project') if p.get('name') == '本編'][0]
     sp = [e for e in p.find('sequence/spine')]
+    # 本線（いちばん多いマルチカム）だけ。試着会など別の回のカットは編集者の切り方なので見ない
+    refs = [e.get('ref') for e in sp if e.tag == 'mc-clip']
+    main_ref = max(set(refs), key=refs.count)
     rows = []
     for x, y in zip(sp, sp[1:]):
-        if x.tag != 'mc-clip' or y.tag != 'mc-clip':
+        if x.tag != 'mc-clip' or y.tag != 'mc-clip' or x.get('ref') != main_ref or y.get('ref') != main_ref:
             continue
         xe = float(T(x.get('start')) + T(x.get('duration')))   # 前のカットの終わり（素材の時刻）
         ys = float(T(y.get('start')))                          # 次のカットの頭

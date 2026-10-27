@@ -154,13 +154,44 @@ def main():
                 k_ += 1
             aid = f'rs_{k_}'
             ids.add(aid)
-            name_ = r_.rsplit('/', 1)[1].rsplit('.', 1)[0]
+            name_ = r_.rsplit('/', 1)[-1].rsplit('.', 1)[0]
             a_ = ET.SubElement(resources, 'asset', id=aid, name=name_, start='0s', duration='0s', hasVideo='1', format=fe.get('id'), videoSources='1')
             url = urllib.parse.quote(unicodedata.normalize('NFD', prefix + r_), safe='/:')
             ET.SubElement(a_, 'media-rep', kind='original-media', src=url)
             assets[r_] = a_
             n_new += 1
         print('未登録の静止画を登録:', n_new, file=sys.stderr)
+
+    # 粗編集の XML に未登録の動画（後から共有された EC 動画など）。長さはコマ数×1 コマ、頭は 0 秒（最終版の登録と同じ）
+    if plan.get('register_clips'):
+        like = next(a for a in assets.values() if a.find('media-rep') is not None)
+        nsrc = unicodedata.normalize('NFC', urllib.parse.unquote(like.find('media-rep').get('src')))
+        prefix = nsrc[:nsrc.index(plan['asset_root']) + len(plan['asset_root'])]
+        ids = {e.get('id') for e in resources}
+        n_new = 0
+        for cl_ in plan['register_clips']:
+            r_ = unicodedata.normalize('NFC', cl_['path'])
+            if r_ in assets:
+                continue
+            fd_ = Fraction(1) / Fraction(cl_['rate'])
+            fe = next((e for e in resources if e.tag == 'format' and e.get('frameDuration') == S(fd_)
+                       and e.get('width') == str(cl_['w']) and e.get('height') == str(cl_['h'])), None)
+            if fe is None:
+                fe = ET.Element('format', id=f"rc_f{cl_['w']}x{cl_['h']}", frameDuration=S(fd_), width=str(cl_['w']), height=str(cl_['h']))
+                resources.insert(0, fe)
+                ids.add(fe.get('id'))
+            k_ = 1
+            while f'rc_{k_}' in ids:
+                k_ += 1
+            aid = f'rc_{k_}'
+            ids.add(aid)
+            a_ = ET.SubElement(resources, 'asset', id=aid, name=r_.rsplit('/', 1)[-1].rsplit('.', 1)[0], start='0s',
+                               duration=S(fd_ * cl_['frames']), hasVideo='1', format=fe.get('id'), hasAudio='1',
+                               videoSources='1', audioSources='1', audioChannels='2', audioRate='48000')
+            ET.SubElement(a_, 'media-rep', kind='original-media', src=urllib.parse.quote(unicodedata.normalize('NFD', prefix + r_), safe='/:'))
+            assets[r_] = a_
+            n_new += 1
+        print('未登録の動画を登録:', n_new, file=sys.stderr)
 
     def folder(f):
         return [assets[k] for k in sorted(assets) if k.rsplit('/', 1)[0] == f]
@@ -725,6 +756,21 @@ def main():
                         stats['section'] += 1
                     k = j + 1
                 last_sub_end = b
+            # スナップ（わむう → 4 人）: 価格の前の締めのトークに、1 枚 約 5 秒ずつ続けて（10/16 の最終版）
+            if pr.get('snaps') and tp is not None:
+                g0 = max([b_ for a_, b_ in laid + busy if b_ <= tp] + [ins_end]) + 2
+                need = 5 * len(pr['snaps'])
+                s_ = max(g0, tp - 2 - need)
+                if tp - 2 - g0 >= need - 2:
+                    a = a0_ = near_cut(s_, s_ - 1, s_ + 2) or snapf(s_)
+                    for f_ in pr['snaps']:
+                        b = min(a + end_on_cut(a, 5, Fraction(15, 10)), near_cut(tp - 2, tp - 4, tp - 2) or snapf(tp - 2))
+                        attach(still(assets[unicodedata.normalize('NFC', f_)], b - a, LANE['photo_bg'], filters=[photo_grade_f]), a)
+                        stats['broll'] += 1
+                        a = b
+                    laid.append((a0_, a))
+                else:
+                    print('スナップを置く間が足りない:', pr['chapter'], f'{float(tp - 2 - g0):.1f} 秒', file=sys.stderr)
             # トークだけが長く続く所（重要な発言・価格・紹介インを避ける）に字幕なしのインサート
             occ = sorted(laid + busy)
             g0 = ins_end + 6

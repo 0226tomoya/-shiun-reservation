@@ -339,7 +339,10 @@ def main():
         el.set('lane', str(st_.get('lane', 3)))
         el.set('duration', S(t1 - t0))
         if proto is None:
-            ET.SubElement(el, 'adjust-transform', position='0 0', scale=str(st_.get('scale', '1 1')))
+            # like の写真を自動のインサートが使っていない時は、自動の全画面の写真と同じ拡大（auto_insert の 2.68）にする
+            # （1 のままだと縦長の写真の左右が空く）。Detail・Material の 3.4 にしたい時は plan に scale を書く
+            dflt = '2.68 2.68' if st_.get('like') else '1 1'
+            ET.SubElement(el, 'adjust-transform', position='0 0', scale=str(st_.get('scale', dflt)))
         attach(el, t0)
         bump('写真のインサート')
 
